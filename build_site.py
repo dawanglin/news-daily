@@ -175,7 +175,10 @@ def main():
     (SITE_DIR / ".nojekyll").touch()
     (SITE_DIR / "index.html").write_text(clean_output(render_daily(latest, "archive/")), encoding="utf-8")
     for edition in editions:
-        (DAILY_DIR / f"{edition['date']}.html").write_text(clean_output(render_daily(edition, "../archive/")), encoding="utf-8")
+        daily_path = DAILY_DIR / f"{edition['date']}.html"
+        # 历史页是当时规则和版式的快照。只更新今天，过去页面永不重写。
+        if edition["date"] == latest["date"] or not daily_path.exists():
+            daily_path.write_text(clean_output(render_daily(edition, "../archive/")), encoding="utf-8")
     (ARCHIVE_DIR / "index.html").write_text(clean_output(render_archive(editions)), encoding="utf-8")
     print(f"已生成手机首页：site/index.html（{len(latest.get('items', []))} 条）")
     print(f"已生成历史目录：site/archive/index.html（{len(editions)} 期）")
