@@ -238,14 +238,30 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
     background: #fef2f2; border: 1px solid #f3c8c8; color: #9a3b3b;
     border-radius: 10px; padding: 16px 20px; margin-bottom: 26px; font-size: 14px;
   }
-  .archive-list { list-style: none; }
-  .archive-list li {
-    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
-    margin-bottom: 10px; padding: 12px 16px;
+  .archive-panel {
+    background: #f8f7f3; border: 1px solid #d8dde3; border-radius: 18px;
+    padding: 26px 30px 22px; box-shadow: 0 14px 32px rgba(26,58,92,.07);
   }
-  .archive-list a { color: #14304e; font-weight: 600; text-decoration: none; font-size: 15px; }
-  .archive-list a:hover { color: var(--tech); }
-  .archive-list .d { color: var(--muted); font-size: 12.5px; margin-left: 10px; }
+  .archive-panel h2 {
+    color: #20262d; font-size: 21px; letter-spacing: .04em;
+    padding-bottom: 12px; border-bottom: 1px solid #d8dde3;
+  }
+  .archive-intro { color: var(--muted); font-size: 13px; margin: 10px 0 6px; }
+  .archive-list { list-style: none; }
+  .archive-list li { position: relative; padding: 14px 0 14px 24px; border-bottom: 1px solid #e4e6e8; }
+  .archive-list li:last-child { border-bottom: 0; }
+  .archive-list li::before {
+    content: ""; position: absolute; left: 2px; top: 26px; width: 6px; height: 6px;
+    border-radius: 50%; background: #39434c;
+  }
+  .archive-list a {
+    color: #20262d; font-size: 17px; line-height: 1.75; text-decoration: none;
+    text-underline-offset: 4px;
+  }
+  .archive-list a:hover, .archive-list a:focus-visible { color: var(--tech); text-decoration: underline; }
+  .archive-list .issue { font-weight: 700; color: var(--brand); }
+  .archive-list .current a, .archive-list .current .issue { color: var(--tech); }
+  .archive-list .edition-meta { color: var(--muted); font-size: 12px; margin-left: 8px; white-space: nowrap; }
   footer.site {
     margin-top: 30px; padding-top: 16px; border-top: 1px solid var(--line);
     color: var(--muted); font-size: 12.5px;
@@ -259,6 +275,9 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
     .grid { grid-template-columns: 1fr; }
     .site-title { font-size: 21px; }
     .date-badge { margin-left: 0; }
+    .archive-panel { padding: 20px 20px 16px; border-radius: 14px; }
+    .archive-list a { font-size: 16px; }
+    .archive-list .edition-meta { display: block; margin: 2px 0 0; }
   }
 </style>
 </head>
@@ -317,13 +336,26 @@ def main():
     (SITE_DIR / "index.html").write_text(page, encoding="utf-8")
     (DAILY_DIR / f"{date}.html").write_text(page, encoding="utf-8")
 
-    # 归档索引：扫描 site/daily/*.html，按日期倒序
-    daily_files = sorted(DAILY_DIR.glob("*.html"), reverse=True)
+    # 归档索引：每一期显示日期和当天第一条代表性新闻。
+    news_files = sorted(DATA_DIR.glob("news_*.json"), reverse=True)
     rows = []
-    for f in daily_files:
-        d = f.stem
-        rows.append(f'<li><a href="../daily/{d}.html">{d}</a><span class="d">每日速览</span></li>')
-    archive_body = '<ul class="archive-list">' + "".join(rows) + "</ul>"
+    for index, f in enumerate(news_files):
+        edition = json.loads(f.read_text(encoding="utf-8"))
+        d = edition["date"]
+        compact_date = d.replace("-", "")
+        edition_items = edition.get("items", [])
+        headline = edition_items[0]["title"] if edition_items else "当日新闻速览"
+        current_class = ' class="current"' if index == 0 else ""
+        rows.append(
+            f'<li{current_class}><a href="../daily/{d}.html">'
+            f'<span class="issue">【每日新闻速览{compact_date}】</span>{esc(headline)}'
+            f'</a><span class="edition-meta">{len(edition_items)} 条</span></li>'
+        )
+    archive_body = (
+        '<section class="archive-panel"><h2>每日目录</h2>'
+        '<p class="archive-intro">按日期回看，每一期标题取自当天头条。</p>'
+        '<ul class="archive-list">' + "".join(rows) + "</ul></section>"
+    )
     archive_page = render_page(
         "历史存档", f"共 {len(rows)} 期", "",
         "", archive_body, sources_footer,
