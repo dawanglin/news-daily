@@ -1,518 +1,261 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>每日新闻速览 - 2026-09-26</title>
-<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="18" fill="%231a3a5c"/><rect x="22" y="26" width="56" height="9" rx="4.5" fill="white"/><rect x="22" y="43" width="56" height="9" rx="4.5" fill="white" opacity="0.85"/><rect x="22" y="60" width="34" height="9" rx="4.5" fill="white" opacity="0.65"/></svg>'>
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f3f6f2"><meta name="description" content="面向中国普通用户的每日生活热点与社会趋势简报"><title>每日生活热点 - 2026-09-26</title>
 <style>
-  :root {
-    --ink: #1f2328;
-    --muted: #6b7280;
-    --line: #e3e6ea;
-    --bg: #f4f5f7;
-    --card: #ffffff;
-    --brand: #1a3a5c;
-    --tech: #1e6fd9;
-    --news: #0e8a5f;
-    --amber: #b9791f;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Segoe UI", system-ui, -apple-system, sans-serif;
-    background: var(--bg); color: var(--ink); line-height: 1.6; font-size: 15px;
-  }
-  .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px 60px; }
-  header.site {
-    background: linear-gradient(135deg, #16324f 0%, #1a3a5c 55%, #24506f 100%);
-    color: #fff; padding: 34px 0 26px; margin-bottom: 26px;
-  }
-  .head-inner { max-width: 980px; margin: 0 auto; padding: 0 20px; }
-  .head-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; }
-  .site-title { font-size: 26px; font-weight: 700; letter-spacing: 1px; }
-  .site-sub { font-size: 13px; opacity: 0.75; }
-  .date-badge {
-    margin-left: auto; background: rgba(255,255,255,0.14); border: 1px solid rgba(255,255,255,0.25);
-    padding: 4px 14px; border-radius: 999px; font-size: 14px; font-weight: 600;
-  }
-  .stats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
-  .chip {
-    background: rgba(255,255,255,0.12); border-radius: 999px; padding: 3px 12px;
-    font-size: 12.5px; color: #e8eef5;
-  }
-  .digest {
-    background: #fffbf0; border: 1px solid #f0e0b8; border-left: 5px solid var(--amber);
-    border-radius: 10px; padding: 18px 22px; margin-bottom: 26px;
-  }
-  .digest-title { font-size: 17px; font-weight: 700; color: #8a5b10; margin-bottom: 10px; }
-  .digest p { margin: 6px 0; }
-  .digest ul { margin: 6px 0 6px 22px; }
-  .digest li { margin: 4px 0; }
-  .digest-h3 { font-size: 14.5px; color: #6b4c0d; margin: 10px 0 4px; }
-  .digest-h4 { font-size: 13.5px; color: #7a5a14; margin: 8px 0 2px; }
-  .digest code { background: #f6ead0; border-radius: 4px; padding: 1px 5px; font-size: 13px; }
-  .digest a { color: #8a5b10; }
-  .section { margin-bottom: 30px; }
-  .section-title {
-    display: flex; align-items: center; gap: 10px; font-size: 19px; font-weight: 700;
-    color: var(--brand); margin-bottom: 14px; padding-bottom: 8px; border-bottom: 2px solid var(--line);
-  }
-  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
-  .tag-tech { background: var(--tech); }
-  .tag-news { background: var(--news); }
-  .tag-other { background: var(--amber); }
-  .count { margin-left: auto; font-size: 13px; font-weight: 500; color: var(--muted); }
-  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-  .card {
-    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
-    padding: 14px 16px; transition: box-shadow .15s ease, transform .15s ease;
-  }
-  .card:hover { box-shadow: 0 6px 18px rgba(26,58,92,.10); transform: translateY(-1px); }
-  .card-title { font-size: 15px; font-weight: 600; color: #14304e; text-decoration: none; display: block; }
-  .card-title:hover { color: var(--tech); text-decoration: underline; }
-  .meta { display: flex; align-items: center; gap: 8px; margin: 8px 0 6px; flex-wrap: wrap; }
-  .tag { color: #fff; font-size: 11px; padding: 1px 8px; border-radius: 999px; font-weight: 600; }
-  .src { font-size: 12.5px; color: var(--muted); }
-  .time { font-size: 12px; color: #9aa1ab; }
-  .summary { font-size: 13.5px; color: #4b5563; }
-  .notice {
-    background: #fef2f2; border: 1px solid #f3c8c8; color: #9a3b3b;
-    border-radius: 10px; padding: 16px 20px; margin-bottom: 26px; font-size: 14px;
-  }
-  .archive-panel {
-    background: #f8f7f3; border: 1px solid #d8dde3; border-radius: 18px;
-    padding: 26px 30px 22px; box-shadow: 0 14px 32px rgba(26,58,92,.07);
-  }
-  .archive-panel h2 {
-    color: #20262d; font-size: 21px; letter-spacing: .04em;
-    padding-bottom: 12px; border-bottom: 1px solid #d8dde3;
-  }
-  .archive-intro { color: var(--muted); font-size: 13px; margin: 10px 0 6px; }
-  .archive-list { list-style: none; }
-  .archive-list li { position: relative; padding: 14px 0 14px 24px; border-bottom: 1px solid #e4e6e8; }
-  .archive-list li:last-child { border-bottom: 0; }
-  .archive-list li::before {
-    content: ""; position: absolute; left: 2px; top: 26px; width: 6px; height: 6px;
-    border-radius: 50%; background: #39434c;
-  }
-  .archive-list a {
-    color: #20262d; font-size: 17px; line-height: 1.75; text-decoration: none;
-    text-underline-offset: 4px;
-  }
-  .archive-list a:hover, .archive-list a:focus-visible { color: var(--tech); text-decoration: underline; }
-  .archive-list .issue { font-weight: 700; color: var(--brand); }
-  .archive-list .current a, .archive-list .current .issue { color: var(--tech); }
-  .archive-list .edition-meta { color: var(--muted); font-size: 12px; margin-left: 8px; white-space: nowrap; }
-  footer.site {
-    margin-top: 30px; padding-top: 16px; border-top: 1px solid var(--line);
-    color: var(--muted); font-size: 12.5px;
-  }
-  footer.site .srcs { line-height: 2; }
-  footer.site .srcs a { color: var(--tech); text-decoration: none; white-space: nowrap; margin-right: 10px; }
-  footer.site .srcs a:hover { text-decoration: underline; }
-  footer.site .note { margin-top: 2px; }
-  .back { margin-bottom: 16px; display: inline-block; color: var(--tech); text-decoration: none; font-size: 14px; }
-  @media (max-width: 720px) {
-    .grid { grid-template-columns: 1fr; }
-    .site-title { font-size: 21px; }
-    .date-badge { margin-left: 0; }
-    .archive-panel { padding: 20px 20px 16px; border-radius: 14px; }
-    .archive-list a { font-size: 16px; }
-    .archive-list .edition-meta { display: block; margin: 2px 0 0; }
-  }
-</style>
-</head>
-<body>
-<header class="site">
-  <div class="head-inner">
-    <div class="head-row">
-      <span class="site-title">每日新闻速览</span>
-      <span class="site-sub">Daily News Digest</span>
-      <span class="date-badge">2026年9月26日 星期六</span>
-    </div>
-    <div class="stats">
-      <span class="chip">共 40 条新闻</span>
-      <span class="chip">8 个来源</span>
-      <span class="chip">生成于 2026-09-26 17:33:31 +0800</span></div>
-  </div>
-</header>
-<main class="wrap">
-  <a class="back" href="archive/">历史存档 →</a>
-  
-  
-        <section class="section">
-          <h2 class="section-title"><span class="dot tag-tech"></span>科技<span class="count">22 条</span></h2>
-          <div class="grid">
-              <article class="card">
-                <a class="card-title" href="https://www.ithome.com/1/007/396.htm" target="_blank" rel="noopener">消息称首销日 OPPO Find X10 系列手机同比前代旗舰机系列接近 40%，全系列 16GB 内存占比超 60%</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">IT之家</span>
-                  <span class="time">2026-09-26 09:31</span>
-                </div>
-                <p class="summary">IT之家 9 月 26 日消息，博主 @RD观测 今日透露，由于涨价的影响，9 月 23 / 24 日开售的三个品牌的旗舰机系列都表现欠佳。首销日 OPPO Find X10 系列同比去年开售的前代旗舰机系列在三个品牌的旗舰机系列中为最高，接近 40%，且全系列的 16GB 占比达到了 60%+（若不计算 OPPO Find X10E 则是 80%+），是表现相对较好的品牌。OPPO Find X10 系列于 9 月 24 日正式开售，包含 Find X10 E、Find X10 和 Find X10 Pro Max 三款机型，起售价分别为 4999 元、5499 元和 6799 元。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.ithome.com/1/007/395.htm" target="_blank" rel="noopener">张雪兑现承诺，近 200 人包机赴意大利 WSBK 为车队助威</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">IT之家</span>
-                  <span class="time">2026-09-26 09:31</span>
-                </div>
-                <p class="summary">IT之家 9 月 26 日消息，9 月 24 日晚，张雪机车创始人张雪兑现此前公开承诺，包机带领约 200 人团队飞赴意大利，现场观看今日举行的 WSBK 世界超级摩托车锦标赛意大利克雷莫纳站比赛。本次出行团队共约 200 人，其中 170 人搭乘包机从重庆出发，剩余约 30 人自行前往意大利集结。团队成员包括公司员工、研发人员及供应商伙伴。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.ithome.com/1/007/394.htm" target="_blank" rel="noopener">世嘉《超级忍 反攻的斩击》登陆任天堂 Switch 2：168~224 港币</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">IT之家</span>
-                  <span class="time">2026-09-26 09:23</span>
-                </div>
-                <p class="summary">IT之家 9 月 26 日消息，世嘉《超级忍 反攻的斩击》任天堂 Switch 2 版已于 9 月 24 日正式发售，同步推出实体版与数字版。其中，数字标准版在港区售价为 168 港币（IT之家注：现汇率约合 144 元人民币），数字豪华版 224 港币（现汇率约合 192 元人民币）。数字豪华版包含游戏本体、“世嘉反派关卡”DLC、数字美术画册、数字原声集、“简易医疗”护符、“幽灵风格”装束及 2000 金币。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.ithome.com/1/007/393.htm" target="_blank" rel="noopener">华硕：英伟达 RTX Spark 款 ProArt 创 16 创作本 10 月 8 日登场</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">IT之家</span>
-                  <span class="time">2026-09-26 09:00</span>
-                </div>
-                <p class="summary">IT之家 9 月 26 日消息，华硕 (ASUS) 近日宣布，其基于 NVIDIA（英伟达）RTX Spark N1X 超级芯片的 ProArt 创 16 (P16) 创作笔记本电脑将于 10 月 8 日登场。该设备号称“全球首款智能体电脑”，支持本地 AI 智能体流畅响应，让创意工作流无需再依托云端。IT之家注意到，华硕此前已在 COMPUTEX 2026 上公布了这款型号 H7607 的设备。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.ithome.com/1/007/392.htm" target="_blank" rel="noopener">消息称 Anthropic 谈判租赁最高 1GW 算力，预计相关投资至少 400 亿美元</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">IT之家</span>
-                  <span class="time">2026-09-26 08:57</span>
-                </div>
-                <p class="summary">IT之家 9 月 26 日消息，据 The Information 报道，Anthropic 计划从一家由阿波罗全球管理公司控股的数据中心开发商处，租赁最高 1 吉瓦（Gigawatt，GW）算力，目前正处于早期谈判阶段。据知情人士透露，Anthropic 计划直接作为承租方，入驻由 Stream Data Centers（一家拥有 27 年历史、基础设施遍布全美的公司）开发的园区，并在这些数据中心内全部署由博通和谷歌联合设计的 TPU。Anthropic 还探讨了由谷歌为该项目提供信用担保的可能性。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.ithome.com/1/007/390.htm" target="_blank" rel="noopener">问界山河 · 重庆自驾充电路书上线，5 条自驾线路串联 30 座充电站点</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">IT之家</span>
-                  <span class="time">2026-09-26 08:42</span>
-                </div>
-                <p class="summary">IT之家 9 月 26 日消息，赛力斯集团董事、副总裁康波今日宣布，问界山河 · 重庆自驾充电路书上线，5 条自驾线路串联 30 座充电站点，收录沿途山城风物与地道美食。据介绍，问界山河 · 重庆自驾充电路书主要分 5 条路线，可游玩重庆主城、大足石刻、喀斯特地貌、苗乡风情、三峡、江津、北碚等地。IT之家附问界山河 · 重庆自驾充电路书如下：在去年的智界及问界秋季新品发布会上，赛力斯总裁何利扬上台介绍了问界品牌的 2025-2028 年充电站的建设规划。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.ithome.com/1/007/389.htm" target="_blank" rel="noopener">国内首座五跨连续三跨吊组合桥塔平面缆悬索桥，厦金大桥（厦门段）关键控制性工程刘五店悬索桥合龙</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">IT之家</span>
-                  <span class="time">2026-09-26 08:40</span>
-                </div>
-                <p class="summary">IT之家 9 月 26 日消息，据央视新闻今日报道，厦金大桥（厦门段）关键控制性工程刘五店悬索桥 9 月 24 日顺利合龙，为推动厦金大桥（厦门段）项目实现海上主线通车创造了有利条件。IT之家注：刘五店悬索桥是国内首座五跨连续三跨吊组合桥塔平面缆悬索桥，也是福建省最大跨径桥梁和首座全离岸式海中悬索桥，全长 1948 米，主跨 928 米，桥面由 126 榀流线型扁平钢箱梁组成，总重量约 5.3 万吨，离海面约 70 米，通航孔可通行 20 万吨级货运船舶。下一步，项目团队将加快推进刘五店悬索桥桥面系与机电交安工程施工，全力冲刺年度建设目标，推动厦金大桥（厦门段）海上主线按期建成通车。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.ithome.com/1/007/388.htm" target="_blank" rel="noopener">潜在罚款超 2000 亿美元：Meta 在剑桥分析案中被裁定违反美国新墨西哥州法律</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">IT之家</span>
-                  <span class="time">2026-09-26 08:35</span>
-                </div>
-                <p class="summary">IT之家 9 月 26 日消息，根据美国新墨西哥州司法部当地时间 25 日公告，该州法院陪审团认定 Meta 在剑桥分析案中违反了州级《不公平竞争法》。陪审团认定 Facebook 存在超过 4,380 万项违规行为。由于新墨西哥州《不公平竞争法》规定可对每项违规行为处以至高 5,000 美元罚款，因此 Meta 本次败诉面临的潜在民事罚款金额超过了 2,190 亿美元（现汇率约合 1.47 万亿元人民币）。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.ithome.com/1/007/387.htm" target="_blank" rel="noopener">深蓝汽车邓承浩：深蓝第 100 万辆即将下线</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">IT之家</span>
-                  <span class="time">2026-09-26 08:31</span>
-                </div>
-                <p class="summary">IT之家 9 月 26 日消息，深蓝汽车董事长邓承浩今日表示，新能源汽车行业淘汰赛在即，单点突破失效，体系能力才是关键。另外再和大家分享一个喜讯，深蓝第 100 万辆即将下线，在此也感谢 100 万用户一路同行。据IT之家此前报道，9 月 1 日，深蓝汽车宣布，8 月全球销量 28,659 辆，全球累计销量突破 94.76 万辆。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.ithome.com/1/007/386.htm" target="_blank" rel="noopener">维持 Anthropic 供应链风险认定，美国上诉法院支持五角大楼继续禁用 Claude</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">IT之家</span>
-                  <span class="time">2026-09-26 08:27</span>
-                </div>
-                <p class="summary">IT之家 9 月 26 日消息，当地时间 9 月 25 日，美国哥伦比亚特区联邦上诉法院以 2:1 裁定，维持五角大楼将 Anthropic 列入国家安全供应链风险名单的决定。Anthropic 此前起诉五角大楼，要求撤销其于今年 3 月被列入的“供应链风险”认定。公司称该认定导致其数十亿美元损失，并在备受关注的 IPO 前损害了声誉。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://safenotsafe.dev/" target="_blank" rel="noopener">Is your Postgres migration safe or not safe?</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">Hacker News</span>
-                  <span class="time">2026-09-26 07:33</span>
-                </div>
-                <p class="summary">Comments</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.qbitai.com/2026/09/497613.html" target="_blank" rel="noopener">在云栖大会，我终于看懂了米哈游千亿AI野心</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">量子位</span>
-                  <span class="time">2026-09-26 07:18</span>
-                </div>
-                <p class="summary">大伟哥：如果做不到，一年两年之后过来打我脸</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.qbitai.com/2026/09/497425.html" target="_blank" rel="noopener">谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">量子位</span>
-                  <span class="time">2026-09-26 07:12</span>
-                </div>
-                <p class="summary">vLLM人马创业公司团队出品</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.qbitai.com/2026/09/497382.html" target="_blank" rel="noopener">OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">量子位</span>
-                  <span class="time">2026-09-26 07:04</span>
-                </div>
-                <p class="summary">还把「密钥」叫战利品</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.solidot.org/story?sid=85479" target="_blank" rel="noopener">Velum：方便部署的CosyVoice推理程序</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">Solidot</span>
-                  <span class="time">2026-09-26 14:06</span>
-                </div>
-                <p class="summary">Nala Ginrut 写道： HardenedLinux 最近发布了可用于推理CosyVoice的Velum，它用modern C++开发，编译成一个单一的可执行文件，方便部署。CosyVoice是目前比较优秀的一款 TTS 模型，但其推理程序使用的Python体系比较老旧，需要在部署的时候做一些处理，而且Python依赖占用空间较大，不利于大量能力情况下的Agent部署。要是每个agent能力都要一堆Python十几G的依赖，每一堆还有版本冲突，那就不要卖产品了，不如回家卖红薯。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://sspai.com/post/114958" target="_blank" rel="noopener">宜家 Matter 智能家居终于要来了？在中国市场它将如何破局</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">少数派</span>
-                  <span class="time">2026-09-26 14:00</span>
-                </div>
-                <p class="summary">距离宜家首批Matter智能家居产品在海外上市已有大半年的时间，而中国市场则是许久未有消息。直到今年年中，多款宜家智能新品陆续出现在国家CCC认证数据库中，我们才得知：这批主打高性价比、支持新一代智能 ...查看全文</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html" target="_blank" rel="noopener">A single function Jev-like wrapper for LLMs, including vision models</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">Hacker News</span>
-                  <span class="time">2026-09-26 04:20</span>
-                </div>
-                <p class="summary">Comments</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.solidot.org/story?sid=85478" target="_blank" rel="noopener">黑手党可能阻止了芬太尼流入意大利</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">Solidot</span>
-                  <span class="time">2026-09-26 11:42</span>
-                </div>
-                <p class="summary">在电影《教父》中，维托柯里昂（Don Vito Corleone）拒绝参与海洛因交易，称毒品生意太脏。现实中的黑手党并非如此，但对于选择芬太尼还是海洛因等其它毒品，意大利黑手党看起来选择了拒绝芬太尼。这或许可以解释意大利芬太尼过量致死率异常低。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/" target="_blank" rel="noopener">We&#x27;re gonna need a lot more mathematicians</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">Hacker News</span>
-                  <span class="time">2026-09-26 02:46</span>
-                </div>
-                <p class="summary">Comments</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/" target="_blank" rel="noopener">Jury finds Facebook liable for deceiving users in Cambridge Analytica case</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">Hacker News</span>
-                  <span class="time">2026-09-26 01:36</span>
-                </div>
-                <p class="summary">Comments</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/" target="_blank" rel="noopener">What even is an OS now?</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">Hacker News</span>
-                  <span class="time">2026-09-25 21:36</span>
-                </div>
-                <p class="summary">Comments</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://swarmtraces.org/" target="_blank" rel="noopener">Revealing the details of how OpenAI agents hacked Hugging Face</a>
-                <div class="meta">
-                  <span class="tag tag-tech">科技</span>
-                  <span class="src">Hacker News</span>
-                  <span class="time">2026-09-25 21:09</span>
-                </div>
-                <p class="summary">Comments</p>
-              </article></div>
-        </section>
+:root{color-scheme:light;--page:#f3f6f2;--paper:#fbfcfa;--ink:#18211d;--muted:#617068;--line:#d8e0da;--accent:#2f6d57;--accent-soft:#e2eee8;--blue:#315d73;--amber:#9a6226;--signal:#8a5a21;--shadow:0 12px 32px rgba(28,54,42,.07)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:62px}body{margin:0;background:var(--page);color:var(--ink);font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif;font-size:16px;line-height:1.72;-webkit-font-smoothing:antialiased}a{color:inherit}.mast{padding:calc(22px + env(safe-area-inset-top)) 20px 22px;border-bottom:1px solid var(--line);background:var(--paper)}.mast-inner,.page,.footer-inner{width:min(100%,720px);margin:auto}.mast-top{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:13px}.mast-top a{min-height:44px;display:inline-flex;align-items:center;color:var(--accent);text-decoration:none}.mast h1{font-size:clamp(28px,8vw,42px);line-height:1.18;letter-spacing:-.035em;margin:15px 0 8px}.mast p{margin:0;color:var(--muted);font-size:14px}.method{display:inline-block;margin-top:12px;padding:4px 9px;background:var(--accent-soft);color:var(--accent);border-radius:6px;font-size:12px}.category-nav{position:sticky;top:0;z-index:5;display:flex;gap:6px;overflow-x:auto;padding:9px max(14px,calc((100% - 720px)/2));background:color-mix(in srgb,var(--paper) 94%,transparent);border-bottom:1px solid var(--line);backdrop-filter:blur(12px);scrollbar-width:none}.category-nav::-webkit-scrollbar{display:none}.category-nav a{flex:0 0 auto;display:inline-flex;min-height:42px;align-items:center;padding:0 13px;border-radius:8px;color:var(--muted);text-decoration:none;font-size:14px}.category-nav a:first-child{background:var(--accent);color:white}.page{padding:18px 16px 56px}.must-read,.category{background:var(--paper);border:1px solid var(--line);box-shadow:var(--shadow);margin-bottom:18px;padding:0 16px;border-radius:14px}.category{box-shadow:none}.section-heading{display:flex;justify-content:space-between;align-items:center;min-height:62px;border-bottom:1px solid var(--line)}.section-heading h2{display:flex;align-items:center;gap:9px;margin:0;font-size:20px;letter-spacing:-.015em}.section-heading>span{color:var(--muted);font-size:12px}.category-icon{display:inline-grid;place-items:center;width:28px;height:28px;border:1px solid var(--line);border-radius:50%;color:var(--accent);font-size:13px}.story{position:relative;display:flex;gap:12px;padding:18px 0;border-bottom:1px solid var(--line)}.story:last-child{border-bottom:0}.rank{flex:0 0 28px;color:var(--accent);font-weight:700;font-variant-numeric:tabular-nums}.story-body{min-width:0}.story-title{display:block;font-size:18px;font-weight:700;line-height:1.48;text-decoration:none;text-wrap:pretty}.story-title:active{color:var(--accent)}.story-meta{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin:8px 0;color:var(--muted);font-size:12px}.story-meta span:not(:last-child)::after{content:""}.confidence{padding:1px 7px;border-radius:5px}.confidence.verified{background:#dfeee5;color:#276044}.confidence.professional{background:#e5edf1;color:#315d73}.confidence.signal{background:#f4eadb;color:#81541e}.story-summary{margin:7px 0 0;color:#394740;font-size:15px}.story-why{margin:10px 0 0;padding:9px 11px;border-left:3px solid var(--accent);background:var(--accent-soft);color:#35473e;font-size:13px}.story-why strong{color:var(--accent)}footer{border-top:1px solid var(--line);padding:24px 20px calc(30px + env(safe-area-inset-bottom));color:var(--muted);font-size:12px}.footer-note{margin-top:8px}.back{display:inline-flex;min-height:44px;align-items:center;color:var(--accent);text-decoration:none}.archive-panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:4px 16px}.archive-panel h2{font-size:21px;margin:16px 0 10px}.archive-intro{color:var(--muted);font-size:13px}.archive-list{list-style:none;padding:0;margin:0}.archive-list li{padding:17px 0;border-top:1px solid var(--line)}.archive-list a{text-decoration:none;font-size:16px;line-height:1.65}.archive-list .issue{display:block;color:var(--accent);font-weight:700}.edition-meta{display:block;color:var(--muted);font-size:12px;margin-top:4px}a:focus-visible{outline:3px solid var(--amber);outline-offset:3px}@media(min-width:760px){.page{padding-left:0;padding-right:0}.must-read,.category{padding:0 24px}.story{padding:21px 0}.story-title{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media(prefers-color-scheme:dark){:root{color-scheme:dark;--page:#121815;--paper:#18201c;--ink:#e8eee9;--muted:#a8b4ad;--line:#334039;--accent:#74b798;--accent-soft:#22362c;--blue:#8ab5c8;--amber:#d5a363;--signal:#d5a363;--shadow:none}.mast,.category-nav{background:var(--paper)}.story-summary{color:#c7d1cb}.story-why{color:#c9d8d0}.confidence.verified{background:#244332;color:#9bd3b3}.confidence.professional{background:#263c47;color:#a9c9d6}.confidence.signal{background:#46361f;color:#e0ba82}}
+</style></head><body>
+<header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日生活热点简报</span><a href="../archive/">历史目录</a></div><h1>今天，值得知道的事</h1><p>2026年9月26日 星期六　共 28 条</p><span class="method">热榜发现 · 媒体核实 · 免费规则整理</span></div></header>
+<nav class="category-nav" aria-label="栏目导航"><a href="#must">必看</a><a href="#cat-0">今日热议</a><a href="#cat-1">社会与民生</a><a href="#cat-3">吃喝住行</a><a href="#cat-4">健康教育家庭</a><a href="#cat-5">工作与科技</a><a href="#cat-6">文娱与体育</a><a href="#cat-7">世界与中国</a><a href="../archive/">往期</a></nav><main class="page"><section class="must-read" id="must"><div class="section-heading"><h2>今日必看</h2><span>8 条</span></div>
+      <article class="story" data-news-title="习近平主席美国之行" data-news-url="https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%BB%E5%B8%AD%E7%BE%8E%E5%9B%BD%E4%B9%8B%E8%A1%8C&amp;sa=fyb_news&amp;rsv_dl=fyb_news" data-news-source="百度热搜" data-news-time="09-26 22:14" data-news-summary="当地时间9月23日下午，国家主席习近平乘专机抵达华盛顿，应美国总统特朗普邀请，对美国进行国事访问。一起来回顾习近平主席美国之行。">
+        <span class="rank">01</span><div class="story-body">
+          <a class="story-title" href="https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%BB%E5%B8%AD%E7%BE%8E%E5%9B%BD%E4%B9%8B%E8%A1%8C&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank" rel="noopener noreferrer">习近平主席美国之行</a>
+          <div class="story-meta"><span>今日热议</span><span>百度热搜</span><span class="confidence signal">热度线索</span></div>
+          <p class="story-summary">当地时间9月23日下午，国家主席习近平乘专机抵达华盛顿，应美国总统特朗普邀请，对美国进行国事访问。一起来回顾习近平主席美国之行。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="中美达成八点成果共识" data-news-url="https://www.baidu.com/s?wd=%E4%B8%AD%E7%BE%8E%E8%BE%BE%E6%88%90%E5%85%AB%E7%82%B9%E6%88%90%E6%9E%9C%E5%85%B1%E8%AF%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" data-news-source="百度热搜" data-news-time="09-26 22:14" data-news-summary="中美达成八点成果共识">
+        <span class="rank">02</span><div class="story-body">
+          <a class="story-title" href="https://www.baidu.com/s?wd=%E4%B8%AD%E7%BE%8E%E8%BE%BE%E6%88%90%E5%85%AB%E7%82%B9%E6%88%90%E6%9E%9C%E5%85%B1%E8%AF%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank" rel="noopener noreferrer">中美达成八点成果共识</a>
+          <div class="story-meta"><span>今日热议</span><span>百度热搜</span><span class="confidence signal">热度线索</span></div>
+          <p class="story-summary">中美达成八点成果共识</p>
+          <p class="story-why"><strong>为什么值得看：</strong>这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="（爱知·名古屋亚运会）名古屋亚运会状况频发 组委会致歉" data-news-url="https://www.chinanews.com.cn/ty/2026/09-26/10704278.shtml" data-news-source="中国新闻网" data-news-time="09-26 21:58" data-news-summary="中新社东京9月26日电 (记者 朱晨曦)据爱知·名古屋亚运会官网26日消息，本届亚运会组委会事务总长村手聪就近期接连出现的赛事组织问题表示道歉。">
+        <span class="rank">03</span><div class="story-body">
+          <a class="story-title" href="https://www.chinanews.com.cn/ty/2026/09-26/10704278.shtml" target="_blank" rel="noopener noreferrer">（爱知·名古屋亚运会）名古屋亚运会状况频发 组委会致歉</a>
+          <div class="story-meta"><span>文娱与体育</span><span>中国新闻网</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">中新社东京9月26日电 (记者 朱晨曦)据爱知·名古屋亚运会官网26日消息，本届亚运会组委会事务总长村手聪就近期接连出现的赛事组织问题表示道歉。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>它正在影响大众文化、休闲选择或公共讨论。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="南非约翰内斯堡东部接连发现10具女性遗体" data-news-url="https://www.chinanews.com.cn/gj/2026/09-26/10704224.shtml" data-news-source="中国新闻网" data-news-time="09-26 21:52" data-news-summary="中新网约翰内斯堡9月26日电 (记者 孙翔)南非警方26日称，当日上午，在约翰内斯堡东部城市群埃库鲁莱尼再次发现一具女性遗体，地点靠近一处非正规定居点。这是近期在该地区发现的第10具女性遗体，引发社会关注。">
+        <span class="rank">04</span><div class="story-body">
+          <a class="story-title" href="https://www.chinanews.com.cn/gj/2026/09-26/10704224.shtml" target="_blank" rel="noopener noreferrer">南非约翰内斯堡东部接连发现10具女性遗体</a>
+          <div class="story-meta"><span>社会与民生</span><span>中国新闻网</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">中新网约翰内斯堡9月26日电 (记者 孙翔)南非警方26日称，当日上午，在约翰内斯堡东部城市群埃库鲁莱尼再次发现一具女性遗体，地点靠近一处非正规定居点。这是近期在该地区发现的第10具女性遗体，引发社会关注。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>关注公共服务、社会规则以及普通人的真实处境。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="巴西东北部客车侧翻致7死13伤" data-news-url="https://www.chinanews.com.cn/gj/2026/09-26/10704252.shtml" data-news-source="中国新闻网" data-news-time="09-26 21:52" data-news-summary="中新社圣保罗9月26日电 巴西巴伊亚州公共安全厅26日向媒体证实，当地时间25日晚，巴西东北部巴伊亚州BR-122公路发生一起客车侧翻事故，造成至少7人死亡、13人受伤。">
+        <span class="rank">05</span><div class="story-body">
+          <a class="story-title" href="https://www.chinanews.com.cn/gj/2026/09-26/10704252.shtml" target="_blank" rel="noopener noreferrer">巴西东北部客车侧翻致7死13伤</a>
+          <div class="story-meta"><span>社会与民生</span><span>中国新闻网</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">中新社圣保罗9月26日电 巴西巴伊亚州公共安全厅26日向媒体证实，当地时间25日晚，巴西东北部巴伊亚州BR-122公路发生一起客车侧翻事故，造成至少7人死亡、13人受伤。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>关注公共服务、社会规则以及普通人的真实处境。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="2026斯巴达勇士儿童赛上海站落幕 奥运冠军许昕带儿子参赛" data-news-url="https://www.chinanews.com.cn/ty/2026/09-26/10704261.shtml" data-news-source="中国新闻网" data-news-time="09-26 21:52" data-news-summary="中新网上海9月26日电(缪璐 狄权)9月25日至26日，2026泰兰尼斯—斯巴达勇士儿童赛上海站举行，近5000名小勇士及家庭齐聚临港，在奔跑、翻越与攀爬中尽情释放体能与热情，用实际行动诠释勇气的意义。">
+        <span class="rank">06</span><div class="story-body">
+          <a class="story-title" href="https://www.chinanews.com.cn/ty/2026/09-26/10704261.shtml" target="_blank" rel="noopener noreferrer">2026斯巴达勇士儿童赛上海站落幕 奥运冠军许昕带儿子参赛</a>
+          <div class="story-meta"><span>健康教育家庭</span><span>中国新闻网</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">中新网上海9月26日电(缪璐 狄权)9月25日至26日，2026泰兰尼斯—斯巴达勇士儿童赛上海站举行，近5000名小勇士及家庭齐聚临港，在奔跑、翻越与攀爬中尽情释放体能与热情，用实际行动诠释勇气的意义。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>留意健康、教育、养老、育儿或家庭生活中的实际影响。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="各地商圈新场景新业态加快“上新” 特色服务让消费“品味”加速升级" data-news-url="https://www.chinanews.com.cn/cj/2026/09-26/10704275.shtml" data-news-source="中国新闻网" data-news-time="09-26 21:36" data-news-summary="央视网消息：每到节日假期，各地各具特色的步行街、商业街客流明显增多，新场景新业态也加快“上新”。从城市商圈到县域商圈，消费正在实现从“买商品”转变为“重体验”。">
+        <span class="rank">07</span><div class="story-body">
+          <a class="story-title" href="https://www.chinanews.com.cn/cj/2026/09-26/10704275.shtml" target="_blank" rel="noopener noreferrer">各地商圈新场景新业态加快“上新” 特色服务让消费“品味”加速升级</a>
+          <div class="story-meta"><span>钱包与消费</span><span>中国新闻网</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">央视网消息：每到节日假期，各地各具特色的步行街、商业街客流明显增多，新场景新业态也加快“上新”。从城市商圈到县域商圈，消费正在实现从“买商品”转变为“重体验”。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>留意它对价格、收入、资产安全或消费选择的影响。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="西安交大举行航空与海洋交叉学科高质量发展会议" data-news-url="https://www.chinanews.com.cn/sh/2026/09-26/10704260.shtml" data-news-source="中国新闻网" data-news-time="09-26 21:31" data-news-summary="中新网西安9月26日电 (阿琳娜 张煜晨)西安交通大学24日在中国西部科技创新港举行航空与海洋交叉学科高质量发展会议，并为航空发动机结构安全基础科学研究中心、航空发动机学院、海洋科学与工程学院揭牌。">
+        <span class="rank">08</span><div class="story-body">
+          <a class="story-title" href="https://www.chinanews.com.cn/sh/2026/09-26/10704260.shtml" target="_blank" rel="noopener noreferrer">西安交大举行航空与海洋交叉学科高质量发展会议</a>
+          <div class="story-meta"><span>健康教育家庭</span><span>中国新闻网</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">中新网西安9月26日电 (阿琳娜 张煜晨)西安交通大学24日在中国西部科技创新港举行航空与海洋交叉学科高质量发展会议，并为航空发动机结构安全基础科学研究中心、航空发动机学院、海洋科学与工程学院揭牌。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>留意健康、教育、养老、育儿或家庭生活中的实际影响。</p>
+        </div>
+      </article></section>
+          <section class="category" id="cat-0">
+            <div class="section-heading"><h2><span class="category-icon">热</span>今日热议</h2><span>4 条</span></div>
 
-        <section class="section">
-          <h2 class="section-title"><span class="dot tag-news"></span>综合<span class="count">18 条</span></h2>
-          <div class="grid">
-              <article class="card">
-                <a class="card-title" href="https://www.chinanews.com.cn/gn/2026/09-26/10704161.shtml" target="_blank" rel="noopener">世界技能大赛：拼到最后，全是“手搓”硬实力</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">中国新闻网</span>
-                  <span class="time">2026-09-26 17:23</span>
-                </div>
-                <p class="summary">被誉为“世界技能奥林匹克”的世界技能大赛正在上海举行，不少观众与专业人士来到现场观摩选手竞赛。人们发现，与体育运动会不同，技能大赛的竞技项目与我们的生活息息相关：这里有家具制作、烹饪、软件测试，还有酒店服务、轨道车辆技术、无人机系统……工业机械、网络安全、3D数字游戏艺术项目究竟考验选手哪些能力？又如何选择最终的优胜者？</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.chinanews.com.cn/gj/2026/09-26/10704152.shtml" target="_blank" rel="noopener">泰国曼谷持续强降雨 政府加强生活物资保供稳价</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">中国新闻网</span>
-                  <span class="time">2026-09-26 17:17</span>
-                </div>
-                <p class="summary">中新社曼谷9月26日电 (李映民 王茜)受持续强降雨影响，泰国曼谷出现大面积积水，部分道路通行受到影响。泰国政府26日要求商业部门加强受灾地区生活必需品供应和价格监管，以防止商品短缺及不合理涨价。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.chinanews.com.cn/ty/2026/09-26/10704158.shtml" target="_blank" rel="noopener">中国女篮获爱知·名古屋亚运会铜牌</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">中国新闻网</span>
-                  <span class="time">2026-09-26 17:10</span>
-                </div>
-                <p class="summary">中新网9月26日电 (记者 金旭)爱知·名古屋亚运会26日进行女篮项目铜牌争夺战，中国队以 77:64 战胜中国台北队，收获铜牌。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.chinanews.com.cn/gn/2026/09-26/10704156.shtml" target="_blank" rel="noopener">世赛现场看高手较量：全盲赛制、毫厘功夫、分秒必争</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">中国新闻网</span>
-                  <span class="time">2026-09-26 16:59</span>
-                </div>
-                <p class="summary">新华社上海9月26日电 有人搭凉亭，有人挖坑造景，有人捏翻糖熊猫，有人细细打磨门板……走进第48届世界技能大赛的赛场，64个赛项、千余名选手，记者一时不知道该先看哪双手。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.chinanews.com.cn/ty/2026/09-26/10704155.shtml" target="_blank" rel="noopener">追光｜以热爱 抵流年——第20届亚运会老将群像</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">中国新闻网</span>
-                  <span class="time">2026-09-26 16:53</span>
-                </div>
-                <p class="summary">岁月淬炼热爱</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.chinanews.com.cn/cul/2026/09-26/10704154.shtml" target="_blank" rel="noopener">以微观切口承载宏大史诗 网络纪录片《长征二十夜》多平台上线</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">中国新闻网</span>
-                  <span class="time">2026-09-26 16:50</span>
-                </div>
-                <p class="summary">中新网北京9月26日电 国家广播电视总局2026年“网络视听节目精品创作传播工程”重点纪录片《长征二十夜》9月26日将在各重点网络视听平台上线，江苏卫视同步推出。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.chinanews.com.cn/cul/2026/09-26/10704147.shtml" target="_blank" rel="noopener">从“完成”到“准确” 北京人艺《小郡之秋》二轮登台</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">中国新闻网</span>
-                  <span class="time">2026-09-26 16:49</span>
-                </div>
-                <p class="summary">中新网北京9月26日电 (记者 高凯)灰白色调的三层框架木楼矗立在舞台中央，伴着流转的原创音乐，随转台缓缓转动，化作韦斯顿一家看得见、却走不出的“牢笼”——北京人艺去年首演的爆款剧目《小郡之秋》日前再度归来。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.chinanews.com.cn/sh/2026/09-26/10704146.shtml" target="_blank" rel="noopener">（乡村行·看振兴）广东和平县猕猴桃进入集中上市季</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">中国新闻网</span>
-                  <span class="time">2026-09-26 16:49</span>
-                </div>
-                <p class="summary">中新网河源9月26日电 (记者 张璐)金秋时节，硕果飘香。眼下，广东河源市和平县猕猴桃已进入集中上市季。近日，走进该县下车镇一个家庭农场，只见成熟的猕猴桃垂挂在藤蔓上，果农们将猕猴桃采摘后运下山，送入打包车间，等待快递企业的车辆集中收运。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.chinanews.com.cn/ty/2026/09-26/10704145.shtml" target="_blank" rel="noopener">宁夏贺兰山东麓半马金秋赛鸣枪开跑 5500名跑友赴葡萄藤下之约</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">中国新闻网</span>
-                  <span class="time">2026-09-26 16:48</span>
-                </div>
-                <p class="summary">中新网银川9月26日电 (记者 李佩珊)九月是宁夏贺兰山东麓酿酒葡萄的丰收采摘时节，产区迎来最美景致。26日，2026宁夏贺兰山东麓半程马拉松路跑双季赛(金秋赛)在银川西夏区贺兰羿射箭主题综合运动中心鸣枪开跑。本次赛事经中国田径协会B类赛事技术认证，吸引来自北京、福建、甘肃、宁夏等十余个省份的5500名选手，在葡萄园环绕的赛道追风奔跑。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.chinanews.com.cn/ty/2026/09-26/10704144.shtml" target="_blank" rel="noopener">2026环北京·门头沟国际公路自行车赛开赛 3000余名选手竞速京西山水</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">中国新闻网</span>
-                  <span class="time">2026-09-26 16:48</span>
-                </div>
-                <p class="summary">中新网北京9月26日电 (云鑫)9月25日至27日，华夏银行2026环北京·门头沟国际公路自行车赛在门头沟区举行。本届赛事为国际自行车联盟(UCI)认证的2.2级亚洲巡回赛事，共吸引来自11个国家和地区的21支队伍的百余名职业车手及3000名自行车爱好者参与，职业组总赛程超过340公里，让参赛者在竞速中领略京西山水人文资源与区域发展活力。</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Bangkok roads submerged as flood disaster declared</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">BBC World</span>
-                  <span class="time">2026-09-26 07:21</span>
-                </div>
-                <p class="summary">An emergency has been declared across the capital of Thailand as days of heavy rain leave the city inundated.</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">White House bars CNN from travelling with Trump on Air Force One</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">BBC World</span>
-                  <span class="time">2026-09-26 05:09</span>
-                </div>
-                <p class="summary">CNN was scheduled to fly with US President Donald Trump for his trip to Tennessee on Saturday.</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Iran offers US deal to reopen Strait of Hormuz in seven days</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">BBC World</span>
-                  <span class="time">2026-09-26 05:03</span>
-                </div>
-                <p class="summary">Asked about the Iranian proposal, a US official told the BBC &quot;constructive discussions&quot; were taking place through mediators.</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Brazil&#x27;s Lula bans online gambling ahead of presidential election</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">BBC World</span>
-                  <span class="time">2026-09-26 03:22</span>
-                </div>
-                <p class="summary">Lula, who is currently in a tight presidential race against Flávio Bolsonaro, said the industry was a &quot;cancer&quot; that he must &quot;remove&quot;.</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">OpenAI bots meddled with multiple US government agency sites</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">BBC World</span>
-                  <span class="time">2026-09-26 02:50</span>
-                </div>
-                <p class="summary">OpenAI said its bots accessed public data from a range of institutions during test exercises.</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.bbc.co.uk/news/articles/cwp933nzpp9ro?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Black woman found hanging from tree was dead before body was &#x27;staged&#x27;, police say</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">BBC World</span>
-                  <span class="time">2026-09-26 01:24</span>
-                </div>
-                <p class="summary">Tasia Fortune&#x27;s body was found hanging from a tree on the grounds of an abandoned home in Jackson in August.</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.bbc.co.uk/news/articles/cm2l8qv7zppko?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">South African white genocide does not exist, new ambassador to US tells BBC</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">BBC World</span>
-                  <span class="time">2026-09-25 23:20</span>
-                </div>
-                <p class="summary">Roelf Meyer tells the BBC that being a white Afrikaner gives him legitimacy to challenge Trump&#x27;s claim of a genocide.</p>
-              </article>
-              <article class="card">
-                <a class="card-title" href="https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Inside the FBI hack: Agents fearful and angry after &#x27;dangerous&#x27; data breach</a>
-                <div class="meta">
-                  <span class="tag tag-news">综合</span>
-                  <span class="src">BBC World</span>
-                  <span class="time">2026-09-25 23:05</span>
-                </div>
-                <p class="summary">Current and former agents speak to the BBC about the devastating impact of the FBI hack.</p>
-              </article></div>
-        </section>
-  <footer class="site">
-    <div class="srcs">数据来源：<a href="https://www.ithome.com/rss/" target="_blank" rel="noopener">IT之家</a> · <a href="https://www.solidot.org/index.rss" target="_blank" rel="noopener">Solidot</a> · <a href="https://sspai.com/feed" target="_blank" rel="noopener">少数派</a> · <a href="https://www.qbitai.com/feed" target="_blank" rel="noopener">量子位</a> · <a href="https://news.ycombinator.com/rss" target="_blank" rel="noopener">Hacker News</a> · <a href="https://www.chinanews.com.cn/rss/scroll-news.xml" target="_blank" rel="noopener">中国新闻网</a> · <a href="https://feeds.bbci.co.uk/zhongwen/simp/rss.xml" target="_blank" rel="noopener">BBC 中文</a> · <a href="https://feeds.bbci.co.uk/news/world/rss.xml" target="_blank" rel="noopener">BBC World</a></div>
-    <div class="note">由 GitHub Actions 每日自动抓取生成，仅供个人参考</div>
-  </footer>
-</main>
-</body>
-</html>
+      <article class="story" data-news-title="防止军国主义复活是中美共同责任" data-news-url="https://www.baidu.com/s?wd=%E9%98%B2%E6%AD%A2%E5%86%9B%E5%9B%BD%E4%B8%BB%E4%B9%89%E5%A4%8D%E6%B4%BB%E6%98%AF%E4%B8%AD%E7%BE%8E%E5%85%B1%E5%90%8C%E8%B4%A3%E4%BB%BB&amp;sa=fyb_news&amp;rsv_dl=fyb_news" data-news-source="百度热搜" data-news-time="09-26 22:14" data-news-summary="9月26日是东京审判开庭80周年，中美同为联合国安理会常任理事国，维护战后国际秩序，防止军国主义复活是双方的共同责任。">
+        <div class="story-body">
+          <a class="story-title" href="https://www.baidu.com/s?wd=%E9%98%B2%E6%AD%A2%E5%86%9B%E5%9B%BD%E4%B8%BB%E4%B9%89%E5%A4%8D%E6%B4%BB%E6%98%AF%E4%B8%AD%E7%BE%8E%E5%85%B1%E5%90%8C%E8%B4%A3%E4%BB%BB&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank" rel="noopener noreferrer">防止军国主义复活是中美共同责任</a>
+          <div class="story-meta"><span>今日热议</span><span>百度热搜</span><span class="confidence signal">热度线索</span></div>
+          <p class="story-summary">9月26日是东京审判开庭80周年，中美同为联合国安理会常任理事国，维护战后国际秩序，防止军国主义复活是双方的共同责任。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="中美达成300亿美元对等降税安排" data-news-url="https://www.toutiao.com/trending/7689753031058918975/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%225%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227689753031058918975%22%2C%22hot_board_impr_id%22%3A%22202609262214411448F54A156E0719A6C0%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%AD%E7%BE%8E%E8%BE%BE%E6%88%90300%E4%BA%BF%E7%BE%8E%E5%85%83%E5%AF%B9%E7%AD%89%E9%99%8D%E7%A8%8E%E5%AE%89%E6%8E%92%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7689753031058918975" data-news-source="头条热榜" data-news-time="09-26 22:14" data-news-summary="中美达成300亿美元对等降税安排">
+        <div class="story-body">
+          <a class="story-title" href="https://www.toutiao.com/trending/7689753031058918975/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%225%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227689753031058918975%22%2C%22hot_board_impr_id%22%3A%22202609262214411448F54A156E0719A6C0%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%AD%E7%BE%8E%E8%BE%BE%E6%88%90300%E4%BA%BF%E7%BE%8E%E5%85%83%E5%AF%B9%E7%AD%89%E9%99%8D%E7%A8%8E%E5%AE%89%E6%8E%92%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7689753031058918975" target="_blank" rel="noopener noreferrer">中美达成300亿美元对等降税安排</a>
+          <div class="story-meta"><span>今日热议</span><span>头条热榜</span><span class="confidence signal">热度线索</span></div>
+          <p class="story-summary">中美达成300亿美元对等降税安排</p>
+          <p class="story-why"><strong>为什么值得看：</strong>这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="把中美建设性战略稳定关系转为行动" data-news-url="https://www.baidu.com/s?wd=%E6%8A%8A%E4%B8%AD%E7%BE%8E%E5%BB%BA%E8%AE%BE%E6%80%A7%E6%88%98%E7%95%A5%E7%A8%B3%E5%AE%9A%E5%85%B3%E7%B3%BB%E8%BD%AC%E4%B8%BA%E8%A1%8C%E5%8A%A8&amp;sa=fyb_news&amp;rsv_dl=fyb_news" data-news-source="百度热搜" data-news-time="09-26 22:14" data-news-summary="今年是中美各自发展的关键之年，中美关系又站在新的历史起点。双方应当展现大国担当，顺应人民期盼和时代大势，共同落实好两国元首重要共识，把中美建设性战略稳定关系从愿景转化为行动，朝着合作为主、竞争有度、分歧可控、和平可期的方向努力，走出一条两个大国在这个星球上的正确相处之道。">
+        <div class="story-body">
+          <a class="story-title" href="https://www.baidu.com/s?wd=%E6%8A%8A%E4%B8%AD%E7%BE%8E%E5%BB%BA%E8%AE%BE%E6%80%A7%E6%88%98%E7%95%A5%E7%A8%B3%E5%AE%9A%E5%85%B3%E7%B3%BB%E8%BD%AC%E4%B8%BA%E8%A1%8C%E5%8A%A8&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank" rel="noopener noreferrer">把中美建设性战略稳定关系转为行动</a>
+          <div class="story-meta"><span>今日热议</span><span>百度热搜</span><span class="confidence signal">热度线索</span></div>
+          <p class="story-summary">今年是中美各自发展的关键之年，中美关系又站在新的历史起点。双方应当展现大国担当，顺应人民期盼和时代大势，共同落实好两国元首重要共识，把中美建设性战略稳定关系从愿景转化为行动，朝着合作为主、竞争有度、分歧可控、和平可期的方向努力，走出一条两个大国在这个星球上的正确相处之道。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="特朗普第一时间发帖：期待下次会面" data-news-url="https://www.toutiao.com/trending/7689304243416616490/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227689304243416616490%22%2C%22hot_board_impr_id%22%3A%22202609262214411448F54A156E0719A6C0%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%89%B9%E6%9C%97%E6%99%AE%E7%AC%AC%E4%B8%80%E6%97%B6%E9%97%B4%E5%8F%91%E5%B8%96%EF%BC%9A%E6%9C%9F%E5%BE%85%E4%B8%8B%E6%AC%A1%E4%BC%9A%E9%9D%A2%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7689304243416616490" data-news-source="头条热榜" data-news-time="09-26 22:14" data-news-summary="特朗普第一时间发帖：期待下次会面">
+        <div class="story-body">
+          <a class="story-title" href="https://www.toutiao.com/trending/7689304243416616490/?category_name=topic_innerflow&amp;event_type=hot_board&amp;log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227689304243416616490%22%2C%22hot_board_impr_id%22%3A%22202609262214411448F54A156E0719A6C0%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%89%B9%E6%9C%97%E6%99%AE%E7%AC%AC%E4%B8%80%E6%97%B6%E9%97%B4%E5%8F%91%E5%B8%96%EF%BC%9A%E6%9C%9F%E5%BE%85%E4%B8%8B%E6%AC%A1%E4%BC%9A%E9%9D%A2%22%7D&amp;rank=&amp;style_id=40132&amp;topic_id=7689304243416616490" target="_blank" rel="noopener noreferrer">特朗普第一时间发帖：期待下次会面</a>
+          <div class="story-meta"><span>今日热议</span><span>头条热榜</span><span class="confidence signal">热度线索</span></div>
+          <p class="story-summary">特朗普第一时间发帖：期待下次会面</p>
+          <p class="story-why"><strong>为什么值得看：</strong>这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。</p>
+        </div>
+      </article>
+          </section>
+          <section class="category" id="cat-1">
+            <div class="section-heading"><h2><span class="category-icon">民</span>社会与民生</h2><span>2 条</span></div>
+
+      <article class="story" data-news-title="中新人物丨刘欢，讲台之上，舞台之下" data-news-url="https://www.chinanews.com.cn/cul/2026/09-26/10704276.shtml" data-news-source="中国新闻网" data-news-time="09-26 21:42" data-news-summary="“风好大。”">
+        <div class="story-body">
+          <a class="story-title" href="https://www.chinanews.com.cn/cul/2026/09-26/10704276.shtml" target="_blank" rel="noopener noreferrer">中新人物丨刘欢，讲台之上，舞台之下</a>
+          <div class="story-meta"><span>社会与民生</span><span>中国新闻网</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">“风好大。”</p>
+          <p class="story-why"><strong>为什么值得看：</strong>关注公共服务、社会规则以及普通人的真实处境。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="第48届世界技能大赛收官 热门赛项亮点频出" data-news-url="https://www.chinanews.com.cn/sh/2026/09-26/10704259.shtml" data-news-source="中国新闻网" data-news-time="09-26 21:30" data-news-summary="中新社上海9月26日电 题：第48届世界技能大赛收官 热门赛项亮点频出">
+        <div class="story-body">
+          <a class="story-title" href="https://www.chinanews.com.cn/sh/2026/09-26/10704259.shtml" target="_blank" rel="noopener noreferrer">第48届世界技能大赛收官 热门赛项亮点频出</a>
+          <div class="story-meta"><span>社会与民生</span><span>中国新闻网</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">中新社上海9月26日电 题：第48届世界技能大赛收官 热门赛项亮点频出</p>
+          <p class="story-why"><strong>为什么值得看：</strong>关注公共服务、社会规则以及普通人的真实处境。</p>
+        </div>
+      </article>
+          </section>
+          <section class="category" id="cat-3">
+            <div class="section-heading"><h2><span class="category-icon">行</span>吃喝住行</h2><span>2 条</span></div>
+
+      <article class="story" data-news-title="厦金大桥关键工程合龙" data-news-url="https://www.chinanews.com.cn/gn/2026/09-26/10704263.shtml" data-news-source="中国新闻网" data-news-time="09-26 21:20" data-news-summary="中新网厦门9月26日电 (记者 闫旭)记者26日从福建省交通运输厅获悉，厦金大桥(厦门段)项目24日迎来关键节点，刘五店悬索桥顺利合龙。">
+        <div class="story-body">
+          <a class="story-title" href="https://www.chinanews.com.cn/gn/2026/09-26/10704263.shtml" target="_blank" rel="noopener noreferrer">厦金大桥关键工程合龙</a>
+          <div class="story-meta"><span>吃喝住行</span><span>中国新闻网</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">中新网厦门9月26日电 (记者 闫旭)记者26日从福建省交通运输厅获悉，厦金大桥(厦门段)项目24日迎来关键节点，刘五店悬索桥顺利合龙。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>它与饮食、住房、交通、旅行或城市生活直接相关。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="宜家 Matter 智能家居终于要来了？在中国市场它将如何破局" data-news-url="https://sspai.com/post/114958" data-news-source="少数派" data-news-time="09-26 14:00" data-news-summary="距离宜家首批Matter智能家居产品在海外上市已有大半年的时间，而中国市场则是许久未有消息。直到今年年中，多款宜家智能新品陆续出现在国家CCC认证数据库中，我们才得知：这批主打高性价比、支持新一代智能 ... 查看全文">
+        <div class="story-body">
+          <a class="story-title" href="https://sspai.com/post/114958" target="_blank" rel="noopener noreferrer">宜家 Matter 智能家居终于要来了？在中国市场它将如何破局</a>
+          <div class="story-meta"><span>吃喝住行</span><span>少数派</span><span class="confidence professional">专业来源</span></div>
+          <p class="story-summary">距离宜家首批Matter智能家居产品在海外上市已有大半年的时间，而中国市场则是许久未有消息。直到今年年中，多款宜家智能新品陆续出现在国家CCC认证数据库中，我们才得知：这批主打高性价比、支持新一代智能 ... 查看全文</p>
+          <p class="story-why"><strong>为什么值得看：</strong>它与饮食、住房、交通、旅行或城市生活直接相关。</p>
+        </div>
+      </article>
+          </section>
+          <section class="category" id="cat-4">
+            <div class="section-heading"><h2><span class="category-icon">家</span>健康教育家庭</h2><span>2 条</span></div>
+
+      <article class="story" data-news-title="中国科学院与合工大解锁薄板“漩涡操控”新技术，实现无电子调控的跨尺度物体精准操控" data-news-url="https://www.ithome.com/1/007/439.htm" data-news-source="IT之家" data-news-time="09-26 22:03" data-news-summary="IT之家 9 月 26 日消息，据央视新闻报道，不用任何电子设备，仅靠一块提前设计好的普通薄板，就能让大小不一的颗粒、构件自动旋转、绕行、定点停留。近日，中国科学院声学研究所联合合肥工业大学的科研团队，攻克新型物体操控技术， 实现了无电子调控的跨尺度物体精准操控 ，相关成果近日在国际学术期刊《先进科学》发表。">
+        <div class="story-body">
+          <a class="story-title" href="https://www.ithome.com/1/007/439.htm" target="_blank" rel="noopener noreferrer">中国科学院与合工大解锁薄板“漩涡操控”新技术，实现无电子调控的跨尺度物体精准操控</a>
+          <div class="story-meta"><span>健康教育家庭</span><span>IT之家</span><span class="confidence professional">专业来源</span></div>
+          <p class="story-summary">IT之家 9 月 26 日消息，据央视新闻报道，不用任何电子设备，仅靠一块提前设计好的普通薄板，就能让大小不一的颗粒、构件自动旋转、绕行、定点停留。近日，中国科学院声学研究所联合合肥工业大学的科研团队，攻克新型物体操控技术， 实现了无电子调控的跨尺度物体精准操控 ，相关成果近日在国际学术期刊《先进科学》发表。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>留意健康、教育、养老、育儿或家庭生活中的实际影响。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="科学家首次实时观测单个声子消失，量子计算纠错研究迈出重要一步" data-news-url="https://www.ithome.com/1/007/438.htm" data-news-source="IT之家" data-news-time="09-26 21:58" data-news-summary="IT之家 9 月 26 日消息，斯坦福大学宣布，该校团队首次实时观测到单个“声子”（phonon）消失的量子跃迁过程。相关成果已于当地时间 9 月 17 日发表于《科学》。">
+        <div class="story-body">
+          <a class="story-title" href="https://www.ithome.com/1/007/438.htm" target="_blank" rel="noopener noreferrer">科学家首次实时观测单个声子消失，量子计算纠错研究迈出重要一步</a>
+          <div class="story-meta"><span>健康教育家庭</span><span>IT之家</span><span class="confidence professional">专业来源</span></div>
+          <p class="story-summary">IT之家 9 月 26 日消息，斯坦福大学宣布，该校团队首次实时观测到单个“声子”（phonon）消失的量子跃迁过程。相关成果已于当地时间 9 月 17 日发表于《科学》。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>留意健康、教育、养老、育儿或家庭生活中的实际影响。</p>
+        </div>
+      </article>
+          </section>
+          <section class="category" id="cat-5">
+            <div class="section-heading"><h2><span class="category-icon">工</span>工作与科技</h2><span>4 条</span></div>
+
+      <article class="story" data-news-title="绿联推出 65W 旅行转换充电器：无极旋转插脚适配美 / 澳 / 欧 / 英规、2C+1A，169 元" data-news-url="https://www.ithome.com/1/007/437.htm" data-news-source="IT之家" data-news-time="09-26 21:51" data-news-summary="IT之家 9 月 26 日消息，继 67W 屏显旅行充电器后，绿联又推出了 65W 旅行转换充电器，现已开始预售，将于 9 月 29 日开售， 售价 169 元 。这款充电器采用新一代 360° 无极旋转插脚，可在 美规、澳规、欧规、英规 之间自由切换，支持 100V-240V 宽幅电压，适配各国电压标准。">
+        <div class="story-body">
+          <a class="story-title" href="https://www.ithome.com/1/007/437.htm" target="_blank" rel="noopener noreferrer">绿联推出 65W 旅行转换充电器：无极旋转插脚适配美 / 澳 / 欧 / 英规、2C+1A，169 元</a>
+          <div class="story-meta"><span>工作与科技</span><span>IT之家</span><span class="confidence professional">专业来源</span></div>
+          <p class="story-summary">IT之家 9 月 26 日消息，继 67W 屏显旅行充电器后，绿联又推出了 65W 旅行转换充电器，现已开始预售，将于 9 月 29 日开售， 售价 169 元 。这款充电器采用新一代 360° 无极旋转插脚，可在 美规、澳规、欧规、英规 之间自由切换，支持 100V-240V 宽幅电压，适配各国电压标准。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>重点不是参数，而是它会怎样改变工作方法和日常工具。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="欧盟拟增加卫星发射，或向挪威、英国、加拿大等寻求域外发射场" data-news-url="https://www.ithome.com/1/007/435.htm" data-news-source="IT之家" data-news-time="09-26 21:31" data-news-summary="IT之家 9 月 26 日消息，据金融时报报道，主管太空事务的欧盟专员安德留斯 · 库比柳斯（Andrius Kubilius）表示，为了实现卫星组网目标，欧盟必须放眼境外，物色新的发射阵地。库比柳斯在接受采访时指出，根据欧盟对 2034 年前火箭发射量增长六倍的预测， 他们将不得不借用挪威、英国及加拿大的发射场地 。">
+        <div class="story-body">
+          <a class="story-title" href="https://www.ithome.com/1/007/435.htm" target="_blank" rel="noopener noreferrer">欧盟拟增加卫星发射，或向挪威、英国、加拿大等寻求域外发射场</a>
+          <div class="story-meta"><span>工作与科技</span><span>IT之家</span><span class="confidence professional">专业来源</span></div>
+          <p class="story-summary">IT之家 9 月 26 日消息，据金融时报报道，主管太空事务的欧盟专员安德留斯 · 库比柳斯（Andrius Kubilius）表示，为了实现卫星组网目标，欧盟必须放眼境外，物色新的发射阵地。库比柳斯在接受采访时指出，根据欧盟对 2034 年前火箭发射量增长六倍的预测， 他们将不得不借用挪威、英国及加拿大的发射场地 。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>重点不是参数，而是它会怎样改变工作方法和日常工具。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="2026 WSBK 意大利克雷莫纳站第一回合：张雪机车德比斯排名第四" data-news-url="https://www.ithome.com/1/007/432.htm" data-news-source="IT之家" data-news-time="09-26 20:53" data-news-summary="IT之家 9 月 26 日消息，2026 世界超级摩托车锦标赛 WSBK 意大利克雷莫纳站 WorldSSP 第一回合正赛刚刚结束，来自张雪机车的 53 号 瓦伦丁 · 德比斯排名第四 ，64 号卡里卡苏洛摔车遗憾退赛。之前排位赛，中国摩托车制造商“张雪机车”车手瓦伦丁 · 德比斯排名第八，正赛首回合从第三排发车。">
+        <div class="story-body">
+          <a class="story-title" href="https://www.ithome.com/1/007/432.htm" target="_blank" rel="noopener noreferrer">2026 WSBK 意大利克雷莫纳站第一回合：张雪机车德比斯排名第四</a>
+          <div class="story-meta"><span>工作与科技</span><span>IT之家</span><span class="confidence professional">专业来源</span></div>
+          <p class="story-summary">IT之家 9 月 26 日消息，2026 世界超级摩托车锦标赛 WSBK 意大利克雷莫纳站 WorldSSP 第一回合正赛刚刚结束，来自张雪机车的 53 号 瓦伦丁 · 德比斯排名第四 ，64 号卡里卡苏洛摔车遗憾退赛。之前排位赛，中国摩托车制造商“张雪机车”车手瓦伦丁 · 德比斯排名第八，正赛首回合从第三排发车。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>重点不是参数，而是它会怎样改变工作方法和日常工具。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="新款马自达 EZ-60 激光版上市，限时价 11.39 万元起" data-news-url="https://www.ithome.com/1/007/431.htm" data-news-source="IT之家" data-news-time="09-26 20:37" data-news-summary="IT之家 9 月 26 日消息，2027 款 EZ-60 激光版今晚正式上市。新车共推出 9 款车型，限时惊喜价 11.39 万至 16.69 万元，新增激光雷达，智能辅助驾驶能力得到提升。">
+        <div class="story-body">
+          <a class="story-title" href="https://www.ithome.com/1/007/431.htm" target="_blank" rel="noopener noreferrer">新款马自达 EZ-60 激光版上市，限时价 11.39 万元起</a>
+          <div class="story-meta"><span>工作与科技</span><span>IT之家</span><span class="confidence professional">专业来源</span></div>
+          <p class="story-summary">IT之家 9 月 26 日消息，2027 款 EZ-60 激光版今晚正式上市。新车共推出 9 款车型，限时惊喜价 11.39 万至 16.69 万元，新增激光雷达，智能辅助驾驶能力得到提升。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>重点不是参数，而是它会怎样改变工作方法和日常工具。</p>
+        </div>
+      </article>
+          </section>
+          <section class="category" id="cat-6">
+            <div class="section-heading"><h2><span class="category-icon">乐</span>文娱与体育</h2><span>2 条</span></div>
+
+      <article class="story" data-news-title="福建省第九届“正谊杯”古诗文大会在福州落下帷幕" data-news-url="https://www.chinanews.com.cn/cul/2026/09-26/10704264.shtml" data-news-source="中国新闻网" data-news-time="09-26 21:23" data-news-summary="中新网福州9月26日电 (叶秋云)福建省第九届“正谊杯”古诗文大会第二阶段26日在福建福州落下帷幕，来自浙江、广东、福建等地的诗文爱好者相聚正谊书院，在诗文问答、专家分享和文化体验中共赏经典、交流诗意。">
+        <div class="story-body">
+          <a class="story-title" href="https://www.chinanews.com.cn/cul/2026/09-26/10704264.shtml" target="_blank" rel="noopener noreferrer">福建省第九届“正谊杯”古诗文大会在福州落下帷幕</a>
+          <div class="story-meta"><span>文娱与体育</span><span>中国新闻网</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">中新网福州9月26日电 (叶秋云)福建省第九届“正谊杯”古诗文大会第二阶段26日在福建福州落下帷幕，来自浙江、广东、福建等地的诗文爱好者相聚正谊书院，在诗文问答、专家分享和文化体验中共赏经典、交流诗意。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>它正在影响大众文化、休闲选择或公共讨论。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="古祠过中秋 晋祠博物馆沉浸式活动让传统节日焕新" data-news-url="https://www.chinanews.com.cn/sh/2026/09-26/10704265.shtml" data-news-source="中国新闻网" data-news-time="09-26 21:22" data-news-summary="中新网太原9月26日电 (记者 胡健)9月25日至27日，“秋光正好·月满晋祠”2026年晋祠博物馆中秋系列文化活动举行。活动以中秋传统节日为契机，依托晋祠古建园林与三晋文脉，通过舞台剧、沉浸式互动、社教课堂、线上直播等形式，让传统节日在古祠中焕发新韵。">
+        <div class="story-body">
+          <a class="story-title" href="https://www.chinanews.com.cn/sh/2026/09-26/10704265.shtml" target="_blank" rel="noopener noreferrer">古祠过中秋 晋祠博物馆沉浸式活动让传统节日焕新</a>
+          <div class="story-meta"><span>文娱与体育</span><span>中国新闻网</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">中新网太原9月26日电 (记者 胡健)9月25日至27日，“秋光正好·月满晋祠”2026年晋祠博物馆中秋系列文化活动举行。活动以中秋传统节日为契机，依托晋祠古建园林与三晋文脉，通过舞台剧、沉浸式互动、社教课堂、线上直播等形式，让传统节日在古祠中焕发新韵。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>它正在影响大众文化、休闲选择或公共讨论。</p>
+        </div>
+      </article>
+          </section>
+          <section class="category" id="cat-7">
+            <div class="section-heading"><h2><span class="category-icon">世</span>世界与中国</h2><span>4 条</span></div>
+
+      <article class="story" data-news-title="習近平訪美晤特朗普：中美競賽誰領先？美國民眾怎麼看" data-news-url="https://www.bbc.com/zhongwen/articles/ckddvj0jy3zgo/trad?at_medium=RSS&amp;at_campaign=rss" data-news-source="BBC 中文" data-news-time="09-26 10:51" data-news-summary="「特習會2.0」即將登場，此時中美競爭白熱化、亦敵亦友，美國民眾認為誰正在領先？BBC中文走訪紐約街頭，聽聽他們最期待兩位元首討論哪些議題？">
+        <div class="story-body">
+          <a class="story-title" href="https://www.bbc.com/zhongwen/articles/ckddvj0jy3zgo/trad?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">習近平訪美晤特朗普：中美競賽誰領先？美國民眾怎麼看</a>
+          <div class="story-meta"><span>世界与中国</span><span>BBC 中文</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">「特習會2.0」即將登場，此時中美競爭白熱化、亦敵亦友，美國民眾認為誰正在領先？BBC中文走訪紐約街頭，聽聽他們最期待兩位元首討論哪些議題？</p>
+          <p class="story-why"><strong>为什么值得看：</strong>关注外部变化对中国用户、市场和出行可能带来的影响。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="《英雄联盟》2026 德玛西亚杯升级国际邀请赛：明日开票，10 月 3 日开赛" data-news-url="https://www.ithome.com/1/007/436.htm" data-news-source="IT之家" data-news-time="09-26 21:50" data-news-summary="IT之家 9 月 26 日消息，2026 德玛西亚杯国际邀请赛将于 10 月 3 日至 10 月 17 日举办，并将于 9 月 27 日 14:00 全网开票。本届赛事升级为国际邀请赛，由腾竞体育和虎牙直播联合主办。">
+        <div class="story-body">
+          <a class="story-title" href="https://www.ithome.com/1/007/436.htm" target="_blank" rel="noopener noreferrer">《英雄联盟》2026 德玛西亚杯升级国际邀请赛：明日开票，10 月 3 日开赛</a>
+          <div class="story-meta"><span>世界与中国</span><span>IT之家</span><span class="confidence professional">专业来源</span></div>
+          <p class="story-summary">IT之家 9 月 26 日消息，2026 德玛西亚杯国际邀请赛将于 10 月 3 日至 10 月 17 日举办，并将于 9 月 27 日 14:00 全网开票。本届赛事升级为国际邀请赛，由腾竞体育和虎牙直播联合主办。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>关注外部变化对中国用户、市场和出行可能带来的影响。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="習近平訪美最後一天 參觀國家檔案館後返華" data-news-url="https://www.bbc.com/zhongwen/articles/c97700x5exleo/trad?at_medium=RSS&amp;at_campaign=rss" data-news-source="BBC 中文" data-news-time="09-26 01:48" data-news-summary="在訪美行程的最後一天，中國國家主席習近平伉儷與美國總統特朗普（川普）伉儷在白宮茶敘，然後參觀國家檔案館，之後啟程回國。">
+        <div class="story-body">
+          <a class="story-title" href="https://www.bbc.com/zhongwen/articles/c97700x5exleo/trad?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">習近平訪美最後一天 參觀國家檔案館後返華</a>
+          <div class="story-meta"><span>世界与中国</span><span>BBC 中文</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">在訪美行程的最後一天，中國國家主席習近平伉儷與美國總統特朗普（川普）伉儷在白宮茶敘，然後參觀國家檔案館，之後啟程回國。</p>
+          <p class="story-why"><strong>为什么值得看：</strong>关注外部变化对中国用户、市场和出行可能带来的影响。</p>
+        </div>
+      </article>
+      <article class="story" data-news-title="中國、台灣民眾如何看「習特會」？專家如何解讀峰會成果？" data-news-url="https://www.bbc.com/zhongwen/articles/cmq5x6557lqdo/trad?at_medium=RSS&amp;at_campaign=rss" data-news-source="BBC 中文" data-news-time="09-25 22:18" data-news-summary="中國國家主席習近平時隔11年再次訪美進行國是訪問，與美國總統特朗普舉行今年第二次會晤。今次「習特會」有哪些成果？">
+        <div class="story-body">
+          <a class="story-title" href="https://www.bbc.com/zhongwen/articles/cmq5x6557lqdo/trad?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">中國、台灣民眾如何看「習特會」？專家如何解讀峰會成果？</a>
+          <div class="story-meta"><span>世界与中国</span><span>BBC 中文</span><span class="confidence verified">已核实报道</span></div>
+          <p class="story-summary">中國國家主席習近平時隔11年再次訪美進行國是訪問，與美國總統特朗普舉行今年第二次會晤。今次「習特會」有哪些成果？</p>
+          <p class="story-why"><strong>为什么值得看：</strong>关注外部变化对中国用户、市场和出行可能带来的影响。</p>
+        </div>
+      </article>
+          </section></main>
+<footer><div class="footer-inner">热度发现：百度热搜、头条热榜、B站热门<br>报道与核实：中国新闻网、BBC 中文、少数派、IT之家、Solidot、量子位<div class="footer-note">不使用 AI 大模型。热榜只表示关注度，重要事实请以原始报道为准。</div></div></footer></body></html>

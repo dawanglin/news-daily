@@ -1,40 +1,42 @@
 # -*- coding: utf-8 -*-
-"""
-全局配置：新闻源、抓取数量、AI 总结等。
-想改内容就在这个文件里改，不需要动其他代码。
-"""
+"""每日简报配置：中文来源、栏目、数量与免费规则。"""
 
-# ============ 新闻源 ============
-# 格式： "源名称": ("RSS 地址", "分类")
-# 分类目前有两种：科技 / 综合。可以按需增删源或分类。
+# RSS 来源只承担事实与专业内容；公共热榜由 fetch_news.py 单独抓取。
 NEWS_FEEDS = {
-    "IT之家":     ("https://www.ithome.com/rss/", "科技"),
-    "Solidot":    ("https://www.solidot.org/index.rss", "科技"),
-    "少数派":     ("https://sspai.com/feed", "科技"),
-    "量子位":     ("https://www.qbitai.com/feed", "科技"),
-    "Hacker News": ("https://news.ycombinator.com/rss", "科技"),
-    "中国新闻网": ("https://www.chinanews.com.cn/rss/scroll-news.xml", "综合"),
-    "BBC 中文":   ("https://feeds.bbci.co.uk/zhongwen/simp/rss.xml", "综合"),
-    "BBC World":  ("https://feeds.bbci.co.uk/news/world/rss.xml", "综合"),
+    "中国新闻网": ("https://www.chinanews.com.cn/rss/scroll-news.xml", "社会与民生"),
+    "BBC 中文": ("https://feeds.bbci.co.uk/zhongwen/simp/rss.xml", "世界与中国"),
+    "少数派": ("https://sspai.com/feed", "工作与科技"),
+    "IT之家": ("https://www.ithome.com/rss/", "工作与科技"),
+    "Solidot": ("https://www.solidot.org/index.rss", "工作与科技"),
+    "量子位": ("https://www.qbitai.com/feed", "工作与科技"),
 }
 
-# ============ 抓取数量 ============
-MAX_ITEMS_PER_FEED = 10      # 每个源最多保留多少条
-MAX_ITEMS_TOTAL = 40         # 每天总共保留多少条
-MAX_AGE_HOURS = 48           # 只保留最近 48 小时内的新闻
-EXTRACT_SENTENCES = 3        # 免费抽取式摘要：取正文前几句话
-FETCH_TIMEOUT = 15           # 每个源抓取超时（秒）
+CATEGORY_ORDER = [
+    "今日热议",
+    "社会与民生",
+    "钱包与消费",
+    "吃喝住行",
+    "健康教育家庭",
+    "工作与科技",
+    "文娱与体育",
+    "世界与中国",
+]
 
-# ============ AI 总结（可选）============
-# 留空则跳过 AI 总结，只使用免费抽取式摘要。
-# 线上推荐配置在 GitHub Actions 的 Secrets 里（README 有说明），不要写死在代码里：
-#   AI_API_KEY  -> 密钥（DeepSeek / OpenAI 等 OpenAI 兼容接口的 key）
-#   AI_API_BASE -> 接口地址，默认 https://api.deepseek.com/v1
-#   AI_MODEL    -> 模型名，默认 deepseek-chat
-AI_API_KEY = ""
-AI_API_BASE = "https://api.deepseek.com/v1"
-AI_MODEL = "deepseek-chat"
+CATEGORY_HINTS = {
+    "健康教育家庭": "留意健康、教育、养老、育儿或家庭生活中的实际影响。",
+    "钱包与消费": "留意它对价格、收入、资产安全或消费选择的影响。",
+    "吃喝住行": "它与饮食、住房、交通、旅行或城市生活直接相关。",
+    "文娱与体育": "它正在影响大众文化、休闲选择或公共讨论。",
+    "工作与科技": "重点不是参数，而是它会怎样改变工作方法和日常工具。",
+    "世界与中国": "关注外部变化对中国用户、市场和出行可能带来的影响。",
+    "社会与民生": "关注公共服务、社会规则以及普通人的真实处境。",
+    "今日热议": "这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。",
+}
 
-# ============ 展示时区 ============
-# 中国大陆无夏令时，固定 UTC+8 即可正确计算“今天”。
+MAX_ITEMS_PER_FEED = 12
+MAX_ITEMS_TOTAL = 28
+MUST_READ_COUNT = 8
+MAX_AGE_HOURS = 48
+EXTRACT_SENTENCES = 2
+FETCH_TIMEOUT = 18
 TZ_OFFSET_HOURS = 8
