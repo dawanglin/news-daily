@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "generated_at": "2026-09-26 17:18:22 +0800",
+  "generated_at": "2026-09-26 17:33:31 +0800",
   "total": 40,
   "sources": {
     "IT之家": {
@@ -16,7 +16,7 @@
     "少数派": {
       "url": "https://sspai.com/feed",
       "status": "成功",
-      "count": 3
+      "count": 2
     },
     "量子位": {
       "url": "https://www.qbitai.com/feed",
@@ -45,6 +45,51 @@
     }
   },
   "items": [
+    {
+      "title": "消息称首销日 OPPO Find X10 系列手机同比前代旗舰机系列接近 40%，全系列 16GB 内存占比超 60%",
+      "link": "https://www.ithome.com/1/007/396.htm",
+      "source": "IT之家",
+      "category": "科技",
+      "published": "2026-09-26 09:31 +0000",
+      "ts": 1790415079,
+      "summary": "IT之家 9 月 26 日消息，博主 @RD观测 今日透露，由于涨价的影响，9 月 23 / 24 日开售的三个品牌的旗舰机系列都表现欠佳。首销日 OPPO Find X10 系列同比去年开售的前代旗舰机系列在三个品牌的旗舰机系列中为最高，接近 40%，且全系列的 16GB 占比达到了 60%+（若不计算 OPPO Find X10E 则是 80%+），是表现相对较好的品牌。OPPO Find X10 系列于 9 月 24 日正式开售，包含 Find X10 E、Find X10 和 Find X10 Pro Max 三款机型，起售价分别为 4999 元、5499 元和 6799 元。"
+    },
+    {
+      "title": "张雪兑现承诺，近 200 人包机赴意大利 WSBK 为车队助威",
+      "link": "https://www.ithome.com/1/007/395.htm",
+      "source": "IT之家",
+      "category": "科技",
+      "published": "2026-09-26 09:31 +0000",
+      "ts": 1790415071,
+      "summary": "IT之家 9 月 26 日消息，9 月 24 日晚，张雪机车创始人张雪兑现此前公开承诺，包机带领约 200 人团队飞赴意大利，现场观看今日举行的 WSBK 世界超级摩托车锦标赛意大利克雷莫纳站比赛。本次出行团队共约 200 人，其中 170 人搭乘包机从重庆出发，剩余约 30 人自行前往意大利集结。团队成员包括公司员工、研发人员及供应商伙伴。"
+    },
+    {
+      "title": "世嘉《超级忍 反攻的斩击》登陆任天堂 Switch 2：168~224 港币",
+      "link": "https://www.ithome.com/1/007/394.htm",
+      "source": "IT之家",
+      "category": "科技",
+      "published": "2026-09-26 09:23 +0000",
+      "ts": 1790414634,
+      "summary": "IT之家 9 月 26 日消息，世嘉《超级忍 反攻的斩击》任天堂 Switch 2 版已于 9 月 24 日正式发售，同步推出实体版与数字版。其中，数字标准版在港区售价为 168 港币（IT之家注：现汇率约合 144 元人民币），数字豪华版 224 港币（现汇率约合 192 元人民币）。数字豪华版包含游戏本体、“世嘉反派关卡”DLC、数字美术画册、数字原声集、“简易医疗”护符、“幽灵风格”装束及 2000 金币。"
+    },
+    {
+      "title": "世界技能大赛：拼到最后，全是“手搓”硬实力",
+      "link": "https://www.chinanews.com.cn/gn/2026/09-26/10704161.shtml",
+      "source": "中国新闻网",
+      "category": "综合",
+      "published": "2026-09-26 17:23 +0800",
+      "ts": 1790414580,
+      "summary": "被誉为“世界技能奥林匹克”的世界技能大赛正在上海举行，不少观众与专业人士来到现场观摩选手竞赛。人们发现，与体育运动会不同，技能大赛的竞技项目与我们的生活息息相关：这里有家具制作、烹饪、软件测试，还有酒店服务、轨道车辆技术、无人机系统……工业机械、网络安全、3D数字游戏艺术项目究竟考验选手哪些能力？又如何选择最终的优胜者？"
+    },
+    {
+      "title": "泰国曼谷持续强降雨 政府加强生活物资保供稳价",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-26/10704152.shtml",
+      "source": "中国新闻网",
+      "category": "综合",
+      "published": "2026-09-26 17:17 +0800",
+      "ts": 1790414228,
+      "summary": "中新社曼谷9月26日电 (李映民 王茜)受持续强降雨影响，泰国曼谷出现大面积积水，部分道路通行受到影响。泰国政府26日要求商业部门加强受灾地区生活必需品供应和价格监管，以防止商品短缺及不合理涨价。"
+    },
     {
       "title": "中国女篮获爱知·名古屋亚运会铜牌",
       "link": "https://www.chinanews.com.cn/ty/2026/09-26/10704158.shtml",
@@ -172,15 +217,6 @@
       "summary": "IT之家 9 月 26 日消息，深蓝汽车董事长邓承浩今日表示，新能源汽车行业淘汰赛在即，单点突破失效，体系能力才是关键。另外再和大家分享一个喜讯，深蓝第 100 万辆即将下线，在此也感谢 100 万用户一路同行。据IT之家此前报道，9 月 1 日，深蓝汽车宣布，8 月全球销量 28,659 辆，全球累计销量突破 94.76 万辆。"
     },
     {
-      "title": "东西问｜李萌羽：福克纳“东渡”、中国作家“西行”，中美当代文学如何互读互鉴？",
-      "link": "https://www.chinanews.com.cn/dxw/2026/09-26/10704127.shtml",
-      "source": "中国新闻网",
-      "category": "综合",
-      "published": "2026-09-26 16:29 +0800",
-      "ts": 1790411353,
-      "summary": "中新社青岛9月26日电 题：福克纳“东渡”、中国作家“西行”，中美当代文学如何互读互鉴？"
-    },
-    {
       "title": "维持 Anthropic 供应链风险认定，美国上诉法院支持五角大楼继续禁用 Claude",
       "link": "https://www.ithome.com/1/007/386.htm",
       "source": "IT之家",
@@ -188,42 +224,6 @@
       "published": "2026-09-26 08:27 +0000",
       "ts": 1790411221,
       "summary": "IT之家 9 月 26 日消息，当地时间 9 月 25 日，美国哥伦比亚特区联邦上诉法院以 2:1 裁定，维持五角大楼将 Anthropic 列入国家安全供应链风险名单的决定。Anthropic 此前起诉五角大楼，要求撤销其于今年 3 月被列入的“供应链风险”认定。公司称该认定导致其数十亿美元损失，并在备受关注的 IPO 前损害了声誉。"
-    },
-    {
-      "title": "英特尔为第 11~14 代酷睿处理器核显推送 7092 驱动，修复《永劫无间》问题",
-      "link": "https://www.ithome.com/1/007/384.htm",
-      "source": "IT之家",
-      "category": "科技",
-      "published": "2026-09-26 08:19 +0000",
-      "ts": 1790410761,
-      "summary": "IT之家 9 月 26 日消息，Intel（英特尔）当地时间 25 日为第 11~14 代酷睿处理器的核芯显卡、锐炬 Xe \"DG1\" 独立显卡推送了 32.0.101.7092 版本 WHQL 图形驱动程序。IT之家在此附上官网页面地址：https://www.intel.cn/content/www/cn/zh/download/864990/929468/intel-11th-14th-gen-processor-graphics-windows.html该驱动程序解决了以 DX12 / DX11 API 游玩《永劫无间》时存在的水体附近可能会出现纹理缺失的问题。这一版本有 2 项已知的"
-    },
-    {
-      "title": "北京人艺小剧场话剧《画眉》中秋幕启",
-      "link": "https://www.chinanews.com.cn/cul/2026/09-26/10704143.shtml",
-      "source": "中国新闻网",
-      "category": "综合",
-      "published": "2026-09-26 16:18 +0800",
-      "ts": 1790410728,
-      "summary": "中新网北京9月26日电 (记者 高凯)北京人艺2026年新排剧目《画眉》日前在北京国际戏剧中心·人艺小剧场启幕。该剧由冯远征担任艺术指导，杨佳音执导，以“讲古”为切口，跳出传统历史剧范式，当观众手持复刻连环画质感的怀旧说明书步入剧场，几位讲述者便以战国名将吴起的人生轨迹为引，徐徐拉开一段跨越千年的历史对话。"
-    },
-    {
-      "title": "网易云音乐鸿蒙版 App 上线华为 HiCar，适配任务流转、歌词分栏显示等功能",
-      "link": "https://www.ithome.com/1/007/383.htm",
-      "source": "IT之家",
-      "category": "科技",
-      "published": "2026-09-26 08:17 +0000",
-      "ts": 1790410674,
-      "summary": "IT之家 9 月 26 日消息，网易云音乐鸿蒙版 App 已于 9 月 23 日全面上线，完成了手机、折叠屏、平板多终端适配。IT之家实测发现，网易云音乐鸿蒙版 App 上线华为 HiCar 车机端，目前处于“尝鲜”状态（应用图标也印有尝鲜字样）。目前网易云音乐鸿蒙版 App 在华为 HiCar 端可正常播放音乐，并适配了任务流转、歌词分栏显示等功能。"
-    },
-    {
-      "title": "因转向系统存在隐患，大众将在全球范围内召回约 286 万辆汽车",
-      "link": "https://www.ithome.com/1/007/382.htm",
-      "source": "IT之家",
-      "category": "科技",
-      "published": "2026-09-26 08:13 +0000",
-      "ts": 1790410409,
-      "summary": "IT之家 9 月 26 日消息，德国联邦汽车运输管理局 KBA 于当地时间 25 日发布声明，德国汽车制造商大众汽车集团证实，因转向系统存在隐患，将在全球范围内召回约 286 万辆汽车，其中在德国召回约 96 万辆。本次召回规模最大的是大众品牌车型，共计 216 万辆，生产日期介于 2013 年 9 月 24 日至 2024 年 7 月 1 日之间，涵盖高尔夫、途观、途安等车型。奥迪同样受到波及，涉及 2017 年 10 月 31 日至 2024 年 5 月 23 日期间生产的近 70 万辆 Q3 车型。"
     },
     {
       "title": "Is your Postgres migration safe or not safe?",
@@ -352,6 +352,15 @@
       "summary": "Comments"
     },
     {
+      "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
+      "link": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
+      "source": "Hacker News",
+      "category": "科技",
+      "published": "2026-09-26 01:36 +0000",
+      "ts": 1790386610,
+      "summary": "Comments"
+    },
+    {
       "title": "Black woman found hanging from tree was dead before body was 'staged', police say",
       "link": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
@@ -395,15 +404,6 @@
       "published": "2026-09-25 21:09 +0000",
       "ts": 1790370567,
       "summary": "Comments"
-    },
-    {
-      "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
-      "link": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "综合",
-      "published": "2026-09-25 20:47 +0000",
-      "ts": 1790369269,
-      "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president."
     }
   ]
 }
