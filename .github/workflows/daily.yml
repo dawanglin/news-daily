@@ -33,12 +33,14 @@ jobs:
           python-version: "3.12"
 
       - name: 抓取新闻（纯标准库，无需安装依赖）
+        if: github.event_name != 'push'
         run: python fetch_news.py
 
       - name: 生成静态站点
         run: python build_site.py
 
       - name: 提交当天数据与站点
+        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

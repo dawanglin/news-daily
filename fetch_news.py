@@ -6,6 +6,7 @@ import difflib
 import email.utils
 import html as html_mod
 import json
+import os
 import re
 import sys
 import time
@@ -314,6 +315,12 @@ def select_balanced(items):
 
 
 def main():
+    today = NOW_UTC.astimezone(TZ).strftime("%Y-%m-%d")
+    output = DATA_DIR / f"news_{today}.json"
+    if output.exists() and os.environ.get("FORCE_REFRESH") != "1":
+        print(f"{output.name} 已存在，作为历史快照保留；如需本地重抓请设置 FORCE_REFRESH=1")
+        return
+
     results, source_stats = [], {}
     try:
         hot = hot_candidates()
@@ -353,13 +360,11 @@ def main():
         print(f"[专业来源] {source}: 通过过滤 {accepted} 条")
 
     selected = select_balanced(results)
-    today = NOW_UTC.astimezone(TZ).strftime("%Y-%m-%d")
     payload = {
         "date": today, "generated_at": datetime.datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S %z"),
         "total": len(selected), "method": "个人兴趣过滤 + 项目阶段归纳 + 免费规则整理（未使用 AI）",
         "categories": CATEGORY_ORDER, "sources": source_stats, "items": selected,
     }
-    output = DATA_DIR / f"news_{today}.json"
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n共筛出 {len(selected)} 条，已保存 -> {output}")
     if not selected:
