@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>历史存档</title>
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="18" fill="%231a3a5c"/><rect x="22" y="26" width="56" height="9" rx="4.5" fill="white"/><rect x="22" y="43" width="56" height="9" rx="4.5" fill="white" opacity="0.85"/><rect x="22" y="60" width="34" height="9" rx="4.5" fill="white" opacity="0.65"/></svg>'>
+<style>
+  :root {
+    --ink: #1f2328;
+    --muted: #6b7280;
+    --line: #e3e6ea;
+    --bg: #f4f5f7;
+    --card: #ffffff;
+    --brand: #1a3a5c;
+    --tech: #1e6fd9;
+    --news: #0e8a5f;
+    --amber: #b9791f;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Segoe UI", system-ui, -apple-system, sans-serif;
+    background: var(--bg); color: var(--ink); line-height: 1.6; font-size: 15px;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px 60px; }
+  header.site {
+    background: linear-gradient(135deg, #16324f 0%, #1a3a5c 55%, #24506f 100%);
+    color: #fff; padding: 34px 0 26px; margin-bottom: 26px;
+  }
+  .head-inner { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+  .head-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; }
+  .site-title { font-size: 26px; font-weight: 700; letter-spacing: 1px; }
+  .site-sub { font-size: 13px; opacity: 0.75; }
+  .date-badge {
+    margin-left: auto; background: rgba(255,255,255,0.14); border: 1px solid rgba(255,255,255,0.25);
+    padding: 4px 14px; border-radius: 999px; font-size: 14px; font-weight: 600;
+  }
+  .stats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .chip {
+    background: rgba(255,255,255,0.12); border-radius: 999px; padding: 3px 12px;
+    font-size: 12.5px; color: #e8eef5;
+  }
+  .digest {
+    background: #fffbf0; border: 1px solid #f0e0b8; border-left: 5px solid var(--amber);
+    border-radius: 10px; padding: 18px 22px; margin-bottom: 26px;
+  }
+  .digest-title { font-size: 17px; font-weight: 700; color: #8a5b10; margin-bottom: 10px; }
+  .digest p { margin: 6px 0; }
+  .digest ul { margin: 6px 0 6px 22px; }
+  .digest li { margin: 4px 0; }
+  .digest-h3 { font-size: 14.5px; color: #6b4c0d; margin: 10px 0 4px; }
+  .digest-h4 { font-size: 13.5px; color: #7a5a14; margin: 8px 0 2px; }
+  .digest code { background: #f6ead0; border-radius: 4px; padding: 1px 5px; font-size: 13px; }
+  .digest a { color: #8a5b10; }
+  .section { margin-bottom: 30px; }
+  .section-title {
+    display: flex; align-items: center; gap: 10px; font-size: 19px; font-weight: 700;
+    color: var(--brand); margin-bottom: 14px; padding-bottom: 8px; border-bottom: 2px solid var(--line);
+  }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .tag-tech { background: var(--tech); }
+  .tag-news { background: var(--news); }
+  .tag-other { background: var(--amber); }
+  .count { margin-left: auto; font-size: 13px; font-weight: 500; color: var(--muted); }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 14px 16px; transition: box-shadow .15s ease, transform .15s ease;
+  }
+  .card:hover { box-shadow: 0 6px 18px rgba(26,58,92,.10); transform: translateY(-1px); }
+  .card-title { font-size: 15px; font-weight: 600; color: #14304e; text-decoration: none; display: block; }
+  .card-title:hover { color: var(--tech); text-decoration: underline; }
+  .meta { display: flex; align-items: center; gap: 8px; margin: 8px 0 6px; flex-wrap: wrap; }
+  .tag { color: #fff; font-size: 11px; padding: 1px 8px; border-radius: 999px; font-weight: 600; }
+  .src { font-size: 12.5px; color: var(--muted); }
+  .time { font-size: 12px; color: #9aa1ab; }
+  .summary { font-size: 13.5px; color: #4b5563; }
+  .notice {
+    background: #fef2f2; border: 1px solid #f3c8c8; color: #9a3b3b;
+    border-radius: 10px; padding: 16px 20px; margin-bottom: 26px; font-size: 14px;
+  }
+  .archive-list { list-style: none; }
+  .archive-list li {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    margin-bottom: 10px; padding: 12px 16px;
+  }
+  .archive-list a { color: #14304e; font-weight: 600; text-decoration: none; font-size: 15px; }
+  .archive-list a:hover { color: var(--tech); }
+  .archive-list .d { color: var(--muted); font-size: 12.5px; margin-left: 10px; }
+  footer.site {
+    margin-top: 30px; padding-top: 16px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 12.5px;
+  }
+  footer.site .srcs { line-height: 2; }
+  footer.site .srcs a { color: var(--tech); text-decoration: none; white-space: nowrap; margin-right: 10px; }
+  footer.site .srcs a:hover { text-decoration: underline; }
+  footer.site .note { margin-top: 2px; }
+  .back { margin-bottom: 16px; display: inline-block; color: var(--tech); text-decoration: none; font-size: 14px; }
+  @media (max-width: 720px) {
+    .grid { grid-template-columns: 1fr; }
+    .site-title { font-size: 21px; }
+    .date-badge { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="head-inner">
+    <div class="head-row">
+      <span class="site-title">每日新闻速览</span>
+      <span class="site-sub">Daily News Digest</span>
+      <span class="date-badge">共 1 期</span>
+    </div>
+    <div class="stats"></div>
+  </div>
+</header>
+<main class="wrap">
+  <a class="back" href="../">返回最新一期 →</a>
+  
+  <ul class="archive-list"><li><a href="../daily/2026-09-26.html">2026-09-26</a><span class="d">每日速览</span></li></ul>
+  <footer class="site">
+    <div class="srcs">数据来源：<a href="https://www.ithome.com/rss/" target="_blank" rel="noopener">IT之家</a> · <a href="https://www.solidot.org/index.rss" target="_blank" rel="noopener">Solidot</a> · <a href="https://sspai.com/feed" target="_blank" rel="noopener">少数派</a> · <a href="https://www.qbitai.com/feed" target="_blank" rel="noopener">量子位</a> · <a href="https://news.ycombinator.com/rss" target="_blank" rel="noopener">Hacker News</a> · <a href="https://www.chinanews.com.cn/rss/scroll-news.xml" target="_blank" rel="noopener">中国新闻网</a> · <a href="https://feeds.bbci.co.uk/zhongwen/simp/rss.xml" target="_blank" rel="noopener">BBC 中文</a> · <a href="https://feeds.bbci.co.uk/news/world/rss.xml" target="_blank" rel="noopener">BBC World</a></div>
+    <div class="note">由 GitHub Actions 每日自动抓取生成，仅供个人参考</div>
+  </footer>
+</main>
+</body>
+</html>

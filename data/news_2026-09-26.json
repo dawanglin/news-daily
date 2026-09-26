@@ -1,368 +1,409 @@
 {
   "date": "2026-09-26",
-  "generated_at": "2026-09-26T16:47:33.783912+08:00",
-  "count": 40,
-  "errors": [],
+  "generated_at": "2026-09-26 16:48:54 +0800",
+  "total": 40,
+  "sources": {
+    "IT之家": {
+      "url": "https://www.ithome.com/rss/",
+      "status": "成功",
+      "count": 10
+    },
+    "Solidot": {
+      "url": "https://www.solidot.org/index.rss",
+      "status": "成功",
+      "count": 10
+    },
+    "少数派": {
+      "url": "https://sspai.com/feed",
+      "status": "成功",
+      "count": 3
+    },
+    "量子位": {
+      "url": "https://www.qbitai.com/feed",
+      "status": "成功",
+      "count": 10
+    },
+    "Hacker News": {
+      "url": "https://news.ycombinator.com/rss",
+      "status": "成功",
+      "count": 10
+    },
+    "中国新闻网": {
+      "url": "https://www.chinanews.com.cn/rss/scroll-news.xml",
+      "status": "成功",
+      "count": 10
+    },
+    "BBC 中文": {
+      "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+      "status": "成功",
+      "count": 10
+    },
+    "BBC World": {
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "status": "成功",
+      "count": 10
+    }
+  },
   "items": [
     {
-      "id": "ba13b9f69dff",
       "title": "问界山河 · 重庆自驾充电路书上线，5 条自驾线路串联 30 座充电站点",
-      "url": "https://www.ithome.com/1/007/390.htm",
+      "link": "https://www.ithome.com/1/007/390.htm",
       "source": "IT之家",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T08:42:32+00:00",
-      "summary": "IT之家 9 月 26 日消息，赛力斯集团董事、副总裁康波今日宣布，问界山河 · 重庆自驾充电路书上线， 5 条自驾线路串联 30 座充电站点 ，收录沿途山城风物与地道美食。 据介绍，问界山河 · 重庆自驾充电路书主要分 5 条路线，可游玩重庆主城、大足石刻、喀斯特地貌、苗乡风情、三峡、江津、北碚等地。IT之家附问界山河 · 重庆自驾充电路书如下： 在去年的智界及问界秋季新品发布会上，赛力斯总裁何利扬上台介绍了问界品牌的 2025-2028 年充电站的建设规划。 问界 2025-2028 年充电站计划覆盖 1600+ 高速服务区（7 射 11 纵 18…"
+      "category": "科技",
+      "published": "2026-09-26 08:42 +0000",
+      "ts": 1790412152,
+      "summary": "IT之家 9 月 26 日消息，赛力斯集团董事、副总裁康波今日宣布，问界山河 · 重庆自驾充电路书上线，5 条自驾线路串联 30 座充电站点，收录沿途山城风物与地道美食。据介绍，问界山河 · 重庆自驾充电路书主要分 5 条路线，可游玩重庆主城、大足石刻、喀斯特地貌、苗乡风情、三峡、江津、北碚等地。IT之家附问界山河 · 重庆自驾充电路书如下：在去年的智界及问界秋季新品发布会上，赛力斯总裁何利扬上台介绍了问界品牌的 2025-2028 年充电站的建设规划。"
     },
     {
-      "id": "88bb9fb04bd0",
       "title": "国内首座五跨连续三跨吊组合桥塔平面缆悬索桥，厦金大桥（厦门段）关键控制性工程刘五店悬索桥合龙",
-      "url": "https://www.ithome.com/1/007/389.htm",
+      "link": "https://www.ithome.com/1/007/389.htm",
       "source": "IT之家",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T08:40:34+00:00",
-      "summary": "IT之家 9 月 26 日消息，据央视新闻今日报道，厦金大桥（厦门段）关键控制性工程刘五店悬索桥 9 月 24 日顺利合龙，为推动厦金大桥（厦门段）项目实现海上主线通车创造了有利条件。 IT之家注： 刘五店悬索桥是国内首座五跨连续三跨吊组合桥塔平面缆悬索桥 ，也是福建省最大跨径桥梁和首座全离岸式海中悬索桥，全长 1948 米，主跨 928 米，桥面由 126 榀流线型扁平钢箱梁组成，总重量约 5.3 万吨，离海面约 70 米，通航孔可通行 20 万吨级货运船舶。 下一步，项目团队将加快推进刘五店悬索桥桥面系与机电交安工程施工，全力冲刺年度建设目标，推动…"
+      "category": "科技",
+      "published": "2026-09-26 08:40 +0000",
+      "ts": 1790412034,
+      "summary": "IT之家 9 月 26 日消息，据央视新闻今日报道，厦金大桥（厦门段）关键控制性工程刘五店悬索桥 9 月 24 日顺利合龙，为推动厦金大桥（厦门段）项目实现海上主线通车创造了有利条件。IT之家注：刘五店悬索桥是国内首座五跨连续三跨吊组合桥塔平面缆悬索桥，也是福建省最大跨径桥梁和首座全离岸式海中悬索桥，全长 1948 米，主跨 928 米，桥面由 126 榀流线型扁平钢箱梁组成，总重量约 5.3 万吨，离海面约 70 米，通航孔可通行 20 万吨级货运船舶。下一步，项目团队将加快推进刘五店悬索桥桥面系与机电交安工程施工，全力冲刺年度建设目标，推动厦金大桥（厦门段）海上主线按期建成通车。"
     },
     {
-      "id": "4ef6626de819",
       "title": "潜在罚款超 2000 亿美元：Meta 在剑桥分析案中被裁定违反美国新墨西哥州法律",
-      "url": "https://www.ithome.com/1/007/388.htm",
+      "link": "https://www.ithome.com/1/007/388.htm",
       "source": "IT之家",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T08:35:35+00:00",
-      "summary": "IT之家 9 月 26 日消息，根据美国新墨西哥州司法部当地时间 25 日公告，该州法院陪审团认定 Meta 在剑桥分析案中违反了州级《不公平竞争法》。 陪审团认定 Facebook 存在超过 4,380 万项违规行为。由于新墨西哥州《不公平竞争法》可对每项违规行为处以至高 5,000 美元罚款，因此 Meta 本次败诉面临的潜在民事罚款金额超过了 2,190 亿美元 （现汇率约合 1.47 万亿元人民币） 。 图源：Pexels 陪审团认为，Meta 在对消费者个人信息的收集、保护、共享、使用方式以及为防止平台上的虚假信息和仇恨言论所做的努力上 存在…"
+      "category": "科技",
+      "published": "2026-09-26 08:35 +0000",
+      "ts": 1790411735,
+      "summary": "IT之家 9 月 26 日消息，根据美国新墨西哥州司法部当地时间 25 日公告，该州法院陪审团认定 Meta 在剑桥分析案中违反了州级《不公平竞争法》。陪审团认定 Facebook 存在超过 4,380 万项违规行为。由于新墨西哥州《不公平竞争法》可对每项违规行为处以至高 5,000 美元罚款，因此 Meta 本次败诉面临的潜在民事罚款金额超过了 2,190 亿美元（现汇率约合 1.47 万亿元人民币）。"
     },
     {
-      "id": "0f83a8d2107e",
       "title": "深蓝汽车邓承浩：深蓝第 100 万辆即将下线",
-      "url": "https://www.ithome.com/1/007/387.htm",
+      "link": "https://www.ithome.com/1/007/387.htm",
       "source": "IT之家",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T08:31:45+00:00",
-      "summary": "IT之家 9 月 26 日消息，深蓝汽车董事长邓承浩今日表示，新能源汽车行业淘汰赛在即，单点突破失效，体系能力才是关键。 另外再和大家分享一个喜讯， 深蓝第 100 万辆即将下线 ，在此也感谢 100 万用户一路同行。 据IT之家此前报道，9 月 1 日，深蓝汽车宣布， 8 月全球销量 28,659 辆 ， 全球累计销量突破 94.76 万辆 。 延伸阅读 公开资料显示，深蓝品牌的起点可追溯至 2018 年长安汽车启动的新能源发展计划“香格里拉计划”，该计划推动新能源业务独立运营并成立重庆长安新能源汽车科技有限公司。2022 年 1 月，长安汽车正式发…"
+      "category": "科技",
+      "published": "2026-09-26 08:31 +0000",
+      "ts": 1790411505,
+      "summary": "IT之家 9 月 26 日消息，深蓝汽车董事长邓承浩今日表示，新能源汽车行业淘汰赛在即，单点突破失效，体系能力才是关键。另外再和大家分享一个喜讯，深蓝第 100 万辆即将下线，在此也感谢 100 万用户一路同行。据IT之家此前报道，9 月 1 日，深蓝汽车宣布，8 月全球销量 28,659 辆，全球累计销量突破 94.76 万辆。"
     },
     {
-      "id": "4014c3a6b3c7",
-      "title": "Can ‘eSUV’ e-bikes really go from trail to town?",
-      "url": "https://www.theverge.com/transportation/999785/amflow-tl-review-avinox-esuv-e-bike-avinox",
-      "source": "The Verge",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T08:27:45+00:00",
-      "summary": "Have you ever wanted an electric bike that easily transitions from the drudgery of urban asphalt to adventures in gravel and dirt? That's what a subclass of so-called \"electric SUV\" (eSUV) e-bikes claims to do, with their wide, all-terrain tires and front and rear suspension, pl…"
+      "title": "东西问｜李萌羽：福克纳“东渡”、中国作家“西行”，中美当代文学如何互读互鉴？",
+      "link": "https://www.chinanews.com.cn/dxw/2026/09-26/10704127.shtml",
+      "source": "中国新闻网",
+      "category": "综合",
+      "published": "2026-09-26 16:29 +0800",
+      "ts": 1790411353,
+      "summary": "中新社青岛9月26日电 题：福克纳“东渡”、中国作家“西行”，中美当代文学如何互读互鉴？"
     },
     {
-      "id": "1eca93a1683f",
-      "title": "维持 Anthropic 供应链风险认定，美国上诉法院支持五角大楼继续禁用 Claude",
-      "url": "https://www.ithome.com/1/007/386.htm",
-      "source": "IT之家",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T08:27:01+00:00",
-      "summary": "IT之家 9 月 26 日消息，当地时间 9 月 25 日，美国哥伦比亚特区联邦上诉法院以 2:1 裁定，维持五角大楼将 Anthropic 列入国家安全供应链风险名单的决定。 Anthropic 此前起诉五角大楼，要求撤销其于今年 3 月被列入的“供应链风险”认定。公司称该认定导致其数十亿美元损失，并在备受关注的 IPO 前损害了声誉。 上诉法院多数意见认为，五角大楼在 Anthropic 拒绝将其产品用于自主武器或大规模监控后作出该认定，具有充分依据。因此，法院驳回了 Anthropic 关于五角大楼因其 AI 安全与伦理立场而进行报复的主张。 A…"
-    },
-    {
-      "id": "1899377f8acf",
-      "title": "英特尔为第 11~14 代酷睿处理器核显推送 7092 驱动，修复《永劫无间》问题",
-      "url": "https://www.ithome.com/1/007/384.htm",
-      "source": "IT之家",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T08:19:21+00:00",
-      "summary": "IT之家 9 月 26 日消息，Intel（英特尔）当地时间 25 日为第 11~14 代酷睿处理器的核芯显卡、锐炬 Xe \"DG1\" 独立显卡推送了 32.0.101.7092 版本 WHQL 图形驱动程序。 IT之家在此附上官网页面地址： https://www.intel.cn/content/www/cn/zh/download/864990/929468/intel-11th-14th-gen-processor-graphics-windows.html 该驱动程序解决了 以 DX12 / DX11 API 游玩《永劫无间》时存在的水体附近…"
-    },
-    {
-      "id": "cdd9c00052cc",
-      "title": "网易云音乐鸿蒙版 App 上线华为 HiCar，适配任务流转、歌词分栏显示等功能",
-      "url": "https://www.ithome.com/1/007/383.htm",
-      "source": "IT之家",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T08:17:54+00:00",
-      "summary": "IT之家 9 月 26 日消息，网易云音乐鸿蒙版 App 已于 9 月 23 日全面上线，完成了手机、折叠屏、平板多终端适配。 IT之家实测发现， 网易云音乐鸿蒙版 App 上线华为 HiCar 车机端 ，目前处于“尝鲜”状态（应用图标也印有尝鲜字样）。 目前网易云音乐鸿蒙版 App 在华为 HiCar 端可正常播放音乐， 并适配了任务流转、歌词分栏显示等功能 。另外，App 内的功能基本可用，包括查看评论区、下载歌曲等（不同车机的屏幕比例、分辨率有所差异，各端显示效果也有不同，具体以使用的车机为准）。 参考IT之家此前报道， 鸿蒙版 App 由网易云…"
-    },
-    {
-      "id": "414014205463",
-      "title": "因转向系统存在隐患，大众将在全球范围内召回约 286 万辆汽车",
-      "url": "https://www.ithome.com/1/007/382.htm",
-      "source": "IT之家",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T08:13:29+00:00",
-      "summary": "IT之家 9 月 26 日消息，德国联邦汽车运输管理局 KBA 于当地时间 25 日发布声明，德国汽车制造商大众汽车集团证实， 因转向系统存在隐患， 将在全球范围内召回约 286 万辆汽车 ，其中在德国召回约 96 万辆。 本次召回规模最大的是大众品牌车型，共计 216 万辆，生产日期介于 2013 年 9 月 24 日至 2024 年 7 月 1 日之间，涵盖高尔夫、途观、途安等车型。 奥迪同样受到波及，涉及 2017 年 10 月 31 日至 2024 年 5 月 23 日期间生产的近 70 万辆 Q3 车型。 德国联邦汽车运输管理局表示，涉及召回…"
-    },
-    {
-      "id": "9af4b41d41c5",
-      "title": "Is your Postgres migration safe or not safe?",
-      "url": "https://safenotsafe.dev/",
+      "title": "CAPTCHAs don't prove you're human – they prove you're American",
+      "link": "https://shkspr.mobi/blog/2017/11/captchas-dont-prove-youre-human-they-prove-youre-american/",
       "source": "Hacker News",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T07:33:12+00:00",
-      "summary": "Article URL: https://safenotsafe.dev/ Comments URL: https://news.ycombinator.com/item?id=49854161 Points: 3 # Comments: 0"
+      "category": "科技",
+      "published": "2026-09-26 08:27 +0000",
+      "ts": 1790411239,
+      "summary": "Comments"
     },
     {
-      "id": "3905074a1367",
+      "title": "维持 Anthropic 供应链风险认定，美国上诉法院支持五角大楼继续禁用 Claude",
+      "link": "https://www.ithome.com/1/007/386.htm",
+      "source": "IT之家",
+      "category": "科技",
+      "published": "2026-09-26 08:27 +0000",
+      "ts": 1790411221,
+      "summary": "IT之家 9 月 26 日消息，当地时间 9 月 25 日，美国哥伦比亚特区联邦上诉法院以 2:1 裁定，维持五角大楼将 Anthropic 列入国家安全供应链风险名单的决定。Anthropic 此前起诉五角大楼，要求撤销其于今年 3 月被列入的“供应链风险”认定。公司称该认定导致其数十亿美元损失，并在备受关注的 IPO 前损害了声誉。"
+    },
+    {
+      "title": "英特尔为第 11~14 代酷睿处理器核显推送 7092 驱动，修复《永劫无间》问题",
+      "link": "https://www.ithome.com/1/007/384.htm",
+      "source": "IT之家",
+      "category": "科技",
+      "published": "2026-09-26 08:19 +0000",
+      "ts": 1790410761,
+      "summary": "IT之家 9 月 26 日消息，Intel（英特尔）当地时间 25 日为第 11~14 代酷睿处理器的核芯显卡、锐炬 Xe \"DG1\" 独立显卡推送了 32.0.101.7092 版本 WHQL 图形驱动程序。IT之家在此附上官网页面地址：https://www.intel.cn/content/www/cn/zh/download/864990/929468/intel-11th-14th-gen-processor-graphics-windows.html该驱动程序解决了以 DX12 / DX11 API 游玩《永劫无间》时存在的水体附近可能会出现纹理缺失的问题。这一版本有 2 项已知的"
+    },
+    {
+      "title": "北京人艺小剧场话剧《画眉》中秋幕启",
+      "link": "https://www.chinanews.com.cn/cul/2026/09-26/10704143.shtml",
+      "source": "中国新闻网",
+      "category": "综合",
+      "published": "2026-09-26 16:18 +0800",
+      "ts": 1790410728,
+      "summary": "中新网北京9月26日电 (记者 高凯)北京人艺2026年新排剧目《画眉》日前在北京国际戏剧中心·人艺小剧场启幕。该剧由冯远征担任艺术指导，杨佳音执导，以“讲古”为切口，跳出传统历史剧范式，当观众手持复刻连环画质感的怀旧说明书步入剧场，几位讲述者便以战国名将吴起的人生轨迹为引，徐徐拉开一段跨越千年的历史对话。"
+    },
+    {
+      "title": "广东惠州在建最高桥塔全桥合龙",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704142.shtml",
+      "source": "中国新闻网",
+      "category": "综合",
+      "published": "2026-09-26 16:18 +0800",
+      "ts": 1790410700,
+      "summary": "中新网广州9月26日电 (记者 蔡敏婕)广东交通集团26日发布消息称，惠(城)霞(涌)高速东江特大桥实现全桥合龙，大桥东西两岸25日在中秋佳节“团圆”，标志着惠州“丰”字交通主框架南北交通轴线建设取得关键性进展。"
+    },
+    {
+      "title": "网易云音乐鸿蒙版 App 上线华为 HiCar，适配任务流转、歌词分栏显示等功能",
+      "link": "https://www.ithome.com/1/007/383.htm",
+      "source": "IT之家",
+      "category": "科技",
+      "published": "2026-09-26 08:17 +0000",
+      "ts": 1790410674,
+      "summary": "IT之家 9 月 26 日消息，网易云音乐鸿蒙版 App 已于 9 月 23 日全面上线，完成了手机、折叠屏、平板多终端适配。IT之家实测发现，网易云音乐鸿蒙版 App 上线华为 HiCar 车机端，目前处于“尝鲜”状态（应用图标也印有尝鲜字样）。目前网易云音乐鸿蒙版 App 在华为 HiCar 端可正常播放音乐，并适配了任务流转、歌词分栏显示等功能。"
+    },
+    {
+      "title": "世赛幕后：日行四万步，是领队无声的守护",
+      "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704135.shtml",
+      "source": "中国新闻网",
+      "category": "综合",
+      "published": "2026-09-26 16:17 +0800",
+      "ts": 1790410650,
+      "summary": "中新网上海9月25日电(田静)跨越万里，来自世界各地的领队携技能选手汇聚上海，为同一场国际赛事全力以赴。"
+    },
+    {
+      "title": "（经济观察）民企推动中国消费市场新活力",
+      "link": "https://www.chinanews.com.cn/cj/2026/09-26/10704148.shtml",
+      "source": "中国新闻网",
+      "category": "综合",
+      "published": "2026-09-26 16:17 +0800",
+      "ts": 1790410634,
+      "summary": "中新社北京9月26日电 (记者 陈溯)近年来，中国消费市场呈现出新变化：情绪消费、体验式消费等一大批新兴消费场景快速崛起，其背后几乎都离不开民营企业的推动，民营企业不再是市场的“补充力量”。"
+    },
+    {
+      "title": "福建南靖云水谣美景引游人",
+      "link": "https://www.chinanews.com.cn/tp/2026/09-26/10704133.shtml",
+      "source": "中国新闻网",
+      "category": "综合",
+      "published": "2026-09-26 16:15 +0800",
+      "ts": 1790410546,
+      "summary": "图为游客在云水谣景区驻足打卡。中新社记者 张金川 摄 图为云水谣景区的夫妻古榕树。中新社记者 张金川 摄 图为游客在云水谣景区驻足观赏打卡。"
+    },
+    {
+      "title": "因转向系统存在隐患，大众将在全球范围内召回约 286 万辆汽车",
+      "link": "https://www.ithome.com/1/007/382.htm",
+      "source": "IT之家",
+      "category": "科技",
+      "published": "2026-09-26 08:13 +0000",
+      "ts": 1790410409,
+      "summary": "IT之家 9 月 26 日消息，德国联邦汽车运输管理局 KBA 于当地时间 25 日发布声明，德国汽车制造商大众汽车集团证实，因转向系统存在隐患，将在全球范围内召回约 286 万辆汽车，其中在德国召回约 96 万辆。本次召回规模最大的是大众品牌车型，共计 216 万辆，生产日期介于 2013 年 9 月 24 日至 2024 年 7 月 1 日之间，涵盖高尔夫、途观、途安等车型。奥迪同样受到波及，涉及 2017 年 10 月 31 日至 2024 年 5 月 23 日期间生产的近 70 万辆 Q3 车型。"
+    },
+    {
+      "title": "公安网安部门侦破一起侵犯公民个人信息案：涉嫌倒卖 4000 多万条个人信息",
+      "link": "https://www.ithome.com/1/007/381.htm",
+      "source": "IT之家",
+      "category": "科技",
+      "published": "2026-09-26 08:13 +0000",
+      "ts": 1790410403,
+      "summary": "IT之家 9 月 26 日消息，据公安部网安局今日通报，山东枣庄公安网安部门近期侦破了一起侵犯公民个人信息案，打掉犯罪团伙 2 个，抓获涉案人员 28 名。该案查获非法获取、倒卖的公民个人信息 4000 余万条，查明涉案金额 600 余万元。2026 年 5 月，枣庄滕州公安网安部门在工作中发现，网民马某某长期通过非法渠道大量购买公民个人信息。"
+    },
+    {
+      "title": "华硕破晓 Air 轻薄商务笔记本电脑预约：酷睿 7 350 + 16GB + 512GB",
+      "link": "https://www.ithome.com/1/007/380.htm",
+      "source": "IT之家",
+      "category": "科技",
+      "published": "2026-09-26 08:06 +0000",
+      "ts": 1790409968,
+      "summary": "IT之家 9 月 26 日消息，华硕 (ASUS) 近期发布的轻薄商务笔记本电脑破晓 Air (PX476CMA) 现已开启预约，9 月 28 日 10:00 开售。其搭载英特尔酷睿 7 处理器 350，配备 16GB LPDDR5X-7467 内存、512GB PCIe Gen4 SSD 存储，标价 7499 元（到手价应为 6999 元）。破晓 Air 拥有铝合金 CNC 一体成型机身，内置 26hr 续航 65Whr 电池，轻约 1.23kg、薄至 10.4mm；"
+    },
+    {
+      "title": "中国男足3:0横扫泰国队 成功晋级四强",
+      "link": "https://www.chinanews.com.cn/ty/2026/09-26/10704141.shtml",
+      "source": "中国新闻网",
+      "category": "综合",
+      "published": "2026-09-26 16:06 +0800",
+      "ts": 1790409961,
+      "summary": "中新网9月26日电 (记者 李志全 徐朋朋)当地时间9月26日，在爱知·名古屋亚运会男足四分之一决赛中，中国队以3:0战胜泰国队，成功晋级四强，创造中国男足亚运队自2002年改为U23队伍参赛以来的最好成绩。"
+    },
+    {
+      "title": "2026全球南方现代化论坛将在埃及开罗举行",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-26/10704108.shtml",
+      "source": "中国新闻网",
+      "category": "综合",
+      "published": "2026-09-26 16:03 +0800",
+      "ts": 1790409815,
+      "summary": "中新网约翰内斯堡9月26日电 2026全球南方现代化论坛将于9月30日在埃及开罗举行。论坛将以“人工智能浪潮：全球南方现代化的机遇与挑战”为主题。"
+    },
+    {
+      "title": "中美达成八点成果共识",
+      "link": "https://www.chinanews.com.cn/gn/2026/09-26/10704138.shtml",
+      "source": "中国新闻网",
+      "category": "综合",
+      "published": "2026-09-26 15:59 +0800",
+      "ts": 1790409563,
+      "summary": "新华社华盛顿9月25日电#8195;当地时间9月23日至25日，中国国家主席习近平对美国进行国事访问。其间，两国元首就中美建设性战略稳定关系及重大国际地区问题深入交换意见，达成八点成果共识，包括："
+    },
+    {
+      "title": "亚运会 | 中国队时隔28年重返亚运男足四强",
+      "link": "https://www.chinanews.com.cn/ty/2026/09-26/10704140.shtml",
+      "source": "中国新闻网",
+      "category": "综合",
+      "published": "2026-09-26 15:57 +0800",
+      "ts": 1790409455,
+      "summary": "新华社日本名古屋9月26日电 在26日进行的爱知·名古屋亚运会男足四分之一决赛中，中国队以3:0战胜泰国队，时隔28年重返亚运男足四强。"
+    },
+    {
       "title": "Bangkok roads submerged as flood disaster declared",
-      "url": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "category": "综合热点",
-      "published_at": "2026-09-26T07:21:30+00:00",
+      "category": "综合",
+      "published": "2026-09-26 07:21 +0000",
+      "ts": 1790407290,
       "summary": "An emergency has been declared across the capital of Thailand as days of heavy rain leave the city inundated."
     },
     {
-      "id": "0f8ac0df33d3",
-      "title": "Pope warns a 'paradise of machines' could undermine humanity as he opens France trip",
-      "url": "https://www.npr.org/2026/09/26/g-s1-145150/pope-warns-a-paradise-of-machines-could-undermine-humanity",
-      "source": "NPR World",
-      "category": "综合热点",
-      "published_at": "2026-09-26T06:59:45+00:00",
-      "summary": "Pope Leo XIV has warned that a \"paradise of machines\" could undermine humanity. He raises concerns about artificial intelligence, nuclear arms, and human rights during his visit to France."
+      "title": "在云栖大会，我终于看懂了米哈游千亿AI野心",
+      "link": "https://www.qbitai.com/2026/09/497613.html",
+      "source": "量子位",
+      "category": "科技",
+      "published": "2026-09-26 07:18 +0000",
+      "ts": 1790407085,
+      "summary": "大伟哥：如果做不到，一年两年之后过来打我脸"
     },
     {
-      "id": "faa88df192da",
-      "title": "Alberta's image as world's only rat-free region shattered by discovery of rat",
-      "url": "https://www.theguardian.com/world/2026/sep/25/alberta-canada-rat-patrol",
-      "source": "Hacker News",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T06:51:12+00:00",
-      "summary": "Article URL: https://www.theguardian.com/world/2026/sep/25/alberta-canada-rat-patrol Comments URL: https://news.ycombinator.com/item?id=49853918 Points: 15 # Comments: 6"
+      "title": "谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
+      "link": "https://www.qbitai.com/2026/09/497425.html",
+      "source": "量子位",
+      "category": "科技",
+      "published": "2026-09-26 07:12 +0000",
+      "ts": 1790406725,
+      "summary": "vLLM人马创业公司团队出品"
     },
     {
-      "id": "3ed0c3e573a4",
+      "title": "OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光",
+      "link": "https://www.qbitai.com/2026/09/497382.html",
+      "source": "量子位",
+      "category": "科技",
+      "published": "2026-09-26 07:04 +0000",
+      "ts": 1790406255,
+      "summary": "还把「密钥」叫战利品"
+    },
+    {
       "title": "Velum：方便部署的CosyVoice推理程序",
-      "url": "https://www.solidot.org/story?sid=85479",
+      "link": "https://www.solidot.org/story?sid=85479",
       "source": "Solidot",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T06:06:56+00:00",
-      "summary": "Nala Ginrut 写道： HardenedLinux 最近发布了可用于推理CosyVoice的Velum，它用modern C++开发，编译成一个单一的可执行文件，方便部署。 CosyVoice是目前比较优秀的一款 TTS 模型，但其推理程序使用的Python体系比较老旧，需要在部署的时候做一些处理，而且Python依赖占用空间较大，不利于大量能力情况下的Agent部署。要是每个agent能力都要一堆Python十几G的依赖，每一堆还有版本冲突，那就不要卖产品了，不如回家卖红薯。 Velum编译之后只有一个可执行文件，所谓部署更新就是拷贝。一些预…"
+      "category": "科技",
+      "published": "2026-09-26 14:06 +0800",
+      "ts": 1790402816,
+      "summary": "Nala Ginrut 写道： HardenedLinux 最近发布了可用于推理CosyVoice的Velum，它用modern C++开发，编译成一个单一的可执行文件，方便部署。CosyVoice是目前比较优秀的一款 TTS 模型，但其推理程序使用的Python体系比较老旧，需要在部署的时候做一些处理，而且Python依赖占用空间较大，不利于大量能力情况下的Agent部署。要是每个agent能力都要一堆Python十几G的依赖，每一堆还有版本冲突，那就不要卖产品了，不如回家卖红薯。"
     },
     {
-      "id": "f7331d1af59d",
       "title": "宜家 Matter 智能家居终于要来了？在中国市场它将如何破局",
-      "url": "https://sspai.com/post/114958",
+      "link": "https://sspai.com/post/114958",
       "source": "少数派",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T06:00:00+00:00",
-      "summary": "距离宜家首批Matter智能家居产品在海外上市已有大半年的时间，而中国市场则是许久未有消息。直到今年年中，多款宜家智能新品陆续出现在国家CCC认证数据库中，我们才得知：这批主打高性价比、支持新一代智能 ... 查看全文"
+      "category": "科技",
+      "published": "2026-09-26 14:00 +0800",
+      "ts": 1790402400,
+      "summary": "距离宜家首批Matter智能家居产品在海外上市已有大半年的时间，而中国市场则是许久未有消息。直到今年年中，多款宜家智能新品陆续出现在国家CCC认证数据库中，我们才得知：这批主打高性价比、支持新一代智能 ...查看全文"
     },
     {
-      "id": "93518d29afda",
       "title": "White House bars CNN from travelling with Trump on Air Force One",
-      "url": "https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "category": "综合热点",
-      "published_at": "2026-09-26T05:09:09+00:00",
+      "category": "综合",
+      "published": "2026-09-26 05:09 +0000",
+      "ts": 1790399349,
       "summary": "CNN was scheduled to fly with US President Donald Trump for his trip to Tennessee on Saturday."
     },
     {
-      "id": "6096d6a184eb",
       "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-      "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "category": "综合热点",
-      "published_at": "2026-09-26T05:03:09+00:00",
+      "category": "综合",
+      "published": "2026-09-26 05:03 +0000",
+      "ts": 1790398989,
       "summary": "Asked about the Iranian proposal, a US official told the BBC \"constructive discussions\" were taking place through mediators."
     },
     {
-      "id": "0966d3f1308f",
       "title": "A single function Jev-like wrapper for LLMs, including vision models",
-      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "link": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
       "source": "Hacker News",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T04:20:58+00:00",
-      "summary": "Article URL: http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html Comments URL: https://news.ycombinator.com/item?id=49853175 Points: 56 # Comments: 9"
+      "category": "科技",
+      "published": "2026-09-26 04:20 +0000",
+      "ts": 1790396458,
+      "summary": "Comments"
     },
     {
-      "id": "e44776dd2958",
       "title": "黑手党可能阻止了芬太尼流入意大利",
-      "url": "https://www.solidot.org/story?sid=85478",
+      "link": "https://www.solidot.org/story?sid=85478",
       "source": "Solidot",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T03:42:34+00:00",
-      "summary": "在电影《教父》中，维托柯里昂（Don Vito Corleone）拒绝参与海洛因交易，称毒品生意太脏。现实中的黑手党并非如此，但对于选择芬太尼还是海洛因等其它毒品，意大利黑手党看起来选择了拒绝芬太尼。这或许可以解释意大利芬太尼过量致死率异常低。2024 年比吗啡强效百倍的合成阿片类药物在意大利仅检测出两例致死事件。相比之下，德国 95 例，美国近 4.8 万例。意大利整体上的毒品消费水平无法解释这一现象。根据欧洲的数据，每年约有 2.1% 的意大利青年使用可卡因，德国的这一比例为 2.2%。芬太尼在意大利尚未造成太大影响，警方也没有查获多少芬太尼，反黑…"
+      "category": "科技",
+      "published": "2026-09-26 11:42 +0800",
+      "ts": 1790394154,
+      "summary": "在电影《教父》中，维托柯里昂（Don Vito Corleone）拒绝参与海洛因交易，称毒品生意太脏。现实中的黑手党并非如此，但对于选择芬太尼还是海洛因等其它毒品，意大利黑手党看起来选择了拒绝芬太尼。这或许可以解释意大利芬太尼过量致死率异常低。"
     },
     {
-      "id": "a894c7ff0c75",
       "title": "Brazil's Lula bans online gambling ahead of presidential election",
-      "url": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "category": "综合热点",
-      "published_at": "2026-09-26T03:22:17+00:00",
+      "category": "综合",
+      "published": "2026-09-26 03:22 +0000",
+      "ts": 1790392937,
       "summary": "Lula, who is currently in a tight presidential race against Flávio Bolsonaro, said the industry was a \"cancer\" that he must \"remove\"."
     },
     {
-      "id": "b26cc2f8862a",
       "title": "OpenAI bots meddled with multiple US government agency sites",
-      "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "category": "综合热点",
-      "published_at": "2026-09-26T02:50:56+00:00",
+      "category": "综合",
+      "published": "2026-09-26 02:50 +0000",
+      "ts": 1790391056,
       "summary": "OpenAI said its bots accessed public data from a range of institutions during test exercises."
     },
     {
-      "id": "67c50f59b622",
       "title": "We're gonna need a lot more mathematicians",
-      "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
+      "link": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/",
       "source": "Hacker News",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T02:46:54+00:00",
-      "summary": "Article URL: https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/ Comments URL: https://news.ycombinator.com/item?id=49852717 Points: 104 # Comments: 103"
+      "category": "科技",
+      "published": "2026-09-26 02:46 +0000",
+      "ts": 1790390814,
+      "summary": "Comments"
     },
     {
-      "id": "4da7b0f413c0",
-      "title": "HomelabFest will be in St. Louis in September 2027",
-      "url": "https://www.homelabfest.org",
-      "source": "Hacker News",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T02:03:24+00:00",
-      "summary": "Article URL: https://www.homelabfest.org Comments URL: https://news.ycombinator.com/item?id=49852462 Points: 27 # Comments: 12"
-    },
-    {
-      "id": "210a729c3469",
-      "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
-      "url": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
-      "source": "Hacker News",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T01:36:50+00:00",
-      "summary": "Article URL: https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/ Comments URL: https://news.ycombinator.com/item?id=49852302 Points: 209 # Comments: 47"
-    },
-    {
-      "id": "08a283bc51ba",
       "title": "Black woman found hanging from tree was dead before body was 'staged', police say",
-      "url": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "category": "综合热点",
-      "published_at": "2026-09-26T01:24:31+00:00",
+      "category": "综合",
+      "published": "2026-09-26 01:24 +0000",
+      "ts": 1790385871,
       "summary": "Tasia Fortune's body was found hanging from a tree on the grounds of an abandoned home in Jackson in August."
     },
     {
-      "id": "2a2deb3a6122",
-      "title": "At Meta Connect, the company’s smart glasses were everywhere",
-      "url": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
-      "source": "TechCrunch",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T01:08:57+00:00",
-      "summary": "The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses."
-    },
-    {
-      "id": "cdf46c6abf49",
-      "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
-      "url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
-      "source": "Hacker News",
-      "category": "科技互联网",
-      "published_at": "2026-09-26T00:59:02+00:00",
-      "summary": "Article URL: https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide Comments URL: https://news.ycombinator.com/item?id=49852065 Points: 168 # Comments: 68"
-    },
-    {
-      "id": "2551dd230f04",
       "title": "South African white genocide does not exist, new ambassador to US tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "category": "综合热点",
-      "published_at": "2026-09-25T23:20:48+00:00",
+      "category": "综合",
+      "published": "2026-09-25 23:20 +0000",
+      "ts": 1790378448,
       "summary": "Roelf Meyer tells the BBC that being a white Afrikaner gives him legitimacy to challenge Trump's claim of a genocide."
     },
     {
-      "id": "1947fc4b63e3",
-      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-      "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-      "source": "TechCrunch",
-      "category": "科技互联网",
-      "published_at": "2026-09-25T23:11:10+00:00",
-      "summary": "Boom Supersonic CEO Blake Scholl said the company's new stationary power plants were no longer in Crusoe's near-term plans."
-    },
-    {
-      "id": "0cd99ef8e5a1",
-      "title": "Automattic has a new board after failed attempt to put CEO on leave",
-      "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
-      "source": "TechCrunch",
-      "category": "科技互联网",
-      "published_at": "2026-09-25T23:04:34+00:00",
-      "summary": "After days of upheaval at Automattic, following a failed attempt to remove CEO Matt Mullenweg, the company has a new board."
-    },
-    {
-      "id": "5465dcbbdfb5",
-      "title": "Can Trump ever be wrong? His pick to lead FDA refused to say.",
-      "url": "https://arstechnica.com/health/2026/09/can-trump-ever-be-wrong-his-pick-to-lead-fda-refused-to-say/",
-      "source": "Ars Technica",
-      "category": "科技互联网",
-      "published_at": "2026-09-25T23:00:26+00:00",
-      "summary": "Heidi Overton faced questions focused on vaccines, birth control, and vapes."
-    },
-    {
-      "id": "c03329bed3d2",
-      "title": "Lab on a Contact Lens Can Measure Stress Through Serotonin",
-      "url": "https://spectrum.ieee.org/serotonin-stress-smart-contact-lens",
-      "source": "Hacker News",
-      "category": "科技互联网",
-      "published_at": "2026-09-25T22:28:02+00:00",
-      "summary": "Article URL: https://spectrum.ieee.org/serotonin-stress-smart-contact-lens Comments URL: https://news.ycombinator.com/item?id=49850781 Points: 42 # Comments: 9"
-    },
-    {
-      "id": "0411e2774483",
-      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-      "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-      "source": "TechCrunch",
-      "category": "科技互联网",
-      "published_at": "2026-09-25T22:20:47+00:00",
-      "summary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge."
-    },
-    {
-      "id": "35493723d548",
-      "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
-      "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
-      "source": "Ars Technica",
-      "category": "科技互联网",
-      "published_at": "2026-09-25T21:36:20+00:00",
-      "summary": "\"Overly constrained AI models\" could cause military operations to fail, judges say."
-    },
-    {
-      "id": "834599042ffa",
-      "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
-      "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
-      "source": "Ars Technica",
-      "category": "科技互联网",
-      "published_at": "2026-09-25T21:10:51+00:00",
-      "summary": "Despite challenges, Tesla aims for 1,000 Optimus robots per week by end of 2026."
-    },
-    {
-      "id": "cef9fc91331b",
-      "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
-      "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
+      "title": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+      "link": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "category": "综合热点",
-      "published_at": "2026-09-25T20:47:49+00:00",
+      "category": "综合",
+      "published": "2026-09-25 23:05 +0000",
+      "ts": 1790377540,
+      "summary": "Current and former agents speak to the BBC about the devastating impact of the FBI hack."
+    },
+    {
+      "title": "What even is an OS now?",
+      "link": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
+      "source": "Hacker News",
+      "category": "科技",
+      "published": "2026-09-25 21:36 +0000",
+      "ts": 1790372216,
+      "summary": "Comments"
+    },
+    {
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "link": "https://swarmtraces.org/",
+      "source": "Hacker News",
+      "category": "科技",
+      "published": "2026-09-25 21:09 +0000",
+      "ts": 1790370567,
+      "summary": "Comments"
+    },
+    {
+      "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+      "link": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "综合",
+      "published": "2026-09-25 20:47 +0000",
+      "ts": 1790369269,
       "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president."
-    },
-    {
-      "id": "b67b446e7aab",
-      "title": "Meta opens early access program for new Muse features",
-      "url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
-      "source": "TechCrunch",
-      "category": "科技互联网",
-      "published_at": "2026-09-25T20:34:53+00:00",
-      "summary": "Anyone interested in joining has to ask Muse to put them on the list."
-    },
-    {
-      "id": "7b2e6478ca7c",
-      "title": "The hottest new hangout for middle schoolers is NPR’s comment section?",
-      "url": "https://techcrunch.com/2026/09/25/the-hottest-new-hangout-for-middle-schoolers-is-nprs-comment-section/",
-      "source": "TechCrunch",
-      "category": "科技互联网",
-      "published_at": "2026-09-25T20:33:58+00:00",
-      "summary": "When NPR staffers flagged strange comments under their podcasts on Spotify as bots, it took a Gen Z colleague to (immediately) figure out the mystery."
-    },
-    {
-      "id": "73474fdf4423",
-      "title": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
-      "url": "https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/",
-      "source": "Ars Technica",
-      "category": "科技互联网",
-      "published_at": "2026-09-25T19:38:59+00:00",
-      "summary": "Ads appearing all over the Internet are trying to scam people."
-    },
-    {
-      "id": "390703f0fbbc",
-      "title": "Review: The iPhone 18 Pro is Apple's coolest smartphone (but only literally)",
-      "url": "https://arstechnica.com/apple/2026/09/review-the-iphone-18-pro-is-apples-coolest-smartphone-but-only-literally/",
-      "source": "Ars Technica",
-      "category": "科技互联网",
-      "published_at": "2026-09-25T19:34:42+00:00",
-      "summary": "Better thermals and battery life make this iterative update nicer to use."
     }
   ]
 }

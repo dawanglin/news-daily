@@ -1,150 +1,206 @@
-"""抓取 RSS / Atom 新闻并保存为可追溯 JSON。仅使用 Python 标准库。"""
+# -*- coding: utf-8 -*-
+"""
+抓取 RSS 新闻 -> data/news_YYYY-MM-DD.json
+纯标准库实现，零第三方依赖，Windows / GitHub Actions 均可直接运行。
 
-from __future__ import annotations
-
-import hashlib
-import html
-import json
-import re
-import ssl
+用法：python fetch_news.py
+"""
 import sys
+import re
+import time
+import html as html_mod
+import json
+import datetime
+import email.utils
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
-from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import urlparse
 
-import config
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
 
-ROOT = Path(__file__).resolve().parent
-DATA_DIR = ROOT / "data"
-TAG_RE = re.compile(r"<[^>]+>")
-SPACE_RE = re.compile(r"\s+")
+from config import (
+    NEWS_FEEDS, MAX_ITEMS_PER_FEED, MAX_ITEMS_TOTAL,
+    MAX_AGE_HOURS, EXTRACT_SENTENCES, FETCH_TIMEOUT, TZ_OFFSET_HOURS,
+)
 
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(exist_ok=True)
 
-def clean_text(value: str | None, limit: int = 280) -> str:
-    text = html.unescape(TAG_RE.sub(" ", value or ""))
-    text = SPACE_RE.sub(" ", text).strip()
-    if len(text) <= limit:
-        return text
-    return text[: limit - 1].rstrip() + "…"
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 
+ATOM_NS = "{http://www.w3.org/2005/Atom}"
 
-def child_text(node: ET.Element, names: tuple[str, ...]) -> str:
-    for child in node.iter():
-        tag = child.tag.rsplit("}", 1)[-1].lower()
-        if tag in names and child.text:
-            return child.text.strip()
-    return ""
+TZ = datetime.timezone(datetime.timedelta(hours=TZ_OFFSET_HOURS))
+NOW_UTC = datetime.datetime.now(datetime.timezone.utc)
 
 
-def entry_link(node: ET.Element) -> str:
-    for child in node.iter():
-        if child.tag.rsplit("}", 1)[-1].lower() != "link":
-            continue
-        href = child.attrib.get("href", "").strip()
-        rel = child.attrib.get("rel", "alternate")
-        if href and rel in ("alternate", ""):
-            return href
-        if child.text and child.text.strip().startswith("http"):
-            return child.text.strip()
-    return ""
+def fetch_bytes(url, attempts=2):
+    """抓取 RSS 原始字节，带 UA、超时和一次重试（应对偶发网络抖动）。"""
+    last_exc = None
+    for i in range(attempts):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*"})
+            with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT) as resp:
+                return resp.read()
+        except Exception as exc:
+            last_exc = exc
+            if i < attempts - 1:
+                time.sleep(3)
+    raise last_exc
 
 
-def normalize_date(raw: str) -> str:
+EMOJI_RE = re.compile("[\U0001F000-\U0001FAFF\U00002600-\U000027BF]")
+
+
+def clean_html(raw):
+    """去掉 HTML 标签、反转义、压缩空白，并清除新闻原文中的 emoji 字符。"""
     if not raw:
         return ""
+    text = re.sub(r"<[^>]+>", "", raw)
+    text = html_mod.unescape(text)
+    text = EMOJI_RE.sub("", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def parse_date(value):
+    """解析 RSS 的 pubDate / Atom 的 published，返回带时区的 datetime 或 None。"""
+    if not value:
+        return None
+    value = str(value).strip()
     try:
-        parsed = parsedate_to_datetime(raw)
-        if parsed.tzinfo is None:
-            parsed = parsed.replace(tzinfo=timezone.utc)
-        return parsed.astimezone(timezone.utc).isoformat()
-    except (TypeError, ValueError, OverflowError):
+        dt = email.utils.parsedate_to_datetime(value)
+        if dt and dt.tzinfo is None:
+            dt = dt.replace(tzinfo=datetime.timezone.utc)
+        return dt
+    except Exception:
         pass
     try:
-        return datetime.fromisoformat(raw.replace("Z", "+00:00")).astimezone(timezone.utc).isoformat()
-    except (TypeError, ValueError):
-        return raw[:40]
+        dt = datetime.datetime.fromisoformat(value.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=datetime.timezone.utc)
+        return dt
+    except Exception:
+        return None
 
 
-def fetch_xml(url: str) -> bytes:
-    request = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": "NewsDailyBot/1.0 (+https://github.com/dawanglin/news-daily)",
-            "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
-        },
-    )
-    context = ssl.create_default_context()
-    with urllib.request.urlopen(request, timeout=config.REQUEST_TIMEOUT, context=context) as response:
-        return response.read(4_000_000)
+def extract_summary(text, n=EXTRACT_SENTENCES, limit=300):
+    """抽取式摘要：取正文前 n 句话，最多 limit 字。"""
+    text = clean_html(text)
+    if not text:
+        return ""
+    parts = re.split(r"(?<=[。！？!?；;])", text)
+    parts = [p.strip() for p in parts if p.strip()]
+    summary = "".join(parts[:n]) if len(parts) > n else text
+    return summary[:limit]
 
 
-def parse_feed(xml_bytes: bytes, source: str, category: str) -> list[dict]:
-    root = ET.fromstring(xml_bytes)
-    nodes = [n for n in root.iter() if n.tag.rsplit("}", 1)[-1].lower() in ("item", "entry")]
+def parse_feed(feed_name, url, category):
+    """解析单个 RSS/Atom 源，返回条目列表。失败抛异常由调用方处理。"""
+    raw = fetch_bytes(url)
+    root = ET.fromstring(raw)  # 尊重 XML 声明的编码
     items = []
-    for node in nodes[: config.MAX_ITEMS_PER_FEED * 2]:
-        title = clean_text(child_text(node, ("title",)), 180)
-        link = entry_link(node)
-        description = child_text(node, ("description", "summary", "content", "encoded"))
-        published = child_text(node, ("pubdate", "published", "updated", "date"))
-        if not title or not link or urlparse(link).scheme not in ("http", "https"):
-            continue
-        items.append(
-            {
-                "id": hashlib.sha256(link.encode("utf-8")).hexdigest()[:12],
-                "title": title,
-                "url": link,
-                "source": source,
-                "category": category,
-                "published_at": normalize_date(published),
-                "summary": clean_text(description) or "点击查看原文了解详情。",
-            }
-        )
-        if len(items) >= config.MAX_ITEMS_PER_FEED:
-            break
+
+    if root.tag == "rss":
+        channel = root.find("channel")
+        nodes = channel.findall("item") if channel is not None else []
+        for node in nodes:
+            title = node.findtext("title") or ""
+            link = node.findtext("link") or ""
+            desc = node.findtext("description") or node.findtext("encoded") or ""
+            pub = parse_date(node.findtext("pubDate") or node.findtext("date"))
+            items.append({"title": title, "link": link, "desc": desc, "pub": pub})
+    elif root.tag == ATOM_NS + "feed":
+        for entry in root.findall(ATOM_NS + "entry"):
+            title = ""
+            t = entry.find(ATOM_NS + "title")
+            if t is not None:
+                title = "".join(t.itertext())
+            link_el = entry.find(ATOM_NS + "link")
+            link = link_el.get("href") if link_el is not None else ""
+            desc = ""
+            for tag in ("summary", "content"):
+                el = entry.find(ATOM_NS + tag)
+                if el is not None:
+                    desc = "".join(el.itertext())
+                    break
+            pub = parse_date((entry.findtext(ATOM_NS + "published")
+                              or entry.findtext(ATOM_NS + "updated")))
+            items.append({"title": title, "link": link, "desc": desc, "pub": pub})
+    else:
+        raise ValueError(f"无法识别的 feed 格式：{root.tag}")
+
     return items
 
 
-def sort_key(item: dict) -> str:
-    return item.get("published_at") or ""
+def main():
+    results = []
+    seen = set()
+    feed_stats = {}
 
-
-def main() -> int:
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-    all_items: list[dict] = []
-    errors: list[str] = []
-    for source, (url, category) in config.NEWS_FEEDS.items():
+    for feed_name, (url, category) in NEWS_FEEDS.items():
         try:
-            items = parse_feed(fetch_xml(url), source, category)
-            all_items.extend(items)
-            print(f"[成功] {source}: {len(items)} 条")
-        except Exception as exc:  # 单源失败不影响全局
-            errors.append(f"{source}: {type(exc).__name__}: {exc}")
-            print(f"[失败] {errors[-1]}", file=sys.stderr)
+            items = parse_feed(feed_name, url, category)
+        except Exception as exc:
+            feed_stats[feed_name] = {"url": url, "status": "失败", "count": 0, "error": str(exc)[:120]}
+            print(f"[失败] {feed_name}: {exc}")
+            continue
 
-    unique: dict[str, dict] = {}
-    for item in all_items:
-        key = re.sub(r"\W+", "", item["title"].lower())[:120] or item["url"]
-        unique.setdefault(key, item)
-    news = sorted(unique.values(), key=sort_key, reverse=True)[: config.MAX_ITEMS_TOTAL]
+        kept = 0
+        for it in items:
+            title = clean_html(it["title"])
+            if not title or not it["link"]:
+                continue
+            key = re.sub(r"\s+", "", title).lower()[:40]
+            if key in seen:
+                continue
+            pub = it["pub"]
+            if pub is not None and (NOW_UTC - pub) > datetime.timedelta(hours=MAX_AGE_HOURS):
+                continue
+            summary = extract_summary(it["desc"], EXTRACT_SENTENCES)
+            if not summary:
+                summary = title
+            seen.add(key)
+            results.append({
+                "title": title,
+                "link": it["link"],
+                "source": feed_name,
+                "category": category,
+                "published": pub.strftime("%Y-%m-%d %H:%M %z") if pub else "",
+                "ts": int(pub.timestamp()) if pub else 0,
+                "summary": summary,
+            })
+            kept += 1
+            if kept >= MAX_ITEMS_PER_FEED:
+                break
 
-    now = datetime.now().astimezone()
+        feed_stats[feed_name] = {"url": url, "status": "成功" if kept else "成功(0条)", "count": kept}
+        print(f"[成功] {feed_name}: {kept} 条")
+
+    # 按时间倒序；无时间的排最后
+    results.sort(key=lambda x: x["ts"], reverse=True)
+    results = results[:MAX_ITEMS_TOTAL]
+
+    today = NOW_UTC.astimezone(TZ).strftime("%Y-%m-%d")
     payload = {
-        "date": now.date().isoformat(),
-        "generated_at": now.isoformat(),
-        "count": len(news),
-        "errors": errors,
-        "items": news,
+        "date": today,
+        "generated_at": datetime.datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S %z"),
+        "total": len(results),
+        "sources": feed_stats,
+        "items": results,
     }
-    output = DATA_DIR / f"news_{now.date().isoformat()}.json"
-    output.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"已保存 {len(news)} 条新闻：{output}")
-    return 0 if news else 1
+    out = DATA_DIR / f"news_{today}.json"
+    out.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    print(f"\n共抓取 {len(results)} 条，已保存 -> {out}")
+    if not results:
+        print("警告：今日没有任何新闻被抓取，请检查网络或新闻源。")
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
-
+    main()

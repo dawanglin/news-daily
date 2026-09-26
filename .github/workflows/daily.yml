@@ -1,17 +1,18 @@
 name: Daily News Digest
 
+# 每天 08:00 北京时间（UTC 00:00）自动抓取并部署新闻速览
 on:
   schedule:
-    - cron: "0 0 * * *" # 北京时间每天 08:00
-  workflow_dispatch:
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}   # 也支持在 Actions 页面手动触发
 
 permissions:
-  contents: write
-  pages: write
+  contents: write   # 提交生成的 data/ 和 site/
+  pages: write      # 部署到 GitHub Pages
   id-token: write
 
 concurrency:
-  group: pages
+  group: "pages"
   cancel-in-progress: false
 
 jobs:
@@ -21,31 +22,43 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Fetch and build
+
+      - name: 抓取新闻（纯标准库，无需安装依赖）
+        run: python fetch_news.py
+
+      - name: AI 总结（可选，未配置密钥会自动跳过）
+        run: python summarize.py
         env:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_API_BASE: ${{ secrets.AI_API_BASE }}
           AI_MODEL: ${{ secrets.AI_MODEL }}
-        run: |
-          python fetch_news.py
-          python summarize.py
-          python build_site.py
-      - name: Commit daily archive
+
+      - name: 生成静态站点
+        run: python build_site.py
+
+      - name: 提交当天数据与站点
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data site
-          git diff --cached --quiet || git commit -m "chore: update daily news $(date -u +%F)"
+          git diff --cached --quiet || git commit -m "chore: 更新 $(date +%F) 新闻速览"
           git push
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传 Pages 产物
+        uses: actions/upload-pages-artifact@v3
         with:
           path: site
-      - name: Deploy to GitHub Pages
+
+      - name: 部署到 GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

@@ -1,64 +1,102 @@
-"""可选：调用 OpenAI 兼容接口生成今日要闻综述。"""
+# -*- coding: utf-8 -*-
+"""
+AI 总结（可选）：读取最新 data/news_*.json，调用 OpenAI 兼容接口生成每日综述。
 
-from __future__ import annotations
+- 未配置 AI_API_KEY  -> 直接跳过，不影响构建（此时页面使用抽取式摘要）。
+- 配置了但调用失败  -> 打印错误并跳过，不中断流水线。
+- 产物              -> data/summary_YYYY-MM-DD.md
 
+用法：python summarize.py
+"""
+import sys
+import os
 import json
 import urllib.request
-from datetime import date
 from pathlib import Path
 
-import config
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
 
-ROOT = Path(__file__).resolve().parent
-DATA_DIR = ROOT / "data"
+from config import AI_API_KEY, AI_API_BASE, AI_MODEL
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "data"
 
 
-def latest_news_file() -> Path | None:
-    files = sorted(DATA_DIR.glob("news_*.json"), reverse=True)
-    return files[0] if files else None
+def get_latest_news():
+    files = sorted(DATA_DIR.glob("news_*.json"))
+    if not files:
+        return None
+    return json.loads(files[-1].read_text(encoding="utf-8"))
 
 
-def main() -> int:
-    if not config.AI_API_KEY:
-        print("未配置 AI_API_KEY，跳过 AI 综述。")
-        return 0
-    news_file = latest_news_file()
-    if not news_file:
-        print("没有新闻数据，跳过 AI 综述。")
-        return 0
-
-    payload = json.loads(news_file.read_text(encoding="utf-8"))
-    lines = [f"- [{item['category']}] {item['title']}（{item['source']}）" for item in payload["items"][:30]]
-    prompt = (
-        "你是一名严谨的中文新闻编辑。请根据下面的标题写一份 350-500 字的今日要闻综述，"
-        "分为“今日焦点”“趋势观察”“值得留意”三个小节。不得编造标题之外的事实，"
-        "不得使用 Markdown 表格。\n\n" + "\n".join(lines)
+def build_prompt(news):
+    lines = []
+    for it in news["items"][:30]:
+        lines.append(f"- [{it['category']}] {it['title']}（{it['source']}）\n  摘要：{it['summary'][:120]}")
+    body = "\n".join(lines)
+    return (
+        "你是资深中文新闻编辑。请根据下面抓取的新闻，写一份《今日要闻综述》：\n"
+        "1. 先写 2-3 句总体概览；\n"
+        "2. 按「科技」「综合」分类，每类下列出最重要的 3-6 条，每条一句话，含来源；\n"
+        "3. 用 Markdown 格式（## 作为分类标题，- 作为条目）；\n"
+        "4. 控制在 600 字以内，直接输出正文，不要寒暄。\n\n"
+        f"新闻日期：{news['date']}\n\n"
+        f"原始新闻：\n{body}"
     )
-    body = json.dumps(
-        {
-            "model": config.AI_MODEL,
-            "messages": [
-                {"role": "system", "content": "输出简体中文，保持客观、简洁、信息密度高。"},
-                {"role": "user", "content": prompt},
-            ],
-            "temperature": 0.3,
-        }
-    ).encode("utf-8")
-    request = urllib.request.Request(
-        f"{config.AI_API_BASE}/chat/completions",
-        data=body,
+
+
+def call_ai(key, base, model, prompt):
+    payload = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": "你是一名严谨、简洁的中文新闻编辑。"},
+            {"role": "user", "content": prompt},
+        ],
+        "temperature": 0.4,
+        "max_tokens": 1200,
+    }
+    url = base.rstrip("/") + "/chat/completions"
+    req = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {key}",
+        },
         method="POST",
-        headers={"Authorization": f"Bearer {config.AI_API_KEY}", "Content-Type": "application/json"},
     )
-    with urllib.request.urlopen(request, timeout=90) as response:
-        result = json.load(response)
-    content = result["choices"][0]["message"]["content"].strip()
-    output = DATA_DIR / f"summary_{payload.get('date', date.today().isoformat())}.md"
-    output.write_text(content + "\n", encoding="utf-8")
-    print(f"AI 综述已保存：{output}")
-    return 0
+    with urllib.request.urlopen(req, timeout=180) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+    return data["choices"][0]["message"]["content"]
+
+
+def main():
+    news = get_latest_news()
+    if not news or not news.get("items"):
+        print("没有可总结的新闻数据，跳过 AI 总结。")
+        return
+
+    key = os.environ.get("AI_API_KEY") or AI_API_KEY
+    base = os.environ.get("AI_API_BASE") or AI_API_BASE
+    model = os.environ.get("AI_MODEL") or AI_MODEL
+
+    if not key:
+        print("AI_API_KEY 未配置，跳过 AI 总结（页面将使用抽取式摘要）。")
+        return
+
+    try:
+        content = call_ai(key, base, model, build_prompt(news))
+    except Exception as exc:
+        print(f"[警告] AI 总结调用失败，跳过：{exc}")
+        return
+
+    out = DATA_DIR / f"summary_{news['date']}.md"
+    out.write_text(content.strip(), encoding="utf-8")
+    print(f"AI 总结完成，已保存 -> {out}")
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
-
+    main()
