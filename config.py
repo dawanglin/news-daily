@@ -1,42 +1,44 @@
 # -*- coding: utf-8 -*-
-"""每日简报配置：中文来源、栏目、数量与免费规则。"""
+"""个人情报流配置：围绕从想法到维护的完整动手过程。"""
 
-# RSS 来源只承担事实与专业内容；公共热榜由 fetch_news.py 单独抓取。
 NEWS_FEEDS = {
-    "中国新闻网": ("https://www.chinanews.com.cn/rss/scroll-news.xml", "社会与民生"),
-    "BBC 中文": ("https://feeds.bbci.co.uk/zhongwen/simp/rss.xml", "世界与中国"),
-    "少数派": ("https://sspai.com/feed", "工作与科技"),
-    "IT之家": ("https://www.ithome.com/rss/", "工作与科技"),
-    "Solidot": ("https://www.solidot.org/index.rss", "工作与科技"),
-    "量子位": ("https://www.qbitai.com/feed", "工作与科技"),
+    "量子位": ("https://www.qbitai.com/feed", "想法与概念"),
+    "机器之心": ("https://wechat2rss.bestblogs.dev/feed/8d97af31b0de9e48da74558af128a4673d78c9a3.xml", "想法与概念"),
+    "InfoQ 中文": ("https://www.infoq.cn/feed", "方法与执行"),
+    "开源中国": ("https://www.oschina.net/news/rss", "工具与硬件"),
+    "少数派": ("https://sspai.com/feed", "工具与硬件"),
+    "IT之家": ("https://www.ithome.com/rss/", "工具与硬件"),
+    "Solidot": ("https://www.solidot.org/index.rss", "想法与概念"),
+    "科学网·数理科学": ("https://www.sciencenet.cn/xml/paper.aspx?di=7", "测试与成果"),
+    "科学网·科普": ("https://www.sciencenet.cn/xml/blog.aspx?di=7", "想法与概念"),
+    "前端技术精选": ("https://fed.chanceyu.com/atom.xml", "方法与执行"),
+    "阮一峰的网络日志": ("https://www.ruanyifeng.com/blog/atom.xml", "方法与执行"),
 }
 
 CATEGORY_ORDER = [
-    "今日热议",
-    "社会与民生",
-    "钱包与消费",
-    "吃喝住行",
-    "健康教育家庭",
-    "工作与科技",
-    "文娱与体育",
-    "世界与中国",
+    "行业观察",
+    "想法与概念",
+    "孵化与转化",
+    "工具与硬件",
+    "方法与执行",
+    "测试与成果",
+    "维护与复盘",
 ]
 
 CATEGORY_HINTS = {
-    "健康教育家庭": "留意健康、教育、养老、育儿或家庭生活中的实际影响。",
-    "钱包与消费": "留意它对价格、收入、资产安全或消费选择的影响。",
-    "吃喝住行": "它与饮食、住房、交通、旅行或城市生活直接相关。",
-    "文娱与体育": "它正在影响大众文化、休闲选择或公共讨论。",
-    "工作与科技": "重点不是参数，而是它会怎样改变工作方法和日常工具。",
-    "世界与中国": "关注外部变化对中国用户、市场和出行可能带来的影响。",
-    "社会与民生": "关注公共服务、社会规则以及普通人的真实处境。",
-    "今日热议": "这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。",
+    "行业观察": "观察与你方向有关的公司、产品和开源生态变化。",
+    "想法与概念": "先提炼它的新概念，以及它改变了哪个旧认识。",
+    "孵化与转化": "判断这个想法能否缩成一个小项目、网页或实验。",
+    "工具与硬件": "看它能否成为你的新工具，或降低动手门槛。",
+    "方法与执行": "抽取可照着做的步骤、工作流和实现方法。",
+    "测试与成果": "查看它怎样验证效果，结果是否经得起复现。",
+    "维护与复盘": "留意长期使用中的成本、边界、故障和维护经验。",
 }
 
-MAX_ITEMS_PER_FEED = 12
-MAX_ITEMS_TOTAL = 28
-MUST_READ_COUNT = 8
-MAX_AGE_HOURS = 48
+MAX_ITEMS_PER_FEED = 18
+MAX_ITEMS_TOTAL = 18
+MUST_READ_COUNT = 6
+MAX_AGE_HOURS = 72
 EXTRACT_SENTENCES = 2
 FETCH_TIMEOUT = 18
 TZ_OFFSET_HOURS = 8
