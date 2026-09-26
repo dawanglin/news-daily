@@ -1,0 +1,569 @@
+{
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27 03:39:26 +0800",
+  "total": 28,
+  "method": "公共热榜发现 + 中文媒体核实 + 免费规则分类（未使用 AI）",
+  "categories": [
+    "今日热议",
+    "社会与民生",
+    "钱包与消费",
+    "吃喝住行",
+    "健康教育家庭",
+    "工作与科技",
+    "文娱与体育",
+    "世界与中国"
+  ],
+  "sources": {
+    "百度热搜": {
+      "status": "成功",
+      "count": 14,
+      "type": "公共热榜"
+    },
+    "头条热榜": {
+      "status": "成功",
+      "count": 14,
+      "type": "公共热榜"
+    },
+    "B站热门": {
+      "status": "成功",
+      "count": 0,
+      "type": "公共热榜"
+    },
+    "中国新闻网": {
+      "status": "成功",
+      "count": 12,
+      "type": "媒体来源"
+    },
+    "BBC 中文": {
+      "status": "成功",
+      "count": 11,
+      "type": "媒体来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 2,
+      "type": "媒体来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 12,
+      "type": "媒体来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 9,
+      "type": "媒体来源"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 10,
+      "type": "媒体来源"
+    }
+  },
+  "items": [
+    {
+      "title": "习近平主席美国之行",
+      "link": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%B8%BB%E5%B8%AD%E7%BE%8E%E5%9B%BD%E4%B9%8B%E8%A1%8C&sa=fyb_news&rsv_dl=fyb_news",
+      "source": "百度热搜",
+      "signals": [
+        "百度热搜"
+      ],
+      "category": "今日热议",
+      "published": "09-27 03:39",
+      "ts": 1790451554,
+      "summary": "当地时间9月23日下午，国家主席习近平乘专机抵达华盛顿，应美国总统特朗普邀请，对美国进行国事访问。一起来回顾习近平主席美国之行。",
+      "why": "这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。",
+      "confidence": "热度线索",
+      "confidence_class": "signal",
+      "score": 110,
+      "rank": 1,
+      "must_read": true
+    },
+    {
+      "title": "中美达成八点成果共识",
+      "link": "https://www.baidu.com/s?wd=%E4%B8%AD%E7%BE%8E%E8%BE%BE%E6%88%90%E5%85%AB%E7%82%B9%E6%88%90%E6%9E%9C%E5%85%B1%E8%AF%86&sa=fyb_news&rsv_dl=fyb_news",
+      "source": "百度热搜",
+      "signals": [
+        "百度热搜"
+      ],
+      "category": "今日热议",
+      "published": "09-27 03:39",
+      "ts": 1790451554,
+      "summary": "中美达成八点成果共识",
+      "why": "这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。",
+      "confidence": "热度线索",
+      "confidence_class": "signal",
+      "score": 108,
+      "rank": 2,
+      "must_read": true
+    },
+    {
+      "title": "防止军国主义复活是中美共同责任",
+      "link": "https://www.baidu.com/s?wd=%E9%98%B2%E6%AD%A2%E5%86%9B%E5%9B%BD%E4%B8%BB%E4%B9%89%E5%A4%8D%E6%B4%BB%E6%98%AF%E4%B8%AD%E7%BE%8E%E5%85%B1%E5%90%8C%E8%B4%A3%E4%BB%BB&sa=fyb_news&rsv_dl=fyb_news",
+      "source": "百度热搜",
+      "signals": [
+        "百度热搜"
+      ],
+      "category": "今日热议",
+      "published": "09-27 03:39",
+      "ts": 1790451554,
+      "summary": "9月26日是东京审判开庭80周年，中美同为联合国安理会常任理事国，维护战后国际秩序，防止军国主义复活是双方的共同责任。",
+      "why": "这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。",
+      "confidence": "热度线索",
+      "confidence_class": "signal",
+      "score": 106,
+      "rank": 3,
+      "must_read": false
+    },
+    {
+      "title": "中美达成300亿美元对等降税安排",
+      "link": "https://www.toutiao.com/trending/7689753031058918975/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%225%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227689753031058918975%22%2C%22hot_board_impr_id%22%3A%2220260927033917B83CD5F24A84FC26F96B%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%B8%AD%E7%BE%8E%E8%BE%BE%E6%88%90300%E4%BA%BF%E7%BE%8E%E5%85%83%E5%AF%B9%E7%AD%89%E9%99%8D%E7%A8%8E%E5%AE%89%E6%8E%92%22%7D&rank=&style_id=40132&topic_id=7689753031058918975",
+      "source": "头条热榜",
+      "signals": [
+        "头条热榜"
+      ],
+      "category": "今日热议",
+      "published": "09-27 03:39",
+      "ts": 1790451554,
+      "summary": "中美达成300亿美元对等降税安排",
+      "why": "这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。",
+      "confidence": "热度线索",
+      "confidence_class": "signal",
+      "score": 106,
+      "rank": 1,
+      "must_read": false
+    },
+    {
+      "title": "把中美建设性战略稳定关系转为行动",
+      "link": "https://www.baidu.com/s?wd=%E6%8A%8A%E4%B8%AD%E7%BE%8E%E5%BB%BA%E8%AE%BE%E6%80%A7%E6%88%98%E7%95%A5%E7%A8%B3%E5%AE%9A%E5%85%B3%E7%B3%BB%E8%BD%AC%E4%B8%BA%E8%A1%8C%E5%8A%A8&sa=fyb_news&rsv_dl=fyb_news",
+      "source": "百度热搜",
+      "signals": [
+        "百度热搜"
+      ],
+      "category": "今日热议",
+      "published": "09-27 03:39",
+      "ts": 1790451554,
+      "summary": "今年是中美各自发展的关键之年，中美关系又站在新的历史起点。双方应当展现大国担当，顺应人民期盼和时代大势，共同落实好两国元首重要共识，把中美建设性战略稳定关系从愿景转化为行动，朝着合作为主、竞争有度、分歧可控、和平可期的方向努力，走出一条两个大国在这个星球上的正确相处之道。",
+      "why": "这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。",
+      "confidence": "热度线索",
+      "confidence_class": "signal",
+      "score": 104,
+      "rank": 4,
+      "must_read": false
+    },
+    {
+      "title": "特朗普第一时间发帖：期待下次会面",
+      "link": "https://www.toutiao.com/trending/7689304243416616490/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%221%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227689304243416616490%22%2C%22hot_board_impr_id%22%3A%2220260927033917B83CD5F24A84FC26F96B%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%89%B9%E6%9C%97%E6%99%AE%E7%AC%AC%E4%B8%80%E6%97%B6%E9%97%B4%E5%8F%91%E5%B8%96%EF%BC%9A%E6%9C%9F%E5%BE%85%E4%B8%8B%E6%AC%A1%E4%BC%9A%E9%9D%A2%22%7D&rank=&style_id=40132&topic_id=7689304243416616490",
+      "source": "头条热榜",
+      "signals": [
+        "头条热榜"
+      ],
+      "category": "今日热议",
+      "published": "09-27 03:39",
+      "ts": 1790451554,
+      "summary": "特朗普第一时间发帖：期待下次会面",
+      "why": "这是公共平台上的热度线索；事实细节仍需结合可靠报道判断。",
+      "confidence": "热度线索",
+      "confidence_class": "signal",
+      "score": 104,
+      "rank": 2,
+      "must_read": false
+    },
+    {
+      "title": "柬埔寨设立首个暹罗鳄遗传保护区",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-27/10704308.shtml",
+      "source": "中国新闻网",
+      "signals": [
+        "中国新闻网"
+      ],
+      "category": "社会与民生",
+      "published": "09-27 01:34",
+      "ts": 1790444093,
+      "summary": "中新社金边9月26日电 (杨强 张堰林)柬埔寨官方当地时间26日在一份联合新闻稿中宣布，该国在豆蔻山脉的奥索姆地区正式设立了首个暹罗鳄遗传保护区。这是一个旨在保护世界上最稀有爬行动物之一、极度濒危的暹罗鳄自然遗传多样性的指定区域。",
+      "why": "关注公共服务、社会规则以及普通人的真实处境。",
+      "confidence": "已核实报道",
+      "confidence_class": "verified",
+      "score": 88.96,
+      "rank": 0,
+      "must_read": true
+    },
+    {
+      "title": "（爱知·名古屋亚运会）综合消息：中国代表团破“百金” 中国男足时隔28年再进亚运四强",
+      "link": "https://www.chinanews.com.cn/ty/2026/09-27/10704305.shtml",
+      "source": "中国新闻网",
+      "signals": [
+        "中国新闻网"
+      ],
+      "category": "文娱与体育",
+      "published": "09-27 01:17",
+      "ts": 1790443060,
+      "summary": "中新社日本名古屋9月26日电 当地时间26日，爱知·名古屋亚运会共决出25枚金牌。中国体育代表团在射击项目中收获本届亚运会第100金。",
+      "why": "它正在影响大众文化、休闲选择或公共讨论。",
+      "confidence": "已核实报道",
+      "confidence_class": "verified",
+      "score": 88.82,
+      "rank": 0,
+      "must_read": true
+    },
+    {
+      "title": "中国儿艺原创舞台剧《十二生肖》亮相悉尼",
+      "link": "https://www.chinanews.com.cn/cul/2026/09-27/10704306.shtml",
+      "source": "中国新闻网",
+      "signals": [
+        "中国新闻网"
+      ],
+      "category": "健康教育家庭",
+      "published": "09-27 01:16",
+      "ts": 1790443004,
+      "summary": "中新社悉尼9月26日电 (记者 薄雯雯)中国儿童艺术剧院原创视觉舞台剧《十二生肖》(The Dragon Child)26日在澳大利亚悉尼连演两场，吸引2000多名观众。",
+      "why": "留意健康、教育、养老、育儿或家庭生活中的实际影响。",
+      "confidence": "已核实报道",
+      "confidence_class": "verified",
+      "score": 88.81,
+      "rank": 0,
+      "must_read": true
+    },
+    {
+      "title": "比利·简·金杯深圳总决赛：乌克兰队战胜意大利队晋级决赛",
+      "link": "https://www.chinanews.com.cn/dwq/2026/09-27/10704307.shtml",
+      "source": "中国新闻网",
+      "signals": [
+        "中国新闻网"
+      ],
+      "category": "世界与中国",
+      "published": "09-27 01:16",
+      "ts": 1790442994,
+      "summary": "中新社深圳9月26日电 (记者 张璐)2026比利·简·金杯深圳总决赛半决赛26日举行，乌克兰队以2:0战胜意大利队，成功晋级决赛。",
+      "why": "关注外部变化对中国用户、市场和出行可能带来的影响。",
+      "confidence": "已核实报道",
+      "confidence_class": "verified",
+      "score": 88.81,
+      "rank": 0,
+      "must_read": true
+    },
+    {
+      "title": "（爱知·名古屋亚运会）林诗栋/蒯曼击败王楚钦/孙颖莎 夺得亚运会乒乓球混双冠军",
+      "link": "https://www.chinanews.com.cn/ty/2026/09-27/10704304.shtml",
+      "source": "中国新闻网",
+      "signals": [
+        "中国新闻网"
+      ],
+      "category": "文娱与体育",
+      "published": "09-27 00:27",
+      "ts": 1790440079,
+      "summary": "中新社日本名古屋9月26日电 (记者 国璇)当地时间26日晚举行的爱知·名古屋亚运会乒乓球混双决赛中，林诗栋/蒯曼以大比分4:0击败卫冕冠军王楚钦/孙颖莎，夺得冠军，中国队实现亚运会乒乓球混双项目三连冠。",
+      "why": "它正在影响大众文化、休闲选择或公共讨论。",
+      "confidence": "已核实报道",
+      "confidence_class": "verified",
+      "score": 88.41,
+      "rank": 0,
+      "must_read": true
+    },
+    {
+      "title": "驻泰国使馆提醒在泰中国公民防范强降雨及洪涝灾害",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-27/10704303.shtml",
+      "source": "中国新闻网",
+      "signals": [
+        "中国新闻网"
+      ],
+      "category": "吃喝住行",
+      "published": "09-27 00:07",
+      "ts": 1790438858,
+      "summary": "近日，泰国多地持续出现强降雨天气，曼谷及周边地区受影响较为明显。泰国气象局发布强降雨预警称，曼谷未来一段时间仍有大范围雷雨及局地大雨天气。",
+      "why": "它与饮食、住房、交通、旅行或城市生活直接相关。",
+      "confidence": "已核实报道",
+      "confidence_class": "verified",
+      "score": 88.24,
+      "rank": 0,
+      "must_read": true
+    },
+    {
+      "title": "伊朗总统：不再信任同美国的对话",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-27/10704302.shtml",
+      "source": "中国新闻网",
+      "signals": [
+        "中国新闻网"
+      ],
+      "category": "世界与中国",
+      "published": "09-27 00:05",
+      "ts": 1790438714,
+      "summary": "据伊朗方面26日消息，伊朗总统佩泽希齐扬在接受采访时表示，鉴于每一轮谈判后美国都会发动袭击并实施制裁，伊朗不再信任与美国的对话。",
+      "why": "关注外部变化对中国用户、市场和出行可能带来的影响。",
+      "confidence": "已核实报道",
+      "confidence_class": "verified",
+      "score": 88.22,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "福建罗源县碧里乡发生滑坡泥石流险情 3人暂未联系上",
+      "link": "https://www.chinanews.com.cn/sh/2026/09-27/10704301.shtml",
+      "source": "中国新闻网",
+      "signals": [
+        "中国新闻网"
+      ],
+      "category": "社会与民生",
+      "published": "09-27 00:05",
+      "ts": 1790438706,
+      "summary": "记者从福建省福州市罗源县应急指挥部了解到： 9月26日17时03分，罗源县碧里乡发生一起土地平整项目滑坡-泥石流险情。险情发生后，当地第一时间组织6支、116名专业力量，开展人员搜救、应急抢险，并做好现场清理、道路疏通、人员安置等工作。",
+      "why": "关注公共服务、社会规则以及普通人的真实处境。",
+      "confidence": "已核实报道",
+      "confidence_class": "verified",
+      "score": 88.22,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "特朗普称拒绝伊朗重开霍尔木兹海峡的提议",
+      "link": "https://www.chinanews.com.cn/gj/2026/09-27/10704300.shtml",
+      "source": "中国新闻网",
+      "signals": [
+        "中国新闻网"
+      ],
+      "category": "世界与中国",
+      "published": "09-27 00:02",
+      "ts": 1790438578,
+      "summary": "美国总统特朗普26日称，他拒绝了伊朗提出的重开霍尔木兹海峡的提议。",
+      "why": "关注外部变化对中国用户、市场和出行可能带来的影响。",
+      "confidence": "已核实报道",
+      "confidence_class": "verified",
+      "score": 88.2,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "头发上、衣服上都是它！东北秋天的“小咬”到底是啥",
+      "link": "https://www.chinanews.com.cn/life/2026/09-27/10704299.shtml",
+      "source": "中国新闻网",
+      "signals": [
+        "中国新闻网"
+      ],
+      "category": "社会与民生",
+      "published": "09-27 00:02",
+      "ts": 1790438524,
+      "summary": "入秋以来，在哈尔滨、伊春等地的户外，黑色小飞虫成群盘旋，粘在头发、衣服上，不好清理。不少人疑惑，这到底是什么虫子？",
+      "why": "关注公共服务、社会规则以及普通人的真实处境。",
+      "confidence": "已核实报道",
+      "confidence_class": "verified",
+      "score": 88.19,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "“张雪机车”车手获世界超级摩托车锦标赛意大利站首回合第4名",
+      "link": "https://www.chinanews.com.cn/ty/2026/09-26/10704298.shtml",
+      "source": "中国新闻网",
+      "signals": [
+        "中国新闻网"
+      ],
+      "category": "文娱与体育",
+      "published": "09-26 23:09",
+      "ts": 1790435340,
+      "summary": "北京时间今晚20时，WSBK世界超级摩托车锦标赛意大利站WorldSSP组别第一回合正赛开赛。这是本赛季第10站比赛，之前排位赛，中国摩托车制造商“张雪机车”车手瓦伦丁·德比斯排名第八，正赛首回合从第三排发车。",
+      "why": "它正在影响大众文化、休闲选择或公共讨论。",
+      "confidence": "已核实报道",
+      "confidence_class": "verified",
+      "score": 87.75,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "“十一”假期前四川、陕西等地部分地区有大到暴雨 注意防范",
+      "link": "https://www.chinanews.com.cn/sh/2026/09-26/10704297.shtml",
+      "source": "中国新闻网",
+      "signals": [
+        "中国新闻网"
+      ],
+      "category": "吃喝住行",
+      "published": "09-26 23:08",
+      "ts": 1790435282,
+      "summary": "今天(9月26日)至月底，华西到黄淮一带仍多降雨，四川、陕西、河南等地部分地区有大到暴雨。同时，江南、华南将持续闷热天气，浙江、福建等地部分地区还有持续性高温。",
+      "why": "它与饮食、住房、交通、旅行或城市生活直接相关。",
+      "confidence": "已核实报道",
+      "confidence_class": "verified",
+      "score": 87.74,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "Anthropic Claude 刷新物理学世界纪录：单挑基于杨振宁理论 9 圈难题",
+      "link": "https://www.ithome.com/1/007/444.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "工作与科技",
+      "published": "09-26 23:44",
+      "ts": 1790437450,
+      "summary": "Anthropic 官宣，Claude 拿下了理论物理的一项前沿纪录。它在几乎无人类干预的情况下，连续运行数天，一举攻克了高能物理学界出了名难算的「九圈散射振幅」计算难题！",
+      "why": "重点不是参数，而是它会怎样改变工作方法和日常工具。",
+      "confidence": "专业来源",
+      "confidence_class": "professional",
+      "score": 78.04,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "習近平訪美晤特朗普：中美競賽誰領先？美國民眾怎麼看",
+      "link": "https://www.bbc.com/zhongwen/articles/ckddvj0jy3zgo/trad?at_medium=RSS&at_campaign=rss",
+      "source": "BBC 中文",
+      "signals": [
+        "BBC 中文"
+      ],
+      "category": "世界与中国",
+      "published": "09-26 10:51",
+      "ts": 1790391115,
+      "summary": "「特習會2.0」即將登場，此時中美競爭白熱化、亦敵亦友，美國民眾認為誰正在領先？BBC中文走訪紐約街頭，聽聽他們最期待兩位元首討論哪些議題？",
+      "why": "关注外部变化对中国用户、市场和出行可能带来的影响。",
+      "confidence": "已核实报道",
+      "confidence_class": "verified",
+      "score": 77.61,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "宇树王兴兴回应为何造 390 万元起的载人变形机甲：大型机器人是行业不可阻挡的趋势",
+      "link": "https://www.ithome.com/1/007/443.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "工作与科技",
+      "published": "09-26 22:29",
+      "ts": 1790432951,
+      "summary": "IT之家 9 月 26 日消息，今年 5 月，宇树科技发布 GD01 载人变形机甲， 390 万元起 。9 月 23 日至 27 日，第五届全球数字贸易博览会在杭州举行。",
+      "why": "重点不是参数，而是它会怎样改变工作方法和日常工具。",
+      "confidence": "专业来源",
+      "confidence_class": "professional",
+      "score": 77.42,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "Opus 5.5 干一半就开溜？Anthropic 揭秘：你的程序替它打了下班卡",
+      "link": "https://www.ithome.com/1/007/442.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "工作与科技",
+      "published": "09-26 22:20",
+      "ts": 1790432402,
+      "summary": "你让 AI Agent 连夜迁移一个代码库。第二天一早，满怀期待地打开终端，没想到只看到这样一条消息： 已完成 3 个接口迁移，接下来我将处理剩余两个端点，并补上测试。",
+      "why": "重点不是参数，而是它会怎样改变工作方法和日常工具。",
+      "confidence": "专业来源",
+      "confidence_class": "professional",
+      "score": 77.34,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "从代码分析到授权争议：一用户用 AI 破解 IDM 引发争议",
+      "link": "https://www.ithome.com/1/007/441.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "工作与科技",
+      "published": "09-26 22:12",
+      "ts": 1790431947,
+      "summary": "IT之家 9 月 26 日消息，据 Wccftech 报道，一则关于“大语言模型破解付费软件”的帖子今日在 Reddit 上引发关注。用户 No_Ideal8394 声称，他利用无审查限制的 Qwen3.8-Flash-Next-Uncensored ，成功破解了 Internet Download Manager（IDM）6.43 版本，使其绕过 IDM 试用限制，将软件变为完全激活版本，从而省去每年每台电脑 11.95 美元 （I…",
+      "why": "重点不是参数，而是它会怎样改变工作方法和日常工具。",
+      "confidence": "专业来源",
+      "confidence_class": "professional",
+      "score": 77.28,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "中国科学院与合工大解锁薄板“漩涡操控”新技术，实现无电子调控的跨尺度物体精准操控",
+      "link": "https://www.ithome.com/1/007/439.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "健康教育家庭",
+      "published": "09-26 22:03",
+      "ts": 1790431381,
+      "summary": "IT之家 9 月 26 日消息，据央视新闻报道，不用任何电子设备，仅靠一块提前设计好的普通薄板，就能让大小不一的颗粒、构件自动旋转、绕行、定点停留。近日，中国科学院声学研究所联合合肥工业大学的科研团队，攻克新型物体操控技术， 实现了无电子调控的跨尺度物体精准操控 ，相关成果近日在国际学术期刊《先进科学》发表。",
+      "why": "留意健康、教育、养老、育儿或家庭生活中的实际影响。",
+      "confidence": "专业来源",
+      "confidence_class": "professional",
+      "score": 77.2,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "科学家首次实时观测单个声子消失，量子计算纠错研究迈出重要一步",
+      "link": "https://www.ithome.com/1/007/438.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "健康教育家庭",
+      "published": "09-26 21:58",
+      "ts": 1790431109,
+      "summary": "IT之家 9 月 26 日消息，斯坦福大学宣布，该校团队首次实时观测到单个“声子”（phonon）消失的量子跃迁过程。相关成果已于当地时间 9 月 17 日发表于《科学》。",
+      "why": "留意健康、教育、养老、育儿或家庭生活中的实际影响。",
+      "confidence": "专业来源",
+      "confidence_class": "professional",
+      "score": 77.16,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "1931 年理论预言终获验证：科学家首次在超冷原子气体中观测到贝特弦",
+      "link": "https://www.ithome.com/1/007/434.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "健康教育家庭",
+      "published": "09-26 21:18",
+      "ts": 1790428711,
+      "summary": "IT之家 9 月 26 日消息，奥地利因斯布鲁克大学研究团队成功在超冷铯原子气体中实验观测到“Bethe strings（贝特弦）”，验证了物理学家汉斯 · 贝特于 1931 年提出的一项量子理论预测。贝特弦是一种仅能存在于一维量子系统中的多粒子束缚态。",
+      "why": "留意健康、教育、养老、育儿或家庭生活中的实际影响。",
+      "confidence": "专业来源",
+      "confidence_class": "professional",
+      "score": 76.83,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "宜家 Matter 智能家居终于要来了？在中国市场它将如何破局",
+      "link": "https://sspai.com/post/114958",
+      "source": "少数派",
+      "signals": [
+        "少数派"
+      ],
+      "category": "吃喝住行",
+      "published": "09-26 14:00",
+      "ts": 1790402400,
+      "summary": "距离宜家首批Matter智能家居产品在海外上市已有大半年的时间，而中国市场则是许久未有消息。直到今年年中，多款宜家智能新品陆续出现在国家CCC认证数据库中，我们才得知：这批主打高性价比、支持新一代智能 ... 查看全文",
+      "why": "它与饮食、住房、交通、旅行或城市生活直接相关。",
+      "confidence": "专业来源",
+      "confidence_class": "professional",
+      "score": 75.17,
+      "rank": 0,
+      "must_read": false
+    },
+    {
+      "title": "黑手党可能阻止了芬太尼流入意大利",
+      "link": "https://www.solidot.org/story?sid=85478",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "文娱与体育",
+      "published": "09-26 11:42",
+      "ts": 1790394154,
+      "summary": "在电影《教父》中，维托柯里昂（Don Vito Corleone）拒绝参与海洛因交易，称毒品生意太脏。现实中的黑手党并非如此，但对于选择芬太尼还是海洛因等其它毒品，意大利黑手党看起来选择了拒绝芬太尼。",
+      "why": "它正在影响大众文化、休闲选择或公共讨论。",
+      "confidence": "专业来源",
+      "confidence_class": "professional",
+      "score": 70.03,
+      "rank": 0,
+      "must_read": false
+    }
+  ]
+}
