@@ -2,6 +2,8 @@ name: Daily News Digest
 
 # 每天 08:00 北京时间（UTC 00:00）自动抓取并部署新闻速览
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch: {}   # 也支持在 Actions 页面手动触发
