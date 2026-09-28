@@ -1,11 +1,12 @@
 name: Daily News Digest
 
-# 每天下午 17:00 北京时间（UTC 09:00）自动抓取并部署
+# 每天下午 17:03 北京时间首次运行；17:18、17:33 自动补跑。
+# 当天快照一旦存在，补跑不会重抓或改写，只用于抵抗 GitHub 定时任务偶发延迟/丢失。
 on:
   push:
     branches: [main]
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "3,18,33 9 * * *"
   workflow_dispatch: {}   # 也支持在 Actions 页面手动触发
 
 permissions:

@@ -1,0 +1,367 @@
+{
+  "date": "2026-09-28",
+  "generated_at": "2026-09-28 21:00:10 +0800",
+  "total": 16,
+  "method": "个人兴趣过滤 + 项目阶段归纳 + 免费规则整理（未使用 AI）",
+  "categories": [
+    "行业观察",
+    "想法与概念",
+    "孵化与转化",
+    "工具与硬件",
+    "方法与执行",
+    "测试与成果",
+    "维护与复盘"
+  ],
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 3,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 9,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 13,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 13,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 11,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "OpenAI全新订阅方案出炉！5x和20x套餐已删除",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651060125&idx=2&sn=d972b4894e65e4cd7478e2e1c676341d",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "行业观察",
+      "topic": "AI模型",
+      "published": "09-28 11:30",
+      "ts": 1790566200,
+      "summary": "韭菜绿油油。",
+      "why": "它与“AI模型”方向直接相关。看它会怎样改变你可选择的模型、工具或创作机会，不追逐与方向无关的商业热闹。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 128.83,
+      "relevance": 9
+    },
+    {
+      "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
+      "link": "https://www.qbitai.com/2026/09/498633.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "想法与概念",
+      "topic": "AI模型",
+      "published": "09-27 22:20",
+      "ts": 1790518835,
+      "summary": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
+      "why": "它与“AI模型”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 183.45,
+      "relevance": 21
+    },
+    {
+      "title": "AI 自迭代的小游戏 Agent：2周上线6款小游戏，3天迭代12款小游戏",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546370&idx=1&sn=5603ba09127468713e13bb5dafb7926c&chksm=82fba659fd6a187c5c28b2d9a8a2e033a539f1fb48f4857d15192471c6467e5e562068997cd6&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "孵化与转化",
+      "topic": "网页小游戏",
+      "published": "09-23 08:00",
+      "ts": 1790121600,
+      "summary": "AI 自迭代的小游戏 Agent：2周上线6款小游戏，3天迭代12款小游戏",
+      "why": "可拆出一个界面、交互或游戏机制。尝试把它缩成一个当天能开始的网页、小工具或验证性实验。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 180,
+      "relevance": 21
+    },
+    {
+      "title": "英伟达发布 AI 智能体安全平台，可实时隔离异常智能体",
+      "link": "https://www.ithome.com/1/007/937.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "工具与硬件",
+      "topic": "AI模型",
+      "published": "09-28 17:33",
+      "ts": 1790588039,
+      "summary": "IT之家 9 月 28 日消息，英伟达今天发布开放式 AI 智能体安全平台（NVIDIA Open Agent Safety Platform），可对 AI 智能体、智能体硬件、机器人系统等进行全栈治理和控制。IT之家从官方新闻稿获悉，该平台包含英伟达 OpenShell 安全软件，可对运行在 CPU 的 AI 智能体设定边界，支持开源 / 闭源模型。",
+      "why": "可比较模型成本、开放程度和本地使用门槛。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 243.86,
+      "relevance": 35
+    },
+    {
+      "title": "OpenAI 暂停最新模型训练，称 Agent 曾尝试黑进教育部网站",
+      "link": "https://www.oschina.net/news/502773",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "方法与执行",
+      "topic": "AI模型",
+      "published": "09-28 17:58",
+      "ts": 1790589530,
+      "summary": "OpenAI 又把训练按下了暂停键。上周五披露了一连串越界行为之后，官方宣布停掉最新一批模型的训练，「只有在我们确信已有额外安全措施时」才恢复，而且已经预期「还会再次按下暂停」。",
+      "why": "它触及你正在使用的软件和代码边界。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 202.99,
+      "relevance": 24
+    },
+    {
+      "title": "GitHub 花三年把官网从 CSS-in-JS 搬到 CSS Modules，网站性能显著提升",
+      "link": "https://www.oschina.net/news/502761/github-improving-site-performance-by-shipping-more-css",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "测试与成果",
+      "topic": "网页小游戏",
+      "published": "09-28 11:49",
+      "ts": 1790567362,
+      "summary": "GitHub 在工程博客复盘了一场持续三年的迁移：把 github.com 整套 UI 从 CSS-in-JS 全面搬到 CSS Modules，从 2023 年组件数量爆炸导致的性能问题说起，一直到 2026 年 6 月网站 100% 跑在 CSS Modules 上、彻底删掉 styled-components、styled-system 和一台子 sx props。起因是 Primer 设计系统。",
+      "why": "可拆出一个界面、交互或游戏机制。重点看测试条件、比较对象和失败情况，而不只看最终数字。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 170.94,
+      "relevance": 18
+    },
+    {
+      "title": "16 岁少年用 AI 发现微软内部 API 漏洞：涉及超 17 万亿行数据，获 5000 美元赏金",
+      "link": "https://www.ithome.com/1/008/000.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "维护与复盘",
+      "topic": "数据空间",
+      "published": "09-28 19:21",
+      "ts": 1790594518,
+      "summary": "IT之家 9 月 28 日消息，16 岁安全研究员 Faav 于当地时间 9 月 25 日在其主页发布博客，披露了关于他如何发现微软内部漏洞并获得 5,000 美元 （IT之家注：现汇率约合 33,597 元人民币） 漏洞赏金的经历。他发现，微软内部分析平台 Titan 存在身份验证漏洞，黑客可藉此访问包含约 2.5 万条员工数据记录的内部数据库，并能查询总量达 17.3 万亿条的数据记录。",
+      "why": "可练习把位置、数据和模糊关系连接起来。记录长期成本、故障边界和维护办法，避免只看到发布时的效果。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 144.46,
+      "relevance": 15
+    },
+    {
+      "title": "Strands 开源组装好的 Agent harness，同模型下 token 省 28%",
+      "link": "https://www.oschina.net/news/502772/strands-harness",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "想法与概念",
+      "topic": "AI模型",
+      "published": "09-28 16:35",
+      "ts": 1790584548,
+      "summary": "很多开发者的 AI Agent 依赖 Claude Code 或 Codex 这类开箱即用的 harness——本地一跑顺畅得很。可一旦要自己搭 agent，就得自己把各种原语拼到「刚刚好」的程度，才能找回那种「it just worked」的感觉。",
+      "why": "可比较模型成本、开放程度和本地使用门槛。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 182.53,
+      "relevance": 20
+    },
+    {
+      "title": "AIGCPanel v2.5.0 支持豆包语音音色，数字人直播音色模板管理",
+      "link": "https://www.oschina.net/news/502770",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "工具与硬件",
+      "topic": "AI模型",
+      "published": "09-28 15:26",
+      "ts": 1790580371,
+      "summary": "这次更新让云端语音模型填个 API Key 就能用，也把数字人与直播的音色收进各自独立的音色库。AIGCPanel 是一款一站式 AI 数字人桌面应用，Windows / macOS / Linux 都能跑，内置数字人合成、语音合成与克隆、工具箱和智能直播。",
+      "why": "它与“AI模型”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 162.15,
+      "relevance": 16
+    },
+    {
+      "title": "Vue、React、Next.js 通吃，这个新框架想重做 DevTools",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&mid=2247524925&idx=1&sn=a5d378cd0113bc93ce47e4e9451bbd15&chksm=e92e19c021e3d50d002a6948c5429c2fa7c38bd89011f1a2133f14710a5abda4b6ee3197802e&mpshare=1&scene=1&srcid=0923ekv2DleE7D6JTZeJ9Fhq&sharer_shareinfo=72a23d6ea0a2942dc9bdc623bddc398f&sharer_shareinfo_first=72a23d6ea0a2942dc9bdc623bddc398f#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "工具与硬件",
+      "topic": "网页小游戏",
+      "published": "09-21 08:00",
+      "ts": 1789948800,
+      "summary": "Vue、React、Next.js 通吃，这个新框架想重做 DevTools",
+      "why": "可拆出一个界面、交互或游戏机制。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 150,
+      "relevance": 15
+    },
+    {
+      "title": "scstruc：基于单细胞转录组学的贝叶斯基因调控网络因果评估",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1554243",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "想法与概念",
+      "topic": "数据空间",
+      "published": "09-27 18:13",
+      "ts": 1790503982,
+      "summary": "scstruc：基于单细胞转录组学的贝叶斯基因调控网络因果评估",
+      "why": "可练习把位置、数据和模糊关系连接起来。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 148,
+      "relevance": 15
+    },
+    {
+      "title": "【科学小品】就算你征服了物理，但也未必征服得了纯数学",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1554391",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "想法与概念",
+      "topic": "数学物理",
+      "published": "09-28 20:15",
+      "ts": 1790597715,
+      "summary": "【科学小品】就算你征服了物理，但也未必征服得了纯数学",
+      "why": "它与“数学物理”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 140.75,
+      "relevance": 12
+    },
+    {
+      "title": "科学家研制出至今最精确的原子钟",
+      "link": "https://www.solidot.org/story?sid=85485",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "工具与硬件",
+      "topic": "数学物理",
+      "published": "09-27 18:21",
+      "ts": 1790504466,
+      "summary": "新加坡国立大学研制出至今最精确的原子钟，运行 2600 亿年误差不到 1 秒。新设备是一台光学原子钟，靠镥离子固有而稳定的特性计时。",
+      "why": "它与“数学物理”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 131,
+      "relevance": 13
+    },
+    {
+      "title": "AKS通过新的NAP指南使节点中断更加可预测",
+      "link": "https://www.infoq.cn/article/7zcxyr8aBkDqQO682CJm?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "方法与执行",
+      "topic": "数据空间",
+      "published": "09-29 04:17",
+      "ts": 1790626620,
+      "summary": "点击查看原文>",
+      "why": "可练习把位置、数据和模糊关系连接起来。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 116.0,
+      "relevance": 6
+    },
+    {
+      "title": "科技爱好者周刊（第 413 期）：再见了，React Native",
+      "link": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html",
+      "source": "阮一峰的网络日志",
+      "signals": [
+        "阮一峰的网络日志"
+      ],
+      "category": "测试与成果",
+      "topic": "网页小游戏",
+      "published": "09-18 08:03",
+      "ts": 1789689782,
+      "summary": "这里记录每周值得分享的科技内容，周五发布。（[通知] 下周五开始的中秋和十一假期，周刊休息。",
+      "why": "可拆出一个界面、交互或游戏机制。重点看测试条件、比较对象和失败情况，而不只看最终数字。",
+      "confidence": "开发者一手文章",
+      "confidence_class": "professional",
+      "score": 107,
+      "relevance": 6
+    },
+    {
+      "title": "把磁性材料当魔方“转”一下，竟“拧”出全新磁性",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/20269201089318155677.shtm?id=155677",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "测试与成果",
+      "topic": "数学物理",
+      "published": "09-20 18:08",
+      "ts": 1789898880,
+      "summary": "小小一块磁铁，为什么能吸住铁钉？这个看似简单的问题背后，隐藏着电子自旋构成的复杂磁性世界。",
+      "why": "它与“数学物理”方向直接相关。重点看测试条件、比较对象和失败情况，而不只看最终数字。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 95,
+      "relevance": 3
+    }
+  ]
+}
