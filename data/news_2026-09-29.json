@@ -1,0 +1,403 @@
+{
+  "date": "2026-09-29",
+  "generated_at": "2026-09-29 23:41:24 +0800",
+  "total": 18,
+  "method": "个人兴趣过滤 + 项目阶段归纳 + 免费规则整理（未使用 AI）",
+  "categories": [
+    "行业观察",
+    "想法与概念",
+    "孵化与转化",
+    "工具与硬件",
+    "方法与执行",
+    "测试与成果",
+    "维护与复盘"
+  ],
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 1,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 15,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 16,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "荣耀 Magic9 全系机型获首批“AI 智能体手机”入网认证",
+      "link": "https://www.ithome.com/1/008/465.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "行业观察",
+      "topic": "AI模型",
+      "published": "09-29 19:46",
+      "ts": 1790682382,
+      "summary": "IT之家 9 月 29 日消息，荣耀终端股份有限公司 CEO 李健宣布， 荣耀 Magic9 全系机型今日获得首批“AI 智能体手机”入网认证 。李健表示，Magic9 此次获批是对荣耀多年深耕 MagicOS 和系统级 AI 的权威认可，也标志着 AI 智能体手机正式走向标准化。",
+      "why": "它与“AI模型”方向直接相关。看它会怎样改变你可选择的模型、工具或创作机会，不追逐与方向无关的商业热闹。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 188.7,
+      "relevance": 24
+    },
+    {
+      "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
+      "link": "https://www.qbitai.com/2026/09/498633.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "想法与概念",
+      "topic": "AI模型",
+      "published": "09-27 22:20",
+      "ts": 1790518835,
+      "summary": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
+      "why": "它与“AI模型”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 183,
+      "relevance": 21
+    },
+    {
+      "title": "AI 自迭代的小游戏 Agent：2周上线6款小游戏，3天迭代12款小游戏",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546370&idx=1&sn=5603ba09127468713e13bb5dafb7926c&chksm=82fba659fd6a187c5c28b2d9a8a2e033a539f1fb48f4857d15192471c6467e5e562068997cd6&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "孵化与转化",
+      "topic": "网页小游戏",
+      "published": "09-23 08:00",
+      "ts": 1790121600,
+      "summary": "AI 自迭代的小游戏 Agent：2周上线6款小游戏，3天迭代12款小游戏",
+      "why": "可拆出一个界面、交互或游戏机制。尝试把它缩成一个当天能开始的网页、小工具或验证性实验。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 180,
+      "relevance": 21
+    },
+    {
+      "title": "go-carbon v2.6.18 正式版发布，轻量级、语义化的 golang 时间处理库",
+      "link": "https://www.oschina.net/news/502776",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "工具与硬件",
+      "topic": "编程工具",
+      "published": "09-29 08:05",
+      "ts": 1790640335,
+      "summary": "Carbon 是一个轻量级、语义化、对开发者友好的 golang 时间处理库，不依赖于 任何 第三方库， 100% 单元测试覆盖率，已被 docker 组织使用以及被 awesome-go 和 hello-github 收录，并获得 gitee 2024 年最有价值项目（GVP）和 gitcode 2024 年度开源摘星计划 (G-Star) 项目 document: carbon.go-pkg.com github: github...",
+      "why": "它与“编程工具”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 183.81,
+      "relevance": 21
+    },
+    {
+      "title": "OpenAI 暂停最新模型训练，称 Agent 曾尝试黑进教育部网站",
+      "link": "https://www.oschina.net/news/502773",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "方法与执行",
+      "topic": "AI模型",
+      "published": "09-28 17:58",
+      "ts": 1790589530,
+      "summary": "OpenAI 又把训练按下了暂停键。上周五披露了一连串越界行为之后，官方宣布停掉最新一批模型的训练，「只有在我们确信已有额外安全措施时」才恢复，而且已经预期「还会再次按下暂停」。",
+      "why": "它触及你正在使用的软件和代码边界。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 196,
+      "relevance": 24
+    },
+    {
+      "title": "Claude Sonnet 5.5 发布：速度快 3 成、Agent 编程评测从 10% 跳到 70%",
+      "link": "https://www.oschina.net/news/502794/claude-sonnet-5-5",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "测试与成果",
+      "topic": "AI模型",
+      "published": "09-29 12:14",
+      "ts": 1790655273,
+      "summary": "Claude 5.5 家族的第二个成员今天发布：Sonnet 5.5。Anthropic 把它定位成 Opus 5.5 的「快而省」互补款——专攻范围明确的高频日常任务、修 bug、做文档和表格，还强调它有敏锐的设计眼光。",
+      "why": "它与“AI模型”方向直接相关。重点看测试条件、比较对象和失败情况，而不只看最终数字。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 145.19,
+      "relevance": 13
+    },
+    {
+      "title": "Goodlink 支持同时运行多个Local端和Remote端 全网最简单、最快、零成本的内网穿透",
+      "link": "https://www.oschina.net/news/502808",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "维护与复盘",
+      "topic": "编程工具",
+      "published": "09-29 18:07",
+      "ts": 1790676458,
+      "summary": "外出办公, 对比市面上的远程工具, 无论画质、软件适配, 都不如 windows 自带的远程桌面, 但外出如何使用 windows远程桌面？是否可以无需远程桌面, 直接访问公司的内网 WEB, GIT, SSH 等？",
+      "why": "它与“编程工具”方向直接相关。记录长期成本、故障边界和维护办法，避免只看到发布时的效果。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 102.15,
+      "relevance": 4
+    },
+    {
+      "title": "报道称 OpenAI 年化经常性收入接近 700 亿美元，较三季度初增长超 70%",
+      "link": "https://www.ithome.com/1/008/510.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "工具与硬件",
+      "topic": "AI模型",
+      "published": "09-29 23:05",
+      "ts": 1790694317,
+      "summary": "IT之家 9 月 29 日消息，据外媒 Axios 今天报道，据知情人士透露， OpenAI 年化经常性收入（ARR）已接近 700 亿美元 （IT之家注：现汇率约合 4,705.11 亿元人民币） 。据报道，自 2026 年三季度初以来，OpenAI 的年化经常性收入增长超 70%，其 B2B（企业对企业）收入增长超 100%。",
+      "why": "它与“AI模型”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 174.8,
+      "relevance": 21
+    },
+    {
+      "title": "赛豆科技 AIVA 首款量产车 ME7 全球首秀：提供纯电与增程版本",
+      "link": "https://www.ithome.com/1/008/470.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "孵化与转化",
+      "topic": "AI模型",
+      "published": "09-29 20:26",
+      "ts": 1790684772,
+      "summary": "IT之家 9 月 29 日消息，当地时间 9 月 28 日晚，赛豆科技（重庆市沙坪坝区与赛力斯共同投资）旗下 AIVA 品牌首款量产车型 AIVA ME7 在法国巴黎尚普拉特勒城堡完成全球首秀。AIVA 总裁、产品经理李博表示，AIVA 要打造的是 AI 智慧生命体，生命体需要表达和交互。",
+      "why": "它与“AI模型”方向直接相关。尝试把它缩成一个当天能开始的网页、小工具或验证性实验。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 163.92,
+      "relevance": 19
+    },
+    {
+      "title": "新统计框架，精准识别高维动态数据多重结构断点",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202692974127538156039.shtm?id=156039",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "工具与硬件",
+      "topic": "数学物理",
+      "published": "09-29 15:41",
+      "ts": 1790667660,
+      "summary": "近日，西安电子科技大学数学与统计学院概率统计系副教授段江涛联合美国哥伦比亚大学、香港城市大学，在《美国统计协会期刊》上在线发表。随着数字化和智能化深入发展，经济金融等...",
+      "why": "它与“数学物理”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 155.34,
+      "relevance": 14
+    },
+    {
+      "title": "scstruc：基于单细胞转录组学的贝叶斯基因调控网络因果评估",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1554243",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "想法与概念",
+      "topic": "数据空间",
+      "published": "09-27 18:13",
+      "ts": 1790503982,
+      "summary": "scstruc：基于单细胞转录组学的贝叶斯基因调控网络因果评估",
+      "why": "可练习把位置、数据和模糊关系连接起来。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 148,
+      "relevance": 15
+    },
+    {
+      "title": "【科学小品】就算你征服了物理，但也未必征服得了纯数学",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3519678&do=blog&id=1554391",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "想法与概念",
+      "topic": "数学物理",
+      "published": "09-28 20:15",
+      "ts": 1790597715,
+      "summary": "【科学小品】就算你征服了物理，但也未必征服得了纯数学",
+      "why": "它与“数学物理”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 133,
+      "relevance": 12
+    },
+    {
+      "title": "[笔记，科普，数学] 素数（199）：哥德巴赫猜想 Goldbach conjecture 的基本概念",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1554487",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "想法与概念",
+      "topic": "数学物理",
+      "published": "09-28 18:52",
+      "ts": 1790592754,
+      "summary": "[笔记，科普，数学] 素数（199）：哥德巴赫猜想 Goldbach conjecture 的基本概念",
+      "why": "它与“数学物理”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 133,
+      "relevance": 12
+    },
+    {
+      "title": "Google 计划到 2034 年停止支持 ChromeOS",
+      "link": "https://www.solidot.org/story?sid=85500",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "工具与硬件",
+      "topic": "编程工具",
+      "published": "09-29 15:50",
+      "ts": 1790668212,
+      "summary": "运行 Android 操作系统的 Googlebooks 新笔电即将上市，那么运行 ChromeOS 的旧设备将何去何从？根据 Google 支持页面“What the Googlebook announcement means for your ChromeOS devices”，搜索巨人声明：它将向 ChromeOS 设备提供定期更新和安全补丁至 2034 年年中；",
+      "why": "它触及你正在使用的软件和代码边界。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 131.39,
+      "relevance": 12
+    },
+    {
+      "title": "独家：CSS背景色单方向扩展技术",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/09/css-background-extend/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "方法与执行",
+      "topic": "网页小游戏",
+      "published": "09-29 08:00",
+      "ts": 1790640000,
+      "summary": "独家：CSS背景色单方向扩展技术",
+      "why": "可拆出一个界面、交互或游戏机制。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 122.77,
+      "relevance": 9
+    },
+    {
+      "title": "微软告诉非营利组织他们被删除的数据无法恢复",
+      "link": "https://www.solidot.org/story?sid=85503",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "行业观察",
+      "topic": "数据空间",
+      "published": "09-29 18:10",
+      "ts": 1790676651,
+      "summary": "微软曾从 2013 年起向全世界的小型非营利组织免费提供 Microsoft 365 Business Premium，但在 2025 年 5 月它宣布将从 2025 年 7 月起停止提供免费授权，转为提供折扣价付费订阅。今年早些时候没有转为付费的账号内相关数据都被删除了。",
+      "why": "可练习把位置、数据和模糊关系连接起来。看它会怎样改变你可选择的模型、工具或创作机会，不追逐与方向无关的商业热闹。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 117.17,
+      "relevance": 9
+    },
+    {
+      "title": "亚马逊云科技无法恢复仅存储在受损的中东可用区的数据",
+      "link": "https://www.infoq.cn/article/YWXyACETW4aRchQbSJE0?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "方法与执行",
+      "topic": "数据空间",
+      "published": "09-30 02:41",
+      "ts": 1790707260,
+      "summary": "点击查看原文>",
+      "why": "可练习把位置、数据和模糊关系连接起来。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 116.0,
+      "relevance": 6
+    },
+    {
+      "title": "Bun 在四个月内将 53.5 万行 Zig 代码重写为 Rust，消除了大量内存泄漏",
+      "link": "https://www.infoq.cn/article/0x1uOEWOj16S1vNmtsuP?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "方法与执行",
+      "topic": "编程工具",
+      "published": "09-30 01:37",
+      "ts": 1790703420,
+      "summary": "点击查看原文>",
+      "why": "它与“编程工具”方向直接相关。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 116.0,
+      "relevance": 6
+    }
+  ]
+}
