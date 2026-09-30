@@ -1,0 +1,403 @@
+{
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30 23:51:45 +0800",
+  "total": 18,
+  "method": "个人兴趣过滤 + 项目阶段归纳 + 免费规则整理（未使用 AI）",
+  "categories": [
+    "行业观察",
+    "想法与概念",
+    "孵化与转化",
+    "工具与硬件",
+    "方法与执行",
+    "测试与成果",
+    "维护与复盘"
+  ],
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 8,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "OpenAI全新订阅方案出炉！5x和20x套餐已删除",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651060125&idx=2&sn=d972b4894e65e4cd7478e2e1c676341d",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "行业观察",
+      "topic": "AI模型",
+      "published": "09-28 11:30",
+      "ts": 1790566200,
+      "summary": "韭菜绿油油。",
+      "why": "它与“AI模型”方向直接相关。看它会怎样改变你可选择的模型、工具或创作机会，不追逐与方向无关的商业热闹。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 124,
+      "relevance": 9
+    },
+    {
+      "title": "中国大模型首次进入 OpenAI 企业付费结算体系，Kimi K3 接入 Codex 企业通道",
+      "link": "https://www.ithome.com/1/008/864.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "想法与概念",
+      "topic": "AI模型",
+      "published": "09-30 18:19",
+      "ts": 1790763558,
+      "summary": "IT之家 9 月 30 日消息，美国 AI 基础设施公司 Baseten 今天宣布与 OpenAI 达成合作，成为 OpenAI B2B 市场首批开源模型推理服务提供商之一。企业用户可通过 Codex 使用 Kimi K3 和 GLM 5.3 等开源模型，意味着中国开源模型首次进入 OpenAI 企业采购体系。",
+      "why": "可比较模型成本、开放程度和本地使用门槛。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 328.16,
+      "relevance": 52
+    },
+    {
+      "title": "AI 自迭代的小游戏 Agent：2周上线6款小游戏，3天迭代12款小游戏",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546370&idx=1&sn=5603ba09127468713e13bb5dafb7926c&chksm=82fba659fd6a187c5c28b2d9a8a2e033a539f1fb48f4857d15192471c6467e5e562068997cd6&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "孵化与转化",
+      "topic": "网页小游戏",
+      "published": "09-23 08:00",
+      "ts": 1790121600,
+      "summary": "AI 自迭代的小游戏 Agent：2周上线6款小游戏，3天迭代12款小游戏",
+      "why": "可拆出一个界面、交互或游戏机制。尝试把它缩成一个当天能开始的网页、小工具或验证性实验。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 180,
+      "relevance": 21
+    },
+    {
+      "title": "OpenAI 发布全天候运行 AI Agent \"dots\"，由 GPT‑6 Astra 驱动、拥有独立的云端电脑",
+      "link": "https://www.oschina.net/news/502820/openai-dots",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "工具与硬件",
+      "topic": "AI模型",
+      "published": "09-30 14:25",
+      "ts": 1790749501,
+      "summary": "周二旧金山的 OpenAI DevDay 2026 开发者大会上，Sam Altman 热情洋溢地揭开了 dots 的面纱——一个由 GPT-6 Astra 驱动的个人智能体助理。dots 长着一张人畜无害的脸：戴贝雷帽、架眼镜的彩色小圆点，出现在手机和笔记本屏幕上，可以集成进第三方应用。",
+      "why": "它与“AI模型”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 220.85,
+      "relevance": 28
+    },
+    {
+      "title": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
+      "link": "https://www.qbitai.com/2026/09/499308.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "方法与执行",
+      "topic": "AI模型",
+      "published": "09-30 13:18",
+      "ts": 1790745485,
+      "summary": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）",
+      "why": "它与“AI模型”方向直接相关。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 172.48,
+      "relevance": 18
+    },
+    {
+      "title": "曝美国联邦贸易委员会对 Anthropic、OpenAI 及其他 AI 实验室加大调查力度",
+      "link": "https://www.ithome.com/1/008/924.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "测试与成果",
+      "topic": "AI模型",
+      "published": "09-30 22:13",
+      "ts": 1790777602,
+      "summary": "IT之家 9 月 30 日消息，据纽约邮报消息，政府官员透露，美国联邦贸易委员会 FTC 正在加大对 Anthropic、OpenAI 及其他前沿人工智能实验室的全面调查力度， 旨在彻查其技术可能对消费者造成的潜在风险 。FTC 计划向这些科技巨头下达类似于传票的正式要求，强制其提交相关信息。",
+      "why": "它与“AI模型”方向直接相关。重点看测试条件、比较对象和失败情况，而不只看最终数字。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 194.46,
+      "relevance": 25
+    },
+    {
+      "title": "Goodlink 支持同时运行多个Local端和Remote端 全网最简单、最快、零成本的内网穿透",
+      "link": "https://www.oschina.net/news/502808",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "维护与复盘",
+      "topic": "编程工具",
+      "published": "09-29 18:07",
+      "ts": 1790676458,
+      "summary": "外出办公, 对比市面上的远程工具, 无论画质、软件适配, 都不如 windows 自带的远程桌面, 但外出如何使用 windows远程桌面？是否可以无需远程桌面, 直接访问公司的内网 WEB, GIT, SSH 等？",
+      "why": "它与“编程工具”方向直接相关。记录长期成本、故障边界和维护办法，避免只看到发布时的效果。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 96,
+      "relevance": 4
+    },
+    {
+      "title": "OpenAI 发布 GPT‑6.1 Sol：智能水平接近 Astra、价格仅为其五分之一",
+      "link": "https://www.oschina.net/news/502831/openai-gpt-6-1-sol",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "测试与成果",
+      "topic": "AI模型",
+      "published": "09-30 17:10",
+      "ts": 1790759428,
+      "summary": "OpenAI 上周才推出 GPT-6 Sol，这周就把 6.1 Sol 端上了桌。官方称之为一次「重大升级」，覆盖专业办公、操控电脑、agentic 编程等任务。",
+      "why": "可比较模型成本、开放程度和本地使用门槛。重点看测试条件、比较对象和失败情况，而不只看最终数字。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 191.77,
+      "relevance": 22
+    },
+    {
+      "title": "新统计框架，精准识别高维动态数据多重结构断点",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202692974127538156039.shtm?id=156039",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "工具与硬件",
+      "topic": "数学物理",
+      "published": "09-29 15:41",
+      "ts": 1790667660,
+      "summary": "近日，西安电子科技大学数学与统计学院概率统计系副教授段江涛联合美国哥伦比亚大学、香港城市大学，在《美国统计协会期刊》上在线发表。随着数字化和智能化深入发展，经济金融等...",
+      "why": "它与“数学物理”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 150,
+      "relevance": 14
+    },
+    {
+      "title": "格科“认领”iQOO 16 手机超广角图像传感器：采用 1/2.8 英寸 50MP GC50F0，像素大小 0.64μm",
+      "link": "https://www.ithome.com/1/008/819.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "工具与硬件",
+      "topic": "网页小游戏",
+      "published": "09-30 17:50",
+      "ts": 1790761823,
+      "summary": "IT之家 9 月 30 日消息，格科今天宣布， iQOO 16 旗舰手机搭载格科高性能 5000 万像素图像传感器 GC50F0。据介绍，GC50F0 基于格科 GalaxyCell® 2.0 工艺平台打造，采用 0.64μm 像素设计， 光学规格为 1/2.8 英寸 ， 支持 5000 万像素高分辨率图像输出及 4K 视频拍摄 。",
+      "why": "可拆出一个界面、交互或游戏机制。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 142.99,
+      "relevance": 15
+    },
+    {
+      "title": "Codeaha v1.0.0 正式发布—本地优先的 AI 编程伙伴",
+      "link": "https://www.oschina.net/news/502806",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "方法与执行",
+      "topic": "编程工具",
+      "published": "09-29 17:05",
+      "ts": 1790672745,
+      "summary": "Codeaha｜码悟 Code + Aha，看见代码的顿悟时刻 本地优先、国产大模型友好的 AI 编程 Agent。基于 GoFrame + Eino + mark3labs/mcp-go + GF sqlite 驱动（glebarez/go-sqlite，纯 Go 无 CGO）构建。",
+      "why": "它与“编程工具”方向直接相关。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 136,
+      "relevance": 12
+    },
+    {
+      "title": "请立即更新：远程桌面软件 TeamViewer 被曝多个高危漏洞",
+      "link": "https://www.ithome.com/1/008/913.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "工具与硬件",
+      "topic": "编程工具",
+      "published": "09-30 21:23",
+      "ts": 1790774581,
+      "summary": "IT之家 9 月 30 日消息，据科技媒体 Bleeping Computer 今天报道，远程桌面软件 TeamViewer 被曝存在多个高危漏洞，官方已着手修复， 并敦促客户尽快更新最新版软件 。IT之家了解到，本次事件最严重的漏洞是 CVE-2026-92370，源于 TeamViewer Full Client 和 Host 软件中的访问控制缺陷，影响 Windows、Linux 和 macOS 系统。",
+      "why": "它触及你正在使用的软件和代码边界。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 134.18,
+      "relevance": 13
+    },
+    {
+      "title": "[笔记，科普，数学] 素数（199）：哥德巴赫猜想 Goldbach conjecture 的基本概念",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1554487",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "想法与概念",
+      "topic": "数学物理",
+      "published": "09-28 18:52",
+      "ts": 1790592754,
+      "summary": "[笔记，科普，数学] 素数（199）：哥德巴赫猜想 Goldbach conjecture 的基本概念",
+      "why": "它与“数学物理”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 133,
+      "relevance": 12
+    },
+    {
+      "title": "电子科技大学物理学院——基于MXene的太赫兹超材料生物传感器：从实验室模拟到临床应用 | MDPI Condensed Matter",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202693014959615156146.shtm?id=156146",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "想法与概念",
+      "topic": "数学物理",
+      "published": "09-30 22:10",
+      "ts": 1790777400,
+      "summary": "论文标题：MXene-Based Terahertz Metamaterial Biosensors: From Laboratory Simulation to Clinical Applicat...",
+      "why": "它与“数学物理”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 132.44,
+      "relevance": 9
+    },
+    {
+      "title": "一个视频彻底看懂CSS scroll-axis-lock none的作用",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/09/scroll-axis-lock-none/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "方法与执行",
+      "topic": "网页小游戏",
+      "published": "09-30 08:00",
+      "ts": 1790726400,
+      "summary": "一个视频彻底看懂CSS scroll-axis-lock none的作用",
+      "why": "可拆出一个界面、交互或游戏机制。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 122.71,
+      "relevance": 9
+    },
+    {
+      "title": "Windows 11 原生支持 Linux 容器",
+      "link": "https://www.solidot.org/story?sid=85515",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "方法与执行",
+      "topic": "编程工具",
+      "published": "09-30 18:23",
+      "ts": 1790763825,
+      "summary": "微软宣布 WSL Containers GA，该工具为 Windows 11 开发者提供了一种通过 Windows Subsystem for Linux 构建、运行和部署 Linux 容器的内置方案。微软同时提供了容器管理工具 wslc.exe，GPU 支持、网络改进、健康检查、存储挂载、与 Microsoft Defender for Endpoint 和 Intune 的集成。",
+      "why": "它与“编程工具”方向直接相关。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 122.18,
+      "relevance": 10
+    },
+    {
+      "title": "大爆炸早期物质如何窥探？科学家发现全新 “热反冲喷注”",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202692974543177156042.shtm?id=156042",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "想法与概念",
+      "topic": "数学物理",
+      "published": "09-29 15:45",
+      "ts": 1790667900,
+      "summary": "近日，山东大学前沿交叉科学青岛研究院和华中师范大学物理科学与技术学院的高能核物理团队在喷注物理理论研究中取得新进展，提出高能核反应中“热反冲喷注”的产生...",
+      "why": "它与“数学物理”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 115,
+      "relevance": 7
+    },
+    {
+      "title": "微软告诉非营利组织他们被删除的数据无法恢复",
+      "link": "https://www.solidot.org/story?sid=85503",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "行业观察",
+      "topic": "数据空间",
+      "published": "09-29 18:10",
+      "ts": 1790676651,
+      "summary": "微软曾从 2013 年起向全世界的小型非营利组织免费提供 Microsoft 365 Business Premium，但在 2025 年 5 月它宣布将从 2025 年 7 月起停止提供免费授权，转为提供折扣价付费订阅。今年早些时候没有转为付费的账号内相关数据都被删除了。",
+      "why": "可练习把位置、数据和模糊关系连接起来。看它会怎样改变你可选择的模型、工具或创作机会，不追逐与方向无关的商业热闹。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 111,
+      "relevance": 9
+    }
+  ]
+}
