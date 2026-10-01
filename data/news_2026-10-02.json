@@ -1,0 +1,404 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02 00:19:07 +0800",
+  "total": 18,
+  "method": "个人兴趣过滤 + 项目阶段归纳 + 免费规则整理（未使用 AI）",
+  "categories": [
+    "行业观察",
+    "想法与概念",
+    "孵化与转化",
+    "工具与硬件",
+    "方法与执行",
+    "测试与成果",
+    "维护与复盘"
+  ],
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 3,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 9,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 16,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 14,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "中国 AI 智能体也会撒谎和欺骗",
+      "link": "https://www.solidot.org/story?sid=85508",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "行业观察",
+      "topic": "AI模型",
+      "published": "09-30 00:23",
+      "ts": 1790698998,
+      "summary": "和美国 AI 模型一样，中国公司的 AI 智能体也会撒谎和欺骗。在今年 3 月进行的一次商业招标实验中， 北航、北大、宁波诺丁汉和 360 AI 安全实验室的研究人员让多个智能体参与模拟客户合同的竞标，每个智能体都被告知其产品的功能及客户的需求，随后被要求进行报价。",
+      "why": "它触及你正在使用的软件和代码边界。看它会怎样改变你可选择的模型、工具或创作机会，不追逐与方向无关的商业热闹。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 206,
+      "relevance": 28
+    },
+    {
+      "title": "OpenAI 称其遭遇有组织蒸馏，将矛头指向月之暗面",
+      "link": "https://www.ithome.com/1/009/112.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "想法与概念",
+      "topic": "AI模型",
+      "published": "10-01 17:49",
+      "ts": 1790848190,
+      "summary": "IT之家 10 月 1 日消息，当地时间 9 月 30 日，OpenAI 在官网发文，称其近期遭遇一场有组织的蒸馏活动。OpenAI 在文中表示，该活动最初始于 7 月第一周， 符合对抗式蒸馏（adversarial distillation）之特征 ，即系统性未经授权地利用某模型输出或推理过程，帮助训练、复现或改进另一模型。",
+      "why": "它与“AI模型”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 177.84,
+      "relevance": 22
+    },
+    {
+      "title": "首发！openJiuwen WorkSwarm全双工多模态 ，像聊天一样与Agent交互，昇腾算力原生亲和",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651060871&idx=2&sn=f8bdc8bd6f0ed7280678d85a54beb567",
+      "source": "机器之心",
+      "signals": [
+        "机器之心",
+        "InfoQ 中文"
+      ],
+      "category": "孵化与转化",
+      "topic": "AI模型",
+      "published": "10-01 12:00",
+      "ts": 1790827200,
+      "summary": "用户可以展示眼前画面、随时插话，也可以把需要进一步处理的工作交给 后台Core Agent。",
+      "why": "它与“AI模型”方向直接相关。尝试把它缩成一个当天能开始的网页、小工具或验证性实验。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 147.9,
+      "relevance": 12
+    },
+    {
+      "title": "OpenAI 发布全天候运行 AI Agent \"dots\"，由 GPT‑6 Astra 驱动、拥有独立的云端电脑",
+      "link": "https://www.oschina.net/news/502820/openai-dots",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "工具与硬件",
+      "topic": "AI模型",
+      "published": "09-30 14:25",
+      "ts": 1790749501,
+      "summary": "周二旧金山的 OpenAI DevDay 2026 开发者大会上，Sam Altman 热情洋溢地揭开了 dots 的面纱——一个由 GPT-6 Astra 驱动的个人智能体助理。dots 长着一张人畜无害的脸：戴贝雷帽、架眼镜的彩色小圆点，出现在手机和笔记本屏幕上，可以集成进第三方应用。",
+      "why": "它与“AI模型”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 216,
+      "relevance": 28
+    },
+    {
+      "title": "DeepSeek知乎独家发文，首次公开V4.1 Agent训练“大本营”DSec",
+      "link": "https://www.qbitai.com/2026/09/499308.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "方法与执行",
+      "topic": "AI模型",
+      "published": "09-30 13:18",
+      "ts": 1790745485,
+      "summary": "DeepSeek在知乎独家发布技术长文，首次系统阐释了DeepSeek弹性计算（DeepSeek Elastic Compute，DSec）",
+      "why": "它与“AI模型”方向直接相关。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 168,
+      "relevance": 18
+    },
+    {
+      "title": "OpenAI 发布 GPT‑6.1 Sol：智能水平接近 Astra、价格仅为其五分之一",
+      "link": "https://www.oschina.net/news/502831/openai-gpt-6-1-sol",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "测试与成果",
+      "topic": "AI模型",
+      "published": "09-30 17:10",
+      "ts": 1790759428,
+      "summary": "OpenAI 上周才推出 GPT-6 Sol，这周就把 6.1 Sol 端上了桌。官方称之为一次「重大升级」，覆盖专业办公、操控电脑、agentic 编程等任务。",
+      "why": "可比较模型成本、开放程度和本地使用门槛。重点看测试条件、比较对象和失败情况，而不只看最终数字。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 186,
+      "relevance": 22
+    },
+    {
+      "title": "Goodlink 支持同时运行多个Local端和Remote端 全网最简单、最快、零成本的内网穿透",
+      "link": "https://www.oschina.net/news/502808",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "维护与复盘",
+      "topic": "编程工具",
+      "published": "09-29 18:07",
+      "ts": 1790676458,
+      "summary": "外出办公, 对比市面上的远程工具, 无论画质、软件适配, 都不如 windows 自带的远程桌面, 但外出如何使用 windows远程桌面？是否可以无需远程桌面, 直接访问公司的内网 WEB, GIT, SSH 等？",
+      "why": "它与“编程工具”方向直接相关。记录长期成本、故障边界和维护办法，避免只看到发布时的效果。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 96,
+      "relevance": 4
+    },
+    {
+      "title": "新统计框架，精准识别高维动态数据多重结构断点",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202692974127538156039.shtm?id=156039",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "工具与硬件",
+      "topic": "数学物理",
+      "published": "09-29 15:41",
+      "ts": 1790667660,
+      "summary": "近日，西安电子科技大学数学与统计学院概率统计系副教授段江涛联合美国哥伦比亚大学、香港城市大学，在《美国统计协会期刊》上在线发表。随着数字化和智能化深入发展，经济金融等...",
+      "why": "它与“数学物理”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 150,
+      "relevance": 14
+    },
+    {
+      "title": "Epic 喜加二：《网络奇兵 2：25 周年纪念版重制版》《深埋之星》游戏免费领取",
+      "link": "https://www.ithome.com/1/009/167.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "工具与硬件",
+      "topic": "数据空间",
+      "published": "10-01 23:05",
+      "ts": 1790867116,
+      "summary": "IT之家 10 月 1 日消息，Epic 本周送出的游戏是《网络奇兵 2：25 周年纪念版重制版》以及《深埋之星》，下周送出的游戏是《虎视眈眈 (Out of Sight)》，《愿景之城》。领取链接： 《网络奇兵 2：25 周年纪念版重制版》 ， 《深埋之星》 IT之家附《网络奇兵 2：25 周年纪念版重制版》游戏简介如下： 本作设定在公元 2114 年，玩家醒来时身处满是变异体和机器人危机的 FTL 飞船“冯 · 布劳恩号”(Von Braun) 上，面对失控的叛逆人工智…",
+      "why": "可练习把位置、数据和模糊关系连接起来。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 144.59,
+      "relevance": 15
+    },
+    {
+      "title": "重新安装数学的人：什么是\"范式级\"数学家？",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1554840",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "想法与概念",
+      "topic": "数学物理",
+      "published": "10-01 10:04",
+      "ts": 1790820299,
+      "summary": "重新安装数学的人：什么是\"范式级\"数学家？",
+      "why": "它与“数学物理”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 136.26,
+      "relevance": 12
+    },
+    {
+      "title": "Codeaha v1.0.0 正式发布—本地优先的 AI 编程伙伴",
+      "link": "https://www.oschina.net/news/502806",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "方法与执行",
+      "topic": "编程工具",
+      "published": "09-29 17:05",
+      "ts": 1790672745,
+      "summary": "Codeaha｜码悟 Code + Aha，看见代码的顿悟时刻 本地优先、国产大模型友好的 AI 编程 Agent。基于 GoFrame + Eino + mark3labs/mcp-go + GF sqlite 驱动（glebarez/go-sqlite，纯 Go 无 CGO）构建。",
+      "why": "它与“编程工具”方向直接相关。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 136,
+      "relevance": 12
+    },
+    {
+      "title": "电子科技大学物理学院——基于MXene的太赫兹超材料生物传感器：从实验室模拟到临床应用 | MDPI Condensed Matter",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202693014959615156146.shtm?id=156146",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "想法与概念",
+      "topic": "数学物理",
+      "published": "09-30 22:10",
+      "ts": 1790777400,
+      "summary": "论文标题：MXene-Based Terahertz Metamaterial Biosensors: From Laboratory Simulation to Clinical Applicat...",
+      "why": "它与“数学物理”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "奥利茨(Orlicz) 空间简史",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1554838",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "想法与概念",
+      "topic": "数据空间",
+      "published": "10-01 09:43",
+      "ts": 1790818988,
+      "summary": "奥利茨(Orlicz) 空间简史",
+      "why": "可练习把位置、数据和模糊关系连接起来。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 121.14,
+      "relevance": 9
+    },
+    {
+      "title": "一个视频彻底看懂CSS scroll-axis-lock none的作用",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/09/scroll-axis-lock-none/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "方法与执行",
+      "topic": "网页小游戏",
+      "published": "09-30 08:00",
+      "ts": 1790726400,
+      "summary": "一个视频彻底看懂CSS scroll-axis-lock none的作用",
+      "why": "可拆出一个界面、交互或游戏机制。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 9
+    },
+    {
+      "title": "独家：CSS背景色单方向扩展技术",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/09/css-background-extend/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "方法与执行",
+      "topic": "网页小游戏",
+      "published": "09-29 08:00",
+      "ts": 1790640000,
+      "summary": "独家：CSS背景色单方向扩展技术",
+      "why": "可拆出一个界面、交互或游戏机制。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 9
+    },
+    {
+      "title": "交通运输部：9 月 30 日全社会跨区域人员流动量 21935.5 万人次，同比下降 6.8%",
+      "link": "https://www.ithome.com/1/009/141.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "工具与硬件",
+      "topic": "四川生活",
+      "published": "10-01 20:01",
+      "ts": 1790856069,
+      "summary": "IT之家 10 月 1 日消息，我国交通运输部今日发文称，2026 年 9 月 30 日（国庆假期前 1 日）， 全社会跨区域人员流动量 21935.5 万人次 ，环比增长 29.3%， 同比下降 6.8% 。IT之家附 2026 年 9 月 30 日各交通工具具体数据如下： 铁路客运量 1954.2 万人次，环比增长 42.2%，同比增长 5.8%；",
+      "why": "它与“四川生活”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 113.57,
+      "relevance": 9
+    },
+    {
+      "title": "日本电力巨头 JERA 牵手戴尔等伙伴，将在千叶建设该国最大 AI 数据中心",
+      "link": "https://www.ithome.com/1/009/119.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "行业观察",
+      "topic": "数据空间",
+      "published": "10-01 18:10",
+      "ts": 1790849454,
+      "summary": "IT之家 10 月 1 日消息，日本供电规模最大的电力公司 JERA（捷热）当地时间今日与 Dell（戴尔）、主权人工智能基础设施开发商 RHAELM 当地时间今日签署谅解备忘录，三方将共同制定日本人工智能基础设施建设标准化框架。备忘录下的首个数据中心将落地东京东侧的千叶县。",
+      "why": "可练习把位置、数据和模糊关系连接起来。看它会怎样改变你可选择的模型、工具或创作机会，不追逐与方向无关的商业热闹。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 112.96,
+      "relevance": 9
+    },
+    {
+      "title": "科技爱好者周刊（第 413 期）：再见了，React Native",
+      "link": "http://www.ruanyifeng.com/blog/2026/09/weekly-issue-413.html",
+      "source": "阮一峰的网络日志",
+      "signals": [
+        "阮一峰的网络日志"
+      ],
+      "category": "测试与成果",
+      "topic": "网页小游戏",
+      "published": "09-18 08:03",
+      "ts": 1789689782,
+      "summary": "这里记录每周值得分享的科技内容，周五发布。（[通知] 下周五开始的中秋和十一假期，周刊休息。",
+      "why": "可拆出一个界面、交互或游戏机制。重点看测试条件、比较对象和失败情况，而不只看最终数字。",
+      "confidence": "开发者一手文章",
+      "confidence_class": "professional",
+      "score": 107,
+      "relevance": 6
+    }
+  ]
+}
