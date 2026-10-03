@@ -1,0 +1,367 @@
+{
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03 22:16:38 +0800",
+  "total": 16,
+  "method": "个人兴趣过滤 + 项目阶段归纳 + 免费规则整理（未使用 AI）",
+  "categories": [
+    "行业观察",
+    "想法与概念",
+    "孵化与转化",
+    "工具与硬件",
+    "方法与执行",
+    "测试与成果",
+    "维护与复盘"
+  ],
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 1,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 13,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 13,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+      "link": "https://www.qbitai.com/2026/10/501368.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "行业观察",
+      "topic": "AI模型",
+      "published": "10-03 12:41",
+      "ts": 1791002484,
+      "summary": "又咋啦。。",
+      "why": "它触及你正在使用的软件和代码边界。看它会怎样改变你可选择的模型、工具或创作机会，不追逐与方向无关的商业热闹。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 127.81,
+      "relevance": 9
+    },
+    {
+      "title": "万分之一——大模型后训练中的极端稀疏监督",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651060998&idx=2&sn=6e1b1eee268b769acca49b04819c6fd3",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "想法与概念",
+      "topic": "AI模型",
+      "published": "10-03 10:00",
+      "ts": 1790992800,
+      "summary": "大模型后训练中密集的 token-level 信号真的是必要的吗？",
+      "why": "可比较模型成本、开放程度和本地使用门槛。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 162.91,
+      "relevance": 16
+    },
+    {
+      "title": "首发！openJiuwen WorkSwarm全双工多模态 ，像聊天一样与Agent交互，昇腾算力原生亲和",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651060871&idx=2&sn=f8bdc8bd6f0ed7280678d85a54beb567",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "孵化与转化",
+      "topic": "AI模型",
+      "published": "10-01 12:00",
+      "ts": 1790827200,
+      "summary": "用户可以展示眼前画面、随时插话，也可以把需要进一步处理的工作交给 后台Core Agent。",
+      "why": "它与“AI模型”方向直接相关。尝试把它缩成一个当天能开始的网页、小工具或验证性实验。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 139,
+      "relevance": 12
+    },
+    {
+      "title": "成达万高铁铺轨施工启动，我国“八纵八横”高铁网建设迎来新进展",
+      "link": "https://www.ithome.com/1/009/570.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "工具与硬件",
+      "topic": "四川生活",
+      "published": "10-03 22:00",
+      "ts": 1791036025,
+      "summary": "IT之家 10 月 3 日消息，据中国铁路官方公众号，10 月 1 日 8 时 18 分，在四川省南充市南充北站的施工现场，随着第一组 500 米长钢轨稳稳落下， 成都至达州至万州高速铁路 （以下简称：成达万高铁）铺轨施工正式启动。成达万高铁是 我国“八纵八横”高铁网沿江通道 的重要组成部分，线路西起四川省成都市天府站，途经四川省资阳市、遂宁市、南充市、达州市及重庆市开州区、万州区，接入既有郑渝高铁万州北站， 正线全长 477 公里，设计时速 350 公里 。",
+      "why": "它与“四川生活”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 189.91,
+      "relevance": 24
+    },
+    {
+      "title": "LegoFlow：让智能体自主跑完代码数据构建+训练测评全流程",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651060898&idx=2&sn=7c342e5f7de860d0e928dab50043d6b5",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "方法与执行",
+      "topic": "编程工具",
+      "published": "10-02 13:30",
+      "ts": 1790919000,
+      "summary": "目前，数据、代码、文档已全部开源！",
+      "why": "它与“编程工具”方向直接相关。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 129,
+      "relevance": 10
+    },
+    {
+      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "link": "https://www.qbitai.com/2026/10/499663.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "测试与成果",
+      "topic": "AI模型",
+      "published": "10-01 23:02",
+      "ts": 1790866934,
+      "summary": "价格只有Astra一半",
+      "why": "可比较模型成本、开放程度和本地使用门槛。重点看测试条件、比较对象和失败情况，而不只看最终数字。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 123,
+      "relevance": 9
+    },
+    {
+      "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
+      "link": "https://www.qbitai.com/2026/10/500098.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "想法与概念",
+      "topic": "AI模型",
+      "published": "10-02 15:34",
+      "ts": 1790926455,
+      "summary": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择",
+      "why": "可比较模型成本、开放程度和本地使用门槛。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "新统计框架，精准识别高维动态数据多重结构断点",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202692974127538156039.shtm?id=156039",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "工具与硬件",
+      "topic": "数学物理",
+      "published": "09-29 15:41",
+      "ts": 1790667660,
+      "summary": "近日，西安电子科技大学数学与统计学院概率统计系副教授段江涛联合美国哥伦比亚大学、香港城市大学，在《美国统计协会期刊》上在线发表。随着数字化和智能化深入发展，经济金融等...",
+      "why": "它与“数学物理”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 150,
+      "relevance": 14
+    },
+    {
+      "title": "华为 HarmonyOS 7.0 小艺帮帮忙智能体功能调整，将不再支持后续新增的设备",
+      "link": "https://www.ithome.com/1/009/516.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "工具与硬件",
+      "topic": "AI模型",
+      "published": "10-03 17:18",
+      "ts": 1791019092,
+      "summary": "IT之家 10 月 3 日消息，小艺帮帮忙智能体是 HarmonyOS 6.0 上推出的探索性智能体。华为官网显示，因业务调整， 小艺帮帮忙智能体将不再支持后续新增的设备 。",
+      "why": "它与“AI模型”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 143.34,
+      "relevance": 15
+    },
+    {
+      "title": "团队使用 Codex 和 Claude Code，API Key 和模型权限怎么管？我开源了 Zentrola",
+      "link": "https://www.oschina.net/news/502836",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "工具与硬件",
+      "topic": "编程工具",
+      "published": "10-01 22:28",
+      "ts": 1790864911,
+      "summary": "一个人使用 AI Coding 工具时，事情很简单：申请一个 API Key，填进 Codex 或 Claude Code，然后开始工作。但当使用者从一个人变成一个团队，原本简单的配置问题很快就会变成管理问题：真实 API Key 要不要发给每个人？",
+      "why": "它与“编程工具”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 136,
+      "relevance": 12
+    },
+    {
+      "title": "重新安装数学的人：什么是\"范式级\"数学家？",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1554840",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "想法与概念",
+      "topic": "数学物理",
+      "published": "10-01 10:04",
+      "ts": 1790820299,
+      "summary": "重新安装数学的人：什么是\"范式级\"数学家？",
+      "why": "它与“数学物理”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 133,
+      "relevance": 12
+    },
+    {
+      "title": "电子科技大学物理学院——基于MXene的太赫兹超材料生物传感器：从实验室模拟到临床应用 | MDPI Condensed Matter",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202693014959615156146.shtm?id=156146",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "想法与概念",
+      "topic": "数学物理",
+      "published": "09-30 22:10",
+      "ts": 1790777400,
+      "summary": "论文标题：MXene-Based Terahertz Metamaterial Biosensors: From Laboratory Simulation to Clinical Applicat...",
+      "why": "它与“数学物理”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "一个视频彻底看懂CSS scroll-axis-lock none的作用",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/09/scroll-axis-lock-none/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "方法与执行",
+      "topic": "网页小游戏",
+      "published": "09-30 08:00",
+      "ts": 1790726400,
+      "summary": "一个视频彻底看懂CSS scroll-axis-lock none的作用",
+      "why": "可拆出一个界面、交互或游戏机制。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 9
+    },
+    {
+      "title": "独家：CSS背景色单方向扩展技术",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/09/css-background-extend/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "方法与执行",
+      "topic": "网页小游戏",
+      "published": "09-29 08:00",
+      "ts": 1790640000,
+      "summary": "独家：CSS背景色单方向扩展技术",
+      "why": "可拆出一个界面、交互或游戏机制。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 9
+    },
+    {
+      "title": "意图驱动治理：分钟级实现敏感数据规模化保护｜ 技术实践",
+      "link": "https://www.infoq.cn/article/ZBXXP1BuZMIGusWyQZvB?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "方法与执行",
+      "topic": "数据空间",
+      "published": "09-30 23:42",
+      "ts": 1790782969,
+      "summary": "点击查看原文>",
+      "why": "可练习把位置、数据和模糊关系连接起来。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 108,
+      "relevance": 6
+    },
+    {
+      "title": "美国佛蒙特州通过家庭电池储能网络应对气候变化",
+      "link": "https://www.solidot.org/story?sid=85517",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "行业观察",
+      "topic": "数据空间",
+      "published": "09-30 22:44",
+      "ts": 1790779448,
+      "summary": "过去几年极端气候频发，美国佛蒙特州每年都会因此发生十几次持续数小时的断电事故。当地电力公司 Green Mountain Power(GMP)记录到的 10 场最具有破坏性的飓风有 7 场发生在过去十年，造成了逾 2.25 亿美元的损失。",
+      "why": "可练习把位置、数据和模糊关系连接起来。看它会怎样改变你可选择的模型、工具或创作机会，不追逐与方向无关的商业热闹。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 96,
+      "relevance": 6
+    }
+  ]
+}
