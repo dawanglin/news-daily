@@ -1,0 +1,385 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04 22:45:02 +0800",
+  "total": 17,
+  "method": "个人兴趣过滤 + 项目阶段归纳 + 免费规则整理（未使用 AI）",
+  "categories": [
+    "行业观察",
+    "想法与概念",
+    "孵化与转化",
+    "工具与硬件",
+    "方法与执行",
+    "测试与成果",
+    "维护与复盘"
+  ],
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 4,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 12,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 10,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+      "link": "https://www.qbitai.com/2026/10/501368.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "行业观察",
+      "topic": "AI模型",
+      "published": "10-03 12:41",
+      "ts": 1791002484,
+      "summary": "又咋啦。。",
+      "why": "它触及你正在使用的软件和代码边界。看它会怎样改变你可选择的模型、工具或创作机会，不追逐与方向无关的商业热闹。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 123,
+      "relevance": 9
+    },
+    {
+      "title": "万分之一——大模型后训练中的极端稀疏监督",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651060998&idx=2&sn=6e1b1eee268b769acca49b04819c6fd3",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "想法与概念",
+      "topic": "AI模型",
+      "published": "10-03 10:00",
+      "ts": 1790992800,
+      "summary": "大模型后训练中密集的 token-level 信号真的是必要的吗？",
+      "why": "可比较模型成本、开放程度和本地使用门槛。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 159,
+      "relevance": 16
+    },
+    {
+      "title": "DeepSeek Harness 崔添翼：产品核心理念是“一切皆插件”，可扩展性是初心",
+      "link": "https://www.ithome.com/1/009/701.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "孵化与转化",
+      "topic": "AI模型",
+      "published": "10-04 20:27",
+      "ts": 1791116844,
+      "summary": "IT之家 10 月 4 日消息，DeepSeek Harness 组成员崔添翼今日回应了“如何看待 DeepSeek Harness 在新版本中加入 Claude Code Mods 兼容？”，他本人是这次 v0.2.1-alpha.1 版本中加入 Claude Code Mods 兼容层的作者。",
+      "why": "它与“AI模型”方向直接相关。尝试把它缩成一个当天能开始的网页、小工具或验证性实验。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 139.24,
+      "relevance": 14
+    },
+    {
+      "title": "新统计框架，精准识别高维动态数据多重结构断点",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202692974127538156039.shtm?id=156039",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "工具与硬件",
+      "topic": "数学物理",
+      "published": "09-29 15:41",
+      "ts": 1790667660,
+      "summary": "近日，西安电子科技大学数学与统计学院概率统计系副教授段江涛联合美国哥伦比亚大学、香港城市大学，在《美国统计协会期刊》上在线发表。随着数字化和智能化深入发展，经济金融等...",
+      "why": "它与“数学物理”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 150,
+      "relevance": 14
+    },
+    {
+      "title": "Rust 正式成为微软内部一级编程语言，与 C++、C#、TypeScript 并列",
+      "link": "https://www.ithome.com/1/009/672.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "方法与执行",
+      "topic": "编程工具",
+      "published": "10-04 16:43",
+      "ts": 1791103428,
+      "summary": "IT之家 10 月 4 日消息，据 Rust 基金会，Rust 现已成为微软公司内部的“一级编程语言（Tier-1）”，与 C++、C#和 TypeScript 并列。需要注意的是，这里的 Tier-1 是微软内部使用的分类，并非 Rust 项目自身的支持等级。",
+      "why": "它与“编程工具”方向直接相关。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 158.0,
+      "relevance": 18
+    },
+    {
+      "title": "基准测试：利用大规模扰动数据推断单细胞转录因子活性",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1555151",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "测试与成果",
+      "topic": "数据空间",
+      "published": "10-04 14:02",
+      "ts": 1791093759,
+      "summary": "基准测试：利用大规模扰动数据推断单细胞转录因子活性",
+      "why": "可练习把位置、数据和模糊关系连接起来。重点看测试条件、比较对象和失败情况，而不只看最终数字。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 123.1,
+      "relevance": 9
+    },
+    {
+      "title": "条件概率的本体论升级：从比值到测度族",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1555127",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "维护与复盘",
+      "topic": "数学物理",
+      "published": "10-04 10:01",
+      "ts": 1791079310,
+      "summary": "条件概率的本体论升级：从比值到测度族",
+      "why": "它与“数学物理”方向直接相关。记录长期成本、故障边界和维护办法，避免只看到发布时的效果。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 106.76,
+      "relevance": 6
+    },
+    {
+      "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
+      "link": "https://www.qbitai.com/2026/10/500098.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "想法与概念",
+      "topic": "AI模型",
+      "published": "10-02 15:34",
+      "ts": 1790926455,
+      "summary": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择",
+      "why": "可比较模型成本、开放程度和本地使用门槛。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "Meta 开启 2026 年度 VR Start 开发者竞赛：奖金池百万美元、鼓励为 VR Glasses 全新头显打造手部追踪应用",
+      "link": "https://www.ithome.com/1/009/677.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "方法与执行",
+      "topic": "编程工具",
+      "published": "10-04 16:56",
+      "ts": 1791104199,
+      "summary": "IT之家 10 月 4 日消息，Meta 在 2026 年度开发者大会上宣布了 2026 年度 VR Start 开发者竞赛，本次比赛将提供总额 100 万美元 （IT之家注：现汇率约合 672 万元人民币） 的奖金池，鼓励开发者为 Meta VR Glasses 打造兼容内容。IT之家获悉，本次 VR Start 开发者竞赛从即日起持续至 2026 年 11 月 18 日，符合要求的作品将获得 2 万美元至 10 万美元 （现汇率约合 13.4 万元至 67.2 万元人民…",
+      "why": "它与“编程工具”方向直接相关。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 143.07,
+      "relevance": 15
+    },
+    {
+      "title": "AI 员工支持知识库文档引用：开源 AI 无代码平台 NocoBase",
+      "link": "https://www.oschina.net/news/502842",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "工具与硬件",
+      "topic": "AI模型",
+      "published": "10-03 17:07",
+      "ts": 1791018447,
+      "summary": "汇总一周产品更新日志，最新发布可前往我们的博客查看。NocoBase 目前更新包括三个分支： main、next 和 develop。",
+      "why": "可比较模型成本、开放程度和本地使用门槛。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 136,
+      "relevance": 12
+    },
+    {
+      "title": "LegoFlow：让智能体自主跑完代码数据构建+训练测评全流程",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651060898&idx=2&sn=7c342e5f7de860d0e928dab50043d6b5",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "方法与执行",
+      "topic": "编程工具",
+      "published": "10-02 13:30",
+      "ts": 1790919000,
+      "summary": "目前，数据、代码、文档已全部开源！",
+      "why": "它与“编程工具”方向直接相关。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 129,
+      "relevance": 10
+    },
+    {
+      "title": "System76 更新 COSMIC 项目 PR 模板，禁止贡献者提交利用 AI 辅助完成的代码",
+      "link": "https://www.ithome.com/1/009/669.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "方法与执行",
+      "topic": "AI模型",
+      "published": "10-04 16:35",
+      "ts": 1791102959,
+      "summary": "IT之家 10 月 4 日消息，开发团队 System76 现已更新 COSMIC 项目的 Pull Request（PR）模板，新增一份强制性检查清单，明确禁止贡献者提交利用 AI 辅助完成的代码。贡献者必须确认提交内容中不存在任何 AI 生成的代码、注释以及描述，否则无法按照要求提交贡献。",
+      "why": "它与“AI模型”方向直接相关。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 127.95,
+      "relevance": 12
+    },
+    {
+      "title": "电子科技大学物理学院——基于MXene的太赫兹超材料生物传感器：从实验室模拟到临床应用 | MDPI Condensed Matter",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202693014959615156146.shtm?id=156146",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "想法与概念",
+      "topic": "数学物理",
+      "published": "09-30 22:10",
+      "ts": 1790777400,
+      "summary": "论文标题：MXene-Based Terahertz Metamaterial Biosensors: From Laboratory Simulation to Clinical Applicat...",
+      "why": "它与“数学物理”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "文章发表 | DCRNet：暗因果推断揭示自闭症lncRNA动态调控",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1555155",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "想法与概念",
+      "topic": "数据空间",
+      "published": "10-04 14:09",
+      "ts": 1791094179,
+      "summary": "文章发表 | DCRNet：暗因果推断揭示自闭症lncRNA动态调控",
+      "why": "可练习把位置、数据和模糊关系连接起来。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 123.14,
+      "relevance": 9
+    },
+    {
+      "title": "Graphify：整合代码库上下文，优化基于代理的软件工程",
+      "link": "https://www.infoq.cn/article/8XuP4iZKKr3ex2VTDxpl?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "工具与硬件",
+      "topic": "编程工具",
+      "published": "10-02 18:00",
+      "ts": 1790935200,
+      "summary": "点击查看原文>",
+      "why": "它与“编程工具”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 108,
+      "relevance": 6
+    },
+    {
+      "title": "自学动画 爆肝俩月 自创一集《海绵宝宝》【手搓动画大赛】",
+      "link": "https://www.bilibili.com/video/BV1TXHY6aETi",
+      "source": "B站热门",
+      "signals": [
+        "B站热门"
+      ],
+      "category": "孵化与转化",
+      "topic": "网页小游戏",
+      "published": "10-03 18:00",
+      "ts": 1791021600,
+      "summary": "老艺人手搓动画，每个背景和每一帧都是手绘，请大家支持，祝各位为了梦想继续加油！",
+      "why": "可拆出一个界面、交互或游戏机制。尝试把它缩成一个当天能开始的网页、小工具或验证性实验。",
+      "confidence": "兴趣线索",
+      "confidence_class": "signal",
+      "score": 98,
+      "relevance": 12
+    },
+    {
+      "title": "重庆市高院、检察院、公安局联合通告",
+      "link": "https://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86%E5%B8%82%E9%AB%98%E9%99%A2%E3%80%81%E6%A3%80%E5%AF%9F%E9%99%A2%E3%80%81%E5%85%AC%E5%AE%89%E5%B1%80%E8%81%94%E5%90%88%E9%80%9A%E5%91%8A&sa=fyb_news&rsv_dl=fyb_news",
+      "source": "百度热搜",
+      "signals": [
+        "百度热搜"
+      ],
+      "category": "测试与成果",
+      "topic": "四川生活",
+      "published": "10-04 22:44",
+      "ts": 1791125074,
+      "summary": "10月2日，重庆市高级人民法院、市人民检察院、市公安局联合发布通告，依法收缴非法枪爆等物品。通告明确，凡在2027年3月31日前投案自首或主动交出非法物品者，可依法从轻、减轻或免除处罚；",
+      "why": "它与“四川生活”方向直接相关。重点看测试条件、比较对象和失败情况，而不只看最终数字。",
+      "confidence": "兴趣线索",
+      "confidence_class": "signal",
+      "score": 66.0,
+      "relevance": 4
+    }
+  ]
+}
