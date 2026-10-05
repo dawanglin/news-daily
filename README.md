@@ -37,6 +37,10 @@ GitHub Actions 每天多次巡检；北京时间 17:00 前只检查不生成，1
 
 全流程使用 Python 标准库和透明规则，不使用 AI 大模型，也不需要付费接口。
 
+## 国内访问镜像
+
+仓库已包含 `edgeone.json`，可直接导入腾讯 EdgeOne Makers，发布目录为 `site/`。EdgeOne 可连接 GitHub 或 Gitee；每次仓库更新后自动重新部署，适合作为手机端国内访问地址。GitHub Pages 地址继续保留为备用。
+
 ## 本地运行
 
 ```bash
