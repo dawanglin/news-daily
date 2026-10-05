@@ -315,7 +315,13 @@ def select_balanced(items):
 
 
 def main():
-    today = NOW_UTC.astimezone(TZ).strftime("%Y-%m-%d")
+    now_local = NOW_UTC.astimezone(TZ)
+    not_before_hour = int(os.environ.get("NOT_BEFORE_HOUR", "0"))
+    if now_local.hour < not_before_hour:
+        print(f"北京时间尚未到 {not_before_hour:02d}:00，本次仅巡检，不生成快照")
+        return
+
+    today = now_local.strftime("%Y-%m-%d")
     output = DATA_DIR / f"news_{today}.json"
     if output.exists() and os.environ.get("FORCE_REFRESH") != "1":
         print(f"{output.name} 已存在，作为历史快照保留；如需本地重抓请设置 FORCE_REFRESH=1")

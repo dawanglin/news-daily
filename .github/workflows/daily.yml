@@ -1,12 +1,13 @@
 name: Daily News Digest
 
-# 每天下午 17:03 北京时间首次运行；17:18、17:33 自动补跑。
-# 当天快照一旦存在，补跑不会重抓或改写，只用于抵抗 GitHub 定时任务偶发延迟/丢失。
+# 北京时间 09:07 至 23:07 每两小时巡检一次。
+# 抓取程序在 17:00 前自动跳过；当天快照一旦存在，后续巡检不会重抓或改写。
+# 多次巡检用于抵抗 GitHub 定时任务数小时级延迟或偶发丢失。
 on:
   push:
     branches: [main]
   schedule:
-    - cron: "3,18,33 9 * * *"
+    - cron: "7 1,3,5,7,9,11,13,15 * * *"
   workflow_dispatch: {}   # 也支持在 Actions 页面手动触发
 
 permissions:
@@ -35,6 +36,8 @@ jobs:
 
       - name: 抓取新闻（纯标准库，无需安装依赖）
         if: github.event_name != 'push'
+        env:
+          NOT_BEFORE_HOUR: ${{ github.event_name == 'schedule' && '17' || '0' }}
         run: python fetch_news.py
 
       - name: 生成静态站点

@@ -1,0 +1,385 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05 16:34:05 +0800",
+  "total": 17,
+  "method": "个人兴趣过滤 + 项目阶段归纳 + 免费规则整理（未使用 AI）",
+  "categories": [
+    "行业观察",
+    "想法与概念",
+    "孵化与转化",
+    "工具与硬件",
+    "方法与执行",
+    "测试与成果",
+    "维护与复盘"
+  ],
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 2,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 9,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "华为与高通宣布达成广泛专利许可协议，覆盖 5G、AI、计算及网络技术领域",
+      "link": "https://www.ithome.com/1/009/806.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "行业观察",
+      "topic": "数据空间",
+      "published": "10-05 14:18",
+      "ts": 1791181121,
+      "summary": "IT之家 10 月 5 日消息，华为与高通今日宣布达成一项长期、广泛的专利许可协议，该协议包含双方在 5G、计算、人工智能、网络等多个技术领域的专利组合交叉许可，同时高通将收购华为在计算、人工智能、网络及其他技术领域的部分美国专利。这是华为与高通之间 首份涵盖 5G 技术的专利许可协议 。",
+      "why": "可练习把位置、数据和模糊关系连接起来。看它会怎样改变你可选择的模型、工具或创作机会，不追逐与方向无关的商业热闹。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 129.25,
+      "relevance": 12
+    },
+    {
+      "title": "SmartCall v1.0.7 发布，新增模型以及音色管理",
+      "link": "https://www.oschina.net/news/502844",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "想法与概念",
+      "topic": "AI模型",
+      "published": "10-05 03:06",
+      "ts": 1791140764,
+      "summary": ":book: 项目简介 SmartCall 是一套基于 AI 大模型 + Asterisk 通信引擎构建的新一代智能客服呼叫中心系统。系统深度融合了 AI 语音机器人、智能 IVR 流程编排、端到端双工对话模型、实时语音识别（ASR）、语音合成（TTS）、大模型意图识别 等核心能力，为企业提供从呼入智能应答到智能外呼的全链路 AI 客服解决方案。",
+      "why": "它与“AI模型”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 179.51,
+      "relevance": 20
+    },
+    {
+      "title": "圆刚推出 AI 降噪麦克风 A113，工作温度范围达 -25℃ 至 +60℃",
+      "link": "https://www.ithome.com/1/009/811.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "孵化与转化",
+      "topic": "AI模型",
+      "published": "10-05 14:33",
+      "ts": 1791182008,
+      "summary": "IT之家 10 月 5 日消息，圆刚 (AVerMedia) 近日推出了 AIClear Mic (A113) 麦克风。这一型号面向工业应用， 工作温度范围达 -25℃ 至 +60℃ 、 存放温度范围达 -40℃ 至 +85℃ 。",
+      "why": "它与“AI模型”方向直接相关。尝试把它缩成一个当天能开始的网页、小工具或验证性实验。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 114.33,
+      "relevance": 9
+    },
+    {
+      "title": "美国佛州一女子把 AI 当“日记本”用，Claude 识别到枪击威胁后上报给 Anthropic 人工审核并报警",
+      "link": "https://www.ithome.com/1/009/795.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "工具与硬件",
+      "topic": "AI模型",
+      "published": "10-05 13:00",
+      "ts": 1791176425,
+      "summary": "IT之家 10 月 5 日消息，美国佛罗里达州李县（Lee County）一名 30 岁女子因涉嫌在与 Anthropic 旗下聊天机器人 Claude 的对话中写下针对当地警长办公室的暴力威胁而被捕。据当地警方通报，邦尼塔斯普林斯居民卡莉 · 米歇尔 · 赫勒（Carli Michelle Heller）于 9 月 26 日在对话中称要对李县警长办公室实施枪击（shoot up）。",
+      "why": "它与“AI模型”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 158.81,
+      "relevance": 18
+    },
+    {
+      "title": "爱好者自制天气时钟：基于 Freenove FNK0103S 开发板、可选装人在传感器",
+      "link": "https://www.ithome.com/1/009/819.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "方法与执行",
+      "topic": "四川生活",
+      "published": "10-05 15:04",
+      "ts": 1791183858,
+      "summary": "IT之家 10 月 5 日消息，据外媒 XDA 报道，一位爱好者 sudu1988 在 Reddit 发帖，展示了自己打造的天气时钟，该机可以从 Open-Meteo 获取天气数据，并显示当前时间、实时天气以及未来天气预报。硬件方面，该机基于 Freenove FNK0103S 开发板，搭载 ESP32-WROOM-32E 芯片，并配备一块 4 英寸 ST7796 显示屏和 XPT2046 电阻式触摸模组。",
+      "why": "它与“四川生活”方向直接相关。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 144.5,
+      "relevance": 15
+    },
+    {
+      "title": "基准测试：利用大规模扰动数据推断单细胞转录因子活性",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1555151",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "测试与成果",
+      "topic": "数据空间",
+      "published": "10-04 14:02",
+      "ts": 1791093759,
+      "summary": "基准测试：利用大规模扰动数据推断单细胞转录因子活性",
+      "why": "可练习把位置、数据和模糊关系连接起来。重点看测试条件、比较对象和失败情况，而不只看最终数字。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 118,
+      "relevance": 9
+    },
+    {
+      "title": "条件概率的本体论升级：从比值到测度族",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1555127",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "维护与复盘",
+      "topic": "数学物理",
+      "published": "10-04 10:01",
+      "ts": 1791079310,
+      "summary": "条件概率的本体论升级：从比值到测度族",
+      "why": "它与“数学物理”方向直接相关。记录长期成本、故障边界和维护办法，避免只看到发布时的效果。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 103,
+      "relevance": 6
+    },
+    {
+      "title": "万分之一——大模型后训练中的极端稀疏监督",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651060998&idx=2&sn=6e1b1eee268b769acca49b04819c6fd3",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "想法与概念",
+      "topic": "AI模型",
+      "published": "10-03 10:00",
+      "ts": 1790992800,
+      "summary": "大模型后训练中密集的 token-level 信号真的是必要的吗？",
+      "why": "可比较模型成本、开放程度和本地使用门槛。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 159,
+      "relevance": 16
+    },
+    {
+      "title": "新统计框架，精准识别高维动态数据多重结构断点",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202692974127538156039.shtm?id=156039",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "工具与硬件",
+      "topic": "数学物理",
+      "published": "09-29 15:41",
+      "ts": 1790667660,
+      "summary": "近日，西安电子科技大学数学与统计学院概率统计系副教授段江涛联合美国哥伦比亚大学、香港城市大学，在《美国统计协会期刊》上在线发表。随着数字化和智能化深入发展，经济金融等...",
+      "why": "它与“数学物理”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 150,
+      "relevance": 14
+    },
+    {
+      "title": "沃尔夫物理学奖揭晓：叶军与布洛赫因超冷原子研究获奖",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=52206&do=blog&id=1555223",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "想法与概念",
+      "topic": "数学物理",
+      "published": "10-05 19:19",
+      "ts": 1791199156,
+      "summary": "沃尔夫物理学奖揭晓：叶军与布洛赫因超冷原子研究获奖",
+      "why": "它与“数学物理”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 141.0,
+      "relevance": 12
+    },
+    {
+      "title": "AI 员工支持知识库文档引用：开源 AI 无代码平台 NocoBase",
+      "link": "https://www.oschina.net/news/502842",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "工具与硬件",
+      "topic": "AI模型",
+      "published": "10-03 17:07",
+      "ts": 1791018447,
+      "summary": "汇总一周产品更新日志，最新发布可前往我们的博客查看。NocoBase 目前更新包括三个分支： main、next 和 develop。",
+      "why": "可比较模型成本、开放程度和本地使用门槛。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 136,
+      "relevance": 12
+    },
+    {
+      "title": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
+      "link": "https://www.qbitai.com/2026/10/501700.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "想法与概念",
+      "topic": "AI模型",
+      "published": "10-05 10:50",
+      "ts": 1791168646,
+      "summary": "有改进就体验，没改进就重置，横竖不亏。",
+      "why": "它与“AI模型”方向直接相关。先写下它的新概念、关键变量，以及它改变了哪个旧认识。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 129.09,
+      "relevance": 9
+    },
+    {
+      "title": "一个视频彻底看懂CSS scroll-axis-lock none的作用",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/09/scroll-axis-lock-none/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "方法与执行",
+      "topic": "网页小游戏",
+      "published": "09-30 08:00",
+      "ts": 1790726400,
+      "summary": "一个视频彻底看懂CSS scroll-axis-lock none的作用",
+      "why": "可拆出一个界面、交互或游戏机制。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 9
+    },
+    {
+      "title": "独家：CSS背景色单方向扩展技术",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/09/css-background-extend/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "方法与执行",
+      "topic": "网页小游戏",
+      "published": "09-29 08:00",
+      "ts": 1790640000,
+      "summary": "独家：CSS背景色单方向扩展技术",
+      "why": "可拆出一个界面、交互或游戏机制。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 9
+    },
+    {
+      "title": "Graphify：整合代码库上下文，优化基于代理的软件工程",
+      "link": "https://www.infoq.cn/article/8XuP4iZKKr3ex2VTDxpl?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "工具与硬件",
+      "topic": "编程工具",
+      "published": "10-02 18:00",
+      "ts": 1790935200,
+      "summary": "点击查看原文>",
+      "why": "它与“编程工具”方向直接相关。检查它能替代哪一步现有操作，再决定是否实际安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 108,
+      "relevance": 6
+    },
+    {
+      "title": "十个案例助你轻松上手 iOS 27 通知自动化",
+      "link": "https://sspai.com/post/114536",
+      "source": "少数派",
+      "signals": [
+        "少数派"
+      ],
+      "category": "方法与执行",
+      "topic": "编程工具",
+      "published": "10-05 10:59",
+      "ts": 1791169164,
+      "summary": "iOS 27 通知自动化改变了通知的处理方式，快捷指令也迎来了不少的新玩法。查看全文",
+      "why": "它与“编程工具”方向直接相关。抽出可复现的步骤，选其中最小的一步亲手执行。",
+      "confidence": "数字生活来源",
+      "confidence_class": "professional",
+      "score": 106.14,
+      "relevance": 6
+    },
+    {
+      "title": "医生辟谣高铁座椅或为HPV感染重灾区",
+      "link": "https://www.toutiao.com/trending/7691994895783411738/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%224%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227691994895783411738%22%2C%22hot_board_impr_id%22%3A%22202610051633594491E5767A7538E5AA83%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%8C%BB%E7%94%9F%E8%BE%9F%E8%B0%A3%E9%AB%98%E9%93%81%E5%BA%A7%E6%A4%85%E6%88%96%E4%B8%BAHPV%E6%84%9F%E6%9F%93%E9%87%8D%E7%81%BE%E5%8C%BA%22%7D&rank=&style_id=40132&topic_id=7691994895783411738",
+      "source": "头条热榜",
+      "signals": [
+        "头条热榜"
+      ],
+      "category": "孵化与转化",
+      "topic": "四川生活",
+      "published": "10-05 16:33",
+      "ts": 1791189239,
+      "summary": "医生辟谣高铁座椅或为HPV感染重灾区",
+      "why": "它与“四川生活”方向直接相关。尝试把它缩成一个当天能开始的网页、小工具或验证性实验。",
+      "confidence": "兴趣线索",
+      "confidence_class": "signal",
+      "score": 76.0,
+      "relevance": 6
+    }
+  ]
+}
