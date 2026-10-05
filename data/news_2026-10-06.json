@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06 01:20:16 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 3,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "OpenAI 将在 ChatGPT 中推出全新图片广告形式，不会影响生成结果",
+      "link": "https://www.ithome.com/1/009/901.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-05 23:01",
+      "ts": 1791212519,
+      "summary": "IT之家 10 月 5 日消息，OpenAI 今日宣布，将在 ChatGPT 中推出全新的图片广告形式，扩充广告效果衡量工具与合作生态，并研发新方案用于评估品牌适配性。IT之家从官方介绍获悉， ChatGPT 每周覆盖 12 亿用户 ，是全球规模最大的原生 AI 消费平台。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 204.23,
+      "relevance": 27
+    },
+    {
+      "title": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+      "link": "https://www.infoq.cn/article/M4mgbKf4RDv5AKTwQvFH?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "10-04 18:00",
+      "ts": 1791108000,
+      "summary": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 213,
+      "relevance": 27
+    },
+    {
+      "title": "BlackGit，按需下载仓库文件以及提供文件 Lock 功能，还有对应 Skills 方便操作",
+      "link": "https://www.oschina.net/news/502843",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-04 22:18",
+      "ts": 1791123510,
+      "summary": "仓库地址：https://github.com/zhuzhonghua/blackgit 使用blackgit按需下载仓库文件，并且服务端提供文件锁定功能 BlackGit由客户端和服务器两部分组成，并且前后端解耦，可以分开使用 Cli-稀疏检出仓库，初始以blob:none克隆，然后sparse-checkout设置!/*, !",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 141,
+      "relevance": 13
+    },
+    {
+      "title": "Google 测试太空 AI 数据中心",
+      "link": "https://www.solidot.org/story?sid=85532",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "专家观点",
+      "published": "10-04 00:49",
+      "ts": 1791046145,
+      "summary": "Google 一颗冰箱大小的卫星搭载 SpaceX 的 Falcon 9 于 10 月 1 日升空，搜索巨人将测试太空 AI 数据中心的可行性。有很多专家已经指出太空数据中心可行性不高。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 156,
+      "relevance": 18
+    },
+    {
+      "title": "产品的前端被抄了，又无语又想笑。",
+      "link": "https://www.v2ex.com/t/1246398#reply25",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "教程方法",
+      "published": "10-04 17:42",
+      "ts": 1791106928,
+      "summary": "我第一次做产品，打磨了 6 个月才推出，结果推出 2 个月后被电诈站抄了我们的前端页面。是直接拿我们的前端 nuxt 构建档案改，连混淆后的 *.js 和 *.css 档名都一样，联系方式也不换一下。",
+      "why": "可拆出一个界面、交互或游戏机制。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 123,
+      "relevance": 13
+    },
+    {
+      "title": "【科普网站】格物间「宇宙与天文」专题：10 个能在浏览器里动手玩的天文交互演示",
+      "link": "https://meta.appinn.net/t/topic/92780",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-05 16:43",
+      "ts": 1791189791,
+      "summary": "软件名称 格物间 · 宇宙与天文专题 应用平台 网页（电脑、平板浏览器体验最好，手机可以看但屏幕偏小） 推荐类型 【开发者自荐】 是否收费 免费。浏览和操作演示不用注册、不用登录 一句简介 把天文知识做成可以拖、可以放大缩小、可以按真实速度播放的交互演示，从野餐垫上的 1 米一路放大到可观测宇宙。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 182.13,
+      "relevance": 21
+    },
+    {
+      "title": "文章发表 | DCRNet：暗因果推断揭示自闭症lncRNA动态调控",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1555155",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "概念科普",
+      "published": "10-04 14:09",
+      "ts": 1791094179,
+      "summary": "文章发表 | DCRNet：暗因果推断揭示自闭症lncRNA动态调控",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 118,
+      "relevance": 9
+    },
+    {
+      "title": "OpenAI 将在欧盟为 ChatGPT 和 Codex 文本输出添加隐形水印",
+      "link": "https://www.ithome.com/1/009/903.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "科技资讯",
+      "published": "10-05 23:58",
+      "ts": 1791215882,
+      "summary": "IT之家 10 月 5 日消息，OpenAI 今日宣布，为配合《欧盟人工智能法案》的内容透明要求，未来几周将在欧盟地区符合条件的 ChatGPT 和 Codex 文本输出中加入机器可识别的隐形水印。据介绍，文本水印技术名为 textGrain（文本粒水印） ，会在模型选词过程中嵌入不可见的统计信号。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 199.54,
+      "relevance": 26
+    },
+    {
+      "title": "免费使用浏览器内置大模型来给自己的网页提供优化建议",
+      "link": "https://www.v2ex.com/t/1246562#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "10-06 00:13",
+      "ts": 1791216781,
+      "summary": "(可以使用 nano_v3_gpu_component 、gemma4_component 、gemma4_12b_component 、gemma4_4b_component 等) 原理是利用 Chrome 浏览器内置的 API prompt_api 等来免费使用大模型 这是效果图 现在介绍一下如何实现利用浏览器插件安装内置大模型来实现免费提网页建议 1. 安装插件，[插件正式版]( https://chromewebstore.google.com/detail/pio…",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 177.63,
+      "relevance": 22
+    },
+    {
+      "title": "SmartCall v1.0.7 发布，新增模型以及音色管理",
+      "link": "https://www.oschina.net/news/502844",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-05 03:06",
+      "ts": 1791140764,
+      "summary": ":book: 项目简介 SmartCall 是一套基于 AI 大模型 + Asterisk 通信引擎构建的新一代智能客服呼叫中心系统。系统深度融合了 AI 语音机器人、智能 IVR 流程编排、端到端双工对话模型、实时语音识别（ASR）、语音合成（TTS）、大模型意图识别 等核心能力，为企业提供从呼入智能应答到智能外呼的全链路 AI 客服解决方案。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 176.59,
+      "relevance": 20
+    },
+    {
+      "title": "AI 参照网-给 AI 做网站的审美参照与收集万星 Skill",
+      "link": "https://www.v2ex.com/t/1246494#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "概念科普",
+      "published": "10-05 14:29",
+      "ts": 1791181753,
+      "summary": "网站与 AI 辅助开发心得 一、 网站审美与 AI 参照 在做网站过程中，我发现 AI 第一版做出来的网站，功能都还能慢慢调整，但网站的 审美是怎么调也难调整 。不如直接找一个好看的网站，让 AI 直接参照。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 169.38,
+      "relevance": 21
+    },
+    {
+      "title": "万分之一——大模型后训练中的极端稀疏监督",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651060998&idx=2&sn=6e1b1eee268b769acca49b04819c6fd3",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "10-03 10:00",
+      "ts": 1790992800,
+      "summary": "大模型后训练中密集的 token-level 信号真的是必要的吗？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 159,
+      "relevance": 16
+    },
+    {
+      "title": "简单优雅的开源截图软件 Snow Shot（社区驱动）",
+      "link": "https://meta.appinn.net/t/topic/71367",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-05 21:56",
+      "ts": 1791208592,
+      "summary": "这款软件叫 Snow Shot Snow Shot 是 Snow Shot 社区共同开发的一款开源截图工具，我们相信最好的软件一定是忠于用户社区的。我们积极收听用户反馈，用心打磨，Snow Shot 现已拥有完善的截图功能，并通过插件系统保持应用本身简洁的同时保持超丰富的扩展功能！",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 158.87,
+      "relevance": 16
+    },
+    {
+      "title": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "link": "https://www.infoq.cn/article/yVWAQGCZCzI838JESA1b?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "10-05 18:00",
+      "ts": 1791194400,
+      "summary": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 158.55,
+      "relevance": 15
+    },
+    {
+      "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "link": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-03 18:00",
+      "ts": 1791021600,
+      "summary": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "新统计框架，精准识别高维动态数据多重结构断点",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202692974127538156039.shtm?id=156039",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "工具发布",
+      "published": "09-29 15:41",
+      "ts": 1790667660,
+      "summary": "近日，西安电子科技大学数学与统计学院概率统计系副教授段江涛联合美国哥伦比亚大学、香港城市大学，在《美国统计协会期刊》上在线发表。随着数字化和智能化深入发展，经济金融等...",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 150,
+      "relevance": 14
+    },
+    {
+      "title": "Agent Harness到底怎么选？南洋理工大学安波团队最新研究给出答案",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651061081&idx=2&sn=cb11670b3a6aae956f8e44f4cdfa08e9",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专家观点",
+      "published": "10-04 11:54",
+      "ts": 1791086040,
+      "summary": "Harness 的好坏并不是固定属性，而是取决于它与模型、任务之间的具体组合",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 139,
+      "relevance": 12
+    },
+    {
+      "title": "沃尔夫物理学奖揭晓：叶军与布洛赫因超冷原子研究获奖",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=52206&do=blog&id=1555223",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-05 19:19",
+      "ts": 1791199156,
+      "summary": "沃尔夫物理学奖揭晓：叶军与布洛赫因超冷原子研究获奖",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 138.99,
+      "relevance": 12
+    },
+    {
+      "title": "edgeTTS 适用于 STranslate 的语音合成插件",
+      "link": "https://www.v2ex.com/t/1246534#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-05 20:11",
+      "ts": 1791202289,
+      "summary": "前文： /t/1244818 现在，你可以在 [STranslate]( https://github.com/STranslate/STranslate ) 里面使用自托管的 [edgeTTS]( https://github.com/DejavuMoe/edgeTTS ) 语音合成 API https://github.com/DejavuMoe/STranslate.Plugin.Tts.edgeTTS https://imgur.com/a/z4QRo6E",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 136.29,
+      "relevance": 14
+    },
+    {
+      "title": "[开源推广] Oh-My-CPA: 更现代的 CPA 管理面板,原生移动端 / MCP Agent / 完整 CPAMC 体验",
+      "link": "https://www.v2ex.com/t/1246432#reply1",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-04 23:52",
+      "ts": 1791129147,
+      "summary": "仓库地址: https://github.com/WizisCool/oh-my-cpa Oh-My-CPA 这个项目从 8 月 31 日创建仓库至今已连续开发一个多月，消耗 200+ 亿 Token 。起初只是为了让自己的 CPA 用着舒服一些，后来有一些佬友感兴趣，于是决定继续优化后开源 感谢开发期间社区的意见和 Bug 报告 :pray: 仓库的 PR 在我一人开发的情况下已经累计合并了 124 个 PR ，总 Commit 在压缩合并的情况下也已经到达了 458 条…",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 133,
+      "relevance": 15
+    },
+    {
+      "title": "wreq- Python ：重写协程桥接后的性能提升",
+      "link": "https://www.v2ex.com/t/1246447#reply0",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "教程方法",
+      "published": "10-05 08:34",
+      "ts": 1791160498,
+      "summary": "国庆闲来无事，跑了一下 wreq-python 和其他 Python HTTP 客户端的 HTTPS 性能基准，发现自己的结果不太理想，于是顺着火焰图查了一下瓶颈。项目地址： https://github.com/0x676e67/wreq-python 之前通过 PyO3 和 pyo3-async-runtimes 做异步桥接，性能其实已经不错，但在这套实现里，反复获取 GIL 带来的额外开销和争用，还是影响了性能。",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 125.42,
+      "relevance": 13
+    },
+    {
+      "title": "电子科技大学物理学院——基于MXene的太赫兹超材料生物传感器：从实验室模拟到临床应用 | MDPI Condensed Matter",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202693014959615156146.shtm?id=156146",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "09-30 22:10",
+      "ts": 1790777400,
+      "summary": "论文标题：MXene-Based Terahertz Metamaterial Biosensors: From Laboratory Simulation to Clinical Applicat...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "【开发者自荐】FileSyncTool – 专注 U 盘寿命保护的跨平台文件同步工具",
+      "link": "https://meta.appinn.net/t/topic/92683",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-05 16:45",
+      "ts": 1791189937,
+      "summary": "软件名称：FileSyncTool 应用平台：Windows / macOS / Linux 推荐类型：【开发者自荐】 是否收费：免费开源（MIT 协议） 一句话简介：一个跨平台的文件夹同步工具，支持双向/单向同步，内置 U 盘写入寿命保护。应用简介： 经常用 U 盘拷文件，也经常在多个文件夹之间",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 122.14,
+      "relevance": 9
+    },
+    {
+      "title": "一个视频彻底看懂CSS scroll-axis-lock none的作用",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/09/scroll-axis-lock-none/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "技术实践",
+      "published": "09-30 08:00",
+      "ts": 1790726400,
+      "summary": "一个视频彻底看懂CSS scroll-axis-lock none的作用",
+      "why": "可拆出一个界面、交互或游戏机制。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 9
+    },
+    {
+      "title": "独家：CSS背景色单方向扩展技术",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/09/css-background-extend/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "技术实践",
+      "published": "09-29 08:00",
+      "ts": 1790640000,
+      "summary": "独家：CSS背景色单方向扩展技术",
+      "why": "可拆出一个界面、交互或游戏机制。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 9
+    },
+    {
+      "title": "发现频道：10款大家发现的好评软件[2026年第40期]",
+      "link": "https://www.appinn.com/faxian-top10-2640/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-05 09:00",
+      "ts": 1791162034,
+      "summary": "最近10日，来自小众软件论坛的发现频道的热门排行榜，由系统自动生成，直接列出来： 序号 主题 1️⃣ 挖兔硬盘精灵 v1.1.2 —— 免费开源的硬盘健康检测工具（六档颜色预警） 2️⃣ 【开发者自荐】模型大全同步当前主流大模型参数评测数据每日更新查询方便 3️⃣ 【开发者自荐】",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 119.56,
+      "relevance": 9
+    }
+  ]
+}

@@ -14,11 +14,9 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-from config import (
-    CATEGORY_HINTS, CATEGORY_ORDER, EXTRACT_SENTENCES, FETCH_TIMEOUT,
-    MAX_AGE_HOURS, MAX_ITEMS_PER_FEED, MAX_ITEMS_TOTAL, NEWS_FEEDS,
-    TZ_OFFSET_HOURS,
-)
+from config import (EXTRACT_SENTENCES, FETCH_TIMEOUT, MAX_AGE_HOURS,
+                    MAX_ITEMS_PER_FEED, MAX_ITEMS_TOTAL, NEWS_FEEDS,
+                    TZ_OFFSET_HOURS)
 
 try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -42,30 +40,32 @@ HOT_ENDPOINTS = {
     "B站热门": "https://api.bilibili.com/x/web-interface/ranking/v2?rid=0&type=all",
 }
 
-# 主目录是“从想法到维护”的阶段；主题作为第二层标签。
-STAGE_KEYWORDS = {
-    "行业观察": "行业 市场 公司 团队 生态 竞争 融资 收购 商业 产品线 路线图 开发者生态 开源生态 用户增长 订阅".split(),
-    "想法与概念": "概念 理论 原理 发现 研究 论文 猜想 定理 模型 趋势 观点 范式 数学 物理 量子 空间 因果 不确定性".split(),
-    "孵化与转化": "创意 灵感 原型 Demo 项目 产品 应用 场景 方案 孵化 转化 独立开发 小游戏 网页 游戏开发 交互".split(),
-    "工具与硬件": "工具 软件 插件 平台 框架 库 SDK API IDE 编辑器 开源 硬件 芯片 机器人 电脑 设备 浏览器".split(),
-    "方法与执行": "教程 指南 实践 实现 开发 构建 编程 代码 工作流 步骤 方法 部署 自动化 训练 微调 提示词".split(),
-    "测试与成果": "测试 评测 基准 跑分 验证 实验 结果 成果 性能 效果 纪录 发布 上线 复现 对比".split(),
-    "维护与复盘": "维护 故障 漏洞 安全 隐私 成本 优化 修复 升级 兼容 稳定 复盘 争议 边界 版权 许可证".split(),
-}
-
 TOPIC_KEYWORDS = {
-    "AI模型": "AI 人工智能 大模型 模型 Agent 智能体 OpenAI Claude Anthropic DeepSeek Gemini GPT 推理 多模态 RAG MCP token 智谱 通义 Kimi 豆包 Llama".split(),
-    "网页小游戏": "网页 前端 HTML CSS JavaScript TypeScript WebGL Canvas Three.js 浏览器 小游戏 游戏开发 交互 动画 像素 Unity Godot Phaser React Vue Svelte 小程序".split(),
+    "云服务器": "云服务器 云主机 VPS Serverless 容器 Docker Kubernetes 部署 运维 域名 CDN 托管 云计算 数据中心 阿里云 腾讯云 华为云 AWS Azure".split(),
+    "AI模型": "AI 人工智能 大模型 模型 OpenAI Claude Anthropic DeepSeek Gemini GPT 推理 多模态 RAG MCP token 智谱 通义 Kimi 豆包 Llama".split(),
+    "提示词": "提示词 Prompt 上下文 system prompt 提示工程 越狱 指令 模板".split(),
+    "Agent": "Agent 智能体 代理 多智能体 工作流 MCP function calling 工具调用 记忆 规划 自主执行".split(),
+    "Skill与插件": "Skill 技能 插件 plugin extension 应用商店 marketplace connector 连接器 浏览器插件".split(),
+    "网页小游戏": "网页 前端 HTML CSS JavaScript TypeScript WebGL Canvas Three.js 浏览器 小游戏 游戏开发 像素 Unity Godot Phaser React Vue Svelte 小程序".split(),
     "编程工具": "编程 代码 开源 GitHub 软件 开发者 API SDK IDE 数据库 Python Rust Go Java Docker Linux 自动化 插件 框架".split(),
     "数学物理": "数学 物理 定理 猜想 几何 概率 统计 算法 量子 粒子 材料 天文 宇宙 科学家 证明 方程 理论 实验 分子 原子 晶体 导电 磁场 光学 声学 能量 同素异形体 神经系统".split(),
-    "数据空间": "数据 数据科学 可视化 地图 地理 空间 GIS 遥感 坐标 图谱 网络 关系 因果 预测 不确定性 模糊 聚类 时序 拓扑 数字孪生 知识图谱".split(),
+    "数据空间": "数据科学 可视化 地图 地理 空间 GIS 遥感 坐标 图谱 网络 关系 因果 预测 不确定性 模糊 聚类 时序 拓扑 数字孪生 知识图谱".split(),
     "四川生活": "四川 成都 重庆 西南 本地 天气 地震 交通 地铁 高铁 政务 医保 教育 住房 数字生活".split(),
 }
 
+LENS_KEYWORDS = {
+    "实测评价": "实测 体验 评测 测评 对比 踩坑 好用 难用 值得 推荐 评价 反馈 吐槽 试用 稳定 价格 成本".split(),
+    "教程方法": "教程 指南 入门 上手 如何 步骤 实践 实现 构建 部署 配置 安装 训练 微调 工作流 方法".split(),
+    "专家观点": "专家 访谈 观点 演讲 教授 博士 研究员 创始人 开发者 作者 团队 负责人 解读".split(),
+    "案例复盘": "案例 复盘 故障 事故 迁移 优化 维护 漏洞 安全 隐私 争议 边界 版权 许可证".split(),
+    "工具发布": "发布 上线 更新 版本 开源 工具 软件 插件 框架 库 SDK API IDE 平台".split(),
+    "概念科普": "概念 原理 科普 理论 研究 论文 定理 猜想 发现 解释 为什么".split(),
+}
+
 # 默认排除政治外交、战争、泛国际冲突和纯娱乐体育。
-HARD_NEGATIVE = "习近平 特朗普 总统 首相 外交 联合国 北约 乌克兰 俄罗斯 伊朗 以色列 沙特 军事 战争 冲突 制裁 关税 峰会 会晤 国事访问 中美关系 国际局势 亚运 奥运 冠军 明星 演唱会".split()
+HARD_NEGATIVE = "习近平 特朗普 总统 首相 外交 联合国 北约 乌克兰 俄罗斯 伊朗 以色列 沙特 军事 战争 冲突 制裁 关税 峰会 会晤 国事访问 中美关系 国际局势 亚运 奥运 冠军 明星 演唱会 3A大作 3A 大作 高级技术动画师 游戏招聘 丹麦人口数据库".split()
 LOCAL_STRONG = "四川 成都 重庆 西南".split()
-LOW_VALUE = "财报 手机发布 新车上市 新车 车型 万元起 续航 交付 售价 开售 促销 爆料 传闻 接待 活动".split()
+LOW_VALUE = "财报 手机发布 新车上市 新车 车型 万元起 续航 交付 售价 开售 促销 爆料 传闻 接待 活动 迷你电脑 准系统".split()
 CLICKBAIT = "闯大祸 离谱 炸裂 杀疯了 震惊 惊呆 失控 猛料 神器 梅西终结者 夯爆了 卷疯了 啥题啊 能干崩".split()
 
 SOURCE_MAX_AGE = {
@@ -73,6 +73,9 @@ SOURCE_MAX_AGE = {
     "科学网·科普": 168,
     "前端技术精选": 192,
     "阮一峰的网络日志": 336,
+    "小众软件": 240,
+    "V2EX·技术": 120,
+    "V2EX·创造": 120,
 }
 
 SOURCE_CONFIDENCE = {
@@ -87,6 +90,9 @@ SOURCE_CONFIDENCE = {
     "科学网·科普": ("科学科普来源", "verified", 73),
     "前端技术精选": ("前端专业精选", "professional", 75),
     "阮一峰的网络日志": ("开发者一手文章", "professional", 77),
+    "小众软件": ("工具体验来源", "professional", 72),
+    "V2EX·技术": ("用户讨论线索", "signal", 58),
+    "V2EX·创造": ("用户作品线索", "signal", 60),
 }
 
 
@@ -145,54 +151,69 @@ def keyword_score(text, words, title):
     return sum((3 if word.lower() in low_title else 1) * low_text.count(word.lower()) for word in words)
 
 
-def classify(title, summary, default_stage):
+def classify(title, summary, default_lens):
     text = f"{title} {summary}"
     if any(word in text for word in HARD_NEGATIVE) and not any(word in text for word in LOCAL_STRONG):
         return None
     if any(word in title for word in CLICKBAIT):
         return None
     topic_scores = {name: keyword_score(text, words, title) for name, words in TOPIC_KEYWORDS.items()}
+    title_lower = title.lower()
+    if any(word in title_lower for word in ("skill", "插件", "plugin", "connector", "连接器")):
+        topic_scores["Skill与插件"] += 7
+    if any(word in title_lower for word in ("prompt", "提示词", "提示工程")):
+        topic_scores["提示词"] += 7
+    if any(word in title_lower for word in ("agent", "智能体", "多智能体")):
+        topic_scores["Agent"] += 6
+    if any(word in title_lower for word in ("云服务器", "云主机", "vps", "serverless", "数据中心")):
+        topic_scores["云服务器"] += 6
     topic = max(topic_scores, key=topic_scores.get)
     relevance = topic_scores[topic]
     if relevance < 2:
         return None
-    stage_scores = {name: keyword_score(text, words, title) for name, words in STAGE_KEYWORDS.items()}
-    stage = max(stage_scores, key=stage_scores.get)
-    if stage_scores[stage] == 0:
-        stage = default_stage
+    lens_scores = {name: keyword_score(text, words, title) for name, words in LENS_KEYWORDS.items()}
+    lens = max(lens_scores, key=lens_scores.get)
+    if lens_scores[lens] == 0:
+        lens = default_lens
     relevance -= sum(2 for word in LOW_VALUE if word in text)
-    if topic in {"AI模型", "网页小游戏", "数据空间"}:
+    if topic in {"AI模型", "提示词", "Agent", "Skill与插件", "云服务器", "网页小游戏", "数据空间"}:
         relevance += 3
     if relevance < 3:
         return None
-    return stage, topic, relevance
+    return lens, topic, relevance
 
 
-def make_why(stage, topic, title, summary):
+def make_why(lens, topic, title, summary):
     text = f"{title} {summary}".lower()
-    if stage == "行业观察":
-        action = "看它会怎样改变你可选择的模型、工具或创作机会，不追逐与方向无关的商业热闹。"
-    elif stage == "想法与概念":
-        action = "先写下它的新概念、关键变量，以及它改变了哪个旧认识。"
-    elif stage == "孵化与转化":
-        action = "尝试把它缩成一个当天能开始的网页、小工具或验证性实验。"
-    elif stage == "工具与硬件":
-        action = "检查它能替代哪一步现有操作，再决定是否实际安装或接入。"
-    elif stage == "方法与执行":
-        action = "抽出可复现的步骤，选其中最小的一步亲手执行。"
-    elif stage == "测试与成果":
-        action = "重点看测试条件、比较对象和失败情况，而不只看最终数字。"
+    if lens == "实测评价":
+        action = "把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。"
+    elif lens == "教程方法":
+        action = "抽出最小可复现步骤，亲手做一遍，再记录卡点。"
+    elif lens == "专家观点":
+        action = "分开看结论、证据和预测，再和自己的实际使用对照。"
+    elif lens == "案例复盘":
+        action = "保存失败条件和解决办法，遇到同类问题时可直接查。"
+    elif lens == "工具发布":
+        action = "先确认权限、价格和维护状态，再决定是否安装或接入。"
     else:
-        action = "记录长期成本、故障边界和维护办法，避免只看到发布时的效果。"
-    if topic == "AI模型" and any(word in text for word in ("成本", "价格", "token", "开源", "本地")):
-        return "可比较模型成本、开放程度和本地使用门槛。" + action
+        action = "先弄清核心概念和适用边界，再找一个小例子验证。"
+    if topic == "云服务器":
+        return "比较部署难度、月度成本和数据位置，优先试最小可运行方案。" + action
+    if topic == "AI模型":
+        return "比较能力、价格、上下文和本地运行门槛，不只看榜单。" + action
+    if topic == "提示词":
+        return "保存可复用的提示结构，用同一输入做一次前后对比。" + action
+    if topic == "Agent":
+        return "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。" + action
+    if topic == "Skill与插件":
+        return "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。" + action
     if topic == "网页小游戏":
         return "可拆出一个界面、交互或游戏机制。" + action
     if topic == "数据空间":
         return "可练习把位置、数据和模糊关系连接起来。" + action
     if any(word in text for word in ("破解", "安全", "漏洞", "隐私")):
         return "它触及你正在使用的软件和代码边界。" + action
-    return f"它与“{topic}”方向直接相关。{action}"
+    return action
 
 
 def normalized_title(title):
@@ -227,19 +248,19 @@ def parse_feed(url):
     return entries
 
 
-def make_story(title, link, source, summary, pub, default_stage, base_score, confidence, confidence_class):
-    result = classify(title, summary, default_stage)
+def make_story(title, link, source, summary, pub, default_lens, base_score, confidence, confidence_class):
+    result = classify(title, summary, default_lens)
     if not result:
         return None
-    stage, topic, relevance = result
+    lens, topic, relevance = result
     age_hours = max(0, (NOW_UTC - pub.astimezone(datetime.timezone.utc)).total_seconds() / 3600) if pub else 24
     return {
         "title": clean_html(title, 170), "link": link, "source": source, "signals": [source],
-        "category": stage, "topic": topic,
+        "category": "今日信息流", "topic": topic, "lens": lens,
         "published": pub.astimezone(TZ).strftime("%m-%d %H:%M") if pub else "",
         "ts": int(pub.timestamp()) if pub else int(NOW_UTC.timestamp()),
         "summary": extract_summary(summary) or clean_html(title, 200),
-        "why": make_why(stage, topic, title, summary), "confidence": confidence,
+        "why": make_why(lens, topic, title, summary), "confidence": confidence,
         "confidence_class": confidence_class,
         "score": round(base_score + relevance * 5 + max(0, 8 - age_hours / 3), 2),
         "relevance": relevance,
@@ -275,33 +296,32 @@ def hot_candidates():
         raw_candidates.append(("B站热门", clean_html(x.get("title")), x.get("desc") or x.get("title"), f"https://www.bilibili.com/video/{x.get('bvid', '')}", pub))
     accepted = []
     for source, title, summary, link, pub in raw_candidates:
-        merge_story(accepted, make_story(title, link, source, summary, pub, "孵化与转化", 38, "兴趣线索", "signal"))
+        merge_story(accepted, make_story(title, link, source, summary, pub, "用户讨论", 38, "兴趣线索", "signal"))
     return accepted
 
 
 def select_balanced(items):
-    stage_caps = {stage: 4 for stage in CATEGORY_ORDER}
-    topic_caps = {"AI模型": 6, "网页小游戏": 4, "编程工具": 4, "数学物理": 4, "数据空间": 3, "四川生活": 2}
+    topic_caps = {"AI模型": 6, "Agent": 5, "Skill与插件": 5, "提示词": 3, "云服务器": 4,
+                  "网页小游戏": 4, "编程工具": 5, "数学物理": 4, "数据空间": 3, "四川生活": 2}
     source_counts, topic_counts = {}, {}
-    stage_counts, selected = {stage: 0 for stage in CATEGORY_ORDER}, []
+    selected = []
     ordered = sorted(items, key=lambda value: (value["score"], value["ts"]), reverse=True)
 
     def can_add(item):
-        source, stage, topic = item["source"], item["category"], item["topic"]
-        source_cap = 4 if item["confidence_class"] != "signal" else 2
-        return not (source_counts.get(source, 0) >= source_cap or stage_counts[stage] >= stage_caps[stage]
+        source, topic = item["source"], item["topic"]
+        source_cap = 4 if item["confidence_class"] != "signal" else 3
+        return not (source_counts.get(source, 0) >= source_cap
                     or topic_counts.get(topic, 0) >= topic_caps.get(topic, 3))
 
     def add(item):
-        source, stage, topic = item["source"], item["category"], item["topic"]
+        source, topic = item["source"], item["topic"]
         selected.append(item)
         source_counts[source] = source_counts.get(source, 0) + 1
         topic_counts[topic] = topic_counts.get(topic, 0) + 1
-        stage_counts[stage] += 1
-
-    # 先让信息流的每个阶段各有一条，再按个人相关度补足。
-    for stage in CATEGORY_ORDER:
-        candidate = next((item for item in ordered if item["category"] == stage and can_add(item)), None)
+    # 先保留用户最关心方向中的高分内容，再按相关度补足。
+    priority_topics = ["AI模型", "Agent", "Skill与插件", "云服务器", "提示词", "网页小游戏", "数学物理", "数据空间"]
+    for topic in priority_topics:
+        candidate = next((item for item in ordered if item["topic"] == topic and can_add(item)), None)
         if candidate:
             add(candidate)
 
@@ -355,7 +375,10 @@ def main():
             max_age = SOURCE_MAX_AGE.get(source, MAX_AGE_HOURS)
             if NOW_UTC - pub.astimezone(datetime.timezone.utc) > datetime.timedelta(hours=max_age):
                 continue
-            item = make_story(title, raw["link"], source, extract_summary(raw["desc"]) or title,
+            summary = extract_summary(raw["desc"]) or title
+            if summary in {"点击查看原文>", "点击查看原文", "查看原文>"}:
+                summary = title
+            item = make_story(title, raw["link"], source, summary,
                               pub, default_stage, base_score, confidence, confidence_class)
             if item:
                 merge_story(results, item)
@@ -368,8 +391,8 @@ def main():
     selected = select_balanced(results)
     payload = {
         "date": today, "generated_at": datetime.datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S %z"),
-        "total": len(selected), "method": "个人兴趣过滤 + 项目阶段归纳 + 免费规则整理（未使用 AI）",
-        "categories": CATEGORY_ORDER, "sources": source_stats, "items": selected,
+        "total": len(selected), "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+        "sources": source_stats, "items": selected,
     }
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n共筛出 {len(selected)} 条，已保存 -> {output}")
