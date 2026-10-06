@@ -69,6 +69,21 @@ def build_stream(items):
     return f'''<section class="feed"><div class="section-heading"><h2>今日更新</h2><span>{len(items)} 条，按阅读价值排序</span></div>{stories}</section>'''
 
 
+def offer_module(date):
+    offer_url = f"https://dawanglin.github.io/youhui-pages/?date={esc(date)}"
+    return f'''<section class="offer-module" aria-labelledby="offers-title">
+  <div class="offer-heading">
+    <div>
+      <h2 id="offers-title">每日优惠线索</h2>
+      <p>外卖、电商、出行和会员优惠，一起翻一翻。</p>
+    </div>
+    <a href="{offer_url}" target="_blank" rel="noopener noreferrer">单独打开优惠页</a>
+  </div>
+  <p class="offer-notice">优惠可能过期或有使用条件，领取前请到官方 App 或活动规则页核实。</p>
+  <iframe class="offer-frame" src="{offer_url}" title="每日优惠线索" loading="lazy"></iframe>
+</section>'''
+
+
 def source_footer(news):
     stats = news.get("sources", {})
     hot = [name for name, value in stats.items() if value.get("type") == "兴趣线索" and value.get("status") == "成功"]
@@ -151,6 +166,13 @@ footer { padding: 27px max(18px, env(safe-area-inset-right)) calc(34px + env(saf
 .archive-list a { display: block; min-height: 44px; text-decoration: none; font-size: 16px; line-height: 1.65; }
 .archive-list .issue { display: block; margin-bottom: 3px; color: var(--accent); font-weight: 700; font-variant-numeric: tabular-nums; }
 .edition-meta { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
+.offer-module { margin-top: 46px; padding-top: 25px; border-top: 2px solid var(--ink); }
+.offer-heading { display: flex; justify-content: space-between; align-items: end; gap: 16px; }
+.offer-heading h2 { margin: 0; font-size: 22px; line-height: 1.3; letter-spacing: -.02em; }
+.offer-heading p { margin: 5px 0 0; color: var(--muted); font-size: 13px; }
+.offer-heading a { min-height: 44px; display: inline-flex; align-items: center; color: var(--accent); font-size: 13px; font-weight: 650; white-space: nowrap; }
+.offer-notice { margin: 15px 0 12px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.offer-frame { display: block; width: 100%; min-height: 780px; height: 780px; border: 1px solid var(--line); border-radius: 12px; background: #f7f5f1; }
 a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-radius: 3px; }
 @media (hover: hover) { .story-title:hover, .mast-top a:hover, .back:hover { color: var(--accent); } }
 @media (min-width: 760px) {
@@ -158,7 +180,9 @@ a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-r
   .page { padding-left: 0; padding-right: 0; }
   .story { padding: 29px 0 31px; }
   .story-why { grid-template-columns: 86px 1fr; }
+  .offer-module { margin-top: 58px; }
 }
+@media (max-width: 480px) { .offer-heading { align-items: start; flex-direction: column; gap: 3px; } .offer-frame { min-height: 900px; height: 900px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media (prefers-color-scheme: dark) {
   :root { color-scheme: dark; --page: #111813; --paper: #18211b; --ink: #edf3ee; --body: #cbd6ce; --muted: #a5b2aa; --line: #36443b; --accent: #84c5a5; --accent-soft: #243a2e; --warm: #dfb477; --focus: #e0ad6e; }
@@ -166,12 +190,30 @@ a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-r
 }
 </style></head><body>
 <header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日个人情报流</span><a href="[[ARCHIVE_HREF]]">查看往期</a></div><h1>今天，有什么可以拿来用</h1><p>[[DATE]] · [[STATS]]</p><span class="method">筛掉政治噪声，留下能理解、能尝试、能落地的信息</span></div></header>
-<main class="page">[[STREAM]]</main>
-<footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。</div></div></footer></body></html>'''
+<main class="page">[[STREAM]][[OFFERS]]</main>
+<footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。</div></div></footer>
+<script>
+const offerFrame = document.querySelector('.offer-frame');
+offerFrame.addEventListener('load', () => {
+  try {
+    const offerDocument = offerFrame.contentDocument;
+    const fitOfferFrame = () => {
+      const contentHeight = Math.max(offerDocument.documentElement.scrollHeight, offerDocument.body.scrollHeight);
+      offerFrame.style.height = `${contentHeight}px`;
+    };
+    fitOfferFrame();
+    new ResizeObserver(fitOfferFrame).observe(offerDocument.documentElement);
+    new MutationObserver(fitOfferFrame).observe(offerDocument.body, { childList: true, subtree: true });
+  } catch (_) {
+    /* Keep the readable fixed-height frame if browser origin rules change. */
+  }
+});
+</script></body></html>'''
 
 
-def render_daily(news, archive_href):
+def render_daily(news, archive_href, offer_date=None):
     date = news["date"]
+    offer_date = offer_date or date
     parsed = datetime.datetime.strptime(date, "%Y-%m-%d")
     date_cn = f"{parsed.year}年{parsed.month}月{parsed.day}日 {WEEKDAYS[parsed.weekday()]}"
     items = news.get("items", [])
@@ -183,6 +225,7 @@ def render_daily(news, archive_href):
         "[[STATS]]": f"共 {len(items)} 条",
         "[[ARCHIVE_HREF]]": archive_href,
         "[[STREAM]]": stream,
+        "[[OFFERS]]": offer_module(offer_date),
         "[[SOURCES]]": source_footer(news),
     }
     for key, value in replacements.items():
@@ -211,13 +254,13 @@ def main():
     editions = [json.loads(path.read_text(encoding="utf-8")) for path in reversed(files)]
     latest = editions[0]
     (SITE_DIR / ".nojekyll").touch()
-    (SITE_DIR / "index.html").write_text(clean_output(render_daily(latest, "archive/")), encoding="utf-8")
     today_cn = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=8)).date().isoformat()
+    (SITE_DIR / "index.html").write_text(clean_output(render_daily(latest, "archive/", today_cn)), encoding="utf-8")
     for edition in editions:
         daily_path = DAILY_DIR / f"{edition['date']}.html"
         # 历史页是当时规则和版式的快照。只更新今天，过去页面永不重写。
         if edition["date"] == today_cn or not daily_path.exists():
-            daily_path.write_text(clean_output(render_daily(edition, "../archive/")), encoding="utf-8")
+            daily_path.write_text(clean_output(render_daily(edition, "../archive/", edition["date"])), encoding="utf-8")
     (ARCHIVE_DIR / "index.html").write_text(clean_output(render_archive(editions)), encoding="utf-8")
     print(f"已生成手机首页：site/index.html（{len(latest.get('items', []))} 条）")
     print(f"已生成历史目录：site/archive/index.html（{len(editions)} 期）")
