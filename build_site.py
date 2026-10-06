@@ -72,12 +72,12 @@ def build_stream(items):
 def offer_module(date):
     offer_url = f"https://dawanglin.github.io/youhui-pages/?date={esc(date)}"
     return f'''<section class="offer-module" aria-labelledby="offers-title">
-  <h2 id="offers-title">每日优惠 / 羊毛</h2>
-  <p>外卖、电商、出行和会员优惠，点击进入独立页面浏览与筛选。</p>
-  <a class="offer-link" href="{offer_url}" target="_blank" rel="noopener noreferrer">
-    <span>打开 {esc(date)} 优惠线索页面</span><span aria-hidden="true">↗</span>
-  </a>
+  <div class="offer-heading">
+    <div><h2 id="offers-title">每日优惠 / 羊毛</h2><p>外卖、电商、出行和会员优惠，按日期和场景筛选。</p></div>
+    <a href="{offer_url}" target="_blank" rel="noopener noreferrer">在新页面打开</a>
+  </div>
   <p class="offer-notice">领取前请到官方 App 或活动规则页核实有效期、门槛和使用条件。</p>
+  <iframe class="offer-frame" src="{offer_url}" title="每日优惠线索" loading="lazy"></iframe>
 </section>'''
 
 
@@ -130,13 +130,13 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .22em
   background: var(--paper);
   border-bottom: 1px solid var(--line);
 }
-.mast-inner, .page, .footer-inner { width: min(100%, 720px); margin-inline: auto; }
+.mast-inner, .feed, .footer-inner { width: min(100%, 720px); margin-inline: auto; }
+.page { width: 100%; margin-inline: auto; padding: 8px max(18px, env(safe-area-inset-right)) 64px max(18px, env(safe-area-inset-left)); }
 .mast-top { display: flex; justify-content: space-between; align-items: center; gap: 18px; color: var(--muted); font-size: 13px; }
 .mast-top a, .back { min-height: 44px; display: inline-flex; align-items: center; color: var(--accent); font-weight: 650; text-decoration: underline; }
 .mast h1 { max-width: 12em; margin: 20px 0 9px; font-size: clamp(29px, 8vw, 44px); line-height: 1.17; letter-spacing: -.03em; text-wrap: balance; }
 .mast p { margin: 0; color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
 .method { display: block; margin-top: 13px; color: var(--accent); font-size: 13px; font-weight: 600; }
-.page { padding: 8px max(18px, env(safe-area-inset-right)) 64px max(18px, env(safe-area-inset-left)); }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 25px 0 15px; border-bottom: 1px solid var(--ink); }
 .section-heading h2 { margin: 0; font-size: 20px; line-height: 1.2; letter-spacing: -.02em; }
 .section-heading > span { color: var(--muted); font-size: 12px; text-align: right; }
@@ -163,21 +163,23 @@ footer { padding: 27px max(18px, env(safe-area-inset-right)) calc(34px + env(saf
 .archive-list a { display: block; min-height: 44px; text-decoration: none; font-size: 16px; line-height: 1.65; }
 .archive-list .issue { display: block; margin-bottom: 3px; color: var(--accent); font-weight: 700; font-variant-numeric: tabular-nums; }
 .edition-meta { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
-.offer-module { margin-top: 46px; padding-top: 25px; border-top: 2px solid var(--ink); }
-.offer-module h2 { margin: 0; font-size: 22px; line-height: 1.3; letter-spacing: -.02em; }
-.offer-module > p { margin: 7px 0 0; color: var(--muted); font-size: 13px; }
-.offer-link { display: flex; justify-content: space-between; align-items: center; gap: 18px; max-width: 540px; min-height: 60px; margin-top: 18px; padding: 12px 16px; border: 1px solid #bdd0c3; border-radius: 8px; background: var(--paper); color: var(--accent); font-size: 15px; font-weight: 650; text-decoration: none; }
-.offer-link span:last-child { font-size: 18px; }
-.offer-notice { font-size: 12px !important; line-height: 1.7; }
+.offer-module { width: min(100%, 1120px); margin: 58px auto 0; padding-top: 25px; border-top: 2px solid var(--ink); }
+.offer-heading { display: flex; justify-content: space-between; align-items: end; gap: 20px; }
+.offer-heading h2 { margin: 0; font-size: 24px; line-height: 1.3; letter-spacing: -.02em; }
+.offer-heading p { margin: 5px 0 0; color: var(--muted); font-size: 14px; }
+.offer-heading a { min-height: 44px; display: inline-flex; align-items: center; color: var(--accent); font-size: 14px; font-weight: 650; }
+.offer-notice { margin: 13px 0; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.offer-frame { display: block; width: 100%; height: 1200px; border: 1px solid var(--line); border-radius: 12px; background: #f7f5f1; }
 a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-radius: 3px; }
 @media (hover: hover) { .story-title:hover, .mast-top a:hover, .back:hover { color: var(--accent); } }
 @media (min-width: 760px) {
   .mast { padding-top: 29px; padding-bottom: 31px; }
-  .page { padding-left: 0; padding-right: 0; }
+  .page { width: min(calc(100% - 64px), 1120px); padding-left: 0; padding-right: 0; }
   .story { padding: 29px 0 31px; }
   .story-why { grid-template-columns: 86px 1fr; }
-  .offer-module { margin-top: 58px; }
+  .offer-module { margin-top: 64px; }
 }
+.offer-frame { width: 100%; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media (prefers-color-scheme: dark) {
   :root { color-scheme: dark; --page: #111813; --paper: #18211b; --ink: #edf3ee; --body: #cbd6ce; --muted: #a5b2aa; --line: #36443b; --accent: #84c5a5; --accent-soft: #243a2e; --warm: #dfb477; --focus: #e0ad6e; }
@@ -186,7 +188,23 @@ a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-r
 </style></head><body>
 <header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日个人情报流</span><a href="[[ARCHIVE_HREF]]">查看往期</a></div><h1>今天，有什么可以拿来用</h1><p>[[DATE]] · [[STATS]]</p><span class="method">筛掉政治噪声，留下能理解、能尝试、能落地的信息</span></div></header>
 <main class="page">[[STREAM]][[OFFERS]]</main>
-<footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。</div></div></footer></body></html>'''
+<footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。</div></div></footer>
+<script>
+const offerFrame = document.querySelector('.offer-frame');
+offerFrame.addEventListener('load', () => {
+  try {
+    const offerDocument = offerFrame.contentDocument;
+    const fitOfferFrame = () => {
+      offerFrame.style.height = `${Math.max(offerDocument.documentElement.scrollHeight, offerDocument.body.scrollHeight)}px`;
+    };
+    fitOfferFrame();
+    new ResizeObserver(fitOfferFrame).observe(offerDocument.documentElement);
+    new MutationObserver(fitOfferFrame).observe(offerDocument.body, { childList: true, subtree: true });
+  } catch (_) {
+    /* Use the fallback height when hosted on a different origin. */
+  }
+});
+</script></body></html>'''
 
 
 def render_daily(news, archive_href, offer_date=None):
