@@ -72,15 +72,12 @@ def build_stream(items):
 def offer_module(date):
     offer_url = f"https://dawanglin.github.io/youhui-pages/?date={esc(date)}"
     return f'''<section class="offer-module" aria-labelledby="offers-title">
-  <div class="offer-heading">
-    <div>
-      <h2 id="offers-title">每日优惠线索</h2>
-      <p>外卖、电商、出行和会员优惠，一起翻一翻。</p>
-    </div>
-    <a href="{offer_url}" target="_blank" rel="noopener noreferrer">单独打开优惠页</a>
-  </div>
-  <p class="offer-notice">优惠可能过期或有使用条件，领取前请到官方 App 或活动规则页核实。</p>
-  <iframe class="offer-frame" src="{offer_url}" title="每日优惠线索" loading="lazy"></iframe>
+  <h2 id="offers-title">每日优惠 / 羊毛</h2>
+  <p>外卖、电商、出行和会员优惠，点击进入独立页面浏览与筛选。</p>
+  <a class="offer-link" href="{offer_url}" target="_blank" rel="noopener noreferrer">
+    <span>打开 {esc(date)} 优惠线索页面</span><span aria-hidden="true">↗</span>
+  </a>
+  <p class="offer-notice">领取前请到官方 App 或活动规则页核实有效期、门槛和使用条件。</p>
 </section>'''
 
 
@@ -167,12 +164,11 @@ footer { padding: 27px max(18px, env(safe-area-inset-right)) calc(34px + env(saf
 .archive-list .issue { display: block; margin-bottom: 3px; color: var(--accent); font-weight: 700; font-variant-numeric: tabular-nums; }
 .edition-meta { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
 .offer-module { margin-top: 46px; padding-top: 25px; border-top: 2px solid var(--ink); }
-.offer-heading { display: flex; justify-content: space-between; align-items: end; gap: 16px; }
-.offer-heading h2 { margin: 0; font-size: 22px; line-height: 1.3; letter-spacing: -.02em; }
-.offer-heading p { margin: 5px 0 0; color: var(--muted); font-size: 13px; }
-.offer-heading a { min-height: 44px; display: inline-flex; align-items: center; color: var(--accent); font-size: 13px; font-weight: 650; white-space: nowrap; }
-.offer-notice { margin: 15px 0 12px; color: var(--muted); font-size: 12px; line-height: 1.7; }
-.offer-frame { display: block; width: 100%; min-height: 780px; height: 780px; border: 1px solid var(--line); border-radius: 12px; background: #f7f5f1; }
+.offer-module h2 { margin: 0; font-size: 22px; line-height: 1.3; letter-spacing: -.02em; }
+.offer-module > p { margin: 7px 0 0; color: var(--muted); font-size: 13px; }
+.offer-link { display: flex; justify-content: space-between; align-items: center; gap: 18px; max-width: 540px; min-height: 60px; margin-top: 18px; padding: 12px 16px; border: 1px solid #bdd0c3; border-radius: 8px; background: var(--paper); color: var(--accent); font-size: 15px; font-weight: 650; text-decoration: none; }
+.offer-link span:last-child { font-size: 18px; }
+.offer-notice { font-size: 12px !important; line-height: 1.7; }
 a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-radius: 3px; }
 @media (hover: hover) { .story-title:hover, .mast-top a:hover, .back:hover { color: var(--accent); } }
 @media (min-width: 760px) {
@@ -182,7 +178,6 @@ a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-r
   .story-why { grid-template-columns: 86px 1fr; }
   .offer-module { margin-top: 58px; }
 }
-@media (max-width: 480px) { .offer-heading { align-items: start; flex-direction: column; gap: 3px; } .offer-frame { min-height: 900px; height: 900px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media (prefers-color-scheme: dark) {
   :root { color-scheme: dark; --page: #111813; --paper: #18211b; --ink: #edf3ee; --body: #cbd6ce; --muted: #a5b2aa; --line: #36443b; --accent: #84c5a5; --accent-soft: #243a2e; --warm: #dfb477; --focus: #e0ad6e; }
@@ -191,24 +186,7 @@ a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-r
 </style></head><body>
 <header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日个人情报流</span><a href="[[ARCHIVE_HREF]]">查看往期</a></div><h1>今天，有什么可以拿来用</h1><p>[[DATE]] · [[STATS]]</p><span class="method">筛掉政治噪声，留下能理解、能尝试、能落地的信息</span></div></header>
 <main class="page">[[STREAM]][[OFFERS]]</main>
-<footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。</div></div></footer>
-<script>
-const offerFrame = document.querySelector('.offer-frame');
-offerFrame.addEventListener('load', () => {
-  try {
-    const offerDocument = offerFrame.contentDocument;
-    const fitOfferFrame = () => {
-      const contentHeight = Math.max(offerDocument.documentElement.scrollHeight, offerDocument.body.scrollHeight);
-      offerFrame.style.height = `${contentHeight}px`;
-    };
-    fitOfferFrame();
-    new ResizeObserver(fitOfferFrame).observe(offerDocument.documentElement);
-    new MutationObserver(fitOfferFrame).observe(offerDocument.body, { childList: true, subtree: true });
-  } catch (_) {
-    /* Keep the readable fixed-height frame if browser origin rules change. */
-  }
-});
-</script></body></html>'''
+<footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。</div></div></footer></body></html>'''
 
 
 def render_daily(news, archive_href, offer_date=None):
