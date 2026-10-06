@@ -51,18 +51,22 @@ def story_html(item):
     source_text = signals or item.get("source", "")
     return f'''
       <article class="story" data-news-title="{esc(item['title'])}" data-news-url="{esc(item.get('link'))}" data-news-source="{esc(source_text)}" data-news-time="{esc(item.get('published'))}" data-news-summary="{esc(item['summary'])}">
-        <div class="story-body">
-          <a class="story-title" href="{esc(item.get('link'))}" target="_blank" rel="noopener noreferrer">{esc(item['title'])}</a>
-          <div class="story-meta"><span class="topic">{esc(item.get('topic'))}</span><span class="lens">{esc(item.get('lens'))}</span><span>{esc(source_text)}</span><span>{esc(item.get('published'))}</span><span class="confidence {esc(item['confidence_class'])}">{esc(item['confidence'])}</span></div>
-          <p class="story-summary">{esc(item['summary'])}</p>
-          <p class="story-why"><strong>落地入口：</strong>{esc(item['why'])}</p>
+        <a class="story-title" href="{esc(item.get('link'))}" target="_blank" rel="noopener noreferrer">{esc(item['title'])}</a>
+        <div class="story-meta">
+          <span class="topic">{esc(item.get('topic'))}</span>
+          <span class="lens">{esc(item.get('lens'))}</span>
+          <span class="source">{esc(source_text)}</span>
+          <span class="published">{esc(item.get('published'))}</span>
+          <span class="confidence {esc(item['confidence_class'])}">{esc(item['confidence'])}</span>
         </div>
+        <p class="story-summary">{esc(item['summary'])}</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>{esc(item['why'])}</span></p>
       </article>'''
 
 
 def build_stream(items):
     stories = "".join(story_html(item) for item in items)
-    return f'''<section class="feed"><div class="section-heading"><h2>今日更新</h2><span>{len(items)} 条</span></div>{stories}</section>'''
+    return f'''<section class="feed"><div class="section-heading"><h2>今日更新</h2><span>{len(items)} 条，按阅读价值排序</span></div>{stories}</section>'''
 
 
 def source_footer(news):
@@ -80,12 +84,88 @@ def source_footer(news):
 
 
 PAGE_TEMPLATE = '''<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f3f6f2"><meta name="description" content="每天发现能理解、能试用、能落地的新东西"><title>[[TITLE]]</title>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f7f8f4"><meta name="description" content="每天发现能理解、能试用、能落地的新东西"><title>[[TITLE]]</title>
 <style>
-:root{color-scheme:light;--page:#f3f6f2;--paper:#fbfcfa;--ink:#18211d;--muted:#617068;--line:#d8e0da;--accent:#2f6d57;--accent-soft:#e2eee8;--blue:#315d73;--amber:#9a6226;--signal:#8a5a21;--shadow:0 12px 32px rgba(28,54,42,.07)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--page);color:var(--ink);font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif;font-size:16px;line-height:1.72;-webkit-font-smoothing:antialiased}a{color:inherit}.mast{padding:calc(22px + env(safe-area-inset-top)) 20px 23px;border-bottom:1px solid var(--line);background:var(--paper)}.mast-inner,.page,.footer-inner{width:min(100%,720px);margin:auto}.mast-top{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:13px}.mast-top a{min-height:44px;display:inline-flex;align-items:center;color:var(--accent);text-decoration:none}.mast h1{font-size:clamp(28px,8vw,42px);line-height:1.18;letter-spacing:-.035em;margin:15px 0 8px}.mast p{margin:0;color:var(--muted);font-size:14px}.method{display:inline-block;margin-top:12px;padding:4px 9px;background:var(--accent-soft);color:var(--accent);border-radius:6px;font-size:12px}.page{padding:18px 16px 56px}.feed{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:0 16px}.section-heading{display:flex;justify-content:space-between;align-items:center;min-height:60px;border-bottom:1px solid var(--line)}.section-heading h2{margin:0;font-size:20px;letter-spacing:-.015em}.section-heading>span{color:var(--muted);font-size:12px}.story{padding:20px 0;border-bottom:1px solid var(--line)}.story:last-child{border-bottom:0}.story-body{min-width:0}.story-title{display:block;font-size:18px;font-weight:700;line-height:1.48;text-decoration:none;text-wrap:pretty}.story-title:active{color:var(--accent)}.story-title,.story-summary,.story-why{overflow-wrap:anywhere}.story-meta{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin:9px 0;color:var(--muted);font-size:12px}.story-meta .topic,.story-meta .lens{padding:1px 7px;border-radius:5px;background:var(--accent-soft);color:var(--accent)}.story-meta .lens{background:#edf0eb;color:#59665f}.confidence{padding:1px 7px;border-radius:5px}.confidence.verified{background:#dfeee5;color:#276044}.confidence.professional{background:#e5edf1;color:#315d73}.confidence.signal{background:#f4eadb;color:#81541e}.story-summary{margin:7px 0 0;color:#394740;font-size:15px}.story-why{margin:10px 0 0;padding:9px 11px;border-left:3px solid var(--accent);background:var(--accent-soft);color:#35473e;font-size:13px}.story-why strong{color:var(--accent)}footer{border-top:1px solid var(--line);padding:24px 20px calc(30px + env(safe-area-inset-bottom));color:var(--muted);font-size:12px}.footer-note{margin-top:8px}.back{display:inline-flex;min-height:44px;align-items:center;color:var(--accent);text-decoration:none}.archive-panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:4px 16px}.archive-panel h2{font-size:21px;margin:16px 0 10px}.archive-intro{color:var(--muted);font-size:13px}.archive-list{list-style:none;padding:0;margin:0}.archive-list li{padding:17px 0;border-top:1px solid var(--line)}.archive-list a{text-decoration:none;font-size:16px;line-height:1.65}.archive-list .issue{display:block;color:var(--accent);font-weight:700}.edition-meta{display:block;color:var(--muted);font-size:12px;margin-top:4px}a:focus-visible{outline:3px solid var(--amber);outline-offset:3px}@media(min-width:760px){.page{padding-left:0;padding-right:0}.feed{padding:0 24px}.story{padding:22px 0}.story-title{font-size:19px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media(prefers-color-scheme:dark){:root{color-scheme:dark;--page:#121815;--paper:#18201c;--ink:#e8eee9;--muted:#a8b4ad;--line:#334039;--accent:#74b798;--accent-soft:#22362c;--blue:#8ab5c8;--amber:#d5a363;--signal:#d5a363;--shadow:none}.mast{background:var(--paper)}.story-meta .lens{background:#2b332f;color:#b8c3bd}.story-summary{color:#c7d1cb}.story-why{color:#c9d8d0}.confidence.verified{background:#244332;color:#9bd3b3}.confidence.professional{background:#263c47;color:#a9c9d6}.confidence.signal{background:#46361f;color:#e0ba82}}
+:root {
+  color-scheme: light;
+  --page: #f7f8f4;
+  --paper: #fdfefa;
+  --ink: #18241e;
+  --body: #34443b;
+  --muted: #66766d;
+  --line: #d9e1da;
+  --accent: #2d684f;
+  --accent-soft: #dde8e0;
+  --warm: #9a6a32;
+  --focus: #b97a31;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  font-size: 16px;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--accent); color: var(--paper); }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .22em; }
+.mast {
+  padding: calc(18px + env(safe-area-inset-top)) max(18px, env(safe-area-inset-left)) 26px;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+.mast-inner, .page, .footer-inner { width: min(100%, 720px); margin-inline: auto; }
+.mast-top { display: flex; justify-content: space-between; align-items: center; gap: 18px; color: var(--muted); font-size: 13px; }
+.mast-top a, .back { min-height: 44px; display: inline-flex; align-items: center; color: var(--accent); font-weight: 650; text-decoration: underline; }
+.mast h1 { max-width: 12em; margin: 20px 0 9px; font-size: clamp(29px, 8vw, 44px); line-height: 1.17; letter-spacing: -.03em; text-wrap: balance; }
+.mast p { margin: 0; color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+.method { display: block; margin-top: 13px; color: var(--accent); font-size: 13px; font-weight: 600; }
+.page { padding: 8px max(18px, env(safe-area-inset-right)) 64px max(18px, env(safe-area-inset-left)); }
+.section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 25px 0 15px; border-bottom: 1px solid var(--ink); }
+.section-heading h2 { margin: 0; font-size: 20px; line-height: 1.2; letter-spacing: -.02em; }
+.section-heading > span { color: var(--muted); font-size: 12px; text-align: right; }
+.story { padding: 25px 0 27px; border-bottom: 1px solid var(--line); }
+.story-title { display: block; font-size: clamp(18px, 4.9vw, 21px); font-weight: 720; line-height: 1.48; letter-spacing: -.015em; text-decoration: none; text-wrap: pretty; overflow-wrap: anywhere; }
+.story-title::after { content: "↗"; display: inline-block; margin-left: .35em; color: var(--accent); font-size: .75em; font-weight: 500; transform: translateY(-.06em); }
+.story-title:active { color: var(--accent); }
+.story-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 9px; margin: 11px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.story-meta .topic { padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 650; }
+.story-meta .lens { color: var(--accent); font-weight: 600; }
+.story-meta .source, .story-meta .published { font-variant-numeric: tabular-nums; }
+.confidence { color: var(--muted); }
+.confidence.verified { color: var(--accent); }
+.confidence.signal { color: var(--warm); }
+.story-summary { margin: 13px 0 0; color: var(--body); font-family: "Songti SC", "STSong", "Noto Serif CJK SC", serif; font-size: 16px; line-height: 1.85; overflow-wrap: anywhere; }
+.story-why { display: grid; grid-template-columns: auto 1fr; gap: 10px; margin: 15px 0 0; color: var(--body); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+.story-why strong { align-self: start; padding: 1px 7px; border: 1px solid #bdd0c3; border-radius: 5px; color: var(--accent); font-size: 12px; font-weight: 650; white-space: nowrap; }
+footer { padding: 27px max(18px, env(safe-area-inset-right)) calc(34px + env(safe-area-inset-bottom)) max(18px, env(safe-area-inset-left)); border-top: 1px solid var(--line); background: var(--paper); color: var(--muted); font-size: 12px; line-height: 1.8; }
+.footer-note { margin-top: 9px; }
+.archive-panel h2 { margin: 20px 0 8px; font-size: 21px; }
+.archive-intro { margin: 0 0 8px; color: var(--muted); font-size: 13px; }
+.archive-list { list-style: none; padding: 0; margin: 0; }
+.archive-list li { padding: 20px 0; border-top: 1px solid var(--line); }
+.archive-list a { display: block; min-height: 44px; text-decoration: none; font-size: 16px; line-height: 1.65; }
+.archive-list .issue { display: block; margin-bottom: 3px; color: var(--accent); font-weight: 700; font-variant-numeric: tabular-nums; }
+.edition-meta { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
+a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-radius: 3px; }
+@media (hover: hover) { .story-title:hover, .mast-top a:hover, .back:hover { color: var(--accent); } }
+@media (min-width: 760px) {
+  .mast { padding-top: 29px; padding-bottom: 31px; }
+  .page { padding-left: 0; padding-right: 0; }
+  .story { padding: 29px 0 31px; }
+  .story-why { grid-template-columns: 86px 1fr; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+@media (prefers-color-scheme: dark) {
+  :root { color-scheme: dark; --page: #111813; --paper: #18211b; --ink: #edf3ee; --body: #cbd6ce; --muted: #a5b2aa; --line: #36443b; --accent: #84c5a5; --accent-soft: #243a2e; --warm: #dfb477; --focus: #e0ad6e; }
+  .story-why strong { border-color: #426453; }
+}
 </style></head><body>
-<header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日个人情报流</span><a href="[[ARCHIVE_HREF]]">历史目录</a></div><h1>今天，有什么可以拿来用</h1><p>[[DATE]]　[[STATS]]</p><span class="method">兴趣过滤 · 用途提示 · 免费规则整理</span></div></header>
+<header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日个人情报流</span><a href="[[ARCHIVE_HREF]]">查看往期</a></div><h1>今天，有什么可以拿来用</h1><p>[[DATE]] · [[STATS]]</p><span class="method">筛掉政治噪声，留下能理解、能尝试、能落地的信息</span></div></header>
 <main class="page">[[STREAM]]</main>
 <footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。</div></div></footer></body></html>'''
 
@@ -132,10 +212,11 @@ def main():
     latest = editions[0]
     (SITE_DIR / ".nojekyll").touch()
     (SITE_DIR / "index.html").write_text(clean_output(render_daily(latest, "archive/")), encoding="utf-8")
+    today_cn = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=8)).date().isoformat()
     for edition in editions:
         daily_path = DAILY_DIR / f"{edition['date']}.html"
         # 历史页是当时规则和版式的快照。只更新今天，过去页面永不重写。
-        if edition["date"] == latest["date"] or not daily_path.exists():
+        if edition["date"] == today_cn or not daily_path.exists():
             daily_path.write_text(clean_output(render_daily(edition, "../archive/")), encoding="utf-8")
     (ARCHIVE_DIR / "index.html").write_text(clean_output(render_archive(editions)), encoding="utf-8")
     print(f"已生成手机首页：site/index.html（{len(latest.get('items', []))} 条）")
