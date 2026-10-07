@@ -37,6 +37,8 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .22em
 .page { width: 100%; margin-inline: auto; padding: 8px max(18px, env(safe-area-inset-right)) 64px max(18px, env(safe-area-inset-left)); }
 .mast-top { display: flex; justify-content: space-between; align-items: center; gap: 18px; color: var(--muted); font-size: 13px; }
 .mast-top a, .back { min-height: 44px; display: inline-flex; align-items: center; color: var(--accent); font-weight: 650; text-decoration: underline; }
+.mast-links { display: inline-flex; align-items: center; gap: 16px; }
+.mast-links .wool-link { min-width: 68px; min-height: 44px; justify-content: center; padding: 0 10px; border: 1.5px solid var(--accent); border-radius: 2px; color: var(--accent); font-size: 19px; font-weight: 500; text-decoration: none; }
 .mast h1 { max-width: 12em; margin: 20px 0 9px; font-size: clamp(29px, 8vw, 44px); line-height: 1.17; letter-spacing: -.03em; text-wrap: balance; }
 .mast p { margin: 0; color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
 .method { display: block; margin-top: 13px; color: var(--accent); font-size: 13px; font-weight: 600; }
@@ -66,26 +68,17 @@ footer { padding: 27px max(18px, env(safe-area-inset-right)) calc(34px + env(saf
 .archive-list a { display: block; min-height: 44px; text-decoration: none; font-size: 16px; line-height: 1.65; }
 .archive-list .issue { display: block; margin-bottom: 3px; color: var(--accent); font-weight: 700; font-variant-numeric: tabular-nums; }
 .edition-meta { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
-.offer-module { width: min(100%, 1120px); margin: 58px auto 0; padding-top: 25px; border-top: 1px solid var(--line); }
-.offer-heading { display: flex; justify-content: space-between; align-items: end; gap: 20px; }
-.offer-heading h2 { margin: 0; font-size: 24px; line-height: 1.3; letter-spacing: -.02em; }
-.offer-heading p { margin: 5px 0 0; color: var(--muted); font-size: 14px; }
-.offer-heading a { min-height: 44px; display: inline-flex; align-items: center; color: var(--accent); font-size: 14px; font-weight: 650; }
-.offer-notice { margin: 13px 0; color: var(--muted); font-size: 12px; line-height: 1.7; }
-.offer-frame { display: block; width: 100%; height: 1200px; border: 1px solid var(--line); border-radius: 12px; background: #f7f5f1; }
 a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-radius: 3px; }
-@media (hover: hover) { .story-title:hover, .mast-top a:hover, .back:hover { color: var(--accent); } }
+@media (hover: hover) { .story-title:hover, .mast-top a:hover, .mast-links a:hover, .back:hover { color: var(--accent); } }
 @media (min-width: 760px) {
   .mast { padding-top: 29px; padding-bottom: 31px; }
   .page { width: min(calc(100% - 64px), 1120px); padding-left: 0; padding-right: 0; }
   .story { padding: 29px 0 31px; }
   .story-why { grid-template-columns: 86px 1fr; }
-  .offer-module { margin-top: 64px; }
 }
-.offer-frame { width: 100%; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 </style></head><body>
-<header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日个人情报流</span><a href="archive/">查看往期</a></div><h1>今天，有什么可以拿来用</h1><p>2026年10月6日 星期二 · 共 26 条</p><span class="method">筛掉政治噪声，留下能理解、能尝试、能落地的信息</span></div></header>
+<header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日个人情报流</span><nav class="mast-links" aria-label="快速入口"><a class="wool-link" href="https://dawanglin.github.io/youhui-pages/?date=2026-10-07" target="_blank" rel="noopener noreferrer">羊毛</a><a href="archive/">查看往期</a></nav></div><h1>今天，有什么可以拿来用</h1><p>2026年10月6日 星期二 · 共 26 条</p><span class="method">筛掉政治噪声，留下能理解、能尝试、能落地的信息</span></div></header>
 <main class="page"><section class="feed"><div class="section-heading"><h2>今日更新</h2><span>26 条，按阅读价值排序</span></div>
       <article class="story" data-news-title="OpenAI 将在 ChatGPT 中推出全新图片广告形式，不会影响生成结果" data-news-url="https://www.ithome.com/1/009/901.htm" data-news-source="IT之家" data-news-time="10-05 23:01" data-news-summary="IT之家 10 月 5 日消息，OpenAI 今日宣布，将在 ChatGPT 中推出全新的图片广告形式，扩充广告效果衡量工具与合作生态，并研发新方案用于评估品牌适配性。IT之家从官方介绍获悉， ChatGPT 每周覆盖 12 亿用户 ，是全球规模最大的原生 AI 消费平台。">
         <a class="story-title" href="https://www.ithome.com/1/009/901.htm" target="_blank" rel="noopener noreferrer">OpenAI 将在 ChatGPT 中推出全新图片广告形式，不会影响生成结果</a>
@@ -398,28 +391,5 @@ a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-r
         </div>
         <p class="story-summary">最近10日，来自小众软件论坛的发现频道的热门排行榜，由系统自动生成，直接列出来： 序号 主题 1️⃣ 挖兔硬盘精灵 v1.1.2 —— 免费开源的硬盘健康检测工具（六档颜色预警） 2️⃣ 【开发者自荐】模型大全同步当前主流大模型参数评测数据每日更新查询方便 3️⃣ 【开发者自荐】</p>
         <p class="story-why"><strong>可以怎么用</strong><span>先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
-      </article></section><section class="offer-module" aria-labelledby="offers-title">
-  <div class="offer-heading">
-    <div><h2 id="offers-title">每日优惠 / 羊毛</h2><p>外卖、电商、出行和会员优惠，按日期和场景筛选。</p></div>
-    <a href="https://dawanglin.github.io/youhui-pages/?date=2026-10-07" target="_blank" rel="noopener noreferrer">在新页面打开</a>
-  </div>
-  <p class="offer-notice">领取前请到官方 App 或活动规则页核实有效期、门槛和使用条件。</p>
-  <iframe class="offer-frame" src="https://dawanglin.github.io/youhui-pages/?date=2026-10-07" title="每日优惠线索" loading="lazy"></iframe>
-</section></main>
-<footer><div class="footer-inner">兴趣发现：个人兴趣热榜筛选<br>专业来源：量子位、机器之心、InfoQ 中文、开源中国、少数派、小众软件、IT之家、Solidot、科学网·数理科学、科学网·科普、前端技术精选、阮一峰的网络日志、V2EX·技术、V2EX·创造<div class="footer-note">不使用 AI 大模型。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。</div></div></footer>
-<script>
-const offerFrame = document.querySelector('.offer-frame');
-offerFrame.addEventListener('load', () => {
-  try {
-    const offerDocument = offerFrame.contentDocument;
-    const fitOfferFrame = () => {
-      offerFrame.style.height = `${Math.max(offerDocument.documentElement.scrollHeight, offerDocument.body.scrollHeight)}px`;
-    };
-    fitOfferFrame();
-    new ResizeObserver(fitOfferFrame).observe(offerDocument.documentElement);
-    new MutationObserver(fitOfferFrame).observe(offerDocument.body, { childList: true, subtree: true });
-  } catch (_) {
-    /* Use the fallback height when hosted on a different origin. */
-  }
-});
-</script></body></html>
+      </article></section></main>
+<footer><div class="footer-inner">兴趣发现：个人兴趣热榜筛选<br>专业来源：量子位、机器之心、InfoQ 中文、开源中国、少数派、小众软件、IT之家、Solidot、科学网·数理科学、科学网·科普、前端技术精选、阮一峰的网络日志、V2EX·技术、V2EX·创造<div class="footer-note">不使用 AI 大模型。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。</div></div></footer></body></html>

@@ -69,16 +69,9 @@ def build_stream(items):
     return f'''<section class="feed"><div class="section-heading"><h2>今日更新</h2><span>{len(items)} 条，按阅读价值排序</span></div>{stories}</section>'''
 
 
-def offer_module(date):
-    offer_url = f"https://dawanglin.github.io/youhui-pages/?date={esc(date)}"
-    return f'''<section class="offer-module" aria-labelledby="offers-title">
-  <div class="offer-heading">
-    <div><h2 id="offers-title">每日优惠 / 羊毛</h2><p>外卖、电商、出行和会员优惠，按日期和场景筛选。</p></div>
-    <a href="{offer_url}" target="_blank" rel="noopener noreferrer">在新页面打开</a>
-  </div>
-  <p class="offer-notice">领取前请到官方 App 或活动规则页核实有效期、门槛和使用条件。</p>
-  <iframe class="offer-frame" src="{offer_url}" title="每日优惠线索" loading="lazy"></iframe>
-</section>'''
+def offer_href(date=None):
+    base = "https://dawanglin.github.io/youhui-pages/"
+    return f"{base}?date={esc(date)}" if date else base
 
 
 def source_footer(news):
@@ -134,6 +127,8 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .22em
 .page { width: 100%; margin-inline: auto; padding: 8px max(18px, env(safe-area-inset-right)) 64px max(18px, env(safe-area-inset-left)); }
 .mast-top { display: flex; justify-content: space-between; align-items: center; gap: 18px; color: var(--muted); font-size: 13px; }
 .mast-top a, .back { min-height: 44px; display: inline-flex; align-items: center; color: var(--accent); font-weight: 650; text-decoration: underline; }
+.mast-links { display: inline-flex; align-items: center; gap: 16px; }
+.mast-links .wool-link { min-width: 68px; min-height: 44px; justify-content: center; padding: 0 10px; border: 1.5px solid var(--accent); border-radius: 2px; color: var(--accent); font-size: 19px; font-weight: 500; text-decoration: none; }
 .mast h1 { max-width: 12em; margin: 20px 0 9px; font-size: clamp(29px, 8vw, 44px); line-height: 1.17; letter-spacing: -.03em; text-wrap: balance; }
 .mast p { margin: 0; color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
 .method { display: block; margin-top: 13px; color: var(--accent); font-size: 13px; font-weight: 600; }
@@ -163,44 +158,19 @@ footer { padding: 27px max(18px, env(safe-area-inset-right)) calc(34px + env(saf
 .archive-list a { display: block; min-height: 44px; text-decoration: none; font-size: 16px; line-height: 1.65; }
 .archive-list .issue { display: block; margin-bottom: 3px; color: var(--accent); font-weight: 700; font-variant-numeric: tabular-nums; }
 .edition-meta { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
-.offer-module { width: min(100%, 1120px); margin: 58px auto 0; padding-top: 25px; border-top: 1px solid var(--line); }
-.offer-heading { display: flex; justify-content: space-between; align-items: end; gap: 20px; }
-.offer-heading h2 { margin: 0; font-size: 24px; line-height: 1.3; letter-spacing: -.02em; }
-.offer-heading p { margin: 5px 0 0; color: var(--muted); font-size: 14px; }
-.offer-heading a { min-height: 44px; display: inline-flex; align-items: center; color: var(--accent); font-size: 14px; font-weight: 650; }
-.offer-notice { margin: 13px 0; color: var(--muted); font-size: 12px; line-height: 1.7; }
-.offer-frame { display: block; width: 100%; height: 1200px; border: 1px solid var(--line); border-radius: 12px; background: #f7f5f1; }
 a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-radius: 3px; }
-@media (hover: hover) { .story-title:hover, .mast-top a:hover, .back:hover { color: var(--accent); } }
+@media (hover: hover) { .story-title:hover, .mast-top a:hover, .mast-links a:hover, .back:hover { color: var(--accent); } }
 @media (min-width: 760px) {
   .mast { padding-top: 29px; padding-bottom: 31px; }
   .page { width: min(calc(100% - 64px), 1120px); padding-left: 0; padding-right: 0; }
   .story { padding: 29px 0 31px; }
   .story-why { grid-template-columns: 86px 1fr; }
-  .offer-module { margin-top: 64px; }
 }
-.offer-frame { width: 100%; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 </style></head><body>
-<header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日个人情报流</span><a href="[[ARCHIVE_HREF]]">查看往期</a></div><h1>今天，有什么可以拿来用</h1><p>[[DATE]] · [[STATS]]</p><span class="method">筛掉政治噪声，留下能理解、能尝试、能落地的信息</span></div></header>
-<main class="page">[[STREAM]][[OFFERS]]</main>
-<footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。</div></div></footer>
-<script>
-const offerFrame = document.querySelector('.offer-frame');
-offerFrame.addEventListener('load', () => {
-  try {
-    const offerDocument = offerFrame.contentDocument;
-    const fitOfferFrame = () => {
-      offerFrame.style.height = `${Math.max(offerDocument.documentElement.scrollHeight, offerDocument.body.scrollHeight)}px`;
-    };
-    fitOfferFrame();
-    new ResizeObserver(fitOfferFrame).observe(offerDocument.documentElement);
-    new MutationObserver(fitOfferFrame).observe(offerDocument.body, { childList: true, subtree: true });
-  } catch (_) {
-    /* Use the fallback height when hosted on a different origin. */
-  }
-});
-</script></body></html>'''
+<header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日个人情报流</span><nav class="mast-links" aria-label="快速入口"><a class="wool-link" href="[[OFFERS_HREF]]" target="_blank" rel="noopener noreferrer">羊毛</a><a href="[[ARCHIVE_HREF]]">查看往期</a></nav></div><h1>今天，有什么可以拿来用</h1><p>[[DATE]] · [[STATS]]</p><span class="method">筛掉政治噪声，留下能理解、能尝试、能落地的信息</span></div></header>
+<main class="page">[[STREAM]]</main>
+<footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。</div></div></footer></body></html>'''
 
 
 def render_daily(news, archive_href, offer_date=None):
@@ -215,9 +185,9 @@ def render_daily(news, archive_href, offer_date=None):
         "[[TITLE]]": f"每日个人情报流 - {date}",
         "[[DATE]]": date_cn,
         "[[STATS]]": f"共 {len(items)} 条",
+        "[[OFFERS_HREF]]": offer_href(offer_date),
         "[[ARCHIVE_HREF]]": archive_href,
         "[[STREAM]]": stream,
-        "[[OFFERS]]": offer_module(offer_date),
         "[[SOURCES]]": source_footer(news),
     }
     for key, value in replacements.items():
@@ -236,7 +206,7 @@ def render_archive(editions):
             f'{esc(top.get("title"))}</a><span class="edition-meta">{len(items)} 条个人情报</span></li>'
         )
     body = "".join(rows) or "<li>暂无历史简报</li>"
-    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#faf8f2"><title>历史目录</title><style>{PAGE_TEMPLATE.split('<style>',1)[1].split('</style>',1)[0]}</style></head><body><header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日个人情报流</span></div><h1>历史目录</h1><p>每一天保留当时的内容和版式</p></div></header><main class="page"><a class="back" href="../">返回今天</a><section class="archive-panel"><h2>全部简报</h2><p class="archive-intro">每天下午 5:00 后更新，最新一期排在最前面。</p><ul class="archive-list">{body}</ul></section></main></body></html>'''
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#faf8f2"><title>历史目录</title><style>{PAGE_TEMPLATE.split('<style>',1)[1].split('</style>',1)[0]}</style></head><body><header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日个人情报流</span><nav class="mast-links" aria-label="快速入口"><a class="wool-link" href="{esc(offer_href())}" target="_blank" rel="noopener noreferrer">羊毛</a></nav></div><h1>历史目录</h1><p>每一天保留当时的内容和版式</p></div></header><main class="page"><a class="back" href="../">返回今天</a><section class="archive-panel"><h2>全部简报</h2><p class="archive-intro">每天下午 5:00 后更新，最新一期排在最前面。</p><ul class="archive-list">{body}</ul></section></main></body></html>'''
 
 
 def main():
