@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08 04:23:36 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 4,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "豆包登陆华为鸿蒙电脑端，首版本搭载 2.1 Turbo / Pro 模型",
+      "link": "https://www.ithome.com/1/010/280.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-07 20:15",
+      "ts": 1791375341,
+      "summary": "IT之家 10 月 7 日消息，据用户反馈， 豆包 App 已正式登陆华为鸿蒙电脑端 ，用户可在应用市场直接搜索下载。据介绍， 豆包鸿蒙电脑端 App 首版本搭载豆包 2.1 Turbo 和豆包 2.1 Pro 模型 ，支持对话 / 工作随心切换，并上线了深入研究、PPT 生成、帮我写作、图像生成、云盘等核心能力，覆盖工作、学术研究、资料管理、自动化任务、创意设计等场景。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 187.29,
+      "relevance": 24
+    },
+    {
+      "title": "微软重点介绍 MXC SDK，为 AI 智能体提供受控执行环境",
+      "link": "https://www.ithome.com/1/010/307.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-08 01:24",
+      "ts": 1791393853,
+      "summary": "IT之家 10 月 8 日消息，据科技媒体 The Verge 报道，微软今天在 Windows 与 Surface 发布会重点介绍 MXC（ Microsoft Execution Containers） SDK，将其称为 Windows AI 战略的重要组成部分。据介绍，MXC 旨在为 AI 智能体提供相对独立的执行环境，使其能在受控环境内执行代码、调用工具并完成任务，让智能体少碰用户敏感数据。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 159.01,
+      "relevance": 18
+    },
+    {
+      "title": "zcode-plugins：不识图的模型也能看图、命令输出与对话历史双级压缩、AI 代码评审",
+      "link": "https://www.v2ex.com/t/1246871#reply1",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-08 03:12",
+      "ts": 1791400330,
+      "summary": "安装 ZCode → 插件市场 → 右上角 “添加插件市场” → 粘贴 duanluan-zcode-plugins 后添加。安装需要的插件并启用。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 160.61,
+      "relevance": 19
+    },
+    {
+      "title": "CoreWeave 落子印度，签署 240MW 数据中心容量租约",
+      "link": "https://www.ithome.com/1/010/300.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "科技资讯",
+      "published": "10-07 23:19",
+      "ts": 1791386383,
+      "summary": "IT之家 10 月 7 日消息，人工智能云服务企业 CoreWeave 当地时间今日宣布进军印度市场：该企业与阿达尼旗下的 AdaniConneX 达成合作， 将在印度租赁 240MW 数据中心容量 。这些容量位于孟买新城的 Taloja 园区，由 3 座 80MW 建筑组成。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 143.31,
+      "relevance": 15
+    },
+    {
+      "title": "感觉 codex 纯靠灌大量上下文来 reasoning",
+      "link": "https://www.v2ex.com/t/1246868#reply3",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "用户讨论",
+      "published": "10-08 01:24",
+      "ts": 1791393868,
+      "summary": "codex 的 context compaction 比 claude code 频繁很多很多，并且一个问题必须指示它进行文献搜索或者 review 本地代码再回答，它的正确率才会高，否则一开口全是瞎编，还喜欢发散。最变态的是，codex 很喜欢乱发散，突然脑补出一个新的方向。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 95.01,
+      "relevance": 6
+    },
+    {
+      "title": "一边是 WebGPU 视觉革命，一边是浏览器垄断争议：Canvas UI 发布 35 个组件",
+      "link": "https://www.infoq.cn/article/6jvNkzZCm5mjr22zr04D?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "案例复盘",
+      "published": "10-06 18:00",
+      "ts": 1791280800,
+      "summary": "一边是 WebGPU 视觉革命，一边是浏览器垄断争议：Canvas UI 发布 35 个组件",
+      "why": "可拆出一个界面、交互或游戏机制。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "【科普网站】格物间「宇宙与天文」专题：10 个能在浏览器里动手玩的天文交互演示",
+      "link": "https://meta.appinn.net/t/topic/92780",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-05 16:43",
+      "ts": 1791189791,
+      "summary": "软件名称 格物间 · 宇宙与天文专题 应用平台 网页（电脑、平板浏览器体验最好，手机可以看但屏幕偏小） 推荐类型 【开发者自荐】 是否收费 免费。浏览和操作演示不用注册、不用登录 一句简介 把天文知识做成可以拖、可以放大缩小、可以按真实速度播放的交互演示，从野餐垫上的 1 米一路放大到可观测宇宙。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 177,
+      "relevance": 21
+    },
+    {
+      "title": "国庆做了个在线赛道地图编辑器，可以加笔记、导出和打印",
+      "link": "https://www.v2ex.com/t/1246831#reply1",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "用户作品",
+      "published": "10-07 21:26",
+      "ts": 1791379579,
+      "summary": "国庆做了一个赛道地图编辑器，分享给喜欢赛车、玩模拟赛车的朋友： https://purpole.cn/map-editor/ 可以选择赛道和不同布局，调整方向、线条粗细，按需要显示弯号、弯名和维修区。也能加自己的文字和图片，排好后导出 PNG 、JPG 、PDF ，或者直接打印。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 110.68,
+      "relevance": 9
+    },
+    {
+      "title": "谷歌 Gmail 新功能曝光：Gemini 帮你回邮件",
+      "link": "https://www.ithome.com/1/010/279.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "科技资讯",
+      "published": "10-07 19:44",
+      "ts": 1791373460,
+      "summary": "IT之家 10 月 7 日消息，科技媒体 Android Authority 今日报道称，Gmail 应用最新版（v2026.09.28）APK 拆解显示，谷歌或许正在为 Gmail 新增 Gemini 智能体， 让用户可以通过 AI 自动回复邮件 。IT之家从原报道获悉，最新版 Gmail 应用已经出现多段相关代码。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 187.12,
+      "relevance": 24
+    },
+    {
+      "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+      "link": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "10-06 18:00",
+      "ts": 1791280800,
+      "summary": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 183,
+      "relevance": 21
+    },
+    {
+      "title": "Mistral Large 4：免费多模态 AI Playground 与 OpenAI 兼容 API",
+      "link": "https://www.v2ex.com/t/1246870#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-08 02:37",
+      "ts": 1791398240,
+      "summary": "最近在整理多模态 AI 工具时，发现了 Mistral Large 4 。它面向文本和图像任务，适合用来做编码、文档问答、写作、工具调用和结构化 JSON 输出。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 172.41,
+      "relevance": 21
+    },
+    {
+      "title": "RemoveMacAI – 精简 macOS 27，关闭 Apple 智能，删除模型文件，释放 10+GB 磁盘空间",
+      "link": "https://www.appinn.com/removemacai/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-07 19:49",
+      "ts": 1791373758,
+      "summary": "macOS 27 有一定几率会自动下载 Apple 智能相关的大模型文件，无论 Apple 智能是否处于开启状态。有开发者专门为此发布了开源工具 RemoveMacAI，可以一键关闭 Apple 智能、删除已下载的模型文件，并阻止它们再次下载，部分设备可以释放超过 10GB 磁盘空间。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 172.14,
+      "relevance": 19
+    },
+    {
+      "title": "Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司",
+      "link": "https://www.qbitai.com/2026/10/501791.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "10-07 14:39",
+      "ts": 1791355176,
+      "summary": "在 a16z 首份消费级 AI 应用月收入榜单中，Meshy 位列第 31 名，与 OpenAI、Anthropic、Canva、Superhuman、Higgsfield 等共同上榜",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 166.42,
+      "relevance": 17
+    },
+    {
+      "title": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "link": "https://www.infoq.cn/article/yVWAQGCZCzI838JESA1b?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "10-05 18:00",
+      "ts": 1791194400,
+      "summary": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "简单优雅的开源截图软件 Snow Shot（社区驱动）",
+      "link": "https://meta.appinn.net/t/topic/71367",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-05 21:56",
+      "ts": 1791208592,
+      "summary": "这款软件叫 Snow Shot Snow Shot 是 Snow Shot 社区共同开发的一款开源截图工具，我们相信最好的软件一定是忠于用户社区的。我们积极收听用户反馈，用心打磨，Snow Shot 现已拥有完善的截图功能，并通过插件系统保持应用本身简洁的同时保持超丰富的扩展功能！",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 152,
+      "relevance": 16
+    },
+    {
+      "title": "Termexo v0.10.10 发布：19 个本地 MCP 工具，五种编程 Agent 自动接入",
+      "link": "https://www.oschina.net/news/502845",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-06 07:39",
+      "ts": 1791243546,
+      "summary": "AI 生成概念图，非产品界面。MIT 开源的 Windows AI 编程工作台 Termexo 发布 v0.10.10。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 151,
+      "relevance": 15
+    },
+    {
+      "title": "新统计框架，精准识别高维动态数据多重结构断点",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202692974127538156039.shtm?id=156039",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "工具发布",
+      "published": "09-29 15:41",
+      "ts": 1790667660,
+      "summary": "近日，西安电子科技大学数学与统计学院概率统计系副教授段江涛联合美国哥伦比亚大学、香港城市大学，在《美国统计协会期刊》上在线发表。随着数字化和智能化深入发展，经济金融等...",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 150,
+      "relevance": 14
+    },
+    {
+      "title": "2026 年诺贝尔物理奖授予了冰立方中微子天文台提出者 Francis Halzen",
+      "link": "https://www.solidot.org/story?sid=85541",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-06 21:52",
+      "ts": 1791294744,
+      "summary": "2026 年诺贝尔物理奖授予了美国科学家 Francis Halzen，以表彰其“对冰立方中微子天文台的决定性贡献以及发现具有天体物理起源的高能中微子”。中微子无处不在，它们径直穿过地球，穿过人体，而我们毫无察觉。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 146,
+      "relevance": 16
+    },
+    {
+      "title": "做了个 BotBus：手机和手表管理 Codex、Claude Code、Hermes、OpenCode、DeepSeek Harness 等 Agent",
+      "link": "https://www.v2ex.com/t/1246789#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-07 16:30",
+      "ts": 1791361813,
+      "summary": "大家好，我是 BotBus 的开发者，想分享一个自己做的工具，也想请大家帮忙试试安装和配对流程。BotBus 把电脑上运行的 AI Agent 任务连接到手机。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 139.04,
+      "relevance": 15
+    },
+    {
+      "title": "袋鼠数据库工具 v9.9.1 版已上线",
+      "link": "https://www.oschina.net/news/502849",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-07 09:50",
+      "ts": 1791337848,
+      "summary": "袋鼠数据库工具 是一款 AI 驱动的热门数据库系统客户端(MariaDB / MongoDB / MySQL / Oracle / PostgreSQL / Redis / SQLite / SQLServer / …) ，支持建表、查询、模型、同步、导入导出等功能，支持 Windows / Mac / Linux 等操作系统，致力于打造一款好用、好玩、开发友好的开发者工具。新特性或修复的缺陷列表 重组云...",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 137.82,
+      "relevance": 12
+    },
+    {
+      "title": "粗粒化与拆解定理：DisCo 代数作为概率论的第一性原理",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1555444",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-07 18:35",
+      "ts": 1791369346,
+      "summary": "粗粒化与拆解定理：DisCo 代数作为概率论的第一性原理",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 137.74,
+      "relevance": 12
+    },
+    {
+      "title": "ZCode 增强工具：功能增强、样式自定义、多种插件管理",
+      "link": "https://www.v2ex.com/t/1246873#reply1",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-08 03:48",
+      "ts": 1791402506,
+      "summary": "ZCode Pro 给 ZCode 桌面版加了一层界面增强，不修改客户端的任何文件——用 “ZCode Pro” 快捷方式启动就自动生效，用官方原有入口启动则完全不加载，随用随走。支持 Windows / macOS / Linux ，Arch 用户可直接装 AUR 包。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 130.81,
+      "relevance": 13
+    },
+    {
+      "title": "这 39 款 Windows 软件，你用过多少？",
+      "link": "https://www.appinn.com/39-windows-software-you-have-used/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-07 16:48",
+      "ts": 1791362900,
+      "summary": "yingngao 同学在论坛里晒出了《Windows自用软件记录分享》，获得了第一条评论是来自 @kat 同学的：我觉得楼主挑软件的品味可以。随后 @Baiyssy 同学回复说：没品味的也不会一条条记下来。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 121.14,
+      "relevance": 9
+    },
+    {
+      "title": "SonnetDB 4.0.0 发布：完善 SQL 与多模型协作，强化部署和恢复边界",
+      "link": "https://www.oschina.net/news/502847",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "教程方法",
+      "published": "10-07 02:53",
+      "ts": 1791312830,
+      "summary": "SonnetDB 4.0.0 已在 GitHub 正式发布。SonnetDB 是使用 C# / .NET 10 构建的开源多模型数据引擎，采用 MIT 许可证，支持嵌入式运行和独立 Server 部署。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 121,
+      "relevance": 9
+    },
+    {
+      "title": "一个视频彻底看懂CSS scroll-axis-lock none的作用",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/09/scroll-axis-lock-none/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "技术实践",
+      "published": "09-30 08:00",
+      "ts": 1790726400,
+      "summary": "一个视频彻底看懂CSS scroll-axis-lock none的作用",
+      "why": "可拆出一个界面、交互或游戏机制。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 9
+    },
+    {
+      "title": "为迎接 iPhone Duo，iOS 开发者需要对应用做出哪些调整",
+      "link": "https://www.infoq.cn/article/CFbVqLXwQvbbhiTMy83e?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "专家观点",
+      "published": "10-08 00:00",
+      "ts": 1791388800,
+      "summary": "为迎接 iPhone Duo，iOS 开发者需要对应用做出哪些调整",
+      "why": "分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 114.54,
+      "relevance": 6
+    }
+  ]
+}
