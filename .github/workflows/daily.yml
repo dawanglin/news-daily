@@ -1,8 +1,7 @@
 name: Daily News Digest
 
-# 北京时间 17:07 至 23:07 每小时巡检，给 GitHub 定时任务留出多次补跑机会。
-# 首次成功抓取后当天快照固定；后续巡检只重新构建/发布，不覆盖数据。
-# 任何代码推送也会执行抓取与发布，避免“流程成功但数据仍旧”的假绿灯。
+# 北京时间 17:07 至 23:07 每小时巡检，增加定时任务延迟或漏跑时的补跑机会。
+# 当天快照首次成功生成后固定保留；后续巡检不会覆盖历史数据。
 on:
   push:
     branches: [main]
@@ -35,15 +34,20 @@ jobs:
           python-version: "3.12"
 
       - name: 抓取新闻
-        env:
-          # 定时任务晚到时也生成当前日期快照，避免卡在 17:00 门槛后整晚不更新。
-          NOT_BEFORE_HOUR: ${{ github.event_name == 'schedule' && '17' || '0' }}
+        if: github.event_name != 'push'
         run: python fetch_news.py
+
+      - name: 确认今日快照存在
+        if: github.event_name != 'push'
+        run: |
+          today=$(TZ=Asia/Shanghai date +%F)
+          test -s "data/news_${today}.json" || { echo "::error::未生成今日新闻快照，停止发布旧页面"; exit 1; }
 
       - name: 生成静态站点
         run: python build_site.py
 
       - name: 提交当天数据与站点
+        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
