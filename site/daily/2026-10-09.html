@@ -30,7 +30,7 @@ body {
 ::selection { background: var(--news); color: #fff; }
 a { color: inherit; }
 .mast { padding: 34px 40px 22px; border-bottom: 1px solid var(--line); }
-.mast-inner, .page, .footer-inner { width: min(100% - 64px, 1760px); margin-inline: auto; }
+.mast-inner, .page, .footer-inner { width: min(100% - 64px, 1200px); margin-inline: auto; }
 .mast-top { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
 .mast-links { display: inline-flex; align-items: center; gap: 22px; font-size: 14px; }
 .mast-links a { text-decoration: none; color: var(--muted); padding: 6px 2px; border-bottom: 2px solid transparent; }
@@ -39,7 +39,7 @@ a { color: inherit; }
 .mast .subtitle { margin: 0 0 12px; font-size: 17px; color: var(--body); }
 .mast .meta { margin: 0; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .mast .direction { margin: 18px 0 0; color: var(--body); font-size: 14px; border-left: 3px solid var(--news); padding-left: 12px; }
-.layout { display: grid; grid-template-columns: minmax(0, 1fr) clamp(600px, 38%, 680px); gap: 48px; padding: 30px 0 20px; align-items: start; }
+.layout { display: block; padding: 30px 0 20px; }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; padding: 0 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
 .section-heading h2 { margin: 0; font-size: 18px; line-height: 1.3; letter-spacing: -.01em; }
 .section-heading > span { color: var(--muted); font-size: 12px; }
@@ -59,20 +59,18 @@ a { color: inherit; }
 .story-why strong { align-self: start; color: var(--news); font-size: 12px; font-weight: 650; white-space: nowrap; }
 .archive-link { margin-top: 22px; }
 .archive-link a { color: var(--news); font-size: 13px; }
-.col-business { border-left: 1px solid var(--line); padding-left: 28px; }
+.col-business { margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--line); }
 .col-business .section-heading { border-bottom-color: #e6dcc9; }
 .col-business h2 { color: var(--biz); }
-.biz { margin: 0 0 22px; padding: 14px 0 16px 14px; border-left: 3px solid var(--biz); border-bottom: 1px solid var(--line); }
-.biz-title { margin: 0; font-size: 16px; line-height: 1.45; font-weight: 680; }
+.biz { margin: 0 0 22px; padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
+.biz-title { margin: 0; font-size: 19px; font-weight: 680; line-height: 1.5; }
 .biz-title a { text-decoration: none; }
+.biz-title a::after { content: "↗"; display: inline-block; margin-left: .3em; color: var(--biz); font-size: .72em; font-weight: 500; transform: translateY(-.05em); }
 .biz-title a:hover { color: var(--biz); }
-.biz-meta { margin: 8px 0 0; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.biz-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; font-variant-numeric: tabular-nums; }
 .biz-status { margin-left: 8px; padding: 1px 6px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-size: 11px; }
 .biz-status.pending { background: var(--biz-soft); color: #7c4c24; }
-.biz-fields { margin: 10px 0 0; }
-.biz-field { padding: 6px 0; }
-.biz-field dt { color: var(--biz); font-size: 12px; font-weight: 650; margin-bottom: 3px; }
-.biz-field dd { margin: 0; color: var(--body); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+.biz-summary { margin: 11px 0 0; color: var(--body); font-size: 15px; line-height: 1.82; overflow-wrap: anywhere; }
 .biz-empty, .biz-note { color: var(--muted); font-size: 13px; line-height: 1.7; }
 .biz-note { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line); }
 footer { padding: 26px 40px 40px; border-top: 1px solid var(--line); background: var(--panel); color: var(--muted); font-size: 12px; line-height: 1.8; }
@@ -87,7 +85,7 @@ footer { padding: 26px 40px 40px; border-top: 1px solid var(--line); background:
 .back { display: inline-block; margin: 20px 0 8px; color: var(--news); text-decoration: none; font-size: 14px; }
 a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 3px; }
 @media (hover: hover) { .mast-links a:hover, .story-title:hover, .biz-title a:hover { color: var(--news); } }
-@media (max-width: 960px) { .layout { grid-template-columns: 1fr; gap: 8px; } .col-business { border-left: 0; padding-left: 0; } .mast, footer { padding-left: 22px; padding-right: 22px; } .mast-inner, .page, .footer-inner { width: min(100% - 32px, 1760px); } }
+@media (max-width: 960px) { .mast, footer { padding-left: 22px; padding-right: 22px; } .mast-inner, .page, .footer-inner { width: min(100% - 32px, 1200px); } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 </style></head><body>
 <header class="mast"><div class="mast-inner"><div class="mast-top"><nav class="mast-links" aria-label="栏目导航"><a href="#news">新闻情报</a><a href="#business">商业建设观察</a><a href="https://dawanglin.github.io/youhui-pages/?date=2026-10-09" target="_blank" rel="noopener noreferrer">生活优惠</a></nav></div><h1>每日情报简报</h1><p class="subtitle">今日动态与可落地线索</p><p class="meta">2026年10月9日 星期五 · 共 26 条</p><p class="direction">筛掉政治造势，留下能理解、能尝试、能落地的信息。</p></div></header>
@@ -403,30 +401,30 @@ a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-r
         </div>
         <p class="story-summary">概率论的统一框架：从 Leinster 到鲁学星</p>
         <p class="story-why"><strong>可以怎么用</strong><span>先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
-      </article></section><p class="archive-link"><a href="../archive/">查看往期简报</a></p></section><aside id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>高德与地图能力 · 可落地线索</span></div>
+      </article></section><p class="archive-link"><a href="../archive/">查看往期简报</a></p></section><section id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>高德与地图能力 · 可落地线索</span></div>
       <article class="biz">
         <h3 class="biz-title"><a href="https://developer.amap.com/api/mcp-server/summary" target="_blank" rel="noopener noreferrer">高德 MCP Server：大模型可直接调用地理编码、POI 搜索与路径规划</a></h3>
         <p class="biz-meta">高德开放平台 · MCP Server 概述 · 文档更新于 2026-03-17<span class="biz-status ">已查证</span></p>
-        <dl class="biz-fields"><div class="biz-field"><dt>业务场景</dt><dd>让 Agent/大模型直接查询位置、POI、路径与天气；可用于本地生活问答、门店检索、选址辅助和导航类助手。</dd></div><div class="biz-field"><dt>小规模验证</dt><dd>在高德开放平台申请 Web 服务 key，在 Cursor/Claude/Cline 按 Streamable HTTP 配置 https://mcp.amap.com/mcp?key=你的key，让 Agent 做一次“周边美食搜索”和“地址转经纬度”，核对返回字段。</dd></div><div class="biz-field"><dt>条件与成本</dt><dd>注册高德开放平台开发者并申请 key；基础 LBS（地理编码、路径规划等）个人认证约 15 万次/月免费、企业认证翻 20 倍；搜索服务约 5000 次/月免费，超出约 30 元/万次。</dd></div><div class="biz-field"><dt>限制与风险</dt><dd>2026-03-17 已下线通用级 SSE，接入方式以当前官方文档为准；搜索单次最多返回 200 条，不支持全量导出；不同接口的新版 key 调用参数要求以官方文档为准。</dd></div></dl>
+        <p class="biz-summary">让 Agent/大模型直接查询位置、POI、路径与天气；可用于本地生活问答、门店检索、选址辅助和导航类助手。</p>
       </article>
       <article class="biz">
         <h3 class="biz-title"><a href="https://lbs.amap.com/api/webservice/guide/api-advanced/newpoisearch" target="_blank" rel="noopener noreferrer">高德 POI 搜索 API 2.0：关键字/周边/多边形/ID 搜索</a></h3>
         <p class="biz-meta">高德开放平台 · Web 服务 API 文档 · 文档更新于 2026-07-15<span class="biz-status ">已查证</span></p>
-        <dl class="biz-fields"><div class="biz-field"><dt>业务场景</dt><dd>批量获取某区域内的店铺/设施 POI（含类型、坐标、地址、商圈），可用于商圈结构分析、街道商铺清单构建和本地商业数字化。</dd></div><div class="biz-field"><dt>小规模验证</dt><dd>申请 Web 服务 key，用周边搜索接口查一个商圈半径内的餐饮/零售 POI（radius+types），核对返回的 type、location、business_area 字段能否支撑你的数据表结构。</dd></div><div class="biz-field"><dt>条件与成本</dt><dd>Web 服务 API key；搜索免费额度约 5000 次/月，企业认证后提高，超出约 30 元/万次；个人/企业认证决定配额等级。</dd></div><div class="biz-field"><dt>限制与风险</dt><dd>翻页最多取 200 条，不支持返回全量数据；POI 分类编码会不定期更新，官方建议通过线上接口实时获取，不要写死在程序里。</dd></div></dl>
+        <p class="biz-summary">批量获取某区域内的店铺/设施 POI（含类型、坐标、地址、商圈），可用于商圈结构分析、街道商铺清单构建和本地商业数字化。</p>
       </article>
       <article class="biz">
         <h3 class="biz-title"><a href="https://yunai.amap.com/#/console" target="_blank" rel="noopener noreferrer">高德问店：面向门店选址与商圈评估的商业智能体</a></h3>
         <p class="biz-meta">高德云睿 · 时空智能体平台 · 2026-07-16 正式发布<span class="biz-status pending">待核实</span></p>
-        <dl class="biz-fields"><div class="biz-field"><dt>业务场景</dt><dd>商户做门店选址、商圈评估、点位对比、客流趋势与 POI 分布分析；对本地商业摸底类项目可直接参考其评估维度。</dd></div><div class="biz-field"><dt>小规模验证</dt><dd>在控制台用自然语言输入候选点位，问“周边 2 公里轻食潜客分布”或“对比 A、B 两个点位更适合开什么店”，看输出是否可用。</dd></div><div class="biz-field"><dt>条件与成本</dt><dd>面向商户与企业；部分能力可能需要企业认证或付费，具体接入与定价需向平台核实（本次未逐字核对该页收费说明）。</dd></div><div class="biz-field"><dt>限制与风险</dt><dd>结论依赖高德内部数据口径（客流、到店等），与第三方数据可能有差异；免费/付费边界与开放范围建议实测前向平台确认。</dd></div></dl>
+        <p class="biz-summary">商户做门店选址、商圈评估、点位对比、客流趋势与 POI 分布分析；对本地商业摸底类项目可直接参考其评估维度。</p>
       </article>
       <article class="biz">
         <h3 class="biz-title"><a href="https://bgc.amap.com/" target="_blank" rel="noopener noreferrer">高德商家开放平台：把门店做到地图上，LBS 精准获客</a></h3>
         <p class="biz-meta">高德商家开放平台 · 页面长期有效（2026 年可见）<span class="biz-status pending">待核实</span></p>
-        <dl class="biz-fields"><div class="biz-field"><dt>业务场景</dt><dd>本地商户建立高德门店信息页、参与场景化推荐与 LBS 精准营销，提升线上曝光与到店；页面展示百果园、博世、特来电等案例。</dd></div><div class="biz-field"><dt>小规模验证</dt><dd>用一个真实门店信息页测试入驻流程，观察高德搜索/推荐里的展示位与客流引导效果，再决定是否投入。</dd></div><div class="biz-field"><dt>条件与成本</dt><dd>需商家主体入驻并提供门店信息；具体入驻条件、收费与审核标准需到平台核实（本次未核对该页收费说明）。</dd></div><div class="biz-field"><dt>限制与风险</dt><dd>效果依赖高德平台流量分配与用户行为，单方投入不等于确定回报；门店信息更新与到店数据口径以官方后台为准。</dd></div></dl>
+        <p class="biz-summary">本地商户建立高德门店信息页、参与场景化推荐与 LBS 精准营销，提升线上曝光与到店；页面展示百果园、博世、特来电等案例。</p>
       </article>
       <article class="biz">
         <h3 class="biz-title"><a href="https://cloud.tencent.com/developer/news/3918723" target="_blank" rel="noopener noreferrer">高德空间智能开放平台与 SKILL 生态：经 MCP/A2A 接入空间能力</a></h3>
         <p class="biz-meta">腾讯云开发者社区（转载高德官方发布） · 2026-05-15<span class="biz-status pending">待核实</span></p>
-        <dl class="biz-fields"><div class="biz-field"><dt>业务场景</dt><dd>把高德 POI/AOI/动态热度等空间能力与 Agent Skill、CLI、Card 集成进企业自有 AI，做选址、洞察、流量分析。</dd></div><div class="biz-field"><dt>小规模验证</dt><dd>关注官方 SKILL 市场与接入文档，先申请体验一个开箱即用的洞察类 SKILL，确认能否输出可用于你项目的结构化结果。</dd></div><div class="biz-field"><dt>条件与成本</dt><dd>偏企业级接入，可能涉及商务合作与授权；具体接入门槛、费用与数据授权需向高德开放平台核实。</dd></div><div class="biz-field"><dt>限制与风险</dt><dd>本文为高德官方口径的媒体转载，能力开放范围与稳定交付需以官方接入流程和实测为准；部分能力可能需企业认证。</dd></div></dl>
-      </article><p class="biz-note">本栏为人工整理的商业线索：只收录官方文档、产品更新、开源项目或可核实的报道，每条标注来源。</p></aside></div></main>
+        <p class="biz-summary">把高德 POI/AOI/动态热度等空间能力与 Agent Skill、CLI、Card 集成进企业自有 AI，做选址、洞察、流量分析。</p>
+      </article><p class="biz-note">本栏为人工整理的商业线索：只收录官方文档、产品更新、开源项目或可核实的报道，每条标注来源。</p></section></div></main>
 <footer><div class="footer-inner">兴趣发现：个人兴趣热榜筛选<br>专业来源：量子位、机器之心、InfoQ 中文、开源中国、少数派、小众软件、IT之家、Solidot、科学网·数理科学、科学网·科普、前端技术精选、阮一峰的网络日志<div class="footer-note">不使用 AI 大模型生成摘要。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。商业建设观察为人工整理的商业线索，来源可追溯。</div></div></footer></body></html>
