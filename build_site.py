@@ -167,7 +167,7 @@ body {
 ::selection { background: var(--news); color: #fff; }
 a { color: inherit; }
 .mast { padding: 34px 40px 22px; border-bottom: 1px solid var(--line); }
-.mast-inner, .page, .footer-inner { width: min(100% - 64px, 1200px); margin-inline: auto; }
+.mast-inner, .page, .footer-inner { width: min(100% - 64px, 1760px); margin-inline: auto; }
 .mast-top { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
 .mast-links { display: inline-flex; align-items: center; gap: 22px; font-size: 14px; }
 .mast-links a { text-decoration: none; color: var(--muted); padding: 6px 2px; border-bottom: 2px solid transparent; }
@@ -176,7 +176,7 @@ a { color: inherit; }
 .mast .subtitle { margin: 0 0 12px; font-size: 17px; color: var(--body); }
 .mast .meta { margin: 0; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .mast .direction { margin: 18px 0 0; color: var(--body); font-size: 14px; border-left: 3px solid var(--news); padding-left: 12px; }
-.layout { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 48px; padding: 30px 0 20px; align-items: start; }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) clamp(600px, 38%, 680px); gap: 48px; padding: 30px 0 20px; align-items: start; }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; padding: 0 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
 .section-heading h2 { margin: 0; font-size: 18px; line-height: 1.3; letter-spacing: -.01em; }
 .section-heading > span { color: var(--muted); font-size: 12px; }
@@ -196,7 +196,7 @@ a { color: inherit; }
 .story-why strong { align-self: start; color: var(--news); font-size: 12px; font-weight: 650; white-space: nowrap; }
 .archive-link { margin-top: 22px; }
 .archive-link a { color: var(--news); font-size: 13px; }
-.col-business { border-left: 1px solid var(--line); padding-left: 40px; }
+.col-business { border-left: 1px solid var(--line); padding-left: 28px; }
 .col-business .section-heading { border-bottom-color: #e6dcc9; }
 .col-business h2 { color: var(--biz); }
 .biz { margin: 0 0 22px; padding: 14px 0 16px 14px; border-left: 3px solid var(--biz); border-bottom: 1px solid var(--line); }
@@ -207,8 +207,8 @@ a { color: inherit; }
 .biz-status { margin-left: 8px; padding: 1px 6px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-size: 11px; }
 .biz-status.pending { background: var(--biz-soft); color: #7c4c24; }
 .biz-fields { margin: 10px 0 0; }
-.biz-field { display: grid; grid-template-columns: 74px 1fr; gap: 8px; padding: 5px 0; }
-.biz-field dt { color: var(--biz); font-size: 12px; font-weight: 650; padding-top: 1px; }
+.biz-field { padding: 6px 0; }
+.biz-field dt { color: var(--biz); font-size: 12px; font-weight: 650; margin-bottom: 3px; }
 .biz-field dd { margin: 0; color: var(--body); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
 .biz-empty, .biz-note { color: var(--muted); font-size: 13px; line-height: 1.7; }
 .biz-note { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line); }
@@ -224,7 +224,7 @@ footer { padding: 26px 40px 40px; border-top: 1px solid var(--line); background:
 .back { display: inline-block; margin: 20px 0 8px; color: var(--news); text-decoration: none; font-size: 14px; }
 a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 3px; }
 @media (hover: hover) { .mast-links a:hover, .story-title:hover, .biz-title a:hover { color: var(--news); } }
-@media (max-width: 960px) { .layout { grid-template-columns: 1fr; gap: 8px; } .col-business { border-left: 0; padding-left: 0; } .mast, footer { padding-left: 22px; padding-right: 22px; } .mast-inner, .page, .footer-inner { width: min(100% - 32px, 1200px); } }
+@media (max-width: 960px) { .layout { grid-template-columns: 1fr; gap: 8px; } .col-business { border-left: 0; padding-left: 0; } .mast, footer { padding-left: 22px; padding-right: 22px; } .mast-inner, .page, .footer-inner { width: min(100% - 32px, 1760px); } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 </style></head><body>
 <header class="mast"><div class="mast-inner"><div class="mast-top"><nav class="mast-links" aria-label="栏目导航"><a href="#news">新闻情报</a><a href="#business">商业建设观察</a><a href="[[OFFERS_HREF]]" target="_blank" rel="noopener noreferrer">生活优惠</a></nav></div><h1>每日情报简报</h1><p class="subtitle">今日动态与可落地线索</p><p class="meta">[[DATE]] · [[STATS]]</p><p class="direction">筛掉政治造势，留下能理解、能尝试、能落地的信息。</p></div></header>
