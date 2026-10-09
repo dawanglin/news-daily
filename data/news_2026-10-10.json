@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10 00:09:07 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 1,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "在生产环境中保护MCP：超越网关的纵深防御",
+      "link": "https://www.infoq.cn/article/HZIW4QjEfV66I9CGr52R?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "技术实践",
+      "published": "10-09 17:05",
+      "ts": 1791536700,
+      "summary": "在生产环境中保护MCP：超越网关的纵深防御",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 188.65,
+      "relevance": 21
+    },
+    {
+      "title": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
+      "link": "https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "10-10 01:39",
+      "ts": 1791567578,
+      "summary": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 221.0,
+      "relevance": 27
+    },
+    {
+      "title": "OpenAI刚把多Agent做成产品，o1奠基人却说：1万个Agent解出世界级难题，多Agent贡献不到10%",
+      "link": "https://www.infoq.cn/article/3MSU3CcJuh0XjHDyjhXj?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "10-08 22:11",
+      "ts": 1791468681,
+      "summary": "OpenAI刚把多Agent做成产品，o1奠基人却说：1万个Agent解出世界级难题，多Agent贡献不到10%",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 213,
+      "relevance": 27
+    },
+    {
+      "title": "有人在用 pstack 吗？我把它的 skills / playbooks ，以及作者亲身使用分享文章，整理成了中文站",
+      "link": "https://www.v2ex.com/t/1247407#reply2",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "专家观点",
+      "published": "10-09 17:09",
+      "ts": 1791536982,
+      "summary": "有人在用 pstack 吗？我把它的 skills / playbooks ，以及作者亲身使用分享文章，整理成了中文站 https://pstack.ganhai.cloud",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 143.67,
+      "relevance": 16
+    },
+    {
+      "title": "Google 多个国家顶级域名被劫持",
+      "link": "https://www.solidot.org/story?sid=85549",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "案例复盘",
+      "published": "10-08 18:31",
+      "ts": 1791455474,
+      "summary": "Google 安全博客警告，黑客劫持了它的多个国家顶级域名，修改了权威 DNS 记录，获取了未经授权的 HTTPS 证书。受影响的域名包括了它的 .gh（加纳）、.sl（塞拉利昂）和 .as（美属萨摩亚）国家顶级域名。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 141,
+      "relevance": 15
+    },
+    {
+      "title": "各位 codex 的上下文窗口都设置的多少？",
+      "link": "https://www.v2ex.com/t/1247278#reply13",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "用户讨论",
+      "published": "10-09 10:52",
+      "ts": 1791514339,
+      "summary": "我自己感觉用 Astra 的话 258k 有效上下文太容易压缩了。做个任务不断地压缩，感觉时间一长就容易漂移，设置大一点的上下文窗口能够解决这个问题么。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 121.58,
+      "relevance": 12
+    },
+    {
+      "title": "乱序 HTML 流技术从 JavaScript 框架转移到浏览器中",
+      "link": "https://www.infoq.cn/article/BEgaPOXCCtDaPGJiCtSi?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-09 23:30",
+      "ts": 1791559800,
+      "summary": "乱序 HTML 流技术从 JavaScript 框架转移到浏览器中",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 190.79,
+      "relevance": 21
+    },
+    {
+      "title": "拆·压·拼：从概率拆解定理到 DisCo 代数的第一性原理",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1555584",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-08 17:48",
+      "ts": 1791452903,
+      "summary": "拆·压·拼：从概率拆解定理到 DisCo 代数的第一性原理",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 133,
+      "relevance": 12
+    },
+    {
+      "title": "吉利汽车集团旗下吉利品牌宣布正式进入加拿大市场，已在当地全面推进零售与服务网络建设",
+      "link": "https://www.ithome.com/1/011/132.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "科技资讯",
+      "published": "10-09 21:38",
+      "ts": 1791553086,
+      "summary": "IT之家 10 月 9 日消息，当地时间 10 月 9 日，吉利汽车集团旗下全球主流品牌吉利汽车（Geely Auto）宣布正式进入加拿大市场。目前， 吉利汽车已在当地启动运营，并全面推进零售与服务网络建设 ，为 2027 年向加拿大消费者推出首批车型做准备。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 104.16,
+      "relevance": 7
+    },
+    {
+      "title": "Docker 推出官方 Agent 工具：YAML 定义、任意 MCP、OCI 镜像分发",
+      "link": "https://www.oschina.net/news/502889",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-08 15:04",
+      "ts": 1791443088,
+      "summary": "Docker 官方上架了一个新工具：Docker Agent。定位一句话就够——「Build, run, and share AI agents with a declarative YAML config」：用 YAML 声明式配置定义 Agent，配上工具和多 Agent 编排，就能跑起来。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 211,
+      "relevance": 27
+    },
+    {
+      "title": "人类愿意向女性形象的 AI 智能体支付的报酬低于男性形象智能体",
+      "link": "https://www.solidot.org/story?sid=85566",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "概念科普",
+      "published": "10-09 22:52",
+      "ts": 1791557554,
+      "summary": "如果你认为性别薪酬差距不存在，或者职场中没有性别偏见，那么最好重新思考下：根据爱尔兰 Limerick 大学研究人员展开的一项研究，在一个 VR 办公室里，基于相同的底层技术但形象不同的 AI 智能体，人类参与者愿意向男性形象的智能体支付的报酬比女性形象更高。参与研究的人类共有 189 人，他们与名叫 Johan 的男性形象智能体以及名叫 Johanna 的女性形象智能体共同工作。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 208.58,
+      "relevance": 27
+    },
+    {
+      "title": "不写一行 Python，不引一行 C：纯 Uya 从零实现的 CLI 编程 Agent 开源了",
+      "link": "https://www.oschina.net/news/502916",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-09 12:29",
+      "ts": 1791520144,
+      "summary": "一个 Agent 项目，不依赖 Python，不引入一行 C 代码——纯 Uya 写的 CLI 编程 Agent 如果你在 2026 年还在用 Python 写 Agent，大概率已经习惯了这些“标配”：装 LangChain、配依赖、调 API、处理 token 溢出、管理会话状态……这些东西确实让 Agent 开发变得容易了，但也带来了一个新的问题——框架本身，正在变成最复...",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 200.11,
+      "relevance": 24
+    },
+    {
+      "title": "派早报：英伟达 RTX Spark 新品一览、Anthropic 发布 Claude Haiku 5.5 模型等",
+      "link": "https://sspai.com/post/115532",
+      "source": "少数派",
+      "signals": [
+        "少数派"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-09 08:51",
+      "ts": 1791507070,
+      "summary": "XMG 发布 PRO 18 系列笔记本、OpenAI 宣布在 ChatGPT 上线 GPT-6 模型 查看全文",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "数字生活来源",
+      "confidence_class": "professional",
+      "score": 192.9,
+      "relevance": 24
+    },
+    {
+      "title": "豆包工作上新：支持画布功能，模型再更新",
+      "link": "https://www.ithome.com/1/011/068.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-09 17:17",
+      "ts": 1791537434,
+      "summary": "IT之家 10 月 9 日消息，豆包工作今日宣布任务模式新增画布功能，复杂任务操作更方便，交互体验更好，随时查看对比，快速编辑调整，还支持全新图片模型 Seedream 5.0 Flash。IT之家从官方介绍获悉，豆包 2.1 Lite 模型已上线豆包工作，更省额度，更快交付，多模态综合能力领先，可以很好地满足文档撰写、表格处理、PPT 制作等高频场景。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 182.71,
+      "relevance": 23
+    },
+    {
+      "title": "参考 OpenAI 工程博客的配图，做了个画技术图的 Agent Skill",
+      "link": "https://www.v2ex.com/t/1247482#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "用户作品",
+      "published": "10-09 23:56",
+      "ts": 1791561408,
+      "summary": "OpenAI 那篇讲在线存储的博客里面几张配图画得很舒服，白底细线，小方块在连接上来回跑，于是提取了一个 skill 出来。参考文章： https://openai.com/zh-Hans-CN/index/scaling-storage-one-billion-users-part-one/ skill 地址： https://github.com/wyh0626/editorial-diagrams 效果： 在线版可以看动画： https://codex-archite…",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 177.93,
+      "relevance": 22
+    },
+    {
+      "title": "Claude Haiku 5.5 来了：价格砍到四分之一，agent 能力从 0 跳到 39%",
+      "link": "https://www.oschina.net/news/502894/anthropic-claude-haiku-5-5",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "10-08 16:54",
+      "ts": 1791449685,
+      "summary": "Anthropic 拿出了目前最快的小模型，同时一口气砍了两刀价格。10 月 7 日发布的 Claude Haiku 5.5 是 Haiku 系列第一个支持可调节 effort 设置的型号，用户可以根据场景在速度和智能之间做取舍。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 176,
+      "relevance": 20
+    },
+    {
+      "title": "openJiuwen发布并开源企业级AgentOS，加速智能体规模落地企业",
+      "link": "https://www.qbitai.com/2026/10/502106.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-09 10:37",
+      "ts": 1791513442,
+      "summary": "多Agent协同还能自我进化",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 171.49,
+      "relevance": 18
+    },
+    {
+      "title": "RemoveMacAI – 精简 macOS 27，关闭 Apple 智能，删除模型文件，释放 10+GB 磁盘空间",
+      "link": "https://www.appinn.com/removemacai/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-07 19:49",
+      "ts": 1791373758,
+      "summary": "macOS 27 有一定几率会自动下载 Apple 智能相关的大模型文件，无论 Apple 智能是否处于开启状态。有开发者专门为此发布了开源工具 RemoveMacAI，可以一键关闭 Apple 智能、删除已下载的模型文件，并阻止它们再次下载，部分设备可以释放超过 10GB 磁盘空间。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 167,
+      "relevance": 19
+    },
+    {
+      "title": "RXThinkCMF 敏捷开发框架 ThinkPhp6+AntdVue 版本 v2.7.0 发布",
+      "link": "https://www.oschina.net/news/502912",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-09 11:36",
+      "ts": 1791516966,
+      "summary": "v2.7.0 更新内容： 1、修复近用户反馈的问题；项目介绍 一款基于 ThinkPHP6、Vue3、TypeScript、AntDesign、Vite、VueRouter 等技术栈构建的前后端分离企业级数据中台解决方案。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 144.82,
+      "relevance": 13
+    },
+    {
+      "title": "拥有超丰富功能的开源截图软件，使用 Qt Widgets + Rust 实现，高性能+低内存+低功耗！",
+      "link": "https://www.v2ex.com/t/1247135#reply26",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-08 18:03",
+      "ts": 1791453812,
+      "summary": "各位佬好，分享一下自己做的开源截图软件 Snow Shot 之前花了一年做了第一版，这次又花了一年，把它从头重写了一遍 老版本基于 Tauri ，平时挂在后台就要占五六百 MB……确实有点夸张 所以这次重写，最先想解决的就是内存占用 先放一个新版的实测结果：初始状态下， 初始状态下，私有工作集内存约 9.7 MiB ，完整数据和测量条件放在下面 原来的界面风格保留了下来（从 Web 组件库一步一步迁到 Qt ，挺不容易的……），截图响应、选区动画和标注绘制都彻底重做了 这次…",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 135,
+      "relevance": 15
+    },
+    {
+      "title": "Axioms：非线性分数阶微分方程：理论与应用",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/2026109145628380156329.shtm?id=156329",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-09 22:56",
+      "ts": 1791557760,
+      "summary": "期刊名：Axioms 期刊主页：https://www.mdpi.com/journal/axioms 分数阶微积分是数学和应用数学的一个分支，由于其在建模、工程、数学生物学、金融建...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 132.6,
+      "relevance": 9
+    },
+    {
+      "title": "中兴小兴看看 SC50D 监控上架：集成双 500 万像素摄像头云台，309 元",
+      "link": "https://www.ithome.com/1/011/126.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "教程方法",
+      "published": "10-09 21:13",
+      "ts": 1791551600,
+      "summary": "IT之家 10 月 9 日消息，中兴现已在京东上架小兴看看 SC50D 监控摄像头，该产品集成双 500 万像素摄像头云台， 定价为 309 元 。京东 中兴小兴看看 SC50D 监控摄像头 309 元 直达链接 该机整体造型简洁，支持桌面摆放、壁挂和吊顶安装，整体由双 500 万像素摄像头云台构成，上摄和下摄分辨率均为 2960 x 1666，匹配 F/1.6 镜头，支持人物移动追踪、宠物出现、婴儿哭声、烟火检测、虚拟围栏等多种智能检测功能。",
+      "why": "可拆出一个界面、交互或游戏机制。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 129.03,
+      "relevance": 12
+    },
+    {
+      "title": "Qrypt：一个支持网盘加密的本地挂载软件",
+      "link": "https://www.v2ex.com/t/1247453#reply2",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "四川生活",
+      "lens": "工具发布",
+      "published": "10-09 21:16",
+      "ts": 1791551812,
+      "summary": "软件介绍 之前一直在用 alist 进行网盘的本地管理，尽管使用起来很方便但是在部分场景下还是不能满足需求比如在需要通过命令行操作网盘目录时，这时通常需要使用 rclone 配合 alist 的 webdav 协议进行网盘的本地挂载。但是一个需求需要两个软件配合实现对于一个程序员来说太不简洁了，干脆写个程序来实现这个把网盘挂载到本地文件夹的需求。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 127.05,
+      "relevance": 12
+    },
+    {
+      "title": "电子科技大学物理学院——基于MXene的太赫兹超材料生物传感器：从实验室模拟到临床应用 | MDPI Condensed Matter",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202693014959615156146.shtm?id=156146",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "09-30 22:10",
+      "ts": 1790777400,
+      "summary": "论文标题：MXene-Based Terahertz Metamaterial Biosensors: From Laboratory Simulation to Clinical Applicat...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "Google Photos 大量照片迁移到 NAS，有什么低成本的方案？",
+      "link": "https://www.v2ex.com/t/1247378#reply23",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "案例复盘",
+      "published": "10-09 15:53",
+      "ts": 1791532422,
+      "summary": "目前照片和视频都保存在 Google Photos ，最近准备迁移到家里的 NAS 。主要有几个诉求： 尽量不消耗机场流量：家里访问 Google 需要走代理，如果通过 Google Takeout 直接下载几百 GB 甚至上 TB 的数据，机场流量可能扛不住。",
+      "why": "保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 123.25,
+      "relevance": 12
+    },
+    {
+      "title": "这 39 款 Windows 软件，你用过多少？",
+      "link": "https://www.appinn.com/39-windows-software-you-have-used/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-07 16:48",
+      "ts": 1791362900,
+      "summary": "yingngao 同学在论坛里晒出了《Windows自用软件记录分享》，获得了第一条评论是来自 @kat 同学的：我觉得楼主挑软件的品味可以。随后 @Baiyssy 同学回复说：没品味的也不会一条条记下来。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 117,
+      "relevance": 9
+    }
+  ]
+}
