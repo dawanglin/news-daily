@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "generated_at": "2026-10-09 15:55:11 +0800",
+  "generated_at": "2026-10-09 16:03:55 +0800",
   "total": 26,
   "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
   "sources": {
@@ -41,7 +41,7 @@
     },
     "IT之家": {
       "status": "成功",
-      "count": 16,
+      "count": 15,
       "type": "专业来源"
     },
     "Solidot": {
@@ -72,36 +72,17 @@
     "V2EX·技术": {
       "status": "失败",
       "count": 0,
-      "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
+      "error": "<urlopen error timed out>",
       "type": "专业来源"
     },
     "V2EX·创造": {
       "status": "失败",
       "count": 0,
-      "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
+      "error": "<urlopen error timed out>",
       "type": "专业来源"
     }
   },
   "items": [
-    {
-      "title": "Counterpoint：无需担忧 HBM 内存需求放缓，更高堆叠仍是行业趋势",
-      "link": "https://www.ithome.com/1/010/920.htm",
-      "source": "IT之家",
-      "signals": [
-        "IT之家"
-      ],
-      "category": "今日信息流",
-      "topic": "空间数据库",
-      "lens": "科技资讯",
-      "published": "10-09 14:00",
-      "ts": 1791525622,
-      "summary": "IT之家 10 月 9 日消息，机构 Counterpoint Research 韩国当地时间昨日根据其内部审查结果表示，最近整个存储器行业对 HBM 需求放缓的担忧“基于错误信息”。机构宣称， 高堆叠 HBM 内存的普及趋势将持续下去 ，更多 NVIDIA（英伟达）Rubin GPU 转向 12Hi HBM4，而 ASIC 解决方案中也没有出现仅有 4 层堆叠的 HBM 内存。",
-      "why": "关注实体如何建立关系与去重：对齐规则、增量维护和规模下的性能，优先试能跑通的小数据。先弄清核心概念和适用边界，再找一个小例子验证。",
-      "confidence": "科技资讯来源",
-      "confidence_class": "professional",
-      "score": 114.36,
-      "relevance": 9
-    },
     {
       "title": "在生产环境中保护MCP：超越网关的纵深防御",
       "link": "https://www.infoq.cn/article/HZIW4QjEfV66I9CGr52R?utm_source=rss&utm_medium=article",
@@ -156,7 +137,7 @@
       "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
       "confidence": "开发专业来源",
       "confidence_class": "professional",
-      "score": 215.09,
+      "score": 215.05,
       "relevance": 27
     },
     {
@@ -175,7 +156,7 @@
       "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。保存失败条件和解决办法，遇到同类问题时可直接查。",
       "confidence": "科技社区来源",
       "confidence_class": "professional",
-      "score": 141.87,
+      "score": 141.83,
       "relevance": 15
     },
     {
@@ -232,7 +213,7 @@
       "why": "可练习把位置、数据和模糊关系连接起来。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
       "confidence": "科技资讯来源",
       "confidence_class": "professional",
-      "score": 113.73,
+      "score": 113.69,
       "relevance": 9
     },
     {
@@ -270,7 +251,7 @@
       "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
       "confidence": "科技资讯来源",
       "confidence_class": "professional",
-      "score": 209.52,
+      "score": 209.48,
       "relevance": 28
     },
     {
@@ -289,7 +270,7 @@
       "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
       "confidence": "开源社区来源",
       "confidence_class": "professional",
-      "score": 202.86,
+      "score": 202.81,
       "relevance": 24
     },
     {
@@ -308,7 +289,7 @@
       "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
       "confidence": "数字生活来源",
       "confidence_class": "professional",
-      "score": 195.65,
+      "score": 195.6,
       "relevance": 24
     },
     {
@@ -327,7 +308,7 @@
       "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
       "confidence": "科技资讯来源",
       "confidence_class": "professional",
-      "score": 189.02,
+      "score": 188.98,
       "relevance": 24
     },
     {
@@ -350,6 +331,25 @@
       "relevance": 21
     },
     {
+      "title": "Anthropic Claude 现已支持数据仪表板与解释性动画功能",
+      "link": "https://www.ithome.com/1/010/962.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "概念科普",
+      "published": "10-09 14:57",
+      "ts": 1791529053,
+      "summary": "IT之家 10 月 9 日消息，Anthropic 当地时间昨日宣布 Claude 人工智能现已支持 Dashboards 数据仪表板、Motion 解释性动画两项新的功能。Claude Dashboards ：连接至公司的数据平台后，用户仅需用自然语言提出问题，Claude 便会构建会自动更新的数据监控仪表板。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 179.64,
+      "relevance": 22
+    },
+    {
       "title": "Claude Haiku 5.5 来了：价格砍到四分之一，agent 能力从 0 跳到 39%",
       "link": "https://www.oschina.net/news/502894/anthropic-claude-haiku-5-5",
       "source": "开源中国",
@@ -365,7 +365,7 @@
       "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
       "confidence": "开源社区来源",
       "confidence_class": "professional",
-      "score": 176.33,
+      "score": 176.29,
       "relevance": 20
     },
     {
@@ -384,27 +384,8 @@
       "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
       "confidence": "AI 专业来源",
       "confidence_class": "professional",
-      "score": 174.24,
+      "score": 174.19,
       "relevance": 18
-    },
-    {
-      "title": "RemoveMacAI – 精简 macOS 27，关闭 Apple 智能，删除模型文件，释放 10+GB 磁盘空间",
-      "link": "https://www.appinn.com/removemacai/",
-      "source": "小众软件",
-      "signals": [
-        "小众软件"
-      ],
-      "category": "今日信息流",
-      "topic": "AI模型",
-      "lens": "工具发布",
-      "published": "10-07 19:49",
-      "ts": 1791373758,
-      "summary": "macOS 27 有一定几率会自动下载 Apple 智能相关的大模型文件，无论 Apple 智能是否处于开启状态。有开发者专门为此发布了开源工具 RemoveMacAI，可以一键关闭 Apple 智能、删除已下载的模型文件，并阻止它们再次下载，部分设备可以释放超过 10GB 磁盘空间。",
-      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
-      "confidence": "工具体验来源",
-      "confidence_class": "professional",
-      "score": 167,
-      "relevance": 19
     },
     {
       "title": "代码造世界，扩散绘现实：AgentGarten让智能体在实时试炼场中边玩边进化",
@@ -422,7 +403,7 @@
       "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
       "confidence": "AI 专业来源",
       "confidence_class": "professional",
-      "score": 159.05,
+      "score": 159.01,
       "relevance": 15
     },
     {
@@ -460,7 +441,7 @@
       "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
       "confidence": "开源社区来源",
       "confidence_class": "professional",
-      "score": 147.56,
+      "score": 147.52,
       "relevance": 13
     },
     {
@@ -498,7 +479,7 @@
       "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
       "confidence": "科学科普来源",
       "confidence_class": "verified",
-      "score": 133.63,
+      "score": 133.59,
       "relevance": 12
     },
     {
@@ -555,7 +536,7 @@
       "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
       "confidence": "数字生活来源",
       "confidence_class": "professional",
-      "score": 105.09,
+      "score": 105.05,
       "relevance": 7
     },
     {
@@ -575,6 +556,25 @@
       "confidence": "前端专业精选",
       "confidence_class": "professional",
       "score": 105,
+      "relevance": 6
+    },
+    {
+      "title": "概率论的统一框架：从 Leinster 到鲁学星",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1555522",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-07 19:26",
+      "ts": 1791372373,
+      "summary": "概率论的统一框架：从 Leinster 到鲁学星",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 103,
       "relevance": 6
     }
   ]
