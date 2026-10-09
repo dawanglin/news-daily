@@ -1,27 +1,27 @@
 {
   "date": "2026-10-09",
-  "generated_at": "2026-10-09 00:25:57 +0800",
+  "generated_at": "2026-10-09 15:55:11 +0800",
   "total": 26,
   "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
   "sources": {
     "个人兴趣热榜筛选": {
       "status": "成功",
-      "count": 3,
+      "count": 5,
       "type": "兴趣线索"
     },
     "量子位": {
       "status": "成功",
-      "count": 5,
+      "count": 7,
       "type": "专业来源"
     },
     "机器之心": {
       "status": "成功",
-      "count": 4,
+      "count": 2,
       "type": "专业来源"
     },
     "InfoQ 中文": {
       "status": "成功",
-      "count": 14,
+      "count": 17,
       "type": "专业来源"
     },
     "开源中国": {
@@ -31,37 +31,37 @@
     },
     "少数派": {
       "status": "成功",
-      "count": 4,
+      "count": 5,
       "type": "专业来源"
     },
     "小众软件": {
       "status": "成功",
-      "count": 7,
+      "count": 6,
       "type": "专业来源"
     },
     "IT之家": {
       "status": "成功",
-      "count": 12,
+      "count": 16,
       "type": "专业来源"
     },
     "Solidot": {
       "status": "成功",
-      "count": 8,
+      "count": 10,
       "type": "专业来源"
     },
     "科学网·数理科学": {
       "status": "成功",
-      "count": 6,
+      "count": 4,
       "type": "专业来源"
     },
     "科学网·科普": {
       "status": "成功",
-      "count": 8,
+      "count": 7,
       "type": "专业来源"
     },
     "前端技术精选": {
       "status": "成功",
-      "count": 0,
+      "count": 1,
       "type": "专业来源"
     },
     "阮一峰的网络日志": {
@@ -70,17 +70,57 @@
       "type": "专业来源"
     },
     "V2EX·技术": {
-      "status": "成功",
-      "count": 18,
+      "status": "失败",
+      "count": 0,
+      "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
       "type": "专业来源"
     },
     "V2EX·创造": {
-      "status": "成功",
-      "count": 18,
+      "status": "失败",
+      "count": 0,
+      "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
       "type": "专业来源"
     }
   },
   "items": [
+    {
+      "title": "Counterpoint：无需担忧 HBM 内存需求放缓，更高堆叠仍是行业趋势",
+      "link": "https://www.ithome.com/1/010/920.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "空间数据库",
+      "lens": "科技资讯",
+      "published": "10-09 14:00",
+      "ts": 1791525622,
+      "summary": "IT之家 10 月 9 日消息，机构 Counterpoint Research 韩国当地时间昨日根据其内部审查结果表示，最近整个存储器行业对 HBM 需求放缓的担忧“基于错误信息”。机构宣称， 高堆叠 HBM 内存的普及趋势将持续下去 ，更多 NVIDIA（英伟达）Rubin GPU 转向 12Hi HBM4，而 ASIC 解决方案中也没有出现仅有 4 层堆叠的 HBM 内存。",
+      "why": "关注实体如何建立关系与去重：对齐规则、增量维护和规模下的性能，优先试能跑通的小数据。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 114.36,
+      "relevance": 9
+    },
+    {
+      "title": "在生产环境中保护MCP：超越网关的纵深防御",
+      "link": "https://www.infoq.cn/article/HZIW4QjEfV66I9CGr52R?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "技术实践",
+      "published": "10-09 17:05",
+      "ts": 1791536700,
+      "summary": "在生产环境中保护MCP：超越网关的纵深防御",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 191.0,
+      "relevance": 21
+    },
     {
       "title": "OpenAI 针对欧洲用户在 ChatGPT 和 Codex 嵌入水印",
       "link": "https://www.solidot.org/story?sid=85544",
@@ -97,7 +137,7 @@
       "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
       "confidence": "科技社区来源",
       "confidence_class": "professional",
-      "score": 270.83,
+      "score": 266,
       "relevance": 40
     },
     {
@@ -116,27 +156,8 @@
       "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
       "confidence": "开发专业来源",
       "confidence_class": "professional",
-      "score": 220.25,
+      "score": 215.09,
       "relevance": 27
-    },
-    {
-      "title": "做了个 Chrome 插件 FrameScraper，支持 iframe、分页和部分 Canvas 表格的数据提取",
-      "link": "https://www.v2ex.com/t/1247111#reply0",
-      "source": "V2EX·创造",
-      "signals": [
-        "V2EX·创造"
-      ],
-      "category": "今日信息流",
-      "topic": "Skill与插件",
-      "lens": "工具发布",
-      "published": "10-08 17:07",
-      "ts": 1791450443,
-      "summary": "最近把自己做的 Chrome 插件 FrameScraper 上架了，来分享一下 为什么做这个？之前用过一些插件，发现有些获取不到，或者是用起来很繁琐。",
-      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
-      "confidence": "用户作品线索",
-      "confidence_class": "signal",
-      "score": 160.57,
-      "relevance": 19
     },
     {
       "title": "Google 多个国家顶级域名被劫持",
@@ -154,27 +175,27 @@
       "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。保存失败条件和解决办法，遇到同类问题时可直接查。",
       "confidence": "科技社区来源",
       "confidence_class": "professional",
-      "score": 147.03,
+      "score": 141.87,
       "relevance": 15
     },
     {
-      "title": "一边是 WebGPU 视觉革命，一边是浏览器垄断争议：Canvas UI 发布 35 个组件",
-      "link": "https://www.infoq.cn/article/6jvNkzZCm5mjr22zr04D?utm_source=rss&utm_medium=article",
+      "title": "乱序 HTML 流技术从 JavaScript 框架转移到浏览器中",
+      "link": "https://www.infoq.cn/article/BEgaPOXCCtDaPGJiCtSi?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "signals": [
         "InfoQ 中文"
       ],
       "category": "今日信息流",
       "topic": "网页小游戏",
-      "lens": "案例复盘",
-      "published": "10-06 18:00",
-      "ts": 1791280800,
-      "summary": "一边是 WebGPU 视觉革命，一边是浏览器垄断争议：Canvas UI 发布 35 个组件",
-      "why": "可拆出一个界面、交互或游戏机制。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "lens": "工具发布",
+      "published": "10-09 23:30",
+      "ts": 1791559800,
+      "summary": "乱序 HTML 流技术从 JavaScript 框架转移到浏览器中",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
       "confidence": "开发专业来源",
       "confidence_class": "professional",
-      "score": 153,
-      "relevance": 15
+      "score": 191.0,
+      "relevance": 21
     },
     {
       "title": "陶哲轩认为数学 2.0 时代应降低解决难题的核心地位",
@@ -192,27 +213,27 @@
       "why": "分开看结论、证据和预测，再和自己的实际使用对照。",
       "confidence": "科技社区来源",
       "confidence_class": "professional",
-      "score": 151.05,
+      "score": 146,
       "relevance": 16
     },
     {
-      "title": "立案调查 1.4 万件，市场监管总局持续开展网络食品销售虚假宣传整治",
-      "link": "https://www.ithome.com/1/010/680.htm",
+      "title": "Counterpoint 预测：笔电 OLED 面板出货近两年将分别增长 50% 和 24%",
+      "link": "https://www.ithome.com/1/010/868.htm",
       "source": "IT之家",
       "signals": [
         "IT之家"
       ],
       "category": "今日信息流",
       "topic": "数据空间",
-      "lens": "概念科普",
-      "published": "10-08 19:50",
-      "ts": 1791460231,
-      "summary": "IT之家 10 月 8 日消息，据央视新闻报道，记者今天了解到，国庆节期间，市场监管总局指导各地市场监管部门深入推进网络食品销售虚假宣传专项整治行动， 紧盯节令食品、网红食品、保健食品等网络销售重点 ，对虚假宣传、误导消费等问题“零容忍”，严厉打击违法违规行为。IT之家注意到，今年以来，全国累计检查食品经营主体 82.1 万家次，发现问题 7.2 万个， 立案调查 1.4 万件 ，罚款 6130.4 万元，移送公安机关 289 件。",
-      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "lens": "教程方法",
+      "published": "10-09 12:06",
+      "ts": 1791518792,
+      "summary": "IT之家 10 月 9 日消息，Counterpoint Research 昨日发布最新预测： 笔记本电脑 OLED 显示面板出货将在 2026 和 2027 年分别实现 50% 和 24% 增长 ，主导高端笔记本电脑显示屏市场。与此同时，Mini LED 的笔电面板出货将在今年下滑 38% 并在 2027 年进一步大幅萎缩 60%。",
+      "why": "可练习把位置、数据和模糊关系连接起来。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
       "confidence": "科技资讯来源",
       "confidence_class": "professional",
-      "score": 128.47,
-      "relevance": 12
+      "score": 113.73,
+      "relevance": 9
     },
     {
       "title": "Docker 推出官方 Agent 工具：YAML 定义、任意 MCP、OCI 镜像分发",
@@ -230,80 +251,99 @@
       "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
       "confidence": "开源社区来源",
       "confidence_class": "professional",
-      "score": 215.88,
+      "score": 211,
       "relevance": 27
     },
     {
-      "title": "谷歌云发布 Gemini Agent，定位“通用工作智能体”",
-      "link": "https://www.ithome.com/1/010/706.htm",
+      "title": "Liquid AI 开源 d1 系列决策模型：单次判断仅 8 毫秒，支持图像输入",
+      "link": "https://www.ithome.com/1/010/946.htm",
       "source": "IT之家",
       "signals": [
         "IT之家"
       ],
       "category": "今日信息流",
-      "topic": "Agent",
+      "topic": "AI模型",
       "lens": "工具发布",
-      "published": "10-08 21:21",
-      "ts": 1791465660,
-      "summary": "IT之家 10 月 8 日消息，谷歌云今天在 Gemini at Work 2026 发布会上宣布，面向企业客户推出 Gemini 智能体（Gemini Agent）。这款产品定位“通用工作智能体”， 支持 Gemini Enterprise 、Workspace 以及第三方服务 。",
-      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "published": "10-09 14:29",
+      "ts": 1791527347,
+      "summary": "IT之家 10 月 9 日消息，Liquid AI 于 10 月 7 日发布博文，宣布推出 d1 系列两款开放权重决策模型：d1-3B 支持 31.2 亿参数的文本与图像判断， d1-omni-600M 以 5.87 亿参数支持文本、图像及语音输入。IT之家援引博文介绍， 在 Jev 模型 9 月推出爆火后 ， OpenAI 等公司也相继推出类似的决策模型 ，而 Liquid AI 是加入该战局的新成员，本次推出的 d1-3B 与 d1-omni-600M 已在 Huggi…",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
       "confidence": "科技资讯来源",
       "confidence_class": "professional",
-      "score": 188.97,
+      "score": 209.52,
+      "relevance": 28
+    },
+    {
+      "title": "不写一行 Python，不引一行 C：纯 Uya 从零实现的 CLI 编程 Agent 开源了",
+      "link": "https://www.oschina.net/news/502916",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-09 12:29",
+      "ts": 1791520144,
+      "summary": "一个 Agent 项目，不依赖 Python，不引入一行 C 代码——纯 Uya 写的 CLI 编程 Agent 如果你在 2026 年还在用 Python 写 Agent，大概率已经习惯了这些“标配”：装 LangChain、配依赖、调 API、处理 token 溢出、管理会话状态……这些东西确实让 Agent 开发变得容易了，但也带来了一个新的问题——框架本身，正在变成最复...",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 202.86,
       "relevance": 24
     },
     {
-      "title": "Claude新模型发布！跑分暴击GPT-6 Luna，价格比梁文谷还便宜，OpenAI只能送重置卡挽尊",
-      "link": "https://www.qbitai.com/2026/10/501832.html",
-      "source": "量子位",
+      "title": "派早报：英伟达 RTX Spark 新品一览、Anthropic 发布 Claude Haiku 5.5 模型等",
+      "link": "https://sspai.com/post/115532",
+      "source": "少数派",
       "signals": [
-        "量子位"
+        "少数派"
       ],
       "category": "今日信息流",
       "topic": "AI模型",
-      "lens": "实测评价",
-      "published": "10-08 09:04",
-      "ts": 1791421440,
-      "summary": "小模型新守门员",
-      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
-      "confidence": "AI 专业来源",
+      "lens": "工具发布",
+      "published": "10-09 08:51",
+      "ts": 1791507070,
+      "summary": "XMG 发布 PRO 18 系列笔记本、OpenAI 宣布在 ChatGPT 上线 GPT-6 模型 查看全文",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "数字生活来源",
       "confidence_class": "professional",
-      "score": 185.88,
-      "relevance": 21
-    },
-    {
-      "title": "为什么 google 在 AI 编程模型方面落后了呢？ 印象中， google 无所不能，集中了全球顶尖的人才，也不缺钱，怎么在 AI 编程方面老是处于追赶的地位呢？",
-      "link": "https://www.v2ex.com/t/1247146#reply10",
-      "source": "V2EX·技术",
-      "signals": [
-        "V2EX·技术"
-      ],
-      "category": "今日信息流",
-      "topic": "编程工具",
-      "lens": "概念科普",
-      "published": "10-08 18:49",
-      "ts": 1791456565,
-      "summary": "为什么 google 在 AI 编程模型方面落后了呢？印象中， google 无所不能，集中了全球顶尖的人才，也不缺钱，怎么在 AI 编程方面老是处于追赶的地位呢？",
-      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
-      "confidence": "用户讨论线索",
-      "confidence_class": "signal",
-      "score": 184.13,
+      "score": 195.65,
       "relevance": 24
     },
     {
-      "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
-      "link": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article",
+      "title": "JetBrains 编程 AI 模型 Mellum2.1 发布：高负载推理吞吐量近 Qwen3.5-9B 两倍",
+      "link": "https://www.ithome.com/1/010/905.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-09 12:59",
+      "ts": 1791521948,
+      "summary": "IT之家 10 月 9 日消息，JetBrains 昨日（10 月 8 日）发布博文，宣布上线 Mellum2.1 模型，重点增强智能体编程能力。该模型延续 Mellum2 的 12B 混合专家架构，拥有 2.5B 活跃参数，并继续采用 Apache 2.0 许可证发布。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 189.02,
+      "relevance": 24
+    },
+    {
+      "title": "MCP 终于无状态了，但状态并没有消失，只是被“甩”给了应用",
+      "link": "https://www.infoq.cn/article/MwQyLYzgSiD16x36k9Ef?utm_source=rss&utm_medium=article",
       "source": "InfoQ 中文",
       "signals": [
         "InfoQ 中文"
       ],
       "category": "今日信息流",
-      "topic": "AI模型",
-      "lens": "教程方法",
-      "published": "10-06 18:00",
-      "ts": 1791280800,
-      "summary": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
-      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "topic": "MCP与地图接口",
+      "lens": "技术实践",
+      "published": "10-07 18:00",
+      "ts": 1791367200,
+      "summary": "MCP 终于无状态了，但状态并没有消失，只是被“甩”给了应用",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先弄清核心概念和适用边界，再找一个小例子验证。",
       "confidence": "开发专业来源",
       "confidence_class": "professional",
       "score": 183,
@@ -325,8 +365,27 @@
       "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
       "confidence": "开源社区来源",
       "confidence_class": "professional",
-      "score": 181.5,
+      "score": 176.33,
       "relevance": 20
+    },
+    {
+      "title": "openJiuwen发布并开源企业级AgentOS，加速智能体规模落地企业",
+      "link": "https://www.qbitai.com/2026/10/502106.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-09 10:37",
+      "ts": 1791513442,
+      "summary": "多Agent协同还能自我进化",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 174.24,
+      "relevance": 18
     },
     {
       "title": "RemoveMacAI – 精简 macOS 27，关闭 Apple 智能，删除模型文件，释放 10+GB 磁盘空间",
@@ -348,99 +407,23 @@
       "relevance": 19
     },
     {
-      "title": "Termexo v0.10.11 发布：通过 MCP 操控五种编程 Agent，完善连接引导与状态回传",
-      "link": "https://www.oschina.net/news/502851",
-      "source": "开源中国",
+      "title": "代码造世界，扩散绘现实：AgentGarten让智能体在实时试炼场中边玩边进化",
+      "link": "https://www.qbitai.com/2026/10/502096.html",
+      "source": "量子位",
       "signals": [
-        "开源中国"
+        "量子位"
       ],
       "category": "今日信息流",
       "topic": "Agent",
-      "lens": "工具发布",
-      "published": "10-07 19:26",
-      "ts": 1791372407,
-      "summary": "Termexo v0.10.11 已发布。Termexo 是面向 Windows x64 的 MIT 开源工作台，支持通过本地 MCP 操作 Claude Code、Codex、OpenCode、Grok Build 和 Antigravity CLI 的终端。",
-      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
-      "confidence": "开源社区来源",
+      "lens": "专业报道",
+      "published": "10-09 10:03",
+      "ts": 1791511428,
+      "summary": "让AI反复试错的“练兵场”来了",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
       "confidence_class": "professional",
-      "score": 166,
-      "relevance": 18
-    },
-    {
-      "title": "2万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美 AI 竞赛不会单边暂停",
-      "link": "https://www.infoq.cn/article/dS754RhjExrwFP6tWD9d?utm_source=rss&utm_medium=article",
-      "source": "InfoQ 中文",
-      "signals": [
-        "InfoQ 中文"
-      ],
-      "category": "今日信息流",
-      "topic": "AI模型",
-      "lens": "专家观点",
-      "published": "10-08 22:10",
-      "ts": 1791468629,
-      "summary": "2万亿美元估值靠什么撑？Anthropic 核心技术负责人：蒸馏会毁掉前沿研发，中美 AI 竞赛不会单边暂停",
-      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
-      "confidence": "开发专业来源",
-      "confidence_class": "professional",
-      "score": 160.25,
+      "score": 159.05,
       "relevance": 15
-    },
-    {
-      "title": "超 10 万亿元，1—8 月我国软件业务收入同比增长 8.8%",
-      "link": "https://www.ithome.com/1/010/689.htm",
-      "source": "IT之家",
-      "signals": [
-        "IT之家"
-      ],
-      "category": "今日信息流",
-      "topic": "编程工具",
-      "lens": "工具发布",
-      "published": "10-08 20:11",
-      "ts": 1791461505,
-      "summary": "IT之家 10 月 8 日消息，工信部今日公布 2026 年 1—8 月份软件业运行情况。2026 年前 8 个月，我国软件和信息技术服务业（以下简称“软件业”）运行态势良好，软件业务收入稳健增长，利润总额增势平稳，软件业务出口保持较快增长。",
-      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
-      "confidence": "科技资讯来源",
-      "confidence_class": "professional",
-      "score": 158.59,
-      "relevance": 18
-    },
-    {
-      "title": "Personal Agent 的终点不该是一个更聪明的命令行",
-      "link": "https://my.oschina.net/u/9765709/blog/19774529",
-      "source": "开源中国",
-      "signals": [
-        "开源中国"
-      ],
-      "category": "今日信息流",
-      "topic": "Agent",
-      "lens": "专家观点",
-      "published": "10-08 19:39",
-      "ts": 1791459576,
-      "summary": "Qoni 是 Cognitive（认知）的延伸，是一个 Personal Agent 的托管基础设施，让企业开发者都能开发属于自己的 Muse。",
-      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。分开看结论、证据和预测，再和自己的实际使用对照。",
-      "confidence": "开源社区来源",
-      "confidence_class": "professional",
-      "score": 157.41,
-      "relevance": 15
-    },
-    {
-      "title": "华为鸿蒙 HarmonyOS API 设备量占比数据更新：7.0.0 逼近 19%、5.0.0 彻底归零",
-      "link": "https://www.ithome.com/1/010/727.htm",
-      "source": "IT之家",
-      "signals": [
-        "IT之家"
-      ],
-      "category": "今日信息流",
-      "topic": "编程工具",
-      "lens": "工具发布",
-      "published": "10-08 22:50",
-      "ts": 1791471011,
-      "summary": "IT之家 10 月 8 日消息，华为开发者官网今日更新了存量设备 API 版本使用数量参考。截至 2026 年 10 月 7 日，HarmonyOS 设备各 API 版本使用量占比如下（数据约 15 天进行一次更新，开发者可根据占比来为应用合理定义需要兼容的 API 版本）： HarmonyOS 版本 API 版本 设备量占比 7.0.0 26.0.0 18.98% 6.1.0 6.1.1(24) 75.02% 6.1.0 6.1.0(23) 4.11% 6.0.0 6.0…",
-      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
-      "confidence": "科技资讯来源",
-      "confidence_class": "professional",
-      "score": 154.47,
-      "relevance": 17
     },
     {
       "title": "简单优雅的开源截图软件 Snow Shot（社区驱动）",
@@ -462,23 +445,23 @@
       "relevance": 16
     },
     {
-      "title": "新统计框架，精准识别高维动态数据多重结构断点",
-      "link": "http://paper.sciencenet.cn/htmlpaper/2026/9/202692974127538156039.shtm?id=156039",
-      "source": "科学网·数理科学",
+      "title": "RXThinkCMF 敏捷开发框架 ThinkPhp6+AntdVue 版本 v2.7.0 发布",
+      "link": "https://www.oschina.net/news/502912",
+      "source": "开源中国",
       "signals": [
-        "科学网·数理科学"
+        "开源中国"
       ],
       "category": "今日信息流",
-      "topic": "数学物理",
+      "topic": "网页小游戏",
       "lens": "工具发布",
-      "published": "09-29 15:41",
-      "ts": 1790667660,
-      "summary": "近日，西安电子科技大学数学与统计学院概率统计系副教授段江涛联合美国哥伦比亚大学、香港城市大学，在《美国统计协会期刊》上在线发表。随着数字化和智能化深入发展，经济金融等...",
-      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
-      "confidence": "学术专业来源",
+      "published": "10-09 11:36",
+      "ts": 1791516966,
+      "summary": "v2.7.0 更新内容： 1、修复近用户反馈的问题；项目介绍 一款基于 ThinkPHP6、Vue3、TypeScript、AntDesign、Vite、VueRouter 等技术栈构建的前后端分离企业级数据中台解决方案。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
       "confidence_class": "professional",
-      "score": 150,
-      "relevance": 14
+      "score": 147.56,
+      "relevance": 13
     },
     {
       "title": "2026 年诺贝尔物理奖授予了冰立方中微子天文台提出者 Francis Halzen",
@@ -500,25 +483,6 @@
       "relevance": 16
     },
     {
-      "title": "拥有超丰富功能的开源截图软件，使用 Qt Widgets + Rust 实现，高性能+低内存+低功耗！",
-      "link": "https://www.v2ex.com/t/1247135#reply8",
-      "source": "V2EX·技术",
-      "signals": [
-        "V2EX·技术"
-      ],
-      "category": "今日信息流",
-      "topic": "编程工具",
-      "lens": "工具发布",
-      "published": "10-08 18:03",
-      "ts": 1791453812,
-      "summary": "各位佬好，分享一下自己做的开源截图软件 Snow Shot 之前花了一年做了第一版，这次又花了一年，把它从头重写了一遍 老版本基于 Tauri ，平时挂在后台就要占五六百 MB……确实有点夸张 所以这次重写，最先想解决的就是内存占用 先放一个新版的实测结果：初始状态下， 初始状态下，私有工作集内存约 9.7 MiB ，完整数据和测量条件放在下面 原来的界面风格保留了下来（从 Web 组件库一步一步迁到 Qt ，挺不容易的……），截图响应、选区动画和标注绘制都彻底重做了 这次…",
-      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
-      "confidence": "用户讨论线索",
-      "confidence_class": "signal",
-      "score": 138.88,
-      "relevance": 15
-    },
-    {
       "title": "拆·压·拼：从概率拆解定理到 DisCo 代数的第一性原理",
       "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1555584",
       "source": "科学网·科普",
@@ -534,46 +498,84 @@
       "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
       "confidence": "科学科普来源",
       "confidence_class": "verified",
-      "score": 138.79,
+      "score": 133.63,
       "relevance": 12
     },
     {
-      "title": "我的 AI 开发规范 skill",
-      "link": "https://www.v2ex.com/t/1247120#reply1",
-      "source": "V2EX·创造",
+      "title": "Axioms：非线性分数阶微分方程：理论与应用",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/2026109145628380156329.shtm?id=156329",
+      "source": "科学网·数理科学",
       "signals": [
-        "V2EX·创造"
+        "科学网·数理科学"
       ],
       "category": "今日信息流",
-      "topic": "Skill与插件",
-      "lens": "用户作品",
-      "published": "10-08 17:29",
-      "ts": 1791451766,
-      "summary": "这是我之前想测试下 Gemini 3.8 的开发效果，根据自己的需求做的，所以这个并不适合所有人。https://github.com/wujiit/fullstack-craft-perfection Gemini 3.8 基于这个规范的测试项目： 二手回收系统（适合手机数码、汽车、贵金属、废品等回收） 用了不到 5 天时间开发的。",
-      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先弄清核心概念和适用边界，再找一个小例子验证。",
-      "confidence": "用户作品线索",
-      "confidence_class": "signal",
-      "score": 130.69,
-      "relevance": 13
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-09 22:56",
+      "ts": 1791557760,
+      "summary": "期刊名：Axioms 期刊主页：https://www.mdpi.com/journal/axioms 分数阶微积分是数学和应用数学的一个分支，由于其在建模、工程、数学生物学、金融建...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 133.0,
+      "relevance": 9
     },
     {
-      "title": "用 TypeScript 从零重写了《仙剑奇侠传》，浏览器里能通关，还做了个可视化编辑器",
-      "link": "https://www.v2ex.com/t/1247071#reply22",
-      "source": "V2EX·技术",
+      "title": "这 39 款 Windows 软件，你用过多少？",
+      "link": "https://www.appinn.com/39-windows-software-you-have-used/",
+      "source": "小众软件",
       "signals": [
-        "V2EX·技术"
+        "小众软件"
       ],
       "category": "今日信息流",
-      "topic": "网页小游戏",
-      "lens": "实测评价",
-      "published": "10-08 15:42",
-      "ts": 1791445337,
-      "summary": "做了 4 个多月的个人项目 type-pal ，发上来请大家看看。试玩： https://pal.illegalscreed.cn/ （推荐电脑浏览器） 源码： https://github.com/IllegalCreed/type-pal 之前站里有朋友发过 sdlpal 编译成 WASM 的网页版。",
-      "why": "可拆出一个界面、交互或游戏机制。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
-      "confidence": "用户讨论线索",
-      "confidence_class": "signal",
-      "score": 128.09,
-      "relevance": 13
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-07 16:48",
+      "ts": 1791362900,
+      "summary": "yingngao 同学在论坛里晒出了《Windows自用软件记录分享》，获得了第一条评论是来自 @kat 同学的：我觉得楼主挑软件的品味可以。随后 @Baiyssy 同学回复说：没品味的也不会一条条记下来。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 117,
+      "relevance": 9
+    },
+    {
+      "title": "从开源清理工具到付费 Mac 应用，用户教会了我如何做产品：Mole",
+      "link": "https://sspai.com/post/113843",
+      "source": "少数派",
+      "signals": [
+        "少数派"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-08 16:10",
+      "ts": 1791447051,
+      "summary": "最近我写了不少关于独立开发的思考，想着要汇总一下，就把Mole从开源CLI做到Mac付费软件这一路聊一聊：我当时是怎么想的，哪些事情做下来真的有用，也许能给正在做自己作品的朋友一些输入。去年国庆我在三 ... 查看全文",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "数字生活来源",
+      "confidence_class": "professional",
+      "score": 105.09,
+      "relevance": 7
+    },
+    {
+      "title": "Document Picture-in-Picture API与任意元素画中画实现",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/10/document-picture-in-picture-api/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "教程方法",
+      "published": "10-08 08:00",
+      "ts": 1791417600,
+      "summary": "Document Picture-in-Picture API与任意元素画中画实现",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 105,
+      "relevance": 6
     }
   ]
 }

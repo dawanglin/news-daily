@@ -50,6 +50,12 @@ TOPIC_KEYWORDS = {
     "编程工具": "编程 代码 开源 GitHub 软件 开发者 API SDK IDE 数据库 Python Rust Go Java Docker Linux 自动化 插件 框架".split(),
     "数学物理": "数学 物理 定理 猜想 几何 概率 统计 算法 量子 粒子 材料 天文 宇宙 科学家 证明 方程 理论 实验 分子 原子 晶体 导电 磁场 光学 声学 能量 同素异形体 神经系统".split(),
     "数据空间": "数据科学 可视化 地图 地理 空间 GIS 遥感 坐标 图谱 网络 关系 因果 预测 不确定性 模糊 聚类 时序 拓扑 数字孪生 知识图谱".split(),
+    # 四大技术情报专题：线下数字化与空间感知、空间数据库与实体关系、MCP 与地理空间工具接口、Agent 编排与自主工程。
+    # 对应同一条技术链的四个环节，作为长期情报采集的主线方向。
+    "线下数字化": "OCR 光学字符识别 视觉语言模型 视觉模型 VLM 图像识别 图像实体 实体识别 视频抽帧 抽帧 街景 空间定位 三维重建 3D重建 变化检测 图像匹配 点云 高斯泼溅 3D Gaussian Splatting 空间智能 空间感知 多模态识别".split(),
+    "空间数据库": "GIS PostGIS 空间索引 空间数据库 空间数据 POI 兴趣点 地理编码 实体对齐 实体消歧 记录链接 知识图谱 地址标准化 地址匹配 主数据 增量更新 时空数据库 地理信息 空间图谱 空间知识图谱".split(),
+    "MCP与地图接口": "MCP 模型上下文协议 Model Context Protocol 地图API 地图接口 空间查询 工具封装 工具调用 工具协议 Agent Skills 连接器 接口兼容 跨模型 Geospatial MCP Maps MCP".split(),
+    "Agent编排": "多智能体 多Agent Agent编排 编排 任务调度 外部记忆 Agent记忆 文件变化 自动测试 执行沙箱 沙箱 工作流恢复 工作流自动化 工具调用可靠性 自主执行 自主验收 LangGraph 人工介入".split(),
     "四川生活": "四川 成都 重庆 西南 本地 天气 地震 交通 地铁 高铁 政务 医保 教育 住房 数字生活".split(),
 }
 
@@ -176,7 +182,8 @@ def classify(title, summary, default_lens):
     if lens_scores[lens] == 0:
         lens = default_lens
     relevance -= sum(2 for word in LOW_VALUE if word in text)
-    if topic in {"AI模型", "提示词", "Agent", "Skill与插件", "云服务器", "网页小游戏", "数据空间"}:
+    if topic in {"AI模型", "提示词", "Agent", "Skill与插件", "云服务器", "网页小游戏", "数据空间",
+                 "线下数字化", "空间数据库", "MCP与地图接口", "Agent编排"}:
         relevance += 3
     if relevance < 3:
         return None
@@ -211,6 +218,14 @@ def make_why(lens, topic, title, summary):
         return "可拆出一个界面、交互或游戏机制。" + action
     if topic == "数据空间":
         return "可练习把位置、数据和模糊关系连接起来。" + action
+    if topic == "线下数字化":
+        return "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。" + action
+    if topic == "空间数据库":
+        return "关注实体如何建立关系与去重：对齐规则、增量维护和规模下的性能，优先试能跑通的小数据。" + action
+    if topic == "MCP与地图接口":
+        return "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。" + action
+    if topic == "Agent编排":
+        return "关注编排的可靠性与可恢复性：任务如何调度、失败如何回滚、结果如何验证，复现一条执行链。" + action
     if any(word in text for word in ("破解", "安全", "漏洞", "隐私")):
         return "它触及你正在使用的软件和代码边界。" + action
     return action
@@ -302,7 +317,8 @@ def hot_candidates():
 
 def select_balanced(items):
     topic_caps = {"AI模型": 6, "Agent": 5, "Skill与插件": 5, "提示词": 3, "云服务器": 4,
-                  "网页小游戏": 4, "编程工具": 5, "数学物理": 4, "数据空间": 3, "四川生活": 2}
+                  "网页小游戏": 4, "编程工具": 5, "数学物理": 4, "数据空间": 3, "四川生活": 2,
+                  "线下数字化": 3, "空间数据库": 3, "MCP与地图接口": 3, "Agent编排": 3}
     source_counts, topic_counts = {}, {}
     selected = []
     ordered = sorted(items, key=lambda value: (value["score"], value["ts"]), reverse=True)
@@ -319,7 +335,8 @@ def select_balanced(items):
         source_counts[source] = source_counts.get(source, 0) + 1
         topic_counts[topic] = topic_counts.get(topic, 0) + 1
     # 先保留用户最关心方向中的高分内容，再按相关度补足。
-    priority_topics = ["AI模型", "Agent", "Skill与插件", "云服务器", "提示词", "网页小游戏", "数学物理", "数据空间"]
+    priority_topics = ["线下数字化", "空间数据库", "MCP与地图接口", "Agent编排",
+                       "AI模型", "Agent", "Skill与插件", "云服务器", "提示词", "网页小游戏", "数学物理", "数据空间"]
     for topic in priority_topics:
         candidate = next((item for item in ordered if item["topic"] == topic and can_add(item)), None)
         if candidate:
