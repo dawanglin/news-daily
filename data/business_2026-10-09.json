@@ -6,10 +6,7 @@
       "source_name": "高德开放平台 · MCP Server 概述",
       "source_url": "https://developer.amap.com/api/mcp-server/summary",
       "published_at": "文档更新于 2026-03-17",
-      "scenario": "让 Agent/大模型直接查询位置、POI、路径与天气；可用于本地生活问答、门店检索、选址辅助和导航类助手。",
-      "try_action": "在高德开放平台申请 Web 服务 key，在 Cursor/Claude/Cline 按 Streamable HTTP 配置 https://mcp.amap.com/mcp?key=你的key，让 Agent 做一次“周边美食搜索”和“地址转经纬度”，核对返回字段。",
-      "requirements": "注册高德开放平台开发者并申请 key；基础 LBS（地理编码、路径规划等）个人认证约 15 万次/月免费、企业认证翻 20 倍；搜索服务约 5000 次/月免费，超出约 30 元/万次。",
-      "caveats": "2026-03-17 已下线通用级 SSE，接入方式以当前官方文档为准；搜索单次最多返回 200 条，不支持全量导出；不同接口的新版 key 调用参数要求以官方文档为准。",
+      "scenario": "高德 MCP Server 把地理编码、天气查询、路径规划等 12 项核心 LBS 能力封装成 MCP 工具，Cursor/Claude/Cline 等客户端可配置调用，让 Agent 直接查位置、POI、路径。",
       "verify_status": "已查证"
     },
     {
@@ -17,10 +14,7 @@
       "source_name": "高德开放平台 · Web 服务 API 文档",
       "source_url": "https://lbs.amap.com/api/webservice/guide/api-advanced/newpoisearch",
       "published_at": "文档更新于 2026-07-15",
-      "scenario": "批量获取某区域内的店铺/设施 POI（含类型、坐标、地址、商圈），可用于商圈结构分析、街道商铺清单构建和本地商业数字化。",
-      "try_action": "申请 Web 服务 key，用周边搜索接口查一个商圈半径内的餐饮/零售 POI（radius+types），核对返回的 type、location、business_area 字段能否支撑你的数据表结构。",
-      "requirements": "Web 服务 API key；搜索免费额度约 5000 次/月，企业认证后提高，超出约 30 元/万次；个人/企业认证决定配额等级。",
-      "caveats": "翻页最多取 200 条，不支持返回全量数据；POI 分类编码会不定期更新，官方建议通过线上接口实时获取，不要写死在程序里。",
+      "scenario": "搜索服务 2.0 提供关键字、周边、多边形、ID 四种 POI 查询；翻页最多 200 条，不支持全量返回；POI 分类编码会不定期更新，官方建议实时获取不写死。",
       "verify_status": "已查证"
     },
     {
@@ -28,33 +22,144 @@
       "source_name": "高德云睿 · 时空智能体平台",
       "source_url": "https://yunai.amap.com/#/console",
       "published_at": "2026-07-16 正式发布",
-      "scenario": "商户做门店选址、商圈评估、点位对比、客流趋势与 POI 分布分析；对本地商业摸底类项目可直接参考其评估维度。",
-      "try_action": "在控制台用自然语言输入候选点位，问“周边 2 公里轻食潜客分布”或“对比 A、B 两个点位更适合开什么店”，看输出是否可用。",
-      "requirements": "面向商户与企业；部分能力可能需要企业认证或付费，具体接入与定价需向平台核实（本次未逐字核对该页收费说明）。",
-      "caveats": "结论依赖高德内部数据口径（客流、到店等），与第三方数据可能有差异；免费/付费边界与开放范围建议实测前向平台确认。",
+      "scenario": "商户用自然语言输入候选点位，做门店选址、商圈评估、点位对比、客流趋势与 POI 分布分析；免费/付费边界与开放范围需实测前向平台确认。",
       "verify_status": "待核实"
     },
     {
-      "title": "高德商家开放平台：把门店做到地图上，LBS 精准获客",
-      "source_name": "高德商家开放平台",
-      "source_url": "https://bgc.amap.com/",
-      "published_at": "页面长期有效（2026 年可见）",
-      "scenario": "本地商户建立高德门店信息页、参与场景化推荐与 LBS 精准营销，提升线上曝光与到店；页面展示百果园、博世、特来电等案例。",
-      "try_action": "用一个真实门店信息页测试入驻流程，观察高德搜索/推荐里的展示位与客流引导效果，再决定是否投入。",
-      "requirements": "需商家主体入驻并提供门店信息；具体入驻条件、收费与审核标准需到平台核实（本次未核对该页收费说明）。",
-      "caveats": "效果依赖高德平台流量分配与用户行为，单方投入不等于确定回报；门店信息更新与到店数据口径以官方后台为准。",
+      "title": "高德空间智能 Agent 解决方案：SDK/API/A2A 协议多种调用",
+      "source_name": "高德开放平台 · 空间智能 Agent 解决方案",
+      "source_url": "https://lbs.amap.com/solution/spatialIntelligence",
+      "published_at": "页面 2026-10 可见",
+      "scenario": "空间智能 Agent 支持 SDK、API、A2A 协议调用：输入 Query 与位置信息，由复杂世界理解引擎驱动 LBS 垂类 Agent，自动意图识别并主动执行工具调用。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "腾讯位置服务 MCP Server：位置能力接入 AI 应用",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/11471",
+      "published_at": "2026-10-09 可见",
+      "scenario": "腾讯位置服务推出基于 MCP 协议的位置服务开发接口：个性化推荐（餐厅、酒店、活动、景区）、行程规划、实时出行信息，让 AI 应用直接连接现实世界位置数据。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "腾讯地图 V11.0：首次推出多人出行 AI 一站式行程管理",
+      "source_name": "腾讯位置服务官方博客",
+      "source_url": "https://lbs.qq.com/article?id=1318",
+      "published_at": "2026-04-14",
+      "scenario": "2026 年 3 月腾讯地图 V11.0 上线，面向多人出行场景推出 AI 一站式行程管理；腾讯位置服务同步发起开发者征文，把大模型能力与地图服务做深度融合实践。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "腾讯位置服务 Tool Calling 实践：JSAPI GL + WebService 签名调用",
+      "source_name": "腾讯位置服务官方博客",
+      "source_url": "https://lbs.qq.com/article?id=1283",
+      "published_at": "2026-04-29",
+      "scenario": "实测把腾讯位置服务接入 AI 工具箱：JSAPI GL 做前端地图渲染，WebService API（驾车路线 + 周边搜索）由后端代理调用并带 SK 签名，作为 Agent 工具调用的底层能力。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "腾讯地图 Map Skills + LLM Agent：端到端智能出行规划",
+      "source_name": "腾讯位置服务官方博客",
+      "source_url": "https://lbs.qq.com/article?id=1315",
+      "published_at": "2026-05-07",
+      "scenario": "依托腾讯位置服务 Map Skills 全栈能力 + LLM Agent + Tool Calling，搭建自然语言驱动的端到端智能出行规划系统，自动处理多人汇合点、多目标行程编排。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "腾讯位置服务多人汇合点智能规划：Tool Calling 实战",
+      "source_name": "腾讯位置服务官方博客",
+      "source_url": "https://lbs.qq.com/article?id=1280",
+      "published_at": "2026-04-15",
+      "scenario": "用地址解析、周边搜索、距离矩阵 + 大模型 Tool Calling 构建多人汇合点规划工具：自然语言输入各方出发点，Agent 自动完成地址转坐标、候选点筛选与通行规划。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "百度地图 MCP Server：10 大标准化 LBS 接口",
+      "source_name": "腾讯云 MCP 广场（收录百度地图）",
+      "source_url": "https://cloud.tencent.cn/developer/mcp/server/10007",
+      "published_at": "2026-10-09 可见",
+      "scenario": "百度地图 MCP 提供逆地理编码、路线规划等 10 大标准化接口，支持 Claude、千帆 AppBuilder 等智能助手开箱即用，开发者可无缝对接 LBS 能力构建地理应用。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "百度地图发布 MAPYA 与 CLI：把地图能力变成 AI 世界的标准件",
+      "source_name": "中国日报网（百度 Create2026 报道）",
+      "source_url": "http://caijing.chinadaily.com.cn/a/202605/14/WS6a056406a310942cc49ac30b.html",
+      "published_at": "2026-05-14",
+      "scenario": "Create2026 百度 AI 开发者大会上，百度地图开放平台发布脉芽 MAPYA（对话式地图开发智能体）与百度地图 CLI（地图开发命令行工具），把地图能力重构为 AI 可调用的标准件。",
       "verify_status": "待核实"
     },
     {
-      "title": "高德空间智能开放平台与 SKILL 生态：经 MCP/A2A 接入空间能力",
-      "source_name": "腾讯云开发者社区（转载高德官方发布）",
-      "source_url": "https://cloud.tencent.com/developer/news/3918723",
-      "published_at": "2026-05-15",
-      "scenario": "把高德 POI/AOI/动态热度等空间能力与 Agent Skill、CLI、Card 集成进企业自有 AI，做选址、洞察、流量分析。",
-      "try_action": "关注官方 SKILL 市场与接入文档，先申请体验一个开箱即用的洞察类 SKILL，确认能否输出可用于你项目的结构化结果。",
-      "requirements": "偏企业级接入，可能涉及商务合作与授权；具体接入门槛、费用与数据授权需向高德开放平台核实。",
-      "caveats": "本文为高德官方口径的媒体转载，能力开放范围与稳定交付需以官方接入流程和实测为准；部分能力可能需企业认证。",
+      "title": "cyanheads/openstreetmap-mcp-server：OSM 地理编码与空间查询",
+      "source_name": "LobeHub MCP 目录（开源项目）",
+      "source_url": "https://lobehub.com/mcp?category=tools&q=geospatial",
+      "published_at": "2026-09-28",
+      "scenario": "开源 MCP Server：在 OpenStreetMap 数据上做地理编码、逆地理编码和 Overpass 空间查询；支持 STDIO 或 Streamable HTTP，无需外部数据文件，环境变量配置即可用。",
       "verify_status": "待核实"
+    },
+    {
+      "title": "Mapbox Places API 公开预览：agentic mapping engine 驱动 POI",
+      "source_name": "Mapbox 官方博客",
+      "source_url": "https://www.mapbox.com/blog/top-announcements-from-build-with-mapbox-2026",
+      "published_at": "2026-09-15",
+      "scenario": "Mapbox Places API 公开预览：提供结构化 POI 数据，含营业时间、联系方式、小时级活跃度与人气信号、照片、地址/街区/建筑/步行入口等空间上下文；为全球每个地点分配稳定 Place ID，商家改名不影响集成。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Mapbox MCP Server：给 AI 代理提供空间推理能力",
+      "source_name": "Mapbox 官方 Release 页",
+      "source_url": "https://www.mapbox.com/ja/releases",
+      "published_at": "2026-10-09 可见",
+      "scenario": "Mapbox MCP Server 用统一接口（地图、地理编码、路由、POI）给 AI 代理提供空间推理能力，是国外地图平台跟进 MCP 协议的代表性实现。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Google Maps Grounding Lite 正式可用：MCP 接入 3 亿+ 地点",
+      "source_name": "Google Maps Platform 官方博客",
+      "source_url": "https://mapsplatform.google.com/intl/zh-CN/resources/blog/powering-the-next-era-of-agentic-experiences-announcing-new-grounding-capabilities/",
+      "published_at": "2026-04-22",
+      "scenario": "Maps Grounding Lite 通过 MCP 协议把 Google Maps 3 亿+ 地点数据接入 LLM，用于快速原型验证：让 Agent 直接基于地图新鲜事实数据做对话式回答与地点查找。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Google Maps Grounding Lite MCP Server：三个核心工具",
+      "source_name": "Google for Developers 官方文档",
+      "source_url": "https://developers.google.com/maps/architecture/grounding-with-maps-mcp",
+      "published_at": "2026-10-01",
+      "scenario": "Google 托管的 Maps Grounding Lite MCP Server 提供三个工具：找地点（含 AI 生成的地点摘要、地点 ID、经纬度）、找周边、查地点细节；可直接接入任意兼容 Agent 框架。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "GIS-MCP：89 个 GIS 函数封装的开源地理 MCP Server",
+      "source_name": "ChatForest 指南（开源项目索引）",
+      "source_url": "https://chatforest.com/guides/mcp-geospatial-gis/",
+      "published_at": "2026-03-29 收录",
+      "scenario": "开源项目 mahdin75/gis-mcp（约 120 stars，MIT）：包装 Shapely、PyProj 等 Python GIS 库提供 89 个空间函数，覆盖几何运算、投影转换等，是社区较全的地理 MCP 实现。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "CARTO Agentic Tools：AI Agent 用三个工具调用控制地图",
+      "source_name": "CARTO 官方博客",
+      "source_url": "https://carto.com/blog/carto-agentic-tools-for-developers/",
+      "published_at": "2026-06-25",
+      "scenario": "CARTO 开源 TypeScript 库 @carto/agentic-deckgl：AI Agent 通过三个工具调用控制地图，处理图层、样式、导航与空间过滤，基于 CARTO 和 deck.gl，适配主流 Agent 框架。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "MapHub：OGC Web GIS 服务聚合查询 MCP Server",
+      "source_name": "SPIE 会议论文（开源实现）",
+      "source_url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14018/140184B/MapHub--an-OGC-web-GIS-service-aggregation-and-query/10.1117/12.3091756.pdf",
+      "published_at": "2026 会议论文",
+      "scenario": "MapHub 把 OGC Web GIS 服务聚合为 MCP Server，在 DeepSeek V3 与 Cherry Studio 上 30 个真实任务查询准确率 100%；代码开源 github.com/YQP-2511/maphub-core，把 Web GIS 带向自然语言问答。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "OpenMap Agents：10 个地图 MCP Server + 多 Agent 编排",
+      "source_name": "OpenMap Agents 项目官网",
+      "source_url": "https://openmapagents.geoafrica.fr/",
+      "published_at": "2026-10-09 可见",
+      "scenario": "开源项目集成 10 个 MCP Server（Overture、Google Earth Engine、ORS、PostGIS、OSM、WorldBank、STAC、MapTiler 等）与多 Agent 编排（RAG、辩论、Pydantic 校验），配 MapLibre 地图界面。",
+      "verify_status": "已查证"
     }
   ]
 }
