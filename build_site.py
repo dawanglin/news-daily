@@ -172,6 +172,9 @@ a { color: inherit; }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; padding: 0 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
 .section-heading h2 { margin: 0; font-size: 18px; line-height: 1.3; letter-spacing: -.01em; }
 .section-heading > span { color: var(--muted); font-size: 12px; }
+.head-right { display: inline-flex; align-items: baseline; gap: 14px; }
+.quick-jump { color: var(--biz); font-weight: 650; text-decoration: none; }
+.quick-jump:hover { text-decoration: underline; }
 .story { padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
 .story-title { display: block; font-size: 19px; font-weight: 680; line-height: 1.5; text-decoration: none; overflow-wrap: anywhere; }
 .story-title:hover { color: var(--news); }
@@ -213,12 +216,13 @@ footer { padding: 26px 40px 40px; border-top: 1px solid var(--line); background:
 .edition-meta { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
 .back { display: inline-block; margin: 20px 0 8px; color: var(--news); text-decoration: none; font-size: 14px; }
 a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 3px; }
+html { scroll-behavior: smooth; }
 @media (hover: hover) { .mast-links a:hover, .story-title:hover, .biz-title a:hover { color: var(--news); } }
 @media (max-width: 960px) { .mast, footer { padding-left: 22px; padding-right: 22px; } .mast-inner, .page, .footer-inner { width: min(100% - 32px, 1200px); } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 </style></head><body>
 <header class="mast"><div class="mast-inner"><div class="mast-top"><nav class="mast-links" aria-label="栏目导航"><a href="#news">新闻情报</a><a href="#business">商业建设观察</a><a href="[[OFFERS_HREF]]" target="_blank" rel="noopener noreferrer">生活优惠</a></nav></div><h1>每日情报简报</h1><p class="subtitle">今日动态与可落地线索</p><p class="meta">[[DATE]] · [[STATS]]</p><p class="direction">筛掉政治造势，留下能理解、能尝试、能落地的信息。</p></div></header>
-<main class="page"><div class="layout"><section id="news" class="col-news"><div class="section-heading"><h2>新闻情报</h2><span>[[NEWS_COUNT]] 条 · 按阅读价值排序</span></div>[[STREAM]]<p class="archive-link"><a href="[[ARCHIVE_HREF]]">查看往期简报</a></p></section><section id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>高德与地图能力 · 可落地线索</span></div>[[BUSINESS]]</section></div></main>
+<main class="page"><div class="layout"><section id="news" class="col-news"><div class="section-heading"><h2>新闻情报</h2><span class="head-right">[[NEWS_COUNT]] 条 · 按阅读价值排序<a class="quick-jump" href="#business">直达商业观察</a></span></div>[[STREAM]]<p class="archive-link"><a href="[[ARCHIVE_HREF]]">查看往期简报</a></p></section><section id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>高德与地图能力 · 可落地线索</span></div>[[BUSINESS]]</section></div></main>
 <footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型生成摘要。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。商业建设观察为人工整理的商业线索，来源可追溯。</div></div></footer></body></html>'''
 
 
