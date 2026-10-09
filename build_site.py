@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""把每日数据构建成手机优先、无需 JavaScript 的静态简报。"""
+"""把每日数据构建成桌面端优先、无需 JavaScript 的静态简报。"""
 
 import datetime
 import html as html_mod
@@ -66,7 +66,7 @@ def story_html(item):
 
 def build_stream(items):
     stories = "".join(story_html(item) for item in items)
-    return f'''<section class="feed"><div class="section-heading"><h2>今日更新</h2><span>{len(items)} 条，按阅读价值排序</span></div>{stories}</section>'''
+    return f'''<section class="feed">{stories}</section>'''
 
 
 def offer_href(date=None):
@@ -88,21 +88,69 @@ def source_footer(news):
     return "<br>".join(esc(part) for part in parts)
 
 
+def load_latest_business():
+    """读取最新的商业建设观察数据；没有则返回 None（今日暂无）。"""
+    files = sorted(DATA_DIR.glob("business_*.json"))
+    if not files:
+        return None
+    try:
+        return json.loads(files[-1].read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def biz_html(item):
+    title = esc(item.get("title", "未命名线索"))
+    url = esc(item.get("source_url") or "")
+    source = esc(item.get("source_name") or item.get("source") or "来源未标注")
+    published = esc(item.get("published_at") or item.get("date") or "")
+    status = item.get("verify_status")
+    status_html = f'<span class="biz-status {"" if status == "已查证" else "pending"}">{esc(status)}</span>' if status else ""
+    fields = [
+        ("业务场景", item.get("scenario")),
+        ("小规模验证", item.get("try_action")),
+        ("条件与成本", item.get("requirements")),
+        ("限制与风险", item.get("caveats")),
+    ]
+    dl = "".join(
+        f'<div class="biz-field"><dt>{esc(label)}</dt><dd>{esc(value) if value else "—"}</dd></div>'
+        for label, value in fields
+    )
+    title_tag = (f'<a href="{url}" target="_blank" rel="noopener noreferrer">{title}</a>'
+                 if url else f'<span class="biz-title-plain">{title}</span>')
+    return f'''
+      <article class="biz">
+        <h3 class="biz-title">{title_tag}</h3>
+        <p class="biz-meta">{source}{" · " + published if published else ""}{status_html}</p>
+        <dl class="biz-fields">{dl}</dl>
+      </article>'''
+
+
+def build_business(business):
+    empty = ('<p class="biz-empty">今日暂无商业观察。只收录能追溯到原始来源的线索，宁缺毋滥；信息不足时不凑数。</p>')
+    if not business or not business.get("items"):
+        return empty
+    cards = "".join(biz_html(item) for item in business["items"])
+    note = ('<p class="biz-note">本栏为人工整理的商业线索：只收录官方文档、产品更新、开源项目或可核实的报道，每条标注来源。</p>')
+    return cards + note
+
+
 PAGE_TEMPLATE = '''<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#faf8f2"><meta name="description" content="每天发现能理解、能试用、能落地的新东西"><title>[[TITLE]]</title>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f4ee"><meta name="description" content="每日情报简报：筛掉政治造势，留下能理解、能尝试、能落地的信息。"><title>[[TITLE]]</title>
 <style>
 :root {
   color-scheme: light;
-  --page: #faf8f2;
-  --paper: #fffdf9;
-  --ink: #203b57;
-  --body: #344e68;
-  --muted: #596f83;
-  --line: #d6e0e9;
-  --accent: #3f7550;
-  --accent-soft: #e9edf0;
-  --warm: #8c632f;
-  --focus: #3f7550;
+  --page: #f6f4ee;
+  --panel: #fbfaf6;
+  --ink: #24313c;
+  --body: #38454f;
+  --muted: #6c7984;
+  --line: #dfe4e6;
+  --news: #2f7d66;
+  --news-soft: #e2eee9;
+  --biz: #a5672f;
+  --biz-soft: #f3eadb;
+  --focus: #2f7d66;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -110,84 +158,98 @@ body {
   margin: 0;
   background: var(--page);
   color: var(--ink);
-  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
   line-height: 1.72;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-::selection { background: var(--accent); color: var(--paper); }
-a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .22em; }
-.mast {
-  padding: calc(18px + env(safe-area-inset-top)) max(18px, env(safe-area-inset-left)) 26px;
-  background: var(--paper);
-  border-bottom: 1px solid var(--line);
-}
-.mast-inner, .feed, .footer-inner { width: min(100%, 720px); margin-inline: auto; }
-.page { width: 100%; margin-inline: auto; padding: 8px max(18px, env(safe-area-inset-right)) 64px max(18px, env(safe-area-inset-left)); }
-.mast-top { display: flex; justify-content: space-between; align-items: center; gap: 18px; color: var(--muted); font-size: 13px; }
-.mast-top a, .back { min-height: 44px; display: inline-flex; align-items: center; color: var(--accent); font-weight: 650; text-decoration: underline; }
-.mast-links { display: inline-flex; align-items: center; gap: 16px; }
-.mast-links .wool-link { min-width: 68px; min-height: 44px; justify-content: center; padding: 0 10px; border: 1.5px solid var(--accent); border-radius: 2px; color: var(--accent); font-size: 19px; font-weight: 500; text-decoration: none; }
-.mast h1 { max-width: 12em; margin: 20px 0 9px; font-size: clamp(29px, 8vw, 44px); line-height: 1.17; letter-spacing: -.03em; text-wrap: balance; }
-.mast p { margin: 0; color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
-.method { display: block; margin-top: 13px; color: var(--accent); font-size: 13px; font-weight: 600; }
-.section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 25px 0 15px; border-bottom: 1px solid var(--line); }
-.section-heading h2 { margin: 0; font-size: 20px; line-height: 1.2; letter-spacing: -.02em; }
-.section-heading > span { color: var(--muted); font-size: 12px; text-align: right; }
-.story { padding: 25px 0 27px; border-bottom: 1px solid var(--line); }
-.story-title { display: block; font-size: clamp(18px, 4.9vw, 21px); font-weight: 720; line-height: 1.48; letter-spacing: -.015em; text-decoration: none; text-wrap: pretty; overflow-wrap: anywhere; }
-.story-title::after { content: "↗"; display: inline-block; margin-left: .35em; color: var(--accent); font-size: .75em; font-weight: 500; transform: translateY(-.06em); }
-.story-title:active { color: var(--accent); }
-.story-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 9px; margin: 11px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
-.story-meta .topic { padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--ink); font-weight: 650; }
-.story-meta .lens { color: var(--accent); font-weight: 600; }
+::selection { background: var(--news); color: #fff; }
+a { color: inherit; }
+.mast { padding: 34px 40px 22px; border-bottom: 1px solid var(--line); }
+.mast-inner, .page, .footer-inner { width: min(100% - 64px, 1200px); margin-inline: auto; }
+.mast-top { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+.mast-links { display: inline-flex; align-items: center; gap: 22px; font-size: 14px; }
+.mast-links a { text-decoration: none; color: var(--muted); padding: 6px 2px; border-bottom: 2px solid transparent; }
+.mast-links a:hover { color: var(--ink); border-bottom-color: var(--news); }
+.mast h1 { margin: 26px 0 4px; font-size: 34px; line-height: 1.15; letter-spacing: -.01em; }
+.mast .subtitle { margin: 0 0 12px; font-size: 17px; color: var(--body); }
+.mast .meta { margin: 0; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.mast .direction { margin: 18px 0 0; color: var(--body); font-size: 14px; border-left: 3px solid var(--news); padding-left: 12px; }
+.layout { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 48px; padding: 30px 0 20px; align-items: start; }
+.section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; padding: 0 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
+.section-heading h2 { margin: 0; font-size: 18px; line-height: 1.3; letter-spacing: -.01em; }
+.section-heading > span { color: var(--muted); font-size: 12px; }
+.story { padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
+.story-title { display: block; font-size: 19px; font-weight: 680; line-height: 1.5; text-decoration: none; overflow-wrap: anywhere; }
+.story-title:hover { color: var(--news); }
+.story-title::after { content: "↗"; display: inline-block; margin-left: .3em; color: var(--news); font-size: .72em; font-weight: 500; transform: translateY(-.05em); }
+.story-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.story-meta .topic { padding: 1px 8px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-weight: 600; }
+.story-meta .lens { color: var(--news); font-weight: 600; }
 .story-meta .source, .story-meta .published { font-variant-numeric: tabular-nums; }
 .confidence { color: var(--muted); }
-.confidence.verified { color: var(--accent); }
-.confidence.signal { color: var(--warm); }
-.story-summary { margin: 13px 0 0; color: var(--body); font-family: "Songti SC", "STSong", "Noto Serif CJK SC", serif; font-size: 16px; line-height: 1.85; overflow-wrap: anywhere; }
-.story-why { display: grid; grid-template-columns: auto 1fr; gap: 10px; margin: 15px 0 0; color: var(--body); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
-.story-why strong { align-self: start; padding: 1px 7px; border: 1px solid var(--line); border-radius: 5px; color: var(--accent); font-size: 12px; font-weight: 650; white-space: nowrap; }
-footer { padding: 27px max(18px, env(safe-area-inset-right)) calc(34px + env(safe-area-inset-bottom)) max(18px, env(safe-area-inset-left)); border-top: 1px solid var(--line); background: var(--paper); color: var(--muted); font-size: 12px; line-height: 1.8; }
+.confidence.verified { color: var(--news); }
+.confidence.signal { color: var(--biz); }
+.story-summary { margin: 11px 0 0; color: var(--body); font-size: 15px; line-height: 1.82; overflow-wrap: anywhere; }
+.story-why { display: grid; grid-template-columns: auto 1fr; gap: 10px; margin: 13px 0 0; color: var(--body); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+.story-why strong { align-self: start; color: var(--news); font-size: 12px; font-weight: 650; white-space: nowrap; }
+.archive-link { margin-top: 22px; }
+.archive-link a { color: var(--news); font-size: 13px; }
+.col-business { border-left: 1px solid var(--line); padding-left: 40px; }
+.col-business .section-heading { border-bottom-color: #e6dcc9; }
+.col-business h2 { color: var(--biz); }
+.biz { margin: 0 0 22px; padding: 14px 0 16px 14px; border-left: 3px solid var(--biz); border-bottom: 1px solid var(--line); }
+.biz-title { margin: 0; font-size: 16px; line-height: 1.45; font-weight: 680; }
+.biz-title a { text-decoration: none; }
+.biz-title a:hover { color: var(--biz); }
+.biz-meta { margin: 8px 0 0; color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.biz-status { margin-left: 8px; padding: 1px 6px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-size: 11px; }
+.biz-status.pending { background: var(--biz-soft); color: #7c4c24; }
+.biz-fields { margin: 10px 0 0; }
+.biz-field { display: grid; grid-template-columns: 74px 1fr; gap: 8px; padding: 5px 0; }
+.biz-field dt { color: var(--biz); font-size: 12px; font-weight: 650; padding-top: 1px; }
+.biz-field dd { margin: 0; color: var(--body); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+.biz-empty, .biz-note { color: var(--muted); font-size: 13px; line-height: 1.7; }
+.biz-note { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line); }
+footer { padding: 26px 40px 40px; border-top: 1px solid var(--line); background: var(--panel); color: var(--muted); font-size: 12px; line-height: 1.8; }
 .footer-note { margin-top: 9px; }
 .archive-panel h2 { margin: 20px 0 8px; font-size: 21px; }
 .archive-intro { margin: 0 0 8px; color: var(--muted); font-size: 13px; }
 .archive-list { list-style: none; padding: 0; margin: 0; }
 .archive-list li { padding: 20px 0; border-top: 1px solid var(--line); }
 .archive-list a { display: block; min-height: 44px; text-decoration: none; font-size: 16px; line-height: 1.65; }
-.archive-list .issue { display: block; margin-bottom: 3px; color: var(--accent); font-weight: 700; font-variant-numeric: tabular-nums; }
+.archive-list .issue { display: block; margin-bottom: 3px; color: var(--news); font-weight: 700; font-variant-numeric: tabular-nums; }
 .edition-meta { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
-a:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-radius: 3px; }
-@media (hover: hover) { .story-title:hover, .mast-top a:hover, .mast-links a:hover, .back:hover { color: var(--accent); } }
-@media (min-width: 760px) {
-  .mast { padding-top: 29px; padding-bottom: 31px; }
-  .page { width: min(calc(100% - 64px), 1120px); padding-left: 0; padding-right: 0; }
-  .story { padding: 29px 0 31px; }
-  .story-why { grid-template-columns: 86px 1fr; }
-}
+.back { display: inline-block; margin: 20px 0 8px; color: var(--news); text-decoration: none; font-size: 14px; }
+a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 3px; }
+@media (hover: hover) { .mast-links a:hover, .story-title:hover, .biz-title a:hover { color: var(--news); } }
+@media (max-width: 960px) { .layout { grid-template-columns: 1fr; gap: 8px; } .col-business { border-left: 0; padding-left: 0; } .mast, footer { padding-left: 22px; padding-right: 22px; } .mast-inner, .page, .footer-inner { width: min(100% - 32px, 1200px); } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 </style></head><body>
-<header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日个人情报流</span><nav class="mast-links" aria-label="快速入口"><a class="wool-link" href="[[OFFERS_HREF]]" target="_blank" rel="noopener noreferrer">羊毛</a><a href="[[ARCHIVE_HREF]]">查看往期</a></nav></div><h1>今天，有什么可以拿来用</h1><p>[[DATE]] · [[STATS]]</p><span class="method">筛掉政治噪声，留下能理解、能尝试、能落地的信息</span></div></header>
-<main class="page">[[STREAM]]</main>
-<footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。</div></div></footer></body></html>'''
+<header class="mast"><div class="mast-inner"><div class="mast-top"><nav class="mast-links" aria-label="栏目导航"><a href="#news">新闻情报</a><a href="#business">商业建设观察</a><a href="[[OFFERS_HREF]]" target="_blank" rel="noopener noreferrer">生活优惠</a></nav></div><h1>每日情报简报</h1><p class="subtitle">今日动态与可落地线索</p><p class="meta">[[DATE]] · [[STATS]]</p><p class="direction">筛掉政治造势，留下能理解、能尝试、能落地的信息。</p></div></header>
+<main class="page"><div class="layout"><section id="news" class="col-news"><div class="section-heading"><h2>新闻情报</h2><span>[[NEWS_COUNT]] 条 · 按阅读价值排序</span></div>[[STREAM]]<p class="archive-link"><a href="[[ARCHIVE_HREF]]">查看往期简报</a></p></section><aside id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>高德与地图能力 · 可落地线索</span></div>[[BUSINESS]]</aside></div></main>
+<footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型生成摘要。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。商业建设观察为人工整理的商业线索，来源可追溯。</div></div></footer></body></html>'''
 
 
-def render_daily(news, archive_href, offer_date=None):
+def render_daily(news, archive_href, offer_date=None, business=None):
     date = news["date"]
     offer_date = offer_date or date
     parsed = datetime.datetime.strptime(date, "%Y-%m-%d")
     date_cn = f"{parsed.year}年{parsed.month}月{parsed.day}日 {WEEKDAYS[parsed.weekday()]}"
     items = news.get("items", [])
     stream = build_stream(items)
+    business_html = build_business(business)
     page = PAGE_TEMPLATE
     replacements = {
-        "[[TITLE]]": f"每日个人情报流 - {date}",
+        "[[TITLE]]": f"每日情报简报 - {date}",
         "[[DATE]]": date_cn,
         "[[STATS]]": f"共 {len(items)} 条",
+        "[[NEWS_COUNT]]": str(len(items)),
         "[[OFFERS_HREF]]": offer_href(offer_date),
         "[[ARCHIVE_HREF]]": archive_href,
         "[[STREAM]]": stream,
+        "[[BUSINESS]]": business_html,
         "[[SOURCES]]": source_footer(news),
     }
     for key, value in replacements.items():
@@ -206,7 +268,7 @@ def render_archive(editions):
             f'{esc(top.get("title"))}</a><span class="edition-meta">{len(items)} 条个人情报</span></li>'
         )
     body = "".join(rows) or "<li>暂无历史简报</li>"
-    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#faf8f2"><title>历史目录</title><style>{PAGE_TEMPLATE.split('<style>',1)[1].split('</style>',1)[0]}</style></head><body><header class="mast"><div class="mast-inner"><div class="mast-top"><span>每日个人情报流</span><nav class="mast-links" aria-label="快速入口"><a class="wool-link" href="{esc(offer_href())}" target="_blank" rel="noopener noreferrer">羊毛</a></nav></div><h1>历史目录</h1><p>每一天保留当时的内容和版式</p></div></header><main class="page"><a class="back" href="../">返回今天</a><section class="archive-panel"><h2>全部简报</h2><p class="archive-intro">每天下午 5:00 后更新，最新一期排在最前面。</p><ul class="archive-list">{body}</ul></section></main></body></html>'''
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f4ee"><title>历史目录 - 每日情报简报</title><style>{PAGE_TEMPLATE.split('<style>',1)[1].split('</style>',1)[0]}</style></head><body><header class="mast"><div class="mast-inner"><div class="mast-top"><nav class="mast-links" aria-label="栏目导航"><a href="../">新闻情报</a><a href="../#business">商业建设观察</a><a href="{esc(offer_href())}" target="_blank" rel="noopener noreferrer">生活优惠</a></nav></div><h1>历史目录</h1><p class="subtitle">每一天保留当时的内容和版式</p></div></header><main class="page"><a class="back" href="../">返回今天</a><section class="archive-panel"><h2>全部简报</h2><p class="archive-intro">每天下午 5:00 后更新，最新一期排在最前面。</p><ul class="archive-list">{body}</ul></section></main></body></html>'''
 
 
 def main():
@@ -215,16 +277,17 @@ def main():
         raise SystemExit("没有 data/news_*.json，请先运行 python fetch_news.py")
     editions = [json.loads(path.read_text(encoding="utf-8")) for path in reversed(files)]
     latest = editions[0]
+    business = load_latest_business()
     (SITE_DIR / ".nojekyll").touch()
     today_cn = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=8)).date().isoformat()
-    (SITE_DIR / "index.html").write_text(clean_output(render_daily(latest, "archive/", today_cn)), encoding="utf-8")
+    (SITE_DIR / "index.html").write_text(clean_output(render_daily(latest, "archive/", today_cn, business)), encoding="utf-8")
     for edition in editions:
         daily_path = DAILY_DIR / f"{edition['date']}.html"
         # 历史页是当时规则和版式的快照。只更新今天，过去页面永不重写。
         if edition["date"] == today_cn or not daily_path.exists():
-            daily_path.write_text(clean_output(render_daily(edition, "../archive/", edition["date"])), encoding="utf-8")
+            daily_path.write_text(clean_output(render_daily(edition, "../archive/", edition["date"], business)), encoding="utf-8")
     (ARCHIVE_DIR / "index.html").write_text(clean_output(render_archive(editions)), encoding="utf-8")
-    print(f"已生成手机首页：site/index.html（{len(latest.get('items', []))} 条）")
+    print(f"已生成桌面首页：site/index.html（{len(latest.get('items', []))} 条新闻）")
     print(f"已生成历史目录：site/archive/index.html（{len(editions)} 期）")
 
 
