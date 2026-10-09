@@ -222,7 +222,7 @@ html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 </style></head><body>
 <header class="mast"><div class="mast-inner"><div class="mast-top"><nav class="mast-links" aria-label="栏目导航"><a href="#news">新闻情报</a><a href="[[ARCHIVE_HREF]]">历史新闻</a><a href="#business">商业建设观察</a><a href="[[OFFERS_HREF]]" target="_blank" rel="noopener noreferrer">生活优惠</a></nav></div><h1>每日情报简报</h1><p class="subtitle">今日动态与可落地线索</p><p class="meta">[[DATE]] · [[STATS]]</p><p class="direction">筛掉政治造势，留下能理解、能尝试、能落地的信息。</p></div></header>
-<main class="page"><div class="layout"><section id="news" class="col-news"><div class="section-heading"><h2>新闻情报</h2><span class="head-right">[[NEWS_COUNT]] 条 · 按阅读价值排序<a class="quick-jump" href="#business">直达商业观察</a></span></div>[[STREAM]]<p class="archive-link"><a href="[[ARCHIVE_HREF]]">查看往期简报</a></p></section><section id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>高德与地图能力 · 可落地线索</span></div>[[BUSINESS]]</section></div></main>
+<main class="page"><div class="layout"><section id="news" class="col-news"><div class="section-heading"><h2>新闻情报</h2><span class="head-right">[[NEWS_COUNT]] 条 · 按阅读价值排序<a class="quick-jump" href="#business">直达商业观察</a></span></div>[[STREAM]]<p class="archive-link"><a href="[[ARCHIVE_HREF]]">查看往期简报</a></p></section><section id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>空间智能与地图能力 · 可落地线索</span></div>[[BUSINESS]]</section></div></main>
 <footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型生成摘要。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。商业建设观察为人工整理的商业线索，来源可追溯。</div></div></footer></body></html>'''
 
 

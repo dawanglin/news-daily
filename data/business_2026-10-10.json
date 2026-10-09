@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-10",
+  "items": [
+    {
+      "title": "GraphGS：无需相机位姿，仅凭 RGB 图像重建大型 3D 开放场景",
+      "source_name": "CSDN 博客（港科广团队，ICLR 2025 论文）",
+      "source_url": "https://blog.csdn.net/Yong_Qi2015/article/details/146637125",
+      "published_at": "2026-10-06",
+      "scenario": "港科广团队提出 GraphGS：不依赖精确相机位姿，仅凭 RGB 图像实现大规模开放场景的高效重建与新视角合成，论文入选 ICLR 2025，代码即将开源。对街景级线下数字化是低成本路线。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "GenRecon：多视图 RGB 生成式 3D 场景重建（NeurIPS 2026）",
+      "source_name": "TUM Visual Computing 实验室",
+      "source_url": "https://niessnerlab.org/publications.html",
+      "published_at": "2026-10-09（页面更新）",
+      "scenario": "TUM 提出 GenRecon：把预训练物体级生成先验扩展到大规模场景，通过空间重叠块与投影式多视图条件，从多视图 RGB 生成细节一致、可编辑的 PBR 网格，输出高清 3D 场景模型。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "知天下开源 3DGS 世界模型基模 Explorer 1.3B 权重",
+      "source_name": "36氪",
+      "source_url": "https://36kr.com/p/4016988546912393",
+      "published_at": "2026-10-08",
+      "scenario": "知天下 AI 开放生成式高斯基模 Explorer 1.3B 的权重、测试代码与数据集，使用 NVIDIA ArtiFixer 架构、八千 GPU 小时训练，四类真实场景未观测视角生成表现超现有方案。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "高德发布 ABot-Earth 0.7：3D 原生城市世界模型",
+      "source_name": "新浪财经",
+      "source_url": "https://finance.sina.com.cn/stock/t/2026-09-10/doc-inirinus8617037.shtml.md",
+      "published_at": "2026-09-10（页面 2026-10-09 更新）",
+      "scenario": "高德 9 月发布新一代数字地球 ABot-Earth 0.7，定位全球首个 3D 原生城市世界模型，用 3D 重建与空间智能重新组织城市数据，是线下数字化在城市尺度的一种商业落地形态。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS 3.7 开发版手册发布：空间索引与 ST_* 函数持续演进",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/stuff/postgis-3.7-en.pdf",
+      "published_at": "2026-10（开发版手册）",
+      "scenario": "PostGIS 3.7 开发版手册上线：GiST R-Tree 空间索引、几何/地理类型、拓扑与栅格支持持续演进，作为空间数据库底座的版本跟踪信息。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Martin：Rust 写的 PostGIS 矢量瓦片服务器",
+      "source_name": "Hivebook（开源项目索引）",
+      "source_url": "https://www.hivebook.wiki/wiki/martin-rust-vector-tile-server",
+      "published_at": "2026-10-06（页面更新）",
+      "scenario": "Martin 用 Rust 实现，从 PostGIS 动态生成矢量瓦片，支持 PMTiles/MBTiles、多数据源合并，自动发现数据库表与函数，是开源轻量瓦片服务的替代方案，适合自建地图底图。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "SafeGraph 地理空间数据集成指南：PostGIS/QGIS/FME 选型",
+      "source_name": "SafeGraph 官方指南",
+      "source_url": "https://www.safegraph.com/guides/geospatial-data-integration/",
+      "published_at": "2026-10-01（页面更新）",
+      "scenario": "SafeGraph 整理空间数据集成工具选型：PostGIS 做空间 SQL 与拓扑、QGIS 做检查与转换、FME 做 ETL，并给出 Schema 映射与 CRS 转换管线，适合自建 POI/空间数据管线的参照。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "百度地图 MCP Server：10 大标准化 LBS 接口（腾讯云 MCP 广场收录）",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/10007",
+      "published_at": "2026-10-08",
+      "scenario": "百度地图 MCP 提供逆地理编码、路线规划等 10 大标准化接口，支持 Claude、千帆 AppBuilder 等开箱即用；页面注明 2026-10-08 更新并开放开发者社群。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "腾讯位置服务 MCP Server（腾讯云 MCP 广场新入口）",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com.cn/developer/mcp/server/11471",
+      "published_at": "2026-10-08（页面更新）",
+      "scenario": "腾讯位置服务 MCP 提供位置服务开发接口（推荐、行程规划、实时出行信息），腾讯云 MCP 广场新入口上线，作为国内地图平台 MCP 能力对齐的参照。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Magic Lane MCP Server：对话内嵌 MapLibre 矢量地图工具",
+      "source_name": "Magic Lane 官方 Changelog",
+      "source_url": "https://developer.magiclane.com/docs/guides/mcp-server/CHANGELOG/",
+      "published_at": "2026-08-12",
+      "scenario": "Magic Lane MCP 新增 Interactive Map 工具：通过 MCP Apps 在对话里直接显示 MapLibre GL JS 矢量瓦片地图，支持位置、路线、等时圈、往返五种展示类型，是 Agent 对话内嵌地图的实践。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "MCP TypeScript SDK 2.3.0：Audience-Bound Tokens 与传输变更",
+      "source_name": "Fluid Labs 技术博客",
+      "source_url": "https://fluidlabs.com/resources/mcp-sdk-2-3-0-audience-bound-tokens-transport-changes",
+      "published_at": "2026-10-06",
+      "scenario": "MCP TypeScript SDK 2.3.0（10 月 2 日发布）引入 audience-bound tokens 与传输层变更，重点强化授权令牌绑定与多客户端场景安全，是协议层工具链的跟进点。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范 2026-07-28 修订：无状态化、会话与握手移除、授权加固",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "2026-09-25（changelog 更新）",
+      "scenario": "MCP 2026-07-28 修订正式生效：协议层无状态化（移除会话与握手），新增功能生命周期与弃用策略（SEP-2596），并强化 OAuth/OIDC 授权一致性，远程 MCP 服务器与普通 HTTP 工作负载对齐。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "MCP SEP：Tasks Extension 与 Skills Extension 转正",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/seps",
+      "published_at": "2026-10-07（页面更新）",
+      "scenario": "MCP 规范增强提案中 SEP-2663 Tasks Extension、SEP-2640 Skills Extension 状态转 Final，长期任务与技能扩展成为规范组成部分，影响 Agent 长任务与技能封装。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "osm-mcp：基于 OpenStreetMap 的地理编码与路由工具集",
+      "source_name": "LobeHub MCP 目录（开源项目）",
+      "source_url": "https://lobehub.com/es/mcp/ni-c-osm-mcp",
+      "published_at": "2026-08-31（页面收录）",
+      "scenario": "开源 osm-mcp 提供 OSM 地理编码/逆地理编码、步行/驾车/骑行路由与距离计算，作为 MCP 工具集接入 AI 应用，适合自建轻量 LBS 原型。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Microsoft Agent Framework 版本更新（10 月初 1.23/.NET、1.20/Python）",
+      "source_name": "Sim 框架评测目录",
+      "source_url": "https://www.sim.ai/library/best-multi-agent-frameworks-2026",
+      "published_at": "2026-10-06",
+      "scenario": "Microsoft Agent Framework（Semantic Kernel + AutoGen 统一后继，MIT）10 月 1-2 日更新至 .NET 1.23.0 / Python 1.20.0，作为生产级多 Agent 框架的持续演进跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "arXiv 2610.07556：解耦多智能体编排（Decoupled Multi-Agent Orchestration）",
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/pdf/2610.07556",
+      "published_at": "2026-10（新论文）",
+      "scenario": "论文梳理解耦式多智能体编排：对比 RL 联合写子任务、MAS-ORCHESTRA 一步决策等方案，讨论子任务拆分与 worker 分配的可靠性问题，是 Agent 编排方向的学术进展。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Strands Agents SDK：AWS 开源 Python/TypeScript Agent 框架",
+      "source_name": "Hivebook（开源项目索引）",
+      "source_url": "https://hivebook.wiki/wiki/strands-agents-sdk-open-source-python-typescript-agent-framework-from-aws",
+      "published_at": "2026-10-08（页面更新）",
+      "scenario": "AWS 开源 Strands Agents SDK（Apache-2.0），模型驱动的 Agent 框架，Python 已到 v1.41，TypeScript 以 @strands-agents/sdk 发布，作为云厂商 Agent 框架的参照。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Agent Room：MCP 上的多智能体协作层（Claude Code/Cursor/Codex/Gemini）",
+      "source_name": "LobeHub MCP 目录",
+      "source_url": "https://lobehub.com/mcp?category=all&q=multi-agent",
+      "published_at": "2026-10-07（页面收录）",
+      "scenario": "Agent Room 是基于 MCP 的多智能体协作层：跨机器实现实时分布式开发、代码评审、PR 交接、前后端集成与微服务协调，支持 Claude Code、Cursor、Codex、Gemini，基础使用无需外部数据文件。",
+      "verify_status": "待核实"
+    }
+  ]
+}
