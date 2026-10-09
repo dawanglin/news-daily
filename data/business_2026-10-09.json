@@ -3,8 +3,8 @@
   "items": [
     {
       "title": "高德 MCP Server：大模型可直接调用地理编码、POI 搜索与路径规划",
-      "source_name": "高德开放平台 · MCP Server 官方文档",
-      "source_url": "https://lbs.amap.com/api/mcp-server/summary",
+      "source_name": "高德开放平台 · MCP Server 概述",
+      "source_url": "https://developer.amap.com/api/mcp-server/summary",
       "published_at": "文档更新于 2026-03-17",
       "scenario": "让 Agent/大模型直接查询位置、POI、路径与天气；可用于本地生活问答、门店检索、选址辅助和导航类助手。",
       "try_action": "在高德开放平台申请 Web 服务 key，在 Cursor/Claude/Cline 按 Streamable HTTP 配置 https://mcp.amap.com/mcp?key=你的key，让 Agent 做一次“周边美食搜索”和“地址转经纬度”，核对返回字段。",
