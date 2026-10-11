@@ -1,0 +1,581 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11 10:42:33 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 1,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 15,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "失败",
+      "count": 0,
+      "error": "<urlopen error timed out>",
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "失败",
+      "count": 0,
+      "error": "<urlopen error timed out>",
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "创想三维推出 K3 3D 打印机：独立 4 通道 4 喷嘴，首发价 4599 元",
+      "link": "https://www.ithome.com/1/011/559.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "科技资讯",
+      "published": "10-11 09:36",
+      "ts": 1791682601,
+      "summary": "IT之家 10 月 11 日消息，创想三维推出 K3 3D 打印机，现已开始预售， 首发价 4599 元 。这款 3D 打印机主打多彩、多材、一体成型，配备独立 4 通道 4 喷嘴，约 5 秒即可完成喷嘴切换，相比传统单喷嘴多色 3D 打印机，可节省 80% 打印时间，减少约 85% 耗材浪费。",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 144.64,
+      "relevance": 15
+    },
+    {
+      "title": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
+      "link": "https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "10-10 01:39",
+      "ts": 1791567578,
+      "summary": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 213,
+      "relevance": 27
+    },
+    {
+      "title": "Claude 动态多 Agent 工作流开始公测，支持庞大的工作负载",
+      "link": "https://www.oschina.net/news/502951",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-10 18:21",
+      "ts": 1791627696,
+      "summary": "Claude 官方把动态多智能体工作流放进公开测试版了。Claude Managed Agents dynamic workflows，ClaudeDevs 的说法是一种新型多智能体编排，『为最庞大的工作负载而生』——一个主 agent 写计划，计划跨多个 agent 分阶段运行，最后合并结果。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 233.56,
+      "relevance": 31
+    },
+    {
+      "title": "[转载]【NCM研究论文】氮掺杂碳纳米管泡沫用于锌离子混合超级电容器",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=100107&do=blog&id=1555973",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "概念科普",
+      "published": "10-10 12:47",
+      "ts": 1791607662,
+      "summary": "[转载]【NCM研究论文】氮掺杂碳纳米管泡沫用于锌离子混合超级电容器",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 118.7,
+      "relevance": 9
+    },
+    {
+      "title": "Nano Banana 2.1 九种实战用法：从多图一致性到\"养图\"，附完整提示词",
+      "link": "https://www.oschina.net/news/502940",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "实测评价",
+      "published": "10-10 14:20",
+      "ts": 1791613224,
+      "summary": "写在前面：Flash 的价格，Pro 的能力 2026 年 10 月 6 日，Google 发布了 Nano Banana 2.1。名字只多了个小数点，底座却换成了 Gemini 3.6 Flash，思路也很明确：把以前只有 Pro 级模型才稳得住的能力 —— 多参考图一致性、复杂局部编辑、文字海报 —— 下放到 Flash 的成本和速度上。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 142.22,
+      "relevance": 13
+    },
+    {
+      "title": "DjangoAdmin 敏捷开发框架 Flask+NaiveVue 版本 v2.8.2 发布",
+      "link": "https://www.oschina.net/news/502930",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-10 10:38",
+      "ts": 1791599898,
+      "summary": "v2.8.2 更新内容： 1、大版本全新重构；基于 Flask、Vue3、TypeScript、NaiveUI、Vite、VueRouter 等技术栈构建的前后端分离企业级数据中台解决方案。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 141,
+      "relevance": 13
+    },
+    {
+      "title": "Axioms：非线性分数阶微分方程：理论与应用",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/2026109145628380156329.shtm?id=156329",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-09 22:56",
+      "ts": 1791557760,
+      "summary": "期刊名：Axioms 期刊主页：https://www.mdpi.com/journal/axioms 分数阶微积分是数学和应用数学的一个分支，由于其在建模、工程、数学生物学、金融建...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": ".NET地理空间数据格式解析库升级V26.8.15.2",
+      "link": "https://www.oschina.net/news/502929",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "10-10 10:10",
+      "ts": 1791598229,
+      "summary": "Bouyei.Geo是一个支持.net framework、.net core、.net standard三个框架平台的地理信息空间数据格式解析动态库，零依赖第三方库，支持解析如:shp,dbf,mdb,gdb,postgis,spatialite,geopackage、ogc(geojson,wkb,wkt等)、tpk、tpkx等格式解析，椭球面积计算，高斯正反算等。更新内容： 1、修复并优化wkb读写问题。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 156,
+      "relevance": 16
+    },
+    {
+      "title": "人类愿意向女性形象的 AI 智能体支付的报酬低于男性形象智能体",
+      "link": "https://www.solidot.org/story?sid=85566",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "概念科普",
+      "published": "10-09 22:52",
+      "ts": 1791557554,
+      "summary": "如果你认为性别薪酬差距不存在，或者职场中没有性别偏见，那么最好重新思考下：根据爱尔兰 Limerick 大学研究人员展开的一项研究，在一个 VR 办公室里，基于相同的底层技术但形象不同的 AI 智能体，人类参与者愿意向男性形象的智能体支付的报酬比女性形象更高。参与研究的人类共有 189 人，他们与名叫 Johan 的男性形象智能体以及名叫 Johanna 的女性形象智能体共同工作。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 201,
+      "relevance": 27
+    },
+    {
+      "title": "派早报：英伟达 RTX Spark 新品一览、Anthropic 发布 Claude Haiku 5.5 模型等",
+      "link": "https://sspai.com/post/115532",
+      "source": "少数派",
+      "signals": [
+        "少数派"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-09 08:51",
+      "ts": 1791507070,
+      "summary": "XMG 发布 PRO 18 系列笔记本、OpenAI 宣布在 ChatGPT 上线 GPT-6 模型 查看全文",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "数字生活来源",
+      "confidence_class": "professional",
+      "score": 190,
+      "relevance": 24
+    },
+    {
+      "title": "消息称英伟达洽谈收购 / 追加投资 Reflection AI，加码开源模型",
+      "link": "https://www.ithome.com/1/011/541.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-11 06:46",
+      "ts": 1791672390,
+      "summary": "IT之家 10 月 11 日消息，据金融时报消息，知情人士透露，英伟达正就收购美国初创公司 Reflection AI 或向其追加投资展开深入谈判。Reflection AI 专注于开发开放权重模型，于当地时间 10 月 5 日发布旗下首款开放权重 AI 模型 Beam。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 188.7,
+      "relevance": 24
+    },
+    {
+      "title": "Rails 之父 DHH 狂吹 Rust 快 150 倍，被开发者翻代码后群嘲",
+      "link": "https://www.infoq.cn/article/jri7etqXIv2dp6RsiSHh?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "专家观点",
+      "published": "10-10 23:24",
+      "ts": 1791645850,
+      "summary": "Rails 之父 DHH 狂吹 Rust 快 150 倍，被开发者翻代码后群嘲",
+      "why": "分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 172.24,
+      "relevance": 18
+    },
+    {
+      "title": "openJiuwen发布并开源企业级AgentOS，加速智能体规模落地企业",
+      "link": "https://www.qbitai.com/2026/10/502106.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-09 10:37",
+      "ts": 1791513442,
+      "summary": "多Agent协同还能自我进化",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 168,
+      "relevance": 18
+    },
+    {
+      "title": "RemoveMacAI – 精简 macOS 27，关闭 Apple 智能，删除模型文件，释放 10+GB 磁盘空间",
+      "link": "https://www.appinn.com/removemacai/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-07 19:49",
+      "ts": 1791373758,
+      "summary": "macOS 27 有一定几率会自动下载 Apple 智能相关的大模型文件，无论 Apple 智能是否处于开启状态。有开发者专门为此发布了开源工具 RemoveMacAI，可以一键关闭 Apple 智能、删除已下载的模型文件，并阻止它们再次下载，部分设备可以释放超过 10GB 磁盘空间。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 167,
+      "relevance": 19
+    },
+    {
+      "title": "利用 AI 代码智能体优化软件架构的五种方法",
+      "link": "https://www.infoq.cn/article/soRObi5sjdTTUM95zLJK?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-11 18:04",
+      "ts": 1791713071,
+      "summary": "利用 AI 代码智能体优化软件架构的五种方法",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 161.0,
+      "relevance": 15
+    },
+    {
+      "title": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/FTtTLqvzJeMiE03IowFP?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "10-11 18:00",
+      "ts": 1791712800,
+      "summary": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 161.0,
+      "relevance": 15
+    },
+    {
+      "title": "消息称字节、腾讯加速个人 AI 智能体研发，追赶 Meta Muse",
+      "link": "https://www.ithome.com/1/011/548.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-11 07:45",
+      "ts": 1791675911,
+      "summary": "IT之家 10 月 11 日消息，据财新报道，Meta 发布个人智能体 Muse 后，引起国内科技巨头迅速跟进。10 月 9 日，字节内部人士透露， 字节跳动已在国庆假期前加紧推动个人智能体产品研发 。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 159.02,
+      "relevance": 18
+    },
+    {
+      "title": "被OpenAI解雇后，三名安全研究员联名公开信曝光内幕",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651061909&idx=2&sn=30027e00d2ab8a751577e8907620402a",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "10-09 12:01",
+      "ts": 1791518460,
+      "summary": "OpenAI必须保证前沿模型的可监测性。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 159,
+      "relevance": 16
+    },
+    {
+      "title": "拆开世界，再焊出因果：一条从属性到因果的统一范式",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1555887",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "概念科普",
+      "published": "10-10 16:46",
+      "ts": 1791621977,
+      "summary": "拆开世界，再焊出因果：一条从属性到因果的统一范式",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 150.03,
+      "relevance": 15
+    },
+    {
+      "title": "高通工程师质疑 Linux 系统 LTS 发行版是否过时：AI 时代也许更适合快速滚动更新补丁",
+      "link": "https://www.ithome.com/1/011/558.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-11 09:34",
+      "ts": 1791682490,
+      "summary": "IT之家 10 月 11 日消息，据 phoronix 昨日（10 月 10 日）报道，Linux Plumbers Conference 大会于本周在捷克布拉格举行， 高通工程师 Khem Raj 在大会上质疑 Linux Long Term Support（LTS）发行版在生成式 AI 时代的适配性 ，尤其是在不断有大量补丁提交和错误报告的情况下。Khem Raj 论证了 AI 时代滚动更新发行版的好处，表示随着 AI 编程智能体不断加快对 Linux 内核及相关开源项…",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 139.63,
+      "relevance": 14
+    },
+    {
+      "title": "Cloudflare 公共 DNS 服务不需屏蔽盗版网站域名",
+      "link": "https://www.solidot.org/story?sid=85571",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "社区观察",
+      "published": "10-10 15:30",
+      "ts": 1791617438,
+      "summary": "Cloudflare 的公共 DNS 解析服务 1.1.1.1 没有屏蔽盗版体育直播网站的域名，而是通过其 CDN 服务屏蔽相关网站。巴黎司法法院（Paris Judicial Court）站在了 Cloudflare 这边，驳回了法国付费电视提供商 Canal+ 提出的每个盗版网站日罚 5 万欧元的索赔要求。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 117.61,
+      "relevance": 10
+    },
+    {
+      "title": "亚马逊 Prime Video 将直播艾美奖颁奖典礼",
+      "link": "https://www.solidot.org/story?sid=85558",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-09 14:55",
+      "ts": 1791528955,
+      "summary": "在 YouTube 获得美国奥斯卡奖颁奖典礼的转播权之后，另一个流媒体平台亚马逊 Prime Video 获得了美国另一个主要奖项艾美奖的转播权。Amazon Prime Video 将从 2027 年起成为艾美奖的全球独占播放平台，这一协议将持续六年。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 111,
+      "relevance": 9
+    },
+    {
+      "title": "[笔记，科普，数学] 素数（211）：傅里叶变换 Fourier transform 的基本概念、常见性质、公式",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=107667&do=blog&id=1556037",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-10 19:48",
+      "ts": 1791632896,
+      "summary": "[笔记，科普，数学] 素数（211）：傅里叶变换 Fourier transform 的基本概念、常见性质、公式",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 106.04,
+      "relevance": 6
+    },
+    {
+      "title": "诺奖悖论：太重视科学家反而难以获得诺贝尔科学奖",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=57940&do=blog&id=1555888",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-10 16:55",
+      "ts": 1791622507,
+      "summary": "诺奖悖论：太重视科学家反而难以获得诺贝尔科学奖",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 105.08,
+      "relevance": 6
+    },
+    {
+      "title": "从开源清理工具到付费 Mac 应用，用户教会了我如何做产品：Mole",
+      "link": "https://sspai.com/post/113843",
+      "source": "少数派",
+      "signals": [
+        "少数派"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-08 16:10",
+      "ts": 1791447051,
+      "summary": "最近我写了不少关于独立开发的思考，想着要汇总一下，就把Mole从开源CLI做到Mac付费软件这一路聊一聊：我当时是怎么想的，哪些事情做下来真的有用，也许能给正在做自己作品的朋友一些输入。去年国庆我在三 ... 查看全文",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "数字生活来源",
+      "confidence_class": "professional",
+      "score": 105,
+      "relevance": 7
+    },
+    {
+      "title": "Document Picture-in-Picture API与任意元素画中画实现",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/10/document-picture-in-picture-api/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "教程方法",
+      "published": "10-08 08:00",
+      "ts": 1791417600,
+      "summary": "Document Picture-in-Picture API与任意元素画中画实现",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 105,
+      "relevance": 6
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-11",
+  "items": [
+    {
+      "title": "旅行规划器 MCP 服务端：Google 地图地点搜索/详情/旅行时间",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/10759",
+      "published_at": "2026-10-10",
+      "scenario": "@gongrzhe/server-travelplanner-mcp 提供地点搜索、地点详情查询与旅行时间计算，接入 Google 地图与旅行规划服务，LLM 可直接完成行程类任务。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "MCP Map Server 1.0.0：高德+百度地理编码/POI/周边搜索封装",
+      "source_name": "LobeHub MCP 目录（开源项目）",
+      "source_url": "https://lobehub.com/mcp/ganyu123456-mcp-map-server",
+      "published_at": "2026-10-10",
+      "scenario": "开源 MCP Map Server 1.0.0 通过 MCP 给大模型提供地图能力，支持高德与百度地图 Web 服务 API：地理编码、逆地理编码、POI 搜索、周边搜索，可快速接入 Agent 测试位置能力。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Google Maps Grounding Lite MCP：官方托管地理定位服务",
+      "source_name": "Google Maps Platform 官方文档",
+      "source_url": "https://developers.google.com/maps/architecture/grounding-with-maps-mcp",
+      "published_at": "2026-10-01（页面更新）",
+      "scenario": "Google 官方托管的 Grounding Lite MCP，直接接入任意 agent 框架，提供地点搜索/地点详情/路由三类工具，把 Agent 的回答锚定到真实地理上下文；海外源访问可能需代理。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "vivo 蓝心智能体平台插件广场收录百度地图 MCP",
+      "source_name": "蓝心智能体平台（vivo）",
+      "source_url": "https://agents.vivo.com.cn/plugin",
+      "published_at": "2026-10-10（页面更新）",
+      "scenario": "vivo 蓝心智能体平台插件广场收录百度地图 MCP（逆地理编码、地点检索、路线规划），以及什么值得买等插件，手机厂商侧 Agent 插件生态开始标准化接地图能力。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "高德 ABot-Earth 0.7 再解读：一张卫星图生成 3D 城市",
+      "source_name": "新浪财经",
+      "source_url": "https://finance.sina.com.cn/stock/t/2026-09-11/doc-inirnaiv5341141.shtml.md",
+      "published_at": "2026-09-11（页面 2026-10-10 更新）",
+      "scenario": "高德空间智能核心引擎 ABot-Earth 0.7（全球首个 3D 原生城市世界模型）：一张卫星图或一段文字，在消费级 GPU 上即可生成 3D 城市场景，是线下数字化在城市尺度的落地形态。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "ArcGIS Earth 2026-10 更新：高斯泼溅图层与 3D 建筑层",
+      "source_name": "Esri 官方博客",
+      "source_url": "https://www.esri.com/arcgis-blog/products/arcgis-earth/3d-gis/whats-new-in-arcgis-earth-october-2026",
+      "published_at": "2026-10-01",
+      "scenario": "ArcGIS Earth 新增 Local Scenes、3D Building Layers，并支持 Gaussian splat 图层，把 3DGS 实景捕捉内容与地图、地形、业务数据叠加，桌面与移动端可用。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "地球信息科学学报：基于大语言模型的三维 GIS 场景交互框架",
+      "source_name": "地球信息科学学报",
+      "source_url": "http://www.dqxxkx.cn/CN/1560-8999/home.shtml",
+      "published_at": "2026-10-09（页面更新）",
+      "scenario": "期刊论文提出面向三维 GIS 场景的自然语言操作映射框架：三维空间数据库+三维空间对象知识库+交互三元组，把 LLM 指令映射到场景状态与对象属性操作，是 GIS 对话式交互的学术方向。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "ISPRS：城市数字孪生中异构 3D 地理数据集成框架（pgPointCloud）",
+      "source_name": "ISPRS Archives（学术论文）",
+      "source_url": "https://isprs-archives.copernicus.org/articles/XLIX-B4-2026/57/2026/isprs-archives-XLIX-B4-2026-57-2026.pdf",
+      "published_at": "2026-10（新论文）",
+      "scenario": "论文提出以数据库为中心的异构 3D 地理数据集成框架：CityGML、MMS、DTM 经语义化体素化后在 pgPointCloud 统一存储（0.10m 分辨率 300 万体素），用于城市数字孪生。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "SuperMap GIS 2026 技术体系：多源三维数据存储一体化",
+      "source_name": "超图软件官方",
+      "source_url": "https://www.supermap.com/zh-cn/a/product/gis-tec-4-2026.html",
+      "published_at": "2026-09-16（页面更新）",
+      "scenario": "超图 GIS 2026 全面融合倾斜摄影、激光点云、BIM、GIM、3DGS 高斯泼溅、建筑白模、城市精模、地形地质地下管线等多源异构数据，支持 IFC、CityGML 等标准直连。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "SuperMap AgentX Server 2026：自主规划式 GIS 智能体",
+      "source_name": "SuperMap 官方文档",
+      "source_url": "https://help.supermap.com/AgentXServer/zh/NewFeatures/NewFeatures.htm",
+      "published_at": "2026-10-09（页面更新）",
+      "scenario": "SuperMap AgentX Server 12.1.0.0 新增循环推理模式：面向持续运行与事件驱动场景的自主执行，对接远控通道、预设任务工作区，是 GIS 能力 Agent 化的厂商落地。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "PostGIS 3.7 开发版手册：空间索引与 ST_* 函数持续演进",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/stuff/postgis-3.7-en.pdf",
+      "published_at": "2026-10（开发版手册）",
+      "scenario": "PostGIS 3.7 开发版手册上线：GiST R-Tree 空间索引、几何/地理类型、拓扑与栅格支持持续演进，空间数据库底座版本跟踪。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Martin：Rust 写的 PostGIS 矢量瓦片服务器",
+      "source_name": "Hivebook（开源项目索引）",
+      "source_url": "https://www.hivebook.wiki/wiki/martin-rust-vector-tile-server",
+      "published_at": "2026-10-06（页面更新）",
+      "scenario": "Martin 从 PostGIS 动态生成矢量瓦片，支持 PMTiles/MBTiles、多数据源合并，适合自建地图底图。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "GraphGS：无需相机位姿，仅凭 RGB 图像重建大型 3D 开放场景",
+      "source_name": "CSDN 博客（港科广团队，ICLR 2025 论文）",
+      "source_url": "https://blog.csdn.net/Yong_Qi2015/article/details/146637125",
+      "published_at": "2026-10-06",
+      "scenario": "港科广 GraphGS：不依赖相机位姿，仅凭 RGB 实现大规模开放场景重建与新视角合成，代码即将开源，街景级线下数字化低成本路线。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范 2026-07-28 修订：无状态化与授权加固",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "2026-09-25（changelog 更新）",
+      "scenario": "MCP 2026-07-28 修订：协议层无状态化（移除会话与握手）、功能生命周期与弃用策略（SEP-2596）、OAuth/OIDC 授权一致性。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Magic Lane MCP Server：对话内嵌 MapLibre 矢量地图工具",
+      "source_name": "Magic Lane 官方 Changelog",
+      "source_url": "https://developer.magiclane.com/docs/guides/mcp-server/CHANGELOG/",
+      "published_at": "2026-08-12",
+      "scenario": "Magic Lane MCP 新增 Interactive Map：对话内直接显示 MapLibre GL JS 矢量瓦片地图，支持位置/路线/等时圈/往返五种展示。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "MCP TypeScript SDK 2.3.0：Audience-Bound Tokens 与传输变更",
+      "source_name": "Fluid Labs 技术博客",
+      "source_url": "https://fluidlabs.com/resources/mcp-sdk-2-3-0-audience-bound-tokens-transport-changes",
+      "published_at": "2026-10-06",
+      "scenario": "MCP TS SDK 2.3.0（10-02 发布）引入 audience-bound tokens 与传输层变更，强化授权令牌绑定。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Strands Agents SDK：AWS 开源 Python/TypeScript Agent 框架",
+      "source_name": "Hivebook（开源项目索引）",
+      "source_url": "https://hivebook.wiki/wiki/strands-agents-sdk-open-source-python-typescript-agent-framework-from-aws",
+      "published_at": "2026-10-08（页面更新）",
+      "scenario": "AWS 开源 Strands Agents SDK（Apache-2.0），Python v1.41、TS @strands-agents/sdk，云厂商 Agent 框架参照。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Microsoft Agent Framework 版本更新（10 月初 1.23/.NET、1.20/Python）",
+      "source_name": "Sim 框架评测目录",
+      "source_url": "https://www.sim.ai/library/best-multi-agent-frameworks-2026",
+      "published_at": "2026-10-06",
+      "scenario": "Microsoft Agent Framework（Semantic Kernel+AutoGen 统一后继，MIT）10-01/10-02 更新至 .NET 1.23.0 / Python 1.20.0。",
+      "verify_status": "待核实"
+    }
+  ]
+}
