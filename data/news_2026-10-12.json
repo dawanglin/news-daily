@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12 02:35:05 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 6,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 14,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "美国加州政府起诉 3D 打印耗材制造商 Polymaker，指控其助长幽灵枪制造",
+      "link": "https://www.ithome.com/1/011/696.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "工具发布",
+      "published": "10-11 21:12",
+      "ts": 1791724329,
+      "summary": "IT之家 10 月 11 日消息，据科技媒体 Tom's Hardware 今天报道，美国加利福尼亚州政府近期对 3D 打印耗材制造商 Polymaker LLC 提起诉讼，指控其面向枪支爱好者销售耗材，将原本无害的 PLA 材料转化为枪支零部件。根据加州法律，枪支前体部件被定义为“任何向公众销售或推广的物品，这些物件一旦完成组装或改装，将成为或用作功能性枪支的框架、枪身”。",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 113.21,
+      "relevance": 9
+    },
+    {
+      "title": "派早报：英伟达 RTX Spark 新品一览、Anthropic 发布 Claude Haiku 5.5 模型等",
+      "link": "https://sspai.com/post/115532",
+      "source": "少数派",
+      "signals": [
+        "少数派"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-09 08:51",
+      "ts": 1791507070,
+      "summary": "XMG 发布 PRO 18 系列笔记本、OpenAI 宣布在 ChatGPT 上线 GPT-6 模型 查看全文",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "数字生活来源",
+      "confidence_class": "professional",
+      "score": 190,
+      "relevance": 24
+    },
+    {
+      "title": "Claude 动态多 Agent 工作流开始公测，支持庞大的工作负载",
+      "link": "https://www.oschina.net/news/502951",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-10 18:21",
+      "ts": 1791627696,
+      "summary": "Claude 官方把动态多智能体工作流放进公开测试版了。Claude Managed Agents dynamic workflows，ClaudeDevs 的说法是一种新型多智能体编排，『为最庞大的工作负载而生』——一个主 agent 写计划，计划跨多个 agent 分阶段运行，最后合并结果。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 231,
+      "relevance": 31
+    },
+    {
+      "title": "Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&mid=2247525055&idx=1&sn=277da8b6b5971bb7697a29126a02230e&chksm=e984b1796746d655a9023329920dd4f7f0d9ec991657c58a8e4645f226b11f4d05093fc4c208&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-11 08:00",
+      "ts": 1791676800,
+      "summary": "Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 186.81,
+      "relevance": 22
+    },
+    {
+      "title": "Uber 在 Kubernetes 平台上将扩容意图与执行操作解耦",
+      "link": "https://www.infoq.cn/article/2SNgaiHoK808v22dl5SJ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "工具发布",
+      "published": "10-11 23:00",
+      "ts": 1791730800,
+      "summary": "Uber 在 Kubernetes 平台上将扩容意图与执行操作解耦",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 129.81,
+      "relevance": 9
+    },
+    {
+      "title": "Nano Banana 2.1 九种实战用法：从多图一致性到\"养图\"，附完整提示词",
+      "link": "https://www.oschina.net/news/502940",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "实测评价",
+      "published": "10-10 14:20",
+      "ts": 1791613224,
+      "summary": "写在前面：Flash 的价格，Pro 的能力 2026 年 10 月 6 日，Google 发布了 Nano Banana 2.1。名字只多了个小数点，底座却换成了 Gemini 3.6 Flash，思路也很明确：把以前只有 Pro 级模型才稳得住的能力 —— 多参考图一致性、复杂局部编辑、文字海报 —— 下放到 Flash 的成本和速度上。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 141,
+      "relevance": 13
+    },
+    {
+      "title": "DjangoAdmin 敏捷开发框架 Flask+NaiveVue 版本 v2.8.2 发布",
+      "link": "https://www.oschina.net/news/502930",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-10 10:38",
+      "ts": 1791599898,
+      "summary": "v2.8.2 更新内容： 1、大版本全新重构；基于 Flask、Vue3、TypeScript、NaiveUI、Vite、VueRouter 等技术栈构建的前后端分离企业级数据中台解决方案。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 141,
+      "relevance": 13
+    },
+    {
+      "title": "Axioms：非线性分数阶微分方程：理论与应用",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/2026109145628380156329.shtm?id=156329",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-09 22:56",
+      "ts": 1791557760,
+      "summary": "期刊名：Axioms 期刊主页：https://www.mdpi.com/journal/axioms 分数阶微积分是数学和应用数学的一个分支，由于其在建模、工程、数学生物学、金融建...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "跻身全球第一梯队：华为 × 华东师大联合研发时序预测基础模型，登顶国际权威时序测评双榜单",
+      "link": "https://www.ithome.com/1/011/631.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "实测评价",
+      "published": "10-11 16:30",
+      "ts": 1791707453,
+      "summary": "IT之家 10 月 11 日消息，据华为云官方消息，近日，华为公司 (华为云行业大模型团队 + 2012 应用场景创新实验室 + 小巧灵突击队) 与华东师范大学联合团队研发的昇腾原生时序预训练模型取得重磅突破， 成功登顶国际权威时序评测榜单 TIME-leaderboard 和 GIFT-Eval（Pretrained 类目） 。▲ TIME 评测榜单 ▲ GIFT-Eval 榜单（Pretrained 类目） 据介绍，时序基础模型作为人工智能赋能气象预测、能源调度、工业运…",
+      "why": "可练习把位置、数据和模糊关系连接起来。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 186.65,
+      "relevance": 24
+    },
+    {
+      "title": "人类愿意向女性形象的 AI 智能体支付的报酬低于男性形象智能体",
+      "link": "https://www.solidot.org/story?sid=85566",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "概念科普",
+      "published": "10-09 22:52",
+      "ts": 1791557554,
+      "summary": "如果你认为性别薪酬差距不存在，或者职场中没有性别偏见，那么最好重新思考下：根据爱尔兰 Limerick 大学研究人员展开的一项研究，在一个 VR 办公室里，基于相同的底层技术但形象不同的 AI 智能体，人类参与者愿意向男性形象的智能体支付的报酬比女性形象更高。参与研究的人类共有 189 人，他们与名叫 Johan 的男性形象智能体以及名叫 Johanna 的女性形象智能体共同工作。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 201,
+      "relevance": 27
+    },
+    {
+      "title": "利用柯尔莫哥洛夫-阿诺德网络解析干预性动态因果关系",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1556143",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "概念科普",
+      "published": "10-11 14:44",
+      "ts": 1791701093,
+      "summary": "利用柯尔莫哥洛夫-阿诺德网络解析干预性动态因果关系",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 182.06,
+      "relevance": 21
+    },
+    {
+      "title": "5 万 star 的 REA：把逆向工程变成 agent 的一项本地能力",
+      "link": "https://www.oschina.net/news/502941",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-10 14:29",
+      "ts": 1791613749,
+      "summary": "REA 是近日爆火的开源逆向工程工具——让 coding agent 具备检查/反编译程序的能力，「以你的 agent 来做逆向工程」。REA 想让你直接问 coding agent：这个 App 的某某功能是怎么实现的？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 181,
+      "relevance": 21
+    },
+    {
+      "title": "整理了 345 个 Skills 合集，网页里挑，桌面端直接装",
+      "link": "https://www.v2ex.com/t/1247826#reply0",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-11 16:12",
+      "ts": 1791706320,
+      "summary": "最近整理了一个 Skills 合集，也把它和之前做的桌面工具 Skills Hub 接到了一起，来分享一下。可以先逛合集，看看有哪些感兴趣的 Skills 。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 172.54,
+      "relevance": 22
+    },
+    {
+      "title": "iterm-agents：在 iTerm2 侧栏查看多个编程 agent 的状态",
+      "link": "https://www.v2ex.com/t/1247891#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "案例复盘",
+      "published": "10-11 22:25",
+      "ts": 1791728727,
+      "summary": "分享一下我维护的 iterm-agents ，一个放在 iTerm2 工具栏（ Toolbelt ）里的小面板。同时开几个编程 agent 时，要知道哪个还在跑、哪个刚结束，通常得来回看终端。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 171.62,
+      "relevance": 21
+    },
+    {
+      "title": "Rails 之父 DHH 狂吹 Rust 快 150 倍，被开发者翻代码后群嘲",
+      "link": "https://www.infoq.cn/article/jri7etqXIv2dp6RsiSHh?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "专家观点",
+      "published": "10-10 23:24",
+      "ts": 1791645850,
+      "summary": "Rails 之父 DHH 狂吹 Rust 快 150 倍，被开发者翻代码后群嘲",
+      "why": "分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 168,
+      "relevance": 18
+    },
+    {
+      "title": "我把 ChatGPT/Muse/Grok/Gemini 放在了一起...",
+      "link": "https://www.v2ex.com/t/1247896#reply0",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "10-11 22:52",
+      "ts": 1791730368,
+      "summary": "小弟近来开了一个小店，集中进行一些 ai 相关的服务 具体有 ChatGPT 代充、Muse 成品号、𝕏蓝 v 会员、Gemini 18 个月会员等等，还有一些其他的工具，就不一一说明了。网站地址 https://ai-sub.zturn.eu.org/ 目前价格 ChatGPT Plus 125 5x(100pro) 670 20x(200pro) 1130 直冲自己的号，无须账号密码，提供全程质保 支持微信支付宝，推荐用 U 支付。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 164.77,
+      "relevance": 20
+    },
+    {
+      "title": "被OpenAI解雇后，三名安全研究员联名公开信曝光内幕",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651061909&idx=2&sn=30027e00d2ab8a751577e8907620402a",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "10-09 12:01",
+      "ts": 1791518460,
+      "summary": "OpenAI必须保证前沿模型的可监测性。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 159,
+      "relevance": 16
+    },
+    {
+      "title": "利用 AI 代码智能体优化软件架构的五种方法",
+      "link": "https://www.infoq.cn/article/soRObi5sjdTTUM95zLJK?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-11 18:04",
+      "ts": 1791713071,
+      "summary": "利用 AI 代码智能体优化软件架构的五种方法",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 158.17,
+      "relevance": 15
+    },
+    {
+      "title": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/FTtTLqvzJeMiE03IowFP?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "10-11 18:00",
+      "ts": 1791712800,
+      "summary": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 158.14,
+      "relevance": 15
+    },
+    {
+      "title": "CTN：基于细胞间通讯和全局基因调控网络构建细胞类型特异性基因调控网络",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1556141",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "教程方法",
+      "published": "10-11 14:41",
+      "ts": 1791700916,
+      "summary": "CTN：基于细胞间通讯和全局基因调控网络构建细胞类型特异性基因调控网络",
+      "why": "可练习把位置、数据和模糊关系连接起来。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 152.04,
+      "relevance": 15
+    },
+    {
+      "title": "主要是平时工作总是忘东西，做了个会被动记忆方便我老年痴呆的小玩具： [Clipori] 一个开源的 Mac AI 剪切板备忘录",
+      "link": "https://www.v2ex.com/t/1247792#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-11 12:30",
+      "ts": 1791693006,
+      "summary": "演示 会自动保存复制的文字、链接、代码、截图和图片。支持 AI 自动分类内容 以及 AI 搜索，支持自定义 OpenAI / Claude 兼容服务。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 148.31,
+      "relevance": 17
+    },
+    {
+      "title": "[开源]刷了三天 AI 短剧，我一怒之下做了个全网最癫的不烧心 skill",
+      "link": "https://www.v2ex.com/t/1247906#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-11 23:28",
+      "ts": 1791732519,
+      "summary": "刷了三天 AI 短剧，全网只记住一句台词。我把这套「规矩体」做成了 Claude skill——bushaoxin 不烧心文学生成器：写文案、做评价、回怼样样行，喊一句「太烧了」它还能自动降火。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 146.97,
+      "relevance": 16
+    },
+    {
+      "title": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
+      "link": "https://www.qbitai.com/2026/10/502544.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-11 11:27",
+      "ts": 1791689228,
+      "summary": "Grok Bot我养不起，ds bot不得高低尝尝咸淡？",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 145.96,
+      "relevance": 13
+    },
+    {
+      "title": "西渝高铁全线建设进入关键攻坚阶段，建成后西安至重庆从 6 小时缩短至 2.5 小时",
+      "link": "https://www.ithome.com/1/011/707.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "四川生活",
+      "lens": "科技资讯",
+      "published": "10-11 22:20",
+      "ts": 1791728409,
+      "summary": "IT之家 10 月 11 日消息，据央视新闻今日报道，记者从京昆高速铁路西昆公司获悉，10 月 11 日，随着最后一次爆破作业顺利完成，西安至重庆高速铁路（以下简称“西渝高铁”）高升二号隧道贯通，为全线按期建成通车奠定坚实基础。高升二号隧道位于重庆市开州区，由中铁二院设计、中铁七局承建， 全长 7234 米 ，地质条件极为复杂，滑坡、岩堆、采空区、老窖积水、岩溶等不良地质交错分布，为 Ⅰ 级高风险隧道。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 143.59,
+      "relevance": 15
+    },
+    {
+      "title": "《VRChat》更新创作者指南：禁止使用 AI 生成误导性地图 / 角色缩略图，尚未决定上线“AI 标签”声明",
+      "link": "https://www.ithome.com/1/011/678.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "10-11 18:54",
+      "ts": 1791716095,
+      "summary": "IT之家 10 月 11 日消息，《VRChat》开发商 VRChat Inc. 于 10 月 7 日公布了针对 AI 生成内容的应对方针，同步更新创作者指南。官方明确禁止使用 AI 生成误导性地图 / 角色缩略图，避免创作者利用与实际内容完全不符的缩略图吸引玩家点击。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 142.45,
+      "relevance": 15
+    },
+    {
+      "title": "[转载]【NCM研究论文】氮掺杂碳纳米管泡沫用于锌离子混合超级电容器",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=100107&do=blog&id=1555973",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "概念科普",
+      "published": "10-10 12:47",
+      "ts": 1791607662,
+      "summary": "[转载]【NCM研究论文】氮掺杂碳纳米管泡沫用于锌离子混合超级电容器",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 118,
+      "relevance": 9
+    }
+  ]
+}
