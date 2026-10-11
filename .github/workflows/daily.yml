@@ -1,12 +1,12 @@
 name: Daily News Digest
 
-# 北京时间 17:07 至 23:07 每小时巡检，增加定时任务延迟或漏跑时的补跑机会。
+# 北京时间 22:00 与 23:00 巡检：22:00 主发，23:00 兜底补跑，落在 22-23 点窗口。
 # 当天快照首次成功生成后固定保留；后续巡检不会覆盖历史数据。
 on:
   push:
     branches: [main]
   schedule:
-    - cron: "7 9-15 * * *"
+    - cron: "0 14-15 * * *"
   workflow_dispatch: {}
 
 permissions:
