@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13 05:57:21 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 2,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 10,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 15,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "拓竹再发新品， 3D 扫描仪拓竹 S1 官宣 11 月见",
+      "link": "https://www.ithome.com/1/012/100.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "工具发布",
+      "published": "10-12 22:08",
+      "ts": 1791814083,
+      "summary": "IT之家 10 月 12 日消息，拓竹今日发布新品预告，拓竹 S1 3D 扫描仪 11 月见，官方宣传语为“专业扫描本该如此简单”。IT之家注意到，作为国内消费级 3D 打印机龙头企业，拓竹科技消费级 3D 打印机 国内累计销量已突破 100 万台 ，距其首款产品上市仅约 4 年。",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 142.39,
+      "relevance": 15
+    },
+    {
+      "title": "OpenClaw大更新！Skills、MCP Apps齐升级，用户却喊累了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651062250&idx=2&sn=4b583b388014abfa98ed7da7e2e36570",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "工具发布",
+      "published": "10-12 12:30",
+      "ts": 1791779400,
+      "summary": "无人在意的角落，OpenClaw又更新了。",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 156.18,
+      "relevance": 15
+    },
+    {
+      "title": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/FTtTLqvzJeMiE03IowFP?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "10-11 18:00",
+      "ts": 1791712800,
+      "summary": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "Claude 动态多 Agent 工作流开始公测，支持庞大的工作负载",
+      "link": "https://www.oschina.net/news/502951",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-10 18:21",
+      "ts": 1791627696,
+      "summary": "Claude 官方把动态多智能体工作流放进公开测试版了。Claude Managed Agents dynamic workflows，ClaudeDevs 的说法是一种新型多智能体编排，『为最庞大的工作负载而生』——一个主 agent 写计划，计划跨多个 agent 分阶段运行，最后合并结果。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 231,
+      "relevance": 31
+    },
+    {
+      "title": "Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&mid=2247525055&idx=1&sn=277da8b6b5971bb7697a29126a02230e&chksm=e984b1796746d655a9023329920dd4f7f0d9ec991657c58a8e4645f226b11f4d05093fc4c208&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-11 08:00",
+      "ts": 1791676800,
+      "summary": "Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 185,
+      "relevance": 22
+    },
+    {
+      "title": "Uber 在 Kubernetes 平台上将扩容意图与执行操作解耦",
+      "link": "https://www.infoq.cn/article/2SNgaiHoK808v22dl5SJ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "工具发布",
+      "published": "10-11 23:00",
+      "ts": 1791730800,
+      "summary": "Uber 在 Kubernetes 平台上将扩容意图与执行操作解耦",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 123,
+      "relevance": 9
+    },
+    {
+      "title": "SvelteKit 3 进入 RC：svelte.config.js 没了，$lib 也要退休",
+      "link": "https://www.infoq.cn/article/Hs5X7EdO6PNHk367zZv3?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "技术实践",
+      "published": "10-12 22:36",
+      "ts": 1791815760,
+      "summary": "SvelteKit 3 进入 RC：svelte.config.js 没了，$lib 也要退休",
+      "why": "可拆出一个界面、交互或游戏机制。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 158.55,
+      "relevance": 15
+    },
+    {
+      "title": "中国科大实现抗噪声量子密钥分发",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/20261012201415161156428.shtm?id=156428",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "教程方法",
+      "published": "10-12 01:30",
+      "ts": 1791739800,
+      "summary": "中国科学技术大学郭光灿院士团队的韩正甫、陈巍、银振强、王双等与河南省量子信息与量子密码重点实验室、南京邮电大学合作，针对量子通信实际应用中的强背景噪声问题，首次实现了基于优势提...",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 13
+    },
+    {
+      "title": "利用柯尔莫哥洛夫-阿诺德网络解析干预性动态因果关系",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1556143",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "概念科普",
+      "published": "10-11 14:44",
+      "ts": 1791701093,
+      "summary": "利用柯尔莫哥洛夫-阿诺德网络解析干预性动态因果关系",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 178,
+      "relevance": 21
+    },
+    {
+      "title": "AI 编程智能体生成了更多代码，但并没有生成更多软件",
+      "link": "https://www.solidot.org/story?sid=85589",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-12 18:01",
+      "ts": 1791799267,
+      "summary": "一项对数百家公司编程实践的研究发现，人工代码审查是 AI 编程工具整体效率的一大瓶颈，导致几乎没有证据表明企业使用 AI 工具能提高软件产量或减少就业。研究涵盖了 2021-2026 年 3 月间逾 700 家软件开发公司逾 70 万员工的 3 亿条工作事件（如 commits 和 pull requests）以及问题管理软件数据。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 205.02,
+      "relevance": 27
+    },
+    {
+      "title": "开发者公布开源项目 gbos-vm，可在 Apple Silicon 芯片苹果 Mac 上运行谷歌 Googlebook OS 系统",
+      "link": "https://www.ithome.com/1/012/050.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-12 18:48",
+      "ts": 1791802102,
+      "summary": "IT之家 10 月 12 日消息，据外媒 TweakTown 报道，开发者 Skylar Taylor-Barrick 近日发布了开源项目 gbos-vm，可以在搭载 Apple Silicon 芯片的 Mac 上通过支持 GPU 加速的虚拟机运行 Googlebook OS 系统，IT之家附 GitHub 项目地址（ https://github.com/skylartaylor/gbos-vm ）。公开信息显示，Googlebook OS 基于 Android 构建，使…",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 181.29,
+      "relevance": 23
+    },
+    {
+      "title": "Rails 之父 DHH 狂吹 Rust 快 150 倍，被开发者翻代码后群嘲",
+      "link": "https://www.infoq.cn/article/jri7etqXIv2dp6RsiSHh?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "专家观点",
+      "published": "10-10 23:24",
+      "ts": 1791645850,
+      "summary": "Rails 之父 DHH 狂吹 Rust 快 150 倍，被开发者翻代码后群嘲",
+      "why": "分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 168,
+      "relevance": 18
+    },
+    {
+      "title": "DatI 0.7.2 发布：在 Agent 中记录国庆假期行程与花费实战",
+      "link": "https://www.oschina.net/news/502970",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-12 11:26",
+      "ts": 1791775603,
+      "summary": "在很多人的印象里，大模型接入数据库（Data Agent / Text-to-SQL）往往等同于企业级只读 ChatBI：在电脑前问一句“上个月华东区销售额是多少”，模型生成一条 SELECT 查询，吐出一个图表。但如果数据库接入方式本身支持受控的写操作（CRUD）与业务语义沉淀，Agent 的能力边界会被彻底打开——它不再只是被动的查数工具，...",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 167.83,
+      "relevance": 18
+    },
+    {
+      "title": "给 DeepSeek Harness（DSH）装上 bot 插件，把 DSH 变成 bot 系统",
+      "link": "https://www.oschina.net/news/502968",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-12 10:36",
+      "ts": 1791772594,
+      "summary": "DeepSeek Harness 有了一个把它『Bot 化』的插件 —— DeepSeek Bot（DS Bot）做的事情一句话能讲清：支持你搭一个长期存在的 bot 团队——有主 bot、有 bot 之间互相发消息、有群聊。它自己申明得很清楚，这是独立社区项目，不是 DeepSeek 官方产品。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 157.55,
+      "relevance": 16
+    },
+    {
+      "title": "阿里千问发布 QwenGyre，面向超长程智能体任务的在线强化学习框架",
+      "link": "https://www.ithome.com/1/012/066.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-12 19:20",
+      "ts": 1791804043,
+      "summary": "IT之家 10 月 12 日消息，阿里千问今日正式发布 QwenGyre，这是一款面向长程智能体任务的在线强化学习框架。据官方介绍，当智能体承担复杂工作，一次执行往往持续数小时，模型与环境之间有数百轮相互依赖的交互，累计处理百万级 token。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 156.47,
+      "relevance": 18
+    },
+    {
+      "title": "全能 Go Agent 框架 covonaut v1.1.5 发布：改进检查点、Token用量与缓存",
+      "link": "https://www.oschina.net/news/502958",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-11 13:57",
+      "ts": 1791698261,
+      "summary": "covonaut 是一款面向 Go 的生产级 Agent 框架，提供完整的 LLM-工具循环、上下文压缩、重试与故障转移、生命周期钩子、分布式追踪，以及文件系统、Shell、浏览器、代码执行等内置工具，同时支持 MCP、A2A、ACP、AG-UI 等协议。本次更新共修改 121 个文件。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 156,
+      "relevance": 16
+    },
+    {
+      "title": "从记忆到自进化：Agent 走向 RSI 的关键一步",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651062063&idx=1&sn=f91d6b290b4a38685b85a47415870873",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "10-10 18:23",
+      "ts": 1791627780,
+      "summary": "AI 正在从帮助人类完成任务，走向参与自身的研发与改进。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "微软在 Qwen 模型基础上推出决策模型 Microsoft-Decision-1",
+      "link": "https://www.solidot.org/story?sid=85584",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "社区观察",
+      "published": "10-12 14:44",
+      "ts": 1791787463,
+      "summary": "微软加入了 Jev 粉丝俱乐部，推出了自己的决策模型。Jev 针对特定问题对大模型进行调优，减少“幻觉”，适用于各种商业应用场景。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 148.93,
+      "relevance": 16
+    },
+    {
+      "title": "CTN：基于细胞间通讯和全局基因调控网络构建细胞类型特异性基因调控网络",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1556141",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "教程方法",
+      "published": "10-11 14:41",
+      "ts": 1791700916,
+      "summary": "CTN：基于细胞间通讯和全局基因调控网络构建细胞类型特异性基因调控网络",
+      "why": "可练习把位置、数据和模糊关系连接起来。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 148,
+      "relevance": 15
+    },
+    {
+      "title": "我搞了一个 vibo 农场的游戏，可以用消耗的 AI Token 置换游戏内的钻石资源， coding 顺便放松一下",
+      "link": "https://www.v2ex.com/t/1248211#reply1",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "用户作品",
+      "published": "10-12 20:36",
+      "ts": 1791808611,
+      "summary": "可以让 codex claudecode 加入农场，用消耗的 token 数量来兑换游戏内的货币，可以砍树，搞木材厂，也可以种地收菜，可以盖房子等等，可以在 coding 的过程中是，顺便用消耗的 token 量来玩玩游戏，放松一下。还可以创建群组，几个朋友一起玩，共享一个排行榜 https://vibestead.org/zh/?",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 144.89,
+      "relevance": 16
+    },
+    {
+      "title": "做了个求职工具集： AI 简历 + 招聘网站自动填表插件",
+      "link": "https://www.v2ex.com/t/1248200#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-12 19:31",
+      "ts": 1791804716,
+      "summary": "大家好，我做了个求职工具集 SmartCV （ https://smartcv.cc ），网站之外最近把 Chrome 插件也做完了，来分享一下。为什么做这个 之前看机会的时候有两个特别烦的事： 每投一个岗位都要按 JD 改一遍简历，改完还不知道能不能过 ATS （机器筛选）那一关 每个招聘网站都要重新填一遍申请表单，几十个字段填到怀疑人生 围绕这两件事做了整套东西： 在线简历编辑器：25+ 模板，单栏、可解析结构（ ATS 友好），实时预览，导出 PDF / Word A…",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 144.53,
+      "relevance": 16
+    },
+    {
+      "title": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
+      "link": "https://www.qbitai.com/2026/10/502544.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-11 11:27",
+      "ts": 1791689228,
+      "summary": "Grok Bot我养不起，ds bot不得高低尝尝咸淡？",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 143,
+      "relevance": 13
+    },
+    {
+      "title": "微软详解 Edge 浏览器全新 AI 故障排查功能：整体类似聊天机器人，经用户同意后才会收集诊断数据",
+      "link": "https://www.ithome.com/1/012/069.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "案例复盘",
+      "published": "10-12 19:28",
+      "ts": 1791804504,
+      "summary": "IT之家 10 月 12 日消息，微软发文，对旗下 Edge 浏览器引入的“修复问题（Fix an isuue）”全新 AI 故障排查功能进行介绍，明确相应功能仅在用户主动启动排查流程并授权后，才会收集用户设备数据，且数据收集范围仅限于当前会话、仅用于排查故障。具体来看，相应“修复问题”功能集成在 Edge 设置中，整体类似一个 AI 聊天机器人，用户可以从预设的问题选项中进行选择，也可以自行输入提示词，由底层 AI 分析问题并给出解释和建议。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 141.51,
+      "relevance": 15
+    },
+    {
+      "title": "智谱新模型，490 tokens/s！",
+      "link": "https://www.qbitai.com/2026/10/502649.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "10-12 10:37",
+      "ts": 1791772624,
+      "summary": "GLM「速度仙人」来了？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 139.56,
+      "relevance": 12
+    },
+    {
+      "title": "ChatGPT共同创造者Liam Fedus：数学之后，AI该去实验室了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651062101&idx=1&sn=4fa34c4604540b68c52a577eec0cead7",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "概念科普",
+      "published": "10-11 12:31",
+      "ts": 1791693060,
+      "summary": "AI 能刷 722 篇数学论文，却（还）造不出一块超导体",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 139,
+      "relevance": 12
+    },
+    {
+      "title": "Axioms：非线性分数阶微分方程：理论与应用",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/2026109145628380156329.shtm?id=156329",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-09 22:56",
+      "ts": 1791557760,
+      "summary": "期刊名：Axioms 期刊主页：https://www.mdpi.com/journal/axioms 分数阶微积分是数学和应用数学的一个分支，由于其在建模、工程、数学生物学、金融建...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    }
+  ]
+}
