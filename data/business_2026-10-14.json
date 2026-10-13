@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-14",
+  "items": [
+    {
+      "title": "EchoPolicy-0：国产具身 VLM Agent 框架，抓取成功率 70%→94.4%",
+      "source_name": "量子位（今日头条）",
+      "source_url": "http://m.toutiao.com/group/7696106287554003490/",
+      "published_at": "2026-10-13",
+      "scenario": "魔法原子 MagicLab Studio 将视觉语言模型、几何操作工具与通用动作策略组织为统一 VLM Agent 框架 EchoPolicy-0，观察环境、理解目标、选择能力、执行动作、验证结果形成闭环，多任务共享同一套机制，逼近产线可用门槛。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Claude Managed Agents：dynamic workflows 公测，最多 1000 个 Agent 并行",
+      "source_name": "Genee（Anthropic 发布报道）",
+      "source_url": "https://www.genee.tech/blog/claude-managed-agents-dynamic-workflows-1000-agents-beta-2026",
+      "published_at": "2026-10-12",
+      "scenario": "Anthropic 于 10-09 开放 Claude Managed Agents dynamic workflows 公测：lead agent 将复杂任务分解为执行计划，分发给并行工作的专用 agents 再合并结果，支持大规模多 Agent 编排。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "OpenAI Agents SDK v0.14.0：Sandbox Agents 持久隔离工作区",
+      "source_name": "AI/TLDR（工具索引更新）",
+      "source_url": "https://ai-tldr.dev/tools/openai-agents-sdk/",
+      "published_at": "2026-10-13（页面更新）",
+      "scenario": "OpenAI Agents SDK 多 Agent Python 框架（GitHub 30k stars），v0.14.0 引入 Sandbox Agents：持久隔离工作区，Agent 执行环境沙箱化，值得测试的编排底座。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "ZCode（GLM-5.3 编程 Agent）：动态工作流编排多子代理",
+      "source_name": "ZCode 官方 changelog",
+      "source_url": "https://zcode.z.ai/cn/changelog",
+      "published_at": "2026-09-29（changelog 更新）",
+      "scenario": "ZCode 新增动态工作流：一段脚本编排多个子代理协作完成复杂任务，运行中的工作流可调整并发上限，办公/编程双模式。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "ArcGIS MCP Server：空间查询/要素分析/地图生成接入 Agent",
+      "source_name": "Glama MCP 目录（开源项目）",
+      "source_url": "https://glama.ai/mcp/servers/januarf121995/Geo-habilitacion-ArcGIS-en-Ecosistemas-Agenticos",
+      "published_at": "2026-10-13（页面更新）",
+      "scenario": "ArcGIS MCP Server 通过 ArcGIS REST API 提供空间查询、要素分析与地图生成工具，演示了 Claude+MCP 接入 ArcGIS Online/Enterprise 权威地理数据的路线。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "QgisRemoteMCP：QGIS Desktop 封装为 Docker MCP 服务端",
+      "source_name": "MCP World（开源项目索引）",
+      "source_url": "https://www.mcpworld.com/zh/detail/5014d1eb124aa184dcc65a34002bf7a3",
+      "published_at": "2026-10-04",
+      "scenario": "nic01asFr 将完整 QGIS Desktop 封装成可 Docker 部署的 MCP 服务端，为 AI 提供数据加载、空间分析、地图制图与多格式导出，适合远程 GIS 工作流。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "WAI QGIS MCP：AI 直接驱动 QGIS 加载/制图/自动化 PyQGIS",
+      "source_name": "npm（开源包）",
+      "source_url": "https://www.npmjs.com/package/qgis-mcp",
+      "published_at": "2026-09-26（包更新）",
+      "scenario": "WAI QGIS MCP（jjsantos01/qgis_mcp 分支）让 AI 助手直接检查项目与图层、加载数据、运行 Processing 算法、样式化地图、渲染图像并自动化 PyQGIS 任务。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "百度地图 MCP：中国首个支持 MCP 的地图服务",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/10007",
+      "published_at": "2026-10-08（页面收录）",
+      "scenario": "百度地图 MCP 服务器为开源 LBS 方案，提供地理编码、POI 搜索、路线规划、天气、交通等地理空间 API，需配置 BAIDU_MAPS_API_KEY 环境变量，地图服务 MCP 化的国内对照样本。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "BlitzGS：城市级 3DGS 闪电重建（arXiv）",
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/html/2605.13794",
+      "published_at": "2026-09-17（页面更新）",
+      "scenario": "BlitzGS 针对城市级高斯泼溅训练昂贵问题（每轮预处理/通信/光栅化开销），提出闪电级加速方案，数字孪生与航测场景值得关注。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MetroGS（CVPR 2026）解读：城市大场景重建几何与渲染双提升",
+      "source_name": "PaperNotes（论文解读）",
+      "source_url": "https://papernotes.org/CVPR2026/3d_vision/metrogs_efficient_and_stable_reconstruction_of_geometrically_accurate_high-fidel/",
+      "published_at": "2026-09-28（页面更新）",
+      "scenario": "MetroGS 以分布式 2DGS 为骨干，配合点云稠密增强、渐进式单目/多视图混合几何精修与深度引导外观建模，城市级场景几何精度（F1）与渲染质量（PSNR）双高，训练时间仅需 CityGSV2 的一部分。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "SHARPSPLAT：边缘正则化 3DGS 高保真建筑重建（UAV 图像）",
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/html/2607.03872",
+      "published_at": "2026-09-16（页面更新）",
+      "scenario": "SHARPSPLAT 用 SAM 3 生成建筑掩码并提取语义边缘，监督 3DGS 产生清晰的建筑边界，解决无人机影像建筑重建的边缘模糊问题。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "GDAL MCP：带方法论反思中间件的空间分析 MCP",
+      "source_name": "LobeHub MCP 目录",
+      "source_url": "https://lobehub.com/mcp?category=science-education&q=geospatial",
+      "published_at": "2026-08-31（页面收录）",
+      "scenario": "GDAL MCP 提供 AI Agent 空间分析能力，并通过反思中间件要求 Agent 论证其方法学选择；可配置 GDAL_MCP_WORKSPACES 环境变量接入外部地理数据文件。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Cesium ion MCP Server（持续跟踪）：3D 地理数据直连 AI 工具",
+      "source_name": "Cesium 官方博客",
+      "source_url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/",
+      "published_at": "2026-10-12",
+      "scenario": "Cesium ion MCP Server 支持 Claude Code/OpenAI Codex/Cursor/GitHub Copilot/Claude Desktop 直接调用 3D 地理数据，GIS 数据服务 MCP 化的厂商级动作，持续观察其 API 与限制。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "腾讯位置大数据 MCP（持续跟踪）：人口与流量时空数据",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/11760",
+      "published_at": "2026-10-07",
+      "scenario": "腾讯位置大数据 MCP 提供区域基础信息、实时人流统计、历史数据统计接口，适合商圈客流分析场景的 MCP 化调用，跟踪其接入条件与配额。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "MCP 规范 2026-07-28（持续跟踪）：无状态化与授权加固",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "2026-09-25（changelog 更新）",
+      "scenario": "MCP 2026-07-28 修订：协议无状态化、功能生命周期 SEP-2596、OAuth/OIDC 授权一致性，所有 MCP 服务端实现需对齐。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "PostGIS 3.7 开发版手册（持续跟踪）：空间数据库底座",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/stuff/postgis-3.7-en.pdf",
+      "published_at": "2026-10（开发版手册）",
+      "scenario": "PostGIS 3.7 开发版手册：GiST R-Tree 空间索引、几何/地理类型、拓扑栅格支持演进，自建空间库选型基线。",
+      "verify_status": "已查证"
+    }
+  ]
+}
