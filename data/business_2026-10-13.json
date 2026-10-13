@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-13",
+  "items": [
+    {
+      "title": "Cesium ion MCP Server 发布：3D 地理数据直连 AI 工具链",
+      "source_name": "Cesium 官方博客",
+      "source_url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/",
+      "published_at": "2026-10-12",
+      "scenario": "Cesium ion MCP Server 支持 Claude Code、OpenAI Codex、Cursor、GitHub Copilot 与 Claude Desktop/ChatGPT 直接调用 3D 地理数据，GIS 数据服务 MCP 化的重要厂商动作。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "ArcGIS 地理化 LLM 的 MCP 实现（Esri 用户大会演示）",
+      "source_name": "Glama MCP 目录（开源项目）",
+      "source_url": "https://glama.ai/mcp/servers/januarf121995/Geo-habilitacion-ArcGIS-en-Ecosistemas-Agenticos",
+      "published_at": "2026-10-12（页面更新）",
+      "scenario": "基于 Esri 用户大会演示的开源实现：通过 MCP 把 Claude 等 LLM 连接到 ArcGIS Online/Enterprise 权威地理数据，让 Agent 直接操作 GIS 数据。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "腾讯位置大数据 MCP：人口与流量时空数据查询",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/11760",
+      "published_at": "2026-10-07",
+      "scenario": "腾讯位置大数据 MCP 提供区域基础信息、实时人流统计、历史数据统计等接口，基于腾讯位置服务海量生态数据，适合商圈人流分析等场景的 MCP 化调用。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "UrbanGS（ICLR 2026）：城市级 3D 重建渲染/几何/内存三重 SOTA",
+      "source_name": "CSDN 博客（论文解读）",
+      "source_url": "https://blog.csdn.net/Yong_Qi2015/article/details/157965536",
+      "published_at": "2026-10-11",
+      "scenario": "UrbanGS 用深度一致正则化+自适应高斯剪枝+分区策略解决 3DGS 城市重建的几何一致性与内存问题，适合实景三维/城市数字孪生场景。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "TUM SPARF：百万级稀疏辐射场数据集",
+      "source_name": "TUM Visual Computing 实验室",
+      "source_url": "https://www.niessnerlab.org/publications.html",
+      "published_at": "2026-10-12（页面更新）",
+      "scenario": "SPARF 提供约 100 万稀疏辐射场与 1700 万张带位姿图像，配合 SuRFNet 生成管线，是稀疏视角 3D 表示学习的大规模训练基础设施。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Meridian：AI 通过 MCP 驱动 QGIS",
+      "source_name": "LobeHub MCP 目录（开源项目）",
+      "source_url": "https://lobehub.com/mcp?q=qgis",
+      "published_at": "2026-10-09（页面收录）",
+      "scenario": "Meridian 在 QGIS 内起 HTTP 服务把 PyQGIS 暴露给 MCP 客户端，AI 可直接操作 QGIS 做空间分析，支持共享密钥认证，是桌面 GIS 被 Agent 调用的路线。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Axion Planetary MCP：自然语言访问 Google Earth Engine",
+      "source_name": "LobeHub MCP 目录",
+      "source_url": "https://lobehub.com/mcp?q=sensing",
+      "published_at": "2026-10-08（页面收录）",
+      "scenario": "Axion Planetary MCP 连接 Google Earth Engine 与 Claude Desktop，自然语言做地理空间分析与卫星数据访问；需 GEE 服务账号密钥，适合遥感数据分析原型。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "DLWM（CVPR 2026）：3DGS 双世界模型革新自动驾驶",
+      "source_name": "CSDN 博客（论文解读）",
+      "source_url": "https://blog.csdn.net/Yong_Qi2015/article/details/160535690",
+      "published_at": "2026-10-06",
+      "scenario": "港科大与华为的 DLWM 用 3DGS 双世界模型告别 3D 标注，驱动自动驾驶场景理解，是空间感知在车端的前沿方向。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "高德 JS API V2.0：逆地理编码修复 towncode 字段",
+      "source_name": "高德开放平台",
+      "source_url": "https://lbs.amap.com/api/javascript-api-v2/changelog",
+      "published_at": "2026-10-08（页面更新）",
+      "scenario": "高德 JS API 更新日志修复逆地理编码 result 缺少 towncode 的问题，并透传海外逆地理编码，前端地理编码细节改进。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "gis-mcp 0.15.0：GIS 操作 MCP 封装",
+      "source_name": "PyPI（开源包）",
+      "source_url": "https://pypi.org/project/gis-mcp/",
+      "published_at": "2026-10-04（包更新）",
+      "scenario": "gis-mcp（MIT）把 GIS 常用操作封装为 MCP 工具，Python 3.10+，适合自建 GIS Agent 工具链。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Cesium Map for Codex 010：交互式 3D 地图进 AI 对话",
+      "source_name": "Undercode News",
+      "source_url": "https://undercodenews.com/cesium-map-for-codex-010-arrives-as-a-community-beta-bringing-interactive-3d-maps-into-ai-conversations-video/",
+      "published_at": "2026-10-06",
+      "scenario": "cesium-mcp 以 codex plugin 形式安装，把交互式 3D 地图带入 AI 编码对话，地图能力插件化的社区实践。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "GenRe：扩散引导的城市场景重建增强器（arXiv）",
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/html/2605.22420v1",
+      "published_at": "2026-09-30（页面更新）",
+      "scenario": "GenRe 对任意预训练 3D 高斯表示做扩散先验蒸馏，几分钟内修正城市场景重建缺陷（如换道等动态部分），是 3DGS 重建后处理的工具性方法。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范 2026-07-28：无状态化与授权加固（持续跟踪）",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "2026-09-25（changelog 更新）",
+      "scenario": "MCP 2026-07-28 修订正式生效：无状态化、功能生命周期 SEP-2596、OAuth/OIDC 授权一致性，所有 MCP 服务端实现需跟踪。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "PostGIS 3.7 开发版手册：空间数据库底座版本跟踪",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/stuff/postgis-3.7-en.pdf",
+      "published_at": "2026-10（开发版手册）",
+      "scenario": "PostGIS 3.7 开发版手册：GiST R-Tree 空间索引、几何/地理类型、拓扑栅格支持演进，自建空间库选型基线。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Strands Agents SDK：AWS 开源 Agent 框架（持续跟踪）",
+      "source_name": "Hivebook（开源项目索引）",
+      "source_url": "https://hivebook.wiki/wiki/strands-agents-sdk-open-source-python-typescript-agent-framework-from-aws",
+      "published_at": "2026-10-08（页面更新）",
+      "scenario": "AWS Strands Agents SDK（Apache-2.0）：Python v1.41、TS @strands-agents/sdk，模型驱动 Agent 框架，Agent 编排工程化参照。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Agent Room：MCP 上的多智能体协作层（持续跟踪）",
+      "source_name": "LobeHub MCP 目录",
+      "source_url": "https://lobehub.com/mcp?category=all&q=multi-agent",
+      "published_at": "2026-10-07（页面收录）",
+      "scenario": "Agent Room 基于 MCP 的多智能体协作层：跨机器分布式开发、代码评审、PR 交接，支持 Claude Code/Cursor/Codex/Gemini。",
+      "verify_status": "待核实"
+    }
+  ]
+}

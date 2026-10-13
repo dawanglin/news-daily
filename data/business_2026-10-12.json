@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "title": "Cesium ion MCP Server 发布：把 3D 地理数据接入 AI 工具",
+      "source_name": "Cesium 官方博客",
+      "source_url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/",
+      "published_at": "2026-10-12",
+      "scenario": "Cesium 发布 ion MCP Server，把 3D 地理空间数据接入 Claude Code、OpenAI Codex、Cursor、GitHub Copilot 及 Claude Desktop/ChatGPT，非开发者也能通过自然语言调用 3D 地理数据。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "腾讯位置大数据 MCP：人口与流量时空数据查询",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/11760",
+      "published_at": "2026-10-07",
+      "scenario": "腾讯位置大数据 MCP 基于腾讯位置服务海量生态数据，提供区域基础信息、实时人流统计、历史数据统计等接口，为人地物多维时空数据查询与趋势预测提供 MCP 封装。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Meridian：让 AI 通过 MCP 控制 QGIS",
+      "source_name": "LobeHub MCP 目录（开源项目）",
+      "source_url": "https://lobehub.com/mcp?q=qgis",
+      "published_at": "2026-10-09（页面收录）",
+      "scenario": "Meridian 在 QGIS 内部运行 HTTP 服务，把 PyQGIS 暴露给任何 MCP 客户端，AI 助手可通过 MCP 直接驱动 QGIS 做空间操作；可选 QGIS_MCP_TOKEN 做共享密钥认证。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Axion Planetary MCP：自然语言调用 Google Earth Engine",
+      "source_name": "LobeHub MCP 目录",
+      "source_url": "https://lobehub.com/mcp?q=sensing",
+      "published_at": "2026-10-08（页面收录）",
+      "scenario": "Axion Planetary MCP 连接 Google Earth Engine 与 Claude Desktop，支持通过自然语言做地理空间分析与卫星数据访问，需配置 Google Earth Engine 服务账号 JSON 密钥。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "UrbanGS（ICLR 2026）：城市级大规模 3D 场景重建三重 SOTA",
+      "source_name": "CSDN 博客（论文解读）",
+      "source_url": "https://blog.csdn.net/Yong_Qi2015/article/details/157965536",
+      "published_at": "2026-10-11",
+      "scenario": "UrbanGS 面向城市级大规模场景重建，用深度一致 D-法向正则化、空间自适应高斯剪枝与分区策略，解决 3DGS 在几何一致性、内存效率与计算开销上的问题，渲染质量/几何精度/内存效率三重 SOTA。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "DLWM（CVPR 2026）：港科大与华为的 3DGS 双世界模型自动驾驶方案",
+      "source_name": "CSDN 博客（论文解读）",
+      "source_url": "https://blog.csdn.net/Yong_Qi2015/article/details/160535690",
+      "published_at": "2026-10-06",
+      "scenario": "港科大沈劭劼团队与华为提出 DLWM：3DGS 双世界模型，用无标注 3D 重建驱动自动驾驶场景理解，是 3D 感知在车端落地的前沿方向。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "TUM SPARF：百万级稀疏辐射场数据集与 SuRFNet",
+      "source_name": "TUM Visual Computing 实验室",
+      "source_url": "https://www.niessnerlab.org/publications.html",
+      "published_at": "2026-10-12（页面更新）",
+      "scenario": "TUM 发布 SPARF：约 100 万稀疏辐射场、1700 万张带位姿图像的训练数据集，配合 SuRFNet 生成管线，为大场景 3D 表示学习提供数据基础设施。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "高德 JS API V2.0 更新：修复逆地理编码 towncode 字段",
+      "source_name": "高德开放平台",
+      "source_url": "https://lbs.amap.com/api/javascript-api-v2/changelog",
+      "published_at": "2026-10-08（页面更新）",
+      "scenario": "高德地图 JavaScript API V2.0 更新日志修复逆地理编码返回结果缺少 towncode 字段的问题，并透传海外逆地理编码结果，前端地理编码可用性细节改进。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "gis-mcp 0.15.0：GIS 能力 MCP 封装（PyPI）",
+      "source_name": "PyPI（开源包）",
+      "source_url": "https://pypi.org/project/gis-mcp/",
+      "published_at": "2026-10-04（包更新）",
+      "scenario": "gis-mcp（MIT）为开发者提供 GIS 操作的 MCP 封装，Python 3.10+ 可用，是 GIS 工具协议化的轻量组件。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Cesium Map for Codex 010：3D 地图进入 AI 对话（社区 Beta）",
+      "source_name": "Undercode News",
+      "source_url": "https://undercodenews.com/cesium-map-for-codex-010-arrives-as-a-community-beta-bringing-interactive-3d-maps-into-ai-conversations-video/",
+      "published_at": "2026-10-06",
+      "scenario": "Cesium Map for Codex 010 社区 Beta：通过 codex plugin marketplace 安装 cesium-mcp，把交互式 3D 地图带入 AI 编码对话，地图能力插件化。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MetroGS（CVPR 2026）：城市大场景 3DGS 高效稳定重建",
+      "source_name": "HyperAI（论文页）",
+      "source_url": "https://hyper.ai/en/papers/cvpr__2026__Chen_MetroGS_Efficient_and_Stable_Reconstruction_of_Geometrically_Accurate_High-Fidelity_Large-Scale_CVPR_2026_paper",
+      "published_at": "2026-09-30（页面更新）",
+      "scenario": "MetroGS 基于分布式 2D 高斯泼溅，解决城市复杂环境中 3DGS 重建的几何保真与稳定性问题，是大型城市场景重建的候选方案。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS 3.7 开发版手册：空间索引与 ST_* 函数持续演进",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/stuff/postgis-3.7-en.pdf",
+      "published_at": "2026-10（开发版手册）",
+      "scenario": "PostGIS 3.7 开发版手册上线：GiST R-Tree 空间索引、几何/地理类型、拓扑与栅格支持持续演进，空间数据库底座版本跟踪。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "MCP 规范 2026-07-28 修订：无状态化与授权加固",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "2026-09-25（changelog 更新）",
+      "scenario": "MCP 2026-07-28 修订：协议层无状态化（移除会话与握手）、功能生命周期与弃用策略（SEP-2596）、OAuth/OIDC 授权一致性，远程 MCP 服务器与普通 HTTP 工作负载对齐。",
+      "verify_status": "已查证"
+    }
+  ]
+}
