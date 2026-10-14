@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f4ee"><meta name="description" content="每日情报简报：筛掉政治造势，留下能理解、能尝试、能落地的信息。"><title>每日情报简报 - 2026-10-15</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f6f4ee;
+  --panel: #fbfaf6;
+  --ink: #24313c;
+  --body: #38454f;
+  --muted: #6c7984;
+  --line: #dfe4e6;
+  --news: #2f7d66;
+  --news-soft: #e2eee9;
+  --biz: #a5672f;
+  --biz-soft: #f3eadb;
+  --focus: #2f7d66;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 16px;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--news); color: #fff; }
+a { color: inherit; }
+.mast { padding: 34px 40px 22px; border-bottom: 1px solid var(--line); }
+.mast-inner, .page, .footer-inner { width: min(100% - 64px, 1200px); margin-inline: auto; }
+.mast-top { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+.mast-links { display: inline-flex; align-items: center; gap: 22px; font-size: 14px; }
+.mast-links a { text-decoration: none; color: var(--muted); padding: 6px 2px; border-bottom: 2px solid transparent; }
+.mast-links a:hover { color: var(--ink); border-bottom-color: var(--news); }
+.mast h1 { margin: 26px 0 4px; font-size: 34px; line-height: 1.15; letter-spacing: -.01em; }
+.mast .subtitle { margin: 0 0 12px; font-size: 17px; color: var(--body); }
+.mast .meta { margin: 0; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.mast .direction { margin: 18px 0 0; color: var(--body); font-size: 14px; border-left: 3px solid var(--news); padding-left: 12px; }
+.layout { display: block; padding: 30px 0 20px; }
+.section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; padding: 0 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
+.section-heading h2 { margin: 0; font-size: 18px; line-height: 1.3; letter-spacing: -.01em; }
+.section-heading > span { color: var(--muted); font-size: 12px; }
+.head-right { display: inline-flex; align-items: baseline; gap: 14px; }
+.quick-jump { color: var(--biz); font-weight: 650; text-decoration: none; }
+.quick-jump:hover { text-decoration: underline; }
+.story { padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
+.story-title { display: block; font-size: 19px; font-weight: 680; line-height: 1.5; text-decoration: none; overflow-wrap: anywhere; }
+.story-title:hover { color: var(--news); }
+.story-title::after { content: "↗"; display: inline-block; margin-left: .3em; color: var(--news); font-size: .72em; font-weight: 500; transform: translateY(-.05em); }
+.story-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.story-meta .topic { padding: 1px 8px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-weight: 600; }
+.story-meta .lens { color: var(--news); font-weight: 600; }
+.story-meta .source, .story-meta .published { font-variant-numeric: tabular-nums; }
+.confidence { color: var(--muted); }
+.confidence.verified { color: var(--news); }
+.confidence.signal { color: var(--biz); }
+.story-summary { margin: 11px 0 0; color: var(--body); font-size: 15px; line-height: 1.82; overflow-wrap: anywhere; }
+.story-why { display: grid; grid-template-columns: auto 1fr; gap: 10px; margin: 13px 0 0; color: var(--body); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+.story-why strong { align-self: start; color: var(--news); font-size: 12px; font-weight: 650; white-space: nowrap; }
+.archive-link { margin-top: 22px; }
+.archive-link a { color: var(--news); font-size: 13px; }
+.col-business { margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--line); }
+.col-business .section-heading { border-bottom-color: #e6dcc9; }
+.col-business h2 { color: var(--biz); }
+.biz { margin: 0 0 22px; padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
+.biz-title { margin: 0; font-size: 19px; font-weight: 680; line-height: 1.5; }
+.biz-title a { text-decoration: none; }
+.biz-title a::after { content: "↗"; display: inline-block; margin-left: .3em; color: var(--biz); font-size: .72em; font-weight: 500; transform: translateY(-.05em); }
+.biz-title a:hover { color: var(--biz); }
+.biz-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; font-variant-numeric: tabular-nums; }
+.biz-status { margin-left: 8px; padding: 1px 6px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-size: 11px; }
+.biz-status.pending { background: var(--biz-soft); color: #7c4c24; }
+.biz-summary { margin: 11px 0 0; color: var(--body); font-size: 15px; line-height: 1.82; overflow-wrap: anywhere; }
+.biz-empty, .biz-note { color: var(--muted); font-size: 13px; line-height: 1.7; }
+.biz-note { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line); }
+footer { padding: 26px 40px 40px; border-top: 1px solid var(--line); background: var(--panel); color: var(--muted); font-size: 12px; line-height: 1.8; }
+.footer-note { margin-top: 9px; }
+.archive-panel h2 { margin: 20px 0 8px; font-size: 21px; }
+.archive-intro { margin: 0 0 8px; color: var(--muted); font-size: 13px; }
+.archive-list { list-style: none; padding: 0; margin: 0; }
+.archive-list li { padding: 20px 0; border-top: 1px solid var(--line); }
+.archive-list a { display: block; min-height: 44px; text-decoration: none; font-size: 16px; line-height: 1.65; }
+.archive-list .issue { display: block; margin-bottom: 3px; color: var(--news); font-weight: 700; font-variant-numeric: tabular-nums; }
+.edition-meta { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
+.back { display: inline-block; margin: 20px 0 8px; color: var(--news); text-decoration: none; font-size: 14px; }
+a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 3px; }
+html { scroll-behavior: smooth; }
+@media (hover: hover) { .mast-links a:hover, .story-title:hover, .biz-title a:hover { color: var(--news); } }
+@media (max-width: 960px) { .mast, footer { padding-left: 22px; padding-right: 22px; } .mast-inner, .page, .footer-inner { width: min(100% - 32px, 1200px); } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style></head><body>
+<header class="mast"><div class="mast-inner"><div class="mast-top"><nav class="mast-links" aria-label="栏目导航"><a href="#news">新闻情报</a><a href="../archive/">历史新闻</a><a href="#business">商业建设观察</a><a href="https://dawanglin.github.io/youhui-pages/?date=2026-10-15" target="_blank" rel="noopener noreferrer">生活优惠</a></nav></div><h1>每日情报简报</h1><p class="subtitle">今日动态与可落地线索</p><p class="meta">2026年10月15日 星期四 · 共 26 条</p><p class="direction">筛掉政治造势，留下能理解、能尝试、能落地的信息。</p></div></header>
+<main class="page"><div class="layout"><section id="news" class="col-news"><div class="section-heading"><h2>新闻情报</h2><span class="head-right">26 条 · 按阅读价值排序<a class="quick-jump" href="#business">直达商业观察</a></span></div><section class="feed">
+      <article class="story" data-news-title="OpenClaw大更新！Skills、MCP Apps齐升级，用户却喊累了" data-news-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651062250&amp;idx=2&amp;sn=4b583b388014abfa98ed7da7e2e36570" data-news-source="机器之心" data-news-time="10-12 12:30" data-news-summary="无人在意的角落，OpenClaw又更新了。">
+        <a class="story-title" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651062250&amp;idx=2&amp;sn=4b583b388014abfa98ed7da7e2e36570" target="_blank" rel="noopener noreferrer">OpenClaw大更新！Skills、MCP Apps齐升级，用户却喊累了</a>
+        <div class="story-meta">
+          <span class="topic">MCP与地图接口</span>
+          <span class="lens">工具发布</span>
+          <span class="source">机器之心</span>
+          <span class="published">10-12 12:30</span>
+          <span class="confidence professional">AI 专业来源</span>
+        </div>
+        <p class="story-summary">无人在意的角落，OpenClaw又更新了。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="STEPX首款大模型原生智能体手机STEPX Neo正式发布" data-news-url="https://www.qbitai.com/2026/10/503201.html" data-news-source="量子位" data-news-time="10-14 14:45" data-news-summary="2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布">
+        <a class="story-title" href="https://www.qbitai.com/2026/10/503201.html" target="_blank" rel="noopener noreferrer">STEPX首款大模型原生智能体手机STEPX Neo正式发布</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">工具发布</span>
+          <span class="source">量子位</span>
+          <span class="published">10-14 14:45</span>
+          <span class="confidence professional">AI 专业来源</span>
+        </div>
+        <p class="story-summary">2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构" data-news-url="https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-14 01:41" data-news-summary="Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构">
+        <a class="story-title" href="https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">教程方法</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-14 01:41</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了" data-news-url="http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&amp;mid=2247525055&amp;idx=1&amp;sn=277da8b6b5971bb7697a29126a02230e&amp;chksm=e984b1796746d655a9023329920dd4f7f0d9ec991657c58a8e4645f226b11f4d05093fc4c208&amp;scene=0#rd" data-news-source="前端技术精选" data-news-time="10-11 08:00" data-news-summary="Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了">
+        <a class="story-title" href="http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&amp;mid=2247525055&amp;idx=1&amp;sn=277da8b6b5971bb7697a29126a02230e&amp;chksm=e984b1796746d655a9023329920dd4f7f0d9ec991657c58a8e4645f226b11f4d05093fc4c208&amp;scene=0#rd" target="_blank" rel="noopener noreferrer">Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">前端技术精选</span>
+          <span class="published">10-11 08:00</span>
+          <span class="confidence professional">前端专业精选</span>
+        </div>
+        <p class="story-summary">Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="NepBox 一个免费的域名解析站" data-news-url="https://www.v2ex.com/t/1248797#reply2" data-news-source="V2EX·创造" data-news-time="10-14 18:04" data-news-summary="做了一个免费的域名站，类似 Duck DNS 那种，地址是 https://www.nepbox.com 欢迎尝鲜！主要功能有： 使用 Google 一键登录免注册表单 免费分发 *.nepbox.com 域名给用户使用 可以添加一个 A 类 + 一个 AAAA 类的解析，实际的域名解析由 CF 来实现 支持使用一行 curl 命令更新解析地址，非常适合添加定时任务来实现 DDNS 支持绑定 TG 接收消息通知，IP 变更了能第一时间收到提醒 每个域名保留最多 20 条历史…">
+        <a class="story-title" href="https://www.v2ex.com/t/1248797#reply2" target="_blank" rel="noopener noreferrer">NepBox 一个免费的域名解析站</a>
+        <div class="story-meta">
+          <span class="topic">云服务器</span>
+          <span class="lens">教程方法</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-14 18:04</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">做了一个免费的域名站，类似 Duck DNS 那种，地址是 https://www.nepbox.com 欢迎尝鲜！主要功能有： 使用 Google 一键登录免注册表单 免费分发 *.nepbox.com 域名给用户使用 可以添加一个 A 类 + 一个 AAAA 类的解析，实际的域名解析由 CF 来实现 支持使用一行 curl 命令更新解析地址，非常适合添加定时任务来实现 DDNS 支持绑定 TG 接收消息通知，IP 变更了能第一时间收到提醒 每个域名保留最多 20 条历史…</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较部署难度、月度成本和数据位置，优先试最小可运行方案。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="PS5 越狱商店 Overdrive 被索尼勒令关停后，克隆版本数小时内重新上线" data-news-url="https://www.ithome.com/1/013/111.htm" data-news-source="IT之家" data-news-time="10-14 22:00" data-news-summary="IT之家 10 月 14 日消息，索尼 SIE 已开始对 PS5 越狱开发者采取法律行动，一个名为 Overdrive 的游戏商店已被关闭。不过，原项目关闭后，GitHub 上随即又出现了两个新的仓库，分别为原项目的分支版本和使用不同账号发布的克隆版本。">
+        <a class="story-title" href="https://www.ithome.com/1/013/111.htm" target="_blank" rel="noopener noreferrer">PS5 越狱商店 Overdrive 被索尼勒令关停后，克隆版本数小时内重新上线</a>
+        <div class="story-meta">
+          <span class="topic">提示词</span>
+          <span class="lens">工具发布</span>
+          <span class="source">IT之家</span>
+          <span class="published">10-14 22:00</span>
+          <span class="confidence professional">科技资讯来源</span>
+        </div>
+        <p class="story-summary">IT之家 10 月 14 日消息，索尼 SIE 已开始对 PS5 越狱开发者采取法律行动，一个名为 Overdrive 的游戏商店已被关闭。不过，原项目关闭后，GitHub 上随即又出现了两个新的仓库，分别为原项目的分支版本和使用不同账号发布的克隆版本。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="《RimWorld》将游戏引擎从 Unity 切换到 Waylith Engine" data-news-url="https://www.solidot.org/story?sid=85599" data-news-source="Solidot" data-news-time="10-13 18:15" data-news-summary="著名基地建造与管理游戏《RimWorld》开发商 Ludeon Studios 宣布释出 v1.7 版本，将游戏引擎从 Unity 切换到自研的 Waylith Engine，性能提升了 2-4 倍。Ludeon Studios 称，游戏的外观和玩法完全一致。">
+        <a class="story-title" href="https://www.solidot.org/story?sid=85599" target="_blank" rel="noopener noreferrer">《RimWorld》将游戏引擎从 Unity 切换到 Waylith Engine</a>
+        <div class="story-meta">
+          <span class="topic">网页小游戏</span>
+          <span class="lens">工具发布</span>
+          <span class="source">Solidot</span>
+          <span class="published">10-13 18:15</span>
+          <span class="confidence professional">科技社区来源</span>
+        </div>
+        <p class="story-summary">著名基地建造与管理游戏《RimWorld》开发商 Ludeon Studios 宣布释出 v1.7 版本，将游戏引擎从 Unity 切换到自研的 Waylith Engine，性能提升了 2-4 倍。Ludeon Studios 称，游戏的外观和玩法完全一致。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活" data-news-url="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556630" data-news-source="科学网·科普" data-news-time="10-14 16:43" data-news-summary="现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活">
+        <a class="story-title" href="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556630" target="_blank" rel="noopener noreferrer">现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活</a>
+        <div class="story-meta">
+          <span class="topic">数学物理</span>
+          <span class="lens">概念科普</span>
+          <span class="source">科学网·科普</span>
+          <span class="published">10-14 16:43</span>
+          <span class="confidence verified">科学科普来源</span>
+        </div>
+        <p class="story-summary">现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="汨罗、湘阴乡土地理——磊石山（三）" data-news-url="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=1144913&amp;do=blog&amp;id=1556375" data-news-source="科学网·科普" data-news-time="10-13 18:32" data-news-summary="汨罗、湘阴乡土地理——磊石山（三）">
+        <a class="story-title" href="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=1144913&amp;do=blog&amp;id=1556375" target="_blank" rel="noopener noreferrer">汨罗、湘阴乡土地理——磊石山（三）</a>
+        <div class="story-meta">
+          <span class="topic">数据空间</span>
+          <span class="lens">概念科普</span>
+          <span class="source">科学网·科普</span>
+          <span class="published">10-13 18:32</span>
+          <span class="confidence verified">科学科普来源</span>
+        </div>
+        <p class="story-summary">汨罗、湘阴乡土地理——磊石山（三）</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="从大模型到 Agent 落地，这场大会讲透 AI 全链路" data-news-url="https://www.infoq.cn/article/PuGS7Qxy4AFOal4wVR22?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-14 22:52" data-news-summary="从大模型到 Agent 落地，这场大会讲透 AI 全链路">
+        <a class="story-title" href="https://www.infoq.cn/article/PuGS7Qxy4AFOal4wVR22?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">从大模型到 Agent 落地，这场大会讲透 AI 全链路</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">技术实践</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-14 22:52</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">从大模型到 Agent 落地，这场大会讲透 AI 全链路</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent" data-news-url="https://www.qbitai.com/2026/10/503165.html" data-news-source="量子位" data-news-time="10-14 11:32" data-news-summary="10月13日，APUS AI（麒麟合盛网络技术股份有限公司）宣布开源Personal Agent产品Reflex Agent">
+        <a class="story-title" href="https://www.qbitai.com/2026/10/503165.html" target="_blank" rel="noopener noreferrer">响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">工具发布</span>
+          <span class="source">量子位</span>
+          <span class="published">10-14 11:32</span>
+          <span class="confidence professional">AI 专业来源</span>
+        </div>
+        <p class="story-summary">10月13日，APUS AI（麒麟合盛网络技术股份有限公司）宣布开源Personal Agent产品Reflex Agent</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="DeepSeek 半年融 1500 亿冲向科创板，梁文锋开始给模型找“身体”" data-news-url="https://www.oschina.net/news/502997" data-news-source="开源中国" data-news-time="10-13 15:42" data-news-summary="据媒体报道，DeepSeek 有意入局具身智能领域，其创始人梁文锋最近在密集和具身智能领域的创业者见面交流，探讨方向涉及具身机器人、大模型与现实世界的交互。融资这边，《财经》记者从多位参与交易的人士处确认了一个数字：DeepSeek 将在近期完成最新一轮融资，金额从此前计划的 500 亿元增至约 1000 亿元。">
+        <a class="story-title" href="https://www.oschina.net/news/502997" target="_blank" rel="noopener noreferrer">DeepSeek 半年融 1500 亿冲向科创板，梁文锋开始给模型找“身体”</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">专家观点</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-13 15:42</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">据媒体报道，DeepSeek 有意入局具身智能领域，其创始人梁文锋最近在密集和具身智能领域的创业者见面交流，探讨方向涉及具身机器人、大模型与现实世界的交互。融资这边，《财经》记者从多位参与交易的人士处确认了一个数字：DeepSeek 将在近期完成最新一轮融资，金额从此前计划的 500 亿元增至约 1000 亿元。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。</span></p>
+      </article>
+      <article class="story" data-news-title="Anthropic 公开反蒸馏防御战报：让推理记录更难被偷、捕获量降了九成" data-news-url="https://www.oschina.net/news/502996/anthropic-distillation-defenses" data-news-source="开源中国" data-news-time="10-13 14:57" data-news-summary="Anthropic 今天发了一篇博客，讲他们怎么对付『蒸馏攻击』——一种隐蔽的、工业规模的、用大量非法账号从另一个模型批量抽取能力的做法：从更强、更大的模型（这里就是 Claude）生成数百万条回复，再拿这些回复去教一个更小的模型模仿前者的行为，从而用开发时间和成本的一小部分就逼近前沿能力。Anthropic 说过去几个月...">
+        <a class="story-title" href="https://www.oschina.net/news/502996/anthropic-distillation-defenses" target="_blank" rel="noopener noreferrer">Anthropic 公开反蒸馏防御战报：让推理记录更难被偷、捕获量降了九成</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">实测评价</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-13 14:57</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">Anthropic 今天发了一篇博客，讲他们怎么对付『蒸馏攻击』——一种隐蔽的、工业规模的、用大量非法账号从另一个模型批量抽取能力的做法：从更强、更大的模型（这里就是 Claude）生成数百万条回复，再拿这些回复去教一个更小的模型模仿前者的行为，从而用开发时间和成本的一小部分就逼近前沿能力。Anthropic 说过去几个月...</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。</span></p>
+      </article>
+      <article class="story" data-news-title="做了一个开源的多 AI Agent 任务管理工具 StateDock，支持 MCP、Docker 自部署" data-news-url="https://www.v2ex.com/t/1248798#reply2" data-news-source="V2EX·创造" data-news-time="10-14 18:04" data-news-summary="最近一直在用 Codex 、Claude Code 、DeepSeek 等 AI Coding Agent 开发自己的几个项目。随着项目越来越多，我发现一个问题： AI 写代码已经不是最大的麻烦，真正麻烦的是多个 Agent 、多个项目之间的任务管理。">
+        <a class="story-title" href="https://www.v2ex.com/t/1248798#reply2" target="_blank" rel="noopener noreferrer">做了一个开源的多 AI Agent 任务管理工具 StateDock，支持 MCP、Docker 自部署</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-14 18:04</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">最近一直在用 Codex 、Claude Code 、DeepSeek 等 AI Coding Agent 开发自己的几个项目。随着项目越来越多，我发现一个问题： AI 写代码已经不是最大的麻烦，真正麻烦的是多个 Agent 、多个项目之间的任务管理。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="做了个开源插件：一次提问，同时问 ChatGPT / Claude / DeepSeek / 豆包 等 12 个 AI，并排看回答" data-news-url="https://www.v2ex.com/t/1248772#reply5" data-news-source="V2EX·创造" data-news-time="10-14 16:53" data-news-summary="平时用 AI 查资料，经常要把同一个问题复制到好几个标签页里，再来回切着比。干脆做了个插件解决这件事。">
+        <a class="story-title" href="https://www.v2ex.com/t/1248772#reply5" target="_blank" rel="noopener noreferrer">做了个开源插件：一次提问，同时问 ChatGPT / Claude / DeepSeek / 豆包 等 12 个 AI，并排看回答</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-14 16:53</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">平时用 AI 查资料，经常要把同一个问题复制到好几个标签页里，再来回切着比。干脆做了个插件解决这件事。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="智谱发布 GLM-Legal 模型：基于轻量级底座、基准测试追平闭源" data-news-url="https://www.oschina.net/news/502993/z-ai-glm-legal" data-news-source="开源中国" data-news-time="10-13 11:54" data-news-summary="智谱今天发了个叫 GLM-Legal 的模型，主打法律。官方介绍很直白：基于轻量级的 GLM-5.3-Flash 底座，在主流法律基准上追平了前沿闭源模型，专门为真实法律工作流设计——合同审查、证据分析、合规规划等等。">
+        <a class="story-title" href="https://www.oschina.net/news/502993/z-ai-glm-legal" target="_blank" rel="noopener noreferrer">智谱发布 GLM-Legal 模型：基于轻量级底座、基准测试追平闭源</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">工具发布</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-13 11:54</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">智谱今天发了个叫 GLM-Legal 的模型，主打法律。官方介绍很直白：基于轻量级的 GLM-5.3-Flash 底座，在主流法律基准上追平了前沿闭源模型，专门为真实法律工作流设计——合同审查、证据分析、合规规划等等。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="企业真正需要的，不是更聪明的 Agent ？" data-news-url="https://www.infoq.cn/video/Wss036X3C6APXsS41HwC?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-15 02:36" data-news-summary="企业真正需要的，不是更聪明的 Agent ？">
+        <a class="story-title" href="https://www.infoq.cn/video/Wss036X3C6APXsS41HwC?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">企业真正需要的，不是更聪明的 Agent ？</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">技术实践</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-15 02:36</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">企业真正需要的，不是更聪明的 Agent ？</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意" data-news-url="https://www.infoq.cn/article/IAAteiFAzfescqFHIyQU?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-15 01:48" data-news-summary="千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意">
+        <a class="story-title" href="https://www.infoq.cn/article/IAAteiFAzfescqFHIyQU?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">实测评价</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-15 01:48</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。</span></p>
+      </article>
+      <article class="story" data-news-title="中国科大实现抗噪声量子密钥分发" data-news-url="http://paper.sciencenet.cn/htmlpaper/2026/10/20261012201415161156428.shtm?id=156428" data-news-source="科学网·数理科学" data-news-time="10-12 01:30" data-news-summary="中国科学技术大学郭光灿院士团队的韩正甫、陈巍、银振强、王双等与河南省量子信息与量子密码重点实验室、南京邮电大学合作，针对量子通信实际应用中的强背景噪声问题，首次实现了基于优势提...">
+        <a class="story-title" href="http://paper.sciencenet.cn/htmlpaper/2026/10/20261012201415161156428.shtm?id=156428" target="_blank" rel="noopener noreferrer">中国科大实现抗噪声量子密钥分发</a>
+        <div class="story-meta">
+          <span class="topic">数学物理</span>
+          <span class="lens">教程方法</span>
+          <span class="source">科学网·数理科学</span>
+          <span class="published">10-12 01:30</span>
+          <span class="confidence professional">学术专业来源</span>
+        </div>
+        <p class="story-summary">中国科学技术大学郭光灿院士团队的韩正甫、陈巍、银振强、王双等与河南省量子信息与量子密码重点实验室、南京邮电大学合作，针对量子通信实际应用中的强背景噪声问题，首次实现了基于优势提...</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="DjangoAdmin 敏捷开发框架 FastAPI+EleVue 版本 v2.7.3 发布" data-news-url="https://www.oschina.net/news/503005" data-news-source="开源中国" data-news-time="10-14 08:53" data-news-summary="v2.7.3 更新内容： 1、修复近期用户反馈的问题；基于 FastAPI、Vue3、TypeScript、ElementPlus、Vite、VueRouter 等技术栈构建的前后端分离企业级数据中台解决方案。">
+        <a class="story-title" href="https://www.oschina.net/news/503005" target="_blank" rel="noopener noreferrer">DjangoAdmin 敏捷开发框架 FastAPI+EleVue 版本 v2.7.3 发布</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">工具发布</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-14 08:53</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">v2.7.3 更新内容： 1、修复近期用户反馈的问题；基于 FastAPI、Vue3、TypeScript、ElementPlus、Vite、VueRouter 等技术栈构建的前后端分离企业级数据中台解决方案。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="codex 最近经常遇到： Selected model is at capacity. Please try a different model" data-news-url="https://www.v2ex.com/t/1248745#reply34" data-news-source="V2EX·技术" data-news-time="10-14 15:46" data-news-summary="codex 最近经常遇到：Selected model is at capacity. Please try a different model. 这个问题。账户是 200 刀的，有啥好的解决方案啊">
+        <a class="story-title" href="https://www.v2ex.com/t/1248745#reply34" target="_blank" rel="noopener noreferrer">codex 最近经常遇到： Selected model is at capacity. Please try a different model</a>
+        <div class="story-meta">
+          <span class="topic">MCP与地图接口</span>
+          <span class="lens">用户讨论</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-14 15:46</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">codex 最近经常遇到：Selected model is at capacity. Please try a different model. 这个问题。账户是 200 刀的，有啥好的解决方案啊</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相" data-news-url="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556619" data-news-source="科学网·科普" data-news-time="10-14 14:09" data-news-summary="概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相">
+        <a class="story-title" href="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556619" target="_blank" rel="noopener noreferrer">概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相</a>
+        <div class="story-meta">
+          <span class="topic">数学物理</span>
+          <span class="lens">概念科普</span>
+          <span class="source">科学网·科普</span>
+          <span class="published">10-14 14:09</span>
+          <span class="confidence verified">科学科普来源</span>
+        </div>
+        <p class="story-summary">概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="NetBSD 成为反 AI 开发者青睐的开源操作系统" data-news-url="https://www.solidot.org/story?sid=85608" data-news-source="Solidot" data-news-time="10-14 15:31" data-news-summary="随着 Linux 阵营拥抱亲 AI 路线，NetBSD 意外成为抵触 AI 的开发者青睐的开源操作系统。NetBSD 项目透露，上个月它收到了 120,282 美元捐款，远超 50,000 美元的筹款目标。">
+        <a class="story-title" href="https://www.solidot.org/story?sid=85608" target="_blank" rel="noopener noreferrer">NetBSD 成为反 AI 开发者青睐的开源操作系统</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">专家观点</span>
+          <span class="source">Solidot</span>
+          <span class="published">10-14 15:31</span>
+          <span class="confidence professional">科技社区来源</span>
+        </div>
+        <p class="story-summary">随着 Linux 阵营拥抱亲 AI 路线，NetBSD 意外成为抵触 AI 的开发者青睐的开源操作系统。NetBSD 项目透露，上个月它收到了 120,282 美元捐款，远超 50,000 美元的筹款目标。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>分开看结论、证据和预测，再和自己的实际使用对照。</span></p>
+      </article>
+      <article class="story" data-news-title="DisCo 框架的哲学根基与概率论的几何类比" data-news-url="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556476" data-news-source="科学网·科普" data-news-time="10-13 17:25" data-news-summary="DisCo 框架的哲学根基与概率论的几何类比">
+        <a class="story-title" href="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556476" target="_blank" rel="noopener noreferrer">DisCo 框架的哲学根基与概率论的几何类比</a>
+        <div class="story-meta">
+          <span class="topic">数学物理</span>
+          <span class="lens">工具发布</span>
+          <span class="source">科学网·科普</span>
+          <span class="published">10-13 17:25</span>
+          <span class="confidence verified">科学科普来源</span>
+        </div>
+        <p class="story-summary">DisCo 框架的哲学根基与概率论的几何类比</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="牛了，才发现 OpenCode Go 套餐出了个 Go Plus" data-news-url="https://www.v2ex.com/t/1248847#reply4" data-news-source="V2EX·技术" data-news-time="10-14 23:24" data-news-summary="一直认为为 Go 套餐 10 刀小水管不够用，发现人家改版了，直接上了个 Go Plus：40 刀/月。对比火山的 Pro ，有人试过么？">
+        <a class="story-title" href="https://www.v2ex.com/t/1248847#reply4" target="_blank" rel="noopener noreferrer">牛了，才发现 OpenCode Go 套餐出了个 Go Plus</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">概念科普</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-14 23:24</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">一直认为为 Go 套餐 10 刀小水管不够用，发现人家改版了，直接上了个 Go Plus：40 刀/月。对比火山的 Pro ，有人试过么？</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="小米用户专属：Goodnotes 宣布可在小米平板限时领永久会员" data-news-url="https://www.ithome.com/1/013/098.htm" data-news-source="IT之家" data-news-time="10-14 21:10" data-news-summary="IT之家 10 月 14 日消息，Goodnotes 今日宣布，小米用户可限时领 Goodnotes 永久会员， 活动时间为 2026 年 10 月 14 日 - 2026 年 10 月 15 日 。IT之家附领取方式如下： 下载 Goodnotes 极速版 App（注意是“极速版”，不是普通版） 打开 App 后，输入暗号“开 G 啦”（在 App 内的兑换码 / 暗号入口输入） 领取永久会员卡，领取后显示为“特别会员”，包含不限笔记本数、PDF 导入不限大小、全平台 3…">
+        <a class="story-title" href="https://www.ithome.com/1/013/098.htm" target="_blank" rel="noopener noreferrer">小米用户专属：Goodnotes 宣布可在小米平板限时领永久会员</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">工具发布</span>
+          <span class="source">IT之家</span>
+          <span class="published">10-14 21:10</span>
+          <span class="confidence professional">科技资讯来源</span>
+        </div>
+        <p class="story-summary">IT之家 10 月 14 日消息，Goodnotes 今日宣布，小米用户可限时领 Goodnotes 永久会员， 活动时间为 2026 年 10 月 14 日 - 2026 年 10 月 15 日 。IT之家附领取方式如下： 下载 Goodnotes 极速版 App（注意是“极速版”，不是普通版） 打开 App 后，输入暗号“开 G 啦”（在 App 内的兑换码 / 暗号入口输入） 领取永久会员卡，领取后显示为“特别会员”，包含不限笔记本数、PDF 导入不限大小、全平台 3…</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article></section><p class="archive-link"><a href="../archive/">查看往期简报</a></p></section><section id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>空间智能与地图能力 · 可落地线索</span></div>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://m.toutiao.com/group/7696106287554003490/" target="_blank" rel="noopener noreferrer">EchoPolicy-0：国产具身 VLM Agent 框架，抓取成功率 70%→94.4%</a></h3>
+        <p class="biz-meta">量子位（今日头条） · 2026-10-13<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">魔法原子 MagicLab Studio 将视觉语言模型、几何操作工具与通用动作策略组织为统一 VLM Agent 框架 EchoPolicy-0，观察环境、理解目标、选择能力、执行动作、验证结果形成闭环，多任务共享同一套机制，逼近产线可用门槛。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://www.genee.tech/blog/claude-managed-agents-dynamic-workflows-1000-agents-beta-2026" target="_blank" rel="noopener noreferrer">Claude Managed Agents：dynamic workflows 公测，最多 1000 个 Agent 并行</a></h3>
+        <p class="biz-meta">Genee（Anthropic 发布报道） · 2026-10-12<span class="biz-status ">已查证</span></p>
+        <p class="biz-summary">Anthropic 于 10-09 开放 Claude Managed Agents dynamic workflows 公测：lead agent 将复杂任务分解为执行计划，分发给并行工作的专用 agents 再合并结果，支持大规模多 Agent 编排。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://ai-tldr.dev/tools/openai-agents-sdk/" target="_blank" rel="noopener noreferrer">OpenAI Agents SDK v0.14.0：Sandbox Agents 持久隔离工作区</a></h3>
+        <p class="biz-meta">AI/TLDR（工具索引更新） · 2026-10-13（页面更新）<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">OpenAI Agents SDK 多 Agent Python 框架（GitHub 30k stars），v0.14.0 引入 Sandbox Agents：持久隔离工作区，Agent 执行环境沙箱化，值得测试的编排底座。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://zcode.z.ai/cn/changelog" target="_blank" rel="noopener noreferrer">ZCode（GLM-5.3 编程 Agent）：动态工作流编排多子代理</a></h3>
+        <p class="biz-meta">ZCode 官方 changelog · 2026-09-29（changelog 更新）<span class="biz-status ">已查证</span></p>
+        <p class="biz-summary">ZCode 新增动态工作流：一段脚本编排多个子代理协作完成复杂任务，运行中的工作流可调整并发上限，办公/编程双模式。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://glama.ai/mcp/servers/januarf121995/Geo-habilitacion-ArcGIS-en-Ecosistemas-Agenticos" target="_blank" rel="noopener noreferrer">ArcGIS MCP Server：空间查询/要素分析/地图生成接入 Agent</a></h3>
+        <p class="biz-meta">Glama MCP 目录（开源项目） · 2026-10-13（页面更新）<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">ArcGIS MCP Server 通过 ArcGIS REST API 提供空间查询、要素分析与地图生成工具，演示了 Claude+MCP 接入 ArcGIS Online/Enterprise 权威地理数据的路线。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://www.mcpworld.com/zh/detail/5014d1eb124aa184dcc65a34002bf7a3" target="_blank" rel="noopener noreferrer">QgisRemoteMCP：QGIS Desktop 封装为 Docker MCP 服务端</a></h3>
+        <p class="biz-meta">MCP World（开源项目索引） · 2026-10-04<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">nic01asFr 将完整 QGIS Desktop 封装成可 Docker 部署的 MCP 服务端，为 AI 提供数据加载、空间分析、地图制图与多格式导出，适合远程 GIS 工作流。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://www.npmjs.com/package/qgis-mcp" target="_blank" rel="noopener noreferrer">WAI QGIS MCP：AI 直接驱动 QGIS 加载/制图/自动化 PyQGIS</a></h3>
+        <p class="biz-meta">npm（开源包） · 2026-09-26（包更新）<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">WAI QGIS MCP（jjsantos01/qgis_mcp 分支）让 AI 助手直接检查项目与图层、加载数据、运行 Processing 算法、样式化地图、渲染图像并自动化 PyQGIS 任务。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://cloud.tencent.com/developer/mcp/server/10007" target="_blank" rel="noopener noreferrer">百度地图 MCP：中国首个支持 MCP 的地图服务</a></h3>
+        <p class="biz-meta">腾讯云开发者社区 · MCP 广场 · 2026-10-08（页面收录）<span class="biz-status ">已查证</span></p>
+        <p class="biz-summary">百度地图 MCP 服务器为开源 LBS 方案，提供地理编码、POI 搜索、路线规划、天气、交通等地理空间 API，需配置 BAIDU_MAPS_API_KEY 环境变量，地图服务 MCP 化的国内对照样本。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://arxiv.org/html/2605.13794" target="_blank" rel="noopener noreferrer">BlitzGS：城市级 3DGS 闪电重建（arXiv）</a></h3>
+        <p class="biz-meta">arXiv · 2026-09-17（页面更新）<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">BlitzGS 针对城市级高斯泼溅训练昂贵问题（每轮预处理/通信/光栅化开销），提出闪电级加速方案，数字孪生与航测场景值得关注。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://papernotes.org/CVPR2026/3d_vision/metrogs_efficient_and_stable_reconstruction_of_geometrically_accurate_high-fidel/" target="_blank" rel="noopener noreferrer">MetroGS（CVPR 2026）解读：城市大场景重建几何与渲染双提升</a></h3>
+        <p class="biz-meta">PaperNotes（论文解读） · 2026-09-28（页面更新）<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">MetroGS 以分布式 2DGS 为骨干，配合点云稠密增强、渐进式单目/多视图混合几何精修与深度引导外观建模，城市级场景几何精度（F1）与渲染质量（PSNR）双高，训练时间仅需 CityGSV2 的一部分。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://arxiv.org/html/2607.03872" target="_blank" rel="noopener noreferrer">SHARPSPLAT：边缘正则化 3DGS 高保真建筑重建（UAV 图像）</a></h3>
+        <p class="biz-meta">arXiv · 2026-09-16（页面更新）<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">SHARPSPLAT 用 SAM 3 生成建筑掩码并提取语义边缘，监督 3DGS 产生清晰的建筑边界，解决无人机影像建筑重建的边缘模糊问题。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://lobehub.com/mcp?category=science-education&amp;q=geospatial" target="_blank" rel="noopener noreferrer">GDAL MCP：带方法论反思中间件的空间分析 MCP</a></h3>
+        <p class="biz-meta">LobeHub MCP 目录 · 2026-08-31（页面收录）<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">GDAL MCP 提供 AI Agent 空间分析能力，并通过反思中间件要求 Agent 论证其方法学选择；可配置 GDAL_MCP_WORKSPACES 环境变量接入外部地理数据文件。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/" target="_blank" rel="noopener noreferrer">Cesium ion MCP Server（持续跟踪）：3D 地理数据直连 AI 工具</a></h3>
+        <p class="biz-meta">Cesium 官方博客 · 2026-10-12<span class="biz-status ">已查证</span></p>
+        <p class="biz-summary">Cesium ion MCP Server 支持 Claude Code/OpenAI Codex/Cursor/GitHub Copilot/Claude Desktop 直接调用 3D 地理数据，GIS 数据服务 MCP 化的厂商级动作，持续观察其 API 与限制。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://cloud.tencent.com/developer/mcp/server/11760" target="_blank" rel="noopener noreferrer">腾讯位置大数据 MCP（持续跟踪）：人口与流量时空数据</a></h3>
+        <p class="biz-meta">腾讯云开发者社区 · MCP 广场 · 2026-10-07<span class="biz-status ">已查证</span></p>
+        <p class="biz-summary">腾讯位置大数据 MCP 提供区域基础信息、实时人流统计、历史数据统计接口，适合商圈客流分析场景的 MCP 化调用，跟踪其接入条件与配额。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://modelcontextprotocol.io/specification/2026-07-28/changelog" target="_blank" rel="noopener noreferrer">MCP 规范 2026-07-28（持续跟踪）：无状态化与授权加固</a></h3>
+        <p class="biz-meta">Model Context Protocol 官方 · 2026-09-25（changelog 更新）<span class="biz-status ">已查证</span></p>
+        <p class="biz-summary">MCP 2026-07-28 修订：协议无状态化、功能生命周期 SEP-2596、OAuth/OIDC 授权一致性，所有 MCP 服务端实现需对齐。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/stuff/postgis-3.7-en.pdf" target="_blank" rel="noopener noreferrer">PostGIS 3.7 开发版手册（持续跟踪）：空间数据库底座</a></h3>
+        <p class="biz-meta">PostGIS 官方 · 2026-10（开发版手册）<span class="biz-status ">已查证</span></p>
+        <p class="biz-summary">PostGIS 3.7 开发版手册：GiST R-Tree 空间索引、几何/地理类型、拓扑栅格支持演进，自建空间库选型基线。</p>
+      </article><p class="biz-note">本栏为人工整理的商业线索：只收录官方文档、产品更新、开源项目或可核实的报道，每条标注来源。</p></section></div></main>
+<footer><div class="footer-inner">兴趣发现：个人兴趣热榜筛选<br>专业来源：量子位、机器之心、InfoQ 中文、开源中国、少数派、小众软件、IT之家、Solidot、科学网·数理科学、科学网·科普、前端技术精选、阮一峰的网络日志、V2EX·技术、V2EX·创造<div class="footer-note">不使用 AI 大模型生成摘要。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。商业建设观察为人工整理的商业线索，来源可追溯。</div></div></footer></body></html>

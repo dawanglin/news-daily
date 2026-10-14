@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15 02:15:36 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 8,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 13,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 10,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "OpenClaw大更新！Skills、MCP Apps齐升级，用户却喊累了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651062250&idx=2&sn=4b583b388014abfa98ed7da7e2e36570",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "工具发布",
+      "published": "10-12 12:30",
+      "ts": 1791779400,
+      "summary": "无人在意的角落，OpenClaw又更新了。",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "STEPX首款大模型原生智能体手机STEPX Neo正式发布",
+      "link": "https://www.qbitai.com/2026/10/503201.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-14 14:45",
+      "ts": 1791960338,
+      "summary": "2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 192.17,
+      "relevance": 22
+    },
+    {
+      "title": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
+      "link": "https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-14 01:41",
+      "ts": 1791913303,
+      "summary": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 183,
+      "relevance": 21
+    },
+    {
+      "title": "Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&mid=2247525055&idx=1&sn=277da8b6b5971bb7697a29126a02230e&chksm=e984b1796746d655a9023329920dd4f7f0d9ec991657c58a8e4645f226b11f4d05093fc4c208&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-11 08:00",
+      "ts": 1791676800,
+      "summary": "Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 185,
+      "relevance": 22
+    },
+    {
+      "title": "NepBox 一个免费的域名解析站",
+      "link": "https://www.v2ex.com/t/1248797#reply2",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "教程方法",
+      "published": "10-14 18:04",
+      "ts": 1791972277,
+      "summary": "做了一个免费的域名站，类似 Duck DNS 那种，地址是 https://www.nepbox.com 欢迎尝鲜！主要功能有： 使用 Google 一键登录免注册表单 免费分发 *.nepbox.com 域名给用户使用 可以添加一个 A 类 + 一个 AAAA 类的解析，实际的域名解析由 CF 来实现 支持使用一行 curl 命令更新解析地址，非常适合添加定时任务来实现 DDNS 支持绑定 TG 接收消息通知，IP 变更了能第一时间收到提醒 每个域名保留最多 20 条历史…",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 155.27,
+      "relevance": 18
+    },
+    {
+      "title": "PS5 越狱商店 Overdrive 被索尼勒令关停后，克隆版本数小时内重新上线",
+      "link": "https://www.ithome.com/1/013/111.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "工具发布",
+      "published": "10-14 22:00",
+      "ts": 1791986412,
+      "summary": "IT之家 10 月 14 日消息，索尼 SIE 已开始对 PS5 越狱开发者采取法律行动，一个名为 Overdrive 的游戏商店已被关闭。不过，原项目关闭后，GitHub 上随即又出现了两个新的仓库，分别为原项目的分支版本和使用不同账号发布的克隆版本。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 113.58,
+      "relevance": 9
+    },
+    {
+      "title": "《RimWorld》将游戏引擎从 Unity 切换到 Waylith Engine",
+      "link": "https://www.solidot.org/story?sid=85599",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-13 18:15",
+      "ts": 1791886559,
+      "summary": "著名基地建造与管理游戏《RimWorld》开发商 Ludeon Studios 宣布释出 v1.7 版本，将游戏引擎从 Unity 切换到自研的 Waylith Engine，性能提升了 2-4 倍。Ludeon Studios 称，游戏的外观和玩法完全一致。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 111,
+      "relevance": 9
+    },
+    {
+      "title": "现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1556630",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-14 16:43",
+      "ts": 1791967385,
+      "summary": "现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 167.82,
+      "relevance": 18
+    },
+    {
+      "title": "汨罗、湘阴乡土地理——磊石山（三）",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1144913&do=blog&id=1556375",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "概念科普",
+      "published": "10-13 18:32",
+      "ts": 1791887576,
+      "summary": "汨罗、湘阴乡土地理——磊石山（三）",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 118,
+      "relevance": 9
+    },
+    {
+      "title": "从大模型到 Agent 落地，这场大会讲透 AI 全链路",
+      "link": "https://www.infoq.cn/article/PuGS7Qxy4AFOal4wVR22?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "10-14 22:52",
+      "ts": 1791989526,
+      "summary": "从大模型到 Agent 落地，这场大会讲透 AI 全链路",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 189.87,
+      "relevance": 21
+    },
+    {
+      "title": "响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent",
+      "link": "https://www.qbitai.com/2026/10/503165.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-14 11:32",
+      "ts": 1791948768,
+      "summary": "10月13日，APUS AI（麒麟合盛网络技术股份有限公司）宣布开源Personal Agent产品Reflex Agent",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 171.1,
+      "relevance": 18
+    },
+    {
+      "title": "DeepSeek 半年融 1500 亿冲向科创板，梁文锋开始给模型找“身体”",
+      "link": "https://www.oschina.net/news/502997",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "10-13 15:42",
+      "ts": 1791877376,
+      "summary": "据媒体报道，DeepSeek 有意入局具身智能领域，其创始人梁文锋最近在密集和具身智能领域的创业者见面交流，探讨方向涉及具身机器人、大模型与现实世界的交互。融资这边，《财经》记者从多位参与交易的人士处确认了一个数字：DeepSeek 将在近期完成最新一轮融资，金额从此前计划的 500 亿元增至约 1000 亿元。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 171,
+      "relevance": 19
+    },
+    {
+      "title": "Anthropic 公开反蒸馏防御战报：让推理记录更难被偷、捕获量降了九成",
+      "link": "https://www.oschina.net/news/502996/anthropic-distillation-defenses",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "10-13 14:57",
+      "ts": 1791874626,
+      "summary": "Anthropic 今天发了一篇博客，讲他们怎么对付『蒸馏攻击』——一种隐蔽的、工业规模的、用大量非法账号从另一个模型批量抽取能力的做法：从更强、更大的模型（这里就是 Claude）生成数百万条回复，再拿这些回复去教一个更小的模型模仿前者的行为，从而用开发时间和成本的一小部分就逼近前沿能力。Anthropic 说过去几个月...",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 171,
+      "relevance": 19
+    },
+    {
+      "title": "做了一个开源的多 AI Agent 任务管理工具 StateDock，支持 MCP、Docker 自部署",
+      "link": "https://www.v2ex.com/t/1248798#reply2",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-14 18:04",
+      "ts": 1791972297,
+      "summary": "最近一直在用 Codex 、Claude Code 、DeepSeek 等 AI Coding Agent 开发自己的几个项目。随着项目越来越多，我发现一个问题： AI 写代码已经不是最大的麻烦，真正麻烦的是多个 Agent 、多个项目之间的任务管理。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 170.28,
+      "relevance": 21
+    },
+    {
+      "title": "做了个开源插件：一次提问，同时问 ChatGPT / Claude / DeepSeek / 豆包 等 12 个 AI，并排看回答",
+      "link": "https://www.v2ex.com/t/1248772#reply5",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-14 16:53",
+      "ts": 1791967994,
+      "summary": "平时用 AI 查资料，经常要把同一个问题复制到好几个标签页里，再来回切着比。干脆做了个插件解决这件事。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 169.88,
+      "relevance": 21
+    },
+    {
+      "title": "智谱发布 GLM-Legal 模型：基于轻量级底座、基准测试追平闭源",
+      "link": "https://www.oschina.net/news/502993/z-ai-glm-legal",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-13 11:54",
+      "ts": 1791863656,
+      "summary": "智谱今天发了个叫 GLM-Legal 的模型，主打法律。官方介绍很直白：基于轻量级的 GLM-5.3-Flash 底座，在主流法律基准上追平了前沿闭源模型，专门为真实法律工作流设计——合同审查、证据分析、合规规划等等。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 166,
+      "relevance": 18
+    },
+    {
+      "title": "企业真正需要的，不是更聪明的 Agent ？",
+      "link": "https://www.infoq.cn/video/Wss036X3C6APXsS41HwC?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "10-15 02:36",
+      "ts": 1792003013,
+      "summary": "企业真正需要的，不是更聪明的 Agent ？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 161.0,
+      "relevance": 15
+    },
+    {
+      "title": "千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
+      "link": "https://www.infoq.cn/article/IAAteiFAzfescqFHIyQU?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "实测评价",
+      "published": "10-15 01:48",
+      "ts": 1792000126,
+      "summary": "千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 160.85,
+      "relevance": 15
+    },
+    {
+      "title": "中国科大实现抗噪声量子密钥分发",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/20261012201415161156428.shtm?id=156428",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "教程方法",
+      "published": "10-12 01:30",
+      "ts": 1791739800,
+      "summary": "中国科学技术大学郭光灿院士团队的韩正甫、陈巍、银振强、王双等与河南省量子信息与量子密码重点实验室、南京邮电大学合作，针对量子通信实际应用中的强背景噪声问题，首次实现了基于优势提...",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 13
+    },
+    {
+      "title": "DjangoAdmin 敏捷开发框架 FastAPI+EleVue 版本 v2.7.3 发布",
+      "link": "https://www.oschina.net/news/503005",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-14 08:53",
+      "ts": 1791939180,
+      "summary": "v2.7.3 更新内容： 1、修复近期用户反馈的问题；基于 FastAPI、Vue3、TypeScript、ElementPlus、Vite、VueRouter 等技术栈构建的前后端分离企业级数据中台解决方案。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 138.21,
+      "relevance": 12
+    },
+    {
+      "title": "codex 最近经常遇到： Selected model is at capacity. Please try a different model",
+      "link": "https://www.v2ex.com/t/1248745#reply34",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "用户讨论",
+      "published": "10-14 15:46",
+      "ts": 1791964007,
+      "summary": "codex 最近经常遇到：Selected model is at capacity. Please try a different model. 这个问题。账户是 200 刀的，有啥好的解决方案啊",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 137.51,
+      "relevance": 15
+    },
+    {
+      "title": "概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1556619",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-14 14:09",
+      "ts": 1791958179,
+      "summary": "概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 136.97,
+      "relevance": 12
+    },
+    {
+      "title": "NetBSD 成为反 AI 开发者青睐的开源操作系统",
+      "link": "https://www.solidot.org/story?sid=85608",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "专家观点",
+      "published": "10-14 15:31",
+      "ts": 1791963109,
+      "summary": "随着 Linux 阵营拥抱亲 AI 路线，NetBSD 意外成为抵触 AI 的开发者青睐的开源操作系统。NetBSD 项目透露，上个月它收到了 120,282 美元捐款，远超 50,000 美元的筹款目标。",
+      "why": "分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 135.43,
+      "relevance": 13
+    },
+    {
+      "title": "DisCo 框架的哲学根基与概率论的几何类比",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1556476",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "工具发布",
+      "published": "10-13 17:25",
+      "ts": 1791883554,
+      "summary": "DisCo 框架的哲学根基与概率论的几何类比",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 133,
+      "relevance": 12
+    },
+    {
+      "title": "牛了，才发现 OpenCode Go 套餐出了个 Go Plus",
+      "link": "https://www.v2ex.com/t/1248847#reply4",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "概念科普",
+      "published": "10-14 23:24",
+      "ts": 1791991483,
+      "summary": "一直认为为 Go 套餐 10 刀小水管不够用，发现人家改版了，直接上了个 Go Plus：40 刀/月。对比火山的 Pro ，有人试过么？",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 125.05,
+      "relevance": 12
+    },
+    {
+      "title": "小米用户专属：Goodnotes 宣布可在小米平板限时领永久会员",
+      "link": "https://www.ithome.com/1/013/098.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-14 21:10",
+      "ts": 1791983401,
+      "summary": "IT之家 10 月 14 日消息，Goodnotes 今日宣布，小米用户可限时领 Goodnotes 永久会员， 活动时间为 2026 年 10 月 14 日 - 2026 年 10 月 15 日 。IT之家附领取方式如下： 下载 Goodnotes 极速版 App（注意是“极速版”，不是普通版） 打开 App 后，输入暗号“开 G 啦”（在 App 内的兑换码 / 暗号入口输入） 领取永久会员卡，领取后显示为“特别会员”，包含不限笔记本数、PDF 导入不限大小、全平台 3…",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 118.3,
+      "relevance": 10
+    }
+  ]
+}
