@@ -37,6 +37,10 @@ jobs:
         if: github.event_name != 'push'
         run: python fetch_news.py
 
+      - name: 抓取商业观察
+        if: github.event_name != 'push'
+        run: python fetch_business.py
+
       - name: 确认今日快照存在
         if: github.event_name != 'push'
         run: |
