@@ -88,10 +88,13 @@ def source_footer(news):
     return "<br>".join(esc(part) for part in parts)
 
 
-def load_latest_business():
-    """读取最新的商业建设观察数据；没有则返回 None（今日暂无）。"""
-    files = sorted(DATA_DIR.glob("business_*.json"))
-    if not files:
+def load_business(date=None):
+    """按简报日期读取商业观察；未指定日期时读取最新一份。"""
+    if date:
+        files = [DATA_DIR / f"business_{date}.json"]
+    else:
+        files = sorted(DATA_DIR.glob("business_*.json"))[-1:]
+    if not files or not files[-1].exists():
         return None
     try:
         return json.loads(files[-1].read_text(encoding="utf-8"))
@@ -271,15 +274,19 @@ def main():
         raise SystemExit("没有 data/news_*.json，请先运行 python fetch_news.py")
     editions = [json.loads(path.read_text(encoding="utf-8")) for path in reversed(files)]
     latest = editions[0]
-    business = load_latest_business()
+    business = load_business(latest["date"])
     (SITE_DIR / ".nojekyll").touch()
     today_cn = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=8)).date().isoformat()
     (SITE_DIR / "index.html").write_text(clean_output(render_daily(latest, "archive/", today_cn, business)), encoding="utf-8")
     for edition in editions:
         daily_path = DAILY_DIR / f"{edition['date']}.html"
-        # 历史页是当时规则和版式的快照。只更新今天，过去页面永不重写。
-        if edition["date"] == today_cn or not daily_path.exists():
-            daily_path.write_text(clean_output(render_daily(edition, "../archive/", edition["date"], business)), encoding="utf-8")
+        # 商业观察可能晚于新闻补齐；有同日数据时允许纠正该日页面。
+        edition_business = load_business(edition["date"])
+        if edition["date"] == today_cn or not daily_path.exists() or edition_business:
+            daily_path.write_text(
+                clean_output(render_daily(edition, "../archive/", edition["date"], edition_business)),
+                encoding="utf-8",
+            )
     (ARCHIVE_DIR / "index.html").write_text(clean_output(render_archive(editions)), encoding="utf-8")
     print(f"已生成桌面首页：site/index.html（{len(latest.get('items', []))} 条新闻）")
     print(f"已生成历史目录：site/archive/index.html（{len(editions)} 期）")
@@ -287,3 +294,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
