@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16 01:57:39 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 3,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 15,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "荣耀 WIN 2 手机核心配置大曝光：200Mp 大底双摄无长焦、3D 超声波指纹等",
+      "link": "https://www.ithome.com/1/013/643.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "教程方法",
+      "published": "10-15 21:03",
+      "ts": 1792069392,
+      "summary": "IT之家 10 月 15 日消息，荣耀全球首席营销官关海涛今日率先公布了荣耀 WIN 2 手机的价格，他称其为“年度 T0 电竞夯机”，不止产品 T0 级，价格也要 T0 级。从关海涛分享的海报可以看到，荣耀 WIN 2 手机搭载骁龙 8EE6 旗舰芯（第六代骁龙 8 超级至尊版旗舰芯片）、拥有双风扇主动散热、配备 2K 185Hz 双芯绿洲屏、内置 10100mAh 大电池， 12GB+512GB 国补到手价 5499 元 。",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 98.37,
+      "relevance": 6
+    },
+    {
+      "title": "美国八个州起诉 OpenAI 称 ChatGPT 伤害年轻用户",
+      "link": "https://www.solidot.org/story?sid=85616",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "社区观察",
+      "published": "10-15 14:12",
+      "ts": 1792044767,
+      "summary": "堪萨斯州、亚利桑那州和蒙大拿州等美国八个州对 OpenAI 提起诉讼，指控 ChatGPT 诱导儿童自我伤害。八个州要求 OpenAI 改变其产品与年轻用户互动的方式，没收由此产生的利润。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 205.09,
+      "relevance": 27
+    },
+    {
+      "title": "做了一个 Durable Agent Harness 支持持久化任务崩溃恢复与断点续跑",
+      "link": "https://www.v2ex.com/t/1249133#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-15 19:41",
+      "ts": 1792064477,
+      "summary": "EverAgent 是一个面向长时间 AI 任务的可持久化、可恢复 Agent Harness 。EverAgent 将 Agent 的执行生命周期纳入持久化 Harness：对话、模型轮次、工具调用、排队输入、checkpoint 和 Agent 状态都会先提交到 SQLite ，再由 TUI 和 Web 任务控制台呈现。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 205.91,
+      "relevance": 28
+    },
+    {
+      "title": "Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&mid=2247525055&idx=1&sn=277da8b6b5971bb7697a29126a02230e&chksm=e984b1796746d655a9023329920dd4f7f0d9ec991657c58a8e4645f226b11f4d05093fc4c208&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-11 08:00",
+      "ts": 1791676800,
+      "summary": "Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 185,
+      "relevance": 22
+    },
+    {
+      "title": "上岸线：听劝，给刚做完的国考选岗网站换了个更好记的域名。",
+      "link": "https://www.v2ex.com/t/1249145#reply1",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "实测评价",
+      "published": "10-15 20:18",
+      "ts": 1792066694,
+      "summary": "前段时间刚开发完一个国考职位查询和选岗网站，叫「上岸线」。网站上线后，陆续有不少用户跟我反馈：功能用起来还可以，就是原来的域名太长、太难记，每次访问都要重新找链接。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 111.12,
+      "relevance": 9
+    },
+    {
+      "title": "Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄",
+      "link": "https://www.infoq.cn/article/LQCqiPUzgZyB3v24rsNO?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "工具发布",
+      "published": "10-16 01:22",
+      "ts": 1792084920,
+      "summary": "Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 165.8,
+      "relevance": 16
+    },
+    {
+      "title": "写了个 Web 文件管理器：跨平台、单文件、Vue3 + Go，像资源管理器一样用",
+      "link": "https://www.v2ex.com/t/1249160#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-15 21:41",
+      "ts": 1792071660,
+      "summary": "将任何电脑变成一台小 NAS 用！File Lite 是一个自托管的 Web 文件管理器：Go 写的后端 + 内嵌进二进制的 Vue3 前端，解压双击运行。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 116.58,
+      "relevance": 10
+    },
+    {
+      "title": "现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1556630",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-14 16:43",
+      "ts": 1791967385,
+      "summary": "现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 163,
+      "relevance": 18
+    },
+    {
+      "title": "UJCMS 13.1.4 发布，页面可视化编辑来了",
+      "link": "https://www.oschina.net/news/503026",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "10-15 09:30",
+      "ts": 1792027810,
+      "summary": "ujcms 13.1.4 正式发布。大家期待已久的可视化编辑正式上线，本次还更新还升级了文章、栏目和模型管理功能，新增文章 Excel 导出、相关文章，以及栏目批量新增、批量设置和分支合并等功能，方便编辑人员整理内容、维护栏目结构。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 123.52,
+      "relevance": 9
+    },
+    {
+      "title": "从 App 到 Agent：字节跳动 Supabase 的 Agent-Native 规模化实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/kvzkXDXpKOXILlfirftW?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-15 18:00",
+      "ts": 1792058400,
+      "summary": "从 App 到 Agent：字节跳动 Supabase 的 Agent-Native 规模化实践｜QCon上海",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 188.35,
+      "relevance": 21
+    },
+    {
+      "title": "STEPX首款大模型原生智能体手机STEPX Neo正式发布",
+      "link": "https://www.qbitai.com/2026/10/503201.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-14 14:45",
+      "ts": 1791960338,
+      "summary": "2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 188,
+      "relevance": 22
+    },
+    {
+      "title": "OpenCode 免费提供 DeepSeek V4.1 Flash 模型",
+      "link": "https://www.appinn.com/opencode-free-deepseek-v4-1-flash/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "10-15 17:48",
+      "ts": 1792057738,
+      "summary": "OpenCode 在 X 上宣布，现在开始免费提供 DeepSeek V4.1 Flash 模型： 更新你的 OpenCode 程序，然后输入 /model 切换模型，就可以找到 DeepSeek V4.1 Flash 了： 不过只有 200KB 上下文： 但，比没有强啊。OpenCode 安装方",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 182.29,
+      "relevance": 21
+    },
+    {
+      "title": "covo-agent v1.1.0 发布：新增 cyber 安全模式，自主侦察验证与证据留存",
+      "link": "https://www.oschina.net/news/503023",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "案例复盘",
+      "published": "10-14 22:11",
+      "ts": 1791987078,
+      "summary": "covo-agent 是一个用 Go 编写的终端通用型 AI Agent，提供 general（通用）、code（编码）与 cyber（安全）三种工作模式，覆盖日常知识工作、软件开发、侦察与验证、自动化与持久上下文管理等场景。通过交互式 TUI、工具系统、记忆、技能（Skills）、安全控制与可扩展集成（MCP、ACP、LSP、插件、消息网关）构成完整工作...",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 176,
+      "relevance": 20
+    },
+    {
+      "title": "苹果营销主管谈 OpenAI 硬件：我们没感到有威胁，相比追逐 AGI 更重视用户隐私与日常使用体验",
+      "link": "https://www.ithome.com/1/013/683.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "10-16 00:02",
+      "ts": 1792080159,
+      "summary": "IT之家 10 月 16 日消息，除了苹果 CEO 约翰・特努斯（John Ternus）之外，《时代》今日还采访到了苹果全球营销高级副总裁格雷格・乔斯维亚克（Greg Joswiak）。当谈及 OpenAI 的硬件计划时，他表示，苹果并不担心 OpenAI 进军硬件领域带来的竞争。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 174.36,
+      "relevance": 21
+    },
+    {
+      "title": "响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent",
+      "link": "https://www.qbitai.com/2026/10/503165.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-14 11:32",
+      "ts": 1791948768,
+      "summary": "10月13日，APUS AI（麒麟合盛网络技术股份有限公司）宣布开源Personal Agent产品Reflex Agent",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 168,
+      "relevance": 18
+    },
+    {
+      "title": "玲珑应用商店社区版 V3.7.0 发布：极简交互，视觉焕新！",
+      "link": "https://www.oschina.net/news/503015",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-14 13:46",
+      "ts": 1791956773,
+      "summary": "关于玲珑应用商店社区版（Linglong Store） 玲珑应用商店社区版（Linglong Store）是由 玲珑应用商店社区版 SIG 团队 独立开发与维护的项目。致力于为 Linux / 玲珑生态玩家提供一个轻量、美观、好用的应用商店体验。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 166,
+      "relevance": 18
+    },
+    {
+      "title": "极米记得 AI 眼镜 MemoMind One 预售：无摄像头，首发 2699 元",
+      "link": "https://www.ithome.com/1/013/622.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "案例复盘",
+      "published": "10-15 20:05",
+      "ts": 1792065931,
+      "summary": "IT之家 10 月 15 日消息，极米科技今日宣布，极米记得 AI 显示眼镜 MemoMind One 今日正式开启预售，零售价 2999 元，首发价 2699 元，提供方框、圆框、中框三种框型可选（京东目前只有方框、圆框版本）。京东 MEMOMIND One 极米 AI 眼镜 平光镜 极米记得 AI 显示眼镜 极米智能 AR 眼镜 导航提词翻译全天候 AI 智能体 2699 元 直达链接 这款产品主打全天候 AI 智能记忆、信息显示、导航提词、翻译等功能，采用无摄像头隐私…",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 163.05,
+      "relevance": 19
+    },
+    {
+      "title": "阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统",
+      "link": "https://www.infoq.cn/article/EwqsJX6f03ODRac6Kk4c?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-16 04:09",
+      "ts": 1792094999,
+      "summary": "阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 161.0,
+      "relevance": 15
+    },
+    {
+      "title": "AI 侦察团集结 QCon 上海：企业一号位，如何把 AI 从试点带进业务？",
+      "link": "https://www.infoq.cn/article/GSZMrydgKuejLcCpEGYb?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "10-16 03:15",
+      "ts": 1792091739,
+      "summary": "AI 侦察团集结 QCon 上海：企业一号位，如何把 AI 从试点带进业务？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 161.0,
+      "relevance": 15
+    },
+    {
+      "title": "学得会的快捷指令，零基础入门苹果效率魔法",
+      "link": "https://sspai.com/post/116182",
+      "source": "少数派",
+      "signals": [
+        "少数派"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "教程方法",
+      "published": "10-15 14:30",
+      "ts": 1792045800,
+      "summary": "快捷指令一直被视为苹果用户必备的效率利器。不仅网络上已有大量的指令可供下载，如果能根据自己的需求，从零开始构建一条快捷指令，就不用在iPhone/Mac上频繁手动操作，可以节省大量时间。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "数字生活来源",
+      "confidence_class": "professional",
+      "score": 149.18,
+      "relevance": 15
+    },
+    {
+      "title": "Google 悄悄关联手机号码和所有用户登录账号",
+      "link": "https://www.solidot.org/story?sid=85621",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "社区观察",
+      "published": "10-15 17:45",
+      "ts": 1792057514,
+      "summary": "Google 现在会自动验证用户的手机号码，将其关联至用户 Android 设备上登录的所有 Google 账户，全程不会弹出明显确认提示。该功能在 Google 设置中被称为电话号码验证(Phone number verification)，会将用户当前使用的手机号码关联至同一台设备上登录的所有 Google 账户——无论是辅助账户、工作账户，还是其它临时账户。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 146.27,
+      "relevance": 15
+    },
+    {
+      "title": "研究人员实现抗噪声量子密钥分发",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/20261012201415161156428.shtm?id=156428",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "教程方法",
+      "published": "10-12 01:30",
+      "ts": 1791739800,
+      "summary": "中国科学技术大学郭光灿院士团队的韩正甫、陈巍、银振强、王双等与河南省量子信息与量子密码重点实验室、南京邮电大学合作，针对量子通信实际应用中的强背景噪声问题，首次实现了基于优势提...",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 13
+    },
+    {
+      "title": "概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1556619",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-14 14:09",
+      "ts": 1791958179,
+      "summary": "概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 133,
+      "relevance": 12
+    },
+    {
+      "title": "DisCo 框架的哲学根基与概率论的几何类比",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1556476",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "工具发布",
+      "published": "10-13 17:25",
+      "ts": 1791883554,
+      "summary": "DisCo 框架的哲学根基与概率论的几何类比",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 133,
+      "relevance": 12
+    },
+    {
+      "title": "NetBSD 成为反 AI 开发者青睐的开源操作系统",
+      "link": "https://www.solidot.org/story?sid=85608",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "专家观点",
+      "published": "10-14 15:31",
+      "ts": 1791963109,
+      "summary": "随着 Linux 阵营拥抱亲 AI 路线，NetBSD 意外成为抵触 AI 的开发者青睐的开源操作系统。NetBSD 项目透露，上个月它收到了 120,282 美元捐款，远超 50,000 美元的筹款目标。",
+      "why": "分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 131,
+      "relevance": 13
+    },
+    {
+      "title": "TypeSafe 发布 Jev 1.14，支持看图做决策、以及更长上下文",
+      "link": "https://www.oschina.net/news/503041/typesafe-ai-jev-1-14",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "工具发布",
+      "published": "10-15 19:27",
+      "ts": 1792063675,
+      "summary": "TypeSafe AI 发布了 Jev 1.14.0，同时放出一批「危险区」实验功能：图像输入、新类型 box、更长上下文。用他们自己的话说——\"Enter the danger zone at your own risk\"。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 126.84,
+      "relevance": 9
+    }
+  ]
+}
