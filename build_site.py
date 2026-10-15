@@ -69,6 +69,11 @@ def build_stream(items):
     return f'''<section class="feed">{stories}</section>'''
 
 
+def select_items(items, *, sources=(), topics=()):
+    return [item for item in items
+            if item.get("source") in sources or item.get("topic") in topics]
+
+
 def offer_href(date=None):
     base = "https://dawanglin.github.io/youhui-pages/"
     return f"{base}?date={esc(date)}" if date else base
@@ -195,6 +200,7 @@ a { color: inherit; }
 .archive-link { margin-top: 22px; }
 .archive-link a { color: var(--news); font-size: 13px; }
 .col-business { margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--line); }
+.method-section { margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--line); }
 .col-business .section-heading { border-bottom-color: #e6dcc9; }
 .col-business h2 { color: var(--biz); }
 .biz { margin: 0 0 22px; padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
@@ -224,8 +230,8 @@ html { scroll-behavior: smooth; }
 @media (max-width: 960px) { .mast, footer { padding-left: 22px; padding-right: 22px; } .mast-inner, .page, .footer-inner { width: min(100% - 32px, 1200px); } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 </style></head><body>
-<header class="mast"><div class="mast-inner"><div class="mast-top"><nav class="mast-links" aria-label="栏目导航"><a href="#news">新闻情报</a><a href="[[ARCHIVE_HREF]]">历史新闻</a><a href="#business">商业建设观察</a><a href="[[OFFERS_HREF]]" target="_blank" rel="noopener noreferrer">生活优惠</a></nav></div><h1>每日情报简报</h1><p class="subtitle">今日动态与可落地线索</p><p class="meta">[[DATE]] · [[STATS]]</p><p class="direction">筛掉政治造势，留下能理解、能尝试、能落地的信息。</p></div></header>
-<main class="page"><div class="layout"><section id="news" class="col-news"><div class="section-heading"><h2>新闻情报</h2><span class="head-right">[[NEWS_COUNT]] 条 · 按阅读价值排序<a class="quick-jump" href="#business">直达商业观察</a></span></div>[[STREAM]]<p class="archive-link"><a href="[[ARCHIVE_HREF]]">查看往期简报</a></p></section><section id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>空间智能与地图能力 · 可落地线索</span></div>[[BUSINESS]]</section></div></main>
+<header class="mast"><div class="mast-inner"><div class="mast-top"><nav class="mast-links" aria-label="栏目导航"><a href="[[HOME_HREF]]">效率导航</a><a href="#news">新闻</a><a href="#v2ex">V2EX</a><a href="#prompt">Prompt</a><a href="#skill">Skill</a><a href="#business">商业观察</a><a href="[[ARCHIVE_HREF]]">历史</a></nav></div><h1>每日情报简报</h1><p class="subtitle">今日动态与可落地线索</p><p class="meta">[[DATE]] · [[STATS]]</p><p class="direction">筛掉政治造势，留下能理解、能尝试、能落地的信息。</p></div></header>
+<main class="page"><div class="layout"><section id="news" class="col-news"><div class="section-heading"><h2>新闻情报</h2><span class="head-right">[[NEWS_COUNT]] 条 · 按阅读价值排序<a class="quick-jump" href="#business">直达商业观察</a></span></div>[[STREAM]]<p class="archive-link"><a href="[[ARCHIVE_HREF]]">查看往期简报</a></p></section><section id="v2ex" class="method-section"><div class="section-heading"><h2>V2EX 方法发现</h2><span>[[V2EX_COUNT]] 条 · 用户讨论与作品</span></div>[[V2EX_STREAM]]</section><section id="prompt" class="method-section"><div class="section-heading"><h2>Prompt 推荐</h2><span>[[PROMPT_COUNT]] 条 · 可复用提示方法</span></div>[[PROMPT_STREAM]]</section><section id="skill" class="method-section"><div class="section-heading"><h2>Skill 推荐</h2><span>[[SKILL_COUNT]] 条 · 工具与插件能力</span></div>[[SKILL_STREAM]]</section><section id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>空间智能与地图能力 · 可落地线索</span></div>[[BUSINESS]]</section></div></main>
 <footer><div class="footer-inner">[[SOURCES]]<div class="footer-note">不使用 AI 大模型生成摘要。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。商业建设观察为人工整理的商业线索，来源可追溯。</div></div></footer></body></html>'''
 
 
@@ -236,6 +242,9 @@ def render_daily(news, archive_href, offer_date=None, business=None):
     date_cn = f"{parsed.year}年{parsed.month}月{parsed.day}日 {WEEKDAYS[parsed.weekday()]}"
     items = news.get("items", [])
     stream = build_stream(items)
+    v2ex_items = select_items(items, sources=("V2EX·技术", "V2EX·创造"))
+    prompt_items = select_items(items, topics=("提示词",))
+    skill_items = select_items(items, topics=("Skill与插件",))
     business_html = build_business(business)
     page = PAGE_TEMPLATE
     replacements = {
@@ -244,14 +253,57 @@ def render_daily(news, archive_href, offer_date=None, business=None):
         "[[STATS]]": f"共 {len(items)} 条",
         "[[NEWS_COUNT]]": str(len(items)),
         "[[OFFERS_HREF]]": offer_href(offer_date),
+        "[[HOME_HREF]]": "../" if archive_href.startswith("../") else "./",
         "[[ARCHIVE_HREF]]": archive_href,
         "[[STREAM]]": stream,
+        "[[V2EX_COUNT]]": str(len(v2ex_items)),
+        "[[V2EX_STREAM]]": build_stream(v2ex_items),
+        "[[PROMPT_COUNT]]": str(len(prompt_items)),
+        "[[PROMPT_STREAM]]": build_stream(prompt_items),
+        "[[SKILL_COUNT]]": str(len(skill_items)),
+        "[[SKILL_STREAM]]": build_stream(skill_items),
         "[[BUSINESS]]": business_html,
         "[[SOURCES]]": source_footer(news),
     }
     for key, value in replacements.items():
         page = page.replace(key, value)
     return page
+
+
+def render_portal(news, business):
+    date = news["date"]
+    items = news.get("items", [])
+    v2ex = select_items(items, sources=("V2EX·技术", "V2EX·创造"))
+    prompts = select_items(items, topics=("提示词",))
+    skills = select_items(items, topics=("Skill与插件",))
+    business_count = len((business or {}).get("items", []))
+    cards = [
+        ("新闻情报", len(items), "当天筛选后的完整信息流", f"daily/{date}.html#news", "news"),
+        ("V2EX 方法发现", len(v2ex), "工具、经验与真实讨论", f"daily/{date}.html#v2ex", "v2ex"),
+        ("Prompt 推荐", len(prompts), "可复用的提示方法", f"daily/{date}.html#prompt", "prompt"),
+        ("Skill 推荐", len(skills), "值得尝试的工具能力", f"daily/{date}.html#skill", "skill"),
+        ("商业建设观察", business_count, "空间智能与地图能力", f"daily/{date}.html#business", "business"),
+        ("历史简报", "全部", "按日期回看每日快照", "archive/", "archive"),
+        ("生活优惠", "今日", "独立的优惠信息入口", offer_href(date), "offers"),
+    ]
+    card_html = "".join(
+        f'<a class="nav-card {kind}" href="{esc(href)}"><span class="nav-name">{esc(name)}</span>'
+        f'<strong>{esc(count)}</strong><span class="nav-desc">{esc(desc)}</span></a>'
+        for name, count, desc, href, kind in cards
+    )
+    parsed = datetime.datetime.strptime(date, "%Y-%m-%d")
+    date_cn = f"{parsed.year}年{parsed.month}月{parsed.day}日 {WEEKDAYS[parsed.weekday()]}"
+    return clean_output(f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#eef3f0"><title>今日效率导航 - {date}</title><style>
+:root{{--paper:#eef3f0;--panel:#fff;--ink:#18342c;--muted:#677872;--line:#d3ddd8;--green:#26705b;--orange:#a35f2d;--blue:#356b86}}
+*{{box-sizing:border-box}} body{{margin:0;background:var(--paper);color:var(--ink);font-family:"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65}}
+.shell{{width:min(1120px,calc(100% - 36px));margin:auto;padding:48px 0 64px}} .top{{display:flex;justify-content:space-between;align-items:end;gap:24px;padding-bottom:22px;border-bottom:1px solid var(--line)}}
+h1{{margin:0;font-size:clamp(30px,5vw,52px);line-height:1.08;letter-spacing:-.035em}} .intro{{margin:10px 0 0;color:var(--muted)}} .date{{font-size:13px;color:var(--muted);white-space:nowrap}}
+.jump{{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}} .jump a{{padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:#f8faf9;color:var(--ink);font-size:13px;text-decoration:none}}
+.grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}} .nav-card{{min-height:184px;padding:22px;border:1px solid var(--line);border-radius:14px;background:var(--panel);color:inherit;text-decoration:none;display:flex;flex-direction:column;transition:transform .15s ease,border-color .15s ease}}
+.nav-card:hover{{transform:translateY(-2px);border-color:var(--green)}} .nav-name{{font-size:16px;font-weight:700}} .nav-card strong{{margin-top:auto;font-size:38px;line-height:1;color:var(--green);font-variant-numeric:tabular-nums}} .nav-desc{{margin-top:11px;color:var(--muted);font-size:13px}}
+.nav-card.v2ex strong,.nav-card.prompt strong,.nav-card.skill strong{{color:var(--blue)}} .nav-card.business strong{{color:var(--orange)}} .note{{margin:26px 0 0;color:var(--muted);font-size:13px}}
+a:focus-visible{{outline:3px solid var(--green);outline-offset:3px}} @media(max-width:760px){{.shell{{padding-top:28px}}.top{{display:block}}.date{{display:block;margin-top:14px}}.grid{{grid-template-columns:repeat(2,1fr)}}.nav-card{{min-height:158px;padding:18px}}}} @media(max-width:430px){{.grid{{grid-template-columns:1fr}}.nav-card{{min-height:140px}}}} @media(prefers-reduced-motion:reduce){{.nav-card{{transition:none}}}}
+</style></head><body><main class="shell"><header class="top"><div><h1>今日效率导航</h1><p class="intro">从信息到方法，快速进入今天值得看的内容。</p></div><span class="date">{esc(date_cn)}</span></header><nav class="jump" aria-label="快速分类"><a href="daily/{date}.html#prompt">提示词</a><a href="daily/{date}.html#skill">Skill</a><a href="daily/{date}.html#v2ex">V2EX</a><a href="daily/{date}.html#business">商业</a><a href="daily/{date}.html#news">代码与科技</a></nav><section class="grid" aria-label="今日栏目">{card_html}</section><p class="note">每个入口直达当天对应栏目；历史内容按日期固定保存。</p></main></body></html>''')
 
 
 def render_archive(editions):
@@ -277,7 +329,7 @@ def main():
     business = load_business(latest["date"])
     (SITE_DIR / ".nojekyll").touch()
     today_cn = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=8)).date().isoformat()
-    (SITE_DIR / "index.html").write_text(clean_output(render_daily(latest, "archive/", today_cn, business)), encoding="utf-8")
+    (SITE_DIR / "index.html").write_text(render_portal(latest, business), encoding="utf-8")
     for edition in editions:
         daily_path = DAILY_DIR / f"{edition['date']}.html"
         # 商业观察可能晚于新闻补齐；有同日数据时允许纠正该日页面。
