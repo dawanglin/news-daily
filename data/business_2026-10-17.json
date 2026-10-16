@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-17",
+  "items": [
+    {
+      "title": "MCP 规范更新：Documentation Index",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：<button type=\"button\" class=\"text-gray-700 dark:text-gray-300 font-medium flex i",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Documentation",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Getting Started",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/getting_started/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Official Manual",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/manual/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Tips & Tricks",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/tips/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    }
+  ]
+}

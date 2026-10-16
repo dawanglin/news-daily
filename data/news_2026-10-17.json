@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17 01:46:53 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 4,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 13,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "鸿蒙智行 App 迎 3.0.3.300 大版本升级，新增 3D 车模、动态箭头寻车等功能",
+      "link": "https://www.ithome.com/1/014/115.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "工具发布",
+      "published": "10-16 18:41",
+      "ts": 1792147309,
+      "summary": "IT之家 10 月 16 日消息，鸿蒙智行 App 今日在华为应用市场发布了 3.0.3.300 大版本升级， 新增了 3D 车模、动态箭头寻车、车内高温保护、远程复位授权等功能 。鸿蒙智行 App 此次更新日志如下： 1.【新增】3D 车模功能： 爱车页支持 360° 旋转查看 3D 车模 ，支持双击查看胎压信息，看车更直观；",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 142.64,
+      "relevance": 15
+    },
+    {
+      "title": "Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
+      "link": "https://www.infoq.cn/article/hQOHf1ZXoBs7uMpWJQss?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "技术实践",
+      "published": "10-16 19:53",
+      "ts": 1792151594,
+      "summary": "Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 219.04,
+      "relevance": 27
+    },
+    {
+      "title": "美国八个州起诉 OpenAI 称 ChatGPT 伤害年轻用户",
+      "link": "https://www.solidot.org/story?sid=85616",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "社区观察",
+      "published": "10-15 14:12",
+      "ts": 1792044767,
+      "summary": "堪萨斯州、亚利桑那州和蒙大拿州等美国八个州对 OpenAI 提起诉讼，指控 ChatGPT 诱导儿童自我伤害。八个州要求 OpenAI 改变其产品与年轻用户互动的方式，没收由此产生的利润。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 201,
+      "relevance": 27
+    },
+    {
+      "title": "Pizza Bot：开源的后台 AI 智能体收件箱",
+      "link": "https://www.infoq.cn/article/aMgWFmwZ2HoZDtw1g0MQ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-16 19:06",
+      "ts": 1792148760,
+      "summary": "Pizza Bot：开源的后台 AI 智能体收件箱",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 158.78,
+      "relevance": 15
+    },
+    {
+      "title": "Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&mid=2247525055&idx=1&sn=277da8b6b5971bb7697a29126a02230e&chksm=e984b1796746d655a9023329920dd4f7f0d9ec991657c58a8e4645f226b11f4d05093fc4c208&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-11 08:00",
+      "ts": 1791676800,
+      "summary": "Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 185,
+      "relevance": 22
+    },
+    {
+      "title": "【AI 智能运维平台】本周更新：AI 对话搭建仪表盘，主机巡检打通执行、报告与通知",
+      "link": "https://www.oschina.net/news/503059",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "工具发布",
+      "published": "10-16 16:10",
+      "ts": 1792138257,
+      "summary": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。【平台·本周更新速递】 运营分析 • AI 仪表盘搭建：支持对话式数据源检索与图表生成 • 新增内置应用拓扑大屏 • 3D 机房完善机房统计信息 • 仪表盘、报表、拓...",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 160.8,
+      "relevance": 16
+    },
+    {
+      "title": "Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄",
+      "link": "https://www.infoq.cn/article/LQCqiPUzgZyB3v24rsNO?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "工具发布",
+      "published": "10-16 01:22",
+      "ts": 1792084920,
+      "summary": "Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 158,
+      "relevance": 16
+    },
+    {
+      "title": "分享一个小工具：把 HTML 网页打包成 Windows EXE 桌面程序",
+      "link": "https://www.v2ex.com/t/1249375#reply1",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-16 15:11",
+      "ts": 1792134717,
+      "summary": "最近做了一个小工具： WebEXE ，可以把 HTML 页面转换成 Windows EXE 桌面程序。有时候我们写了一些实用的小工具，比如 JSON 格式化、文本处理、文件转换或者数据查询页面，其实前端部分已经可以正常工作了，但如果想让它变成一个可以直接运行的 Windows 软件，还需要处理桌面应用框架、打包和发布等事情。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 129.47,
+      "relevance": 13
+    },
+    {
+      "title": "现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1556630",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-14 16:43",
+      "ts": 1791967385,
+      "summary": "现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 163,
+      "relevance": 18
+    },
+    {
+      "title": "从长度到信息拓扑：测度论如何一步步\"长出结构\"",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1556793",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "教程方法",
+      "published": "10-15 16:33",
+      "ts": 1792053231,
+      "summary": "从长度到信息拓扑：测度论如何一步步\"长出结构\"",
+      "why": "可练习把位置、数据和模糊关系连接起来。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 118,
+      "relevance": 9
+    },
+    {
+      "title": "OpenAI 自曝“模型偷钱”：未经许可动用他人加密货币部署合约，已加强监控",
+      "link": "https://www.ithome.com/1/014/111.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "10-16 18:31",
+      "ts": 1792146705,
+      "summary": "IT之家 10 月 16 日消息，OpenAI 当地时间 10 月 15 日更新了一份内部研究案例报告，披露其内部研究模型以自己的判断取代授权的案例。在这起案例中，其内部模型在完成加密货币交易应用开发任务时，未经账户持有人授权，利用公开的开发者助记词推导出钱包私钥，并动用该钱包中的以太坊测试币支付合约部署费用。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 187.58,
+      "relevance": 24
+    },
+    {
+      "title": "卡加了，吞吐为何没跟上？大模型推理中的等待，有了新解法",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651063125&idx=1&sn=f5030e5f29a40a6c8d742d2485efcb5b",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "10-16 11:23",
+      "ts": 1792120980,
+      "summary": "突破大模型推理的数据并行负载均衡瓶颈",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 187.2,
+      "relevance": 21
+    },
+    {
+      "title": "我给 Gemini 4 和 DeepSeek 搞了套「末位淘汰」， AI 干活会更猛吗？（Day 3）",
+      "link": "https://www.v2ex.com/t/1249479#reply3",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "10-16 22:02",
+      "ts": 1792159338,
+      "summary": "昨天定下做 Beyond Compare 的免费开源版 OpenCompare 后，评论区又有朋友提了 FTP 远端对比等新需求，我已经让 AI 员工收进需求池交给 Gemini 4 评估。今天本来该直接让 Gemini 4 和 DeepSeek 开工写核心代码。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 184.75,
+      "relevance": 24
+    },
+    {
+      "title": "前华为小艺大模型负责人创业，押注“主动式物理AI”",
+      "link": "https://www.qbitai.com/2026/10/503446.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "10-15 14:35",
+      "ts": 1792046146,
+      "summary": "前华为小艺大模型负责人创业，押注“主动式物理AI”",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 183,
+      "relevance": 21
+    },
+    {
+      "title": "OpenCode 免费提供 DeepSeek V4.1 Flash 模型",
+      "link": "https://www.appinn.com/opencode-free-deepseek-v4-1-flash/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "10-15 17:48",
+      "ts": 1792057738,
+      "summary": "OpenCode 在 X 上宣布，现在开始免费提供 DeepSeek V4.1 Flash 模型： 更新你的 OpenCode 程序，然后输入 /model 切换模型，就可以找到 DeepSeek V4.1 Flash 了： 不过只有 200KB 上下文： 但，比没有强啊。OpenCode 安装方",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 177,
+      "relevance": 21
+    },
+    {
+      "title": "重庆车企赛力斯频遭网络谣言，全国各地公安机关已依法查处 22 名违法行为人",
+      "link": "https://www.ithome.com/1/014/109.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "四川生活",
+      "lens": "案例复盘",
+      "published": "10-16 18:23",
+      "ts": 1792146222,
+      "summary": "IT之家 10 月 16 日消息，10 月 15 日，重庆市公安局沙坪坝区分局微信公号“平安沙坪坝”发布通报，公布 3 起涉企网络谣言、网络暴力典型案例。▲ 图源：赛力斯官网截图 据重庆公安公众号转“新重庆-重庆日报”报道，上述 3 起案件的受害企业均为重庆本土车企赛力斯集团股份有限公司。",
+      "why": "保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 157.54,
+      "relevance": 18
+    },
+    {
+      "title": "邀请函 | Agentic Infra 操作系统大会 & openEuler Summit 2026",
+      "link": "https://www.oschina.net/news/503062",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-16 18:01",
+      "ts": 1792144909,
+      "summary": "邀请函 | Agentic Infra 操作系统大会 & openEuler Summit 2026",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 156.42,
+      "relevance": 15
+    },
+    {
+      "title": "阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统",
+      "link": "https://www.infoq.cn/article/EwqsJX6f03ODRac6Kk4c?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-16 04:09",
+      "ts": 1792094999,
+      "summary": "阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 153.8,
+      "relevance": 15
+    },
+    {
+      "title": "量子位智库发布Agent落地报告！拆解企业智能化六大断点，附全链路破局框架",
+      "link": "https://www.qbitai.com/2026/10/503614.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-15 16:48",
+      "ts": 1792054111,
+      "summary": "Agent究竟该如何深入业务毛细血管？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "阶跃 Step 5 Preview 权重开放，600B 稀疏 MoE、面向长程 Agent 任务设计",
+      "link": "https://www.oschina.net/news/503035/stepfun-ai-step-5-preview",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-15 14:12",
+      "ts": 1792044755,
+      "summary": "阶跃（StepFun）把 Step 5 Preview 的权重放出来了，模型和技术博客同一天上线。对想自己部署长程 Agent 模型的开发者来说，这是等了好久的消息。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 151,
+      "relevance": 15
+    },
+    {
+      "title": "学得会的快捷指令，零基础入门苹果效率魔法",
+      "link": "https://sspai.com/post/116182",
+      "source": "少数派",
+      "signals": [
+        "少数派"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "教程方法",
+      "published": "10-15 14:30",
+      "ts": 1792045800,
+      "summary": "快捷指令一直被视为苹果用户必备的效率利器。不仅网络上已有大量的指令可供下载，如果能根据自己的需求，从零开始构建一条快捷指令，就不用在iPhone/Mac上频繁手动操作，可以节省大量时间。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "数字生活来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 15
+    },
+    {
+      "title": "研究人员实现抗噪声量子密钥分发",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/20261012201415161156428.shtm?id=156428",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "教程方法",
+      "published": "10-12 01:30",
+      "ts": 1791739800,
+      "summary": "中国科学技术大学郭光灿院士团队的韩正甫、陈巍、银振强、王双等与河南省量子信息与量子密码重点实验室、南京邮电大学合作，针对量子通信实际应用中的强背景噪声问题，首次实现了基于优势提...",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 13
+    },
+    {
+      "title": "腾讯混元记忆框架 Hy Memory 2.0 发布开源，专用模型性能超 Opus5",
+      "link": "https://www.ithome.com/1/014/108.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-16 18:18",
+      "ts": 1792145926,
+      "summary": "IT之家 10 月 16 日消息，腾讯混元官方今日宣布推出智能体记忆框架 Hy Memory 2.0 版本，并开源专用模型、记忆框架和 MemHub 应用三层能力。Hy Memory 2.0 三层能力既能独立使用，也能组合成一套完整的 Memory 解决方案。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 142.51,
+      "relevance": 15
+    },
+    {
+      "title": "Google 悄悄关联手机号码和所有用户登录账号",
+      "link": "https://www.solidot.org/story?sid=85621",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "社区观察",
+      "published": "10-15 17:45",
+      "ts": 1792057514,
+      "summary": "Google 现在会自动验证用户的手机号码，将其关联至用户 Android 设备上登录的所有 Google 账户，全程不会弹出明显确认提示。该功能在 Google 设置中被称为电话号码验证(Phone number verification)，会将用户当前使用的手机号码关联至同一台设备上登录的所有 Google 账户——无论是辅助账户、工作账户，还是其它临时账户。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 141,
+      "relevance": 15
+    },
+    {
+      "title": "熵与信息函数类：高维概率的内蕴几何学",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1556814",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-16 12:51",
+      "ts": 1792126305,
+      "summary": "熵与信息函数类：高维概率的内蕴几何学",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 136.7,
+      "relevance": 12
+    },
+    {
+      "title": "概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3582667&do=blog&id=1556619",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-14 14:09",
+      "ts": 1791958179,
+      "summary": "概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 133,
+      "relevance": 12
+    }
+  ]
+}

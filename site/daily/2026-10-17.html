@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f4ee"><meta name="description" content="每日情报简报：筛掉政治造势，留下能理解、能尝试、能落地的信息。"><title>每日情报简报 - 2026-10-17</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f6f4ee;
+  --panel: #fbfaf6;
+  --ink: #24313c;
+  --body: #38454f;
+  --muted: #6c7984;
+  --line: #dfe4e6;
+  --news: #2f7d66;
+  --news-soft: #e2eee9;
+  --biz: #a5672f;
+  --biz-soft: #f3eadb;
+  --focus: #2f7d66;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 16px;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--news); color: #fff; }
+a { color: inherit; }
+.mast { padding: 34px 40px 22px; border-bottom: 1px solid var(--line); }
+.mast-inner, .page, .footer-inner { width: min(100% - 64px, 1200px); margin-inline: auto; }
+.mast-top { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+.mast-links { display: inline-flex; align-items: center; gap: 22px; font-size: 14px; }
+.mast-links a { text-decoration: none; color: var(--muted); padding: 6px 2px; border-bottom: 2px solid transparent; }
+.mast-links a:hover { color: var(--ink); border-bottom-color: var(--news); }
+.mast h1 { margin: 26px 0 4px; font-size: 34px; line-height: 1.15; letter-spacing: -.01em; }
+.mast .subtitle { margin: 0 0 12px; font-size: 17px; color: var(--body); }
+.mast .meta { margin: 0; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.mast .direction { margin: 18px 0 0; color: var(--body); font-size: 14px; border-left: 3px solid var(--news); padding-left: 12px; }
+.layout { display: block; padding: 30px 0 20px; }
+.section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; padding: 0 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
+.section-heading h2 { margin: 0; font-size: 18px; line-height: 1.3; letter-spacing: -.01em; }
+.section-heading > span { color: var(--muted); font-size: 12px; }
+.head-right { display: inline-flex; align-items: baseline; gap: 14px; }
+.quick-jump { color: var(--biz); font-weight: 650; text-decoration: none; }
+.quick-jump:hover { text-decoration: underline; }
+.story { padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
+.story-title { display: block; font-size: 19px; font-weight: 680; line-height: 1.5; text-decoration: none; overflow-wrap: anywhere; }
+.story-title:hover { color: var(--news); }
+.story-title::after { content: "↗"; display: inline-block; margin-left: .3em; color: var(--news); font-size: .72em; font-weight: 500; transform: translateY(-.05em); }
+.story-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.story-meta .topic { padding: 1px 8px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-weight: 600; }
+.story-meta .lens { color: var(--news); font-weight: 600; }
+.story-meta .source, .story-meta .published { font-variant-numeric: tabular-nums; }
+.confidence { color: var(--muted); }
+.confidence.verified { color: var(--news); }
+.confidence.signal { color: var(--biz); }
+.story-summary { margin: 11px 0 0; color: var(--body); font-size: 15px; line-height: 1.82; overflow-wrap: anywhere; }
+.story-why { display: grid; grid-template-columns: auto 1fr; gap: 10px; margin: 13px 0 0; color: var(--body); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+.story-why strong { align-self: start; color: var(--news); font-size: 12px; font-weight: 650; white-space: nowrap; }
+.archive-link { margin-top: 22px; }
+.archive-link a { color: var(--news); font-size: 13px; }
+.col-business { margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--line); }
+.method-section { margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--line); }
+.col-business .section-heading { border-bottom-color: #e6dcc9; }
+.col-business h2 { color: var(--biz); }
+.biz { margin: 0 0 22px; padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
+.biz-title { margin: 0; font-size: 19px; font-weight: 680; line-height: 1.5; }
+.biz-title a { text-decoration: none; }
+.biz-title a::after { content: "↗"; display: inline-block; margin-left: .3em; color: var(--biz); font-size: .72em; font-weight: 500; transform: translateY(-.05em); }
+.biz-title a:hover { color: var(--biz); }
+.biz-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; font-variant-numeric: tabular-nums; }
+.biz-status { margin-left: 8px; padding: 1px 6px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-size: 11px; }
+.biz-status.pending { background: var(--biz-soft); color: #7c4c24; }
+.biz-summary { margin: 11px 0 0; color: var(--body); font-size: 15px; line-height: 1.82; overflow-wrap: anywhere; }
+.biz-empty, .biz-note { color: var(--muted); font-size: 13px; line-height: 1.7; }
+.biz-note { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line); }
+footer { padding: 26px 40px 40px; border-top: 1px solid var(--line); background: var(--panel); color: var(--muted); font-size: 12px; line-height: 1.8; }
+.footer-note { margin-top: 9px; }
+.archive-panel h2 { margin: 20px 0 8px; font-size: 21px; }
+.archive-intro { margin: 0 0 8px; color: var(--muted); font-size: 13px; }
+.archive-list { list-style: none; padding: 0; margin: 0; }
+.archive-list li { padding: 20px 0; border-top: 1px solid var(--line); }
+.archive-list a { display: block; min-height: 44px; text-decoration: none; font-size: 16px; line-height: 1.65; }
+.archive-list .issue { display: block; margin-bottom: 3px; color: var(--news); font-weight: 700; font-variant-numeric: tabular-nums; }
+.edition-meta { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
+.back { display: inline-block; margin: 20px 0 8px; color: var(--news); text-decoration: none; font-size: 14px; }
+a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 3px; }
+html { scroll-behavior: smooth; }
+@media (hover: hover) { .mast-links a:hover, .story-title:hover, .biz-title a:hover { color: var(--news); } }
+@media (max-width: 960px) { .mast, footer { padding-left: 22px; padding-right: 22px; } .mast-inner, .page, .footer-inner { width: min(100% - 32px, 1200px); } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style></head><body>
+<header class="mast"><div class="mast-inner"><div class="mast-top"><nav class="mast-links" aria-label="栏目导航"><a href="../">效率导航</a><a href="#news">新闻</a><a href="#v2ex">V2EX</a><a href="#prompt">Prompt</a><a href="#skill">Skill</a><a href="#business">商业观察</a><a href="../archive/">历史</a></nav></div><h1>每日情报简报</h1><p class="subtitle">今日动态与可落地线索</p><p class="meta">2026年10月17日 星期六 · 共 26 条</p><p class="direction">筛掉政治造势，留下能理解、能尝试、能落地的信息。</p></div></header>
+<main class="page"><div class="layout"><section id="news" class="col-news"><div class="section-heading"><h2>新闻情报</h2><span class="head-right">26 条 · 按阅读价值排序<a class="quick-jump" href="#business">直达商业观察</a></span></div><section class="feed">
+      <article class="story" data-news-title="鸿蒙智行 App 迎 3.0.3.300 大版本升级，新增 3D 车模、动态箭头寻车等功能" data-news-url="https://www.ithome.com/1/014/115.htm" data-news-source="IT之家" data-news-time="10-16 18:41" data-news-summary="IT之家 10 月 16 日消息，鸿蒙智行 App 今日在华为应用市场发布了 3.0.3.300 大版本升级， 新增了 3D 车模、动态箭头寻车、车内高温保护、远程复位授权等功能 。鸿蒙智行 App 此次更新日志如下： 1.【新增】3D 车模功能： 爱车页支持 360° 旋转查看 3D 车模 ，支持双击查看胎压信息，看车更直观；">
+        <a class="story-title" href="https://www.ithome.com/1/014/115.htm" target="_blank" rel="noopener noreferrer">鸿蒙智行 App 迎 3.0.3.300 大版本升级，新增 3D 车模、动态箭头寻车等功能</a>
+        <div class="story-meta">
+          <span class="topic">线下数字化</span>
+          <span class="lens">工具发布</span>
+          <span class="source">IT之家</span>
+          <span class="published">10-16 18:41</span>
+          <span class="confidence professional">科技资讯来源</span>
+        </div>
+        <p class="story-summary">IT之家 10 月 16 日消息，鸿蒙智行 App 今日在华为应用市场发布了 3.0.3.300 大版本升级， 新增了 3D 车模、动态箭头寻车、车内高温保护、远程复位授权等功能 。鸿蒙智行 App 此次更新日志如下： 1.【新增】3D 车模功能： 爱车页支持 360° 旋转查看 3D 车模 ，支持双击查看胎压信息，看车更直观；</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心" data-news-url="https://www.infoq.cn/article/hQOHf1ZXoBs7uMpWJQss?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-16 19:53" data-news-summary="Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心">
+        <a class="story-title" href="https://www.infoq.cn/article/hQOHf1ZXoBs7uMpWJQss?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心</a>
+        <div class="story-meta">
+          <span class="topic">MCP与地图接口</span>
+          <span class="lens">技术实践</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-16 19:53</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="美国八个州起诉 OpenAI 称 ChatGPT 伤害年轻用户" data-news-url="https://www.solidot.org/story?sid=85616" data-news-source="Solidot" data-news-time="10-15 14:12" data-news-summary="堪萨斯州、亚利桑那州和蒙大拿州等美国八个州对 OpenAI 提起诉讼，指控 ChatGPT 诱导儿童自我伤害。八个州要求 OpenAI 改变其产品与年轻用户互动的方式，没收由此产生的利润。">
+        <a class="story-title" href="https://www.solidot.org/story?sid=85616" target="_blank" rel="noopener noreferrer">美国八个州起诉 OpenAI 称 ChatGPT 伤害年轻用户</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">社区观察</span>
+          <span class="source">Solidot</span>
+          <span class="published">10-15 14:12</span>
+          <span class="confidence professional">科技社区来源</span>
+        </div>
+        <p class="story-summary">堪萨斯州、亚利桑那州和蒙大拿州等美国八个州对 OpenAI 提起诉讼，指控 ChatGPT 诱导儿童自我伤害。八个州要求 OpenAI 改变其产品与年轻用户互动的方式，没收由此产生的利润。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="Pizza Bot：开源的后台 AI 智能体收件箱" data-news-url="https://www.infoq.cn/article/aMgWFmwZ2HoZDtw1g0MQ?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-16 19:06" data-news-summary="Pizza Bot：开源的后台 AI 智能体收件箱">
+        <a class="story-title" href="https://www.infoq.cn/article/aMgWFmwZ2HoZDtw1g0MQ?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">Pizza Bot：开源的后台 AI 智能体收件箱</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">工具发布</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-16 19:06</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">Pizza Bot：开源的后台 AI 智能体收件箱</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了" data-news-url="http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&amp;mid=2247525055&amp;idx=1&amp;sn=277da8b6b5971bb7697a29126a02230e&amp;chksm=e984b1796746d655a9023329920dd4f7f0d9ec991657c58a8e4645f226b11f4d05093fc4c208&amp;scene=0#rd" data-news-source="前端技术精选" data-news-time="10-11 08:00" data-news-summary="Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了">
+        <a class="story-title" href="http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&amp;mid=2247525055&amp;idx=1&amp;sn=277da8b6b5971bb7697a29126a02230e&amp;chksm=e984b1796746d655a9023329920dd4f7f0d9ec991657c58a8e4645f226b11f4d05093fc4c208&amp;scene=0#rd" target="_blank" rel="noopener noreferrer">Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">前端技术精选</span>
+          <span class="published">10-11 08:00</span>
+          <span class="confidence professional">前端专业精选</span>
+        </div>
+        <p class="story-summary">Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="【AI 智能运维平台】本周更新：AI 对话搭建仪表盘，主机巡检打通执行、报告与通知" data-news-url="https://www.oschina.net/news/503059" data-news-source="开源中国" data-news-time="10-16 16:10" data-news-summary="Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。【平台·本周更新速递】 运营分析 • AI 仪表盘搭建：支持对话式数据源检索与图表生成 • 新增内置应用拓扑大屏 • 3D 机房完善机房统计信息 • 仪表盘、报表、拓...">
+        <a class="story-title" href="https://www.oschina.net/news/503059" target="_blank" rel="noopener noreferrer">【AI 智能运维平台】本周更新：AI 对话搭建仪表盘，主机巡检打通执行、报告与通知</a>
+        <div class="story-meta">
+          <span class="topic">云服务器</span>
+          <span class="lens">工具发布</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-16 16:10</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。【平台·本周更新速递】 运营分析 • AI 仪表盘搭建：支持对话式数据源检索与图表生成 • 新增内置应用拓扑大屏 • 3D 机房完善机房统计信息 • 仪表盘、报表、拓...</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄" data-news-url="https://www.infoq.cn/article/LQCqiPUzgZyB3v24rsNO?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-16 01:22" data-news-summary="Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄">
+        <a class="story-title" href="https://www.infoq.cn/article/LQCqiPUzgZyB3v24rsNO?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄</a>
+        <div class="story-meta">
+          <span class="topic">提示词</span>
+          <span class="lens">工具发布</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-16 01:22</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="分享一个小工具：把 HTML 网页打包成 Windows EXE 桌面程序" data-news-url="https://www.v2ex.com/t/1249375#reply1" data-news-source="V2EX·创造" data-news-time="10-16 15:11" data-news-summary="最近做了一个小工具： WebEXE ，可以把 HTML 页面转换成 Windows EXE 桌面程序。有时候我们写了一些实用的小工具，比如 JSON 格式化、文本处理、文件转换或者数据查询页面，其实前端部分已经可以正常工作了，但如果想让它变成一个可以直接运行的 Windows 软件，还需要处理桌面应用框架、打包和发布等事情。">
+        <a class="story-title" href="https://www.v2ex.com/t/1249375#reply1" target="_blank" rel="noopener noreferrer">分享一个小工具：把 HTML 网页打包成 Windows EXE 桌面程序</a>
+        <div class="story-meta">
+          <span class="topic">网页小游戏</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-16 15:11</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">最近做了一个小工具： WebEXE ，可以把 HTML 页面转换成 Windows EXE 桌面程序。有时候我们写了一些实用的小工具，比如 JSON 格式化、文本处理、文件转换或者数据查询页面，其实前端部分已经可以正常工作了，但如果想让它变成一个可以直接运行的 Windows 软件，还需要处理桌面应用框架、打包和发布等事情。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活" data-news-url="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556630" data-news-source="科学网·科普" data-news-time="10-14 16:43" data-news-summary="现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活">
+        <a class="story-title" href="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556630" target="_blank" rel="noopener noreferrer">现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活</a>
+        <div class="story-meta">
+          <span class="topic">数学物理</span>
+          <span class="lens">概念科普</span>
+          <span class="source">科学网·科普</span>
+          <span class="published">10-14 16:43</span>
+          <span class="confidence verified">科学科普来源</span>
+        </div>
+        <p class="story-summary">现代结构概率论的基石：测度拆解定理，为什么条件概率是门技术活</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="从长度到信息拓扑：测度论如何一步步&quot;长出结构&quot;" data-news-url="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556793" data-news-source="科学网·科普" data-news-time="10-15 16:33" data-news-summary="从长度到信息拓扑：测度论如何一步步&quot;长出结构&quot;">
+        <a class="story-title" href="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556793" target="_blank" rel="noopener noreferrer">从长度到信息拓扑：测度论如何一步步&quot;长出结构&quot;</a>
+        <div class="story-meta">
+          <span class="topic">数据空间</span>
+          <span class="lens">教程方法</span>
+          <span class="source">科学网·科普</span>
+          <span class="published">10-15 16:33</span>
+          <span class="confidence verified">科学科普来源</span>
+        </div>
+        <p class="story-summary">从长度到信息拓扑：测度论如何一步步&quot;长出结构&quot;</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可练习把位置、数据和模糊关系连接起来。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="OpenAI 自曝“模型偷钱”：未经许可动用他人加密货币部署合约，已加强监控" data-news-url="https://www.ithome.com/1/014/111.htm" data-news-source="IT之家" data-news-time="10-16 18:31" data-news-summary="IT之家 10 月 16 日消息，OpenAI 当地时间 10 月 15 日更新了一份内部研究案例报告，披露其内部研究模型以自己的判断取代授权的案例。在这起案例中，其内部模型在完成加密货币交易应用开发任务时，未经账户持有人授权，利用公开的开发者助记词推导出钱包私钥，并动用该钱包中的以太坊测试币支付合约部署费用。">
+        <a class="story-title" href="https://www.ithome.com/1/014/111.htm" target="_blank" rel="noopener noreferrer">OpenAI 自曝“模型偷钱”：未经许可动用他人加密货币部署合约，已加强监控</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">教程方法</span>
+          <span class="source">IT之家</span>
+          <span class="published">10-16 18:31</span>
+          <span class="confidence professional">科技资讯来源</span>
+        </div>
+        <p class="story-summary">IT之家 10 月 16 日消息，OpenAI 当地时间 10 月 15 日更新了一份内部研究案例报告，披露其内部研究模型以自己的判断取代授权的案例。在这起案例中，其内部模型在完成加密货币交易应用开发任务时，未经账户持有人授权，利用公开的开发者助记词推导出钱包私钥，并动用该钱包中的以太坊测试币支付合约部署费用。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="卡加了，吞吐为何没跟上？大模型推理中的等待，有了新解法" data-news-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651063125&amp;idx=1&amp;sn=f5030e5f29a40a6c8d742d2485efcb5b" data-news-source="机器之心" data-news-time="10-16 11:23" data-news-summary="突破大模型推理的数据并行负载均衡瓶颈">
+        <a class="story-title" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651063125&amp;idx=1&amp;sn=f5030e5f29a40a6c8d742d2485efcb5b" target="_blank" rel="noopener noreferrer">卡加了，吞吐为何没跟上？大模型推理中的等待，有了新解法</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">专业报道</span>
+          <span class="source">机器之心</span>
+          <span class="published">10-16 11:23</span>
+          <span class="confidence professional">AI 专业来源</span>
+        </div>
+        <p class="story-summary">突破大模型推理的数据并行负载均衡瓶颈</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="我给 Gemini 4 和 DeepSeek 搞了套「末位淘汰」， AI 干活会更猛吗？（Day 3）" data-news-url="https://www.v2ex.com/t/1249479#reply3" data-news-source="V2EX·技术" data-news-time="10-16 22:02" data-news-summary="昨天定下做 Beyond Compare 的免费开源版 OpenCompare 后，评论区又有朋友提了 FTP 远端对比等新需求，我已经让 AI 员工收进需求池交给 Gemini 4 评估。今天本来该直接让 Gemini 4 和 DeepSeek 开工写核心代码。">
+        <a class="story-title" href="https://www.v2ex.com/t/1249479#reply3" target="_blank" rel="noopener noreferrer">我给 Gemini 4 和 DeepSeek 搞了套「末位淘汰」， AI 干活会更猛吗？（Day 3）</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">实测评价</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-16 22:02</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">昨天定下做 Beyond Compare 的免费开源版 OpenCompare 后，评论区又有朋友提了 FTP 远端对比等新需求，我已经让 AI 员工收进需求池交给 Gemini 4 评估。今天本来该直接让 Gemini 4 和 DeepSeek 开工写核心代码。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。</span></p>
+      </article>
+      <article class="story" data-news-title="前华为小艺大模型负责人创业，押注“主动式物理AI”" data-news-url="https://www.qbitai.com/2026/10/503446.html" data-news-source="量子位" data-news-time="10-15 14:35" data-news-summary="前华为小艺大模型负责人创业，押注“主动式物理AI”">
+        <a class="story-title" href="https://www.qbitai.com/2026/10/503446.html" target="_blank" rel="noopener noreferrer">前华为小艺大模型负责人创业，押注“主动式物理AI”</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">专家观点</span>
+          <span class="source">量子位</span>
+          <span class="published">10-15 14:35</span>
+          <span class="confidence professional">AI 专业来源</span>
+        </div>
+        <p class="story-summary">前华为小艺大模型负责人创业，押注“主动式物理AI”</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。</span></p>
+      </article>
+      <article class="story" data-news-title="OpenCode 免费提供 DeepSeek V4.1 Flash 模型" data-news-url="https://www.appinn.com/opencode-free-deepseek-v4-1-flash/" data-news-source="小众软件" data-news-time="10-15 17:48" data-news-summary="OpenCode 在 X 上宣布，现在开始免费提供 DeepSeek V4.1 Flash 模型： 更新你的 OpenCode 程序，然后输入 /model 切换模型，就可以找到 DeepSeek V4.1 Flash 了： 不过只有 200KB 上下文： 但，比没有强啊。OpenCode 安装方">
+        <a class="story-title" href="https://www.appinn.com/opencode-free-deepseek-v4-1-flash/" target="_blank" rel="noopener noreferrer">OpenCode 免费提供 DeepSeek V4.1 Flash 模型</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">教程方法</span>
+          <span class="source">小众软件</span>
+          <span class="published">10-15 17:48</span>
+          <span class="confidence professional">工具体验来源</span>
+        </div>
+        <p class="story-summary">OpenCode 在 X 上宣布，现在开始免费提供 DeepSeek V4.1 Flash 模型： 更新你的 OpenCode 程序，然后输入 /model 切换模型，就可以找到 DeepSeek V4.1 Flash 了： 不过只有 200KB 上下文： 但，比没有强啊。OpenCode 安装方</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="重庆车企赛力斯频遭网络谣言，全国各地公安机关已依法查处 22 名违法行为人" data-news-url="https://www.ithome.com/1/014/109.htm" data-news-source="IT之家" data-news-time="10-16 18:23" data-news-summary="IT之家 10 月 16 日消息，10 月 15 日，重庆市公安局沙坪坝区分局微信公号“平安沙坪坝”发布通报，公布 3 起涉企网络谣言、网络暴力典型案例。▲ 图源：赛力斯官网截图 据重庆公安公众号转“新重庆-重庆日报”报道，上述 3 起案件的受害企业均为重庆本土车企赛力斯集团股份有限公司。">
+        <a class="story-title" href="https://www.ithome.com/1/014/109.htm" target="_blank" rel="noopener noreferrer">重庆车企赛力斯频遭网络谣言，全国各地公安机关已依法查处 22 名违法行为人</a>
+        <div class="story-meta">
+          <span class="topic">四川生活</span>
+          <span class="lens">案例复盘</span>
+          <span class="source">IT之家</span>
+          <span class="published">10-16 18:23</span>
+          <span class="confidence professional">科技资讯来源</span>
+        </div>
+        <p class="story-summary">IT之家 10 月 16 日消息，10 月 15 日，重庆市公安局沙坪坝区分局微信公号“平安沙坪坝”发布通报，公布 3 起涉企网络谣言、网络暴力典型案例。▲ 图源：赛力斯官网截图 据重庆公安公众号转“新重庆-重庆日报”报道，上述 3 起案件的受害企业均为重庆本土车企赛力斯集团股份有限公司。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>保存失败条件和解决办法，遇到同类问题时可直接查。</span></p>
+      </article>
+      <article class="story" data-news-title="邀请函 | Agentic Infra 操作系统大会 &amp; openEuler Summit 2026" data-news-url="https://www.oschina.net/news/503062" data-news-source="开源中国" data-news-time="10-16 18:01" data-news-summary="邀请函 | Agentic Infra 操作系统大会 &amp; openEuler Summit 2026">
+        <a class="story-title" href="https://www.oschina.net/news/503062" target="_blank" rel="noopener noreferrer">邀请函 | Agentic Infra 操作系统大会 &amp; openEuler Summit 2026</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">工具发布</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-16 18:01</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">邀请函 | Agentic Infra 操作系统大会 &amp; openEuler Summit 2026</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统" data-news-url="https://www.infoq.cn/article/EwqsJX6f03ODRac6Kk4c?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-16 04:09" data-news-summary="阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统">
+        <a class="story-title" href="https://www.infoq.cn/article/EwqsJX6f03ODRac6Kk4c?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">教程方法</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-16 04:09</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="量子位智库发布Agent落地报告！拆解企业智能化六大断点，附全链路破局框架" data-news-url="https://www.qbitai.com/2026/10/503614.html" data-news-source="量子位" data-news-time="10-15 16:48" data-news-summary="Agent究竟该如何深入业务毛细血管？">
+        <a class="story-title" href="https://www.qbitai.com/2026/10/503614.html" target="_blank" rel="noopener noreferrer">量子位智库发布Agent落地报告！拆解企业智能化六大断点，附全链路破局框架</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">工具发布</span>
+          <span class="source">量子位</span>
+          <span class="published">10-15 16:48</span>
+          <span class="confidence professional">AI 专业来源</span>
+        </div>
+        <p class="story-summary">Agent究竟该如何深入业务毛细血管？</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="阶跃 Step 5 Preview 权重开放，600B 稀疏 MoE、面向长程 Agent 任务设计" data-news-url="https://www.oschina.net/news/503035/stepfun-ai-step-5-preview" data-news-source="开源中国" data-news-time="10-15 14:12" data-news-summary="阶跃（StepFun）把 Step 5 Preview 的权重放出来了，模型和技术博客同一天上线。对想自己部署长程 Agent 模型的开发者来说，这是等了好久的消息。">
+        <a class="story-title" href="https://www.oschina.net/news/503035/stepfun-ai-step-5-preview" target="_blank" rel="noopener noreferrer">阶跃 Step 5 Preview 权重开放，600B 稀疏 MoE、面向长程 Agent 任务设计</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">教程方法</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-15 14:12</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">阶跃（StepFun）把 Step 5 Preview 的权重放出来了，模型和技术博客同一天上线。对想自己部署长程 Agent 模型的开发者来说，这是等了好久的消息。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="学得会的快捷指令，零基础入门苹果效率魔法" data-news-url="https://sspai.com/post/116182" data-news-source="少数派" data-news-time="10-15 14:30" data-news-summary="快捷指令一直被视为苹果用户必备的效率利器。不仅网络上已有大量的指令可供下载，如果能根据自己的需求，从零开始构建一条快捷指令，就不用在iPhone/Mac上频繁手动操作，可以节省大量时间。">
+        <a class="story-title" href="https://sspai.com/post/116182" target="_blank" rel="noopener noreferrer">学得会的快捷指令，零基础入门苹果效率魔法</a>
+        <div class="story-meta">
+          <span class="topic">提示词</span>
+          <span class="lens">教程方法</span>
+          <span class="source">少数派</span>
+          <span class="published">10-15 14:30</span>
+          <span class="confidence professional">数字生活来源</span>
+        </div>
+        <p class="story-summary">快捷指令一直被视为苹果用户必备的效率利器。不仅网络上已有大量的指令可供下载，如果能根据自己的需求，从零开始构建一条快捷指令，就不用在iPhone/Mac上频繁手动操作，可以节省大量时间。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>保存可复用的提示结构，用同一输入做一次前后对比。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="研究人员实现抗噪声量子密钥分发" data-news-url="http://paper.sciencenet.cn/htmlpaper/2026/10/20261012201415161156428.shtm?id=156428" data-news-source="科学网·数理科学" data-news-time="10-12 01:30" data-news-summary="中国科学技术大学郭光灿院士团队的韩正甫、陈巍、银振强、王双等与河南省量子信息与量子密码重点实验室、南京邮电大学合作，针对量子通信实际应用中的强背景噪声问题，首次实现了基于优势提...">
+        <a class="story-title" href="http://paper.sciencenet.cn/htmlpaper/2026/10/20261012201415161156428.shtm?id=156428" target="_blank" rel="noopener noreferrer">研究人员实现抗噪声量子密钥分发</a>
+        <div class="story-meta">
+          <span class="topic">数学物理</span>
+          <span class="lens">教程方法</span>
+          <span class="source">科学网·数理科学</span>
+          <span class="published">10-12 01:30</span>
+          <span class="confidence professional">学术专业来源</span>
+        </div>
+        <p class="story-summary">中国科学技术大学郭光灿院士团队的韩正甫、陈巍、银振强、王双等与河南省量子信息与量子密码重点实验室、南京邮电大学合作，针对量子通信实际应用中的强背景噪声问题，首次实现了基于优势提...</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="腾讯混元记忆框架 Hy Memory 2.0 发布开源，专用模型性能超 Opus5" data-news-url="https://www.ithome.com/1/014/108.htm" data-news-source="IT之家" data-news-time="10-16 18:18" data-news-summary="IT之家 10 月 16 日消息，腾讯混元官方今日宣布推出智能体记忆框架 Hy Memory 2.0 版本，并开源专用模型、记忆框架和 MemHub 应用三层能力。Hy Memory 2.0 三层能力既能独立使用，也能组合成一套完整的 Memory 解决方案。">
+        <a class="story-title" href="https://www.ithome.com/1/014/108.htm" target="_blank" rel="noopener noreferrer">腾讯混元记忆框架 Hy Memory 2.0 发布开源，专用模型性能超 Opus5</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">工具发布</span>
+          <span class="source">IT之家</span>
+          <span class="published">10-16 18:18</span>
+          <span class="confidence professional">科技资讯来源</span>
+        </div>
+        <p class="story-summary">IT之家 10 月 16 日消息，腾讯混元官方今日宣布推出智能体记忆框架 Hy Memory 2.0 版本，并开源专用模型、记忆框架和 MemHub 应用三层能力。Hy Memory 2.0 三层能力既能独立使用，也能组合成一套完整的 Memory 解决方案。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Google 悄悄关联手机号码和所有用户登录账号" data-news-url="https://www.solidot.org/story?sid=85621" data-news-source="Solidot" data-news-time="10-15 17:45" data-news-summary="Google 现在会自动验证用户的手机号码，将其关联至用户 Android 设备上登录的所有 Google 账户，全程不会弹出明显确认提示。该功能在 Google 设置中被称为电话号码验证(Phone number verification)，会将用户当前使用的手机号码关联至同一台设备上登录的所有 Google 账户——无论是辅助账户、工作账户，还是其它临时账户。">
+        <a class="story-title" href="https://www.solidot.org/story?sid=85621" target="_blank" rel="noopener noreferrer">Google 悄悄关联手机号码和所有用户登录账号</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">社区观察</span>
+          <span class="source">Solidot</span>
+          <span class="published">10-15 17:45</span>
+          <span class="confidence professional">科技社区来源</span>
+        </div>
+        <p class="story-summary">Google 现在会自动验证用户的手机号码，将其关联至用户 Android 设备上登录的所有 Google 账户，全程不会弹出明显确认提示。该功能在 Google 设置中被称为电话号码验证(Phone number verification)，会将用户当前使用的手机号码关联至同一台设备上登录的所有 Google 账户——无论是辅助账户、工作账户，还是其它临时账户。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="熵与信息函数类：高维概率的内蕴几何学" data-news-url="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556814" data-news-source="科学网·科普" data-news-time="10-16 12:51" data-news-summary="熵与信息函数类：高维概率的内蕴几何学">
+        <a class="story-title" href="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556814" target="_blank" rel="noopener noreferrer">熵与信息函数类：高维概率的内蕴几何学</a>
+        <div class="story-meta">
+          <span class="topic">数学物理</span>
+          <span class="lens">概念科普</span>
+          <span class="source">科学网·科普</span>
+          <span class="published">10-16 12:51</span>
+          <span class="confidence verified">科学科普来源</span>
+        </div>
+        <p class="story-summary">熵与信息函数类：高维概率的内蕴几何学</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相" data-news-url="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556619" data-news-source="科学网·科普" data-news-time="10-14 14:09" data-news-summary="概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相">
+        <a class="story-title" href="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=3582667&amp;do=blog&amp;id=1556619" target="_blank" rel="noopener noreferrer">概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相</a>
+        <div class="story-meta">
+          <span class="topic">数学物理</span>
+          <span class="lens">概念科普</span>
+          <span class="source">科学网·科普</span>
+          <span class="published">10-14 14:09</span>
+          <span class="confidence verified">科学科普来源</span>
+        </div>
+        <p class="story-summary">概率论正在经历一场“几何化”革命：从分布函数到内蕴拓扑相</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article></section><p class="archive-link"><a href="../archive/">查看往期简报</a></p></section><section id="v2ex" class="method-section"><div class="section-heading"><h2>V2EX 方法发现</h2><span>2 条 · 用户讨论与作品</span></div><section class="feed">
+      <article class="story" data-news-title="分享一个小工具：把 HTML 网页打包成 Windows EXE 桌面程序" data-news-url="https://www.v2ex.com/t/1249375#reply1" data-news-source="V2EX·创造" data-news-time="10-16 15:11" data-news-summary="最近做了一个小工具： WebEXE ，可以把 HTML 页面转换成 Windows EXE 桌面程序。有时候我们写了一些实用的小工具，比如 JSON 格式化、文本处理、文件转换或者数据查询页面，其实前端部分已经可以正常工作了，但如果想让它变成一个可以直接运行的 Windows 软件，还需要处理桌面应用框架、打包和发布等事情。">
+        <a class="story-title" href="https://www.v2ex.com/t/1249375#reply1" target="_blank" rel="noopener noreferrer">分享一个小工具：把 HTML 网页打包成 Windows EXE 桌面程序</a>
+        <div class="story-meta">
+          <span class="topic">网页小游戏</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-16 15:11</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">最近做了一个小工具： WebEXE ，可以把 HTML 页面转换成 Windows EXE 桌面程序。有时候我们写了一些实用的小工具，比如 JSON 格式化、文本处理、文件转换或者数据查询页面，其实前端部分已经可以正常工作了，但如果想让它变成一个可以直接运行的 Windows 软件，还需要处理桌面应用框架、打包和发布等事情。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="我给 Gemini 4 和 DeepSeek 搞了套「末位淘汰」， AI 干活会更猛吗？（Day 3）" data-news-url="https://www.v2ex.com/t/1249479#reply3" data-news-source="V2EX·技术" data-news-time="10-16 22:02" data-news-summary="昨天定下做 Beyond Compare 的免费开源版 OpenCompare 后，评论区又有朋友提了 FTP 远端对比等新需求，我已经让 AI 员工收进需求池交给 Gemini 4 评估。今天本来该直接让 Gemini 4 和 DeepSeek 开工写核心代码。">
+        <a class="story-title" href="https://www.v2ex.com/t/1249479#reply3" target="_blank" rel="noopener noreferrer">我给 Gemini 4 和 DeepSeek 搞了套「末位淘汰」， AI 干活会更猛吗？（Day 3）</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">实测评价</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-16 22:02</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">昨天定下做 Beyond Compare 的免费开源版 OpenCompare 后，评论区又有朋友提了 FTP 远端对比等新需求，我已经让 AI 员工收进需求池交给 Gemini 4 评估。今天本来该直接让 Gemini 4 和 DeepSeek 开工写核心代码。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。</span></p>
+      </article></section></section><section id="prompt" class="method-section"><div class="section-heading"><h2>Prompt 推荐</h2><span>2 条 · 可复用提示方法</span></div><section class="feed">
+      <article class="story" data-news-title="Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄" data-news-url="https://www.infoq.cn/article/LQCqiPUzgZyB3v24rsNO?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-16 01:22" data-news-summary="Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄">
+        <a class="story-title" href="https://www.infoq.cn/article/LQCqiPUzgZyB3v24rsNO?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄</a>
+        <div class="story-meta">
+          <span class="topic">提示词</span>
+          <span class="lens">工具发布</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-16 01:22</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">Archestra 发布 OpenAPPA，用于防范提示词注入或模型幻觉引发的数据外泄</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="学得会的快捷指令，零基础入门苹果效率魔法" data-news-url="https://sspai.com/post/116182" data-news-source="少数派" data-news-time="10-15 14:30" data-news-summary="快捷指令一直被视为苹果用户必备的效率利器。不仅网络上已有大量的指令可供下载，如果能根据自己的需求，从零开始构建一条快捷指令，就不用在iPhone/Mac上频繁手动操作，可以节省大量时间。">
+        <a class="story-title" href="https://sspai.com/post/116182" target="_blank" rel="noopener noreferrer">学得会的快捷指令，零基础入门苹果效率魔法</a>
+        <div class="story-meta">
+          <span class="topic">提示词</span>
+          <span class="lens">教程方法</span>
+          <span class="source">少数派</span>
+          <span class="published">10-15 14:30</span>
+          <span class="confidence professional">数字生活来源</span>
+        </div>
+        <p class="story-summary">快捷指令一直被视为苹果用户必备的效率利器。不仅网络上已有大量的指令可供下载，如果能根据自己的需求，从零开始构建一条快捷指令，就不用在iPhone/Mac上频繁手动操作，可以节省大量时间。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>保存可复用的提示结构，用同一输入做一次前后对比。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article></section></section><section id="skill" class="method-section"><div class="section-heading"><h2>Skill 推荐</h2><span>1 条 · 工具与插件能力</span></div><section class="feed">
+      <article class="story" data-news-title="Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了" data-news-url="http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&amp;mid=2247525055&amp;idx=1&amp;sn=277da8b6b5971bb7697a29126a02230e&amp;chksm=e984b1796746d655a9023329920dd4f7f0d9ec991657c58a8e4645f226b11f4d05093fc4c208&amp;scene=0#rd" data-news-source="前端技术精选" data-news-time="10-11 08:00" data-news-summary="Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了">
+        <a class="story-title" href="http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&amp;mid=2247525055&amp;idx=1&amp;sn=277da8b6b5971bb7697a29126a02230e&amp;chksm=e984b1796746d655a9023329920dd4f7f0d9ec991657c58a8e4645f226b11f4d05093fc4c208&amp;scene=0#rd" target="_blank" rel="noopener noreferrer">Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">前端技术精选</span>
+          <span class="published">10-11 08:00</span>
+          <span class="confidence professional">前端专业精选</span>
+        </div>
+        <p class="story-summary">Skills Hub 1.0 发布，这次把一直想做的 Skills 合集加上了</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article></section></section><section id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>空间智能与地图能力 · 可落地线索</span></div>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://modelcontextprotocol.io/specification/2026-07-28/changelog" target="_blank" rel="noopener noreferrer">MCP 规范更新：Documentation Index</a></h3>
+        <p class="biz-meta">Model Context Protocol 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://modelcontextprotocol.io/specification/2026-07-28/changelog" target="_blank" rel="noopener noreferrer">MCP 规范更新：&lt;button type=&quot;button&quot; class=&quot;text-gray-700 dark:text-gray-300 font-medium flex i</a></h3>
+        <p class="biz-meta">Model Context Protocol 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/" target="_blank" rel="noopener noreferrer">PostGIS：Documentation</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/getting_started/" target="_blank" rel="noopener noreferrer">PostGIS：Getting Started</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/manual/" target="_blank" rel="noopener noreferrer">PostGIS：Official Manual</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/tips/" target="_blank" rel="noopener noreferrer">PostGIS：Tips &amp; Tricks</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article><p class="biz-note">本栏为人工整理的商业线索：只收录官方文档、产品更新、开源项目或可核实的报道，每条标注来源。</p></section></div></main>
+<footer><div class="footer-inner">兴趣发现：个人兴趣热榜筛选<br>专业来源：量子位、机器之心、InfoQ 中文、开源中国、少数派、小众软件、IT之家、Solidot、科学网·数理科学、科学网·科普、前端技术精选、阮一峰的网络日志、V2EX·技术、V2EX·创造<div class="footer-note">不使用 AI 大模型生成摘要。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。商业建设观察为人工整理的商业线索，来源可追溯。</div></div></footer></body></html>
