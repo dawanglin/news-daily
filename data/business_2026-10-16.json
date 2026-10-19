@@ -2,147 +2,131 @@
   "date": "2026-10-16",
   "items": [
     {
-      "title": "DynThinker: Unifying Static 3D and Dynamic 4D Spatial Reasoning",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.20598v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
+      "title": "Cesium ion MCP Server：3D 地理数据直连 AI 工具链（持续跟踪）",
+      "source_name": "Cesium 官方博客",
+      "source_url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/",
+      "published_at": "2026-10-12",
+      "scenario": "Cesium ion MCP Server 支持 Claude Code/OpenAI Codex/Cursor/GitHub Copilot 直接调用 3D 地理数据，GIS 数据服务 MCP 化的厂商级动作，跟踪其 API 与配额限制。",
+      "verify_status": "已查证"
     },
     {
-      "title": "GeoThinker-$F$: Endogenous Predictive World Representations for Fast Spatial Intelligence",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.20592v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
+      "title": "腾讯位置大数据 MCP：人口与流量时空数据查询（持续跟踪）",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/11760",
+      "published_at": "2026-10-07",
+      "scenario": "提供区域基础信息、实时人流统计、历史数据统计接口，适合商圈客流分析场景的 MCP 化调用，跟踪接入条件与配额。",
+      "verify_status": "已查证"
     },
     {
-      "title": "Feed-Forward Multi-View Feature Coding for 3D Gaussian Splatting",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.20590v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
+      "title": "百度地图 MCP：中国首个支持 MCP 的地图服务（持续跟踪）",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/10007",
+      "published_at": "2026-10-08",
+      "scenario": "开源 LBS 方案，提供地理编码、POI 搜索、路线规划、天气、交通等接口，需 BAIDU_MAPS_API_KEY，国内地图服务 MCP 化对照样本。",
+      "verify_status": "已查证"
     },
     {
-      "title": "Where Should the Gaussians Go? Reusable Label-Aware Allocation for Budget-Constrained Gaussian Splatting of Cinematic CT",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.20397v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "Reflect After Failure: Brain-Inspired Self-Evolving Agents for Embodied Spatial Intelligence",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.20312v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "VisibilitySplat: Ray-Traced Occlusion for Relighting with 3D Gaussian Splatting",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.19847v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "HyperLoop: Hyperspectral-Assisted Loop Closure Detection in 3D-SLAM for Planetary Exploration",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.19742v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "Recognizing Dialogue Ambiguity via Candidate Set Visual Grounding",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.19723v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "RDCompGS: Rate-Distortion Optimization for Compression of 3D Gaussian Splatting with Image Codecs",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.19538v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "Holi-Spatial 360: Generative Reconstruction from Sparse Panoramas for Spatial Rendering and Intelligence",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.19502v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.19100v1",
-      "published_at": "2026-10-13",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "Bifocal: Training-Free Mixed Granularity Visual Token Pruning for Multimodal LLMs",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.18399v1",
-      "published_at": "2026-10-13",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "MCP 规范更新：Documentation Index",
+      "title": "MCP 规范 2026-07-28：无状态化与授权加固（持续跟踪）",
       "source_name": "Model Context Protocol 官方",
       "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
-      "published_at": "",
-      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
-      "verify_status": "待核实"
+      "published_at": "2026-09-25",
+      "scenario": "协议无状态化、功能生命周期 SEP-2596、OAuth/OIDC 授权一致性，所有 MCP 服务端实现需对齐。",
+      "verify_status": "已查证"
     },
     {
-      "title": "MCP 规范更新：<button type=\"button\" class=\"text-gray-700 dark:text-gray-300 font-medium flex i",
-      "source_name": "Model Context Protocol 官方",
-      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
-      "published_at": "",
-      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "PostGIS：Documentation",
+      "title": "PostGIS 3.7 开发版手册：空间数据库底座（持续跟踪）",
       "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "source_url": "https://postgis.net/stuff/postgis-3.7-en.pdf",
+      "published_at": "2026-10",
+      "scenario": "GiST R-Tree 空间索引、几何/地理类型、拓扑栅格支持演进，自建空间库选型基线。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Strands Agents SDK：AWS 开源多 Agent 框架（持续跟踪）",
+      "source_name": "Hivebook（开源项目索引）",
+      "source_url": "https://hivebook.wiki/wiki/strands-agents-sdk-open-source-python-typescript-agent-framework-from-aws",
+      "published_at": "2026-10-08",
+      "scenario": "AWS Strands Agents SDK（Apache-2.0）：Python/TypeScript 模型驱动 Agent 框架，Agent 编排工程化参照。",
       "verify_status": "待核实"
     },
     {
-      "title": "PostGIS：Getting Started",
-      "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/getting_started/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "title": "Agent Room：MCP 上的多智能体协作层（持续跟踪）",
+      "source_name": "LobeHub MCP 目录",
+      "source_url": "https://lobehub.com/mcp?category=all&q=multi-agent",
+      "published_at": "2026-10-07",
+      "scenario": "跨机器分布式开发、代码评审、PR 交接，支持 Claude Code/Cursor/Codex/Gemini。",
       "verify_status": "待核实"
     },
     {
-      "title": "PostGIS：Official Manual",
-      "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/manual/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "title": "UrbanGS（ICLR 2026）：城市级大规模 3D 重建三重 SOTA",
+      "source_name": "CSDN 博客（论文解读）",
+      "source_url": "https://blog.csdn.net/Yong_Qi2015/article/details/157965536",
+      "published_at": "2026-10-11",
+      "scenario": "深度一致 D-法向正则化+空间自适应高斯剪枝+分区策略，解决 3DGS 城市重建几何一致性与内存问题，适合实景三维/城市数字孪生。",
       "verify_status": "待核实"
     },
     {
-      "title": "PostGIS：Tips & Tricks",
-      "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/tips/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "title": "DLWM（CVPR 2026）：3DGS 双世界模型革新自动驾驶",
+      "source_name": "CSDN 博客（论文解读）",
+      "source_url": "https://blog.csdn.net/Yong_Qi2015/article/details/160535690",
+      "published_at": "2026-10-06",
+      "scenario": "港科大沈劭劼团队与华为：用 3DGS 双世界模型告别 3D 标注，驱动自动驾驶场景理解，空间感知车端前沿。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "TUM SPARF：百万级稀疏辐射场数据集与 SuRFNet",
+      "source_name": "TUM Visual Computing 实验室",
+      "source_url": "https://www.niessnerlab.org/publications.html",
+      "published_at": "2026-10-12",
+      "scenario": "约 100 万稀疏辐射场、1700 万张带位姿图像，配合 SuRFNet 生成管线，大场景 3D 表示学习数据基础设施。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "BlitzGS：城市级 3DGS 闪电重建（arXiv）",
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/html/2605.13794",
+      "published_at": "2026-09-17",
+      "scenario": "针对城市级高斯泼溅训练昂贵问题提出闪电级加速，数字孪生与航测场景值得关注。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MetroGS（CVPR 2026）：城市大场景重建几何与渲染双提升",
+      "source_name": "PaperNotes（论文解读）",
+      "source_url": "https://papernotes.org/CVPR2026/3d_vision/metrogs_efficient_and_stable_reconstruction_of_geometrically_accurate_high-fidel/",
+      "published_at": "2026-09-28",
+      "scenario": "分布式 2DGS 骨干+点云稠密增强+渐进式几何精修+深度引导外观建模，城市级几何精度（F1）与渲染（PSNR）双高。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "SHARPSPLAT：边缘正则化 3DGS 高保真建筑重建（UAV）",
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/html/2607.03872",
+      "published_at": "2026-09-16",
+      "scenario": "SAM 3 生成建筑掩码提取语义边缘，监督 3DGS 产生清晰建筑边界，解决无人机影像建筑重建边缘模糊。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "GenRe：扩散引导的城市场景重建增强器（arXiv）",
+      "source_name": "arXiv",
+      "source_url": "https://arxiv.org/html/2605.22420v1",
+      "published_at": "2026-09-30",
+      "scenario": "对任意预训练 3D 高斯表示做扩散先验蒸馏，几分钟内修正城市场景重建缺陷，3DGS 重建后处理工具性方法。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Urban-GS（CVPR 2026）：空-街一体化城市重建统一框架",
+      "source_name": "m0rtzz 论文笔记",
+      "source_url": "https://m0rtzz.github.io/paper-notes/CVPR2026/3d_vision/urban-gs_a_unified_3d_gaussian_splatting_framework_for_compact_and_high-fidelity/",
+      "published_at": "2026-09-16",
+      "scenario": "从空中到街景统一 3DGS 框架，紧凑高保真城市重建，适合多源影像融合场景。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "VAD-GS：可见性感知稠密化 3DGS 动态城市场景",
+      "source_name": "同济 MIAS 组（CVPR 2026 论文）",
+      "source_url": "https://miasgroup.tongji.edu.cn/_upload/tpl/06/23/1571/template1571/pdf/cvpr2026_zhang.pdf",
+      "published_at": "2026-10-06",
+      "scenario": "稀疏观测下用立体线索重建新高斯，恢复静态与动态物体缺失几何，动态城市环境几何恢复。",
       "verify_status": "待核实"
     }
   ]

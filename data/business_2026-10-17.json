@@ -2,51 +2,131 @@
   "date": "2026-10-17",
   "items": [
     {
-      "title": "MCP 规范更新：Documentation Index",
+      "title": "Cesium ion MCP Server：3D 地理数据直连 AI 工具链（持续跟踪）",
+      "source_name": "Cesium 官方博客",
+      "source_url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/",
+      "published_at": "2026-10-12",
+      "scenario": "Cesium ion MCP Server 支持 Claude Code/OpenAI Codex/Cursor/GitHub Copilot 直接调用 3D 地理数据，GIS 数据服务 MCP 化的厂商级动作，跟踪其 API 与配额限制。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "腾讯位置大数据 MCP：人口与流量时空数据查询（持续跟踪）",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/11760",
+      "published_at": "2026-10-07",
+      "scenario": "提供区域基础信息、实时人流统计、历史数据统计接口，适合商圈客流分析场景的 MCP 化调用，跟踪接入条件与配额。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "百度地图 MCP：中国首个支持 MCP 的地图服务（持续跟踪）",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/10007",
+      "published_at": "2026-10-08",
+      "scenario": "开源 LBS 方案，提供地理编码、POI 搜索、路线规划、天气、交通等接口，需 BAIDU_MAPS_API_KEY，国内地图服务 MCP 化对照样本。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "MCP 规范 2026-07-28：无状态化与授权加固（持续跟踪）",
       "source_name": "Model Context Protocol 官方",
       "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
-      "published_at": "",
-      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
-      "verify_status": "待核实"
+      "published_at": "2026-09-25",
+      "scenario": "协议无状态化、功能生命周期 SEP-2596、OAuth/OIDC 授权一致性，所有 MCP 服务端实现需对齐。",
+      "verify_status": "已查证"
     },
     {
-      "title": "MCP 规范更新：<button type=\"button\" class=\"text-gray-700 dark:text-gray-300 font-medium flex i",
-      "source_name": "Model Context Protocol 官方",
-      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
-      "published_at": "",
-      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "PostGIS：Documentation",
+      "title": "PostGIS 3.7 开发版手册：空间数据库底座（持续跟踪）",
       "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "source_url": "https://postgis.net/stuff/postgis-3.7-en.pdf",
+      "published_at": "2026-10",
+      "scenario": "GiST R-Tree 空间索引、几何/地理类型、拓扑栅格支持演进，自建空间库选型基线。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Strands Agents SDK：AWS 开源多 Agent 框架（持续跟踪）",
+      "source_name": "Hivebook（开源项目索引）",
+      "source_url": "https://hivebook.wiki/wiki/strands-agents-sdk-open-source-python-typescript-agent-framework-from-aws",
+      "published_at": "2026-10-08",
+      "scenario": "AWS Strands Agents SDK（Apache-2.0）：Python/TypeScript 模型驱动 Agent 框架，Agent 编排工程化参照。",
       "verify_status": "待核实"
     },
     {
-      "title": "PostGIS：Getting Started",
-      "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/getting_started/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "title": "Agent Room：MCP 上的多智能体协作层（持续跟踪）",
+      "source_name": "LobeHub MCP 目录",
+      "source_url": "https://lobehub.com/mcp?category=all&q=multi-agent",
+      "published_at": "2026-10-07",
+      "scenario": "跨机器分布式开发、代码评审、PR 交接，支持 Claude Code/Cursor/Codex/Gemini。",
       "verify_status": "待核实"
     },
     {
-      "title": "PostGIS：Official Manual",
-      "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/manual/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "title": "Google Maps Grounding Lite：轻量版地图接地（厂商动态）",
+      "source_name": "Google for Developers",
+      "source_url": "https://developers.google.cn/maps/deprecations",
+      "published_at": "2026-10-08",
+      "scenario": "Google Maps 平台对 Grounding 能力做轻量版分级与弃用整理，地图能力接入 Agent 的官方路径之一。",
       "verify_status": "待核实"
     },
     {
-      "title": "PostGIS：Tips & Tricks",
-      "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/tips/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "title": "ArcGIS Earth 2026-10 更新：高斯泼溅场景支持",
+      "source_name": "Esri 官方博客",
+      "source_url": "https://www.esri.com/arcgis-blog/products/earth/announcements/october-2026-arcgis-earth-update/",
+      "published_at": "2026-10-08",
+      "scenario": "ArcGIS Earth 十月版引入高斯泼溅场景支持，轻量 GIS 终端接入 3DGS 数据的厂商动作。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "SuperMap AgentX：GIS 智能体框架开放",
+      "source_name": "SuperMap 官网",
+      "source_url": "https://help.agentxserver.supermap.com/",
+      "published_at": "2026-10-08",
+      "scenario": "超图推出 AgentX：把 GIS 能力封装给 Agent 调用，国产 GIS 厂商的 Agent 化布局。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "SuperMap GIS 2026：多源三维一体化与空间智能底座",
+      "source_name": "SuperMap 官网",
+      "source_url": "https://www.supermap.com/gis-tec-4-2026",
+      "published_at": "2026-10-08",
+      "scenario": "超图 GIS 2026 版本聚焦多源三维一体化与空间智能，国产 GIS 底座版本跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "地球信息科学学报：LLM 驱动的三维 GIS 应用综述",
+      "source_name": "地球信息科学学报",
+      "source_url": "https://www.dqxxkx.cn/",
+      "published_at": "2026-10-07",
+      "scenario": "期刊发表大语言模型驱动的三维 GIS 应用综述，LLM×GIS 交叉研究梳理。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "ISPRS 论文：PostGIS pgPointCloud 数字孪生实践",
+      "source_name": "ISPRS Archives",
+      "source_url": "https://isprs-archives.copernicus.org/articles/XLIX-B4-2026/57/",
+      "published_at": "2026-10-06",
+      "scenario": "基于 PostGIS pgPointCloud 的数字孪生实现论文，空间数据库承载点云数据的工程参考。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "vivo 蓝心智能体平台：收录百度 MCP 服务",
+      "source_name": "vivo 蓝心智能体开放平台",
+      "source_url": "https://agents.vivo.com.cn/plugin",
+      "published_at": "2026-10-08",
+      "scenario": "手机厂商智能体平台收录地图 MCP 插件，地图能力进入消费级 Agent 生态的信号。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "高德 JS API V2.0 更新：修复逆地理编码 towncode 字段",
+      "source_name": "高德开放平台",
+      "source_url": "https://lbs.amap.com/api/javascript-api-v2/changelog",
+      "published_at": "2026-10-08",
+      "scenario": "修复逆地理编码 result 缺少 towncode 的问题并透传海外逆地理编码，前端地理编码细节改进。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "天地图 10 月：Web 服务 API 与地图服务更新",
+      "source_name": "天地图",
+      "source_url": "http://lbs.tianditu.gov.cn/",
+      "published_at": "2026-10-07",
+      "scenario": "地名搜索 2.0、地理编码、行政区划、静态地图等 Web 服务 API 持续更新，国产地图服务基线。",
       "verify_status": "待核实"
     }
   ]

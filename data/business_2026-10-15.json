@@ -2,147 +2,123 @@
   "date": "2026-10-15",
   "items": [
     {
-      "title": "VisibilitySplat: Ray-Traced Occlusion for Relighting with 3D Gaussian Splatting",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.19847v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
+      "title": "Cesium ion MCP Server：3D 地理数据直连 AI 工具链（持续跟踪）",
+      "source_name": "Cesium 官方博客",
+      "source_url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/",
+      "published_at": "2026-10-12",
+      "scenario": "Cesium ion MCP Server 支持 Claude Code/OpenAI Codex/Cursor/GitHub Copilot 直接调用 3D 地理数据，GIS 数据服务 MCP 化的厂商级动作，跟踪其 API 与配额限制。",
+      "verify_status": "已查证"
     },
     {
-      "title": "HyperLoop: Hyperspectral-Assisted Loop Closure Detection in 3D-SLAM for Planetary Exploration",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.19742v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
+      "title": "腾讯位置大数据 MCP：人口与流量时空数据查询（持续跟踪）",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/11760",
+      "published_at": "2026-10-07",
+      "scenario": "提供区域基础信息、实时人流统计、历史数据统计接口，适合商圈客流分析场景的 MCP 化调用，跟踪接入条件与配额。",
+      "verify_status": "已查证"
     },
     {
-      "title": "Recognizing Dialogue Ambiguity via Candidate Set Visual Grounding",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.19723v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
+      "title": "百度地图 MCP：中国首个支持 MCP 的地图服务（持续跟踪）",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/10007",
+      "published_at": "2026-10-08",
+      "scenario": "开源 LBS 方案，提供地理编码、POI 搜索、路线规划、天气、交通等接口，需 BAIDU_MAPS_API_KEY，国内地图服务 MCP 化对照样本。",
+      "verify_status": "已查证"
     },
     {
-      "title": "RDCompGS: Rate-Distortion Optimization for Compression of 3D Gaussian Splatting with Image Codecs",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.19538v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "Holi-Spatial 360: Generative Reconstruction from Sparse Panoramas for Spatial Rendering and Intelligence",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.19502v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.19100v1",
-      "published_at": "2026-10-13",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "Bifocal: Training-Free Mixed Granularity Visual Token Pruning for Multimodal LLMs",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.18399v1",
-      "published_at": "2026-10-13",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "ReDiS: Reasoning-Diagnosis Self-Evolution for Multimodal Reasoning in Remote Sensing",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.18388v1",
-      "published_at": "2026-10-13",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "CityCode: Building Agent-Operable 3D Cities from Sparse Aerial Observations",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.18342v1",
-      "published_at": "2026-10-13",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "Back to the Future: Reverse-Consequence Modeling for Long-Horizon Particle Dynamics",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.18168v1",
-      "published_at": "2026-10-13",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "Beyond Black Boxes: Visual Grounding for Text Embeddings",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.18047v1",
-      "published_at": "2026-10-13",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "PUGS: Physics-Guided Uncertainty Modeling for Underwater Dynamic 3D Gaussian Splatting",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.17936v1",
-      "published_at": "2026-10-13",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "MCP 规范更新：Documentation Index",
+      "title": "MCP 规范 2026-07-28：无状态化与授权加固（持续跟踪）",
       "source_name": "Model Context Protocol 官方",
       "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
-      "published_at": "",
-      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
-      "verify_status": "待核实"
+      "published_at": "2026-09-25",
+      "scenario": "协议无状态化、功能生命周期 SEP-2596、OAuth/OIDC 授权一致性，所有 MCP 服务端实现需对齐。",
+      "verify_status": "已查证"
     },
     {
-      "title": "MCP 规范更新：<button type=\"button\" class=\"text-gray-700 dark:text-gray-300 font-medium flex i",
-      "source_name": "Model Context Protocol 官方",
-      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
-      "published_at": "",
-      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "PostGIS：Documentation",
+      "title": "PostGIS 3.7 开发版手册：空间数据库底座（持续跟踪）",
       "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "source_url": "https://postgis.net/stuff/postgis-3.7-en.pdf",
+      "published_at": "2026-10",
+      "scenario": "GiST R-Tree 空间索引、几何/地理类型、拓扑栅格支持演进，自建空间库选型基线。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Strands Agents SDK：AWS 开源多 Agent 框架（持续跟踪）",
+      "source_name": "Hivebook（开源项目索引）",
+      "source_url": "https://hivebook.wiki/wiki/strands-agents-sdk-open-source-python-typescript-agent-framework-from-aws",
+      "published_at": "2026-10-08",
+      "scenario": "AWS Strands Agents SDK（Apache-2.0）：Python/TypeScript 模型驱动 Agent 框架，Agent 编排工程化参照。",
       "verify_status": "待核实"
     },
     {
-      "title": "PostGIS：Getting Started",
-      "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/getting_started/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "title": "Agent Room：MCP 上的多智能体协作层（持续跟踪）",
+      "source_name": "LobeHub MCP 目录",
+      "source_url": "https://lobehub.com/mcp?category=all&q=multi-agent",
+      "published_at": "2026-10-07",
+      "scenario": "跨机器分布式开发、代码评审、PR 交接，支持 Claude Code/Cursor/Codex/Gemini。",
       "verify_status": "待核实"
     },
     {
-      "title": "PostGIS：Official Manual",
-      "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/manual/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "title": "EchoPolicy-0：国产具身 VLM Agent 框架，抓取成功率 70%→94.4%",
+      "source_name": "量子位（今日头条）",
+      "source_url": "http://m.toutiao.com/group/7696106287554003490/",
+      "published_at": "2026-10-13",
+      "scenario": "魔法原子 MagicLab Studio 将视觉语言模型、几何操作工具与通用动作策略组织为统一 VLM Agent 框架，观察-理解-选择-执行-验证闭环，多任务共享一套机制。",
       "verify_status": "待核实"
     },
     {
-      "title": "PostGIS：Tips & Tricks",
-      "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/tips/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "title": "Claude Managed Agents：dynamic workflows 公测，最多 1000 Agent 并行",
+      "source_name": "Genee（Anthropic 发布报道）",
+      "source_url": "https://www.genee.tech/blog/claude-managed-agents-dynamic-workflows-1000-agents-beta-2026",
+      "published_at": "2026-10-09",
+      "scenario": "lead agent 将复杂任务分解为执行计划，分发给并行专用 agents 再合并结果，多 Agent 编排新形态。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "OpenAI Agents SDK v0.14.0：Sandbox Agents 持久隔离工作区",
+      "source_name": "AI/TLDR（工具索引更新）",
+      "source_url": "https://ai-tldr.dev/tools/openai-agents-sdk/",
+      "published_at": "2026-10-13",
+      "scenario": "GitHub 30k stars 的多 Agent Python 框架，v0.14.0 引入持久隔离工作区沙箱，值得测试的编排底座。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "ZCode（GLM-5.3 编程 Agent）：动态工作流编排多子代理",
+      "source_name": "ZCode 官方 changelog",
+      "source_url": "https://zcode.z.ai/cn/changelog",
+      "published_at": "2026-09-29",
+      "scenario": "一段脚本编排多个子代理协作完成复杂任务，运行中可调并发上限，办公/编程双模式。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "ArcGIS MCP Server：空间查询/要素分析/地图生成接入 Agent",
+      "source_name": "Glama MCP 目录（开源项目）",
+      "source_url": "https://glama.ai/mcp/servers/januarf121995/Geo-habilitacion-ArcGIS-en-Ecosistemas-Agenticos",
+      "published_at": "2026-10-13",
+      "scenario": "通过 ArcGIS REST API 提供空间查询、要素分析、地图生成工具，演示 Claude+MCP 接入 ArcGIS 权威地理数据。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "QgisRemoteMCP：QGIS Desktop 封装为 Docker MCP 服务端",
+      "source_name": "MCP World（开源项目索引）",
+      "source_url": "https://www.mcpworld.com/zh/detail/5014d1eb124aa184dcc65a34002bf7a3",
+      "published_at": "2026-10-04",
+      "scenario": "完整 QGIS Desktop 封装成 Docker 部署的 MCP 服务端：数据加载、空间分析、地图制图与多格式导出。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "WAI QGIS MCP：AI 直接驱动 QGIS 加载/制图/自动化 PyQGIS",
+      "source_name": "npm（开源包）",
+      "source_url": "https://www.npmjs.com/package/qgis-mcp",
+      "published_at": "2026-09-26",
+      "scenario": "AI 助手检查项目与图层、加载数据、运行 Processing 算法、样式化地图、渲染图像并自动化 PyQGIS 任务。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "GDAL MCP：带方法论反思中间件的空间分析 MCP",
+      "source_name": "LobeHub MCP 目录",
+      "source_url": "https://lobehub.com/mcp?category=science-education&q=geospatial",
+      "published_at": "2026-08-31",
+      "scenario": "提供 AI Agent 空间分析能力，通过反思中间件要求 Agent 论证方法学选择，可配置 GDAL_MCP_WORKSPACES。",
       "verify_status": "待核实"
     }
   ]

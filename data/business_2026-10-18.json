@@ -2,147 +2,123 @@
   "date": "2026-10-18",
   "items": [
     {
-      "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.22276v1",
-      "published_at": "2026-10-15",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
+      "title": "Cesium ion MCP Server：3D 地理数据直连 AI 工具链（持续跟踪）",
+      "source_name": "Cesium 官方博客",
+      "source_url": "https://cesium.com/blog/2026/10/12/introducing-the-cesium-ion-mcp-server/",
+      "published_at": "2026-10-12",
+      "scenario": "Cesium ion MCP Server 支持 Claude Code/OpenAI Codex/Cursor/GitHub Copilot 直接调用 3D 地理数据，GIS 数据服务 MCP 化的厂商级动作，跟踪其 API 与配额限制。",
+      "verify_status": "已查证"
     },
     {
-      "title": "CoWorld Reasoner: Agentic Multimodal Reasoning with the Evolving Video World Model-Driven Harness",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.21910v1",
-      "published_at": "2026-10-15",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
+      "title": "腾讯位置大数据 MCP：人口与流量时空数据查询（持续跟踪）",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/11760",
+      "published_at": "2026-10-07",
+      "scenario": "提供区域基础信息、实时人流统计、历史数据统计接口，适合商圈客流分析场景的 MCP 化调用，跟踪接入条件与配额。",
+      "verify_status": "已查证"
     },
     {
-      "title": "Anvil: Scaling Embodied Spatial Intelligence through Knowledge Recirculation",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.21882v1",
-      "published_at": "2026-10-15",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
+      "title": "百度地图 MCP：中国首个支持 MCP 的地图服务（持续跟踪）",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/10007",
+      "published_at": "2026-10-08",
+      "scenario": "开源 LBS 方案，提供地理编码、POI 搜索、路线规划、天气、交通等接口，需 BAIDU_MAPS_API_KEY，国内地图服务 MCP 化对照样本。",
+      "verify_status": "已查证"
     },
     {
-      "title": "Beyond Source Prompts: Towards Visually Grounded AI-Generated Video Quality Assessment",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.21758v1",
-      "published_at": "2026-10-15",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "Edit4D: Editable 4D Scene Generation with Textual Control",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.21668v1",
-      "published_at": "2026-10-15",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "Anchor3DGS: Feed-Forward 3D Gaussian Splatting with Compact Anchor-Based Representation",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.21634v1",
-      "published_at": "2026-10-15",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "Training-Free Target-Aware Refinement of 3D Gaussian Language Map",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.21619v1",
-      "published_at": "2026-10-15",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "ISW-Agent: Integrating LLM-Driven Dialogue with n8n Workflow for Internal Solitary Wave Remote Sensing Image Processing",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.21502v1",
-      "published_at": "2026-10-15",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "Climate Physicalization: Bridging Tangible Interaction and Data Visualization for Environmental Communication",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.21401v1",
-      "published_at": "2026-10-15",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "ResStreamGS: Residual-Sensitive Dual-Stream Gaussian Splatting for Mobile Volumetric Video Streaming",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.21121v1",
-      "published_at": "2026-10-15",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "DynThinker: Unifying Static 3D and Dynamic 4D Spatial Reasoning",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.20598v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "GeoThinker-$F$: Endogenous Predictive World Representations for Fast Spatial Intelligence",
-      "source_name": "arXiv（论文）",
-      "source_url": "http://arxiv.org/abs/2610.20592v1",
-      "published_at": "2026-10-14",
-      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "MCP 规范更新：Documentation Index",
+      "title": "MCP 规范 2026-07-28：无状态化与授权加固（持续跟踪）",
       "source_name": "Model Context Protocol 官方",
       "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
-      "published_at": "",
-      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
-      "verify_status": "待核实"
+      "published_at": "2026-09-25",
+      "scenario": "协议无状态化、功能生命周期 SEP-2596、OAuth/OIDC 授权一致性，所有 MCP 服务端实现需对齐。",
+      "verify_status": "已查证"
     },
     {
-      "title": "MCP 规范更新：<button type=\"button\" class=\"text-gray-700 dark:text-gray-300 font-medium flex i",
-      "source_name": "Model Context Protocol 官方",
-      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
-      "published_at": "",
-      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
-      "verify_status": "待核实"
-    },
-    {
-      "title": "PostGIS：Documentation",
+      "title": "PostGIS 3.7 开发版手册：空间数据库底座（持续跟踪）",
       "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "source_url": "https://postgis.net/stuff/postgis-3.7-en.pdf",
+      "published_at": "2026-10",
+      "scenario": "GiST R-Tree 空间索引、几何/地理类型、拓扑栅格支持演进，自建空间库选型基线。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "Strands Agents SDK：AWS 开源多 Agent 框架（持续跟踪）",
+      "source_name": "Hivebook（开源项目索引）",
+      "source_url": "https://hivebook.wiki/wiki/strands-agents-sdk-open-source-python-typescript-agent-framework-from-aws",
+      "published_at": "2026-10-08",
+      "scenario": "AWS Strands Agents SDK（Apache-2.0）：Python/TypeScript 模型驱动 Agent 框架，Agent 编排工程化参照。",
       "verify_status": "待核实"
     },
     {
-      "title": "PostGIS：Getting Started",
-      "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/getting_started/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "title": "Agent Room：MCP 上的多智能体协作层（持续跟踪）",
+      "source_name": "LobeHub MCP 目录",
+      "source_url": "https://lobehub.com/mcp?category=all&q=multi-agent",
+      "published_at": "2026-10-07",
+      "scenario": "跨机器分布式开发、代码评审、PR 交接，支持 Claude Code/Cursor/Codex/Gemini。",
       "verify_status": "待核实"
     },
     {
-      "title": "PostGIS：Official Manual",
-      "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/manual/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "title": "Meridian：AI 通过 MCP 驱动 QGIS",
+      "source_name": "LobeHub MCP 目录（开源项目）",
+      "source_url": "https://lobehub.com/mcp?q=qgis",
+      "published_at": "2026-10-09",
+      "scenario": "在 QGIS 内起 HTTP 服务把 PyQGIS 暴露给 MCP 客户端，支持共享密钥认证，桌面 GIS 被 Agent 调用的路线。",
       "verify_status": "待核实"
     },
     {
-      "title": "PostGIS：Tips & Tricks",
-      "source_name": "PostGIS 官方",
-      "source_url": "https://postgis.net/documentation/tips/",
-      "published_at": "",
-      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "title": "Axion Planetary MCP：自然语言访问 Google Earth Engine",
+      "source_name": "LobeHub MCP 目录",
+      "source_url": "https://lobehub.com/mcp?q=sensing",
+      "published_at": "2026-10-08",
+      "scenario": "连接 Google Earth Engine 与 Claude Desktop，自然语言做地理空间分析与卫星数据访问，需 GEE 服务账号密钥。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "OSM MCP Server：OpenStreetMap 地理空间数据接入 LLM",
+      "source_name": "LobeHub MCP 目录",
+      "source_url": "https://lobehub.com/es/mcp?category=all&q=geospatial",
+      "published_at": "2026-10-08",
+      "scenario": "基于 OpenStreetMap 的 MCP 服务端，增强 LLM 基于位置的服务与地理空间数据能力，无需外部数据文件。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "gis-mcp 0.15.0：GIS 操作 MCP 封装",
+      "source_name": "PyPI（开源包）",
+      "source_url": "https://pypi.org/project/gis-mcp/",
+      "published_at": "2026-10-04",
+      "scenario": "MIT 协议，Python 3.10+，把 GIS 常用操作封装为 MCP 工具，适合自建 GIS Agent 工具链。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Cesium Map for Codex 010：交互式 3D 地图进 AI 对话",
+      "source_name": "Undercode News",
+      "source_url": "https://undercodenews.com/cesium-map-for-codex-010-arrives-as-a-community-beta-bringing-interactive-3d-maps-into-ai-conversations-video/",
+      "published_at": "2026-10-06",
+      "scenario": "cesium-mcp 以 codex plugin 形式安装，交互式 3D 地图带入 AI 编码对话，地图能力插件化社区实践。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Google Places API（新）文档更新：地点详情与地点 ID",
+      "source_name": "Google for Developers",
+      "source_url": "https://developers.google.cn/maps/documentation/places/web-service/op-overview?hl=zh-cn",
+      "published_at": "2026-10-01",
+      "scenario": "地点详情（新）返回完整地址、电话、评分等，地点 ID 唯一标识，POI 数据接入 Agent 的官方接口。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "旅行规划器 MCP：Google 地图地点搜索/详情/旅行时间",
+      "source_name": "腾讯云开发者社区 · MCP 广场",
+      "source_url": "https://cloud.tencent.com/developer/mcp/server/10759",
+      "published_at": "2026-10-10",
+      "scenario": "@gongrzhe/server-travelplanner-mcp：地点搜索、详情查询与旅行时间计算，接入 Google 地图，LLM 直接完成行程类任务。",
+      "verify_status": "已查证"
+    },
+    {
+      "title": "MCP Map Server 1.0.0：地图瓦片与样式 MCP 服务",
+      "source_name": "LobeHub MCP 目录",
+      "source_url": "https://lobehub.com/mcp?q=map",
+      "published_at": "2026-10-10",
+      "scenario": "地图服务 MCP 封装发布 1.0.0，地图加载能力协议化。",
       "verify_status": "待核实"
     }
   ]
