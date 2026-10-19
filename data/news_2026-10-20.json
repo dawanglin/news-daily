@@ -1,0 +1,580 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20 03:37:06 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 2,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 13,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 10,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+      "link": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选",
+        "阮一峰的网络日志"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "技术实践",
+      "published": "10-16 08:00",
+      "ts": 1792108800,
+      "summary": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "做了个群里请客抽麦当劳的小工具，开奖可以自己验算",
+      "link": "https://www.v2ex.com/t/1250103#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "工具发布",
+      "published": "10-19 19:04",
+      "ts": 1792407866,
+      "summary": "麦当劳中国这个月开了 MCP 接口，查菜单、算价、建地址、下外卖单都能做，还顺带办了个开发者比赛，按 GitHub star 排名。我做了一个参赛，叫「麦从天降」，群里请客抽奖用的。",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 95.15,
+      "relevance": 6
+    },
+    {
+      "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
+      "link": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-19 07:01",
+      "ts": 1792364493,
+      "summary": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 184.14,
+      "relevance": 21
+    },
+    {
+      "title": "做了一个血缘分析平台,解决 Agent 在开发过程中数据库变更造成的跨服务影响的问题",
+      "link": "https://www.v2ex.com/t/1250041#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-19 15:34",
+      "ts": 1792395268,
+      "summary": "Agent 把交付速度抬上去之后,数据库变更的风险也增大了. 特别是数据流穿过多套数据库、N 个视图和多张仓库代码里从没出现过的报表时,改动本身会对哪些跨服务跨实例的语句造成影响,我觉得这个问题是需要解决的 所以我做了这个血缘分析平台,通过 MCP 提供检索功能给 Agent,让 Agent 可以感知数据库字段级的血缘,从而避免改炸了下游服务 这里有个简单的例子 完整文章在这 https://metaxisdata.com/zh/blog/agent-era-schema-…",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 178.99,
+      "relevance": 23
+    },
+    {
+      "title": "OpenCode 2.0 正式发布：一次“重大改造”，旧插件全部报废",
+      "link": "https://www.infoq.cn/article/IK5AWDwovCu5lx3e3mhc?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-19 17:51",
+      "ts": 1792403505,
+      "summary": "OpenCode 2.0 正式发布：一次“重大改造”，旧插件全部报废",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 162.75,
+      "relevance": 16
+    },
+    {
+      "title": "PwnEscape：Linux 爆 9.3 分严重漏洞，一台 VPS 可能攻陷整台宿主机｜CVE-2026-99999",
+      "link": "https://www.appinn.com/pwnescape-cve-2026-99999/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "案例复盘",
+      "published": "10-19 16:10",
+      "ts": 1792397437,
+      "summary": "更新：该研究人员因为这个漏洞的发现，拿下了 Vercel 提供的 5 万美金奖金，而本次漏洞消耗了 700 美元的 AI API 额度。Linux 又出现了一个严重安全漏洞。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 136.19,
+      "relevance": 12
+    },
+    {
+      "title": "[工具推荐]推荐一个可以免费发布网页的工具 900.cool",
+      "link": "https://www.v2ex.com/t/1249949#reply3",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-19 11:35",
+      "ts": 1792380920,
+      "summary": "花 5 分钟让 AI 写了个 HTML 页面，结果为了把它分享给朋友，还得： 创建 GitHub 仓库 提交代码、Push 等待构建、部署 最后终于得到一个 URL 好家伙，写网页 5 分钟，部署网页半小时。有时候我只是想分享一个 HTML 页面啊！",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 132.66,
+      "relevance": 14
+    },
+    {
+      "title": "研究人员实现抗噪声量子密钥分发",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/20261012201415161156428.shtm?id=156428",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "教程方法",
+      "published": "10-12 01:30",
+      "ts": 1791739800,
+      "summary": "中国科学技术大学郭光灿院士团队的韩正甫、陈巍、银振强、王双等与河南省量子信息与量子密码重点实验室、南京邮电大学合作，针对量子通信实际应用中的强背景噪声问题，首次实现了基于优势提...",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 13
+    },
+    {
+      "title": "外媒实测华硕 / 惠普 Googlebook 笔记本屏幕显示效果：色彩空间受限、表现未达预期",
+      "link": "https://www.ithome.com/1/014/998.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "实测评价",
+      "published": "10-19 19:12",
+      "ts": 1792408330,
+      "summary": "IT之家 10 月 19 日消息，外媒 Notebookcheck 在实际测试华硕 Googlebook 14 和惠普 Googlebook 14c 后发现，两款设备目前均只能使用 sRGB 色彩空间，色彩准确度也不够理想，部分屏幕表现与宣传存在差距。外媒表示，尽管上述两款产品面板理论上支持 P3 色彩空间，但用户无法通过在相应机型的系统设置切换到 P3 色彩空间。",
+      "why": "可练习把位置、数据和模糊关系连接起来。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 142.2,
+      "relevance": 15
+    },
+    {
+      "title": "“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
+      "link": "https://www.infoq.cn/article/qZPH971CbfHkaCfgG0cb?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "10-18 18:00",
+      "ts": 1792317600,
+      "summary": "“AI+终端”时代的萌芽：大模型在终端领域的探索和量产落地｜QCon上海",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 183,
+      "relevance": 21
+    },
+    {
+      "title": "ToolForge v0.2.0 正式发布：插件市场全面升级，新增十余款工具！Rust + Tauri 开源工具箱再进化",
+      "link": "https://www.oschina.net/news/503084",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-19 10:52",
+      "ts": 1792378349,
+      "summary": "最近一直在持续开发自己的开源桌面工具箱 ToolForge，今天迎来了一个新的版本： ToolForge v0.2.0 正式发布！ToolForge 是一款基于 Rust + Tauri 2 构建的开源桌面工具箱，面向开发者和效率工作者，希望将日常开发、文件处理、数据转换、系统管理等常用工具整合到一个应用中。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 173.42,
+      "relevance": 19
+    },
+    {
+      "title": "Termexo v0.10.14 发布：接入 Pi Agent，改进 Agent 安装、更新与提醒",
+      "link": "https://www.oschina.net/news/503070",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-18 00:40",
+      "ts": 1792255251,
+      "summary": "Termexo v0.10.14 已发布。Termexo 是一个面向 Windows 的本地优先 AI 编程工作台，用于组织项目、Agent 终端与任务。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 166,
+      "relevance": 18
+    },
+    {
+      "title": "Openai 的 Dot 功能有人用吗？",
+      "link": "https://www.v2ex.com/t/1249793#reply32",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "10-18 19:20",
+      "ts": 1792322426,
+      "summary": "Openai 这个 dot 功能貌似最近新出的功能，付费用户可以免费试用，宣传可以帮你持续管理、工作，算是一个个人助手，对于我这种只付费了 openai 一家的选手来说吸引力还挺大的。结果试用了不到一周，被它搞得有点头大，它的优点是有的，确实可以省去来回切换各个对话、来回批准同意的麻烦，也能帮你统筹各个项目、安排待办事项，而且可以比手机 app 自带远程功能更方便地远程控制 codex ，但是缺点还是过于明显了： 1. 效率低。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 163,
+      "relevance": 21
+    },
+    {
+      "title": "直播中｜Claude垫底，GPT表现不佳，PhAI Labs用DiscoveryRSI探索科研Agent自我进化",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651068408&idx=1&sn=3d762a23bad4d8ea4a1ddd3d23e6ae50",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "概念科普",
+      "published": "10-19 12:02",
+      "ts": 1792382520,
+      "summary": "PhAI Labs 是一家面向下一代智能系统的新型研究组织（Neo Lab），长期关注人工智能与科学发现深度融合的前沿方向。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 161.81,
+      "relevance": 16
+    },
+    {
+      "title": "DoorDash的Flux在云端智能体上运行130000个工程任务",
+      "link": "https://www.infoq.cn/article/4IPptJpXQqX5Lr77uBFZ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "10-19 23:42",
+      "ts": 1792424520,
+      "summary": "DoorDash的Flux在云端智能体上运行130000个工程任务",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 159.7,
+      "relevance": 15
+    },
+    {
+      "title": "VLOOK 2026.10～多项排版增强特性升级～好看好用 Markdown 主题包与排版增强插件",
+      "link": "https://www.oschina.net/news/503087",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-19 14:19",
+      "ts": 1792390764,
+      "summary": "VLOOK:tm: 是针对 Typora（跨平台 Markdown 编辑器）的主题包和增强插件（针对导出的 HTML 文件)，旨在与众 Markdown 粉共创 Markdown 的自动化排版 2.0，在保持 Markdown 简洁性的基础上，让编辑、阅读 Markdown 文档更实用，也更愉悦。VLOOK:tm: 属于开源软件（遵从 MIT License），也是 OSCHINA 开源中国 推荐的国产...",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 159.57,
+      "relevance": 16
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 更新：“许愿式编程”成真 + 搜索 API 开放",
+      "link": "https://www.oschina.net/news/503080",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-19 10:37",
+      "ts": 1792377462,
+      "summary": "DeepSeek 更新了 V4.1 Flash，版本号 1017。这次的更新有两个看点：「许愿式编程」从零建项目的能力提升，以及自研搜索 API 正式开放——后者对用 DeepSeek API 做应用的开发者影响更直接。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 158.34,
+      "relevance": 16
+    },
+    {
+      "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改",
+      "link": "https://www.qbitai.com/2026/10/503935.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "实测评价",
+      "published": "10-17 20:10",
+      "ts": 1792239035,
+      "summary": "整套系统原生支持MCP",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 158,
+      "relevance": 16
+    },
+    {
+      "title": "Strata 现已支持 macOS，还能运行更轻量的 Qwen3.6-35B-A3B 大模型了",
+      "link": "https://www.appinn.com/strata-macos-35b-model/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-16 11:31",
+      "ts": 1792121488,
+      "summary": "之前，小众软件介绍过 Strata，一款可以让家用普通显卡运行本地 AI 大模型的本地推理工具，此前主要是 125B 大小的 Qwen3.8-Flash-Next，激活参数 6B。@Appinn 最近 Strata 连续更新，不仅开始支持 Apple Silicon Mac，还新增了体积更小的 Qw",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 157,
+      "relevance": 17
+    },
+    {
+      "title": "编码智能体训练为何要重新审视源代码？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651063676&idx=2&sn=4efaeeeca7b59e150446767a407b46c3",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-18 18:25",
+      "ts": 1792319100,
+      "summary": "源代码才是编码智能体训练的最大未开发资源？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "游戏逆向工程网站宣布关闭因为 AI 让反编译游戏变得非常容易",
+      "link": "https://www.solidot.org/story?sid=85638",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "社区观察",
+      "published": "10-17 23:55",
+      "ts": 1792252534,
+      "summary": "协作游戏逆向工程网站 decomp.dev 宣布将关闭，管理员称 AI 让游戏反编译变得快且易于操作，基于人工的社区协作模式实际上已经瓦解，无法再区分哪些项目是以人工为主导的，哪些是由 AI 完成的。decomp.dev 管理员 Encounter 在官网声明中表示，从历史上看，匹配反编译一直是极其困难且耗时的任务，即便是对那些有适量活跃贡献者的中等规模游戏来说，反编译要以“年”为单位计时，但 GPT-6-Astra 之类的前沿 AI 模型最近已让反编译游戏变得极其轻松：它…",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 151,
+      "relevance": 17
+    },
+    {
+      "title": "复刻 Jetbrains IDE 的 Git 客户端做成 VS Code 插件",
+      "link": "https://www.v2ex.com/t/1250094#reply11",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-19 18:14",
+      "ts": 1792404894,
+      "summary": "一直用习惯了 Jetbrains IDE 的 git 管理，现在因为 AI 编程逐渐转向了 VS Code ，但是感觉自带的 git 功能不好用，这两天用 opus 基于开源的 Rebased 客户端，复刻做成插件。实现了一下能力 带提交图的 Git 日志；",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 132.88,
+      "relevance": 14
+    },
+    {
+      "title": "利用学生优惠$8.99 开通 2 年半 Google AI Pro + YouTube Premium + 5TB 存储",
+      "link": "https://www.v2ex.com/t/1249913#reply78",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "教程方法",
+      "published": "10-19 10:32",
+      "ts": 1792377130,
+      "summary": "Google ai pro 和 Youtube Premium 这里就不详细介绍了，Goole 对于学生用户一直有免费优惠，如果你有美国大学 edu 邮箱，就可以申请，通过后就可以免费使用 18 个月，两年前我发过教程。现在 google 新发布联合优惠，包含 Youtube Premium 会员。",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 120.31,
+      "relevance": 12
+    },
+    {
+      "title": "发现频道：10款大家发现的好评软件[2026年第42期]",
+      "link": "https://www.appinn.com/faxian-top10-2642/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-19 09:00",
+      "ts": 1792371633,
+      "summary": "最近10日，来自小众软件论坛的发现频道的热门排行榜，由系统自动生成，直接列出来： 序号 主题 1️⃣ 【开发者自荐】Listary V7.1 发布： 8 年来最大一次更新，最快最丝滑的搜索工具它来啦 2️⃣ 自荐一个为自用而生的安卓漫画阅读器：漫读 1.5 3️⃣ 【开源自荐】屏译：开源 Andro",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 118.8,
+      "relevance": 9
+    },
+    {
+      "title": "研究实现量子网络跨节点散粒噪声极限相位锁定",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/2026101920193783156679.shtm?id=156679",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-20 04:19",
+      "ts": 1792441140,
+      "summary": "近日，中国科学技术大学潘建伟院士、张强教授等与济南量子技术研究院陈玖朋副研究员等合作，提出一种“多波长联合相位锁定”架构，并结合贝叶斯相位估计，实现了跨...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 118.0,
+      "relevance": 6
+    },
+    {
+      "title": "科学家为正在瓦解的人马座矮星系“画像”",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/20261019195231271156651.shtm?id=156651",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "专家观点",
+      "published": "10-20 03:52",
+      "ts": 1792439520,
+      "summary": "一个正在被银河系引力撕裂的矮星系，曾经是什么模样？10月13日，中国科学院国家天文台科研团队联合紫金山天文台等单位的研究成果在《自然—天文学》上发表。",
+      "why": "分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 118.0,
+      "relevance": 6
+    }
+  ]
+}
