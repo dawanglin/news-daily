@@ -1,0 +1,580 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21 02:14:48 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 6,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 11,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+      "link": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选",
+        "阮一峰的网络日志"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "技术实践",
+      "published": "10-16 08:00",
+      "ts": 1792108800,
+      "summary": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "EdgeEver：全端开源知识库，支持 Cloudflare / Docker 自托管，原生打通 MCP 与 ACP 联动",
+      "link": "https://www.v2ex.com/t/1250433#reply3",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "工具发布",
+      "published": "10-20 21:35",
+      "ts": 1792503349,
+      "summary": "各位 V 友大家好！前情提要：之前在 V2EX 第一次发帖分享 EdgeEver 时（ 原帖在此 ），项目才刚刚起步，只有几十个 Star ，当时很多功能和架构都还在探索阶段。",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 126.45,
+      "relevance": 12
+    },
+    {
+      "title": "Strata 0.2 测试版发布：性能升级，门槛再降低｜低配电脑运行本地大模型",
+      "link": "https://www.appinn.com/strata-0-2-beta/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-20 15:30",
+      "ts": 1792481423,
+      "summary": "Strata 是一款让普通家用电脑运行本地 AI 大模型的开源工具，可运行 Qwen3.8-Flash-Next、Qwen3.6-35B-A3B 等大模型，并拥有相当流畅的推理速度。@Appinn 昨日，Strata 0.2.0 测试版发布，再次降低了使用门槛，内存+显存合计最低只需要 27.6GB",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 191.42,
+      "relevance": 23
+    },
+    {
+      "title": "失败一次，受益多次：测试 Agent 从记忆到持续学习的工程实践｜QCon上海",
+      "link": "https://www.infoq.cn/article/ZyjObqGawfurPFLBQONd?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-20 18:00",
+      "ts": 1792490400,
+      "summary": "失败一次，受益多次：测试 Agent 从记忆到持续学习的工程实践｜QCon上海",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 188.25,
+      "relevance": 21
+    },
+    {
+      "title": "VLOOK 2026.10～多项排版增强特性升级～好看好用 Markdown 主题包与排版增强插件",
+      "link": "https://www.oschina.net/news/503087",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-19 14:19",
+      "ts": 1792390764,
+      "summary": "VLOOK:tm: 是针对 Typora（跨平台 Markdown 编辑器）的主题包和增强插件（针对导出的 HTML 文件)，旨在与众 Markdown 粉共创 Markdown 的自动化排版 2.0，在保持 Markdown 简洁性的基础上，让编辑、阅读 Markdown 文档更实用，也更愉悦。VLOOK:tm: 属于开源软件（遵从 MIT License），也是 OSCHINA 开源中国 推荐的国产...",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 156,
+      "relevance": 16
+    },
+    {
+      "title": "两个月的 AWS 阵亡了～这还有救吗？",
+      "link": "https://www.v2ex.com/t/1250382#reply4",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "用户讨论",
+      "published": "10-20 17:29",
+      "ts": 1792488589,
+      "summary": "中午收到了邮件： AWS 账户被停用：需要回复 尊敬的 AWS 客户， 我们无法验证您的 Amazon Web Services （ AWS ）账户的详细信息，因此我们暂停了您的账户。当您的账户被暂停时，您无法登录 AWS 管理控制台或访问 AWS 服务。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 168.09,
+      "relevance": 21
+    },
+    {
+      "title": "做了个不用写提示词、会学习喜好的本地 AI 生图应用",
+      "link": "https://www.v2ex.com/t/1250448#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "用户作品",
+      "published": "10-20 22:29",
+      "ts": 1792506593,
+      "summary": "我自己用 AI 生图，很多时候就是想看看好看的图片，找找灵感。但写提示词确实有点太麻烦了。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 146.75,
+      "relevance": 16
+    },
+    {
+      "title": "近3万星，Karakeep 0.34 发布：网页抓取更强了，支持自动离线阅读，内存占用更低",
+      "link": "https://www.appinn.com/karakeep-0-34/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-18 15:50",
+      "ts": 1792309802,
+      "summary": "Karakeep 是一款开源的网络书签工具，在 GitHub 获得了超过 29700 颗。2026年1018日发布了 v0.34.0 版本。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 102,
+      "relevance": 6
+    },
+    {
+      "title": "研究人员实现抗噪声量子密钥分发",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/20261012201415161156428.shtm?id=156428",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "教程方法",
+      "published": "10-12 01:30",
+      "ts": 1791739800,
+      "summary": "中国科学技术大学郭光灿院士团队的韩正甫、陈巍、银振强、王双等与河南省量子信息与量子密码重点实验室、南京邮电大学合作，针对量子通信实际应用中的强背景噪声问题，首次实现了基于优势提...",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 13
+    },
+    {
+      "title": "OEA丨硬件感知轻量化光子脉冲神经网络架构",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/202610208522458156684.shtm?id=156684",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "概念科普",
+      "published": "10-20 16:52",
+      "ts": 1792486320,
+      "summary": "Opto-Electronic Advances论文推荐西安电子科技大学研究团队首次实现面向硬件约束的光子脉冲神经网络轻量化部...",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 129.88,
+      "relevance": 9
+    },
+    {
+      "title": "DHH 吐槽中国软件：AI 模型很强，但许多软件依旧很粗糙",
+      "link": "https://www.oschina.net/news/503113",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-20 15:56",
+      "ts": 1792483017,
+      "summary": "DHH 对中国科技产品发了一条评论，矛头不在 AI 模型，而在软件体验：「我尊重中国制造的 AI 模型和硬件，但同样困惑于大多数软件还这么粗糙。无论是微信、支付宝还是鸿蒙。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 185.57,
+      "relevance": 21
+    },
+    {
+      "title": "ToolForge v0.2.0 正式发布：插件市场全面升级，新增十余款工具！Rust + Tauri 开源工具箱再进化",
+      "link": "https://www.oschina.net/news/503084",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-19 10:52",
+      "ts": 1792378349,
+      "summary": "最近一直在持续开发自己的开源桌面工具箱 ToolForge，今天迎来了一个新的版本： ToolForge v0.2.0 正式发布！ToolForge 是一款基于 Rust + Tauri 2 构建的开源桌面工具箱，面向开发者和效率工作者，希望将日常开发、文件处理、数据转换、系统管理等常用工具整合到一个应用中。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 171,
+      "relevance": 19
+    },
+    {
+      "title": "CloudDM 4.5.0 发布，支持 Elasticsearch、崖山数据库",
+      "link": "https://www.oschina.net/news/503105",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-20 11:44",
+      "ts": 1792467841,
+      "summary": "CloudDM 是一款免费且开源的团队化数据库管理工具，提供统一 Web 数据库访问、权限控制、数据脱敏、SQL 审核、流程协同和数据库 CI/CD 等能力。GitHub：https://github.com/ClouGence/open-cdm Gitee：https://gitee.com/clougence/open-cdm 新增 新增 AI SQL 助手，可基于已授权的数据库元数据通过自然语言生成 SQL，支...",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 169.16,
+      "relevance": 18
+    },
+    {
+      "title": "我发现一个讽刺的现实, AI 爆发随手可以搞软件, 但是软件的需求却没了",
+      "link": "https://www.v2ex.com/t/1250380#reply19",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-20 17:28",
+      "ts": 1792488487,
+      "summary": "大家已经体会到了 今年, 各种软件复刻, 各个赛道基本天天有人发新软件 但是, 你用了几个呢 我发现软件是自由了, 想搞理论上都可以搞 问题是, 我还需要吗 仔细一想, 好像真不需要了 以前开发软件主要目的是协助人类更高效的完成某些工作 理论上, 任何工作其实都可以用极其简单的命令行工具都能完成 但是为什么要这么多软件, 这是因为大家始终追求高效, 好用, GUI, 后面甚至加上了个性化比如主题,换肤等等需求 但这些东西在 ai agent 全包的情况下, 需求都不存在了,…",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 168.08,
+      "relevance": 21
+    },
+    {
+      "title": "chatgpt/claude app + deepseek 怎么配置呢？这种配置还可以用 computer use 吗？",
+      "link": "https://www.v2ex.com/t/1250374#reply3",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "10-20 17:15",
+      "ts": 1792487706,
+      "summary": "chatgpt/claude app + deepseek 怎么配置呢？这种配置还可以用 computer use 吗？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 168.0,
+      "relevance": 21
+    },
+    {
+      "title": "安全提醒：Plex 遭黑客攻击，AOMEI 两款软件更新渠道被劫持",
+      "link": "https://www.appinn.com/plex-aomei-security-alert/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-20 16:44",
+      "ts": 1792485880,
+      "summary": "最近两起热门软件安全事件，涉及影音服务器 Plex，以及 AOMEI 的两款软件：备份软件 AOMEI Backupper、远程桌面软件 AnyViewer。其中，Plex 的多个安全漏洞已经被黑客用于真实攻击，入侵服务器后安装挖矿程序和代理软件。",
+      "why": "它触及你正在使用的软件和代码边界。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 166.83,
+      "relevance": 18
+    },
+    {
+      "title": "比 Opus 5.5 便宜 88 倍！MiniMax M3.1 Flash “杀“回王座，顺手拿了个 Agent 国模第一",
+      "link": "https://www.infoq.cn/article/7Twa7KBWIzi8JGOdVwCK?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "10-21 08:26",
+      "ts": 1792542408,
+      "summary": "比 Opus 5.5 便宜 88 倍！MiniMax M3.1 Flash “杀“回王座，顺手拿了个 Agent 国模第一",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 161.0,
+      "relevance": 15
+    },
+    {
+      "title": "四分之一数据中心位于水资源受限的区域",
+      "link": "https://www.solidot.org/story?sid=85663",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "概念科普",
+      "published": "10-20 17:02",
+      "ts": 1792486969,
+      "summary": "根据发表在《Environmental Science & Technology》期刊上的一项研究，全世界四分之一数据中心位于每年至少一个月用水需求超过供应的地区。全球各地分布着数以千计的数据中心，这些设施在冷却服务器和防止过热过程中消耗了大量水资源。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 160.94,
+      "relevance": 18
+    },
+    {
+      "title": "AI生成的代码看不懂就扔掉重来：一位首席架构师的 5 条 Agent 编程反常识原则",
+      "link": "https://www.infoq.cn/article/tgqMEJsqXfX6YzAcOiAR?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "10-20 23:05",
+      "ts": 1792508727,
+      "summary": "AI生成的代码看不懂就扔掉重来：一位首席架构师的 5 条 Agent 编程反常识原则",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 159.95,
+      "relevance": 15
+    },
+    {
+      "title": "AI Agent 越用越贵？如何借助可观测性平衡性能、质量与成本 ｜ 技术趋势",
+      "link": "https://www.infoq.cn/article/4FreCLUUQb4W4AXUhXo5?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "实测评价",
+      "published": "10-20 22:55",
+      "ts": 1792508122,
+      "summary": "AI Agent 越用越贵？如何借助可观测性平衡性能、质量与成本 ｜ 技术趋势",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 159.89,
+      "relevance": 15
+    },
+    {
+      "title": "用 Rust 写了个数据库客户端 DbCat，大部分代码是 AI 写的",
+      "link": "https://www.v2ex.com/t/1250369#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-20 16:50",
+      "ts": 1792486231,
+      "summary": "分享一个自己做的数据库客户端： DbCat 。用 Rust 写的原生应用，一个应用连 MySQL 、PostgreSQL 、SQL Server 、Redis 、MongoDB 等 12 种数据库。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 159.87,
+      "relevance": 19
+    },
+    {
+      "title": "Jiuwen Symbiosis：物理智能体走进自动化科研实验室",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651068687&idx=2&sn=cf6a5f114ed828710d6d6b0ed6a5bc4c",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "10-20 17:35",
+      "ts": 1792488900,
+      "summary": "一套面向物理世界的智能体系统",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 159.11,
+      "relevance": 15
+    },
+    {
+      "title": "直播中｜Claude垫底，GPT表现不佳，PhAI Labs用DiscoveryRSI探索科研Agent自我进化",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651068408&idx=1&sn=3d762a23bad4d8ea4a1ddd3d23e6ae50",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "概念科普",
+      "published": "10-19 12:02",
+      "ts": 1792382520,
+      "summary": "PhAI Labs 是一家面向下一代智能系统的新型研究组织（Neo Lab），长期关注人工智能与科学发现深度融合的前沿方向。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 159,
+      "relevance": 16
+    },
+    {
+      "title": "2026物理AI与世界模型大会医疗健康世界模型分会场在南京举行",
+      "link": "https://www.qbitai.com/2026/10/504266.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "10-19 18:27",
+      "ts": 1792405659,
+      "summary": "2026年10月19日下午，医疗健康世界模型分会场在南京国际博览中心钟山厅举行",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "智能电视广告引不满，部分用户借助 Claude 等 AI 智能体清理广告和预装应用",
+      "link": "https://www.ithome.com/1/015/598.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "10-20 22:40",
+      "ts": 1792507236,
+      "summary": "IT之家 10 月 20 日消息，据 TechCrunch、Mashable 当地时间 10 月 19 日报道，部分开发者和普通用户开始借助 Claude Code 等 AI 工具，对智能电视中的广告和预装软件进行清理、禁用追踪功能，以减少广告干扰并改善操作流畅度。其中一个名为 CleanYourTV 的项目由开发者 Gathin T. 发起。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 143.81,
+      "relevance": 15
+    },
+    {
+      "title": "PwnEscape：Linux 爆 9.3 分严重漏洞，一台 VPS 可能攻陷整台宿主机｜CVE-2026-99999",
+      "link": "https://www.appinn.com/pwnescape-cve-2026-99999/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "案例复盘",
+      "published": "10-19 16:10",
+      "ts": 1792397437,
+      "summary": "更新：该研究人员因为这个漏洞的发现，拿下了 Vercel 提供的 5 万美金奖金，而本次漏洞消耗了 700 美元的 AI API 额度。Linux 又出现了一个严重安全漏洞。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 132,
+      "relevance": 12
+    }
+  ]
+}
