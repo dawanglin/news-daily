@@ -1,0 +1,581 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22 02:20:33 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 4,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 12,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "失败",
+      "count": 0,
+      "error": "<urlopen error [Errno 111] Connection refused>",
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 9,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "[开源] 从生图到骨骼动画全自动：用 Blender 合成数据微调 DINOv2，把视频动作还原到非人形 3D 模型上",
+      "link": "https://www.v2ex.com/t/1250769#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "教程方法",
+      "published": "10-22 00:07",
+      "ts": 1792598864,
+      "summary": "从粗糙的 Astra 建模踩坑开始，我就一直在琢磨：到底怎么才能让整套 3D 资产与动画生成流程真正自动化起来？一路从 OpenAI 产出概念效果图，到 Tripo3D 生成 3D 模型，再到非人形怪物的自动绑骨蒙皮；",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 142.26,
+      "relevance": 15
+    },
+    {
+      "title": "OpenAI 宣布入驻谷歌云平台：进一步拓展其在微软以外的业务，Gemini Agent 和 Antigravity 用户可用最新前沿模型",
+      "link": "https://www.ithome.com/1/016/105.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-21 20:42",
+      "ts": 1792586571,
+      "summary": "IT之家 10 月 21 日消息，OpenAI 与 Google Cloud 于当地时间 10 月 21 日宣布，OpenAI 的前沿模型（含 GPT-6 Astra、Sol 及 Luna）及 Codex 编程智能体将在未来几周内上线 Model Garden 和 Marketplace 平台。此次合作使 OpenAI 的模型覆盖了美国三大云服务商。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 268.13,
+      "relevance": 40
+    },
+    {
+      "title": "Mistral 发布 Voxtral 3，支持 50 多种语言的语音 Agent SDK",
+      "link": "https://www.oschina.net/news/503136/mistral-ai-voxtral-3",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-21 15:31",
+      "ts": 1792567883,
+      "summary": "Mistral 发布了 Voxtral 3，一套语音 Agent SDK 加语音模型，支持 50 多种语言。官方给的演示场景很能说明定位：一个说英语的患者，拿着一张法语转诊信打给诊所，语音代理听懂了法语内容、完成预约、还承诺用英语回短信——跨语言、带工具调用、有情绪适应能力的完整语音工作流。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 170.4,
+      "relevance": 18
+    },
+    {
+      "title": "PwnEscape：Linux 爆 9.3 分严重漏洞，一台 VPS 可能攻陷整台宿主机｜CVE-2026-99999",
+      "link": "https://www.appinn.com/pwnescape-cve-2026-99999/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "案例复盘",
+      "published": "10-19 16:10",
+      "ts": 1792397437,
+      "summary": "更新：该研究人员因为这个漏洞的发现，拿下了 Vercel 提供的 5 万美金奖金，而本次漏洞消耗了 700 美元的 AI API 额度。Linux 又出现了一个严重安全漏洞。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 132,
+      "relevance": 12
+    },
+    {
+      "title": "CSS 的下一步：@function 和 corner-shape，浏览器厂商正联手推进",
+      "link": "https://www.oschina.net/news/503139/interop-2027",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "实测评价",
+      "published": "10-21 17:31",
+      "ts": 1792575063,
+      "summary": "CSS 正在经历一年里最大的一次进化。Josh W. Comeau 写了篇长文，前瞻 2027 年 CSS 最值得期待的 10 个特性——背景是浏览器厂商的 Interop 协作项目：Google、Apple、Microsoft、Mozilla 联合 Igalia 和 Bocoup，每年挑一批特性集中推进跨浏览器支持。",
+      "why": "可拆出一个界面、交互或游戏机制。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 186.06,
+      "relevance": 21
+    },
+    {
+      "title": "新理论框架澄清高压冰物相争议",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/2026102111828661156739.shtm?id=156739",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-21 19:08",
+      "ts": 1792580880,
+      "summary": "近日，香港科技大学物理系及赛马会高等研究院教授渡辺悠树团队联合东京大学教授求幸年及研究生渡边濑名，建立了一套可广泛适用于不同自旋磁性系统的通用理论框架，用以判断两种物质状态何时...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 120.6,
+      "relevance": 7
+    },
+    {
+      "title": "OEA丨硬件感知轻量化光子脉冲神经网络架构",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/202610208522458156684.shtm?id=156684",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "概念科普",
+      "published": "10-20 16:52",
+      "ts": 1792486320,
+      "summary": "Opto-Electronic Advances论文推荐西安电子科技大学研究团队首次实现面向硬件约束的光子脉冲神经网络轻量化部...",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "从开源创新到全球增长 | 2026 上海开源软件应用创新大赛颁奖典礼暨创新增长大会",
+      "link": "https://www.oschina.net/news/503142",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-21 19:45",
+      "ts": 1792583110,
+      "summary": "10 月 30 日，以“从开源创新到全球增长”为主题的 2026 上海开源软件应用创新大赛颁奖典礼暨创新增长大会，将落地上海张江人工智能创新小镇。2026上海开源软件应用创新大赛由开源中国主办，以“开源向实（Open Source, Real Impact）”为主题，面向全国征集优秀开源项目。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 246.81,
+      "relevance": 33
+    },
+    {
+      "title": "OpenAI 联手 PerturbAI：让近 2000 个 AI 智能体一起搞科研，加速新药研发",
+      "link": "https://www.ithome.com/1/016/134.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-21 22:16",
+      "ts": 1792592204,
+      "summary": "北京时间 10 月 21 日，生物技术公司 PerturbAI 宣布与 OpenAI 合作的最新进展。双方联合斯克里普斯研究所（Scripps Research）开发了一套 AI 推理框架，通过近 2000 个 AI 智能体并行工作，帮助科学家分析复杂生物实验数据、检索文献，并提出可供后续实验检验的假说。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 223.65,
+      "relevance": 31
+    },
+    {
+      "title": "Linux 7.4 引入 1.7 万行 Rust 内核代码，Zerocopy 一次跨八个版本",
+      "link": "https://www.oschina.net/news/503125",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-21 11:02",
+      "ts": 1792551772,
+      "summary": "Linux 7.4 的合并窗口刚开，Rust for Linux 就送来了一份「大礼」：约 1.7 万行新 Rust 内核代码，由项目负责人 Miguel Ojeda 提交。这是近期 Rust 内核支持里体量较大的一次更新。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 213.9,
+      "relevance": 27
+    },
+    {
+      "title": "代码迁移准确率从 5.4% 飙至 97.9%！OpenAI 挑战 COBOL，几十年的老系统真能交给 AI 了？",
+      "link": "https://www.infoq.cn/article/LZsVYHAH1jyOtLg6Yiwk?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "案例复盘",
+      "published": "10-21 23:00",
+      "ts": 1792594829,
+      "summary": "代码迁移准确率从 5.4% 飙至 97.9%！OpenAI 挑战 COBOL，几十年的老系统真能交给 AI 了？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 189.89,
+      "relevance": 21
+    },
+    {
+      "title": "DeepSeek开源最新推理框架：单集群日吞吐155万亿Token，KVCache可保存7天",
+      "link": "https://www.infoq.cn/article/NBXP966Bz3eqr6Qidvaf?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-21 20:06",
+      "ts": 1792584408,
+      "summary": "DeepSeek开源最新推理框架：单集群日吞吐155万亿Token，KVCache可保存7天",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 188.93,
+      "relevance": 21
+    },
+    {
+      "title": "Strata 0.2 测试版发布：性能升级，门槛再降低｜低配电脑运行本地大模型",
+      "link": "https://www.appinn.com/strata-0-2-beta/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-20 15:30",
+      "ts": 1792481423,
+      "summary": "Strata 是一款让普通家用电脑运行本地 AI 大模型的开源工具，可运行 Qwen3.8-Flash-Next、Qwen3.6-35B-A3B 等大模型，并拥有相当流畅的推理速度。@Appinn 昨日，Strata 0.2.0 测试版发布，再次降低了使用门槛，内存+显存合计最低只需要 27.6GB",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 187,
+      "relevance": 23
+    },
+    {
+      "title": "安全提醒：Plex 遭黑客攻击，AOMEI 两款软件更新渠道被劫持",
+      "link": "https://www.appinn.com/plex-aomei-security-alert/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-20 16:44",
+      "ts": 1792485880,
+      "summary": "最近两起热门软件安全事件，涉及影音服务器 Plex，以及 AOMEI 的两款软件：备份软件 AOMEI Backupper、远程桌面软件 AnyViewer。其中，Plex 的多个安全漏洞已经被黑客用于真实攻击，入侵服务器后安装挖矿程序和代理软件。",
+      "why": "它触及你正在使用的软件和代码边界。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 162,
+      "relevance": 18
+    },
+    {
+      "title": "Cloudflare 开源面向 AI 智能体的决策模型 Clef",
+      "link": "https://www.infoq.cn/article/iqCrZLLizNkRTpfo2Jrb?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-21 21:47",
+      "ts": 1792590420,
+      "summary": "Cloudflare 开源面向 AI 智能体的决策模型 Clef",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 159.48,
+      "relevance": 15
+    },
+    {
+      "title": "Agent 删库频频发生，几十年前就有的数据库防呆机制不管用了？",
+      "link": "https://www.infoq.cn/article/2Z056Q54wWa6vAIQKsqJ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-21 20:10",
+      "ts": 1792584615,
+      "summary": "Agent 删库频频发生，几十年前就有的数据库防呆机制不管用了？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 158.95,
+      "relevance": 15
+    },
+    {
+      "title": "AI Agent学会自我进化！微软与UCSB新研究：自己读论文、改代码",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651068870&idx=3&sn=c2afa68be033b7f3864579adae468ef1",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "概念科普",
+      "published": "10-21 12:01",
+      "ts": 1792555260,
+      "summary": "AI Agent 能否像研究人员一样，从论文中学习？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 157.23,
+      "relevance": 15
+    },
+    {
+      "title": "Jiuwen Symbiosis：物理智能体走进自动化科研实验室",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651068687&idx=2&sn=cf6a5f114ed828710d6d6b0ed6a5bc4c",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "10-20 17:35",
+      "ts": 1792488900,
+      "summary": "一套面向物理世界的智能体系统",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "告别 AI Demo 页面：构建支持淘内货品运营、可C端投放的会场 Agent Harness",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546485&idx=1&sn=b679cea45f2b32788e0c3eb2d3568cac&chksm=82324d0a4f0649e3d8c2d2d0fda60fab550d5fdb4fb68b9dfdeb063fee3b0da023e5b45bc9d1&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-19 08:00",
+      "ts": 1792368000,
+      "summary": "告别 AI Demo 页面：构建支持淘内货品运营、可C端投放的会场 Agent Harness",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 150,
+      "relevance": 15
+    },
+    {
+      "title": "Linux 同好，一起移植 win 上的软件",
+      "link": "https://www.v2ex.com/t/1250480#reply58",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-21 08:21",
+      "ts": 1792542104,
+      "summary": "现在 AI 这么发达了，Linux 上移植 win 软件是不是越来越便利了。是继续发展 Wine 这类，还是直接基于 linux 底层移植好呢",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 135.01,
+      "relevance": 15
+    },
+    {
+      "title": "微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&mid=2247525175&idx=1&sn=63b96bd12318668735c201f956bcf91f&chksm=e97fa56f33cba4ad777aef0890bef8857bf8efe4b2510a4f5bce1054436f230def1e4eb8513e&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "技术实践",
+      "published": "10-20 08:00",
+      "ts": 1792454400,
+      "summary": "微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 135,
+      "relevance": 12
+    },
+    {
+      "title": "「MFlare」监控 Cloudflare 用量以及部署的 MacOS 菜单栏小工具（附兑换码）",
+      "link": "https://www.v2ex.com/t/1250641#reply52",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "教程方法",
+      "published": "10-21 15:01",
+      "ts": 1792566078,
+      "summary": "主页 https://mflare.yuy1n.io/zh 工具介绍 Cloudflare 在开发者社群中已经越来越流行，基本人手一个。我本人也有不少服务托管在上面，在使用 Cloudflare 的过程中也发现了一些问题和不方便的地方： 它的 Dashboard 功能太多，无法快速找到想要的入口查看用量等信息 push 代码之后，想要知道 worker 部署开始了没有，是否成功，也只能去翻 dashboard 中的部署记录 社群中最近有很多 Cloudflare 服务爆账单…",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 129.23,
+      "relevance": 13
+    },
+    {
+      "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+      "link": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选",
+        "阮一峰的网络日志"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "技术实践",
+      "published": "10-16 08:00",
+      "ts": 1792108800,
+      "summary": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "[前端转全栈学 Java ，挑战 30 天独立做项目！望开发大佬指条明路]",
+      "link": "https://www.v2ex.com/t/1250521#reply40",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "用户讨论",
+      "published": "10-21 10:19",
+      "ts": 1792549150,
+      "summary": "目前是一名前端开发，有一定的开发经验，自认为思维逻辑还不错且有编程基础。这几天准备系统学习 Java ，想从前端向后端拓展。",
+      "why": "可拆出一个界面、交互或游戏机制。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 120.66,
+      "relevance": 12
+    },
+    {
+      "title": "做了一个即开即玩的小游戏合集： 6 款游戏，免费、免注册，支持电脑和触屏",
+      "link": "https://www.v2ex.com/t/1250757#reply1",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-21 22:50",
+      "ts": 1792594231,
+      "summary": "这段时间用 AI 辅助折腾了一个浏览器小游戏合集 XRHSHUI Games ，整理上线了 6 款游戏，想分享给 V 友们试试。地址： https://www.xrhshui.com/zh/ 不用下载，也不用注册，点开游戏会在新标签页直接运行。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 116.84,
+      "relevance": 10
+    },
+    {
+      "title": "李斌：基于世界模型架构 + 闭环强化学习的蔚来智能辅助驾驶系统，已部署超 95 万辆智能电动汽车",
+      "link": "https://www.ithome.com/1/016/123.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "教程方法",
+      "published": "10-21 21:37",
+      "ts": 1792589864,
+      "summary": "IT之家 10 月 21 日消息，在 2026 世界智能网联汽车大会上，蔚来创始人、董事长、CEO 李斌分享了一组最新数据： 截至目前，基于世界模型架构 + 闭环强化学习的蔚来智能辅助驾驶系统， 已经部署在超过 95 万辆智能电动汽车上 ；智能辅助驾驶安全行驶里程超过 91.4 亿公里， 累计使用时长达到 1.12 亿小时 ，为用户避免或减轻了 907 万次潜在事故影响；",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 113.43,
+      "relevance": 9
+    }
+  ]
+}
