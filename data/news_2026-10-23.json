@@ -1,0 +1,581 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23 02:14:36 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 9,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 14,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 14,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "失败",
+      "count": 0,
+      "error": "<urlopen error [Errno 111] Connection refused>",
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+      "link": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选",
+        "阮一峰的网络日志"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "技术实践",
+      "published": "10-16 08:00",
+      "ts": 1792108800,
+      "summary": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "Chrome 曝沙箱逃逸漏洞：打开恶意网页可能导致电脑被入侵，请及时更新",
+      "link": "https://www.appinn.com/chrome-sandbox-escape-cve-2026-113328/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent编排",
+      "lens": "案例复盘",
+      "published": "10-22 16:06",
+      "ts": 1792656398,
+      "summary": "还是没闲下来。论坛 Xenon 同学又分享了一条浏览器漏洞消息： Chrome 的一个漏洞可能让恶意网页突破沙箱限制，在沙箱外执行任意代码。",
+      "why": "关注编排的可靠性与可恢复性：任务如何调度、失败如何回滚、结果如何验证，复现一条执行链。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 136.62,
+      "relevance": 12
+    },
+    {
+      "title": "Anthropic 推出“主动式 AI Agent” Claude Duet——无需等你开口就干活、关键操作先问批准",
+      "link": "https://www.oschina.net/news/503159/claude-duet",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-22 17:39",
+      "ts": 1792661946,
+      "summary": "在 Codex、ChatGPT 们把 AI Agent 卷成日常工具之后，Anthropic 终于发布了自己的常驻型 AI 助手。Anthropic 今日推出 Claude Duet——一个「主动式」AI Agent。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 236.14,
+      "relevance": 31
+    },
+    {
+      "title": "Mistral 发布 Voxtral 3，支持 50 多种语言的语音 Agent SDK",
+      "link": "https://www.oschina.net/news/503136/mistral-ai-voxtral-3",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-21 15:31",
+      "ts": 1792567883,
+      "summary": "Mistral 发布了 Voxtral 3，一套语音 Agent SDK 加语音模型，支持 50 多种语言。官方给的演示场景很能说明定位：一个说英语的患者，拿着一张法语转诊信打给诊所，语音代理听懂了法语内容、完成预约、还承诺用英语回短信——跨语言、带工具调用、有情绪适应能力的完整语音工作流。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 166,
+      "relevance": 18
+    },
+    {
+      "title": "豆包工作上线 IGA Pages 插件，一句话让网页变得可分享、可共创",
+      "link": "https://www.infoq.cn/article/w065UmVL9EsVI6IVbBd7?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-22 18:00",
+      "ts": 1792663200,
+      "summary": "豆包工作上线 IGA Pages 插件，一句话让网页变得可分享、可共创",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 163.25,
+      "relevance": 16
+    },
+    {
+      "title": "AWS Lambda推动无服务器向长时间运行的工作负载发展",
+      "link": "https://www.infoq.cn/article/0vwVMhufb66SBofWsvRz?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "技术实践",
+      "published": "10-22 17:11",
+      "ts": 1792660260,
+      "summary": "AWS Lambda推动无服务器向长时间运行的工作负载发展",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 127.98,
+      "relevance": 9
+    },
+    {
+      "title": "做了个 FIBO 2 在线生图和改图工具，整理了 541 条社区提示词",
+      "link": "https://www.v2ex.com/t/1251044#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "工具发布",
+      "published": "10-22 20:16",
+      "ts": 1792671385,
+      "summary": "最近做了一个在线 AI 生图和图片编辑工具，叫 FIBO 2 ，发来分享创造，请大家试试。地址： https://fibo2.app/ 主要做了两种使用方式： 文字生图：输入描述，选择画面比例，生成海报、产品图、信息图等。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 131.01,
+      "relevance": 13
+    },
+    {
+      "title": "CSS 的下一步：@function 和 corner-shape，浏览器厂商正联手推进",
+      "link": "https://www.oschina.net/news/503139/interop-2027",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "实测评价",
+      "published": "10-21 17:31",
+      "ts": 1792575063,
+      "summary": "CSS 正在经历一年里最大的一次进化。Josh W. Comeau 写了篇长文，前瞻 2027 年 CSS 最值得期待的 10 个特性——背景是浏览器厂商的 Interop 协作项目：Google、Apple、Microsoft、Mozilla 联合 Igalia 和 Bocoup，每年挑一批特性集中推进跨浏览器支持。",
+      "why": "可拆出一个界面、交互或游戏机制。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 181,
+      "relevance": 21
+    },
+    {
+      "title": "新理论框架澄清高压冰物相争议",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/2026102111828661156739.shtm?id=156739",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-21 19:08",
+      "ts": 1792580880,
+      "summary": "近日，香港科技大学物理系及赛马会高等研究院教授渡辺悠树团队联合东京大学教授求幸年及研究生渡边濑名，建立了一套可广泛适用于不同自旋磁性系统的通用理论框架，用以判断两种物质状态何时...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 115,
+      "relevance": 7
+    },
+    {
+      "title": "《广播电视和网络视听“十五五”规划》印发：到 2030 年，广电媒体全面挺进互联网主战场",
+      "link": "https://www.ithome.com/1/016/704.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "科技资讯",
+      "published": "10-22 22:04",
+      "ts": 1792677857,
+      "summary": "IT之家 10 月 22 日消息，今日，国家广播电视总局印发《广播电视和网络视听“十五五”规划》（以下简称《规划》）。《规划》统筹广播电视网、交互式网络电视（IPTV）、互联网电视（OTT）和公众互联网四个业务层次，锚定“巩固提升广播电视、创新发展网络视听、融合聚合形成合力”三大工作方向，发挥“新闻 + 文艺”“内容 + 网络”的综合优势，推动广电视听行业改革突破、迭代升级。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 158.61,
+      "relevance": 18
+    },
+    {
+      "title": "从开源创新到全球增长 | 2026 上海开源软件应用创新大赛颁奖典礼暨创新增长大会",
+      "link": "https://www.oschina.net/news/503142",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-21 19:45",
+      "ts": 1792583110,
+      "summary": "10 月 30 日，以“从开源创新到全球增长”为主题的 2026 上海开源软件应用创新大赛颁奖典礼暨创新增长大会，将落地上海张江人工智能创新小镇。2026上海开源软件应用创新大赛由开源中国主办，以“开源向实（Open Source, Real Impact）”为主题，面向全国征集优秀开源项目。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 241,
+      "relevance": 33
+    },
+    {
+      "title": "代码迁移准确率从 5.4% 飙至 97.9%！OpenAI 挑战 COBOL，几十年的老系统真能交给 AI 了？",
+      "link": "https://www.infoq.cn/article/LZsVYHAH1jyOtLg6Yiwk?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "案例复盘",
+      "published": "10-21 23:00",
+      "ts": 1792594829,
+      "summary": "代码迁移准确率从 5.4% 飙至 97.9%！OpenAI 挑战 COBOL，几十年的老系统真能交给 AI 了？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 183,
+      "relevance": 21
+    },
+    {
+      "title": "企业 AI 越用越复杂，如何用一个 Gateway 管好模型、Agent 和成本？｜ 技术趋势",
+      "link": "https://www.infoq.cn/article/v85ey09UlxhCDH4r3RS3?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "10-23 02:00",
+      "ts": 1792692000,
+      "summary": "企业 AI 越用越复杂，如何用一个 Gateway 管好模型、Agent 和成本？｜ 技术趋势",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 160.92,
+      "relevance": 15
+    },
+    {
+      "title": "90 多个模块发版反复超时，于是我写了个 Maven Central 发布插件",
+      "link": "https://www.v2ex.com/t/1251009#reply1",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-22 17:29",
+      "ts": 1792661388,
+      "summary": "最近给框架发版时总卡在 Maven Central 发布那一步：一次要推送 90 多个工件、加起来超过 300MB ，之前一直用的插件走 OSSRH 路径，在这个体积下反复超时，要么手动补发、要么整段重来，非常折腾。按照 Maven Central 官方的 Publisher API 文档 ，我用 Java 实现了一个 Gradle 发布插件，把正式版收敛成 staging → bundle → 上传 Portal → 轮询部署状态一条命令；",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 160.09,
+      "relevance": 19
+    },
+    {
+      "title": "如果 gpt 有 claude 现在的水平，但是封号也看齐 claude 一样，大家能接受吗",
+      "link": "https://www.v2ex.com/t/1250967#reply27",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "用户讨论",
+      "published": "10-22 15:53",
+      "ts": 1792655585,
+      "summary": "假设模型水平和封号之间必须选择一项，大家是可以接受平庸得 gpt 还是智力拔群但是封号也看齐现在 claude .",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 157.55,
+      "relevance": 19
+    },
+    {
+      "title": "AI Agent学会自我进化！微软与UCSB新研究：自己读论文、改代码",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651068870&idx=3&sn=c2afa68be033b7f3864579adae468ef1",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "概念科普",
+      "published": "10-21 12:01",
+      "ts": 1792555260,
+      "summary": "AI Agent 能否像研究人员一样，从论文中学习？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "Jiuwen Symbiosis：物理智能体走进自动化科研实验室",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651068687&idx=2&sn=cf6a5f114ed828710d6d6b0ed6a5bc4c",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "10-20 17:35",
+      "ts": 1792488900,
+      "summary": "一套面向物理世界的智能体系统",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "多智能体协同重构医疗AI！清华AIR孵化：医生AI分身“坐诊”医院",
+      "link": "https://www.qbitai.com/2026/10/504734.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "10-21 19:30",
+      "ts": 1792582259,
+      "summary": "医疗AI质变时刻",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "告别 AI Demo 页面：构建支持淘内货品运营、可C端投放的会场 Agent Harness",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546485&idx=1&sn=b679cea45f2b32788e0c3eb2d3568cac&chksm=82324d0a4f0649e3d8c2d2d0fda60fab550d5fdb4fb68b9dfdeb063fee3b0da023e5b45bc9d1&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-19 08:00",
+      "ts": 1792368000,
+      "summary": "告别 AI Demo 页面：构建支持淘内货品运营、可C端投放的会场 Agent Harness",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 150,
+      "relevance": 15
+    },
+    {
+      "title": "[记录]-2026-10-20 记一次 Claude 的退款",
+      "link": "https://www.v2ex.com/t/1251069#reply2",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "案例复盘",
+      "published": "10-22 22:20",
+      "ts": 1792678809,
+      "summary": "怪我没有订阅前了解 Claude 的身份安全审核机制 结果订阅后的 Persona 认证唬住我了 又不清楚退款流程是什么 从 Google 的帮助中心提工单到 Claude 的 AI 客服再到 Play Store 的客服联系最后才原路退了回来... 在等消息 政策不符不知为何 被打了回来... 不明所以又通过退款流程... Claude 的客服回复 虽然扣除了部分手续费 好在大多数退回来了",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 144.7,
+      "relevance": 16
+    },
+    {
+      "title": "方舟引擎新突破：华为详解 HarmonyOS 7 超空间存储 + 超空间内存技术",
+      "link": "https://www.ithome.com/1/016/755.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "10-22 23:59",
+      "ts": 1792684744,
+      "summary": "IT之家 10 月 22 日消息，华为官方今日发布图文，详细介绍了 HarmonyOS 7 系统的超空间存储 + 超空间内存技术， 称其是方舟引擎的技术新突破 。据介绍，运行内存（RAM）决定了手机能同时运行多少 App，可用运行内存耗尽时，系统就会触发“杀后台”，牺牲应用使用进度来保障前台流畅度；",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 144.25,
+      "relevance": 15
+    },
+    {
+      "title": "从记忆到行动，还有多远？WorldMemArena把多模态记忆放进真实交互",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651068687&idx=3&sn=e71b564d56571d1000e85e0fb82bf595",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "实测评价",
+      "published": "10-20 17:35",
+      "ts": 1792488900,
+      "summary": "多模态 Agent 记忆评测基准 WorldMemArena",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 144,
+      "relevance": 13
+    },
+    {
+      "title": "微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&mid=2247525175&idx=1&sn=63b96bd12318668735c201f956bcf91f&chksm=e97fa56f33cba4ad777aef0890bef8857bf8efe4b2510a4f5bce1054436f230def1e4eb8513e&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "技术实践",
+      "published": "10-20 08:00",
+      "ts": 1792454400,
+      "summary": "微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 135,
+      "relevance": 12
+    },
+    {
+      "title": "Linux 同好，一起移植 win 上的软件",
+      "link": "https://www.v2ex.com/t/1250480#reply76",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-21 08:21",
+      "ts": 1792542104,
+      "summary": "现在 AI 这么发达了，Linux 上移植 win 软件是不是越来越便利了。是继续发展 Wine 这类，还是直接基于 linux 底层移植好呢",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 133,
+      "relevance": 15
+    },
+    {
+      "title": "给开源下载器 FluxDown 做了一套插件系统：网页解析、拦截下载、自定义界面，桌面和 Web 端通用",
+      "link": "https://www.v2ex.com/t/1250962#reply4",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-22 15:47",
+      "ts": 1792655249,
+      "summary": "大家好，我是 FluxDown 的作者。FluxDown 是一个开源（ AGPL-3.0 ）的多协议下载器，引擎用 Rust 写，支持 HTTP / BT / HLS / DASH / FTP / eD2K ，有桌面端、NAS 版（带 Web 界面）和原生 Android / iOS 。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 129.52,
+      "relevance": 13
+    },
+    {
+      "title": "多个 Linux 内核漏洞被误公开，部分漏洞 CVSS 评分达 9.0",
+      "link": "https://www.ithome.com/1/016/705.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "案例复盘",
+      "published": "10-22 22:09",
+      "ts": 1792678141,
+      "summary": "IT之家 10 月 22 日消息，据 Phoronix 今日报道，似乎是出于偶然，Trend Micro 旗下零日漏洞计划（ZDI）提交的多份新的 Linux 内核漏洞报告被发布到了公开的 Linux 内核邮件列表（LKML）中。截至IT之家发稿，部分问题尚未合入 Linux 主线内核，已有修复方案处于测试或候选分支中。",
+      "why": "它触及你正在使用的软件和代码边界。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 128.64,
+      "relevance": 12
+    }
+  ]
+}
