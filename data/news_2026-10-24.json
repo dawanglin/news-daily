@@ -1,0 +1,580 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24 02:03:44 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 6,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 16,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 14,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 10,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+      "link": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选",
+        "阮一峰的网络日志"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "技术实践",
+      "published": "10-16 08:00",
+      "ts": 1792108800,
+      "summary": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "DatI 新版发布：将数据库发布为语义感知的MCP服务，支持 Schema 级权限管控",
+      "link": "https://www.oschina.net/news/503165",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "工具发布",
+      "published": "10-23 09:35",
+      "ts": 1792719342,
+      "summary": "软件简介 DatI (Data Intelligence) 是连接 AI Agent 与企业数据库的轻量级语义网关。用户仅需接入数据库、配置业务语义、按需启用预置工具与参数化 SQL 工具，即可快速发布基于 Streamable HTTP 的 MCP（Model Context Protocol）服务，灵活接入各类 AI Agent 或任意 MCP Host（如 OpenCode、WorkBuddy 等）。",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 253.51,
+      "relevance": 35
+    },
+    {
+      "title": "Chrome 曝沙箱逃逸漏洞：打开恶意网页可能导致电脑被入侵，请及时更新",
+      "link": "https://www.appinn.com/chrome-sandbox-escape-cve-2026-113328/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent编排",
+      "lens": "案例复盘",
+      "published": "10-22 16:06",
+      "ts": 1792656398,
+      "summary": "还是没闲下来。论坛 Xenon 同学又分享了一条浏览器漏洞消息： Chrome 的一个漏洞可能让恶意网页突破沙箱限制，在沙箱外执行任意代码。",
+      "why": "关注编排的可靠性与可恢复性：任务如何调度、失败如何回滚、结果如何验证，复现一条执行链。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 132,
+      "relevance": 12
+    },
+    {
+      "title": "Anthropic 推出“主动式 AI Agent” Claude Duet——无需等你开口就干活、关键操作先问批准",
+      "link": "https://www.oschina.net/news/503159/claude-duet",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-22 17:39",
+      "ts": 1792661946,
+      "summary": "在 Codex、ChatGPT 们把 AI Agent 卷成日常工具之后，Anthropic 终于发布了自己的常驻型 AI 助手。Anthropic 今日推出 Claude Duet——一个「主动式」AI Agent。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 231,
+      "relevance": 31
+    },
+    {
+      "title": "一款把 Agent 伺候美美的游戏引擎",
+      "link": "https://www.v2ex.com/t/1251235#reply7",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-23 13:41",
+      "ts": 1792734081,
+      "summary": "做了一个非常适合 Agent 自己迭代造游戏的引擎 EVEngine ，核心优势有 3 个： 1. 随时热重载 - 脚本更新、资源更新不用等，立马就刷新，修改迭代时间短 2. 自带 MCP 和 debug 服务器，可以截图、控制运行、控制 debug - Agent 可以完全像人一样调试脚本 3. 可以创建编辑器给 Agent - 你写个 editor ，人能用，Agent 一样能用 支持各类常见资源的加载，png 、jpeg 、mp3 、ogg 、各类 3d 模型、sca…",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 188.88,
+      "relevance": 25
+    },
+    {
+      "title": "分享一个自己做的翻译插件 mewCat，蓝白配色，带一点二次元风格",
+      "link": "https://www.v2ex.com/t/1251337#reply1",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-23 17:59",
+      "ts": 1792749597,
+      "summary": "大家好，分享一个自己做的 Chrome 翻译插件，叫 mewCat ，中文名是「译趣喵」。用途比较直接：看外语网页时，在当前页面里查看翻译，少一些复制、粘贴和来回切换窗口的操作。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 145.31,
+      "relevance": 16
+    },
+    {
+      "title": "【AI 智能运维平台】本周更新：WorkBuddy技能市场上线「BK-Lite运维助手」，支持对接平台获取数据加入AI分析",
+      "link": "https://www.oschina.net/news/503179",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "工具发布",
+      "published": "10-23 15:59",
+      "ts": 1792742394,
+      "summary": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。【平台 · 本周更新速递】 平台 • WorkBuddy技能市场上线「BK-Lite运维助手」，支持对接平台获取数据加入AI分析 系统管理 • 新增通知渠道查询与消息投递 ...",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 190.65,
+      "relevance": 22
+    },
+    {
+      "title": "上下文语言模型：通过自主管理上下文提升性能、降低计算成本",
+      "link": "https://www.infoq.cn/article/Pwu4FNskSB2cbKV9BZKq?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "实测评价",
+      "published": "10-23 17:05",
+      "ts": 1792746300,
+      "summary": "上下文语言模型：通过自主管理上下文提升性能、降低计算成本",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 158.01,
+      "relevance": 15
+    },
+    {
+      "title": "TypeScript 移植到 Rust：快 8 倍、内存少 70%，还能跑进浏览器",
+      "link": "https://www.oschina.net/news/503149/cloudflare-typescript-rust-port",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "实测评价",
+      "published": "10-22 10:48",
+      "ts": 1792637339,
+      "summary": "TypeScript 编译器有了 Rust 移植版，而且不是孤例——Cloudflare、VoidZero 和 Owner.com 的 Max Schwenk 正在合作开发 tsrs，把它放进 Oxc JavaScript 编译器工具链里孵化。早期基准很能打：比 TypeScript 7.0 快 8 倍，内存少 70%（同配置对比）。",
+      "why": "可拆出一个界面、交互或游戏机制。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 156,
+      "relevance": 16
+    },
+    {
+      "title": "一枚声子的量子旅程:量子声学如何让机械振动产生纠缠",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1375795&do=blog&id=1557940",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "教程方法",
+      "published": "10-23 11:14",
+      "ts": 1792725256,
+      "summary": "一枚声子的量子旅程:量子声学如何让机械振动产生纠缠",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 166.06,
+      "relevance": 18
+    },
+    {
+      "title": "宇宙空间和空间中的物质运动",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39013&do=blog&id=1557934",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "概念科普",
+      "published": "10-23 10:13",
+      "ts": 1792721591,
+      "summary": "宇宙空间和空间中的物质运动",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 150.72,
+      "relevance": 15
+    },
+    {
+      "title": "做了个麦当劳 MCP 省钱助手「麦麦精算师」，一句话帮你算出最省点餐方案",
+      "link": "https://www.v2ex.com/t/1251253#reply5",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "工具发布",
+      "published": "10-23 14:36",
+      "ts": 1792737402,
+      "summary": "最近麦当劳搞了个程序员创意开发大赛，基于他们开放的 MCP 能力开发 Skill 。研究了一下他们家的 MCP ，提供了 33 个工具，覆盖点餐、领券、积分、活动日历等场景。",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 204.19,
+      "relevance": 28
+    },
+    {
+      "title": "OpenAI 联合研究机构部署数千个 AI 智能体：32 分钟分析数百万个小鼠脑细胞，相当于人类数月时间",
+      "link": "https://www.ithome.com/1/017/274.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "概念科普",
+      "published": "10-23 22:43",
+      "ts": 1792766624,
+      "summary": "IT之家 10 月 23 日消息，OpenAI 联合 PerturbAI 和斯克里普斯研究所（Scripps Research），利用数千个 AI 智能体分析数百万个小鼠脑细胞的生物学数据，整个分析过程仅耗时 32 分钟。研究团队估计，如果由人类研究人员逐项分析实验结果并检索相关文献，完成同等工作可能需要数月到一年。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 188.89,
+      "relevance": 24
+    },
+    {
+      "title": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
+      "link": "https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "10-23 19:39",
+      "ts": 1792755567,
+      "summary": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 188.87,
+      "relevance": 21
+    },
+    {
+      "title": "做了一个通用的多 agent 协作工具",
+      "link": "https://www.v2ex.com/t/1251384#reply2",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-23 23:03",
+      "ts": 1792767791,
+      "summary": "做了一个通用的多 agent 协作工具，通用指的是不管在什么 agent 软件里都能用，甚至是像 chatgpt 网页版里的对话也能用。概念很简单，就是可以创建一个对话房间，然后让你想要协作的 agent 加入到房间里他们就可以随便互相发消息对话了，可以是同一个软件里的 agent ，也可以是不同软件里的，比如让 claude 指挥一堆 gpt 干活；",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 185.0,
+      "relevance": 24
+    },
+    {
+      "title": "田渊栋新公司首个模型亮相！AI全程参与、不到4个月从零造",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651069516&idx=2&sn=c8828ee6931d4fb8aa6a093d9c964b0f",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "概念科普",
+      "published": "10-22 18:56",
+      "ts": 1792666560,
+      "summary": "用AI研究系统开发AI模型。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 169,
+      "relevance": 18
+    },
+    {
+      "title": "NeurIPS 2026 | 从Token到Span：重新思考大语言模型的不确定性估计",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651069516&idx=3&sn=ab8a98a972f88d5f4a2fdf785abb6197",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "10-22 18:56",
+      "ts": 1792666560,
+      "summary": "SpanUQ 将大模型的不确定性估计从 Token 推进到语义片段级别，精准定位回答中不可靠的内容，并实现比传统多次采样方法快 10～20 倍的推理速度。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 164,
+      "relevance": 17
+    },
+    {
+      "title": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
+      "link": "https://www.infoq.cn/article/UmD4aAerZEts8sZ5t791?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "10-24 01:54",
+      "ts": 1792778059,
+      "summary": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 160.95,
+      "relevance": 15
+    },
+    {
+      "title": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
+      "link": "https://www.infoq.cn/article/Lo9TLlRdvy4II38yaex0?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-24 01:40",
+      "ts": 1792777209,
+      "summary": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 160.87,
+      "relevance": 15
+    },
+    {
+      "title": "AI Agent学会自我进化！微软与UCSB新研究：自己读论文、改代码",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651068870&idx=3&sn=c2afa68be033b7f3864579adae468ef1",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "概念科普",
+      "published": "10-21 12:01",
+      "ts": 1792555260,
+      "summary": "AI Agent 能否像研究人员一样，从论文中学习？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "有用过腾讯云 Cloud Base 的朋友吗，用来作为 APP MVP 验证阶段的后端部署平台合适吗",
+      "link": "https://www.v2ex.com/t/1251350#reply3",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "教程方法",
+      "published": "10-23 19:51",
+      "ts": 1792756299,
+      "summary": "Cloud Base（ https://tcb.cloud.tencent.com/）是腾讯云新推出的 SaaS 智能部署平台，大概了解有提供一般 APP 上架所需的基本服务。但是不知道具体的 Agent 部署体验如何，以及个人版额度能不能够应付 APP MVP 阶段的功能验证。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 153.94,
+      "relevance": 18
+    },
+    {
+      "title": "你们的 coding agent 都跑在哪里？本机/容器/虚拟机/远程服务器？",
+      "link": "https://www.v2ex.com/t/1251250#reply1",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "用户讨论",
+      "published": "10-23 14:30",
+      "ts": 1792737046,
+      "summary": "想把个人工作环境与 agent 的工作环境隔离开来 目前只在 devcontainer 里跑 agent 但涉及到 docker 的时候就比较麻烦 想问问有没有更好的方案",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 152.15,
+      "relevance": 18
+    },
+    {
+      "title": "美国拟向 4 家企业提供最高 3.89 亿美元半导体研发资金，核聚变与 AI 数据中心成重点",
+      "link": "https://www.ithome.com/1/017/171.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "工具发布",
+      "published": "10-23 17:46",
+      "ts": 1792748777,
+      "summary": "IT之家 10 月 23 日消息，美国商务部昨日宣布，计划通过美国《芯片与科学法案》框架下的半导体研发项目，向 4 家企业提供最高 3.89 亿美元 （IT之家注：现汇率约合 26.02 亿元人民币） 的研发资金，用于支持功率半导体器件及关键材料研发，相关技术将应用于核聚变发电、AI 数据中心和电力基础设施等领域。根据美国国家标准与技术研究院（NIST）公布的信息，商务部已与 4 家企业签署资助意向书，最终资助仍需完成后续程序。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 142.24,
+      "relevance": 15
+    },
+    {
+      "title": "《魔方、洛书和准晶体的绝对原子笛卡尔坐标》（1）",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=2321&do=blog&id=1557876",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-23 16:56",
+      "ts": 1792745777,
+      "summary": "《魔方、洛书和准晶体的绝对原子笛卡尔坐标》（1）",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 137.96,
+      "relevance": 12
+    },
+    {
+      "title": "源数据库与派生数据库的联系与区别",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1557979",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-23 13:10",
+      "ts": 1792732210,
+      "summary": "源数据库与派生数据库的联系与区别",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 136.7,
+      "relevance": 12
+    },
+    {
+      "title": "微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&mid=2247525175&idx=1&sn=63b96bd12318668735c201f956bcf91f&chksm=e97fa56f33cba4ad777aef0890bef8857bf8efe4b2510a4f5bce1054436f230def1e4eb8513e&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "技术实践",
+      "published": "10-20 08:00",
+      "ts": 1792454400,
+      "summary": "微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 135,
+      "relevance": 12
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-24",
+  "items": [
+    {
+      "title": "RecallGS: Geometry-Grounded Recall for Online Semantic Gaussian Splatting",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.31293v1",
+      "published_at": "2026-10-22",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "A Visual Grounding Benchmark for Retinal OCT with Multimodal Large Language Models",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.31205v1",
+      "published_at": "2026-10-22",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "When More Metadata Misleads: Probing Field-Level Grounding in LLM-Generated Museum Descriptions",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.31193v1",
+      "published_at": "2026-10-22",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Where Do Long Captions Fail? Position-Aware Diagnosis and Reinforcement Learning for Detailed Image Captioning",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.31111v1",
+      "published_at": "2026-10-22",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "H-2DGS: Height-Field Gaussian Splatting for Sharp and Deformable Neurosurgical Surface Reconstruction",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.30910v1",
+      "published_at": "2026-10-22",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "A Topology-Guided GeoAI Agentic Framework for Urban Flood Screening",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.30660v1",
+      "published_at": "2026-10-22",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Visual Grounding First, Multimodal In-context Learning Follows",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.30592v1",
+      "published_at": "2026-10-22",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "SplatLab: Autonomous Scientific Discovery for 3DGS Research",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.30468v1",
+      "published_at": "2026-10-21",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "TerraTransfer++: Demonstration-Free End-to-End Planner",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.30319v1",
+      "published_at": "2026-10-21",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "ClunoGS: Compact Language 3D Gaussian Splatting via Unified Optimization",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.30013v1",
+      "published_at": "2026-10-21",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Geospatial Dynamics of Online Attention to Nuclear Power in Japan Before and After Fukushima",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.29924v1",
+      "published_at": "2026-10-21",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "AirPlayground: Benchmarking Aerial Navigation across Diverse Reconstructed Environments",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.29699v1",
+      "published_at": "2026-10-21",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：Documentation Index",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：<button type=\"button\" class=\"text-gray-700 dark:text-gray-300 font-medium flex i",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Documentation",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Getting Started",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/getting_started/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Official Manual",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/manual/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Tips & Tricks",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/tips/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    }
+  ]
+}
