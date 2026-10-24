@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f4ee"><meta name="description" content="每日情报简报：筛掉政治造势，留下能理解、能尝试、能落地的信息。"><title>每日情报简报 - 2026-10-25</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f6f4ee;
+  --panel: #fbfaf6;
+  --ink: #24313c;
+  --body: #38454f;
+  --muted: #6c7984;
+  --line: #dfe4e6;
+  --news: #2f7d66;
+  --news-soft: #e2eee9;
+  --biz: #a5672f;
+  --biz-soft: #f3eadb;
+  --focus: #2f7d66;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 16px;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--news); color: #fff; }
+a { color: inherit; }
+.mast { padding: 34px 40px 22px; border-bottom: 1px solid var(--line); }
+.mast-inner, .page, .footer-inner { width: min(100% - 64px, 1200px); margin-inline: auto; }
+.mast-top { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+.mast-links { display: inline-flex; align-items: center; gap: 22px; font-size: 14px; }
+.mast-links a { text-decoration: none; color: var(--muted); padding: 6px 2px; border-bottom: 2px solid transparent; }
+.mast-links a:hover { color: var(--ink); border-bottom-color: var(--news); }
+.mast h1 { margin: 26px 0 4px; font-size: 34px; line-height: 1.15; letter-spacing: -.01em; }
+.mast .subtitle { margin: 0 0 12px; font-size: 17px; color: var(--body); }
+.mast .meta { margin: 0; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.mast .direction { margin: 18px 0 0; color: var(--body); font-size: 14px; border-left: 3px solid var(--news); padding-left: 12px; }
+.layout { display: block; padding: 30px 0 20px; }
+.section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; padding: 0 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
+.section-heading h2 { margin: 0; font-size: 18px; line-height: 1.3; letter-spacing: -.01em; }
+.section-heading > span { color: var(--muted); font-size: 12px; }
+.head-right { display: inline-flex; align-items: baseline; gap: 14px; }
+.quick-jump { color: var(--biz); font-weight: 650; text-decoration: none; }
+.quick-jump:hover { text-decoration: underline; }
+.story { padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
+.story-title { display: block; font-size: 19px; font-weight: 680; line-height: 1.5; text-decoration: none; overflow-wrap: anywhere; }
+.story-title:hover { color: var(--news); }
+.story-title::after { content: "↗"; display: inline-block; margin-left: .3em; color: var(--news); font-size: .72em; font-weight: 500; transform: translateY(-.05em); }
+.story-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.story-meta .topic { padding: 1px 8px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-weight: 600; }
+.story-meta .lens { color: var(--news); font-weight: 600; }
+.story-meta .source, .story-meta .published { font-variant-numeric: tabular-nums; }
+.confidence { color: var(--muted); }
+.confidence.verified { color: var(--news); }
+.confidence.signal { color: var(--biz); }
+.story-summary { margin: 11px 0 0; color: var(--body); font-size: 15px; line-height: 1.82; overflow-wrap: anywhere; }
+.story-why { display: grid; grid-template-columns: auto 1fr; gap: 10px; margin: 13px 0 0; color: var(--body); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+.story-why strong { align-self: start; color: var(--news); font-size: 12px; font-weight: 650; white-space: nowrap; }
+.archive-link { margin-top: 22px; }
+.archive-link a { color: var(--news); font-size: 13px; }
+.col-business { margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--line); }
+.method-section { margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--line); }
+.col-business .section-heading { border-bottom-color: #e6dcc9; }
+.col-business h2 { color: var(--biz); }
+.biz { margin: 0 0 22px; padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
+.biz-title { margin: 0; font-size: 19px; font-weight: 680; line-height: 1.5; }
+.biz-title a { text-decoration: none; }
+.biz-title a::after { content: "↗"; display: inline-block; margin-left: .3em; color: var(--biz); font-size: .72em; font-weight: 500; transform: translateY(-.05em); }
+.biz-title a:hover { color: var(--biz); }
+.biz-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; font-variant-numeric: tabular-nums; }
+.biz-status { margin-left: 8px; padding: 1px 6px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-size: 11px; }
+.biz-status.pending { background: var(--biz-soft); color: #7c4c24; }
+.biz-summary { margin: 11px 0 0; color: var(--body); font-size: 15px; line-height: 1.82; overflow-wrap: anywhere; }
+.biz-empty, .biz-note { color: var(--muted); font-size: 13px; line-height: 1.7; }
+.biz-note { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line); }
+footer { padding: 26px 40px 40px; border-top: 1px solid var(--line); background: var(--panel); color: var(--muted); font-size: 12px; line-height: 1.8; }
+.footer-note { margin-top: 9px; }
+.archive-panel h2 { margin: 20px 0 8px; font-size: 21px; }
+.archive-intro { margin: 0 0 8px; color: var(--muted); font-size: 13px; }
+.archive-list { list-style: none; padding: 0; margin: 0; }
+.archive-list li { padding: 20px 0; border-top: 1px solid var(--line); }
+.archive-list a { display: block; min-height: 44px; text-decoration: none; font-size: 16px; line-height: 1.65; }
+.archive-list .issue { display: block; margin-bottom: 3px; color: var(--news); font-weight: 700; font-variant-numeric: tabular-nums; }
+.edition-meta { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
+.back { display: inline-block; margin: 20px 0 8px; color: var(--news); text-decoration: none; font-size: 14px; }
+a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 3px; }
+html { scroll-behavior: smooth; }
+@media (hover: hover) { .mast-links a:hover, .story-title:hover, .biz-title a:hover { color: var(--news); } }
+@media (max-width: 960px) { .mast, footer { padding-left: 22px; padding-right: 22px; } .mast-inner, .page, .footer-inner { width: min(100% - 32px, 1200px); } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style></head><body>
+<header class="mast"><div class="mast-inner"><div class="mast-top"><nav class="mast-links" aria-label="栏目导航"><a href="../">效率导航</a><a href="#news">新闻</a><a href="#v2ex">V2EX</a><a href="#prompt">Prompt</a><a href="#skill">Skill</a><a href="#business">商业观察</a><a href="../archive/">历史</a></nav></div><h1>每日情报简报</h1><p class="subtitle">今日动态与可落地线索</p><p class="meta">2026年10月25日 星期日 · 共 26 条</p><p class="direction">筛掉政治造势，留下能理解、能尝试、能落地的信息。</p></div></header>
+<main class="page"><div class="layout"><section id="news" class="col-news"><div class="section-heading"><h2>新闻情报</h2><span class="head-right">26 条 · 按阅读价值排序<a class="quick-jump" href="#business">直达商业观察</a></span></div><section class="feed">
+      <article class="story" data-news-title="利民推出 LEVITA VISION 360 ARGB V2 悠浮视界水冷散热器：磁吸悬浮裸眼 3D 曲面屏，949 元起" data-news-url="https://www.ithome.com/1/017/503.htm" data-news-source="IT之家" data-news-time="10-24 20:55" data-news-summary="IT之家 10 月 24 日消息，利民 LEVITA VISION 360 ARGB BLACK V2 悠浮视界水冷上架京东，黑色版本显示为 949 元，白色版本 959 元。这款水冷采用了 6.67 英寸 AMOLED 的 2400*1080 分辨率 60Hz 刷新率曲面屏（11:9 比例），支持自定义 3D 动图、3D 视频显示，主题全自定义不设限，配备磁吸冷头，支持 COREV1.0 独立水泵框架。">
+        <a class="story-title" href="https://www.ithome.com/1/017/503.htm" target="_blank" rel="noopener noreferrer">利民推出 LEVITA VISION 360 ARGB V2 悠浮视界水冷散热器：磁吸悬浮裸眼 3D 曲面屏，949 元起</a>
+        <div class="story-meta">
+          <span class="topic">线下数字化</span>
+          <span class="lens">工具发布</span>
+          <span class="source">IT之家</span>
+          <span class="published">10-24 20:55</span>
+          <span class="confidence professional">科技资讯来源</span>
+        </div>
+        <p class="story-summary">IT之家 10 月 24 日消息，利民 LEVITA VISION 360 ARGB BLACK V2 悠浮视界水冷上架京东，黑色版本显示为 949 元，白色版本 959 元。这款水冷采用了 6.67 英寸 AMOLED 的 2400*1080 分辨率 60Hz 刷新率曲面屏（11:9 比例），支持自定义 3D 动图、3D 视频显示，主题全自定义不设限，配备磁吸冷头，支持 COREV1.0 独立水泵框架。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="DatI 新版发布：将数据库发布为语义感知的MCP服务，支持 Schema 级权限管控" data-news-url="https://www.oschina.net/news/503165" data-news-source="开源中国" data-news-time="10-23 09:35" data-news-summary="软件简介 DatI (Data Intelligence) 是连接 AI Agent 与企业数据库的轻量级语义网关。用户仅需接入数据库、配置业务语义、按需启用预置工具与参数化 SQL 工具，即可快速发布基于 Streamable HTTP 的 MCP（Model Context Protocol）服务，灵活接入各类 AI Agent 或任意 MCP Host（如 OpenCode、WorkBuddy 等）。">
+        <a class="story-title" href="https://www.oschina.net/news/503165" target="_blank" rel="noopener noreferrer">DatI 新版发布：将数据库发布为语义感知的MCP服务，支持 Schema 级权限管控</a>
+        <div class="story-meta">
+          <span class="topic">MCP与地图接口</span>
+          <span class="lens">工具发布</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-23 09:35</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">软件简介 DatI (Data Intelligence) 是连接 AI Agent 与企业数据库的轻量级语义网关。用户仅需接入数据库、配置业务语义、按需启用预置工具与参数化 SQL 工具，即可快速发布基于 Streamable HTTP 的 MCP（Model Context Protocol）服务，灵活接入各类 AI Agent 或任意 MCP Host（如 OpenCode、WorkBuddy 等）。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Chrome 曝沙箱逃逸漏洞：打开恶意网页可能导致电脑被入侵，请及时更新" data-news-url="https://www.appinn.com/chrome-sandbox-escape-cve-2026-113328/" data-news-source="小众软件" data-news-time="10-22 16:06" data-news-summary="还是没闲下来。论坛 Xenon 同学又分享了一条浏览器漏洞消息： Chrome 的一个漏洞可能让恶意网页突破沙箱限制，在沙箱外执行任意代码。">
+        <a class="story-title" href="https://www.appinn.com/chrome-sandbox-escape-cve-2026-113328/" target="_blank" rel="noopener noreferrer">Chrome 曝沙箱逃逸漏洞：打开恶意网页可能导致电脑被入侵，请及时更新</a>
+        <div class="story-meta">
+          <span class="topic">Agent编排</span>
+          <span class="lens">案例复盘</span>
+          <span class="source">小众软件</span>
+          <span class="published">10-22 16:06</span>
+          <span class="confidence professional">工具体验来源</span>
+        </div>
+        <p class="story-summary">还是没闲下来。论坛 Xenon 同学又分享了一条浏览器漏洞消息： Chrome 的一个漏洞可能让恶意网页突破沙箱限制，在沙箱外执行任意代码。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>关注编排的可靠性与可恢复性：任务如何调度、失败如何回滚、结果如何验证，复现一条执行链。保存失败条件和解决办法，遇到同类问题时可直接查。</span></p>
+      </article>
+      <article class="story" data-news-title="Anthropic 推出“主动式 AI Agent” Claude Duet——无需等你开口就干活、关键操作先问批准" data-news-url="https://www.oschina.net/news/503159/claude-duet" data-news-source="开源中国" data-news-time="10-22 17:39" data-news-summary="在 Codex、ChatGPT 们把 AI Agent 卷成日常工具之后，Anthropic 终于发布了自己的常驻型 AI 助手。Anthropic 今日推出 Claude Duet——一个「主动式」AI Agent。">
+        <a class="story-title" href="https://www.oschina.net/news/503159/claude-duet" target="_blank" rel="noopener noreferrer">Anthropic 推出“主动式 AI Agent” Claude Duet——无需等你开口就干活、关键操作先问批准</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">工具发布</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-22 17:39</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">在 Codex、ChatGPT 们把 AI Agent 卷成日常工具之后，Anthropic 终于发布了自己的常驻型 AI 助手。Anthropic 今日推出 Claude Duet——一个「主动式」AI Agent。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="qKnow 专业版 v3.1.5 发布：扩容工作流编排调用能力，上线Text2SQL插件，拓宽数据类智能应用构建边界" data-news-url="https://www.oschina.net/news/503174" data-news-source="开源中国" data-news-time="10-23 14:34" data-news-summary="版本更新概览 本次更新聚焦工作流编排与数据查询能力，主要包括： 工作流编排能力扩展： 支持调用已有 Agent 和工作流资源，统一编排 MCP、Skills 及各类工具。MCP 元数据查询能力增强： 支持获取数据源、表及字段元数据，为数据查询提供结构化上下文。">
+        <a class="story-title" href="https://www.oschina.net/news/503174" target="_blank" rel="noopener noreferrer">qKnow 专业版 v3.1.5 发布：扩容工作流编排调用能力，上线Text2SQL插件，拓宽数据类智能应用构建边界</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">教程方法</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-23 14:34</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">版本更新概览 本次更新聚焦工作流编排与数据查询能力，主要包括： 工作流编排能力扩展： 支持调用已有 Agent 和工作流资源，统一编排 MCP、Skills 及各类工具。MCP 元数据查询能力增强： 支持获取数据源、表及字段元数据，为数据查询提供结构化上下文。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="搞了个 DSH 的 Figma 插件，告别重复的画图工作" data-news-url="https://www.v2ex.com/t/1251532#reply3" data-news-source="V2EX·创造" data-news-time="10-24 19:13" data-news-summary="最近做了个 DSH to Figma 插件，让 DSH 能直接操作 Figma 画布。目前可以： 读取设计稿的图层、布局、样式、组件和变量 根据文字需求创建界面，或配合视觉模型把参考截图还原成可编辑图层 修改文案、颜色、间距、尺寸和自动布局，批量调整已有设计 创建和调整组件、变体、样式与设计变量 导入图片和 SVG ，截图检查结果，导出 PNG 、JPG 、SVG 、PDF 等素材 把设计结构、CSS 和素材交给 DSH ，结合当前项目生成或修改前端代码 插件负责把画布操作…">
+        <a class="story-title" href="https://www.v2ex.com/t/1251532#reply3" target="_blank" rel="noopener noreferrer">搞了个 DSH 的 Figma 插件，告别重复的画图工作</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-24 19:13</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">最近做了个 DSH to Figma 插件，让 DSH 能直接操作 Figma 画布。目前可以： 读取设计稿的图层、布局、样式、组件和变量 根据文字需求创建界面，或配合视觉模型把参考截图还原成可编辑图层 修改文案、颜色、间距、尺寸和自动布局，批量调整已有设计 创建和调整组件、变体、样式与设计变量 导入图片和 SVG ，截图检查结果，导出 PNG 、JPG 、SVG 、PDF 等素材 把设计结构、CSS 和素材交给 DSH ，结合当前项目生成或修改前端代码 插件负责把画布操作…</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="【AI 智能运维平台】本周更新：WorkBuddy技能市场上线「BK-Lite运维助手」，支持对接平台获取数据加入AI分析" data-news-url="https://www.oschina.net/news/503179" data-news-source="开源中国" data-news-time="10-23 15:59" data-news-summary="Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。【平台 · 本周更新速递】 平台 • WorkBuddy技能市场上线「BK-Lite运维助手」，支持对接平台获取数据加入AI分析 系统管理 • 新增通知渠道查询与消息投递 ...">
+        <a class="story-title" href="https://www.oschina.net/news/503179" target="_blank" rel="noopener noreferrer">【AI 智能运维平台】本周更新：WorkBuddy技能市场上线「BK-Lite运维助手」，支持对接平台获取数据加入AI分析</a>
+        <div class="story-meta">
+          <span class="topic">云服务器</span>
+          <span class="lens">工具发布</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-23 15:59</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。【平台 · 本周更新速递】 平台 • WorkBuddy技能市场上线「BK-Lite运维助手」，支持对接平台获取数据加入AI分析 系统管理 • 新增通知渠道查询与消息投递 ...</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="上下文语言模型：通过自主管理上下文提升性能、降低计算成本" data-news-url="https://www.infoq.cn/article/Pwu4FNskSB2cbKV9BZKq?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-23 17:05" data-news-summary="上下文语言模型：通过自主管理上下文提升性能、降低计算成本">
+        <a class="story-title" href="https://www.infoq.cn/article/Pwu4FNskSB2cbKV9BZKq?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">上下文语言模型：通过自主管理上下文提升性能、降低计算成本</a>
+        <div class="story-meta">
+          <span class="topic">提示词</span>
+          <span class="lens">实测评价</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-23 17:05</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">上下文语言模型：通过自主管理上下文提升性能、降低计算成本</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>保存可复用的提示结构，用同一输入做一次前后对比。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。</span></p>
+      </article>
+      <article class="story" data-news-title="React 19.3 新增 browser() API，使“仅客户端渲染”成为一等公民" data-news-url="https://www.infoq.cn/article/jNX6EAzqP34xRjqUMU1N?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-24 21:00" data-news-summary="React 19.3 新增 browser() API，使“仅客户端渲染”成为一等公民">
+        <a class="story-title" href="https://www.infoq.cn/article/jNX6EAzqP34xRjqUMU1N?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">React 19.3 新增 browser() API，使“仅客户端渲染”成为一等公民</a>
+        <div class="story-meta">
+          <span class="topic">网页小游戏</span>
+          <span class="lens">工具发布</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-24 21:00</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">React 19.3 新增 browser() API，使“仅客户端渲染”成为一等公民</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="一枚声子的量子旅程:量子声学如何让机械振动产生纠缠" data-news-url="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=1375795&amp;do=blog&amp;id=1557940" data-news-source="科学网·科普" data-news-time="10-23 11:14" data-news-summary="一枚声子的量子旅程:量子声学如何让机械振动产生纠缠">
+        <a class="story-title" href="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=1375795&amp;do=blog&amp;id=1557940" target="_blank" rel="noopener noreferrer">一枚声子的量子旅程:量子声学如何让机械振动产生纠缠</a>
+        <div class="story-meta">
+          <span class="topic">数学物理</span>
+          <span class="lens">教程方法</span>
+          <span class="source">科学网·科普</span>
+          <span class="published">10-23 11:14</span>
+          <span class="confidence verified">科学科普来源</span>
+        </div>
+        <p class="story-summary">一枚声子的量子旅程:量子声学如何让机械振动产生纠缠</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="宇宙空间和空间中的物质运动" data-news-url="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=39013&amp;do=blog&amp;id=1557934" data-news-source="科学网·科普" data-news-time="10-23 10:13" data-news-summary="宇宙空间和空间中的物质运动">
+        <a class="story-title" href="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=39013&amp;do=blog&amp;id=1557934" target="_blank" rel="noopener noreferrer">宇宙空间和空间中的物质运动</a>
+        <div class="story-meta">
+          <span class="topic">数据空间</span>
+          <span class="lens">概念科普</span>
+          <span class="source">科学网·科普</span>
+          <span class="published">10-23 10:13</span>
+          <span class="confidence verified">科学科普来源</span>
+        </div>
+        <p class="story-summary">宇宙空间和空间中的物质运动</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="渝昆高铁全线铺轨完成：重庆到昆明将压缩至两个半小时" data-news-url="https://www.ithome.com/1/017/442.htm" data-news-source="IT之家" data-news-time="10-24 18:02" data-news-summary="IT之家 10 月 24 日消息，据新华社今日报道，记者从京昆高铁西昆公司获悉，10 月 24 日下午，随着最后一对 500 米长钢轨在渝昆高铁筠连隧道口铺设就位，渝昆高铁全线铺轨完成，为线路开通运营奠定坚实基础。渝昆高铁是我国“八纵八横”高铁网京昆通道的重要组成部分，线路起自重庆西站，途经重庆市、四川省、贵州省和云南省，接入昆明南站， 全长约 700 公里 ，设计时速 350 公里。">
+        <a class="story-title" href="https://www.ithome.com/1/017/442.htm" target="_blank" rel="noopener noreferrer">渝昆高铁全线铺轨完成：重庆到昆明将压缩至两个半小时</a>
+        <div class="story-meta">
+          <span class="topic">四川生活</span>
+          <span class="lens">科技资讯</span>
+          <span class="source">IT之家</span>
+          <span class="published">10-24 18:02</span>
+          <span class="confidence professional">科技资讯来源</span>
+        </div>
+        <p class="story-summary">IT之家 10 月 24 日消息，据新华社今日报道，记者从京昆高铁西昆公司获悉，10 月 24 日下午，随着最后一对 500 米长钢轨在渝昆高铁筠连隧道口铺设就位，渝昆高铁全线铺轨完成，为线路开通运营奠定坚实基础。渝昆高铁是我国“八纵八横”高铁网京昆通道的重要组成部分，线路起自重庆西站，途经重庆市、四川省、贵州省和云南省，接入昆明南站， 全长约 700 公里 ，设计时速 350 公里。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="为什么很多人都把 DeepSeek 神化了，看不起国内豆包和其它 LLM？" data-news-url="https://www.v2ex.com/t/1251402#reply85" data-news-source="V2EX·技术" data-news-time="10-24 02:57" data-news-summary="我认为 DeepSeek 、MiniMax 、Kimi 、GLM 这些 LLM 公司被严重高估了： 月活（ MAU ） ： 豆包 4.2 亿，千问 1.7 亿，DeepSeek 1.2 亿，智谱 2000 万，Kimi 1000 万；商业化（ ARR ） ： 豆包 272 亿，智谱 68 亿、阿里 80 亿、DeepSeek 27-34 亿、Kimi 20 亿；">
+        <a class="story-title" href="https://www.v2ex.com/t/1251402#reply85" target="_blank" rel="noopener noreferrer">为什么很多人都把 DeepSeek 神化了，看不起国内豆包和其它 LLM？</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">概念科普</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-24 02:57</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">我认为 DeepSeek 、MiniMax 、Kimi 、GLM 这些 LLM 公司被严重高估了： 月活（ MAU ） ： 豆包 4.2 亿，千问 1.7 亿，DeepSeek 1.2 亿，智谱 2000 万，Kimi 1000 万；商业化（ ARR ） ： 豆包 272 亿，智谱 68 亿、阿里 80 亿、DeepSeek 27-34 亿、Kimi 20 亿；</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力" data-news-url="https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-23 19:39" data-news-summary="讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力">
+        <a class="story-title" href="https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">教程方法</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-23 19:39</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="田渊栋新公司首个模型亮相！AI全程参与、不到4个月从零造" data-news-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651069516&amp;idx=2&amp;sn=c8828ee6931d4fb8aa6a093d9c964b0f" data-news-source="机器之心" data-news-time="10-22 18:56" data-news-summary="用AI研究系统开发AI模型。">
+        <a class="story-title" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651069516&amp;idx=2&amp;sn=c8828ee6931d4fb8aa6a093d9c964b0f" target="_blank" rel="noopener noreferrer">田渊栋新公司首个模型亮相！AI全程参与、不到4个月从零造</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">概念科普</span>
+          <span class="source">机器之心</span>
+          <span class="published">10-22 18:56</span>
+          <span class="confidence professional">AI 专业来源</span>
+        </div>
+        <p class="story-summary">用AI研究系统开发AI模型。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="NeurIPS 2026 | 从Token到Span：重新思考大语言模型的不确定性估计" data-news-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651069516&amp;idx=3&amp;sn=ab8a98a972f88d5f4a2fdf785abb6197" data-news-source="机器之心" data-news-time="10-22 18:56" data-news-summary="SpanUQ 将大模型的不确定性估计从 Token 推进到语义片段级别，精准定位回答中不可靠的内容，并实现比传统多次采样方法快 10～20 倍的推理速度。">
+        <a class="story-title" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651069516&amp;idx=3&amp;sn=ab8a98a972f88d5f4a2fdf785abb6197" target="_blank" rel="noopener noreferrer">NeurIPS 2026 | 从Token到Span：重新思考大语言模型的不确定性估计</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">教程方法</span>
+          <span class="source">机器之心</span>
+          <span class="published">10-22 18:56</span>
+          <span class="confidence professional">AI 专业来源</span>
+        </div>
+        <p class="story-summary">SpanUQ 将大模型的不确定性估计从 Token 推进到语义片段级别，精准定位回答中不可靠的内容，并实现比传统多次采样方法快 10～20 倍的推理速度。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="deepseek-web-retrieval：可靠的 DeepSeek Search&amp;Fetch API 的 Coding Agent 集成" data-news-url="https://www.v2ex.com/t/1251562#reply0" data-news-source="V2EX·创造" data-news-time="10-24 22:02" data-news-summary="号称 AI 原生的通用搜索引擎 DeepSeek Search&amp;Fetch API 发布也有一周了，相信喜欢尝鲜的朋友已经为自己常用的 Coding Agent 自行 Vibe 了实现。我也借此机会斗胆宣传一下自己对它的工程集成： https://github.com/gwokhou/deepseek-web-retrieval 希望在 DeepSeek 官方 API 支持的能力范围内， 为你提供开箱即用、更安全可靠、原生适配的工程实现。">
+        <a class="story-title" href="https://www.v2ex.com/t/1251562#reply0" target="_blank" rel="noopener noreferrer">deepseek-web-retrieval：可靠的 DeepSeek Search&amp;Fetch API 的 Coding Agent 集成</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-24 22:02</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">号称 AI 原生的通用搜索引擎 DeepSeek Search&amp;Fetch API 发布也有一周了，相信喜欢尝鲜的朋友已经为自己常用的 Coding Agent 自行 Vibe 了实现。我也借此机会斗胆宣传一下自己对它的工程集成： https://github.com/gwokhou/deepseek-web-retrieval 希望在 DeepSeek 官方 API 支持的能力范围内， 为你提供开箱即用、更安全可靠、原生适配的工程实现。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="“让Token不空转”，讯飞如何把Agent推进企业核心流程" data-news-url="https://www.infoq.cn/article/Lo9TLlRdvy4II38yaex0?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-24 01:40" data-news-summary="“让Token不空转”，讯飞如何把Agent推进企业核心流程">
+        <a class="story-title" href="https://www.infoq.cn/article/Lo9TLlRdvy4II38yaex0?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">“让Token不空转”，讯飞如何把Agent推进企业核心流程</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">教程方法</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-24 01:40</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">“让Token不空转”，讯飞如何把Agent推进企业核心流程</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="告别 AI Demo 页面：构建支持淘内货品运营、可C端投放的会场 Agent Harness" data-news-url="http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&amp;mid=2650546485&amp;idx=1&amp;sn=b679cea45f2b32788e0c3eb2d3568cac&amp;chksm=82324d0a4f0649e3d8c2d2d0fda60fab550d5fdb4fb68b9dfdeb063fee3b0da023e5b45bc9d1&amp;scene=0#rd" data-news-source="前端技术精选" data-news-time="10-19 08:00" data-news-summary="告别 AI Demo 页面：构建支持淘内货品运营、可C端投放的会场 Agent Harness">
+        <a class="story-title" href="http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&amp;mid=2650546485&amp;idx=1&amp;sn=b679cea45f2b32788e0c3eb2d3568cac&amp;chksm=82324d0a4f0649e3d8c2d2d0fda60fab550d5fdb4fb68b9dfdeb063fee3b0da023e5b45bc9d1&amp;scene=0#rd" target="_blank" rel="noopener noreferrer">告别 AI Demo 页面：构建支持淘内货品运营、可C端投放的会场 Agent Harness</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">教程方法</span>
+          <span class="source">前端技术精选</span>
+          <span class="published">10-19 08:00</span>
+          <span class="confidence professional">前端专业精选</span>
+        </div>
+        <p class="story-summary">告别 AI Demo 页面：构建支持淘内货品运营、可C端投放的会场 Agent Harness</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="为让数据中心有充足电力 Google 将付钱给其他人少用电" data-news-url="https://www.solidot.org/story?sid=85701" data-news-source="Solidot" data-news-time="10-24 21:50" data-news-summary="Google 正资助美国规模最大的虚拟电厂项目。该项目通过向家庭和企业提供经济激励，鼓励他们在电力需求高峰期间减少用电量，从而为数据中心提供更多的电网容量。">
+        <a class="story-title" href="https://www.solidot.org/story?sid=85701" target="_blank" rel="noopener noreferrer">为让数据中心有充足电力 Google 将付钱给其他人少用电</a>
+        <div class="story-meta">
+          <span class="topic">云服务器</span>
+          <span class="lens">社区观察</span>
+          <span class="source">Solidot</span>
+          <span class="published">10-24 21:50</span>
+          <span class="confidence professional">科技社区来源</span>
+        </div>
+        <p class="story-summary">Google 正资助美国规模最大的虚拟电厂项目。该项目通过向家庭和企业提供经济激励，鼓励他们在电力需求高峰期间减少用电量，从而为数据中心提供更多的电网容量。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="开发者成功为小米 8 手机刷入苹果 iOS 16.5 系统，将机型伪装为 iPhone X" data-news-url="https://www.ithome.com/1/017/429.htm" data-news-source="IT之家" data-news-time="10-24 17:16" data-news-summary="IT之家 10 月 24 日消息，随着 AI 技术突飞猛进，许多开发者在大模型辅助加持之下对各种老旧机型进行折腾，先前便有 开发者为小米 Redmi Note 12 4G 手机刷入 iOS 系统，并开源了项目 。IT之家注意到，目前又有开发者 Yanei 发布视频，展示其成功为一部小米 8 手机刷入 iOS 16.5 系统，参考其发布的视频，可以看到该开发者将设备机型伪装为 iPhone X，系统元素在小米 8 手机上呈现良好。">
+        <a class="story-title" href="https://www.ithome.com/1/017/429.htm" target="_blank" rel="noopener noreferrer">开发者成功为小米 8 手机刷入苹果 iOS 16.5 系统，将机型伪装为 iPhone X</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">专家观点</span>
+          <span class="source">IT之家</span>
+          <span class="published">10-24 17:16</span>
+          <span class="confidence professional">科技资讯来源</span>
+        </div>
+        <p class="story-summary">IT之家 10 月 24 日消息，随着 AI 技术突飞猛进，许多开发者在大模型辅助加持之下对各种老旧机型进行折腾，先前便有 开发者为小米 Redmi Note 12 4G 手机刷入 iOS 系统，并开源了项目 。IT之家注意到，目前又有开发者 Yanei 发布视频，展示其成功为一部小米 8 手机刷入 iOS 16.5 系统，参考其发布的视频，可以看到该开发者将设备机型伪装为 iPhone X，系统元素在小米 8 手机上呈现良好。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>分开看结论、证据和预测，再和自己的实际使用对照。</span></p>
+      </article>
+      <article class="story" data-news-title="分享 Vibe Coding 作品： AI Vault，多 Agent 技能管理工具+llama.cpp 本地部署工具" data-news-url="https://www.v2ex.com/t/1251583#reply0" data-news-source="V2EX·技术" data-news-time="10-25 00:51" data-news-summary="技能、提示词、MCP 、模型与密钥，统一管理，一键分发到 49+ Agent 。数据始终留在本机。">
+        <a class="story-title" href="https://www.v2ex.com/t/1251583#reply0" target="_blank" rel="noopener noreferrer">分享 Vibe Coding 作品： AI Vault，多 Agent 技能管理工具+llama.cpp 本地部署工具</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-25 00:51</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">技能、提示词、MCP 、模型与密钥，统一管理，一键分发到 49+ Agent 。数据始终留在本机。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="刚刚，你每天在用的Skills发生了一件大事" data-news-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651069672&amp;idx=2&amp;sn=068a7cc38c194f505ebebf54e913d5fc" data-news-source="机器之心" data-news-time="10-23 19:06" data-news-summary="竞争正在向模型之下的基础设施延伸。">
+        <a class="story-title" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651069672&amp;idx=2&amp;sn=068a7cc38c194f505ebebf54e913d5fc" target="_blank" rel="noopener noreferrer">刚刚，你每天在用的Skills发生了一件大事</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">专业报道</span>
+          <span class="source">机器之心</span>
+          <span class="published">10-23 19:06</span>
+          <span class="confidence professional">AI 专业来源</span>
+        </div>
+        <p class="story-summary">竞争正在向模型之下的基础设施延伸。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="Radian: 开源 Rust 内置编排轻量化 Agent" data-news-url="https://www.v2ex.com/t/1251470#reply1" data-news-source="V2EX·创造" data-news-time="10-24 14:09" data-news-summary="我上个月是用 AI 手搓了 AnyLUT 照片编辑 App. 总结出当时土办法的编排方法，和一些痛点。于是这个月我手搓了一个自带编排的 Agent Harness：radian. 这个项目开源。">
+        <a class="story-title" href="https://www.v2ex.com/t/1251470#reply1" target="_blank" rel="noopener noreferrer">Radian: 开源 Rust 内置编排轻量化 Agent</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-24 14:09</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">我上个月是用 AI 手搓了 AnyLUT 照片编辑 App. 总结出当时土办法的编排方法，和一些痛点。于是这个月我手搓了一个自带编排的 Agent Harness：radian. 这个项目开源。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="纯 go 实现的生图应用，本地部署模型" data-news-url="https://www.v2ex.com/t/1251491#reply5" data-news-source="V2EX·技术" data-news-time="10-24 16:09" data-news-summary="最近用 mygo 做了一个桌面客户端，可以在自己的电脑上跑 AI 生图模型，发出来给大家看看 是什么 一个使用 go + mygo + stable-diffusion.cpp 实现的生图客户端，无 cgo ，不是 webview ，不是 Electron ，界面原生绘制 支持设备： macOS：Apple 芯片 Windows：x64 ，显卡需支持 Vulkan （ N 卡、A 卡、I 卡都走 Vulkan ） 目前能跑的模型 Z-Image Turbo / Z-Imag…">
+        <a class="story-title" href="https://www.v2ex.com/t/1251491#reply5" target="_blank" rel="noopener noreferrer">纯 go 实现的生图应用，本地部署模型</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">教程方法</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-24 16:09</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">最近用 mygo 做了一个桌面客户端，可以在自己的电脑上跑 AI 生图模型，发出来给大家看看 是什么 一个使用 go + mygo + stable-diffusion.cpp 实现的生图客户端，无 cgo ，不是 webview ，不是 Electron ，界面原生绘制 支持设备： macOS：Apple 芯片 Windows：x64 ，显卡需支持 Vulkan （ N 卡、A 卡、I 卡都走 Vulkan ） 目前能跑的模型 Z-Image Turbo / Z-Imag…</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！" data-news-url="http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&amp;mid=2247525175&amp;idx=1&amp;sn=63b96bd12318668735c201f956bcf91f&amp;chksm=e97fa56f33cba4ad777aef0890bef8857bf8efe4b2510a4f5bce1054436f230def1e4eb8513e&amp;scene=0#rd" data-news-source="前端技术精选" data-news-time="10-20 08:00" data-news-summary="微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！">
+        <a class="story-title" href="http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&amp;mid=2247525175&amp;idx=1&amp;sn=63b96bd12318668735c201f956bcf91f&amp;chksm=e97fa56f33cba4ad777aef0890bef8857bf8efe4b2510a4f5bce1054436f230def1e4eb8513e&amp;scene=0#rd" target="_blank" rel="noopener noreferrer">微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">技术实践</span>
+          <span class="source">前端技术精选</span>
+          <span class="published">10-20 08:00</span>
+          <span class="confidence professional">前端专业精选</span>
+        </div>
+        <p class="story-summary">微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article></section><p class="archive-link"><a href="../archive/">查看往期简报</a></p></section><section id="v2ex" class="method-section"><div class="section-heading"><h2>V2EX 方法发现</h2><span>6 条 · 用户讨论与作品</span></div><section class="feed">
+      <article class="story" data-news-title="搞了个 DSH 的 Figma 插件，告别重复的画图工作" data-news-url="https://www.v2ex.com/t/1251532#reply3" data-news-source="V2EX·创造" data-news-time="10-24 19:13" data-news-summary="最近做了个 DSH to Figma 插件，让 DSH 能直接操作 Figma 画布。目前可以： 读取设计稿的图层、布局、样式、组件和变量 根据文字需求创建界面，或配合视觉模型把参考截图还原成可编辑图层 修改文案、颜色、间距、尺寸和自动布局，批量调整已有设计 创建和调整组件、变体、样式与设计变量 导入图片和 SVG ，截图检查结果，导出 PNG 、JPG 、SVG 、PDF 等素材 把设计结构、CSS 和素材交给 DSH ，结合当前项目生成或修改前端代码 插件负责把画布操作…">
+        <a class="story-title" href="https://www.v2ex.com/t/1251532#reply3" target="_blank" rel="noopener noreferrer">搞了个 DSH 的 Figma 插件，告别重复的画图工作</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-24 19:13</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">最近做了个 DSH to Figma 插件，让 DSH 能直接操作 Figma 画布。目前可以： 读取设计稿的图层、布局、样式、组件和变量 根据文字需求创建界面，或配合视觉模型把参考截图还原成可编辑图层 修改文案、颜色、间距、尺寸和自动布局，批量调整已有设计 创建和调整组件、变体、样式与设计变量 导入图片和 SVG ，截图检查结果，导出 PNG 、JPG 、SVG 、PDF 等素材 把设计结构、CSS 和素材交给 DSH ，结合当前项目生成或修改前端代码 插件负责把画布操作…</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="为什么很多人都把 DeepSeek 神化了，看不起国内豆包和其它 LLM？" data-news-url="https://www.v2ex.com/t/1251402#reply85" data-news-source="V2EX·技术" data-news-time="10-24 02:57" data-news-summary="我认为 DeepSeek 、MiniMax 、Kimi 、GLM 这些 LLM 公司被严重高估了： 月活（ MAU ） ： 豆包 4.2 亿，千问 1.7 亿，DeepSeek 1.2 亿，智谱 2000 万，Kimi 1000 万；商业化（ ARR ） ： 豆包 272 亿，智谱 68 亿、阿里 80 亿、DeepSeek 27-34 亿、Kimi 20 亿；">
+        <a class="story-title" href="https://www.v2ex.com/t/1251402#reply85" target="_blank" rel="noopener noreferrer">为什么很多人都把 DeepSeek 神化了，看不起国内豆包和其它 LLM？</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">概念科普</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-24 02:57</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">我认为 DeepSeek 、MiniMax 、Kimi 、GLM 这些 LLM 公司被严重高估了： 月活（ MAU ） ： 豆包 4.2 亿，千问 1.7 亿，DeepSeek 1.2 亿，智谱 2000 万，Kimi 1000 万；商业化（ ARR ） ： 豆包 272 亿，智谱 68 亿、阿里 80 亿、DeepSeek 27-34 亿、Kimi 20 亿；</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="deepseek-web-retrieval：可靠的 DeepSeek Search&amp;Fetch API 的 Coding Agent 集成" data-news-url="https://www.v2ex.com/t/1251562#reply0" data-news-source="V2EX·创造" data-news-time="10-24 22:02" data-news-summary="号称 AI 原生的通用搜索引擎 DeepSeek Search&amp;Fetch API 发布也有一周了，相信喜欢尝鲜的朋友已经为自己常用的 Coding Agent 自行 Vibe 了实现。我也借此机会斗胆宣传一下自己对它的工程集成： https://github.com/gwokhou/deepseek-web-retrieval 希望在 DeepSeek 官方 API 支持的能力范围内， 为你提供开箱即用、更安全可靠、原生适配的工程实现。">
+        <a class="story-title" href="https://www.v2ex.com/t/1251562#reply0" target="_blank" rel="noopener noreferrer">deepseek-web-retrieval：可靠的 DeepSeek Search&amp;Fetch API 的 Coding Agent 集成</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-24 22:02</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">号称 AI 原生的通用搜索引擎 DeepSeek Search&amp;Fetch API 发布也有一周了，相信喜欢尝鲜的朋友已经为自己常用的 Coding Agent 自行 Vibe 了实现。我也借此机会斗胆宣传一下自己对它的工程集成： https://github.com/gwokhou/deepseek-web-retrieval 希望在 DeepSeek 官方 API 支持的能力范围内， 为你提供开箱即用、更安全可靠、原生适配的工程实现。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="分享 Vibe Coding 作品： AI Vault，多 Agent 技能管理工具+llama.cpp 本地部署工具" data-news-url="https://www.v2ex.com/t/1251583#reply0" data-news-source="V2EX·技术" data-news-time="10-25 00:51" data-news-summary="技能、提示词、MCP 、模型与密钥，统一管理，一键分发到 49+ Agent 。数据始终留在本机。">
+        <a class="story-title" href="https://www.v2ex.com/t/1251583#reply0" target="_blank" rel="noopener noreferrer">分享 Vibe Coding 作品： AI Vault，多 Agent 技能管理工具+llama.cpp 本地部署工具</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-25 00:51</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">技能、提示词、MCP 、模型与密钥，统一管理，一键分发到 49+ Agent 。数据始终留在本机。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Radian: 开源 Rust 内置编排轻量化 Agent" data-news-url="https://www.v2ex.com/t/1251470#reply1" data-news-source="V2EX·创造" data-news-time="10-24 14:09" data-news-summary="我上个月是用 AI 手搓了 AnyLUT 照片编辑 App. 总结出当时土办法的编排方法，和一些痛点。于是这个月我手搓了一个自带编排的 Agent Harness：radian. 这个项目开源。">
+        <a class="story-title" href="https://www.v2ex.com/t/1251470#reply1" target="_blank" rel="noopener noreferrer">Radian: 开源 Rust 内置编排轻量化 Agent</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-24 14:09</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">我上个月是用 AI 手搓了 AnyLUT 照片编辑 App. 总结出当时土办法的编排方法，和一些痛点。于是这个月我手搓了一个自带编排的 Agent Harness：radian. 这个项目开源。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="纯 go 实现的生图应用，本地部署模型" data-news-url="https://www.v2ex.com/t/1251491#reply5" data-news-source="V2EX·技术" data-news-time="10-24 16:09" data-news-summary="最近用 mygo 做了一个桌面客户端，可以在自己的电脑上跑 AI 生图模型，发出来给大家看看 是什么 一个使用 go + mygo + stable-diffusion.cpp 实现的生图客户端，无 cgo ，不是 webview ，不是 Electron ，界面原生绘制 支持设备： macOS：Apple 芯片 Windows：x64 ，显卡需支持 Vulkan （ N 卡、A 卡、I 卡都走 Vulkan ） 目前能跑的模型 Z-Image Turbo / Z-Imag…">
+        <a class="story-title" href="https://www.v2ex.com/t/1251491#reply5" target="_blank" rel="noopener noreferrer">纯 go 实现的生图应用，本地部署模型</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">教程方法</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-24 16:09</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">最近用 mygo 做了一个桌面客户端，可以在自己的电脑上跑 AI 生图模型，发出来给大家看看 是什么 一个使用 go + mygo + stable-diffusion.cpp 实现的生图客户端，无 cgo ，不是 webview ，不是 Electron ，界面原生绘制 支持设备： macOS：Apple 芯片 Windows：x64 ，显卡需支持 Vulkan （ N 卡、A 卡、I 卡都走 Vulkan ） 目前能跑的模型 Z-Image Turbo / Z-Imag…</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article></section></section><section id="prompt" class="method-section"><div class="section-heading"><h2>Prompt 推荐</h2><span>1 条 · 可复用提示方法</span></div><section class="feed">
+      <article class="story" data-news-title="上下文语言模型：通过自主管理上下文提升性能、降低计算成本" data-news-url="https://www.infoq.cn/article/Pwu4FNskSB2cbKV9BZKq?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-23 17:05" data-news-summary="上下文语言模型：通过自主管理上下文提升性能、降低计算成本">
+        <a class="story-title" href="https://www.infoq.cn/article/Pwu4FNskSB2cbKV9BZKq?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">上下文语言模型：通过自主管理上下文提升性能、降低计算成本</a>
+        <div class="story-meta">
+          <span class="topic">提示词</span>
+          <span class="lens">实测评价</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-23 17:05</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">上下文语言模型：通过自主管理上下文提升性能、降低计算成本</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>保存可复用的提示结构，用同一输入做一次前后对比。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。</span></p>
+      </article></section></section><section id="skill" class="method-section"><div class="section-heading"><h2>Skill 推荐</h2><span>2 条 · 工具与插件能力</span></div><section class="feed">
+      <article class="story" data-news-title="搞了个 DSH 的 Figma 插件，告别重复的画图工作" data-news-url="https://www.v2ex.com/t/1251532#reply3" data-news-source="V2EX·创造" data-news-time="10-24 19:13" data-news-summary="最近做了个 DSH to Figma 插件，让 DSH 能直接操作 Figma 画布。目前可以： 读取设计稿的图层、布局、样式、组件和变量 根据文字需求创建界面，或配合视觉模型把参考截图还原成可编辑图层 修改文案、颜色、间距、尺寸和自动布局，批量调整已有设计 创建和调整组件、变体、样式与设计变量 导入图片和 SVG ，截图检查结果，导出 PNG 、JPG 、SVG 、PDF 等素材 把设计结构、CSS 和素材交给 DSH ，结合当前项目生成或修改前端代码 插件负责把画布操作…">
+        <a class="story-title" href="https://www.v2ex.com/t/1251532#reply3" target="_blank" rel="noopener noreferrer">搞了个 DSH 的 Figma 插件，告别重复的画图工作</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-24 19:13</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">最近做了个 DSH to Figma 插件，让 DSH 能直接操作 Figma 画布。目前可以： 读取设计稿的图层、布局、样式、组件和变量 根据文字需求创建界面，或配合视觉模型把参考截图还原成可编辑图层 修改文案、颜色、间距、尺寸和自动布局，批量调整已有设计 创建和调整组件、变体、样式与设计变量 导入图片和 SVG ，截图检查结果，导出 PNG 、JPG 、SVG 、PDF 等素材 把设计结构、CSS 和素材交给 DSH ，结合当前项目生成或修改前端代码 插件负责把画布操作…</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="刚刚，你每天在用的Skills发生了一件大事" data-news-url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651069672&amp;idx=2&amp;sn=068a7cc38c194f505ebebf54e913d5fc" data-news-source="机器之心" data-news-time="10-23 19:06" data-news-summary="竞争正在向模型之下的基础设施延伸。">
+        <a class="story-title" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651069672&amp;idx=2&amp;sn=068a7cc38c194f505ebebf54e913d5fc" target="_blank" rel="noopener noreferrer">刚刚，你每天在用的Skills发生了一件大事</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">专业报道</span>
+          <span class="source">机器之心</span>
+          <span class="published">10-23 19:06</span>
+          <span class="confidence professional">AI 专业来源</span>
+        </div>
+        <p class="story-summary">竞争正在向模型之下的基础设施延伸。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article></section></section><section id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>空间智能与地图能力 · 可落地线索</span></div>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://modelcontextprotocol.io/specification/2026-07-28/changelog" target="_blank" rel="noopener noreferrer">MCP 规范更新：Documentation Index</a></h3>
+        <p class="biz-meta">Model Context Protocol 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://modelcontextprotocol.io/specification/2026-07-28/changelog" target="_blank" rel="noopener noreferrer">MCP 规范更新：&lt;button type=&quot;button&quot; class=&quot;text-gray-700 dark:text-gray-300 font-medium flex i</a></h3>
+        <p class="biz-meta">Model Context Protocol 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/" target="_blank" rel="noopener noreferrer">PostGIS：Documentation</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/getting_started/" target="_blank" rel="noopener noreferrer">PostGIS：Getting Started</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/manual/" target="_blank" rel="noopener noreferrer">PostGIS：Official Manual</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/tips/" target="_blank" rel="noopener noreferrer">PostGIS：Tips &amp; Tricks</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article><p class="biz-note">本栏为人工整理的商业线索：只收录官方文档、产品更新、开源项目或可核实的报道，每条标注来源。</p></section></div></main>
+<footer><div class="footer-inner">兴趣发现：个人兴趣热榜筛选<br>专业来源：量子位、机器之心、InfoQ 中文、开源中国、少数派、小众软件、IT之家、Solidot、科学网·数理科学、科学网·科普、前端技术精选、阮一峰的网络日志、V2EX·技术、V2EX·创造<div class="footer-note">不使用 AI 大模型生成摘要。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。商业建设观察为人工整理的商业线索，来源可追溯。</div></div></footer></body></html>
