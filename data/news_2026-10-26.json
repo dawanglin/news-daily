@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26 01:22:07 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 5,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 14,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 14,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 11,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 9,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 10,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+      "link": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
+      "source": "阮一峰的网络日志",
+      "signals": [
+        "阮一峰的网络日志"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "实测评价",
+      "published": "10-16 08:02",
+      "ts": 1792108976,
+      "summary": "这里记录每周值得分享的科技内容，周五发布。...",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开发者一手文章",
+      "confidence_class": "professional",
+      "score": 107,
+      "relevance": 6
+    },
+    {
+      "title": "DatI 新版发布：将数据库发布为语义感知的MCP服务，支持 Schema 级权限管控",
+      "link": "https://www.oschina.net/news/503165",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "工具发布",
+      "published": "10-23 09:35",
+      "ts": 1792719342,
+      "summary": "软件简介 DatI (Data Intelligence) 是连接 AI Agent 与企业数据库的轻量级语义网关。用户仅需接入数据库、配置业务语义、按需启用预置工具与参数化 SQL 工具，即可快速发布基于 Streamable HTTP 的 MCP（Model Context Protocol）服务，灵活接入各类 AI Agent 或任意 MCP Host（如 OpenCode、WorkBuddy 等）。",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 251,
+      "relevance": 35
+    },
+    {
+      "title": "韩 KRAFTON AI 预览 Raon-1 mini 模型：30B-A4B，可与 Meta Muse Glimmer 竞争",
+      "link": "https://www.ithome.com/1/017/695.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "10-25 21:27",
+      "ts": 1792934838,
+      "summary": "IT之家 10 月 25 日消息，韩国知名游戏企业 KRAFTON（魁匠团）旗下人工智能分支 KRAFTON AI 本周公布了其从头训练的 Raon-1 mini 模型的预览版本，该模型的正式版和后续的更大模型即将推出。Raon-1 mini 采用混合专家架构，导入线性注意力，支持推测解码，整体体量为 30B-A4B。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 183.7,
+      "relevance": 23
+    },
+    {
+      "title": "qKnow 专业版 v3.1.5 发布：扩容工作流编排调用能力，上线Text2SQL插件，拓宽数据类智能应用构建边界",
+      "link": "https://www.oschina.net/news/503174",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-23 14:34",
+      "ts": 1792737242,
+      "summary": "版本更新概览 本次更新聚焦工作流编排与数据查询能力，主要包括： 工作流编排能力扩展： 支持调用已有 Agent 和工作流资源，统一编排 MCP、Skills 及各类工具。MCP 元数据查询能力增强： 支持获取数据源、表及字段元数据，为数据查询提供结构化上下文。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 166,
+      "relevance": 18
+    },
+    {
+      "title": "Picloom——以插件编织你的自托管图床",
+      "link": "https://www.v2ex.com/t/1251628#reply2",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-25 13:35",
+      "ts": 1792906504,
+      "summary": "分享一下我最近一直在开发的项目 Picloom —— 以插件编织你的自托管图床 ，一个支持插件扩展和自定义主题的开源自托管图床。这个项目已经持续迭代了挺长一段时间，目前功能和使用体验都逐渐趋于稳定，想趁正式发布前发出来，邀请有自建图床需求的朋友试用，听听大家的意见。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 159.07,
+      "relevance": 19
+    },
+    {
+      "title": "【AI 智能运维平台】本周更新：WorkBuddy技能市场上线「BK-Lite运维助手」，支持对接平台获取数据加入AI分析",
+      "link": "https://www.oschina.net/news/503179",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "工具发布",
+      "published": "10-23 15:59",
+      "ts": 1792742394,
+      "summary": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。【平台 · 本周更新速递】 平台 • WorkBuddy技能市场上线「BK-Lite运维助手」，支持对接平台获取数据加入AI分析 系统管理 • 新增通知渠道查询与消息投递 ...",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 186,
+      "relevance": 22
+    },
+    {
+      "title": "Switch 2 越狱能运行自制程序",
+      "link": "https://www.solidot.org/story?sid=85691",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "概念科普",
+      "published": "10-23 15:11",
+      "ts": 1792739465,
+      "summary": "研究员 Sammy Hajhamid 利用软件漏洞在 Switch 2 上实现越狱，而且能运行自制程序。越狱利用了一个专门运行在任天堂硬件上的编程环境和解释器 SmileBasic 4。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 126,
+      "relevance": 12
+    },
+    {
+      "title": "浏览器 Arc 将于 12 月关闭",
+      "link": "https://www.solidot.org/story?sid=85692",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-23 15:25",
+      "ts": 1792740316,
+      "summary": "The Browser Company 宣布其浏览器 Arc 将于 12 月 22 日关闭，用户将无法再能启动应用。Arc 基于 Chromium，于 2023 年释出了 1.0 版本，但 2024 年就停止了开发，2025 年 5 月宣布它正在开发 AI 驱动的浏览器 Dia。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 126,
+      "relevance": 12
+    },
+    {
+      "title": "一枚声子的量子旅程:量子声学如何让机械振动产生纠缠",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=1375795&do=blog&id=1557940",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "教程方法",
+      "published": "10-23 11:14",
+      "ts": 1792725256,
+      "summary": "一枚声子的量子旅程:量子声学如何让机械振动产生纠缠",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 163,
+      "relevance": 18
+    },
+    {
+      "title": "GO4CD：基于GO聚类学习集群级因果基因调控网络",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1558154",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "概念科普",
+      "published": "10-25 13:06",
+      "ts": 1792904767,
+      "summary": "GO4CD：基于GO聚类学习集群级因果基因调控网络",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 181.91,
+      "relevance": 21
+    },
+    {
+      "title": "ToolForge v0.2.1 正式发布：新增 20+ 款在线插件，插件下载统计上线，Rust + Tauri 开源工具箱持续进化！",
+      "link": "https://www.oschina.net/news/503170",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-23 11:17",
+      "ts": 1792725444,
+      "summary": "最近一直在持续完善自己的开源桌面工具箱 ToolForge，今天正式发布 v0.2.1！ToolForge 是一款基于 Rust + Tauri 2 构建的开源桌面工具箱，面向开发者和效率工作者，通过插件化架构整合开发调试、数据处理、文件管理、系统工具以及日常效率工具。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 201,
+      "relevance": 25
+    },
+    {
+      "title": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
+      "link": "https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "10-23 19:39",
+      "ts": 1792755567,
+      "summary": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 183,
+      "relevance": 21
+    },
+    {
+      "title": "四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
+      "link": "https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-25 18:30",
+      "ts": 1792924200,
+      "summary": "四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 173.71,
+      "relevance": 18
+    },
+    {
+      "title": "Java 近期新闻：Grails 8、Open Liberty、GlassFish、Infinispan、LangChain4j、Spock",
+      "link": "https://www.infoq.cn/article/BHWP4JJDeExZZWsifFlg?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "10-25 17:06",
+      "ts": 1792919160,
+      "summary": "Java 近期新闻：Grails 8、Open Liberty、GlassFish、Infinispan、LangChain4j、Spock",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 158.25,
+      "relevance": 15
+    },
+    {
+      "title": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
+      "link": "https://www.infoq.cn/article/UmD4aAerZEts8sZ5t791?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "10-24 01:54",
+      "ts": 1792778059,
+      "summary": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "告别 AI Demo 页面：构建支持淘内货品运营、可C端投放的会场 Agent Harness",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650546485&idx=1&sn=b679cea45f2b32788e0c3eb2d3568cac&chksm=82324d0a4f0649e3d8c2d2d0fda60fab550d5fdb4fb68b9dfdeb063fee3b0da023e5b45bc9d1&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-19 08:00",
+      "ts": 1792368000,
+      "summary": "告别 AI Demo 页面：构建支持淘内货品运营、可C端投放的会场 Agent Harness",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 150,
+      "relevance": 15
+    },
+    {
+      "title": "宇宙空间和空间中的物质运动",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=39013&do=blog&id=1557934",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "概念科普",
+      "published": "10-23 10:13",
+      "ts": 1792721591,
+      "summary": "宇宙空间和空间中的物质运动",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 148,
+      "relevance": 15
+    },
+    {
+      "title": "刚刚，你每天在用的Skills发生了一件大事",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651069672&idx=2&sn=068a7cc38c194f505ebebf54e913d5fc",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "专业报道",
+      "published": "10-23 19:06",
+      "ts": 1792753560,
+      "summary": "竞争正在向模型之下的基础设施延伸。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 144,
+      "relevance": 13
+    },
+    {
+      "title": "为让数据中心有充足电力 Google 将付钱给其他人少用电",
+      "link": "https://www.solidot.org/story?sid=85701",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "社区观察",
+      "published": "10-24 21:50",
+      "ts": 1792849821,
+      "summary": "Google 正资助美国规模最大的虚拟电厂项目。该项目通过向家庭和企业提供经济激励，鼓励他们在电力需求高峰期间减少用电量，从而为数据中心提供更多的电网容量。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 141,
+      "relevance": 15
+    },
+    {
+      "title": "行业首个Pro Agent问世！「AI祖师爷」Kevin Knight空降中国谈AI跃迁",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651069672&idx=1&sn=cda1b3d3e5fb5179e1e999897a41ca67",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "10-23 19:06",
+      "ts": 1792753560,
+      "summary": "当AI开始「主动干活」，谁对工作结果负责？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 139,
+      "relevance": 12
+    },
+    {
+      "title": "分享 Vibe Coding 作品： AI Vault，多 Agent 技能管理工具+llama.cpp 本地部署工具",
+      "link": "https://www.v2ex.com/t/1251583#reply0",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-25 00:51",
+      "ts": 1792860677,
+      "summary": "技能、提示词、MCP 、模型与密钥，统一管理，一键分发到 49+ Agent 。数据始终留在本机。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 138,
+      "relevance": 16
+    },
+    {
+      "title": "微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&mid=2247525175&idx=1&sn=63b96bd12318668735c201f956bcf91f&chksm=e97fa56f33cba4ad777aef0890bef8857bf8efe4b2510a4f5bce1054436f230def1e4eb8513e&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "技术实践",
+      "published": "10-20 08:00",
+      "ts": 1792454400,
+      "summary": "微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 135,
+      "relevance": 12
+    },
+    {
+      "title": "Claude 桌面应用推出新版界面，从草图到上线用时不到 3 周",
+      "link": "https://www.ithome.com/1/017/710.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-25 22:33",
+      "ts": 1792938792,
+      "summary": "IT之家 10 月 25 日消息，Anthropic 设计工程师蔡斯 · 麦科伊（ Chase McCoy ）昨日宣布，Claude 桌面应用已推出全新界面。IT之家注意到，新版界面由 Claude 帮助设计，从草图到正式上线，整个过程不到 3 周。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 134.06,
+      "relevance": 13
+    },
+    {
+      "title": "codex 的 vscode 插件又寄了啊",
+      "link": "https://www.v2ex.com/t/1251449#reply8",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-24 12:09",
+      "ts": 1792814972,
+      "summary": "Codex could not start The extension could not start its user interface. Codex could not start its user interface. Installation Identifier: openai.chatgpt Version: 26.1021.22027 Last Updated: 3 hours ago Size: 1.06GB Marketplace Published:…",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 133,
+      "relevance": 15
+    },
+    {
+      "title": "源数据库与派生数据库的联系与区别",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1557979",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-23 13:10",
+      "ts": 1792732210,
+      "summary": "源数据库与派生数据库的联系与区别",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 133,
+      "relevance": 12
+    },
+    {
+      "title": "搓了一个“V2EX 评论上下文”的 chrome 插件，方便 V 友阅读评论",
+      "link": "https://www.v2ex.com/t/1251601#reply20",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-25 09:59",
+      "ts": 1792893543,
+      "summary": "作用是，根据评论中的 #17 ，或者 @ xxx ，或者“十七楼”，这样的信息，找到最近的一条回复，自动在当前这条评论上方展示。刚刚已上架到 chrome 应用商店，搜索 “V2EX 评论上下文” 即可。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 132.87,
+      "relevance": 14
+    }
+  ]
+}
