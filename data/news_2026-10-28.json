@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28 03:10:36 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 4,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 13,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 14,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 10,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 11,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "mica-ppocr 1.2.4 发布：OCR 预处理内存砍半，检测提速 2.6 倍",
+      "link": "https://www.oschina.net/news/503238",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "工具发布",
+      "published": "10-27 12:36",
+      "ts": 1793075781,
+      "summary": "> 发布日期： 2026-10-25 · 上一版本：v1.2.3（2026-09-12） 这一版把预处理内存砍掉一半、检测提速 2.6 倍，顺手清掉了两类「写了却不生效」「关了却关不掉」的问题：PDF 双通道的配置终于传到了引擎，mica.ai.ppocr.enabled=false 之后应用也能正常启动；海报类版面也有了声明检测参数的口子。",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 139.15,
+      "relevance": 12
+    },
+    {
+      "title": "OpenAI 和 Anthropic 将大模型价格砍了八成，这门生意到底怎么算的？",
+      "link": "https://www.oschina.net/news/503251/cheap-llms",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "10-27 19:41",
+      "ts": 1793101266,
+      "summary": "从六月 GPT-5.6 系列发布到现在，OpenAI 和 Anthropic 的主流模型价格塌了一大截，最多砍掉 80%。Max Woolf 把这场价格战的时间线全捋了一遍，结论有点反直觉：这不像烧钱抢市场的套路。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 236.51,
+      "relevance": 31
+    },
+    {
+      "title": "赛博领鸡蛋：AgentScope 免费 AI Agent，4G内存，30G硬盘",
+      "link": "https://www.appinn.com/agentscope-free-ai-agnet/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-26 20:42",
+      "ts": 1793018556,
+      "summary": "AgentScope Platform 开放 Beta 公测，目前可以免费领取一个云端 AI Agent 运行空间，直接部署 QwenPaw。实际上就是一个免费 OpenClaw，但顺便带有一台 VPS： 装好之后的样子： 自带 Kilo、openrouter 两款免费模型。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 177,
+      "relevance": 21
+    },
+    {
+      "title": "ToolForge v0.2.2 正式发布：AI Agent 也能调用工具了！支持 MCP、CLI 与插件级权限管理",
+      "link": "https://www.oschina.net/news/503201",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-26 10:08",
+      "ts": 1792980529,
+      "summary": "最近一直在持续完善自己的开源项目 ToolForge，今天正式发布 v0.2.2！ToolForge 是一款基于 Rust + Tauri 2 构建的开源桌面工具箱，面向开发者与效率工作者，通过插件化架构整合开发调试、数据转换、文件处理、系统管理和日常效率工具。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 156,
+      "relevance": 16
+    },
+    {
+      "title": "数据中心搅动世界",
+      "link": "https://www.solidot.org/story?sid=85726",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "社区观察",
+      "published": "10-27 22:58",
+      "ts": 1793113138,
+      "summary": "很多人几年前可能还不知道什么是数据中心，它是现代互联网服务的引擎，也是今天 AI 热的核心。但数据中心数量的快速增长、巨大的电力消耗，以及环境影响，正在全球引发公众的抵制。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 162.6,
+      "relevance": 18
+    },
+    {
+      "title": "Cloudflare 披露 KV cache 暴露事故，全部发生在超长上下文的 prompt 上",
+      "link": "https://www.oschina.net/news/503242/cloudflare-glm-kv-cache-exposure-remediation",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "案例复盘",
+      "published": "10-27 15:51",
+      "ts": 1793087491,
+      "summary": "Cloudflare 昨天公开了一起租户隔离事故：8 月 27 日到 9 月 9 日期间，Workers AI 平台上的 GLM-5.3 模型（@cf/zai-org/glm-5.3）会把其他客户的请求数据混进响应里，总共 155 次，全部发生在超长上下文的 prompt 上。9 月 8 日安全研究员 Gadi Evron（Knostic 公司）通过 HackerOne 报告了这个跨请求 KV cache 暴露问题...",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 220.23,
+      "relevance": 28
+    },
+    {
+      "title": "网页电台：随机一站 「小程序版本」",
+      "link": "https://www.v2ex.com/t/1252310#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-27 17:45",
+      "ts": 1793094335,
+      "summary": "前些天，刷到 ddter 大佬分享的网页版电台： https://www.v2ex.com/t/1249321 感觉很有意思，一时兴起，让 AI“抄袭”了个小程序版本的，大家可以小程序搜：碰巧听见 分享给大家，无广版本，不过感觉这个最佳体验还是放到车机系统里最好，但是很多车机系统都比较封闭。另外看到 ddter 大佬已经开发了安卓和 ios ，有需求可以去关注下载，谢谢大家支持 小程序码：",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 169.86,
+      "relevance": 21
+    },
+    {
+      "title": "研究为“革命性”物理研究打开大门",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/20261027224912583157014.shtm?id=157014",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-22 23:58",
+      "ts": 1792684680,
+      "summary": "物理学家现已将单个正电子——电子的反物质对应物，悬浮在半空中，并将其冷却至可能达到的最低能级。该实验装置将使研究人员能够以前所未有的精度研究正...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 115,
+      "relevance": 7
+    },
+    {
+      "title": "OEA丨硬件感知轻量化光子脉冲神经网络架构",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/202610208522458156684.shtm?id=156684",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "概念科普",
+      "published": "10-20 16:52",
+      "ts": 1792486320,
+      "summary": "Opto-Electronic Advances论文推荐西安电子科技大学研究团队首次实现面向硬件约束的光子脉冲神经网络轻量化部...",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "怎么看待 openai 关于模型中转的最新使用政策",
+      "link": "https://www.v2ex.com/t/1252381#reply1",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-27 23:59",
+      "ts": 1793116753,
+      "summary": "自建 sub2api 会不能用了吗，野生中转站会大面积塌方吗？使用协议原文： https://openai.com/zh-Hans-CN/index/broad-access-through-consistent-standards/ 大致总结：更新使用政策（ 2026 年 11 月 20 日生效） • 模型中转与网关审查：模型路由器和 AI 网关在提供访问权限前，必须获得 OpenAI 的审查与批准；",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 229.94,
+      "relevance": 33
+    },
+    {
+      "title": "Reddit 开源社区争议是否禁止 AI",
+      "link": "https://www.solidot.org/story?sid=85722",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-27 18:09",
+      "ts": 1793095797,
+      "summary": "美国社交新闻平台 Reddit 专注于讨论开源项目的社群 r/opensource 公布了禁止 AI 的政策《Your tokens aren't valuable: No more AI》，理由是 AI 与该社群不兼容，要求递交到该社群的开源项目必须至少存在一年、有多名贡献者，发帖者必须会说英语而不是用 AI 翻译。这一政策引发了激烈的讨论，随后有人创建了新的允许 AI 的开源社群如 r/OpenSourceAIAllowed。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 196.0,
+      "relevance": 25
+    },
+    {
+      "title": "Anthropic 确认其内部系统遭访问：客户对话、模型权重未受影响",
+      "link": "https://www.ithome.com/1/018/683.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "案例复盘",
+      "published": "10-27 22:25",
+      "ts": 1793111146,
+      "summary": "IT之家 10 月 27 日消息，据《华盛顿邮报》当地时间 10 月 26 日报道，网络安全初创公司 Cathedral 称，其研究人员利用 AI 智能体在不到 12 小时内通过第三方商业软件的漏洞，找到进入 Anthropic 内部系统的路径。Anthropic 随后确认，部分销售、人力资源和 IT 系统遭到访问，但客户与 Claude 的对话、模型回复、源代码及模型权重均未受到影响。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 183.42,
+      "relevance": 23
+    },
+    {
+      "title": "国产AI 3D大模型Hi3D来了！开源可商用，PK干掉GPT-6",
+      "link": "https://www.qbitai.com/2026/10/505694.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-27 16:18",
+      "ts": 1793089139,
+      "summary": "还是专业的模型做专业的事情",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 172.38,
+      "relevance": 18
+    },
+    {
+      "title": "四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
+      "link": "https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-25 18:30",
+      "ts": 1792924200,
+      "summary": "四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 168,
+      "relevance": 18
+    },
+    {
+      "title": "Tailscale SSH 被曝安全漏洞：一台设备失守，可获得其他服务器 root 权限｜另外还有11项漏洞",
+      "link": "https://www.appinn.com/tailscale-ssh-security-vulnerabilities-tailworm/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "案例复盘",
+      "published": "10-26 10:42",
+      "ts": 1792982524,
+      "summary": "Tailscale SSH 漏洞 如果你在使用 Tailscale 管理家里的 NAS、公司的服务器、个人电脑、手机，那么先把 Tailscale SSH 关了，目前漏洞还未修复。（2026年10月26日） 安全研究员 Erica Windisch 近日公布了一份名为 Tailworm 的安全报告，",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 162,
+      "relevance": 18
+    },
+    {
+      "title": "Systemd 支持 Rust 程序",
+      "link": "https://www.solidot.org/story?sid=85710",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "工具发布",
+      "published": "10-26 16:02",
+      "ts": 1793001743,
+      "summary": "Systemd 支持用 Rust 语言开发程序。核心 systemd 代码如 systemd 库目前尚不支持 Rust 代码，但对于systemd 程序/末端组件已支持使用 Rust 语言。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 156,
+      "relevance": 18
+    },
+    {
+      "title": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
+      "link": "https://www.infoq.cn/article/O7lcxqKD2avRPbNoMmtg?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-26 23:05",
+      "ts": 1793027127,
+      "summary": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "模型好选，搜索难做：一个投研Agent的两年开发历程",
+      "link": "https://www.infoq.cn/article/NrUkJExfuuFOICsjVYbb?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "10-26 22:57",
+      "ts": 1793026655,
+      "summary": "模型好选，搜索难做：一个投研Agent的两年开发历程",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "智能体在图书馆工作中的应用与治理",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1558456",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "概念科普",
+      "published": "10-27 13:39",
+      "ts": 1793079553,
+      "summary": "智能体在图书馆工作中的应用与治理",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 151.49,
+      "relevance": 15
+    },
+    {
+      "title": "Mac mini M6 钙版，国补后价格：¥4902｜最佳 AI Agent 运行硬件",
+      "link": "https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "实测评价",
+      "published": "10-27 14:58",
+      "ts": 1793084293,
+      "summary": "作为最佳 AI Agent 运行硬件，上一波 Mac mini M4 只需不到 3000 元的价格，就能拥有。但经历了苹果产品全线涨价，平均涨幅约 21%，以及新产品更新换代之后，Mac mini M6 的官网钙版价格已经来到了 6999 元。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 150.93,
+      "relevance": 15
+    },
+    {
+      "title": "有没有同是日常主要使用 Linux 系统并依赖企业微信办公的, 一起去催促下原生 Linux 版本企微",
+      "link": "https://www.v2ex.com/t/1252139#reply28",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-27 10:14",
+      "ts": 1793067291,
+      "summary": "现在 Linux 上折腾企业微信，无论是通过 Windows 虚拟机还是用 Deepin-Wine 版本体验都很难受 Windows 虚拟机 浪费大量 CPU 和内存, 虚拟机中就只安装了企微一个软件, Linux 上啥都不干就经常听到风扇狂飙 文件传输在 Linux 和 Windows 上来回倒腾极尽折磨 消息通知完全就是没有, 不主动切到虚拟机的窗口就啥也不知道, Deepin-Wine 字体问题,缩放问题,窗口切换,卡屏黑屏等等等兼容性太差了 截图粘贴,文字复制,文件…",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 140.36,
+      "relevance": 16
+    },
+    {
+      "title": "微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！",
+      "link": "http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&mid=2247525175&idx=1&sn=63b96bd12318668735c201f956bcf91f&chksm=e97fa56f33cba4ad777aef0890bef8857bf8efe4b2510a4f5bce1054436f230def1e4eb8513e&scene=0#rd",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "技术实践",
+      "published": "10-20 08:00",
+      "ts": 1792454400,
+      "summary": "微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 135,
+      "relevance": 12
+    },
+    {
+      "title": "用 www 运行还是用 docker 运行更安全？",
+      "link": "https://www.v2ex.com/t/1252274#reply9",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "案例复盘",
+      "published": "10-27 16:16",
+      "ts": 1793088986,
+      "summary": "在 linux 服务器上，有两个进程，都是相同的应用程序，第一个是使用普通用户 www 在宿主机运行的，在/etc/passwd 看到 www 是/sbin/nologin 的，第二个是用 docker 容器运行的，守护进程 dockerd 是用 root 运行的，容器也是用 root 运行的，那么这两个进程哪个更安全？问了一圈 AI ，只有 Kimi 说第二种方式更安全，大多数都说第一种方式更安全",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 132.37,
+      "relevance": 14
+    },
+    {
+      "title": "【开源自荐】江山时序：浏览器里的中国历史宣纸交互舆图（支持点城溯源 18 朝与百位古人行迹）",
+      "link": "https://meta.appinn.net/t/topic/94075",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-26 19:05",
+      "ts": 1793012709,
+      "summary": "软件名称 江山时序（Chronicles of the Realm） 一句简介 一幅打开浏览器就能拖动 2400 年时间轴、点击古城查 18 朝沿革、跟着百余位古人重走万里路的宣纸设色中国历史交互地图。应用平台 Web（电脑 / 平板 / 手机浏览器即开即用，亦支持克隆仓库本地离线运行） 推荐类型",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 132,
+      "relevance": 12
+    },
+    {
+      "title": "Azure Container Apps Express在新的通用沙箱层上正式发布",
+      "link": "https://www.infoq.cn/article/ChONW7EYk5Vuj0VF7AkZ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "工具发布",
+      "published": "10-28 01:17",
+      "ts": 1793121420,
+      "summary": "Azure Container Apps Express在新的通用沙箱层上正式发布",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 130.37,
+      "relevance": 9
+    },
+    {
+      "title": "KV Cache被压成常数！OCR开源新王：页数没上限，缓存砍96%",
+      "link": "https://www.qbitai.com/2026/10/505773.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "工具发布",
+      "published": "10-27 16:35",
+      "ts": 1793090133,
+      "summary": "OCR 3.0时代，来了",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 127.47,
+      "relevance": 9
+    }
+  ]
+}

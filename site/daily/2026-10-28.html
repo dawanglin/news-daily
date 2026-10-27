@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f4ee"><meta name="description" content="每日情报简报：筛掉政治造势，留下能理解、能尝试、能落地的信息。"><title>每日情报简报 - 2026-10-28</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f6f4ee;
+  --panel: #fbfaf6;
+  --ink: #24313c;
+  --body: #38454f;
+  --muted: #6c7984;
+  --line: #dfe4e6;
+  --news: #2f7d66;
+  --news-soft: #e2eee9;
+  --biz: #a5672f;
+  --biz-soft: #f3eadb;
+  --focus: #2f7d66;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 16px;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--news); color: #fff; }
+a { color: inherit; }
+.mast { padding: 34px 40px 22px; border-bottom: 1px solid var(--line); }
+.mast-inner, .page, .footer-inner { width: min(100% - 64px, 1200px); margin-inline: auto; }
+.mast-top { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+.mast-links { display: inline-flex; align-items: center; gap: 22px; font-size: 14px; }
+.mast-links a { text-decoration: none; color: var(--muted); padding: 6px 2px; border-bottom: 2px solid transparent; }
+.mast-links a:hover { color: var(--ink); border-bottom-color: var(--news); }
+.mast h1 { margin: 26px 0 4px; font-size: 34px; line-height: 1.15; letter-spacing: -.01em; }
+.mast .subtitle { margin: 0 0 12px; font-size: 17px; color: var(--body); }
+.mast .meta { margin: 0; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.mast .direction { margin: 18px 0 0; color: var(--body); font-size: 14px; border-left: 3px solid var(--news); padding-left: 12px; }
+.layout { display: block; padding: 30px 0 20px; }
+.section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; padding: 0 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
+.section-heading h2 { margin: 0; font-size: 18px; line-height: 1.3; letter-spacing: -.01em; }
+.section-heading > span { color: var(--muted); font-size: 12px; }
+.head-right { display: inline-flex; align-items: baseline; gap: 14px; }
+.quick-jump { color: var(--biz); font-weight: 650; text-decoration: none; }
+.quick-jump:hover { text-decoration: underline; }
+.story { padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
+.story-title { display: block; font-size: 19px; font-weight: 680; line-height: 1.5; text-decoration: none; overflow-wrap: anywhere; }
+.story-title:hover { color: var(--news); }
+.story-title::after { content: "↗"; display: inline-block; margin-left: .3em; color: var(--news); font-size: .72em; font-weight: 500; transform: translateY(-.05em); }
+.story-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.story-meta .topic { padding: 1px 8px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-weight: 600; }
+.story-meta .lens { color: var(--news); font-weight: 600; }
+.story-meta .source, .story-meta .published { font-variant-numeric: tabular-nums; }
+.confidence { color: var(--muted); }
+.confidence.verified { color: var(--news); }
+.confidence.signal { color: var(--biz); }
+.story-summary { margin: 11px 0 0; color: var(--body); font-size: 15px; line-height: 1.82; overflow-wrap: anywhere; }
+.story-why { display: grid; grid-template-columns: auto 1fr; gap: 10px; margin: 13px 0 0; color: var(--body); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+.story-why strong { align-self: start; color: var(--news); font-size: 12px; font-weight: 650; white-space: nowrap; }
+.archive-link { margin-top: 22px; }
+.archive-link a { color: var(--news); font-size: 13px; }
+.col-business { margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--line); }
+.method-section { margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--line); }
+.col-business .section-heading { border-bottom-color: #e6dcc9; }
+.col-business h2 { color: var(--biz); }
+.biz { margin: 0 0 22px; padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
+.biz-title { margin: 0; font-size: 19px; font-weight: 680; line-height: 1.5; }
+.biz-title a { text-decoration: none; }
+.biz-title a::after { content: "↗"; display: inline-block; margin-left: .3em; color: var(--biz); font-size: .72em; font-weight: 500; transform: translateY(-.05em); }
+.biz-title a:hover { color: var(--biz); }
+.biz-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; font-variant-numeric: tabular-nums; }
+.biz-status { margin-left: 8px; padding: 1px 6px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-size: 11px; }
+.biz-status.pending { background: var(--biz-soft); color: #7c4c24; }
+.biz-summary { margin: 11px 0 0; color: var(--body); font-size: 15px; line-height: 1.82; overflow-wrap: anywhere; }
+.biz-empty, .biz-note { color: var(--muted); font-size: 13px; line-height: 1.7; }
+.biz-note { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line); }
+footer { padding: 26px 40px 40px; border-top: 1px solid var(--line); background: var(--panel); color: var(--muted); font-size: 12px; line-height: 1.8; }
+.footer-note { margin-top: 9px; }
+.archive-panel h2 { margin: 20px 0 8px; font-size: 21px; }
+.archive-intro { margin: 0 0 8px; color: var(--muted); font-size: 13px; }
+.archive-list { list-style: none; padding: 0; margin: 0; }
+.archive-list li { padding: 20px 0; border-top: 1px solid var(--line); }
+.archive-list a { display: block; min-height: 44px; text-decoration: none; font-size: 16px; line-height: 1.65; }
+.archive-list .issue { display: block; margin-bottom: 3px; color: var(--news); font-weight: 700; font-variant-numeric: tabular-nums; }
+.edition-meta { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
+.back { display: inline-block; margin: 20px 0 8px; color: var(--news); text-decoration: none; font-size: 14px; }
+a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 3px; }
+html { scroll-behavior: smooth; }
+@media (hover: hover) { .mast-links a:hover, .story-title:hover, .biz-title a:hover { color: var(--news); } }
+@media (max-width: 960px) { .mast, footer { padding-left: 22px; padding-right: 22px; } .mast-inner, .page, .footer-inner { width: min(100% - 32px, 1200px); } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style></head><body>
+<header class="mast"><div class="mast-inner"><div class="mast-top"><nav class="mast-links" aria-label="栏目导航"><a href="../">效率导航</a><a href="#news">新闻</a><a href="#v2ex">V2EX</a><a href="#prompt">Prompt</a><a href="#skill">Skill</a><a href="#business">商业观察</a><a href="../archive/">历史</a></nav></div><h1>每日情报简报</h1><p class="subtitle">今日动态与可落地线索</p><p class="meta">2026年10月28日 星期三 · 共 26 条</p><p class="direction">筛掉政治造势，留下能理解、能尝试、能落地的信息。</p></div></header>
+<main class="page"><div class="layout"><section id="news" class="col-news"><div class="section-heading"><h2>新闻情报</h2><span class="head-right">26 条 · 按阅读价值排序<a class="quick-jump" href="#business">直达商业观察</a></span></div><section class="feed">
+      <article class="story" data-news-title="mica-ppocr 1.2.4 发布：OCR 预处理内存砍半，检测提速 2.6 倍" data-news-url="https://www.oschina.net/news/503238" data-news-source="开源中国" data-news-time="10-27 12:36" data-news-summary="&gt; 发布日期： 2026-10-25 · 上一版本：v1.2.3（2026-09-12） 这一版把预处理内存砍掉一半、检测提速 2.6 倍，顺手清掉了两类「写了却不生效」「关了却关不掉」的问题：PDF 双通道的配置终于传到了引擎，mica.ai.ppocr.enabled=false 之后应用也能正常启动；海报类版面也有了声明检测参数的口子。">
+        <a class="story-title" href="https://www.oschina.net/news/503238" target="_blank" rel="noopener noreferrer">mica-ppocr 1.2.4 发布：OCR 预处理内存砍半，检测提速 2.6 倍</a>
+        <div class="story-meta">
+          <span class="topic">线下数字化</span>
+          <span class="lens">工具发布</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-27 12:36</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">&gt; 发布日期： 2026-10-25 · 上一版本：v1.2.3（2026-09-12） 这一版把预处理内存砍掉一半、检测提速 2.6 倍，顺手清掉了两类「写了却不生效」「关了却关不掉」的问题：PDF 双通道的配置终于传到了引擎，mica.ai.ppocr.enabled=false 之后应用也能正常启动；海报类版面也有了声明检测参数的口子。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="OpenAI 和 Anthropic 将大模型价格砍了八成，这门生意到底怎么算的？" data-news-url="https://www.oschina.net/news/503251/cheap-llms" data-news-source="开源中国" data-news-time="10-27 19:41" data-news-summary="从六月 GPT-5.6 系列发布到现在，OpenAI 和 Anthropic 的主流模型价格塌了一大截，最多砍掉 80%。Max Woolf 把这场价格战的时间线全捋了一遍，结论有点反直觉：这不像烧钱抢市场的套路。">
+        <a class="story-title" href="https://www.oschina.net/news/503251/cheap-llms" target="_blank" rel="noopener noreferrer">OpenAI 和 Anthropic 将大模型价格砍了八成，这门生意到底怎么算的？</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">实测评价</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-27 19:41</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">从六月 GPT-5.6 系列发布到现在，OpenAI 和 Anthropic 的主流模型价格塌了一大截，最多砍掉 80%。Max Woolf 把这场价格战的时间线全捋了一遍，结论有点反直觉：这不像烧钱抢市场的套路。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。</span></p>
+      </article>
+      <article class="story" data-news-title="赛博领鸡蛋：AgentScope 免费 AI Agent，4G内存，30G硬盘" data-news-url="https://www.appinn.com/agentscope-free-ai-agnet/" data-news-source="小众软件" data-news-time="10-26 20:42" data-news-summary="AgentScope Platform 开放 Beta 公测，目前可以免费领取一个云端 AI Agent 运行空间，直接部署 QwenPaw。实际上就是一个免费 OpenClaw，但顺便带有一台 VPS： 装好之后的样子： 自带 Kilo、openrouter 两款免费模型。">
+        <a class="story-title" href="https://www.appinn.com/agentscope-free-ai-agnet/" target="_blank" rel="noopener noreferrer">赛博领鸡蛋：AgentScope 免费 AI Agent，4G内存，30G硬盘</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">教程方法</span>
+          <span class="source">小众软件</span>
+          <span class="published">10-26 20:42</span>
+          <span class="confidence professional">工具体验来源</span>
+        </div>
+        <p class="story-summary">AgentScope Platform 开放 Beta 公测，目前可以免费领取一个云端 AI Agent 运行空间，直接部署 QwenPaw。实际上就是一个免费 OpenClaw，但顺便带有一台 VPS： 装好之后的样子： 自带 Kilo、openrouter 两款免费模型。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="ToolForge v0.2.2 正式发布：AI Agent 也能调用工具了！支持 MCP、CLI 与插件级权限管理" data-news-url="https://www.oschina.net/news/503201" data-news-source="开源中国" data-news-time="10-26 10:08" data-news-summary="最近一直在持续完善自己的开源项目 ToolForge，今天正式发布 v0.2.2！ToolForge 是一款基于 Rust + Tauri 2 构建的开源桌面工具箱，面向开发者与效率工作者，通过插件化架构整合开发调试、数据转换、文件处理、系统管理和日常效率工具。">
+        <a class="story-title" href="https://www.oschina.net/news/503201" target="_blank" rel="noopener noreferrer">ToolForge v0.2.2 正式发布：AI Agent 也能调用工具了！支持 MCP、CLI 与插件级权限管理</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-26 10:08</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">最近一直在持续完善自己的开源项目 ToolForge，今天正式发布 v0.2.2！ToolForge 是一款基于 Rust + Tauri 2 构建的开源桌面工具箱，面向开发者与效率工作者，通过插件化架构整合开发调试、数据转换、文件处理、系统管理和日常效率工具。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="数据中心搅动世界" data-news-url="https://www.solidot.org/story?sid=85726" data-news-source="Solidot" data-news-time="10-27 22:58" data-news-summary="很多人几年前可能还不知道什么是数据中心，它是现代互联网服务的引擎，也是今天 AI 热的核心。但数据中心数量的快速增长、巨大的电力消耗，以及环境影响，正在全球引发公众的抵制。">
+        <a class="story-title" href="https://www.solidot.org/story?sid=85726" target="_blank" rel="noopener noreferrer">数据中心搅动世界</a>
+        <div class="story-meta">
+          <span class="topic">云服务器</span>
+          <span class="lens">社区观察</span>
+          <span class="source">Solidot</span>
+          <span class="published">10-27 22:58</span>
+          <span class="confidence professional">科技社区来源</span>
+        </div>
+        <p class="story-summary">很多人几年前可能还不知道什么是数据中心，它是现代互联网服务的引擎，也是今天 AI 热的核心。但数据中心数量的快速增长、巨大的电力消耗，以及环境影响，正在全球引发公众的抵制。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="Cloudflare 披露 KV cache 暴露事故，全部发生在超长上下文的 prompt 上" data-news-url="https://www.oschina.net/news/503242/cloudflare-glm-kv-cache-exposure-remediation" data-news-source="开源中国" data-news-time="10-27 15:51" data-news-summary="Cloudflare 昨天公开了一起租户隔离事故：8 月 27 日到 9 月 9 日期间，Workers AI 平台上的 GLM-5.3 模型（@cf/zai-org/glm-5.3）会把其他客户的请求数据混进响应里，总共 155 次，全部发生在超长上下文的 prompt 上。9 月 8 日安全研究员 Gadi Evron（Knostic 公司）通过 HackerOne 报告了这个跨请求 KV cache 暴露问题...">
+        <a class="story-title" href="https://www.oschina.net/news/503242/cloudflare-glm-kv-cache-exposure-remediation" target="_blank" rel="noopener noreferrer">Cloudflare 披露 KV cache 暴露事故，全部发生在超长上下文的 prompt 上</a>
+        <div class="story-meta">
+          <span class="topic">提示词</span>
+          <span class="lens">案例复盘</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-27 15:51</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">Cloudflare 昨天公开了一起租户隔离事故：8 月 27 日到 9 月 9 日期间，Workers AI 平台上的 GLM-5.3 模型（@cf/zai-org/glm-5.3）会把其他客户的请求数据混进响应里，总共 155 次，全部发生在超长上下文的 prompt 上。9 月 8 日安全研究员 Gadi Evron（Knostic 公司）通过 HackerOne 报告了这个跨请求 KV cache 暴露问题...</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>保存可复用的提示结构，用同一输入做一次前后对比。保存失败条件和解决办法，遇到同类问题时可直接查。</span></p>
+      </article>
+      <article class="story" data-news-title="网页电台：随机一站 「小程序版本」" data-news-url="https://www.v2ex.com/t/1252310#reply0" data-news-source="V2EX·创造" data-news-time="10-27 17:45" data-news-summary="前些天，刷到 ddter 大佬分享的网页版电台： https://www.v2ex.com/t/1249321 感觉很有意思，一时兴起，让 AI“抄袭”了个小程序版本的，大家可以小程序搜：碰巧听见 分享给大家，无广版本，不过感觉这个最佳体验还是放到车机系统里最好，但是很多车机系统都比较封闭。另外看到 ddter 大佬已经开发了安卓和 ios ，有需求可以去关注下载，谢谢大家支持 小程序码：">
+        <a class="story-title" href="https://www.v2ex.com/t/1252310#reply0" target="_blank" rel="noopener noreferrer">网页电台：随机一站 「小程序版本」</a>
+        <div class="story-meta">
+          <span class="topic">网页小游戏</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-27 17:45</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">前些天，刷到 ddter 大佬分享的网页版电台： https://www.v2ex.com/t/1249321 感觉很有意思，一时兴起，让 AI“抄袭”了个小程序版本的，大家可以小程序搜：碰巧听见 分享给大家，无广版本，不过感觉这个最佳体验还是放到车机系统里最好，但是很多车机系统都比较封闭。另外看到 ddter 大佬已经开发了安卓和 ios ，有需求可以去关注下载，谢谢大家支持 小程序码：</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="研究为“革命性”物理研究打开大门" data-news-url="http://paper.sciencenet.cn/htmlpaper/2026/10/20261027224912583157014.shtm?id=157014" data-news-source="科学网·数理科学" data-news-time="10-22 23:58" data-news-summary="物理学家现已将单个正电子——电子的反物质对应物，悬浮在半空中，并将其冷却至可能达到的最低能级。该实验装置将使研究人员能够以前所未有的精度研究正...">
+        <a class="story-title" href="http://paper.sciencenet.cn/htmlpaper/2026/10/20261027224912583157014.shtm?id=157014" target="_blank" rel="noopener noreferrer">研究为“革命性”物理研究打开大门</a>
+        <div class="story-meta">
+          <span class="topic">数学物理</span>
+          <span class="lens">概念科普</span>
+          <span class="source">科学网·数理科学</span>
+          <span class="published">10-22 23:58</span>
+          <span class="confidence professional">学术专业来源</span>
+        </div>
+        <p class="story-summary">物理学家现已将单个正电子——电子的反物质对应物，悬浮在半空中，并将其冷却至可能达到的最低能级。该实验装置将使研究人员能够以前所未有的精度研究正...</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="OEA丨硬件感知轻量化光子脉冲神经网络架构" data-news-url="http://paper.sciencenet.cn/htmlpaper/2026/10/202610208522458156684.shtm?id=156684" data-news-source="科学网·数理科学" data-news-time="10-20 16:52" data-news-summary="Opto-Electronic Advances论文推荐西安电子科技大学研究团队首次实现面向硬件约束的光子脉冲神经网络轻量化部...">
+        <a class="story-title" href="http://paper.sciencenet.cn/htmlpaper/2026/10/202610208522458156684.shtm?id=156684" target="_blank" rel="noopener noreferrer">OEA丨硬件感知轻量化光子脉冲神经网络架构</a>
+        <div class="story-meta">
+          <span class="topic">数据空间</span>
+          <span class="lens">概念科普</span>
+          <span class="source">科学网·数理科学</span>
+          <span class="published">10-20 16:52</span>
+          <span class="confidence professional">学术专业来源</span>
+        </div>
+        <p class="story-summary">Opto-Electronic Advances论文推荐西安电子科技大学研究团队首次实现面向硬件约束的光子脉冲神经网络轻量化部...</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="怎么看待 openai 关于模型中转的最新使用政策" data-news-url="https://www.v2ex.com/t/1252381#reply1" data-news-source="V2EX·技术" data-news-time="10-27 23:59" data-news-summary="自建 sub2api 会不能用了吗，野生中转站会大面积塌方吗？使用协议原文： https://openai.com/zh-Hans-CN/index/broad-access-through-consistent-standards/ 大致总结：更新使用政策（ 2026 年 11 月 20 日生效） • 模型中转与网关审查：模型路由器和 AI 网关在提供访问权限前，必须获得 OpenAI 的审查与批准；">
+        <a class="story-title" href="https://www.v2ex.com/t/1252381#reply1" target="_blank" rel="noopener noreferrer">怎么看待 openai 关于模型中转的最新使用政策</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-27 23:59</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">自建 sub2api 会不能用了吗，野生中转站会大面积塌方吗？使用协议原文： https://openai.com/zh-Hans-CN/index/broad-access-through-consistent-standards/ 大致总结：更新使用政策（ 2026 年 11 月 20 日生效） • 模型中转与网关审查：模型路由器和 AI 网关在提供访问权限前，必须获得 OpenAI 的审查与批准；</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Reddit 开源社区争议是否禁止 AI" data-news-url="https://www.solidot.org/story?sid=85722" data-news-source="Solidot" data-news-time="10-27 18:09" data-news-summary="美国社交新闻平台 Reddit 专注于讨论开源项目的社群 r/opensource 公布了禁止 AI 的政策《Your tokens aren&#x27;t valuable: No more AI》，理由是 AI 与该社群不兼容，要求递交到该社群的开源项目必须至少存在一年、有多名贡献者，发帖者必须会说英语而不是用 AI 翻译。这一政策引发了激烈的讨论，随后有人创建了新的允许 AI 的开源社群如 r/OpenSourceAIAllowed。">
+        <a class="story-title" href="https://www.solidot.org/story?sid=85722" target="_blank" rel="noopener noreferrer">Reddit 开源社区争议是否禁止 AI</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">工具发布</span>
+          <span class="source">Solidot</span>
+          <span class="published">10-27 18:09</span>
+          <span class="confidence professional">科技社区来源</span>
+        </div>
+        <p class="story-summary">美国社交新闻平台 Reddit 专注于讨论开源项目的社群 r/opensource 公布了禁止 AI 的政策《Your tokens aren&#x27;t valuable: No more AI》，理由是 AI 与该社群不兼容，要求递交到该社群的开源项目必须至少存在一年、有多名贡献者，发帖者必须会说英语而不是用 AI 翻译。这一政策引发了激烈的讨论，随后有人创建了新的允许 AI 的开源社群如 r/OpenSourceAIAllowed。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Anthropic 确认其内部系统遭访问：客户对话、模型权重未受影响" data-news-url="https://www.ithome.com/1/018/683.htm" data-news-source="IT之家" data-news-time="10-27 22:25" data-news-summary="IT之家 10 月 27 日消息，据《华盛顿邮报》当地时间 10 月 26 日报道，网络安全初创公司 Cathedral 称，其研究人员利用 AI 智能体在不到 12 小时内通过第三方商业软件的漏洞，找到进入 Anthropic 内部系统的路径。Anthropic 随后确认，部分销售、人力资源和 IT 系统遭到访问，但客户与 Claude 的对话、模型回复、源代码及模型权重均未受到影响。">
+        <a class="story-title" href="https://www.ithome.com/1/018/683.htm" target="_blank" rel="noopener noreferrer">Anthropic 确认其内部系统遭访问：客户对话、模型权重未受影响</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">案例复盘</span>
+          <span class="source">IT之家</span>
+          <span class="published">10-27 22:25</span>
+          <span class="confidence professional">科技资讯来源</span>
+        </div>
+        <p class="story-summary">IT之家 10 月 27 日消息，据《华盛顿邮报》当地时间 10 月 26 日报道，网络安全初创公司 Cathedral 称，其研究人员利用 AI 智能体在不到 12 小时内通过第三方商业软件的漏洞，找到进入 Anthropic 内部系统的路径。Anthropic 随后确认，部分销售、人力资源和 IT 系统遭到访问，但客户与 Claude 的对话、模型回复、源代码及模型权重均未受到影响。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。</span></p>
+      </article>
+      <article class="story" data-news-title="国产AI 3D大模型Hi3D来了！开源可商用，PK干掉GPT-6" data-news-url="https://www.qbitai.com/2026/10/505694.html" data-news-source="量子位" data-news-time="10-27 16:18" data-news-summary="还是专业的模型做专业的事情">
+        <a class="story-title" href="https://www.qbitai.com/2026/10/505694.html" target="_blank" rel="noopener noreferrer">国产AI 3D大模型Hi3D来了！开源可商用，PK干掉GPT-6</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">工具发布</span>
+          <span class="source">量子位</span>
+          <span class="published">10-27 16:18</span>
+          <span class="confidence professional">AI 专业来源</span>
+        </div>
+        <p class="story-summary">还是专业的模型做专业的事情</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了" data-news-url="https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-25 18:30" data-news-summary="四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了">
+        <a class="story-title" href="https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">工具发布</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-25 18:30</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Tailscale SSH 被曝安全漏洞：一台设备失守，可获得其他服务器 root 权限｜另外还有11项漏洞" data-news-url="https://www.appinn.com/tailscale-ssh-security-vulnerabilities-tailworm/" data-news-source="小众软件" data-news-time="10-26 10:42" data-news-summary="Tailscale SSH 漏洞 如果你在使用 Tailscale 管理家里的 NAS、公司的服务器、个人电脑、手机，那么先把 Tailscale SSH 关了，目前漏洞还未修复。（2026年10月26日） 安全研究员 Erica Windisch 近日公布了一份名为 Tailworm 的安全报告，">
+        <a class="story-title" href="https://www.appinn.com/tailscale-ssh-security-vulnerabilities-tailworm/" target="_blank" rel="noopener noreferrer">Tailscale SSH 被曝安全漏洞：一台设备失守，可获得其他服务器 root 权限｜另外还有11项漏洞</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">案例复盘</span>
+          <span class="source">小众软件</span>
+          <span class="published">10-26 10:42</span>
+          <span class="confidence professional">工具体验来源</span>
+        </div>
+        <p class="story-summary">Tailscale SSH 漏洞 如果你在使用 Tailscale 管理家里的 NAS、公司的服务器、个人电脑、手机，那么先把 Tailscale SSH 关了，目前漏洞还未修复。（2026年10月26日） 安全研究员 Erica Windisch 近日公布了一份名为 Tailworm 的安全报告，</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。</span></p>
+      </article>
+      <article class="story" data-news-title="Systemd 支持 Rust 程序" data-news-url="https://www.solidot.org/story?sid=85710" data-news-source="Solidot" data-news-time="10-26 16:02" data-news-summary="Systemd 支持用 Rust 语言开发程序。核心 systemd 代码如 systemd 库目前尚不支持 Rust 代码，但对于systemd 程序/末端组件已支持使用 Rust 语言。">
+        <a class="story-title" href="https://www.solidot.org/story?sid=85710" target="_blank" rel="noopener noreferrer">Systemd 支持 Rust 程序</a>
+        <div class="story-meta">
+          <span class="topic">提示词</span>
+          <span class="lens">工具发布</span>
+          <span class="source">Solidot</span>
+          <span class="published">10-26 16:02</span>
+          <span class="confidence professional">科技社区来源</span>
+        </div>
+        <p class="story-summary">Systemd 支持用 Rust 语言开发程序。核心 systemd 代码如 systemd 库目前尚不支持 Rust 代码，但对于systemd 程序/末端组件已支持使用 Rust 语言。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？" data-news-url="https://www.infoq.cn/article/O7lcxqKD2avRPbNoMmtg?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-26 23:05" data-news-summary="30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？">
+        <a class="story-title" href="https://www.infoq.cn/article/O7lcxqKD2avRPbNoMmtg?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">教程方法</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-26 23:05</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="模型好选，搜索难做：一个投研Agent的两年开发历程" data-news-url="https://www.infoq.cn/article/NrUkJExfuuFOICsjVYbb?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-26 22:57" data-news-summary="模型好选，搜索难做：一个投研Agent的两年开发历程">
+        <a class="story-title" href="https://www.infoq.cn/article/NrUkJExfuuFOICsjVYbb?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">模型好选，搜索难做：一个投研Agent的两年开发历程</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">技术实践</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-26 22:57</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">模型好选，搜索难做：一个投研Agent的两年开发历程</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="智能体在图书馆工作中的应用与治理" data-news-url="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=213646&amp;do=blog&amp;id=1558456" data-news-source="科学网·科普" data-news-time="10-27 13:39" data-news-summary="智能体在图书馆工作中的应用与治理">
+        <a class="story-title" href="http://blog.sciencenet.cn/home.php?mod=space&amp;uid=213646&amp;do=blog&amp;id=1558456" target="_blank" rel="noopener noreferrer">智能体在图书馆工作中的应用与治理</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">概念科普</span>
+          <span class="source">科学网·科普</span>
+          <span class="published">10-27 13:39</span>
+          <span class="confidence verified">科学科普来源</span>
+        </div>
+        <p class="story-summary">智能体在图书馆工作中的应用与治理</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="Mac mini M6 钙版，国补后价格：¥4902｜最佳 AI Agent 运行硬件" data-news-url="https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/" data-news-source="小众软件" data-news-time="10-27 14:58" data-news-summary="作为最佳 AI Agent 运行硬件，上一波 Mac mini M4 只需不到 3000 元的价格，就能拥有。但经历了苹果产品全线涨价，平均涨幅约 21%，以及新产品更新换代之后，Mac mini M6 的官网钙版价格已经来到了 6999 元。">
+        <a class="story-title" href="https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/" target="_blank" rel="noopener noreferrer">Mac mini M6 钙版，国补后价格：¥4902｜最佳 AI Agent 运行硬件</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">实测评价</span>
+          <span class="source">小众软件</span>
+          <span class="published">10-27 14:58</span>
+          <span class="confidence professional">工具体验来源</span>
+        </div>
+        <p class="story-summary">作为最佳 AI Agent 运行硬件，上一波 Mac mini M4 只需不到 3000 元的价格，就能拥有。但经历了苹果产品全线涨价，平均涨幅约 21%，以及新产品更新换代之后，Mac mini M6 的官网钙版价格已经来到了 6999 元。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。</span></p>
+      </article>
+      <article class="story" data-news-title="有没有同是日常主要使用 Linux 系统并依赖企业微信办公的, 一起去催促下原生 Linux 版本企微" data-news-url="https://www.v2ex.com/t/1252139#reply28" data-news-source="V2EX·技术" data-news-time="10-27 10:14" data-news-summary="现在 Linux 上折腾企业微信，无论是通过 Windows 虚拟机还是用 Deepin-Wine 版本体验都很难受 Windows 虚拟机 浪费大量 CPU 和内存, 虚拟机中就只安装了企微一个软件, Linux 上啥都不干就经常听到风扇狂飙 文件传输在 Linux 和 Windows 上来回倒腾极尽折磨 消息通知完全就是没有, 不主动切到虚拟机的窗口就啥也不知道, Deepin-Wine 字体问题,缩放问题,窗口切换,卡屏黑屏等等等兼容性太差了 截图粘贴,文字复制,文件…">
+        <a class="story-title" href="https://www.v2ex.com/t/1252139#reply28" target="_blank" rel="noopener noreferrer">有没有同是日常主要使用 Linux 系统并依赖企业微信办公的, 一起去催促下原生 Linux 版本企微</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-27 10:14</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">现在 Linux 上折腾企业微信，无论是通过 Windows 虚拟机还是用 Deepin-Wine 版本体验都很难受 Windows 虚拟机 浪费大量 CPU 和内存, 虚拟机中就只安装了企微一个软件, Linux 上啥都不干就经常听到风扇狂飙 文件传输在 Linux 和 Windows 上来回倒腾极尽折磨 消息通知完全就是没有, 不主动切到虚拟机的窗口就啥也不知道, Deepin-Wine 字体问题,缩放问题,窗口切换,卡屏黑屏等等等兼容性太差了 截图粘贴,文字复制,文件…</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！" data-news-url="http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&amp;mid=2247525175&amp;idx=1&amp;sn=63b96bd12318668735c201f956bcf91f&amp;chksm=e97fa56f33cba4ad777aef0890bef8857bf8efe4b2510a4f5bce1054436f230def1e4eb8513e&amp;scene=0#rd" data-news-source="前端技术精选" data-news-time="10-20 08:00" data-news-summary="微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！">
+        <a class="story-title" href="http://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&amp;mid=2247525175&amp;idx=1&amp;sn=63b96bd12318668735c201f956bcf91f&amp;chksm=e97fa56f33cba4ad777aef0890bef8857bf8efe4b2510a4f5bce1054436f230def1e4eb8513e&amp;scene=0#rd" target="_blank" rel="noopener noreferrer">微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">技术实践</span>
+          <span class="source">前端技术精选</span>
+          <span class="published">10-20 08:00</span>
+          <span class="confidence professional">前端专业精选</span>
+        </div>
+        <p class="story-summary">微软用 Go 重写 TypeScript，Rust 来踢馆了，还是 AI 写的！</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="用 www 运行还是用 docker 运行更安全？" data-news-url="https://www.v2ex.com/t/1252274#reply9" data-news-source="V2EX·技术" data-news-time="10-27 16:16" data-news-summary="在 linux 服务器上，有两个进程，都是相同的应用程序，第一个是使用普通用户 www 在宿主机运行的，在/etc/passwd 看到 www 是/sbin/nologin 的，第二个是用 docker 容器运行的，守护进程 dockerd 是用 root 运行的，容器也是用 root 运行的，那么这两个进程哪个更安全？问了一圈 AI ，只有 Kimi 说第二种方式更安全，大多数都说第一种方式更安全">
+        <a class="story-title" href="https://www.v2ex.com/t/1252274#reply9" target="_blank" rel="noopener noreferrer">用 www 运行还是用 docker 运行更安全？</a>
+        <div class="story-meta">
+          <span class="topic">云服务器</span>
+          <span class="lens">案例复盘</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-27 16:16</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">在 linux 服务器上，有两个进程，都是相同的应用程序，第一个是使用普通用户 www 在宿主机运行的，在/etc/passwd 看到 www 是/sbin/nologin 的，第二个是用 docker 容器运行的，守护进程 dockerd 是用 root 运行的，容器也是用 root 运行的，那么这两个进程哪个更安全？问了一圈 AI ，只有 Kimi 说第二种方式更安全，大多数都说第一种方式更安全</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较部署难度、月度成本和数据位置，优先试最小可运行方案。保存失败条件和解决办法，遇到同类问题时可直接查。</span></p>
+      </article>
+      <article class="story" data-news-title="【开源自荐】江山时序：浏览器里的中国历史宣纸交互舆图（支持点城溯源 18 朝与百位古人行迹）" data-news-url="https://meta.appinn.net/t/topic/94075" data-news-source="小众软件" data-news-time="10-26 19:05" data-news-summary="软件名称 江山时序（Chronicles of the Realm） 一句简介 一幅打开浏览器就能拖动 2400 年时间轴、点击古城查 18 朝沿革、跟着百余位古人重走万里路的宣纸设色中国历史交互地图。应用平台 Web（电脑 / 平板 / 手机浏览器即开即用，亦支持克隆仓库本地离线运行） 推荐类型">
+        <a class="story-title" href="https://meta.appinn.net/t/topic/94075" target="_blank" rel="noopener noreferrer">【开源自荐】江山时序：浏览器里的中国历史宣纸交互舆图（支持点城溯源 18 朝与百位古人行迹）</a>
+        <div class="story-meta">
+          <span class="topic">网页小游戏</span>
+          <span class="lens">工具发布</span>
+          <span class="source">小众软件</span>
+          <span class="published">10-26 19:05</span>
+          <span class="confidence professional">工具体验来源</span>
+        </div>
+        <p class="story-summary">软件名称 江山时序（Chronicles of the Realm） 一句简介 一幅打开浏览器就能拖动 2400 年时间轴、点击古城查 18 朝沿革、跟着百余位古人重走万里路的宣纸设色中国历史交互地图。应用平台 Web（电脑 / 平板 / 手机浏览器即开即用，亦支持克隆仓库本地离线运行） 推荐类型</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Azure Container Apps Express在新的通用沙箱层上正式发布" data-news-url="https://www.infoq.cn/article/ChONW7EYk5Vuj0VF7AkZ?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="10-28 01:17" data-news-summary="Azure Container Apps Express在新的通用沙箱层上正式发布">
+        <a class="story-title" href="https://www.infoq.cn/article/ChONW7EYk5Vuj0VF7AkZ?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">Azure Container Apps Express在新的通用沙箱层上正式发布</a>
+        <div class="story-meta">
+          <span class="topic">云服务器</span>
+          <span class="lens">工具发布</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">10-28 01:17</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">Azure Container Apps Express在新的通用沙箱层上正式发布</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="KV Cache被压成常数！OCR开源新王：页数没上限，缓存砍96%" data-news-url="https://www.qbitai.com/2026/10/505773.html" data-news-source="量子位" data-news-time="10-27 16:35" data-news-summary="OCR 3.0时代，来了">
+        <a class="story-title" href="https://www.qbitai.com/2026/10/505773.html" target="_blank" rel="noopener noreferrer">KV Cache被压成常数！OCR开源新王：页数没上限，缓存砍96%</a>
+        <div class="story-meta">
+          <span class="topic">线下数字化</span>
+          <span class="lens">工具发布</span>
+          <span class="source">量子位</span>
+          <span class="published">10-27 16:35</span>
+          <span class="confidence professional">AI 专业来源</span>
+        </div>
+        <p class="story-summary">OCR 3.0时代，来了</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article></section><p class="archive-link"><a href="../archive/">查看往期简报</a></p></section><section id="v2ex" class="method-section"><div class="section-heading"><h2>V2EX 方法发现</h2><span>4 条 · 用户讨论与作品</span></div><section class="feed">
+      <article class="story" data-news-title="网页电台：随机一站 「小程序版本」" data-news-url="https://www.v2ex.com/t/1252310#reply0" data-news-source="V2EX·创造" data-news-time="10-27 17:45" data-news-summary="前些天，刷到 ddter 大佬分享的网页版电台： https://www.v2ex.com/t/1249321 感觉很有意思，一时兴起，让 AI“抄袭”了个小程序版本的，大家可以小程序搜：碰巧听见 分享给大家，无广版本，不过感觉这个最佳体验还是放到车机系统里最好，但是很多车机系统都比较封闭。另外看到 ddter 大佬已经开发了安卓和 ios ，有需求可以去关注下载，谢谢大家支持 小程序码：">
+        <a class="story-title" href="https://www.v2ex.com/t/1252310#reply0" target="_blank" rel="noopener noreferrer">网页电台：随机一站 「小程序版本」</a>
+        <div class="story-meta">
+          <span class="topic">网页小游戏</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">10-27 17:45</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">前些天，刷到 ddter 大佬分享的网页版电台： https://www.v2ex.com/t/1249321 感觉很有意思，一时兴起，让 AI“抄袭”了个小程序版本的，大家可以小程序搜：碰巧听见 分享给大家，无广版本，不过感觉这个最佳体验还是放到车机系统里最好，但是很多车机系统都比较封闭。另外看到 ddter 大佬已经开发了安卓和 ios ，有需求可以去关注下载，谢谢大家支持 小程序码：</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="怎么看待 openai 关于模型中转的最新使用政策" data-news-url="https://www.v2ex.com/t/1252381#reply1" data-news-source="V2EX·技术" data-news-time="10-27 23:59" data-news-summary="自建 sub2api 会不能用了吗，野生中转站会大面积塌方吗？使用协议原文： https://openai.com/zh-Hans-CN/index/broad-access-through-consistent-standards/ 大致总结：更新使用政策（ 2026 年 11 月 20 日生效） • 模型中转与网关审查：模型路由器和 AI 网关在提供访问权限前，必须获得 OpenAI 的审查与批准；">
+        <a class="story-title" href="https://www.v2ex.com/t/1252381#reply1" target="_blank" rel="noopener noreferrer">怎么看待 openai 关于模型中转的最新使用政策</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-27 23:59</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">自建 sub2api 会不能用了吗，野生中转站会大面积塌方吗？使用协议原文： https://openai.com/zh-Hans-CN/index/broad-access-through-consistent-standards/ 大致总结：更新使用政策（ 2026 年 11 月 20 日生效） • 模型中转与网关审查：模型路由器和 AI 网关在提供访问权限前，必须获得 OpenAI 的审查与批准；</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="有没有同是日常主要使用 Linux 系统并依赖企业微信办公的, 一起去催促下原生 Linux 版本企微" data-news-url="https://www.v2ex.com/t/1252139#reply28" data-news-source="V2EX·技术" data-news-time="10-27 10:14" data-news-summary="现在 Linux 上折腾企业微信，无论是通过 Windows 虚拟机还是用 Deepin-Wine 版本体验都很难受 Windows 虚拟机 浪费大量 CPU 和内存, 虚拟机中就只安装了企微一个软件, Linux 上啥都不干就经常听到风扇狂飙 文件传输在 Linux 和 Windows 上来回倒腾极尽折磨 消息通知完全就是没有, 不主动切到虚拟机的窗口就啥也不知道, Deepin-Wine 字体问题,缩放问题,窗口切换,卡屏黑屏等等等兼容性太差了 截图粘贴,文字复制,文件…">
+        <a class="story-title" href="https://www.v2ex.com/t/1252139#reply28" target="_blank" rel="noopener noreferrer">有没有同是日常主要使用 Linux 系统并依赖企业微信办公的, 一起去催促下原生 Linux 版本企微</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-27 10:14</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">现在 Linux 上折腾企业微信，无论是通过 Windows 虚拟机还是用 Deepin-Wine 版本体验都很难受 Windows 虚拟机 浪费大量 CPU 和内存, 虚拟机中就只安装了企微一个软件, Linux 上啥都不干就经常听到风扇狂飙 文件传输在 Linux 和 Windows 上来回倒腾极尽折磨 消息通知完全就是没有, 不主动切到虚拟机的窗口就啥也不知道, Deepin-Wine 字体问题,缩放问题,窗口切换,卡屏黑屏等等等兼容性太差了 截图粘贴,文字复制,文件…</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="用 www 运行还是用 docker 运行更安全？" data-news-url="https://www.v2ex.com/t/1252274#reply9" data-news-source="V2EX·技术" data-news-time="10-27 16:16" data-news-summary="在 linux 服务器上，有两个进程，都是相同的应用程序，第一个是使用普通用户 www 在宿主机运行的，在/etc/passwd 看到 www 是/sbin/nologin 的，第二个是用 docker 容器运行的，守护进程 dockerd 是用 root 运行的，容器也是用 root 运行的，那么这两个进程哪个更安全？问了一圈 AI ，只有 Kimi 说第二种方式更安全，大多数都说第一种方式更安全">
+        <a class="story-title" href="https://www.v2ex.com/t/1252274#reply9" target="_blank" rel="noopener noreferrer">用 www 运行还是用 docker 运行更安全？</a>
+        <div class="story-meta">
+          <span class="topic">云服务器</span>
+          <span class="lens">案例复盘</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">10-27 16:16</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">在 linux 服务器上，有两个进程，都是相同的应用程序，第一个是使用普通用户 www 在宿主机运行的，在/etc/passwd 看到 www 是/sbin/nologin 的，第二个是用 docker 容器运行的，守护进程 dockerd 是用 root 运行的，容器也是用 root 运行的，那么这两个进程哪个更安全？问了一圈 AI ，只有 Kimi 说第二种方式更安全，大多数都说第一种方式更安全</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较部署难度、月度成本和数据位置，优先试最小可运行方案。保存失败条件和解决办法，遇到同类问题时可直接查。</span></p>
+      </article></section></section><section id="prompt" class="method-section"><div class="section-heading"><h2>Prompt 推荐</h2><span>2 条 · 可复用提示方法</span></div><section class="feed">
+      <article class="story" data-news-title="Cloudflare 披露 KV cache 暴露事故，全部发生在超长上下文的 prompt 上" data-news-url="https://www.oschina.net/news/503242/cloudflare-glm-kv-cache-exposure-remediation" data-news-source="开源中国" data-news-time="10-27 15:51" data-news-summary="Cloudflare 昨天公开了一起租户隔离事故：8 月 27 日到 9 月 9 日期间，Workers AI 平台上的 GLM-5.3 模型（@cf/zai-org/glm-5.3）会把其他客户的请求数据混进响应里，总共 155 次，全部发生在超长上下文的 prompt 上。9 月 8 日安全研究员 Gadi Evron（Knostic 公司）通过 HackerOne 报告了这个跨请求 KV cache 暴露问题...">
+        <a class="story-title" href="https://www.oschina.net/news/503242/cloudflare-glm-kv-cache-exposure-remediation" target="_blank" rel="noopener noreferrer">Cloudflare 披露 KV cache 暴露事故，全部发生在超长上下文的 prompt 上</a>
+        <div class="story-meta">
+          <span class="topic">提示词</span>
+          <span class="lens">案例复盘</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-27 15:51</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">Cloudflare 昨天公开了一起租户隔离事故：8 月 27 日到 9 月 9 日期间，Workers AI 平台上的 GLM-5.3 模型（@cf/zai-org/glm-5.3）会把其他客户的请求数据混进响应里，总共 155 次，全部发生在超长上下文的 prompt 上。9 月 8 日安全研究员 Gadi Evron（Knostic 公司）通过 HackerOne 报告了这个跨请求 KV cache 暴露问题...</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>保存可复用的提示结构，用同一输入做一次前后对比。保存失败条件和解决办法，遇到同类问题时可直接查。</span></p>
+      </article>
+      <article class="story" data-news-title="Systemd 支持 Rust 程序" data-news-url="https://www.solidot.org/story?sid=85710" data-news-source="Solidot" data-news-time="10-26 16:02" data-news-summary="Systemd 支持用 Rust 语言开发程序。核心 systemd 代码如 systemd 库目前尚不支持 Rust 代码，但对于systemd 程序/末端组件已支持使用 Rust 语言。">
+        <a class="story-title" href="https://www.solidot.org/story?sid=85710" target="_blank" rel="noopener noreferrer">Systemd 支持 Rust 程序</a>
+        <div class="story-meta">
+          <span class="topic">提示词</span>
+          <span class="lens">工具发布</span>
+          <span class="source">Solidot</span>
+          <span class="published">10-26 16:02</span>
+          <span class="confidence professional">科技社区来源</span>
+        </div>
+        <p class="story-summary">Systemd 支持用 Rust 语言开发程序。核心 systemd 代码如 systemd 库目前尚不支持 Rust 代码，但对于systemd 程序/末端组件已支持使用 Rust 语言。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article></section></section><section id="skill" class="method-section"><div class="section-heading"><h2>Skill 推荐</h2><span>1 条 · 工具与插件能力</span></div><section class="feed">
+      <article class="story" data-news-title="ToolForge v0.2.2 正式发布：AI Agent 也能调用工具了！支持 MCP、CLI 与插件级权限管理" data-news-url="https://www.oschina.net/news/503201" data-news-source="开源中国" data-news-time="10-26 10:08" data-news-summary="最近一直在持续完善自己的开源项目 ToolForge，今天正式发布 v0.2.2！ToolForge 是一款基于 Rust + Tauri 2 构建的开源桌面工具箱，面向开发者与效率工作者，通过插件化架构整合开发调试、数据转换、文件处理、系统管理和日常效率工具。">
+        <a class="story-title" href="https://www.oschina.net/news/503201" target="_blank" rel="noopener noreferrer">ToolForge v0.2.2 正式发布：AI Agent 也能调用工具了！支持 MCP、CLI 与插件级权限管理</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">开源中国</span>
+          <span class="published">10-26 10:08</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">最近一直在持续完善自己的开源项目 ToolForge，今天正式发布 v0.2.2！ToolForge 是一款基于 Rust + Tauri 2 构建的开源桌面工具箱，面向开发者与效率工作者，通过插件化架构整合开发调试、数据转换、文件处理、系统管理和日常效率工具。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article></section></section><section id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>空间智能与地图能力 · 可落地线索</span></div>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2610.35756v1" target="_blank" rel="noopener noreferrer">VidEdit3D: Flexible 3D Gaussian Editing with Video Diffusion</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-10-26<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2610.35626v1" target="_blank" rel="noopener noreferrer">Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-10-26<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2610.35606v1" target="_blank" rel="noopener noreferrer">ArchiveLens: A Generative Spatial Knowledge Framework for Semantic Reconstruction of Historical Maps</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-10-26<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2610.35482v1" target="_blank" rel="noopener noreferrer">Beyond Words Alone: Disentangling Distributed Evidence for Visually Grounded Cultural Translation</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-10-26<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2610.35450v1" target="_blank" rel="noopener noreferrer">OBB-PBD: Extending Parallel Box Decoding to Oriented Bounding Boxes for Referring Expression Grounding in Aerial Imagery</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-10-26<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2610.35361v1" target="_blank" rel="noopener noreferrer">SG-Splat: Stable Geometry Learning under Pose Uncertainty for Pose-Free 3D Gaussian Splatting</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-10-26<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2610.35053v1" target="_blank" rel="noopener noreferrer">LOCUS: Locate Once, Check Until Settled. Draft-and-Verify Visual Grounding with a Box Head and Coordinate-Token Verifica</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-10-26<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2610.34846v1" target="_blank" rel="noopener noreferrer">Seeing Before Naming: Context-Grounded Learning of Novel Visual Concepts</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-10-26<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2610.34745v1" target="_blank" rel="noopener noreferrer">SceneAgent: An Agentic Pipeline from 3D and 4D Captures to Simulation Environments</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-10-26<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2610.34632v1" target="_blank" rel="noopener noreferrer">RIDE-Splat: Reflection Removal for In-the-Wild Driving Environments</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-10-25<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2610.34569v1" target="_blank" rel="noopener noreferrer">Agentic AI Orchestration Framework for Spatial Intelligence: Supply Chain Deployment</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-10-25<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2610.34563v1" target="_blank" rel="noopener noreferrer">Recursive CLIP: Vision-Language Distillation with Looped Transformer Blocks</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-10-25<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://modelcontextprotocol.io/specification/2026-07-28/changelog" target="_blank" rel="noopener noreferrer">MCP 规范更新：Documentation Index</a></h3>
+        <p class="biz-meta">Model Context Protocol 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://modelcontextprotocol.io/specification/2026-07-28/changelog" target="_blank" rel="noopener noreferrer">MCP 规范更新：&lt;button type=&quot;button&quot; aria-describedby=&quot;_R_6qelubqoqe9qj4npfiutbH1_&quot;&gt;&lt;svg aria-h</a></h3>
+        <p class="biz-meta">Model Context Protocol 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/" target="_blank" rel="noopener noreferrer">PostGIS：Documentation</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/getting_started/" target="_blank" rel="noopener noreferrer">PostGIS：Getting Started</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/manual/" target="_blank" rel="noopener noreferrer">PostGIS：Official Manual</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/tips/" target="_blank" rel="noopener noreferrer">PostGIS：Tips &amp; Tricks</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article><p class="biz-note">本栏为人工整理的商业线索：只收录官方文档、产品更新、开源项目或可核实的报道，每条标注来源。</p></section></div></main>
+<footer><div class="footer-inner">兴趣发现：个人兴趣热榜筛选<br>专业来源：量子位、机器之心、InfoQ 中文、开源中国、少数派、小众软件、IT之家、Solidot、科学网·数理科学、科学网·科普、前端技术精选、阮一峰的网络日志、V2EX·技术、V2EX·创造<div class="footer-note">不使用 AI 大模型生成摘要。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。商业建设观察为人工整理的商业线索，来源可追溯。</div></div></footer></body></html>
