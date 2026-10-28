@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29 03:15:25 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 3,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 15,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 16,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 10,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 11,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "百度开源“文心 Unlimited OCR 2”，全球首次实现任意页数文档解析",
+      "link": "https://www.oschina.net/news/503269",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "工具发布",
+      "published": "10-28 14:29",
+      "ts": 1793168996,
+      "summary": "百度正式发布并开源文心 Unlimited OCR 2，宣称\"全球首次实现任意页数文档解析\"——把 OCR 的处理上界从几十页推到\"无限\"，并达到最先进水平（SOTA）。实测显示，在一次性解析累计超过3600页的大体量书籍，文档长度大幅增加的情况下，依然保持较高的精度和处理效率。",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 139.75,
+      "relevance": 12
+    },
+    {
+      "title": "OpenAI 和 Anthropic 将大模型价格砍了八成，这门生意到底怎么算的？",
+      "link": "https://www.oschina.net/news/503251/cheap-llms",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "10-27 19:41",
+      "ts": 1793101266,
+      "summary": "从六月 GPT-5.6 系列发布到现在，OpenAI 和 Anthropic 的主流模型价格塌了一大截，最多砍掉 80%。Max Woolf 把这场价格战的时间线全捋了一遍，结论有点反直觉：这不像烧钱抢市场的套路。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 231,
+      "relevance": 31
+    },
+    {
+      "title": "EVEngine - 面向 AI Agent 的轻量游戏引擎",
+      "link": "https://www.oschina.net/p/EVEngine",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-28 19:32",
+      "ts": 1793187134,
+      "summary": "EVEngine 是一款非常适合 Agent 自己迭代造游戏的引擎 EVEngine ，核心优势有 3 个： 1. 随时热重载 - 脚本更新、资源更新不用等，立马就刷新，修改迭代时间短 2. 自带 MCP 和 debug 服务器，可以截图、控制运行、控制 debug - Agent 可以完全像人一样调试脚本 3. 可以创建编辑器给 Agent - 你写个 editor ，人能用，Age...",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 191.43,
+      "relevance": 22
+    },
+    {
+      "title": "复刻 JetBrains 的 Git 客户端做成 VS Code 插件发布到插件市场了",
+      "link": "https://www.v2ex.com/t/1252622#reply18",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-28 18:25",
+      "ts": 1793183106,
+      "summary": "上周让 AI 复刻的 git 插件，这周花了些时间优化了一下，现在发布到 vscode 插件市场了，欢迎试用 插件市场搜索 ideagittool 即可找到 开源仓库地址： https://github.com/PGshen/vs-idea-gittool 欢迎提交 issue 和 pr",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 188.06,
+      "relevance": 25
+    },
+    {
+      "title": "亚马逊 AWS 与国际汽联达成新合作，让 AI 和云计算参与下一代 F1 赛车技术规则制定",
+      "link": "https://www.ithome.com/1/019/232.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "科技资讯",
+      "published": "10-28 23:45",
+      "ts": 1793202306,
+      "summary": "IT之家 10 月 28 日消息，亚马逊云科技（AWS）今天宣布与国际汽车联合会（FIA）达成新合作，双方将利用云计算和 AI 技术，推动各级别赛车运动创新，包含基层赛车赛事至一级方程式赛车（F1）。IT之家从官方新闻稿获悉， AWS 将在下一代 F1 赛车规则制定过程中发挥重要作用 。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 158.83,
+      "relevance": 18
+    },
+    {
+      "title": "Cloudflare 披露 KV cache 暴露事故，全部发生在超长上下文的 prompt 上",
+      "link": "https://www.oschina.net/news/503242/cloudflare-glm-kv-cache-exposure-remediation",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "案例复盘",
+      "published": "10-27 15:51",
+      "ts": 1793087491,
+      "summary": "Cloudflare 昨天公开了一起租户隔离事故：8 月 27 日到 9 月 9 日期间，Workers AI 平台上的 GLM-5.3 模型（@cf/zai-org/glm-5.3）会把其他客户的请求数据混进响应里，总共 155 次，全部发生在超长上下文的 prompt 上。9 月 8 日安全研究员 Gadi Evron（Knostic 公司）通过 HackerOne 报告了这个跨请求 KV cache 暴露问题...",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 216,
+      "relevance": 28
+    },
+    {
+      "title": "浏览器选择联盟新报告：微软为推广 Edge，不惜使用 10 种“暗黑”手段",
+      "link": "https://www.ithome.com/1/019/187.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-28 21:05",
+      "ts": 1793192701,
+      "summary": "IT之家 10 月 28 日消息，浏览器选择联盟（Browser Choice Alliance）最近发布 46 页报告，称微软为推广 Edge，不惜使用 10 种“暗黑”手段，逼迫用户选择 Edge 作为默认浏览器。该报告总结了微软的 10 种“暗黑”手段，IT之家附详情如下： 当用户在 Edge 上使用必应搜索其他浏览器时，微软会放出误导人且具有侵入性的横幅（如下图所示） 更改默认浏览器仅适用于 HTTP 和 HTTPS 链接。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 157.95,
+      "relevance": 18
+    },
+    {
+      "title": "iStat Menus 7.5 新增「Astronomy（天文学）」功能",
+      "link": "https://www.appinn.com/istat-menus-7-5-astronomy/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "工具发布",
+      "published": "10-28 15:22",
+      "ts": 1793172146,
+      "summary": "著名的 macOS 系统信息监控工具 iStat Menus 7.5 新增了一个Astronomy（天文学）」功能，可以显示当前位置的日出、日落，高度曲线、天文事件、天文图片等信息。@Appinn 作为一款以设计优美著称的软件，iStat Menus 的存在感其实并不高，因为它属于只有需要的时候才打",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 136.04,
+      "relevance": 12
+    },
+    {
+      "title": "苹果新 MacBook Pro 最高可选 16TB 存储空间：相比此前 8TB 翻倍，得加 5.25 万元",
+      "link": "https://www.ithome.com/1/019/247.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "科技资讯",
+      "published": "10-29 02:09",
+      "ts": 1793210956,
+      "summary": "IT之家 10 月 29 日消息，苹果首款触控屏 MacBook Pro 最高可选 16TB 存储空间，相比此前 MacBook Pro 最高 8TB 翻倍。需要注意的是，新款 MacBook Pro 仅有 M5 Max 机型支持选择 16TB 硬盘。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 114.64,
+      "relevance": 9
+    },
+    {
+      "title": "开源一个 Claude 桌面端，防止被 Claude 封号",
+      "link": "https://www.v2ex.com/t/1252691#reply1",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-29 01:08",
+      "ts": 1793207307,
+      "summary": "由于自己已经连续使用 Claude 一个月了，主要是怕 Claude 桌面端有钓鱼行为，因此，一直也是使用 Claude 终端。但是，由于不太喜欢黑乎乎的终端，就自己 vibe 了一个 Claude 桌面端，本质上就是开发一个客户端，里面其实就是直接运行 Claude 的终端，因此，安全性与 Claude 终端一致。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 200.3,
+      "relevance": 27
+    },
+    {
+      "title": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
+      "link": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-29 06:05",
+      "ts": 1793225140,
+      "summary": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 191.0,
+      "relevance": 21
+    },
+    {
+      "title": "Reddit 开源社区争议是否禁止 AI",
+      "link": "https://www.solidot.org/story?sid=85722",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-27 18:09",
+      "ts": 1793095797,
+      "summary": "美国社交新闻平台 Reddit 专注于讨论开源项目的社群 r/opensource 公布了禁止 AI 的政策《Your tokens aren't valuable: No more AI》，理由是 AI 与该社群不兼容，要求递交到该社群的开源项目必须至少存在一年、有多名贡献者，发帖者必须会说英语而不是用 AI 翻译。这一政策引发了激烈的讨论，随后有人创建了新的允许 AI 的开源社群如 r/OpenSourceAIAllowed。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 191,
+      "relevance": 25
+    },
+    {
+      "title": "大客户直接打1折、模型四个月降价80%：大模型价格战没有退路",
+      "link": "https://www.infoq.cn/article/ejtljxPixrIuUsGYi5xa?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "10-29 02:14",
+      "ts": 1793211288,
+      "summary": "大客户直接打1折、模型四个月降价80%：大模型价格战没有退路",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 190.67,
+      "relevance": 21
+    },
+    {
+      "title": "Anthropic 内部系统被 AI Agent 12 小时攻破！会议记录、员工薪酬、内部模型讨论遭访问",
+      "link": "https://www.infoq.cn/article/mFXr0u4z0XftUGUg5Wm7?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "10-29 01:54",
+      "ts": 1793210094,
+      "summary": "Anthropic 内部系统被 AI Agent 12 小时攻破！会议记录、员工薪酬、内部模型讨论遭访问",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 190.56,
+      "relevance": 21
+    },
+    {
+      "title": "赛博领鸡蛋：AgentScope 免费 AI Agent，4G内存，30G硬盘",
+      "link": "https://www.appinn.com/agentscope-free-ai-agnet/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-26 20:42",
+      "ts": 1793018556,
+      "summary": "AgentScope Platform 开放 Beta 公测，目前可以免费领取一个云端 AI Agent 运行空间，直接部署 QwenPaw。实际上就是一个免费 OpenClaw，但顺便带有一台 VPS： 装好之后的样子： 自带 Kilo、openrouter 两款免费模型。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 177,
+      "relevance": 21
+    },
+    {
+      "title": "国产AI 3D大模型Hi3D来了！开源可商用，PK干掉GPT-6",
+      "link": "https://www.qbitai.com/2026/10/505694.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-27 16:18",
+      "ts": 1793089139,
+      "summary": "还是专业的模型做专业的事情",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 168,
+      "relevance": 18
+    },
+    {
+      "title": "当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势",
+      "link": "https://www.infoq.cn/article/CxWoiprQltg8YXmwmghd?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "10-29 05:39",
+      "ts": 1793223585,
+      "summary": "当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？｜ 技术趋势",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 161.0,
+      "relevance": 15
+    },
+    {
+      "title": "数据中心搅动世界",
+      "link": "https://www.solidot.org/story?sid=85726",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "社区观察",
+      "published": "10-27 22:58",
+      "ts": 1793113138,
+      "summary": "很多人几年前可能还不知道什么是数据中心，它是现代互联网服务的引擎，也是今天 AI 热的核心。但数据中心数量的快速增长、巨大的电力消耗，以及环境影响，正在全球引发公众的抵制。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 156,
+      "relevance": 18
+    },
+    {
+      "title": "智能体在图书馆工作中的应用与治理",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=213646&do=blog&id=1558456",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "概念科普",
+      "published": "10-27 13:39",
+      "ts": 1793079553,
+      "summary": "智能体在图书馆工作中的应用与治理",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 148,
+      "relevance": 15
+    },
+    {
+      "title": "能让 flash 模型表现得极其专业的提示词",
+      "link": "https://www.v2ex.com/t/1252690#reply6",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "工具发布",
+      "published": "10-29 00:51",
+      "ts": 1793206316,
+      "summary": "本人二十年后端开发和架构经验，对 coding agent 的要求就是稳、准、慎三个字。我现在的 AI 工具搭建很简单，就是先装一个 pi ，里面装一个记忆插件（尝试过一些，最后选择用 Magic-Context ），然后配置一个全局的系统提示词。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 147.21,
+      "relevance": 16
+    },
+    {
+      "title": "[开源] ip2geo：零依赖的 Go IP 归属地查询库， IPv4 查询比 geoip2-golang 快 14～ 58 倍",
+      "link": "https://www.v2ex.com/t/1252638#reply2",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-28 19:34",
+      "ts": 1793187293,
+      "summary": "GitHub： https://github.com/haxqer/ip2geo 写这个库的起因很简单：服务里用 geoip2-golang 查 IP 归属地，profile 一看，单次 City() 要 1.7µs 左右，大部分时间花在解码 mmdb 的数据结构上。而我其实只需要国家 / 省份 / 城市 / 经纬度 / 时区这几个字段。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 135.44,
+      "relevance": 14
+    },
+    {
+      "title": "天文学家在柯伊伯带发现一颗巨大的矮行星候选天体",
+      "link": "https://www.solidot.org/story?sid=85735",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-28 22:09",
+      "ts": 1793196590,
+      "summary": "2025 年 6 月正式启动观测的 Vera C. Rubin 天文台其任务之一是绘制太阳系内小天体地图，尤其是柯伊伯带天体。现在天文学家报告利用天文台的观测设备在柯伊伯带发现了一颗巨大的矮行星候选天体。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 132.31,
+      "relevance": 12
+    },
+    {
+      "title": "【开源自荐】江山时序：浏览器里的中国历史宣纸交互舆图（支持点城溯源 18 朝与百位古人行迹）",
+      "link": "https://meta.appinn.net/t/topic/94075",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-26 19:05",
+      "ts": 1793012709,
+      "summary": "软件名称 江山时序（Chronicles of the Realm） 一句简介 一幅打开浏览器就能拖动 2400 年时间轴、点击古城查 18 朝沿革、跟着百余位古人重走万里路的宣纸设色中国历史交互地图。应用平台 Web（电脑 / 平板 / 手机浏览器即开即用，亦支持克隆仓库本地离线运行） 推荐类型",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 132,
+      "relevance": 12
+    },
+    {
+      "title": "一键 12345 skill",
+      "link": "https://www.v2ex.com/t/1252677#reply2",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "用户作品",
+      "published": "10-28 23:18",
+      "ts": 1793200732,
+      "summary": "有烦心事？填写 12345 投诉单很麻烦？",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 131.69,
+      "relevance": 13
+    },
+    {
+      "title": "单个反物质粒子被捕获在陷阱中长达数月",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/202610289521802157041.shtm?id=157041",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-28 17:52",
+      "ts": 1793181120,
+      "summary": "在美国伊利诺伊州的一个实验室里，物理学家在一个具有隐形壁的陷阱中捕获并驯服了一个微小的反物质粒子。通过研究这个正电子的行为方式，研究人员可能很快就有一个机会来打破关于物理现实的...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 129.87,
+      "relevance": 9
+    },
+    {
+      "title": "马斯克动用钞能力：美国居民起诉数据中心噪声后，xAI 准备直接收购其房产",
+      "link": "https://www.ithome.com/1/019/222.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "科技资讯",
+      "published": "10-28 23:12",
+      "ts": 1793200325,
+      "summary": "IT之家 10 月 28 日消息，据《卫报》今日报道，埃隆 · 马斯克旗下 xAI 正通过子公司 MZX Tech 向美国密西西比州南海文市（Southaven）部分居民提出房屋收购邀约。根据居民收到的信件，房主接受收购后，需要签署协议，放弃与当地发电厂噪声相关的索赔权利，包括参与针对该公司的集体诉讼的权利。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 128.65,
+      "relevance": 12
+    }
+  ]
+}
