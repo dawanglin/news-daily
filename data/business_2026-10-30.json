@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-30",
+  "items": [
+    {
+      "title": "VideoLVR: Latent Visual Reasoning over Grounded Video Evidence",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.37613v1",
+      "published_at": "2026-10-27",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "GroundControl: Satellite-Conditioned Multi-View Diffusion for Reconstruction-Free Novel View Synthesis",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.37545v1",
+      "published_at": "2026-10-27",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Constraining the Commit Boundary: A DIO/ODI-Informed Authorization Guardrail for Agentic Entity Resolution",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.37407v1",
+      "published_at": "2026-10-27",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "CTBakeGS: training-free baking of photorealistic CT volume renderings into 3D Gaussian splats",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.37406v1",
+      "published_at": "2026-10-27",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Uncovering Shortcut Amplification in Video RLVR through the Lens of Perceptual Uncertainty Collapse",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.37211v1",
+      "published_at": "2026-10-27",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "VGIQA: Fine-Grained Image Quality Assessment with Visual Grounding Rewards",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.37186v1",
+      "published_at": "2026-10-27",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "DomeGS: Perceptually Consistent Background Completion for Unbounded 3D Gaussian Splatting in Virtual Reality",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.37172v1",
+      "published_at": "2026-10-27",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "GraftRay: Physically Based Mesh Insertion into Gaussian Splatting Scenes via Path Tracing",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.37036v1",
+      "published_at": "2026-10-27",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Spatial MIMO Channel Rendering: A 3D Gaussian Splatting Approach",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.36880v1",
+      "published_at": "2026-10-27",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Evaluating AlphaEarth Embeddings for Crop Classification: Separability, Temporal Dynamics, and Cross-Regional Transferab",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.36857v1",
+      "published_at": "2026-10-27",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "ClusterSplat: Semantic Cluster Selection for 3D Visual Grounding in Gaussian Splatting",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.36462v1",
+      "published_at": "2026-10-27",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "A Heart Means Recursion: Exploring Visual Meaning and Communication in VLMs",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.36449v1",
+      "published_at": "2026-10-27",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：Documentation Index",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：<button type=\"button\" aria-describedby=\"_R_3eehkd74t9H1_\"><svg aria-hidden=\"true",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Documentation",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Getting Started",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/getting_started/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Official Manual",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/manual/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Tips & Tricks",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/tips/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    }
+  ]
+}

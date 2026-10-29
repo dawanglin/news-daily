@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30 03:23:15 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 6,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 16,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 14,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 9,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 11,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "百度开源“文心 Unlimited OCR 2”，全球首次实现任意页数文档解析",
+      "link": "https://www.oschina.net/news/503269",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "工具发布",
+      "published": "10-28 14:29",
+      "ts": 1793168996,
+      "summary": "百度正式发布并开源文心 Unlimited OCR 2，宣称\"全球首次实现任意页数文档解析\"——把 OCR 的处理上界从几十页推到\"无限\"，并达到最先进水平（SOTA）。实测显示，在一次性解析累计超过3600页的大体量书籍，文档长度大幅增加的情况下，依然保持较高的精度和处理效率。",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 136,
+      "relevance": 12
+    },
+    {
+      "title": "OpenAI 称其模型证明了局部光滑化猜想，并推翻指数时间假设",
+      "link": "https://www.oschina.net/news/503268",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "概念科普",
+      "published": "10-28 13:59",
+      "ts": 1793167171,
+      "summary": "OpenAI 昨天一口气放出三个领域的\"模型独立发现\"，数学、计算机科学、物理各一个，并且把证明材料公开、请学术界来验证。发布这篇的意义可能比结果本身更大——这是 OpenAI 首次系统性地把内部模型的前沿科研产出摆到台面上，邀请外部审查。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 226,
+      "relevance": 30
+    },
+    {
+      "title": "EVEngine - 面向 AI Agent 的轻量游戏引擎",
+      "link": "https://www.oschina.net/p/EVEngine",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-28 19:32",
+      "ts": 1793187134,
+      "summary": "EVEngine 是一款非常适合 Agent 自己迭代造游戏的引擎 EVEngine ，核心优势有 3 个： 1. 随时热重载 - 脚本更新、资源更新不用等，立马就刷新，修改迭代时间短 2. 自带 MCP 和 debug 服务器，可以截图、控制运行、控制 debug - Agent 可以完全像人一样调试脚本 3. 可以创建编辑器给 Agent - 你写个 editor ，人能用，Age...",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 186,
+      "relevance": 22
+    },
+    {
+      "title": "复刻 JetBrains 的 Git 客户端做成 VS Code 插件发布到插件市场了",
+      "link": "https://www.v2ex.com/t/1252622#reply82",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-28 18:25",
+      "ts": 1793183106,
+      "summary": "上周让 AI 复刻的 git 插件，这周花了些时间优化了一下，现在发布到 vscode 插件市场了，欢迎试用 插件市场搜索 ideagittool 即可找到 开源仓库地址： https://github.com/PGshen/vs-idea-gittool 欢迎提交 issue 和 pr",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 183,
+      "relevance": 25
+    },
+    {
+      "title": "概率、插座与5000个爱因斯坦：专访阿里云研发副总裁周琦",
+      "link": "https://www.infoq.cn/article/5xCWuR8CMGosWrEuNbix?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "技术实践",
+      "published": "10-30 02:37",
+      "ts": 1793299031,
+      "summary": "概率、插座与5000个爱因斯坦：专访阿里云研发副总裁周琦",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 130.75,
+      "relevance": 9
+    },
+    {
+      "title": "System76 推出 Thelio Prime 迷你主机：锐龙 9000 系列 CPU、可选独显",
+      "link": "https://www.ithome.com/1/019/768.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "科技资讯",
+      "published": "10-29 21:21",
+      "ts": 1793280112,
+      "summary": "IT之家 10 月 29 日消息，据科技媒体 Notebookcheck 今天报道，System76 现已推出 Thelio Prime 迷你主机。新品采用 11L 紧凑设计，配备锐龙 9000 系列 CPU，起售价 1,599 美元 （IT之家注：现汇率约合 10,682 元人民币） 。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 102.99,
+      "relevance": 7
+    },
+    {
+      "title": "16 次发版背后，是每一位贡献者的力量｜Devlive Community 10 月开源月报",
+      "link": "https://www.oschina.net/news/503292",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-29 13:47",
+      "ts": 1793252838,
+      "summary": "Devlive Community 2026 年 10 月 · Devlive Community 开源社区月报 十月，Devlive Community 的开源项目继续向前。从跨平台桌面工具、AI Agent，到统一权限治理、知识管理与多云对象存储，我们持续推进产品迭代，也迎来了新的社区代码贡献。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 154.47,
+      "relevance": 15
+    },
+    {
+      "title": "以未来几何推演物理交互，X-Era AI拓元智慧开源原生4D世界动作模型E0.5，真机大幅超越π0.5",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651070899&idx=1&sn=79fca61238019e09fdc1d38766304109",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "工具发布",
+      "published": "10-29 12:01",
+      "ts": 1793246460,
+      "summary": "以四维时空表征为原生架构骨干，将未来物理几何状态预测与动作生成实现一体化统一建模，推动机器人从「看懂世界」迈向「推演物理规律、直接生成执行动作」。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 156.88,
+      "relevance": 15
+    },
+    {
+      "title": "TrendForce 预测：全球 OLED 笔电出货量有望在中期维持超 30% 年增幅",
+      "link": "https://www.ithome.com/1/019/776.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "10-29 22:05",
+      "ts": 1793282709,
+      "summary": "IT之家 10 月 29 日消息，苹果北京时间今日发布了 MacBook Pro (PROLED XDR 显示屏)。在首款 OLED MacBook 产品面世后，研调机构 TrendForce（集邦）发布了对整体 OLED 笔电市场的最新预测。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 113.23,
+      "relevance": 9
+    },
+    {
+      "title": "豆包工作向企业客户推出第三方模型服务：含 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等",
+      "link": "https://www.ithome.com/1/019/733.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-29 19:34",
+      "ts": 1793273663,
+      "summary": "IT之家 10 月 29 日消息，豆包工作今日宣布向企业客户开放第三方模型服务， 首批将接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型 。IT之家了解到，本次更新面向团队订阅版和企业订阅版客户开放，上线后默认直接开启。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 217.4,
+      "relevance": 30
+    },
+    {
+      "title": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
+      "link": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-29 06:05",
+      "ts": 1793225140,
+      "summary": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 183.9,
+      "relevance": 21
+    },
+    {
+      "title": "OpenAI 有个小福利 去领一下",
+      "link": "https://www.v2ex.com/t/1252772#reply79",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-29 10:42",
+      "ts": 1793241773,
+      "summary": "OpenAI 官方宣布，ChatGPT Pro 和 Business 订阅用户每月可免费领取最高 500 美元 API 额度，已经订阅的用户也能领。https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions 赠送额度： Pro 100：每月 100 美元 Pro 200：每月 200 美元 Pro 500：每月 500 美元 Busin…",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 175.44,
+      "relevance": 23
+    },
+    {
+      "title": "有哪些 AI 模型比较说人话的？接近人类日常表达的",
+      "link": "https://www.v2ex.com/t/1252921#reply26",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "用户讨论",
+      "published": "10-29 17:17",
+      "ts": 1793265470,
+      "summary": "给个场景：用英语 dm 目标用户的时候，用 AI 修饰过的英文还是很明显的 AI slop ，对方还是很明显的感觉到并介意收到这种 dm 。让人感觉在和朋友、家人、爸妈正常人类交流的 ，有哪些大模型、小模型在这方面表现比较好的？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 172.64,
+      "relevance": 22
+    },
+    {
+      "title": "让 Agent 读懂你的身体：数据处理篇",
+      "link": "https://sspai.com/prime/story/how-to-analyze-health-data-with-agent",
+      "source": "少数派",
+      "signals": [
+        "少数派"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-29 11:29",
+      "ts": 1793244586,
+      "summary": "在上一篇文章《让Agent读懂你的身体：数据获取篇》中，我花了很大的篇幅讲清楚了第一个问题：Agent怎样拿到数据。如果照着实践完，你大概率已经收获了一份存储了运动健康数据的SQLite、Markdo ... 查看全文 本文为会员文章，出自 《单篇文章》 ，订阅后可阅读全文。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "数字生活来源",
+      "confidence_class": "professional",
+      "score": 162.7,
+      "relevance": 18
+    },
+    {
+      "title": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
+      "link": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "10-30 04:13",
+      "ts": 1793304787,
+      "summary": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 161.0,
+      "relevance": 15
+    },
+    {
+      "title": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
+      "link": "https://www.infoq.cn/article/aK6ADSkIvwf265yc8PuT?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "10-30 02:00",
+      "ts": 1793296823,
+      "summary": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 160.54,
+      "relevance": 15
+    },
+    {
+      "title": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
+      "link": "https://www.qbitai.com/2026/10/505934.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "10-29 10:18",
+      "ts": 1793240308,
+      "summary": "用扩散模型怎么做做Agent？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 155.31,
+      "relevance": 15
+    },
+    {
+      "title": "Mac mini M6 钙版，国补后价格：¥4902｜最佳 AI Agent 运行硬件",
+      "link": "https://www.appinn.com/mac-mini-m6-national-subsidy-price-4902/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "实测评价",
+      "published": "10-27 14:58",
+      "ts": 1793084293,
+      "summary": "作为最佳 AI Agent 运行硬件，上一波 Mac mini M4 只需不到 3000 元的价格，就能拥有。但经历了苹果产品全线涨价，平均涨幅约 21%，以及新产品更新换代之后，Mac mini M6 的官网钙版价格已经来到了 6999 元。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 147,
+      "relevance": 15
+    },
+    {
+      "title": "iStat Menus 7.5 新增「Astronomy（天文学）」功能",
+      "link": "https://www.appinn.com/istat-menus-7-5-astronomy/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "工具发布",
+      "published": "10-28 15:22",
+      "ts": 1793172146,
+      "summary": "著名的 macOS 系统信息监控工具 iStat Menus 7.5 新增了一个Astronomy（天文学）」功能，可以显示当前位置的日出、日落，高度曲线、天文事件、天文图片等信息。@Appinn 作为一款以设计优美著称的软件，iStat Menus 的存在感其实并不高，因为它属于只有需要的时候才打",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 132,
+      "relevance": 12
+    },
+    {
+      "title": "[分享] 给科研人员做了一个 Zotero AI 插件 BibGenie",
+      "link": "https://www.v2ex.com/t/1252984#reply1",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-29 21:35",
+      "ts": 1793280912,
+      "summary": "大家好，我是 BibGenie 的开发者，来分享一下自己做了一年多的东西，也想听听 V 站里还在用 Zotero 看文献的朋友的真实反馈。背景说明 用 Zotero 的应该都知道，它是科研圈最主流的开源文献管理工具，但本身没有任何 AI 能力。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 131.07,
+      "relevance": 13
+    },
+    {
+      "title": "搞了个 DSH 插件，把多个会话平铺在一屏，终于不用切来切去了",
+      "link": "https://www.v2ex.com/t/1252978#reply1",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-29 21:11",
+      "ts": 1793279474,
+      "summary": "# 痛点 最近一直在使用 dsh,经常同时跑多个会话（多个工作需求、bug 定位修复，再加上几个自己自娱自乐的小项目）。遇到的一个痛点就是多个项目需要来回切换：看完程度、看有没有卡在权限审批/方案决策、看有没有跑偏。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 130.94,
+      "relevance": 13
+    },
+    {
+      "title": "天文学家在柯伊伯带发现一颗巨大的矮行星候选天体",
+      "link": "https://www.solidot.org/story?sid=85735",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-28 22:09",
+      "ts": 1793196590,
+      "summary": "2025 年 6 月正式启动观测的 Vera C. Rubin 天文台其任务之一是绘制太阳系内小天体地图，尤其是柯伊伯带天体。现在天文学家报告利用天文台的观测设备在柯伊伯带发现了一颗巨大的矮行星候选天体。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 126,
+      "relevance": 12
+    },
+    {
+      "title": "单个反物质粒子被捕获在陷阱中长达数月",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/202610289521802157041.shtm?id=157041",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-28 17:52",
+      "ts": 1793181120,
+      "summary": "在美国伊利诺伊州的一个实验室里，物理学家在一个具有隐形壁的陷阱中捕获并驯服了一个微小的反物质粒子。通过研究这个正电子的行为方式，研究人员可能很快就有一个机会来打破关于物理现实的...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "国产芯片与英伟达芯片部署算力工厂的性价比分析",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=361477&do=blog&id=1558689",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "教程方法",
+      "published": "10-29 19:20",
+      "ts": 1793272859,
+      "summary": "国产芯片与英伟达芯片部署算力工厂的性价比分析",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 123.32,
+      "relevance": 9
+    },
+    {
+      "title": "[转载]【NCM研究论文】王磊/解明江教授:三聚氰胺‑铁络合物诱导GO组装制备高致密氮掺杂炭用于超级电容器",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=100107&do=blog&id=1558665",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "概念科普",
+      "published": "10-29 17:51",
+      "ts": 1793267477,
+      "summary": "[转载]【NCM研究论文】王磊/解明江教授:三聚氰胺‑铁络合物诱导GO组装制备高致密氮掺杂炭用于超级电容器",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 122.82,
+      "relevance": 9
+    },
+    {
+      "title": "红果开源播放器 (Hongguo Open Player)",
+      "link": "https://www.v2ex.com/t/1252959#reply7",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-29 19:30",
+      "ts": 1793273429,
+      "summary": "红果开源播放器 (Hongguo Open Player) https://github.com/zfdang/hongguo-open-player 专为桌面端打造的跨平台短剧播放利器，告别笨重模拟器，畅享纯净、极致的沉浸式短剧观影体验。项目简介 红果开源播放器 是一款支持 macOS 与 Windows 的原生短剧桌面客户端。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 115.38,
+      "relevance": 10
+    }
+  ]
+}
