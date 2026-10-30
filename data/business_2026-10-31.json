@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "title": "Soil Moisture Estimation in Precision Agriculture: A Knowledge Distillation Approach",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.40432v1",
+      "published_at": "2026-10-29",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "NeurEO: dissecting Earth observation embeddings with computational neuroscience",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.40137v1",
+      "published_at": "2026-10-29",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Surrogate Uncertainty for Black-box Visual Grounding",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.39798v1",
+      "published_at": "2026-10-29",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Rebuilding a Field's Open-Problem Catalog from the Literature: A Two-Layer Knowledge Graph, and Why Status Must Stay Pro",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.39641v1",
+      "published_at": "2026-10-29",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PathCowork: Learning from real-world pathology practice to build AI copilots",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.39441v1",
+      "published_at": "2026-10-29",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "ACD-GS: Asymmetric Curvature-aware Densification for 3D Gaussian Splatting",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.39399v1",
+      "published_at": "2026-10-29",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "P^2-Gaussian: Prior-Driven and Projection-Guided Gaussian Splatting for Sparse-View Cone-Beam CT Reconstruction",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.39359v1",
+      "published_at": "2026-10-29",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "COGS: A Diagnostic Benchmark for Attribute-Aware Object-Level 3D Gaussian Splatting Perception",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.39201v1",
+      "published_at": "2026-10-29",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "GradSplat: Gradients Inside the Forward Pass for Feed-Forward 3D Gaussian Splatting",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.38951v1",
+      "published_at": "2026-10-28",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "inkGround: Benchmarking Fine-grained Visual Grounding Capabilities of Vision-Language Models for Cursive Handwriting in ",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.38720v1",
+      "published_at": "2026-10-28",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "SpaceAct: Benchmarking 3D Spatial and Temporal Reasoning via Closed-Loop Action and Active Perception",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.38405v1",
+      "published_at": "2026-10-28",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "BudSplat: Feed-forward 3D Gaussian Splatting under a Rendering Budget",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2610.38278v1",
+      "published_at": "2026-10-28",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：Documentation Index",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：<button type=\"button\" aria-describedby=\"_R_3eehkd74t9H1_\"><svg aria-hidden=\"true",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Documentation",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Getting Started",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/getting_started/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Official Manual",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/manual/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Tips & Tricks",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/tips/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    }
+  ]
+}

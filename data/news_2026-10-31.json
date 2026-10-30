@@ -1,0 +1,580 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31 02:57:10 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 9,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 16,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 10,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 11,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "告别“测不准、看不全、改得慢”！无人机点云为高边坡工程做“即时CT”",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/20261026155623943157052.shtm?id=157052",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "专家观点",
+      "published": "10-26 23:56",
+      "ts": 1793030160,
+      "summary": "在高填深挖的边坡工程中，进度管理长期受制于“测不准、看不全、改得慢”的困境。近日，同济大学土木工程学院李晓军教授、芮易教授团队在ENGINEERING...",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 110,
+      "relevance": 6
+    },
+    {
+      "title": "奥尔特曼回应 AI 冲击：理解数学家的处境，但 OpenAI 不会停止研究",
+      "link": "https://www.ithome.com/1/020/361.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "概念科普",
+      "published": "10-30 21:50",
+      "ts": 1793368221,
+      "summary": "IT之家 10 月 30 日消息，OpenAI CEO 萨姆・奥尔特曼（Sam Altman）在参加《Cheeky Pint》播客节目时表示，他理解数学家面对 AI 研究成果大量涌现时的处境，但 OpenAI 需继续公布具有重要价值的科学发现。他认为，人类有权了解宇宙运行的基本规律，公司不应将重大的基础科学发现长期保留在内部。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 203.3,
+      "relevance": 27
+    },
+    {
+      "title": "这个 Agent 宿主把界面做成了纯文本，你想要什么形状自己让 Agent 改",
+      "link": "https://www.oschina.net/news/503317/herdr-dev-agent-ide-runtime",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-30 17:06",
+      "ts": 1793351177,
+      "summary": "Herdr 的自我介绍里有一句话很吸睛：\"每一处界面都是你 agent 能改的文件。\" 它是一个给 coding agent 用的原生宿主——Claude Code、Codex、以及任何在终端里跑的 agent 都能住进去。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 200.72,
+      "relevance": 24
+    },
+    {
+      "title": "做了一个开源 Zotero 插件 Mktero：把论文 PDF 读成能跳回原文的 Markdown",
+      "link": "https://www.v2ex.com/t/1253294#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "10-30 21:04",
+      "ts": 1793365452,
+      "summary": "大家好，我是 Mktero 的作者。这是一个 Zotero 7–10 的扩展，MIT 开源。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 131.04,
+      "relevance": 13
+    },
+    {
+      "title": "【AI 智能运维平台】本周更新：全新上线 RUM 模块，从真实用户视角了解网站访问与使用体验",
+      "link": "https://www.oschina.net/news/503312",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "工具发布",
+      "published": "10-30 15:07",
+      "ts": 1793344067,
+      "summary": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。【平台 · 本周更新速递】 CMDB • 扫描发现升级为「端口探测 → 进程识别 → 配置采集」递进流程，未配置数据库账号也可发现疑似对象 • 新增采集数据调和，多个...",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 160.06,
+      "relevance": 16
+    },
+    {
+      "title": "4 条提示词，如何把 98 条产品评论变成工程决策依据 ｜ 技术实践",
+      "link": "https://www.infoq.cn/article/5EaQcXCgMWaZaRvFBeoh?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "教程方法",
+      "published": "10-30 19:07",
+      "ts": 1793358424,
+      "summary": "4 条提示词，如何把 98 条产品评论变成工程决策依据 ｜ 技术实践",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 163.39,
+      "relevance": 16
+    },
+    {
+      "title": "16 次发版背后，是每一位贡献者的力量｜Devlive Community 10 月开源月报",
+      "link": "https://www.oschina.net/news/503292",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "10-29 13:47",
+      "ts": 1793252838,
+      "summary": "Devlive Community 2026 年 10 月 · Devlive Community 开源社区月报 十月，Devlive Community 的开源项目继续向前。从跨平台桌面工具、AI Agent，到统一权限治理、知识管理与多云对象存储，我们持续推进产品迭代，也迎来了新的社区代码贡献。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 151,
+      "relevance": 15
+    },
+    {
+      "title": "以未来几何推演物理交互，X-Era AI拓元智慧开源原生4D世界动作模型E0.5，真机大幅超越π0.5",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651070899&idx=1&sn=79fca61238019e09fdc1d38766304109",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "工具发布",
+      "published": "10-29 12:01",
+      "ts": 1793246460,
+      "summary": "以四维时空表征为原生架构骨干，将未来物理几何状态预测与动作生成实现一体化统一建模，推动机器人从「看懂世界」迈向「推演物理规律、直接生成执行动作」。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "北京启动2026年网络辟谣宣传月活动",
+      "link": "https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E5%90%AF%E5%8A%A82026%E5%B9%B4%E7%BD%91%E7%BB%9C%E8%BE%9F%E8%B0%A3%E5%AE%A3%E4%BC%A0%E6%9C%88%E6%B4%BB%E5%8A%A8&sa=fyb_news&rsv_dl=fyb_news",
+      "source": "百度热搜",
+      "signals": [
+        "百度热搜",
+        "头条热榜"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "用户讨论",
+      "published": "10-31 02:56",
+      "ts": 1793386603,
+      "summary": "10月30日，“智启京彩・E路消谣”2026年北京网络辟谣宣传月活动正式启幕。活动精准围绕“敬老慈幼”民生领域和“清谣护企”助企辟谣两大主题开展系列工作，引导广大网民辨别网络谣言，聚力营造清朗向上的网络空间和惠企利民的网络营商环境。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "兴趣线索",
+      "confidence_class": "signal",
+      "score": 136.0,
+      "relevance": 17
+    },
+    {
+      "title": "做了个 Windows Phone 风格的 Tailscale 内网主页，顺便搭了套「手机上指挥 Claude 改代码、刷新就看到效果」的免费闭环",
+      "link": "https://www.v2ex.com/t/1253268#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "用户作品",
+      "published": "10-30 18:11",
+      "ts": 1793355104,
+      "summary": "家里有台 Mac mini 跑着一堆自建服务，设备和端口越来越多，记不住哪个服务在哪台机器的哪个端口，于是写了个 tailnet 主页。GitHub： https://github.com/muzig/tailscale-home 在线演示（虚构数据，建议手机打开）： https://muzig.github.io/tailscale-home/ 它做什么 读 tailscale status / tailscale serve status ，自动列出 tailnet 里…",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 200.08,
+      "relevance": 27
+    },
+    {
+      "title": "AI+垂类Agent：任务跑得久、工具用得熟，撑不起Agent公司长期竞争力｜贝联珠贯创始人兼CEO 毕玄分享",
+      "link": "https://www.infoq.cn/article/sCKczimP9lSEl0rgJ7VY?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专家观点",
+      "published": "10-31 03:27",
+      "ts": 1793388421,
+      "summary": "AI+垂类Agent：任务跑得久、工具用得熟，撑不起Agent公司长期竞争力｜贝联珠贯创始人兼CEO 毕玄分享",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 191.0,
+      "relevance": 21
+    },
+    {
+      "title": "聚力开源向实 赋能产业创新——2026 上海开源软件应用创新大赛总决赛暨创新增长大会圆满落幕",
+      "link": "https://www.oschina.net/news/503320",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-30 19:10",
+      "ts": 1793358659,
+      "summary": "10月29日至30日，2026上海开源软件应用创新大赛总决赛暨创新增长大会在上海张江人工智能创新小镇举行。本届大赛由开源中国主办，自8月5日启动报名以来，共收到报名项目766个，40余家合作企业和开源社区参与；",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 186.41,
+      "relevance": 21
+    },
+    {
+      "title": "我写了个用于汉化 Github 的浏览器扩展: GitHub 中文化",
+      "link": "https://www.v2ex.com/t/1253151#reply15",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-30 12:40",
+      "ts": 1793335259,
+      "summary": "制作这款扩展的原因是之前使用油猴脚本的时候感觉对方的脚本在匹配速度上不是很理想, 并且感觉对方的脚本明显很臃肿, 自由度也不怎么高, 所以就花了几天时间自己写了个插件, 本插件不仅支持简体和繁体也支持自定义匹配规则, 适用于国内外所有中文使用群体宝宝们的体质 插件截图 开源仓库 https://github.com/setube/github-chinese 开发文档 https://github.com/setube/github-chinese#%E5%8F%82%E4…",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 173.25,
+      "relevance": 22
+    },
+    {
+      "title": "AI安全是AI规模化应用“加速器”",
+      "link": "https://www.qbitai.com/2026/10/506544.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "案例复盘",
+      "published": "10-29 16:50",
+      "ts": 1793263814,
+      "summary": "AI安全不是AI发展的“刹车片”，而是AI高质量发展的“加速器”。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 168,
+      "relevance": 18
+    },
+    {
+      "title": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
+      "link": "https://www.infoq.cn/article/f3FdeDczctAdHMhvBdKw?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "10-31 02:53",
+      "ts": 1793386428,
+      "summary": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 160.98,
+      "relevance": 15
+    },
+    {
+      "title": "让 Agent 读懂你的身体：数据处理篇",
+      "link": "https://sspai.com/prime/story/how-to-analyze-health-data-with-agent",
+      "source": "少数派",
+      "signals": [
+        "少数派"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "10-29 11:29",
+      "ts": 1793244586,
+      "summary": "在上一篇文章《让Agent读懂你的身体：数据获取篇》中，我花了很大的篇幅讲清楚了第一个问题：Agent怎样拿到数据。如果照着实践完，你大概率已经收获了一份存储了运动健康数据的SQLite、Markdo ... 查看全文 本文为会员文章，出自 《单篇文章》 ，订阅后可阅读全文。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "数字生活来源",
+      "confidence_class": "professional",
+      "score": 160,
+      "relevance": 18
+    },
+    {
+      "title": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
+      "link": "https://www.infoq.cn/article/FJqN3mFVyN1lMqHOiegs?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "10-30 19:22",
+      "ts": 1793359320,
+      "summary": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 158.47,
+      "relevance": 15
+    },
+    {
+      "title": "Claude新模型曝光：新Fable，新Opus…",
+      "link": "https://www.qbitai.com/2026/10/506674.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "10-30 13:50",
+      "ts": 1793339444,
+      "summary": "Claude新模型曝光：新Fable，新Opus…",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 156.63,
+      "relevance": 15
+    },
+    {
+      "title": "梦想不灭：开发者拒绝 Windows Phone 死亡，利用 AI 辅助为微软 Lumia 640 开发新应用",
+      "link": "https://www.ithome.com/1/020/366.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "10-30 22:04",
+      "ts": 1793369060,
+      "summary": "IT之家 10 月 30 日消息，随着 AI 技术突飞猛进，许多开发者在大模型辅助加持之下对各种老旧机型进行折腾，例如在诺记吧贴吧就有一位开发者 FORZGC 宣布在 AI 辅助之下为“死亡”多年的微软 Windows Phone 系统打造了一系列应用。该开发者表示，其利用 AI 扒取各大网站 API，进而将其打包为 Windows Phone 系统可用的应用包，虽然只是“简单实现，只能浏览”，但“如果愿意折腾还可以实现更多功能”。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 153.38,
+      "relevance": 17
+    },
+    {
+      "title": "STEPX Neo 发布两周即迎首次升级，智能体能力持续释放",
+      "link": "https://www.qbitai.com/2026/10/506554.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "10-29 17:58",
+      "ts": 1793267906,
+      "summary": "阶跃终端旗下大模型原生智能体手机 STEPX Neo 在发布两周后即迎来首次升级",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "iStat Menus 7.5 新增「Astronomy（天文学）」功能",
+      "link": "https://www.appinn.com/istat-menus-7-5-astronomy/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "工具发布",
+      "published": "10-28 15:22",
+      "ts": 1793172146,
+      "summary": "著名的 macOS 系统信息监控工具 iStat Menus 7.5 新增了一个Astronomy（天文学）」功能，可以显示当前位置的日出、日落，高度曲线、天文事件、天文图片等信息。@Appinn 作为一款以设计优美著称的软件，iStat Menus 的存在感其实并不高，因为它属于只有需要的时候才打",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 132,
+      "relevance": 12
+    },
+    {
+      "title": "单个反物质粒子被捕获在陷阱中长达数月",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/202610289521802157041.shtm?id=157041",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-28 17:52",
+      "ts": 1793181120,
+      "summary": "在美国伊利诺伊州的一个实验室里，物理学家在一个具有隐形壁的陷阱中捕获并驯服了一个微小的反物质粒子。通过研究这个正电子的行为方式，研究人员可能很快就有一个机会来打破关于物理现实的...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "LibreOffice 项目递交的代码发现使用LLM 的明确标记",
+      "link": "https://www.solidot.org/story?sid=85755",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "概念科普",
+      "published": "10-30 18:45",
+      "ts": 1793357138,
+      "summary": "开发 LibreOffice 的 The Document Foundation(TDF)此前表示这款办公软件不会内置 AI 功能，其核心开发者也不使用 LLM 等 AI 辅助编程工具。但向该项目贡献代码的社区开发者未必会遵守该规定。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 121.27,
+      "relevance": 10
+    },
+    {
+      "title": "UEFI 爆出固件漏洞：影响 PXE 网络启动，评分 9.5，已存在 16 年｜CVE-2026-97631",
+      "link": "https://www.appinn.com/uefi-edk2-vulnerability-cve-2026-97631/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "案例复盘",
+      "published": "10-30 12:37",
+      "ts": 1793335058,
+      "summary": "安全研究人员最近公开了一个存在约 16 年的 UEFI 固件漏洞，编号为 CVE-2026-97631，严重程度评分高达 9.5 分（满分 10 分）。据 Ars Technica 报道，这个漏洞存在于广泛使用的开源 UEFI 固件开发框架 EDK II 中，具体位于负责 PXE 网络启动的 Ue",
+      "why": "可练习把位置、数据和模糊关系连接起来。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 120.23,
+      "relevance": 9
+    },
+    {
+      "title": "研究为“革命性”物理研究打开大门",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/20261027224912583157014.shtm?id=157014",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-22 23:58",
+      "ts": 1792684680,
+      "summary": "物理学家现已将单个正电子——电子的反物质对应物，悬浮在半空中，并将其冷却至可能达到的最低能级。该实验装置将使研究人员能够以前所未有的精度研究正...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 115,
+      "relevance": 7
+    },
+    {
+      "title": "中了勒索病毒后，我觉得 NAS 有必要装个杀毒软件吧",
+      "link": "https://www.v2ex.com/t/1253321#reply5",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "10-31 00:06",
+      "ts": 1793376372,
+      "summary": "普通人 nas 一般都没有杀毒软件监控啥的吧，这次中了勒索病毒，文件全被加密，如果装了杀毒软件，总能止损吧？",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 110.05,
+      "relevance": 9
+    }
+  ]
+}
