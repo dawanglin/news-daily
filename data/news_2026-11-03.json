@@ -1,0 +1,579 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03 06:33:36 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 5,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 9,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 9,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "告别“测不准、看不全、改得慢”！无人机点云为高边坡工程做“即时CT”",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/20261026155623943157052.shtm?id=157052",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "专家观点",
+      "published": "10-26 23:56",
+      "ts": 1793030160,
+      "summary": "在高填深挖的边坡工程中，进度管理长期受制于“测不准、看不全、改得慢”的困境。近日，同济大学土木工程学院李晓军教授、芮易教授团队在ENGINEERING...",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 110,
+      "relevance": 6
+    },
+    {
+      "title": "Strata 0.2.9 发布：本地大模型 Prefill 最高提速 88%，还支持 1 比特 DeepSeek",
+      "link": "https://www.appinn.com/strata-0-2-9/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-31 17:12",
+      "ts": 1793437941,
+      "summary": "本地运行 AI 大模型的 Strata 0.2.9 发布，又变快了。日更软件 Strata，今天更新到了 0.2.9 版本，在为本地大模型提速的道路上继续前进。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 197,
+      "relevance": 25
+    },
+    {
+      "title": "AI+科研：Agent加速科研，论文写得快了，成果更难评了 ｜ 西湖大学工学院博导 王欢分享",
+      "link": "https://www.infoq.cn/article/MbwRCg4cKC2f3bwv0Cpb?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "概念科普",
+      "published": "11-03 02:33",
+      "ts": 1793644435,
+      "summary": "AI+科研：Agent加速科研，论文写得快了，成果更难评了 ｜ 西湖大学工学院博导 王欢分享",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 159.67,
+      "relevance": 15
+    },
+    {
+      "title": "AI+FDE：合格的FDE，要亲手跟老师傅做业务，再把经验解法做成Skill ｜深空之序联合创始人兼COO 芦宇峰分享",
+      "link": "https://www.infoq.cn/article/FckEhkVfCLoXg0jvaKBa?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "专家观点",
+      "published": "11-03 01:01",
+      "ts": 1793638889,
+      "summary": "AI+FDE：合格的FDE，要亲手跟老师傅做业务，再把经验解法做成Skill ｜深空之序联合创始人兼COO 芦宇峰分享",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 164.16,
+      "relevance": 16
+    },
+    {
+      "title": "奥特曼：PC上装内存太浪费，最好留给AI数据中心",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651071332&idx=1&sn=0c5de14adcf9ec2ab871ae848864ecc7",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "专业报道",
+      "published": "10-31 15:28",
+      "ts": 1793431680,
+      "summary": "「你根本不会用内存。」",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 139,
+      "relevance": 12
+    },
+    {
+      "title": "AI+艺术：想让AI演得像“老戏骨”，多写提示词不如先演一遍 ｜ 奇点川越创始人 程佳伟导演分享",
+      "link": "https://www.infoq.cn/article/pXJoz3XPv5D224a9Fro1?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "专家观点",
+      "published": "11-03 04:00",
+      "ts": 1793649600,
+      "summary": "AI+艺术：想让AI演得像“老戏骨”，多写提示词不如先演一遍 ｜ 奇点川越创始人 程佳伟导演分享",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 165.15,
+      "relevance": 16
+    },
+    {
+      "title": "微信小程序葵花码（太阳码）编码解码算法已被逆向，随意生成，已泛滥",
+      "link": "https://www.v2ex.com/t/1253946#reply0",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "用户讨论",
+      "published": "11-02 21:37",
+      "ts": 1793626677,
+      "summary": "摘要 前段时间，在我的一个群里看到有人发了一个葵花码出来，长按扫码我以为就是打开一个小程序，没想到直接跳到一个 URL 了（下面图片跳百度），而且这东西只有微信可以长按识别，其他不行，我就知道这事不简单。经过几天后，看到越来越多人会玩会做，各种 DIY ，我就知道，这估计又是逆向出来的。",
+      "why": "可拆出一个界面、交互或游戏机制。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 108.03,
+      "relevance": 9
+    },
+    {
+      "title": "单个反物质粒子被捕获在陷阱中长达数月",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/202610289521802157041.shtm?id=157041",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-28 17:52",
+      "ts": 1793181120,
+      "summary": "在美国伊利诺伊州的一个实验室里，物理学家在一个具有隐形壁的陷阱中捕获并驯服了一个微小的反物质粒子。通过研究这个正电子的行为方式，研究人员可能很快就有一个机会来打破关于物理现实的...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "UEFI 爆出固件漏洞：影响 PXE 网络启动，评分 9.5，已存在 16 年｜CVE-2026-97631",
+      "link": "https://www.appinn.com/uefi-edk2-vulnerability-cve-2026-97631/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "案例复盘",
+      "published": "10-30 12:37",
+      "ts": 1793335058,
+      "summary": "安全研究人员最近公开了一个存在约 16 年的 UEFI 固件漏洞，编号为 CVE-2026-97631，严重程度评分高达 9.5 分（满分 10 分）。据 Ars Technica 报道，这个漏洞存在于广泛使用的开源 UEFI 固件开发框架 EDK II 中，具体位于负责 PXE 网络启动的 Ue",
+      "why": "可练习把位置、数据和模糊关系连接起来。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 117,
+      "relevance": 9
+    },
+    {
+      "title": ":fire::fire: ApiGo 开源接口平台 Go 版本发布",
+      "link": "https://www.oschina.net/news/503339",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-02 10:58",
+      "ts": 1793588316,
+      "summary": "ApiGoo 是 ApiGo 的go语言版本，是一款在线接口开发和管理平台，多数据库插件化数据源框架、SQL2API 。支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台 MCP 接入。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 242.47,
+      "relevance": 33
+    },
+    {
+      "title": "Go 语言重构 Java 项目会提升了多少",
+      "link": "https://www.oschina.net/news/503342",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-02 13:32",
+      "ts": 1793597555,
+      "summary": "把Java项目ApiGo使用Go语言重构为ApiGoo，提升了哪些 背景: ApiGo 是一个gitee上开源的 SQL2API 平台——在线写 SQL，AI对话即可快速发布成 REST 接口。Java版是 Spring Boot 4 + Mybatis，实现MySQL/Oracle/SQLServer/达梦/ClickHouse 等十几种数据库的 JDBC 驱动全打进一个 fat jar。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 228.33,
+      "relevance": 30
+    },
+    {
+      "title": "开源数据库管理工具 CloudDM 发布新版本，支持团队多级审批工单",
+      "link": "https://www.oschina.net/news/503343",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-02 13:37",
+      "ts": 1793597876,
+      "summary": "CloudDM 是一款免费且开源的团队化数据库管理工具，提供统一 Web 数据库访问、权限控制、数据脱敏、SQL 审核、流程协同和数据库 CI/CD 等能力。亮点 新增团队化审批节点，解决单个审批环节只能设定一个人的问题。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 168.36,
+      "relevance": 18
+    },
+    {
+      "title": "ESP Mosaico 这种概念的出现，让 AI 彻底攻破了嵌入式应用开发的护城河",
+      "link": "https://www.v2ex.com/t/1253635#reply58",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "概念科普",
+      "published": "11-02 08:38",
+      "ts": 1793579903,
+      "summary": "前两天买了个 ESP Mosaico ，我感觉我真的要完了，嵌入式开发也彻底没救了。个人体验，只要把这个模块插上电脑，然后跟 AI 说你想要在上面做什么功能，它就会自己分析 UI 应该怎么画、传感器怎么选配，然后先在上位机仿真，再到下位机 debug （对的，可以直接 debug 下位机）。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 163.7,
+      "relevance": 21
+    },
+    {
+      "title": "AI+办公：Agent都有“工位”了，云电脑既让它接手业务、也管住权限 ｜ 阿里云智能集团研发副总裁 张献涛分享",
+      "link": "https://www.infoq.cn/article/Vryq1f3C0f5uZHOlmIp4?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-03 02:08",
+      "ts": 1793642922,
+      "summary": "AI+办公：Agent都有“工位”了，云电脑既让它接手业务、也管住权限 ｜ 阿里云智能集团研发副总裁 张献涛分享",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 159.53,
+      "relevance": 15
+    },
+    {
+      "title": "OpenAI重写大模型法则，第一条：忠于人类！！",
+      "link": "https://www.qbitai.com/2026/11/507225.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "11-02 15:27",
+      "ts": 1793604474,
+      "summary": "新版“机器人三定律”。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 155.97,
+      "relevance": 15
+    },
+    {
+      "title": "pi agent 太费 token 了！",
+      "link": "https://www.v2ex.com/t/1253745#reply28",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "11-02 11:48",
+      "ts": 1793591326,
+      "summary": "没错， 和大家以为的刚好相反，pi agent 根本不省 token ，同样的任务相对于 codex ， 消耗量至少是 2 倍以上！（不要用那些 简单的短任务来说事， 我说的是正常工作中的长任务，很轮的对话， 大量的工具调用等等） 我接触了 pi agent ，被它的所谓的一切都是插件化给吸引了。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 154.75,
+      "relevance": 19
+    },
+    {
+      "title": "为 AI 建设者打造免费工具箱 —— 能扫 SKILL 安全，能 PUA 你的 AI 员工",
+      "link": "https://www.v2ex.com/t/1253899#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-02 18:02",
+      "ts": 1793613731,
+      "summary": "大家好，我来分享一个最近打磨的开发者工具站： KitVerse.dev 。起因 日常折腾 AI 的过程中，虽然 AI 看似无所不能，但拦路虎其实不少： AI 这么强，到底能让它干点啥？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 153.83,
+      "relevance": 18
+    },
+    {
+      "title": "DeepSeek 团队把 Agent 设计成“操作系统”：多任务的上限不该是人的注意力",
+      "link": "https://www.oschina.net/news/503338/deepseek-harness-super-agent",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专家观点",
+      "published": "11-02 10:39",
+      "ts": 1793587193,
+      "summary": "DeepSeek Harness 团队发了一篇架构长文，讲他们怎么做出一个\"永远在线\"的 Agent。文章有一句话很精辟： 单任务的上限取决于模型能力，多任务的上限取决于人的注意力。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 152.37,
+      "relevance": 15
+    },
+    {
+      "title": "海淘算汇率太麻烦，我自己做了个插件",
+      "link": "https://www.v2ex.com/t/1253977#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-03 02:08",
+      "ts": 1793642922,
+      "summary": "海淘算汇率不顺手，我干脆自己做了个插件。我经常海淘，算汇率是日常操作。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 146.53,
+      "relevance": 16
+    },
+    {
+      "title": "OpenAI CEO 奥尔特曼称个人电脑浪费内存遭全网声讨，马斯克也来补刀",
+      "link": "https://www.ithome.com/1/021/274.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "科技资讯",
+      "published": "11-02 22:21",
+      "ts": 1793629312,
+      "summary": "IT之家 11 月 2 日消息，萨姆 · 奥尔特曼近期关于内存的言论引发越来越多人反对，埃隆 · 马斯克也加入了这场声讨。上周，这位 OpenAI 首席执行官的一番话在全网、尤其是玩家群体中引发强烈不满。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 142.27,
+      "relevance": 15
+    },
+    {
+      "title": "腾讯混元发布 Hyra 2.0：为模型研发打造可复用工具",
+      "link": "https://www.ithome.com/1/021/266.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-02 21:08",
+      "ts": 1793624900,
+      "summary": "IT之家 11 月 2 日消息，今日腾讯混元发布了 AI 科研系统 Hyra 2.0，将研发重点从直接用 AI 攻克科学难题，转向让通用 Agent 参与科学模型、研究工作流及软件工具的研发与升级，让一次研发的成果在后续研究中被反复使用，推动科研范式从“刷题解题”走向“造工具”。此前，Hyra 1.0 曾驱动开源模型解决加法组合学中悬置五十余年的开放问题，验证了“给 AI 明确评判标准的难题并循环尝试”这一路径的可行性。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 141.86,
+      "relevance": 15
+    },
+    {
+      "title": "折腾了一套基于 nas 的音乐管理方案，自动调用 agent 搜索&下载，自动同步到车机，挺好玩的",
+      "link": "https://www.v2ex.com/t/1253815#reply4",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "11-02 14:48",
+      "ts": 1793602086,
+      "summary": "最近其实不怎么听歌了，前段时间突然想找一首歌，各大平台都搜不到（免费）无损，随手让 dsf 去给我搜，居然一下搜到了，激起了我的兴趣，想好好在车上听听歌。折腾了半天，搞出来了下面这套东西： 1. 家里的 Nas 做集中式曲库，跑的 Navidrome 做曲库管理，装上 dsh ，跑我自己调试的一个 agent ，能够自己去找各种免费无损资源，自动签到 2. 手机、mac 用开源的播放器，直连 nas ，通过 easytier 组网访问 3. 开发了一个车机音乐同步插件，启动…",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 137.75,
+      "relevance": 15
+    },
+    {
+      "title": "数据中心抵消了过去 15 年美国的减排努力",
+      "link": "https://www.solidot.org/story?sid=85766",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "社区观察",
+      "published": "11-01 19:45",
+      "ts": 1793533513,
+      "summary": "Sierra Club 的分析显示，到 2030 年美国电力行业的二氧化碳排放量可能达到 21 亿公吨，比 2025 年的水平高出约 42%。这一预计增幅将抵消过去 15 年电力行业在减排上取得的成果。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 126,
+      "relevance": 12
+    },
+    {
+      "title": "发现频道：10款大家发现的好评软件[2026年第44期]",
+      "link": "https://www.appinn.com/faxian-top10-2644/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "概念科普",
+      "published": "11-02 09:00",
+      "ts": 1793581233,
+      "summary": "最近10日，来自小众软件论坛的发现频道的热门排行榜，由系统自动生成，直接列出来： 序号 主题 1️⃣ ThinkRail – JetBrains 开源的 Pi 图形化 AI 编程 IDE 2️⃣ 【开发者自荐】Clothesline — 把图片「挂」在屏幕顶端的一根晾衣绳上。Window",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 122.82,
+      "relevance": 10
+    },
+    {
+      "title": "小众软件发现频道全量开放 .md 格式内容，可让 AI Agent 直接访问",
+      "link": "https://www.appinn.com/appinn-faxian-channel-markdown-ai-agent/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-01 15:36",
+      "ts": 1793518610,
+      "summary": "对于嫌弃论坛访问慢的同学，可以使用 x.appinn.com 直达发现频道。小众软件论坛的发现频道（faxian.appinn.com）主要收集由开发者/用户提交的各类软件、应用、AI 产品。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 122,
+      "relevance": 10
+    },
+    {
+      "title": "比利时瑞典超市冷冻冷藏设备遭遇网络攻击",
+      "link": "https://www.solidot.org/story?sid=85775",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "社区观察",
+      "published": "11-02 20:27",
+      "ts": 1793622474,
+      "summary": "在法国之后、比利时、瑞典、卢森堡和爱尔兰多家超市的冷冻和冷藏设备遭遇类似的网络攻击。比利时和卢森堡有约 40 家 Delhaize 超市受影响，瑞典 ICA 和 Coop 的多家门店受影响，爱尔兰有 13 家 SuperValu 门店受影响。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 115.64,
+      "relevance": 9
+    }
+  ]
+}
