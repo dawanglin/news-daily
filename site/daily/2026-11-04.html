@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f4ee"><meta name="description" content="每日情报简报：筛掉政治造势，留下能理解、能尝试、能落地的信息。"><title>每日情报简报 - 2026-11-04</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f6f4ee;
+  --panel: #fbfaf6;
+  --ink: #24313c;
+  --body: #38454f;
+  --muted: #6c7984;
+  --line: #dfe4e6;
+  --news: #2f7d66;
+  --news-soft: #e2eee9;
+  --biz: #a5672f;
+  --biz-soft: #f3eadb;
+  --focus: #2f7d66;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 16px;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--news); color: #fff; }
+a { color: inherit; }
+.mast { padding: 34px 40px 22px; border-bottom: 1px solid var(--line); }
+.mast-inner, .page, .footer-inner { width: min(100% - 64px, 1200px); margin-inline: auto; }
+.mast-top { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+.mast-links { display: inline-flex; align-items: center; gap: 22px; font-size: 14px; }
+.mast-links a { text-decoration: none; color: var(--muted); padding: 6px 2px; border-bottom: 2px solid transparent; }
+.mast-links a:hover { color: var(--ink); border-bottom-color: var(--news); }
+.mast h1 { margin: 26px 0 4px; font-size: 34px; line-height: 1.15; letter-spacing: -.01em; }
+.mast .subtitle { margin: 0 0 12px; font-size: 17px; color: var(--body); }
+.mast .meta { margin: 0; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.mast .direction { margin: 18px 0 0; color: var(--body); font-size: 14px; border-left: 3px solid var(--news); padding-left: 12px; }
+.layout { display: block; padding: 30px 0 20px; }
+.section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; padding: 0 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
+.section-heading h2 { margin: 0; font-size: 18px; line-height: 1.3; letter-spacing: -.01em; }
+.section-heading > span { color: var(--muted); font-size: 12px; }
+.head-right { display: inline-flex; align-items: baseline; gap: 14px; }
+.quick-jump { color: var(--biz); font-weight: 650; text-decoration: none; }
+.quick-jump:hover { text-decoration: underline; }
+.story { padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
+.story-title { display: block; font-size: 19px; font-weight: 680; line-height: 1.5; text-decoration: none; overflow-wrap: anywhere; }
+.story-title:hover { color: var(--news); }
+.story-title::after { content: "↗"; display: inline-block; margin-left: .3em; color: var(--news); font-size: .72em; font-weight: 500; transform: translateY(-.05em); }
+.story-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.story-meta .topic { padding: 1px 8px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-weight: 600; }
+.story-meta .lens { color: var(--news); font-weight: 600; }
+.story-meta .source, .story-meta .published { font-variant-numeric: tabular-nums; }
+.confidence { color: var(--muted); }
+.confidence.verified { color: var(--news); }
+.confidence.signal { color: var(--biz); }
+.story-summary { margin: 11px 0 0; color: var(--body); font-size: 15px; line-height: 1.82; overflow-wrap: anywhere; }
+.story-why { display: grid; grid-template-columns: auto 1fr; gap: 10px; margin: 13px 0 0; color: var(--body); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+.story-why strong { align-self: start; color: var(--news); font-size: 12px; font-weight: 650; white-space: nowrap; }
+.archive-link { margin-top: 22px; }
+.archive-link a { color: var(--news); font-size: 13px; }
+.col-business { margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--line); }
+.method-section { margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--line); }
+.col-business .section-heading { border-bottom-color: #e6dcc9; }
+.col-business h2 { color: var(--biz); }
+.biz { margin: 0 0 22px; padding: 20px 0 22px; border-bottom: 1px solid var(--line); }
+.biz-title { margin: 0; font-size: 19px; font-weight: 680; line-height: 1.5; }
+.biz-title a { text-decoration: none; }
+.biz-title a::after { content: "↗"; display: inline-block; margin-left: .3em; color: var(--biz); font-size: .72em; font-weight: 500; transform: translateY(-.05em); }
+.biz-title a:hover { color: var(--biz); }
+.biz-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 10px; margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; font-variant-numeric: tabular-nums; }
+.biz-status { margin-left: 8px; padding: 1px 6px; border-radius: 999px; background: var(--news-soft); color: #1f5c4a; font-size: 11px; }
+.biz-status.pending { background: var(--biz-soft); color: #7c4c24; }
+.biz-summary { margin: 11px 0 0; color: var(--body); font-size: 15px; line-height: 1.82; overflow-wrap: anywhere; }
+.biz-empty, .biz-note { color: var(--muted); font-size: 13px; line-height: 1.7; }
+.biz-note { margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--line); }
+footer { padding: 26px 40px 40px; border-top: 1px solid var(--line); background: var(--panel); color: var(--muted); font-size: 12px; line-height: 1.8; }
+.footer-note { margin-top: 9px; }
+.archive-panel h2 { margin: 20px 0 8px; font-size: 21px; }
+.archive-intro { margin: 0 0 8px; color: var(--muted); font-size: 13px; }
+.archive-list { list-style: none; padding: 0; margin: 0; }
+.archive-list li { padding: 20px 0; border-top: 1px solid var(--line); }
+.archive-list a { display: block; min-height: 44px; text-decoration: none; font-size: 16px; line-height: 1.65; }
+.archive-list .issue { display: block; margin-bottom: 3px; color: var(--news); font-weight: 700; font-variant-numeric: tabular-nums; }
+.edition-meta { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; }
+.back { display: inline-block; margin: 20px 0 8px; color: var(--news); text-decoration: none; font-size: 14px; }
+a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 3px; }
+html { scroll-behavior: smooth; }
+@media (hover: hover) { .mast-links a:hover, .story-title:hover, .biz-title a:hover { color: var(--news); } }
+@media (max-width: 960px) { .mast, footer { padding-left: 22px; padding-right: 22px; } .mast-inner, .page, .footer-inner { width: min(100% - 32px, 1200px); } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style></head><body>
+<header class="mast"><div class="mast-inner"><div class="mast-top"><nav class="mast-links" aria-label="栏目导航"><a href="../">效率导航</a><a href="#news">新闻</a><a href="#v2ex">V2EX</a><a href="#prompt">Prompt</a><a href="#skill">Skill</a><a href="#business">商业观察</a><a href="../archive/">历史</a></nav></div><h1>每日情报简报</h1><p class="subtitle">今日动态与可落地线索</p><p class="meta">2026年11月4日 星期三 · 共 26 条</p><p class="direction">筛掉政治造势，留下能理解、能尝试、能落地的信息。</p></div></header>
+<main class="page"><div class="layout"><section id="news" class="col-news"><div class="section-heading"><h2>新闻情报</h2><span class="head-right">26 条 · 按阅读价值排序<a class="quick-jump" href="#business">直达商业观察</a></span></div><section class="feed">
+      <article class="story" data-news-title="告别“测不准、看不全、改得慢”！无人机点云为高边坡工程做“即时CT”" data-news-url="http://paper.sciencenet.cn/htmlpaper/2026/10/20261026155623943157052.shtm?id=157052" data-news-source="科学网·数理科学" data-news-time="10-26 23:56" data-news-summary="在高填深挖的边坡工程中，进度管理长期受制于“测不准、看不全、改得慢”的困境。近日，同济大学土木工程学院李晓军教授、芮易教授团队在ENGINEERING...">
+        <a class="story-title" href="http://paper.sciencenet.cn/htmlpaper/2026/10/20261026155623943157052.shtm?id=157052" target="_blank" rel="noopener noreferrer">告别“测不准、看不全、改得慢”！无人机点云为高边坡工程做“即时CT”</a>
+        <div class="story-meta">
+          <span class="topic">线下数字化</span>
+          <span class="lens">专家观点</span>
+          <span class="source">科学网·数理科学</span>
+          <span class="published">10-26 23:56</span>
+          <span class="confidence professional">学术专业来源</span>
+        </div>
+        <p class="story-summary">在高填深挖的边坡工程中，进度管理长期受制于“测不准、看不全、改得慢”的困境。近日，同济大学土木工程学院李晓军教授、芮易教授团队在ENGINEERING...</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。分开看结论、证据和预测，再和自己的实际使用对照。</span></p>
+      </article>
+      <article class="story" data-news-title="Cordonix 0.0.5 发布：新增原生手机工具与 Windows 进程查询" data-news-url="https://www.oschina.net/news/503354" data-news-source="开源中国" data-news-time="11-02 20:47" data-news-summary="Cordonix 0.0.5 已发布。Cordonix（简称 cdx）是面向 AI 编程代理的原生本地工具运行时，使用 C11 实现，通过 MCP stdio 服务和 JSON 命令行接口提供本地程序执行、内存文件工作区、严格编码处理、目录与路径查询，以及外部 Git/ripgrep 的结构化适配。">
+        <a class="story-title" href="https://www.oschina.net/news/503354" target="_blank" rel="noopener noreferrer">Cordonix 0.0.5 发布：新增原生手机工具与 Windows 进程查询</a>
+        <div class="story-meta">
+          <span class="topic">MCP与地图接口</span>
+          <span class="lens">工具发布</span>
+          <span class="source">开源中国</span>
+          <span class="published">11-02 20:47</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">Cordonix 0.0.5 已发布。Cordonix（简称 cdx）是面向 AI 编程代理的原生本地工具运行时，使用 C11 实现，通过 MCP stdio 服务和 JSON 命令行接口提供本地程序执行、内存文件工作区、严格编码处理、目录与路径查询，以及外部 Git/ripgrep 的结构化适配。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Strata 0.2.9 发布：本地大模型 Prefill 最高提速 88%，还支持 1 比特 DeepSeek" data-news-url="https://www.appinn.com/strata-0-2-9/" data-news-source="小众软件" data-news-time="10-31 17:12" data-news-summary="本地运行 AI 大模型的 Strata 0.2.9 发布，又变快了。日更软件 Strata，今天更新到了 0.2.9 版本，在为本地大模型提速的道路上继续前进。">
+        <a class="story-title" href="https://www.appinn.com/strata-0-2-9/" target="_blank" rel="noopener noreferrer">Strata 0.2.9 发布：本地大模型 Prefill 最高提速 88%，还支持 1 比特 DeepSeek</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">工具发布</span>
+          <span class="source">小众软件</span>
+          <span class="published">10-31 17:12</span>
+          <span class="confidence professional">工具体验来源</span>
+        </div>
+        <p class="story-summary">本地运行 AI 大模型的 Strata 0.2.9 发布，又变快了。日更软件 Strata，今天更新到了 0.2.9 版本，在为本地大模型提速的道路上继续前进。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="DeepSeek 团队把 Agent 设计成“操作系统”：多任务的上限不该是人的注意力" data-news-url="https://www.oschina.net/news/503338/deepseek-harness-super-agent" data-news-source="开源中国" data-news-time="11-02 10:39" data-news-summary="DeepSeek Harness 团队发了一篇架构长文，讲他们怎么做出一个&quot;永远在线&quot;的 Agent。文章有一句话很精辟： 单任务的上限取决于模型能力，多任务的上限取决于人的注意力。">
+        <a class="story-title" href="https://www.oschina.net/news/503338/deepseek-harness-super-agent" target="_blank" rel="noopener noreferrer">DeepSeek 团队把 Agent 设计成“操作系统”：多任务的上限不该是人的注意力</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">专家观点</span>
+          <span class="source">开源中国</span>
+          <span class="published">11-02 10:39</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">DeepSeek Harness 团队发了一篇架构长文，讲他们怎么做出一个&quot;永远在线&quot;的 Agent。文章有一句话很精辟： 单任务的上限取决于模型能力，多任务的上限取决于人的注意力。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。分开看结论、证据和预测，再和自己的实际使用对照。</span></p>
+      </article>
+      <article class="story" data-news-title="做了一个 DSH 的 [插件发现] 的小插件，解决找插件难的问题" data-news-url="https://www.v2ex.com/t/1254261#reply2" data-news-source="V2EX·创造" data-news-time="11-03 22:03" data-news-summary="看了一下 DSH 的插件其实挺丰富的 2 万多个，但是没有一个特别直观的界面能够让我比较方便的看到，所以我就做了一个插件，然后大家可以有兴趣试一下。github 传送门： https://github.com/HiddenPuppy/dsh-plugin-discovery 把链接发给你的 DSH 即可安装这个插件。">
+        <a class="story-title" href="https://www.v2ex.com/t/1254261#reply2" target="_blank" rel="noopener noreferrer">做了一个 DSH 的 [插件发现] 的小插件，解决找插件难的问题</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">11-03 22:03</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">看了一下 DSH 的插件其实挺丰富的 2 万多个，但是没有一个特别直观的界面能够让我比较方便的看到，所以我就做了一个插件，然后大家可以有兴趣试一下。github 传送门： https://github.com/HiddenPuppy/dsh-plugin-discovery 把链接发给你的 DSH 即可安装这个插件。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="做了一个 VPS/云服务器比价站，想收集一下大家的真实痛点" data-news-url="https://www.v2ex.com/t/1254134#reply28" data-news-source="V2EX·技术" data-news-time="11-03 14:46" data-news-summary="大家好， 最近我把手头的海外主机和域名比价站 HostingCompass ( https://hostingcompass.com/ ) 重新折腾了一遍，精简了底层架构，速度快了不少。做这个站的初衷很简单，就是帮大家直观对比各种 VPS 、云服务器和域名的真实价格与配置。">
+        <a class="story-title" href="https://www.v2ex.com/t/1254134#reply28" target="_blank" rel="noopener noreferrer">做了一个 VPS/云服务器比价站，想收集一下大家的真实痛点</a>
+        <div class="story-meta">
+          <span class="topic">云服务器</span>
+          <span class="lens">实测评价</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">11-03 14:46</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">大家好， 最近我把手头的海外主机和域名比价站 HostingCompass ( https://hostingcompass.com/ ) 重新折腾了一遍，精简了底层架构，速度快了不少。做这个站的初衷很简单，就是帮大家直观对比各种 VPS 、云服务器和域名的真实价格与配置。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较部署难度、月度成本和数据位置，优先试最小可运行方案。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。</span></p>
+      </article>
+      <article class="story" data-news-title="苹果 Safari 27.3 测试版浏览器上线：适配 iPhone Duo，引入垂直标签、Siri 帮你管网页" data-news-url="https://www.ithome.com/1/021/863.htm" data-news-source="IT之家" data-news-time="11-04 03:39" data-news-summary="IT之家 11 月 4 日消息，苹果公司今天（11 月 4 日）推送 iOS / iPadOS / macOS 27.3 首个 Beta 开发者预览版，升级 Safari 27.3 测试版，引入垂直标签页、自适应深色模式，以及扩展 Siri AI 支持三项体验。本次 Safari 27.3 测试版最大的亮点， 在于引入垂直标签页让用户更方便地浏览完整页面标题 ，减少打开大量网页后难以辨认的问题。">
+        <a class="story-title" href="https://www.ithome.com/1/021/863.htm" target="_blank" rel="noopener noreferrer">苹果 Safari 27.3 测试版浏览器上线：适配 iPhone Duo，引入垂直标签、Siri 帮你管网页</a>
+        <div class="story-meta">
+          <span class="topic">网页小游戏</span>
+          <span class="lens">工具发布</span>
+          <span class="source">IT之家</span>
+          <span class="published">11-04 03:39</span>
+          <span class="confidence professional">科技资讯来源</span>
+        </div>
+        <p class="story-summary">IT之家 11 月 4 日消息，苹果公司今天（11 月 4 日）推送 iOS / iPadOS / macOS 27.3 首个 Beta 开发者预览版，升级 Safari 27.3 测试版，引入垂直标签页、自适应深色模式，以及扩展 Siri AI 支持三项体验。本次 Safari 27.3 测试版最大的亮点， 在于引入垂直标签页让用户更方便地浏览完整页面标题 ，减少打开大量网页后难以辨认的问题。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="单个反物质粒子被捕获在陷阱中长达数月" data-news-url="http://paper.sciencenet.cn/htmlpaper/2026/10/202610289521802157041.shtm?id=157041" data-news-source="科学网·数理科学" data-news-time="10-28 17:52" data-news-summary="在美国伊利诺伊州的一个实验室里，物理学家在一个具有隐形壁的陷阱中捕获并驯服了一个微小的反物质粒子。通过研究这个正电子的行为方式，研究人员可能很快就有一个机会来打破关于物理现实的...">
+        <a class="story-title" href="http://paper.sciencenet.cn/htmlpaper/2026/10/202610289521802157041.shtm?id=157041" target="_blank" rel="noopener noreferrer">单个反物质粒子被捕获在陷阱中长达数月</a>
+        <div class="story-meta">
+          <span class="topic">数学物理</span>
+          <span class="lens">概念科普</span>
+          <span class="source">科学网·数理科学</span>
+          <span class="published">10-28 17:52</span>
+          <span class="confidence professional">学术专业来源</span>
+        </div>
+        <p class="story-summary">在美国伊利诺伊州的一个实验室里，物理学家在一个具有隐形壁的陷阱中捕获并驯服了一个微小的反物质粒子。通过研究这个正电子的行为方式，研究人员可能很快就有一个机会来打破关于物理现实的...</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="非简单对称保护的时间反演不变的双重轴绝缘体" data-news-url="http://paper.sciencenet.cn/htmlpaper/2026/11/2026113174611818157510.shtm?id=157510" data-news-source="科学网·数理科学" data-news-time="11-04 01:46" data-news-summary="轴子绝缘体是近二十年来广为关注的三维拓扑物态，其具有量子化的轴子角并可产生量子化的拓扑磁电响应。近年来，团队和合作者通过自旋分辨的精细拓扑分类，进一步提出了时间反演双重轴子绝缘...">
+        <a class="story-title" href="http://paper.sciencenet.cn/htmlpaper/2026/11/2026113174611818157510.shtm?id=157510" target="_blank" rel="noopener noreferrer">非简单对称保护的时间反演不变的双重轴绝缘体</a>
+        <div class="story-meta">
+          <span class="topic">数据空间</span>
+          <span class="lens">专家观点</span>
+          <span class="source">科学网·数理科学</span>
+          <span class="published">11-04 01:46</span>
+          <span class="confidence professional">学术专业来源</span>
+        </div>
+        <p class="story-summary">轴子绝缘体是近二十年来广为关注的三维拓扑物态，其具有量子化的轴子角并可产生量子化的拓扑磁电响应。近年来，团队和合作者通过自旋分辨的精细拓扑分类，进一步提出了时间反演双重轴子绝缘...</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可练习把位置、数据和模糊关系连接起来。分开看结论、证据和预测，再和自己的实际使用对照。</span></p>
+      </article>
+      <article class="story" data-news-title=":fire::fire: ApiGo 开源接口平台 Go 版本发布" data-news-url="https://www.oschina.net/news/503339" data-news-source="开源中国" data-news-time="11-02 10:58" data-news-summary="ApiGoo 是 ApiGo 的go语言版本，是一款在线接口开发和管理平台，多数据库插件化数据源框架、SQL2API 。支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台 MCP 接入。">
+        <a class="story-title" href="https://www.oschina.net/news/503339" target="_blank" rel="noopener noreferrer">:fire::fire: ApiGo 开源接口平台 Go 版本发布</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">工具发布</span>
+          <span class="source">开源中国</span>
+          <span class="published">11-02 10:58</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">ApiGoo 是 ApiGo 的go语言版本，是一款在线接口开发和管理平台，多数据库插件化数据源框架、SQL2API 。支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台 MCP 接入。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Go 语言重构 Java 项目会提升了多少" data-news-url="https://www.oschina.net/news/503342" data-news-source="开源中国" data-news-time="11-02 13:32" data-news-summary="把Java项目ApiGo使用Go语言重构为ApiGoo，提升了哪些 背景: ApiGo 是一个gitee上开源的 SQL2API 平台——在线写 SQL，AI对话即可快速发布成 REST 接口。Java版是 Spring Boot 4 + Mybatis，实现MySQL/Oracle/SQLServer/达梦/ClickHouse 等十几种数据库的 JDBC 驱动全打进一个 fat jar。">
+        <a class="story-title" href="https://www.oschina.net/news/503342" target="_blank" rel="noopener noreferrer">Go 语言重构 Java 项目会提升了多少</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">工具发布</span>
+          <span class="source">开源中国</span>
+          <span class="published">11-02 13:32</span>
+          <span class="confidence professional">开源社区来源</span>
+        </div>
+        <p class="story-summary">把Java项目ApiGo使用Go语言重构为ApiGoo，提升了哪些 背景: ApiGo 是一个gitee上开源的 SQL2API 平台——在线写 SQL，AI对话即可快速发布成 REST 接口。Java版是 Spring Boot 4 + Mybatis，实现MySQL/Oracle/SQLServer/达梦/ClickHouse 等十几种数据库的 JDBC 驱动全打进一个 fat jar。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”" data-news-url="https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文、开源中国" data-news-time="11-04 05:26" data-news-summary="AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”">
+        <a class="story-title" href="https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">技术实践</span>
+          <span class="source">InfoQ 中文、开源中国</span>
+          <span class="published">11-04 05:26</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="用 AI 教 AI 开车，百度 Apollo World 世界模型亮相" data-news-url="https://www.ithome.com/1/021/808.htm" data-news-source="IT之家" data-news-time="11-03 20:55" data-news-summary="IT之家 11 月 3 日消息，今天，在深圳举行的百度 AI Day·Apollo 专场上，百度 Apollo 首次披露面向物理 AI 的智能体驱动全模态世界模型 Apollo World，并提出世界模型“2+3”判断标准。Apollo World 可以生成一段相对真实的视频 让虚拟世界遵循现实规律、回应无人车的动作，并支持驾驶系统从起点出发，一路开到目的地 据IT之家了解，用于无人驾驶的 Apollo World 不仅要生成逼真的画面，还要准确推演现实世界如何变化。">
+        <a class="story-title" href="https://www.ithome.com/1/021/808.htm" target="_blank" rel="noopener noreferrer">用 AI 教 AI 开车，百度 Apollo World 世界模型亮相</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">教程方法</span>
+          <span class="source">IT之家</span>
+          <span class="published">11-03 20:55</span>
+          <span class="confidence professional">科技资讯来源</span>
+        </div>
+        <p class="story-summary">IT之家 11 月 3 日消息，今天，在深圳举行的百度 AI Day·Apollo 专场上，百度 Apollo 首次披露面向物理 AI 的智能体驱动全模态世界模型 Apollo World，并提出世界模型“2+3”判断标准。Apollo World 可以生成一段相对真实的视频 让虚拟世界遵循现实规律、回应无人车的动作，并支持驾驶系统从起点出发，一路开到目的地 据IT之家了解，用于无人驾驶的 Apollo World 不仅要生成逼真的画面，还要准确推演现实世界如何变化。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="让你的 Jev 模型最高加速 9 倍，决策推理引擎 Flide 开源" data-news-url="https://www.v2ex.com/t/1254221#reply2" data-news-source="V2EX·创造" data-news-time="11-03 18:19" data-news-summary="Flide V 站的朋友们大家好，我们开发了一个面向本地部署的决策模型的推理引擎，相比于 vLLM 和 SGLang 等 LLM 框架，在决策任务上可最高加速 9.5 倍。目前已经支持三十多款 Jev 模型，更多模型还在陆续接入中。">
+        <a class="story-title" href="https://www.v2ex.com/t/1254221#reply2" target="_blank" rel="noopener noreferrer">让你的 Jev 模型最高加速 9 倍，决策推理引擎 Flide 开源</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">11-03 18:19</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">Flide V 站的朋友们大家好，我们开发了一个面向本地部署的决策模型的推理引擎，相比于 vLLM 和 SGLang 等 LLM 框架，在决策任务上可最高加速 9.5 倍。目前已经支持三十多款 Jev 模型，更多模型还在陆续接入中。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好" data-news-url="https://www.infoq.cn/article/xaWSKT3MlZjbuJw16Vem?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="11-03 20:49" data-news-summary="“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好">
+        <a class="story-title" href="https://www.infoq.cn/article/xaWSKT3MlZjbuJw16Vem?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">专家观点</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">11-03 20:49</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。分开看结论、证据和预测，再和自己的实际使用对照。</span></p>
+      </article>
+      <article class="story" data-news-title="前迪士尼 AI 高管出任 CPO，Utopai Studios 技术布局再提速" data-news-url="https://www.infoq.cn/article/z1ZeGD2FDqi6xLvSJjSl?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="11-04 00:11" data-news-summary="前迪士尼 AI 高管出任 CPO，Utopai Studios 技术布局再提速">
+        <a class="story-title" href="https://www.infoq.cn/article/z1ZeGD2FDqi6xLvSJjSl?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">前迪士尼 AI 高管出任 CPO，Utopai Studios 技术布局再提速</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">技术实践</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">11-04 00:11</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">前迪士尼 AI 高管出任 CPO，Utopai Studios 技术布局再提速</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="构建面向 Agentic 推理的下一代 LLM 推理引擎" data-news-url="https://www.infoq.cn/article/YwAayF1ylWb7oN4P0lyC?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="11-03 23:40" data-news-summary="构建面向 Agentic 推理的下一代 LLM 推理引擎">
+        <a class="story-title" href="https://www.infoq.cn/article/YwAayF1ylWb7oN4P0lyC?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">构建面向 Agentic 推理的下一代 LLM 推理引擎</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">教程方法</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">11-03 23:40</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">构建面向 Agentic 推理的下一代 LLM 推理引擎</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="高盛：2030 年全球数据中心容量或达 273GW，五年投资需求约 8.5 万亿美元" data-news-url="https://www.ithome.com/1/021/809.htm" data-news-source="IT之家" data-news-time="11-03 20:58" data-news-summary="IT之家 11 月 3 日消息，据财联社消息，高盛昨日发布研究报告，将 2030 年全球数据中心容量预测从 217GW 上调至 273GW，较 2025 年的约 103GW 大幅增长，年复合增长率约 21%。高盛预计，未来五年全球将新增约 170GW 数据中心容量，若按照每 GW 投资 500 亿美元 （IT之家注：现汇率约合 3,332.7 亿元人民币） 的经验假设计算，对应潜在资本开支约 8.5 万亿美元 （现汇率约合 56.66 万亿元人民币） 。">
+        <a class="story-title" href="https://www.ithome.com/1/021/809.htm" target="_blank" rel="noopener noreferrer">高盛：2030 年全球数据中心容量或达 273GW，五年投资需求约 8.5 万亿美元</a>
+        <div class="story-meta">
+          <span class="topic">云服务器</span>
+          <span class="lens">工具发布</span>
+          <span class="source">IT之家</span>
+          <span class="published">11-03 20:58</span>
+          <span class="confidence professional">科技资讯来源</span>
+        </div>
+        <p class="story-summary">IT之家 11 月 3 日消息，据财联社消息，高盛昨日发布研究报告，将 2030 年全球数据中心容量预测从 217GW 上调至 273GW，较 2025 年的约 103GW 大幅增长，年复合增长率约 21%。高盛预计，未来五年全球将新增约 170GW 数据中心容量，若按照每 GW 投资 500 亿美元 （IT之家注：现汇率约合 3,332.7 亿元人民币） 的经验假设计算，对应潜在资本开支约 8.5 万亿美元 （现汇率约合 56.66 万亿元人民币） 。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="vibe 了一个插件，表单文本数据恢复" data-news-url="https://www.v2ex.com/t/1254206#reply0" data-news-source="V2EX·创造" data-news-time="11-03 17:35" data-news-summary="不得不说，谷歌插件审核还是很快的，昨天提交的审核，今天就通过了 场景： 写了一大段内容，却因为误删、刷新页面或关闭编辑窗口，需要重新输入？留稿会在你开启保护的网站自动保存文本草稿，帮助你找回已经保存的输入内容。">
+        <a class="story-title" href="https://www.v2ex.com/t/1254206#reply0" target="_blank" rel="noopener noreferrer">vibe 了一个插件，表单文本数据恢复</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">11-03 17:35</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">不得不说，谷歌插件审核还是很快的，昨天提交的审核，今天就通过了 场景： 写了一大段内容，却因为误删、刷新页面或关闭编辑窗口，需要重新输入？留稿会在你开启保护的网站自动保存文本草稿，帮助你找回已经保存的输入内容。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri" data-news-url="https://www.qbitai.com/2026/11/507419.html" data-news-source="量子位" data-news-time="11-03 14:55" data-news-summary="终于，有了一个可以触摸的起点">
+        <a class="story-title" href="https://www.qbitai.com/2026/11/507419.html" target="_blank" rel="noopener noreferrer">纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">专业报道</span>
+          <span class="source">量子位</span>
+          <span class="published">11-03 14:55</span>
+          <span class="confidence professional">AI 专业来源</span>
+        </div>
+        <p class="story-summary">终于，有了一个可以触摸的起点</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="我来抄作业了，你们的机器上装了哪些 LLM 相关的管理软件/插件/skills/工作流等等" data-news-url="https://www.v2ex.com/t/1254088#reply13" data-news-source="V2EX·技术" data-news-time="11-03 12:25" data-news-summary="最近一年忙着业务，没怎么碰代码，没想到现在的 AI 技术栈日新月异了，我目前有些个人的产品想法想尝试，想给自己多年没碰的 Mac 上把那一套 AI 技术栈给装下，目前就装了一个 codex 买了 coding plan ，一个 ccswitch 但还没弄清楚怎么用，想问问你们还装了哪些可以提效的东西，我来抄抄作业">
+        <a class="story-title" href="https://www.v2ex.com/t/1254088#reply13" target="_blank" rel="noopener noreferrer">我来抄作业了，你们的机器上装了哪些 LLM 相关的管理软件/插件/skills/工作流等等</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">11-03 12:25</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">最近一年忙着业务，没怎么碰代码，没想到现在的 AI 技术栈日新月异了，我目前有些个人的产品想法想尝试，想给自己多年没碰的 Mac 上把那一套 AI 技术栈给装下，目前就装了一个 codex 买了 coding plan ，一个 ccswitch 但还没弄清楚怎么用，想问问你们还装了哪些可以提效的东西，我来抄抄作业</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="如何减少人为干预，让 agent 独立工作并提高交付质量" data-news-url="https://www.v2ex.com/t/1254207#reply5" data-news-source="V2EX·技术" data-news-time="11-03 17:39" data-news-summary="使用 Agent 后，个人产出确实提高了，但人也更累了：因为人在闭环中，既要检查结果，又要随时纠正任务跑偏和设计问题，很难真正放手。我在想有没有什么简单的方式，让人尽量少的参与闭环。">
+        <a class="story-title" href="https://www.v2ex.com/t/1254207#reply5" target="_blank" rel="noopener noreferrer">如何减少人为干预，让 agent 独立工作并提高交付质量</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">教程方法</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">11-03 17:39</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">使用 Agent 后，个人产出确实提高了，但人也更累了：因为人在闭环中，既要检查结果，又要随时纠正任务跑偏和设计问题，很难真正放手。我在想有没有什么简单的方式，让人尽量少的参与闭环。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article>
+      <article class="story" data-news-title="赛博领鸡蛋加餐：E 宝一口气送 13 款小游戏，11 月 9 日凌晨截止" data-news-url="https://www.appinn.com/eggs-261103/" data-news-source="小众软件" data-news-time="11-03 21:13" data-news-summary="Epic 商店 13 款小游戏限时免费，涵盖赛车、平台跳跃、迷宫、数学和问答。北京时间 11 月 9 日凌晨 2:30 截止，成功领取后永久入库。">
+        <a class="story-title" href="https://www.appinn.com/eggs-261103/" target="_blank" rel="noopener noreferrer">赛博领鸡蛋加餐：E 宝一口气送 13 款小游戏，11 月 9 日凌晨截止</a>
+        <div class="story-meta">
+          <span class="topic">网页小游戏</span>
+          <span class="lens">工具发布</span>
+          <span class="source">小众软件</span>
+          <span class="published">11-03 21:13</span>
+          <span class="confidence professional">工具体验来源</span>
+        </div>
+        <p class="story-summary">Epic 商店 13 款小游戏限时免费，涵盖赛车、平台跳跃、迷宫、数学和问答。北京时间 11 月 9 日凌晨 2:30 截止，成功领取后永久入库。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="发现频道：10款大家发现的好评软件[2026年第44期]" data-news-url="https://www.appinn.com/faxian-top10-2644/" data-news-source="小众软件" data-news-time="11-02 09:00" data-news-summary="最近10日，来自小众软件论坛的发现频道的热门排行榜，由系统自动生成，直接列出来： 序号 主题 1️⃣ ThinkRail – JetBrains 开源的 Pi 图形化 AI 编程 IDE 2️⃣ 【开发者自荐】Clothesline — 把图片「挂」在屏幕顶端的一根晾衣绳上。Window">
+        <a class="story-title" href="https://www.appinn.com/faxian-top10-2644/" target="_blank" rel="noopener noreferrer">发现频道：10款大家发现的好评软件[2026年第44期]</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">概念科普</span>
+          <span class="source">小众软件</span>
+          <span class="published">11-02 09:00</span>
+          <span class="confidence professional">工具体验来源</span>
+        </div>
+        <p class="story-summary">最近10日，来自小众软件论坛的发现频道的热门排行榜，由系统自动生成，直接列出来： 序号 主题 1️⃣ ThinkRail – JetBrains 开源的 Pi 图形化 AI 编程 IDE 2️⃣ 【开发者自荐】Clothesline — 把图片「挂」在屏幕顶端的一根晾衣绳上。Window</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先弄清核心概念和适用边界，再找一个小例子验证。</span></p>
+      </article>
+      <article class="story" data-news-title="小众软件发现频道全量开放 .md 格式内容，可让 AI Agent 直接访问" data-news-url="https://www.appinn.com/appinn-faxian-channel-markdown-ai-agent/" data-news-source="小众软件" data-news-time="11-01 15:36" data-news-summary="对于嫌弃论坛访问慢的同学，可以使用 x.appinn.com 直达发现频道。小众软件论坛的发现频道（faxian.appinn.com）主要收集由开发者/用户提交的各类软件、应用、AI 产品。">
+        <a class="story-title" href="https://www.appinn.com/appinn-faxian-channel-markdown-ai-agent/" target="_blank" rel="noopener noreferrer">小众软件发现频道全量开放 .md 格式内容，可让 AI Agent 直接访问</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">工具发布</span>
+          <span class="source">小众软件</span>
+          <span class="published">11-01 15:36</span>
+          <span class="confidence professional">工具体验来源</span>
+        </div>
+        <p class="story-summary">对于嫌弃论坛访问慢的同学，可以使用 x.appinn.com 直达发现频道。小众软件论坛的发现频道（faxian.appinn.com）主要收集由开发者/用户提交的各类软件、应用、AI 产品。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="Fedora Linux 45 释出" data-news-url="https://www.solidot.org/story?sid=85786" data-news-source="Solidot" data-news-time="11-04 00:22" data-news-summary="Fedora Linux 项目释出了 v45。Fedora Linux 项目同时释出了 Fedora Workstation、Fedora KDE Plasma Desktop、Fedora Server、Fedora Cloud、Fedora CoreOS 和 Fedora IoT，以及 Atomic Desktops 等众多衍生版本。">
+        <a class="story-title" href="https://www.solidot.org/story?sid=85786" target="_blank" rel="noopener noreferrer">Fedora Linux 45 释出</a>
+        <div class="story-meta">
+          <span class="topic">编程工具</span>
+          <span class="lens">工具发布</span>
+          <span class="source">Solidot</span>
+          <span class="published">11-04 00:22</span>
+          <span class="confidence professional">科技社区来源</span>
+        </div>
+        <p class="story-summary">Fedora Linux 项目释出了 v45。Fedora Linux 项目同时释出了 Fedora Workstation、Fedora KDE Plasma Desktop、Fedora Server、Fedora Cloud、Fedora CoreOS 和 Fedora IoT，以及 Atomic Desktops 等众多衍生版本。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article></section><p class="archive-link"><a href="../archive/">查看往期简报</a></p></section><section id="v2ex" class="method-section"><div class="section-heading"><h2>V2EX 方法发现</h2><span>6 条 · 用户讨论与作品</span></div><section class="feed">
+      <article class="story" data-news-title="做了一个 DSH 的 [插件发现] 的小插件，解决找插件难的问题" data-news-url="https://www.v2ex.com/t/1254261#reply2" data-news-source="V2EX·创造" data-news-time="11-03 22:03" data-news-summary="看了一下 DSH 的插件其实挺丰富的 2 万多个，但是没有一个特别直观的界面能够让我比较方便的看到，所以我就做了一个插件，然后大家可以有兴趣试一下。github 传送门： https://github.com/HiddenPuppy/dsh-plugin-discovery 把链接发给你的 DSH 即可安装这个插件。">
+        <a class="story-title" href="https://www.v2ex.com/t/1254261#reply2" target="_blank" rel="noopener noreferrer">做了一个 DSH 的 [插件发现] 的小插件，解决找插件难的问题</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">11-03 22:03</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">看了一下 DSH 的插件其实挺丰富的 2 万多个，但是没有一个特别直观的界面能够让我比较方便的看到，所以我就做了一个插件，然后大家可以有兴趣试一下。github 传送门： https://github.com/HiddenPuppy/dsh-plugin-discovery 把链接发给你的 DSH 即可安装这个插件。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="做了一个 VPS/云服务器比价站，想收集一下大家的真实痛点" data-news-url="https://www.v2ex.com/t/1254134#reply28" data-news-source="V2EX·技术" data-news-time="11-03 14:46" data-news-summary="大家好， 最近我把手头的海外主机和域名比价站 HostingCompass ( https://hostingcompass.com/ ) 重新折腾了一遍，精简了底层架构，速度快了不少。做这个站的初衷很简单，就是帮大家直观对比各种 VPS 、云服务器和域名的真实价格与配置。">
+        <a class="story-title" href="https://www.v2ex.com/t/1254134#reply28" target="_blank" rel="noopener noreferrer">做了一个 VPS/云服务器比价站，想收集一下大家的真实痛点</a>
+        <div class="story-meta">
+          <span class="topic">云服务器</span>
+          <span class="lens">实测评价</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">11-03 14:46</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">大家好， 最近我把手头的海外主机和域名比价站 HostingCompass ( https://hostingcompass.com/ ) 重新折腾了一遍，精简了底层架构，速度快了不少。做这个站的初衷很简单，就是帮大家直观对比各种 VPS 、云服务器和域名的真实价格与配置。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较部署难度、月度成本和数据位置，优先试最小可运行方案。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。</span></p>
+      </article>
+      <article class="story" data-news-title="让你的 Jev 模型最高加速 9 倍，决策推理引擎 Flide 开源" data-news-url="https://www.v2ex.com/t/1254221#reply2" data-news-source="V2EX·创造" data-news-time="11-03 18:19" data-news-summary="Flide V 站的朋友们大家好，我们开发了一个面向本地部署的决策模型的推理引擎，相比于 vLLM 和 SGLang 等 LLM 框架，在决策任务上可最高加速 9.5 倍。目前已经支持三十多款 Jev 模型，更多模型还在陆续接入中。">
+        <a class="story-title" href="https://www.v2ex.com/t/1254221#reply2" target="_blank" rel="noopener noreferrer">让你的 Jev 模型最高加速 9 倍，决策推理引擎 Flide 开源</a>
+        <div class="story-meta">
+          <span class="topic">AI模型</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">11-03 18:19</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">Flide V 站的朋友们大家好，我们开发了一个面向本地部署的决策模型的推理引擎，相比于 vLLM 和 SGLang 等 LLM 框架，在决策任务上可最高加速 9.5 倍。目前已经支持三十多款 Jev 模型，更多模型还在陆续接入中。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="vibe 了一个插件，表单文本数据恢复" data-news-url="https://www.v2ex.com/t/1254206#reply0" data-news-source="V2EX·创造" data-news-time="11-03 17:35" data-news-summary="不得不说，谷歌插件审核还是很快的，昨天提交的审核，今天就通过了 场景： 写了一大段内容，却因为误删、刷新页面或关闭编辑窗口，需要重新输入？留稿会在你开启保护的网站自动保存文本草稿，帮助你找回已经保存的输入内容。">
+        <a class="story-title" href="https://www.v2ex.com/t/1254206#reply0" target="_blank" rel="noopener noreferrer">vibe 了一个插件，表单文本数据恢复</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">11-03 17:35</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">不得不说，谷歌插件审核还是很快的，昨天提交的审核，今天就通过了 场景： 写了一大段内容，却因为误删、刷新页面或关闭编辑窗口，需要重新输入？留稿会在你开启保护的网站自动保存文本草稿，帮助你找回已经保存的输入内容。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="我来抄作业了，你们的机器上装了哪些 LLM 相关的管理软件/插件/skills/工作流等等" data-news-url="https://www.v2ex.com/t/1254088#reply13" data-news-source="V2EX·技术" data-news-time="11-03 12:25" data-news-summary="最近一年忙着业务，没怎么碰代码，没想到现在的 AI 技术栈日新月异了，我目前有些个人的产品想法想尝试，想给自己多年没碰的 Mac 上把那一套 AI 技术栈给装下，目前就装了一个 codex 买了 coding plan ，一个 ccswitch 但还没弄清楚怎么用，想问问你们还装了哪些可以提效的东西，我来抄抄作业">
+        <a class="story-title" href="https://www.v2ex.com/t/1254088#reply13" target="_blank" rel="noopener noreferrer">我来抄作业了，你们的机器上装了哪些 LLM 相关的管理软件/插件/skills/工作流等等</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">11-03 12:25</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">最近一年忙着业务，没怎么碰代码，没想到现在的 AI 技术栈日新月异了，我目前有些个人的产品想法想尝试，想给自己多年没碰的 Mac 上把那一套 AI 技术栈给装下，目前就装了一个 codex 买了 coding plan ，一个 ccswitch 但还没弄清楚怎么用，想问问你们还装了哪些可以提效的东西，我来抄抄作业</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="如何减少人为干预，让 agent 独立工作并提高交付质量" data-news-url="https://www.v2ex.com/t/1254207#reply5" data-news-source="V2EX·技术" data-news-time="11-03 17:39" data-news-summary="使用 Agent 后，个人产出确实提高了，但人也更累了：因为人在闭环中，既要检查结果，又要随时纠正任务跑偏和设计问题，很难真正放手。我在想有没有什么简单的方式，让人尽量少的参与闭环。">
+        <a class="story-title" href="https://www.v2ex.com/t/1254207#reply5" target="_blank" rel="noopener noreferrer">如何减少人为干预，让 agent 独立工作并提高交付质量</a>
+        <div class="story-meta">
+          <span class="topic">Agent</span>
+          <span class="lens">教程方法</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">11-03 17:39</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">使用 Agent 后，个人产出确实提高了，但人也更累了：因为人在闭环中，既要检查结果，又要随时纠正任务跑偏和设计问题，很难真正放手。我在想有没有什么简单的方式，让人尽量少的参与闭环。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。</span></p>
+      </article></section></section><section id="prompt" class="method-section"><div class="section-heading"><h2>Prompt 推荐</h2><span>0 条 · 可复用提示方法</span></div><section class="feed"></section></section><section id="skill" class="method-section"><div class="section-heading"><h2>Skill 推荐</h2><span>4 条 · 工具与插件能力</span></div><section class="feed">
+      <article class="story" data-news-title="做了一个 DSH 的 [插件发现] 的小插件，解决找插件难的问题" data-news-url="https://www.v2ex.com/t/1254261#reply2" data-news-source="V2EX·创造" data-news-time="11-03 22:03" data-news-summary="看了一下 DSH 的插件其实挺丰富的 2 万多个，但是没有一个特别直观的界面能够让我比较方便的看到，所以我就做了一个插件，然后大家可以有兴趣试一下。github 传送门： https://github.com/HiddenPuppy/dsh-plugin-discovery 把链接发给你的 DSH 即可安装这个插件。">
+        <a class="story-title" href="https://www.v2ex.com/t/1254261#reply2" target="_blank" rel="noopener noreferrer">做了一个 DSH 的 [插件发现] 的小插件，解决找插件难的问题</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">11-03 22:03</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">看了一下 DSH 的插件其实挺丰富的 2 万多个，但是没有一个特别直观的界面能够让我比较方便的看到，所以我就做了一个插件，然后大家可以有兴趣试一下。github 传送门： https://github.com/HiddenPuppy/dsh-plugin-discovery 把链接发给你的 DSH 即可安装这个插件。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好" data-news-url="https://www.infoq.cn/article/xaWSKT3MlZjbuJw16Vem?utm_source=rss&amp;utm_medium=article" data-news-source="InfoQ 中文" data-news-time="11-03 20:49" data-news-summary="“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好">
+        <a class="story-title" href="https://www.infoq.cn/article/xaWSKT3MlZjbuJw16Vem?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">专家观点</span>
+          <span class="source">InfoQ 中文</span>
+          <span class="published">11-03 20:49</span>
+          <span class="confidence professional">开发专业来源</span>
+        </div>
+        <p class="story-summary">“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。分开看结论、证据和预测，再和自己的实际使用对照。</span></p>
+      </article>
+      <article class="story" data-news-title="vibe 了一个插件，表单文本数据恢复" data-news-url="https://www.v2ex.com/t/1254206#reply0" data-news-source="V2EX·创造" data-news-time="11-03 17:35" data-news-summary="不得不说，谷歌插件审核还是很快的，昨天提交的审核，今天就通过了 场景： 写了一大段内容，却因为误删、刷新页面或关闭编辑窗口，需要重新输入？留稿会在你开启保护的网站自动保存文本草稿，帮助你找回已经保存的输入内容。">
+        <a class="story-title" href="https://www.v2ex.com/t/1254206#reply0" target="_blank" rel="noopener noreferrer">vibe 了一个插件，表单文本数据恢复</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·创造</span>
+          <span class="published">11-03 17:35</span>
+          <span class="confidence signal">用户作品线索</span>
+        </div>
+        <p class="story-summary">不得不说，谷歌插件审核还是很快的，昨天提交的审核，今天就通过了 场景： 写了一大段内容，却因为误删、刷新页面或关闭编辑窗口，需要重新输入？留稿会在你开启保护的网站自动保存文本草稿，帮助你找回已经保存的输入内容。</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article>
+      <article class="story" data-news-title="我来抄作业了，你们的机器上装了哪些 LLM 相关的管理软件/插件/skills/工作流等等" data-news-url="https://www.v2ex.com/t/1254088#reply13" data-news-source="V2EX·技术" data-news-time="11-03 12:25" data-news-summary="最近一年忙着业务，没怎么碰代码，没想到现在的 AI 技术栈日新月异了，我目前有些个人的产品想法想尝试，想给自己多年没碰的 Mac 上把那一套 AI 技术栈给装下，目前就装了一个 codex 买了 coding plan ，一个 ccswitch 但还没弄清楚怎么用，想问问你们还装了哪些可以提效的东西，我来抄抄作业">
+        <a class="story-title" href="https://www.v2ex.com/t/1254088#reply13" target="_blank" rel="noopener noreferrer">我来抄作业了，你们的机器上装了哪些 LLM 相关的管理软件/插件/skills/工作流等等</a>
+        <div class="story-meta">
+          <span class="topic">Skill与插件</span>
+          <span class="lens">工具发布</span>
+          <span class="source">V2EX·技术</span>
+          <span class="published">11-03 12:25</span>
+          <span class="confidence signal">用户讨论线索</span>
+        </div>
+        <p class="story-summary">最近一年忙着业务，没怎么碰代码，没想到现在的 AI 技术栈日新月异了，我目前有些个人的产品想法想尝试，想给自己多年没碰的 Mac 上把那一套 AI 技术栈给装下，目前就装了一个 codex 买了 coding plan ，一个 ccswitch 但还没弄清楚怎么用，想问问你们还装了哪些可以提效的东西，我来抄抄作业</p>
+        <p class="story-why"><strong>可以怎么用</strong><span>确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。</span></p>
+      </article></section></section><section id="business" class="col-business"><div class="section-heading"><h2>商业建设观察</h2><span>空间智能与地图能力 · 可落地线索</span></div>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2611.03339v1" target="_blank" rel="noopener noreferrer">ArabGeoText: Tool-Augmented Vision-Language Models for Arabic Geospatial Text Spotting</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-11-02<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2611.03114v1" target="_blank" rel="noopener noreferrer">3D Gaussian Splatting within Self-Learned Neural View-Dependent Color Fields</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-11-02<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2611.03080v1" target="_blank" rel="noopener noreferrer">VL-Dedup: Graded Multimodal Entity Resolution for Image-Text Data Deduplication</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-11-02<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2611.02871v1" target="_blank" rel="noopener noreferrer">ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-11-02<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2611.02767v1" target="_blank" rel="noopener noreferrer">GaussFlaw: Fine-Grained Perceptual Diagnosis for 3D Gaussian Splatting</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-11-02<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2611.02698v1" target="_blank" rel="noopener noreferrer">GeoGuesser Bench: Benchmarking Vision-Language Agents on Interactive Geolocation</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-11-02<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2611.02658v1" target="_blank" rel="noopener noreferrer">OctreeSplat: Hierarchical Octree-Guided Feed-Forward Gaussian Splatting</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-11-02<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2611.02365v1" target="_blank" rel="noopener noreferrer">SCARF: A Scene-Adaptive Depth-Guided G-3DGS Encoder Accelerator with Semantic Reuse and Fused Dataflow</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-11-02<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2611.02044v1" target="_blank" rel="noopener noreferrer">Unified Loss-Aware Density Control for 3D Gaussian Splatting</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-11-01<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2611.02026v1" target="_blank" rel="noopener noreferrer">Reconstruction as Spatial Evaluation: Diagnosing Cross-View Spatial Intelligence in Large Vision-Language Models</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-11-01<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2611.02008v1" target="_blank" rel="noopener noreferrer">NAS-PO: Native Attention-Strategy Policy Optimization for Vision-Language Models</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-11-01<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="http://arxiv.org/abs/2611.01939v1" target="_blank" rel="noopener noreferrer">VLSplat: Vision-Language Guided Object-Centric 3D Gaussian Splatting via Scene Graph</a></h3>
+        <p class="biz-meta">arXiv（论文） · 2026-11-01<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://modelcontextprotocol.io/specification/2026-07-28/changelog" target="_blank" rel="noopener noreferrer">MCP 规范更新：Documentation Index</a></h3>
+        <p class="biz-meta">Model Context Protocol 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://modelcontextprotocol.io/specification/2026-07-28/changelog" target="_blank" rel="noopener noreferrer">MCP 规范更新：&lt;button type=&quot;button&quot; aria-describedby=&quot;_R_3eehkd74t9H1_&quot;&gt;&lt;svg aria-hidden=&quot;true</a></h3>
+        <p class="biz-meta">Model Context Protocol 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/" target="_blank" rel="noopener noreferrer">PostGIS：Documentation</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/getting_started/" target="_blank" rel="noopener noreferrer">PostGIS：Getting Started</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/manual/" target="_blank" rel="noopener noreferrer">PostGIS：Official Manual</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article>
+      <article class="biz">
+        <h3 class="biz-title"><a href="https://postgis.net/documentation/tips/" target="_blank" rel="noopener noreferrer">PostGIS：Tips &amp; Tricks</a></h3>
+        <p class="biz-meta">PostGIS 官方<span class="biz-status pending">待核实</span></p>
+        <p class="biz-summary">PostGIS 版本与功能更新，空间数据库底座跟踪。</p>
+      </article><p class="biz-note">本栏为人工整理的商业线索：只收录官方文档、产品更新、开源项目或可核实的报道，每条标注来源。</p></section></div></main>
+<footer><div class="footer-inner">兴趣发现：个人兴趣热榜筛选<br>专业来源：量子位、机器之心、InfoQ 中文、开源中国、少数派、小众软件、IT之家、Solidot、科学网·数理科学、科学网·科普、前端技术精选、阮一峰的网络日志、V2EX·技术、V2EX·创造<div class="footer-note">不使用 AI 大模型生成摘要。用户评价只作为体验线索；政治外交与泛国际冲突默认排除。商业建设观察为人工整理的商业线索，来源可追溯。</div></div></footer></body></html>

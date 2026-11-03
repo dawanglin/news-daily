@@ -1,0 +1,580 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04 04:23:23 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 7,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 16,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 9,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "告别“测不准、看不全、改得慢”！无人机点云为高边坡工程做“即时CT”",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/20261026155623943157052.shtm?id=157052",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "专家观点",
+      "published": "10-26 23:56",
+      "ts": 1793030160,
+      "summary": "在高填深挖的边坡工程中，进度管理长期受制于“测不准、看不全、改得慢”的困境。近日，同济大学土木工程学院李晓军教授、芮易教授团队在ENGINEERING...",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 110,
+      "relevance": 6
+    },
+    {
+      "title": "Cordonix 0.0.5 发布：新增原生手机工具与 Windows 进程查询",
+      "link": "https://www.oschina.net/news/503354",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "工具发布",
+      "published": "11-02 20:47",
+      "ts": 1793623669,
+      "summary": "Cordonix 0.0.5 已发布。Cordonix（简称 cdx）是面向 AI 编程代理的原生本地工具运行时，使用 C11 实现，通过 MCP stdio 服务和 JSON 命令行接口提供本地程序执行、内存文件工作区、严格编码处理、目录与路径查询，以及外部 Git/ripgrep 的结构化适配。",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 106,
+      "relevance": 6
+    },
+    {
+      "title": "Strata 0.2.9 发布：本地大模型 Prefill 最高提速 88%，还支持 1 比特 DeepSeek",
+      "link": "https://www.appinn.com/strata-0-2-9/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "10-31 17:12",
+      "ts": 1793437941,
+      "summary": "本地运行 AI 大模型的 Strata 0.2.9 发布，又变快了。日更软件 Strata，今天更新到了 0.2.9 版本，在为本地大模型提速的道路上继续前进。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 197,
+      "relevance": 25
+    },
+    {
+      "title": "DeepSeek 团队把 Agent 设计成“操作系统”：多任务的上限不该是人的注意力",
+      "link": "https://www.oschina.net/news/503338/deepseek-harness-super-agent",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专家观点",
+      "published": "11-02 10:39",
+      "ts": 1793587193,
+      "summary": "DeepSeek Harness 团队发了一篇架构长文，讲他们怎么做出一个\"永远在线\"的 Agent。文章有一句话很精辟： 单任务的上限取决于模型能力，多任务的上限取决于人的注意力。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 151,
+      "relevance": 15
+    },
+    {
+      "title": "做了一个 DSH 的 [插件发现] 的小插件，解决找插件难的问题",
+      "link": "https://www.v2ex.com/t/1254261#reply2",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-03 22:03",
+      "ts": 1793714586,
+      "summary": "看了一下 DSH 的插件其实挺丰富的 2 万多个，但是没有一个特别直观的界面能够让我比较方便的看到，所以我就做了一个插件，然后大家可以有兴趣试一下。github 传送门： https://github.com/HiddenPuppy/dsh-plugin-discovery 把链接发给你的 DSH 即可安装这个插件。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 210.89,
+      "relevance": 29
+    },
+    {
+      "title": "做了一个 VPS/云服务器比价站，想收集一下大家的真实痛点",
+      "link": "https://www.v2ex.com/t/1254134#reply28",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "实测评价",
+      "published": "11-03 14:46",
+      "ts": 1793688401,
+      "summary": "大家好， 最近我把手头的海外主机和域名比价站 HostingCompass ( https://hostingcompass.com/ ) 重新折腾了一遍，精简了底层架构，速度快了不少。做这个站的初衷很简单，就是帮大家直观对比各种 VPS 、云服务器和域名的真实价格与配置。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 176.46,
+      "relevance": 23
+    },
+    {
+      "title": "苹果 Safari 27.3 测试版浏览器上线：适配 iPhone Duo，引入垂直标签、Siri 帮你管网页",
+      "link": "https://www.ithome.com/1/021/863.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "11-04 03:39",
+      "ts": 1793734769,
+      "summary": "IT之家 11 月 4 日消息，苹果公司今天（11 月 4 日）推送 iOS / iPadOS / macOS 27.3 首个 Beta 开发者预览版，升级 Safari 27.3 测试版，引入垂直标签页、自适应深色模式，以及扩展 Siri AI 支持三项体验。本次 Safari 27.3 测试版最大的亮点， 在于引入垂直标签页让用户更方便地浏览完整页面标题 ，减少打开大量网页后难以辨认的问题。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 129.76,
+      "relevance": 12
+    },
+    {
+      "title": "单个反物质粒子被捕获在陷阱中长达数月",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/202610289521802157041.shtm?id=157041",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-28 17:52",
+      "ts": 1793181120,
+      "summary": "在美国伊利诺伊州的一个实验室里，物理学家在一个具有隐形壁的陷阱中捕获并驯服了一个微小的反物质粒子。通过研究这个正电子的行为方式，研究人员可能很快就有一个机会来打破关于物理现实的...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "非简单对称保护的时间反演不变的双重轴绝缘体",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/2026113174611818157510.shtm?id=157510",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "专家观点",
+      "published": "11-04 01:46",
+      "ts": 1793727960,
+      "summary": "轴子绝缘体是近二十年来广为关注的三维拓扑物态，其具有量子化的轴子角并可产生量子化的拓扑磁电响应。近年来，团队和合作者通过自旋分辨的精细拓扑分类，进一步提出了时间反演双重轴子绝缘...",
+      "why": "可练习把位置、数据和模糊关系连接起来。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 117.13,
+      "relevance": 6
+    },
+    {
+      "title": ":fire::fire: ApiGo 开源接口平台 Go 版本发布",
+      "link": "https://www.oschina.net/news/503339",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-02 10:58",
+      "ts": 1793588316,
+      "summary": "ApiGoo 是 ApiGo 的go语言版本，是一款在线接口开发和管理平台，多数据库插件化数据源框架、SQL2API 。支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台 MCP 接入。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 241,
+      "relevance": 33
+    },
+    {
+      "title": "Go 语言重构 Java 项目会提升了多少",
+      "link": "https://www.oschina.net/news/503342",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-02 13:32",
+      "ts": 1793597555,
+      "summary": "把Java项目ApiGo使用Go语言重构为ApiGoo，提升了哪些 背景: ApiGo 是一个gitee上开源的 SQL2API 平台——在线写 SQL，AI对话即可快速发布成 REST 接口。Java版是 Spring Boot 4 + Mybatis，实现MySQL/Oracle/SQLServer/达梦/ClickHouse 等十几种数据库的 JDBC 驱动全打进一个 fat jar。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 226,
+      "relevance": 30
+    },
+    {
+      "title": "AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”",
+      "link": "https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文",
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "11-04 05:26",
+      "ts": 1793741192,
+      "summary": "AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 196.0,
+      "relevance": 21
+    },
+    {
+      "title": "用 AI 教 AI 开车，百度 Apollo World 世界模型亮相",
+      "link": "https://www.ithome.com/1/021/808.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "11-03 20:55",
+      "ts": 1793710518,
+      "summary": "IT之家 11 月 3 日消息，今天，在深圳举行的百度 AI Day·Apollo 专场上，百度 Apollo 首次披露面向物理 AI 的智能体驱动全模态世界模型 Apollo World，并提出世界模型“2+3”判断标准。Apollo World 可以生成一段相对真实的视频 让虚拟世界遵循现实规律、回应无人车的动作，并支持驾驶系统从起点出发，一路开到目的地 据IT之家了解，用于无人驾驶的 Apollo World 不仅要生成逼真的画面，还要准确推演现实世界如何变化。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 187.51,
+      "relevance": 24
+    },
+    {
+      "title": "让你的 Jev 模型最高加速 9 倍，决策推理引擎 Flide 开源",
+      "link": "https://www.v2ex.com/t/1254221#reply2",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-03 18:19",
+      "ts": 1793701155,
+      "summary": "Flide V 站的朋友们大家好，我们开发了一个面向本地部署的决策模型的推理引擎，相比于 vLLM 和 SGLang 等 LLM 框架，在决策任务上可最高加速 9.5 倍。目前已经支持三十多款 Jev 模型，更多模型还在陆续接入中。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 169.65,
+      "relevance": 21
+    },
+    {
+      "title": "“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好",
+      "link": "https://www.infoq.cn/article/xaWSKT3MlZjbuJw16Vem?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "专家观点",
+      "published": "11-03 20:49",
+      "ts": 1793710191,
+      "summary": "“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 163.48,
+      "relevance": 16
+    },
+    {
+      "title": "前迪士尼 AI 高管出任 CPO，Utopai Studios 技术布局再提速",
+      "link": "https://www.infoq.cn/article/z1ZeGD2FDqi6xLvSJjSl?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "11-04 00:11",
+      "ts": 1793722289,
+      "summary": "前迪士尼 AI 高管出任 CPO，Utopai Studios 技术布局再提速",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 159.6,
+      "relevance": 15
+    },
+    {
+      "title": "构建面向 Agentic 推理的下一代 LLM 推理引擎",
+      "link": "https://www.infoq.cn/article/YwAayF1ylWb7oN4P0lyC?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "11-03 23:40",
+      "ts": 1793720416,
+      "summary": "构建面向 Agentic 推理的下一代 LLM 推理引擎",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 159.43,
+      "relevance": 15
+    },
+    {
+      "title": "高盛：2030 年全球数据中心容量或达 273GW，五年投资需求约 8.5 万亿美元",
+      "link": "https://www.ithome.com/1/021/809.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "工具发布",
+      "published": "11-03 20:58",
+      "ts": 1793710729,
+      "summary": "IT之家 11 月 3 日消息，据财联社消息，高盛昨日发布研究报告，将 2030 年全球数据中心容量预测从 217GW 上调至 273GW，较 2025 年的约 103GW 大幅增长，年复合增长率约 21%。高盛预计，未来五年全球将新增约 170GW 数据中心容量，若按照每 GW 投资 500 亿美元 （IT之家注：现汇率约合 3,332.7 亿元人民币） 的经验假设计算，对应潜在资本开支约 8.5 万亿美元 （现汇率约合 56.66 万亿元人民币） 。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 157.53,
+      "relevance": 18
+    },
+    {
+      "title": "vibe 了一个插件，表单文本数据恢复",
+      "link": "https://www.v2ex.com/t/1254206#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-03 17:35",
+      "ts": 1793698540,
+      "summary": "不得不说，谷歌插件审核还是很快的，昨天提交的审核，今天就通过了 场景： 写了一大段内容，却因为误删、刷新页面或关闭编辑窗口，需要重新输入？留稿会在你开启保护的网站自动保存文本草稿，帮助你找回已经保存的输入内容。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 144.4,
+      "relevance": 16
+    },
+    {
+      "title": "纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri",
+      "link": "https://www.qbitai.com/2026/11/507419.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "11-03 14:55",
+      "ts": 1793688930,
+      "summary": "终于，有了一个可以触摸的起点",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 141.51,
+      "relevance": 12
+    },
+    {
+      "title": "我来抄作业了，你们的机器上装了哪些 LLM 相关的管理软件/插件/skills/工作流等等",
+      "link": "https://www.v2ex.com/t/1254088#reply13",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-03 12:25",
+      "ts": 1793679916,
+      "summary": "最近一年忙着业务，没怎么碰代码，没想到现在的 AI 技术栈日新月异了，我目前有些个人的产品想法想尝试，想给自己多年没碰的 Mac 上把那一套 AI 技术栈给装下，目前就装了一个 codex 买了 coding plan ，一个 ccswitch 但还没弄清楚怎么用，想问问你们还装了哪些可以提效的东西，我来抄抄作业",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 140.68,
+      "relevance": 16
+    },
+    {
+      "title": "如何减少人为干预，让 agent 独立工作并提高交付质量",
+      "link": "https://www.v2ex.com/t/1254207#reply5",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "11-03 17:39",
+      "ts": 1793698787,
+      "summary": "使用 Agent 后，个人产出确实提高了，但人也更累了：因为人在闭环中，既要检查结果，又要随时纠正任务跑偏和设计问题，很难真正放手。我在想有没有什么简单的方式，让人尽量少的参与闭环。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 127.43,
+      "relevance": 13
+    },
+    {
+      "title": "赛博领鸡蛋加餐：E 宝一口气送 13 款小游戏，11 月 9 日凌晨截止",
+      "link": "https://www.appinn.com/eggs-261103/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "11-03 21:13",
+      "ts": 1793711627,
+      "summary": "Epic 商店 13 款小游戏限时免费，涵盖赛车、平台跳跃、迷宫、数学和问答。北京时间 11 月 9 日凌晨 2:30 截止，成功领取后永久入库。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 122.62,
+      "relevance": 9
+    },
+    {
+      "title": "发现频道：10款大家发现的好评软件[2026年第44期]",
+      "link": "https://www.appinn.com/faxian-top10-2644/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "概念科普",
+      "published": "11-02 09:00",
+      "ts": 1793581233,
+      "summary": "最近10日，来自小众软件论坛的发现频道的热门排行榜，由系统自动生成，直接列出来： 序号 主题 1️⃣ ThinkRail – JetBrains 开源的 Pi 图形化 AI 编程 IDE 2️⃣ 【开发者自荐】Clothesline — 把图片「挂」在屏幕顶端的一根晾衣绳上。Window",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 122,
+      "relevance": 10
+    },
+    {
+      "title": "小众软件发现频道全量开放 .md 格式内容，可让 AI Agent 直接访问",
+      "link": "https://www.appinn.com/appinn-faxian-channel-markdown-ai-agent/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-01 15:36",
+      "ts": 1793518610,
+      "summary": "对于嫌弃论坛访问慢的同学，可以使用 x.appinn.com 直达发现频道。小众软件论坛的发现频道（faxian.appinn.com）主要收集由开发者/用户提交的各类软件、应用、AI 产品。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 122,
+      "relevance": 10
+    },
+    {
+      "title": "Fedora Linux 45 释出",
+      "link": "https://www.solidot.org/story?sid=85786",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-04 00:22",
+      "ts": 1793722953,
+      "summary": "Fedora Linux 项目释出了 v45。Fedora Linux 项目同时释出了 Fedora Workstation、Fedora KDE Plasma Desktop、Fedora Server、Fedora Cloud、Fedora CoreOS 和 Fedora IoT，以及 Atomic Desktops 等众多衍生版本。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 117.66,
+      "relevance": 9
+    }
+  ]
+}
