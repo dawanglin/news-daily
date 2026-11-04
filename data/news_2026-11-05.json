@@ -1,0 +1,580 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05 04:39:20 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 12,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 15,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 10,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "小米 WorldCast 3D 运镜在 REDMI K100 上线：平面照片还原成三维场景，并虚拟出真实相机轨迹",
+      "link": "https://www.ithome.com/1/022/433.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "工具发布",
+      "published": "11-04 21:53",
+      "ts": 1793800405,
+      "summary": "IT之家 11 月 4 日消息，小米 REDMI K100 手机已于 10 月 27 日正式发布。据小米技术官方今日介绍，该机在影像上新增了 3D 运镜的 AI 玩法 —— 从相册选一张静态照片，AI 就能生成一段大角度 3D 运镜视频，镜头可以环绕、推拉、倾斜，而画面中人物的五官、发型、衣着始终保持一致。",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 127.75,
+      "relevance": 12
+    },
+    {
+      "title": "Cordonix 0.0.5 发布：新增原生手机工具与 Windows 进程查询",
+      "link": "https://www.oschina.net/news/503354",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "工具发布",
+      "published": "11-02 20:47",
+      "ts": 1793623669,
+      "summary": "Cordonix 0.0.5 已发布。Cordonix（简称 cdx）是面向 AI 编程代理的原生本地工具运行时，使用 C11 实现，通过 MCP stdio 服务和 JSON 命令行接口提供本地程序执行、内存文件工作区、严格编码处理、目录与路径查询，以及外部 Git/ripgrep 的结构化适配。",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 106,
+      "relevance": 6
+    },
+    {
+      "title": "AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”",
+      "link": "https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文",
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "11-04 05:26",
+      "ts": 1793741192,
+      "summary": "AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 188.26,
+      "relevance": 21
+    },
+    {
+      "title": "山西发布全国首个城市停车 AI 智能体“泊邻”：可整合实时数据生成热力图实现车位灵活规划",
+      "link": "https://www.ithome.com/1/022/379.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "11-04 19:09",
+      "ts": 1793790573,
+      "summary": "IT之家 11 月 4 日消息，据“科技日报”，在近日举行的 2026 中国城市停车产业大会中，山西发布全国首个城市停车 AI 智能体“泊邻”。据介绍，该智能体依托山西建投静态交通公司自研智慧停车平台打造， 其主要功能是整合路侧泊位、公共车场、小区共享车位的全量实时数据，自动生成城市停车热力图、停车困难指数 ，实现灵活泊位规划、定价策略，主动向业主推送车位共享邀约与预估收益；",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 186.84,
+      "relevance": 24
+    },
+    {
+      "title": "谷歌 Data Agent Kit 正式发布：安全防护分为 Skill 与 IAM",
+      "link": "https://www.infoq.cn/article/UtKS9EofSoyd2P7Otx7e?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "案例复盘",
+      "published": "11-05 04:01",
+      "ts": 1793822516,
+      "summary": "谷歌 Data Agent Kit 正式发布：安全防护分为 Skill 与 IAM",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 165.79,
+      "relevance": 16
+    },
+    {
+      "title": "做了个 SSL 证书自动续签和自动部署的服务，支持 8 家云的 CDN、OSS、点播直播和宝塔，送兑换码",
+      "link": "https://www.v2ex.com/t/1254396#reply10",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "教程方法",
+      "published": "11-04 13:46",
+      "ts": 1793771187,
+      "summary": "大家好，我是证书熊（ sslbear ）的开发者，发一下我们做的东西，想听听大家的意见。阿里云、腾讯云的免费证书现在只有 3 个月有效期，域名一多，每隔两三个月就得去 CDN 、OSS 、点播的控制台挨个换证书，操作冗余，而证书熊就是自动做这件事的。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 138.04,
+      "relevance": 15
+    },
+    {
+      "title": "做了 ClipRedo，用自己的照片重做正在火的短视频模板",
+      "link": "https://www.v2ex.com/t/1254546#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "用户作品",
+      "published": "11-04 21:35",
+      "ts": 1793799330,
+      "summary": "我做了 ClipRedo： https://clipredo.com 给英文区的人用。选一条正在被重做的短视频模板，按槽位上传照片，生成自己的那一版。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 110.65,
+      "relevance": 9
+    },
+    {
+      "title": "赛博领鸡蛋加餐：E 宝一口气送 13 款小游戏，11 月 9 日凌晨截止",
+      "link": "https://www.appinn.com/eggs-261103/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "11-03 21:13",
+      "ts": 1793711627,
+      "summary": "Epic 商店 13 款小游戏限时免费，涵盖赛车、平台跳跃、迷宫、数学和问答。北京时间 11 月 9 日凌晨 2:30 截止，成功领取后永久入库。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 117,
+      "relevance": 9
+    },
+    {
+      "title": "单个反物质粒子被捕获在陷阱中长达数月",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/202610289521802157041.shtm?id=157041",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-28 17:52",
+      "ts": 1793181120,
+      "summary": "在美国伊利诺伊州的一个实验室里，物理学家在一个具有隐形壁的陷阱中捕获并驯服了一个微小的反物质粒子。通过研究这个正电子的行为方式，研究人员可能很快就有一个机会来打破关于物理现实的...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "高通史上最大 5G 交易：联合 SpaceX 建设星链移动全美国 5G 网络",
+      "link": "https://www.ithome.com/1/022/434.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "11-04 21:58",
+      "ts": 1793800724,
+      "summary": "IT之家 11 月 4 日消息，高通宣布，SpaceX 选择其跃龙（Dragonwing）蜂窝基础设施平台，为星链移动（Starlink Mobile）美国全国 5G 地面网络提供技术支持。IT之家获悉，此次合作涉及 Dragonwing QRU100 和 QDU100 平台，采用 64T64R 大规模 MIMO 技术。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 112.78,
+      "relevance": 9
+    },
+    {
+      "title": ":fire::fire: ApiGo 开源接口平台 Go 版本发布",
+      "link": "https://www.oschina.net/news/503339",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-02 10:58",
+      "ts": 1793588316,
+      "summary": "ApiGoo 是 ApiGo 的go语言版本，是一款在线接口开发和管理平台，多数据库插件化数据源框架、SQL2API 。支持 WorkBuddy、千问办公、Trea Work、豆包等 AI 办公平台 MCP 接入。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 241,
+      "relevance": 33
+    },
+    {
+      "title": "Go 语言重构 Java 项目会提升了多少",
+      "link": "https://www.oschina.net/news/503342",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-02 13:32",
+      "ts": 1793597555,
+      "summary": "把Java项目ApiGo使用Go语言重构为ApiGoo，提升了哪些 背景: ApiGo 是一个gitee上开源的 SQL2API 平台——在线写 SQL，AI对话即可快速发布成 REST 接口。Java版是 Spring Boot 4 + Mybatis，实现MySQL/Oracle/SQLServer/达梦/ClickHouse 等十几种数据库的 JDBC 驱动全打进一个 fat jar。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 226,
+      "relevance": 30
+    },
+    {
+      "title": "比DeepSeek Super-agent更早，Comma已经把长期记忆做进Agent「大管家」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651072104&idx=2&sn=76f783cd421be6688eed397816487dfa",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "11-04 12:00",
+      "ts": 1793764800,
+      "summary": "让Agent换个对话也能记住你！",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 186.45,
+      "relevance": 21
+    },
+    {
+      "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
+      "link": "https://www.qbitai.com/2026/11/507533.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "11-04 10:49",
+      "ts": 1793760542,
+      "summary": "长视频记忆精度飙升，问答时延最高降97%",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 185.06,
+      "relevance": 21
+    },
+    {
+      "title": "仓颉语言原生 Coding Agent：cjh，一个文件就是整个开发团队",
+      "link": "https://www.oschina.net/news/503393",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专家观点",
+      "published": "11-04 16:44",
+      "ts": 1793781854,
+      "summary": "项目地址 GitHub: https://github.com/yangyongzhen/cjh 它是什么 cjh 是一个用华为仓颉语言从零实现的交互式编码代理（coding agent harness）。在终端里用自然语言描述任务，Agent 自主规划、调用工具、观察结果、迭代直到完成——全程 TUI 实时呈现，也可以通过 Web 远程驱动。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 180.03,
+      "relevance": 20
+    },
+    {
+      "title": "整理了 204 条 Meta Muse 视频提示词，开源在 GitHub，按场景分了 13 类",
+      "link": "https://www.v2ex.com/t/1254533#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-04 20:42",
+      "ts": 1793796120,
+      "summary": "最近 Meta 的 Muse 视频在 X 上很火，出来的手机自拍、vlog 风格的片子真实得有点离谱。我把 X 上创作者公开分享、并且标明是用 Muse 跑出来的提示词整理了一遍，去重后 204 条，开源在 GitHub： https://github.com/apimodels/muse-video-prompts 仓库带一个能搜索、筛选、一键复制的网页版： https://apimodels.github.io/muse-video-prompts/ 怎么整理的 每条都…",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 175.35,
+      "relevance": 22
+    },
+    {
+      "title": "首个：华为云智果 AgentArts 获中国信通院最高等级评级",
+      "link": "https://www.ithome.com/1/022/406.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "11-04 19:46",
+      "ts": 1793792804,
+      "summary": "IT之家 11 月 4 日消息，华为官方今日宣布，华为云智果 AgentArts 智能体平台近日顺利通过中国信通院组织的可信 AI 企业级智能体平台评估， 是首个通过该项测评，并获得当前最高等级（4+ 级）的产品 。据介绍，本次评估依据《企业级智能体技术要求》，围绕企业级智能体平台的技术能力、应用能力和服务能力三方面展开，全面考察平台在智能体认知、规划、执行、业务集成、知识管理、运行维护及安全合规等方面的综合能力。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 172.04,
+      "relevance": 21
+    },
+    {
+      "title": "同一个模型从 30 分到 95 分：拉开差距的不是模型，是Harness",
+      "link": "https://www.infoq.cn/article/C1C1DThg8z1Dy0rZAmLB?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "11-04 23:40",
+      "ts": 1793806850,
+      "summary": "同一个模型从 30 分到 95 分：拉开差距的不是模型，是Harness",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 159.34,
+      "relevance": 15
+    },
+    {
+      "title": "Uber 总裁跳槽 OpenAI！曾掌舵谷歌、Snap 公关，Brockman 亲自发文欢迎",
+      "link": "https://www.infoq.cn/article/mcHCe07TQ08mEZtqcWi1?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "11-04 22:02",
+      "ts": 1793800944,
+      "summary": "Uber 总裁跳槽 OpenAI！曾掌舵谷歌、Snap 公关，Brockman 亲自发文欢迎",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 158.8,
+      "relevance": 15
+    },
+    {
+      "title": "虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上",
+      "link": "https://www.qbitai.com/2026/11/507567.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-04 16:49",
+      "ts": 1793782152,
+      "summary": "11月4日，虎鲸文娱集团打造的行业首个AI影视制作与管理平台“鲸锐AI”正式上线。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 157.06,
+      "relevance": 15
+    },
+    {
+      "title": "我觉得 ai 时代对于普通人是利好啊，为啥如此多的人反感/不屑呢？",
+      "link": "https://www.v2ex.com/t/1254526#reply35",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "11-04 20:06",
+      "ts": 1793793967,
+      "summary": "最近逛论坛、看国外的一些文章，发现好多人（包括我常看的一些专栏作者）都对 ai 有不少负面情绪，或者对那种“vibe coding”挺反感的。他们的理由听起来也五花八门的，比如觉得 ai 剥夺了自己亲手敲代码的乐趣啦、担心 ai 巨头变成了垄断生产资料的地主啦、或者觉得人类的价值被贬值等等。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 138.15,
+      "relevance": 15
+    },
+    {
+      "title": "模型谁都买得到，拉开差距的是AI生产力系统",
+      "link": "https://www.qbitai.com/2026/11/507448.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "11-03 19:13",
+      "ts": 1793704429,
+      "summary": "AI的下一程是生产力系统之争",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 138,
+      "relevance": 12
+    },
+    {
+      "title": "最新版 Postman 会在后台静默篡改 Codex 和 Claude Code 配置，强行植入插件与 Hook",
+      "link": "https://www.v2ex.com/t/1254518#reply4",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "教程方法",
+      "published": "11-04 19:26",
+      "ts": 1793791568,
+      "summary": "https://github.com/postmanlabs/postman-app-support/issues/14370 以前古法编程的时候还用用，现在用 AI 了，也少用了",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 127.93,
+      "relevance": 13
+    },
+    {
+      "title": "韩国游戏 PC 启动器被植入恶意代码",
+      "link": "https://www.solidot.org/story?sid=85798",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "教程方法",
+      "published": "11-05 01:05",
+      "ts": 1793811910,
+      "summary": "韩国游戏《胜利女神：新的希望（NIKKE）》的 PC 启动器被植入恶意代码。恶意代码是通过纂改 Level Infinite CDN 分发的四个官方 JavaScript 文件实现的，篡改发生于 2026 年 9 月 27 日前后，攻击则始于 2026 年 10 月 23 日到 11 月 3 日，在此期间打开 PC 启动器的用户可能会被植入木马。",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 122.81,
+      "relevance": 10
+    },
+    {
+      "title": "用 AI 写代码以后，你们现在一天里自己手写的代码还剩多少？",
+      "link": "https://www.v2ex.com/t/1254499#reply26",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "用户讨论",
+      "published": "11-04 18:07",
+      "ts": 1793786856,
+      "summary": "用 AI 写代码以后，你们现在一天里自己手写的代码还剩多少？",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 122.49,
+      "relevance": 12
+    },
+    {
+      "title": "OEA丨面向高功率CO2激光：3D打印铜基水冷反射镜实现高效热管理",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/202611474520943157513.shtm?id=157513",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "教程方法",
+      "published": "11-04 15:45",
+      "ts": 1793778300,
+      "summary": "Opto-Electronic Advances论文推荐同济大学团队突破传统分离式散热思路 ，提出“光学-热学-结...",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 113.7,
+      "relevance": 6
+    }
+  ]
+}
