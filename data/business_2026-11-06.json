@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-06",
+  "items": [
+    {
+      "title": "BudgetSplat: Budget-Controllable Generalizable Gaussian Splatting",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.06593v1",
+      "published_at": "2026-11-04",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "TwinBridge: Digital Twin-Driven Policy and Reward Transfer for Real-World Reinforcement Learning in Laboratory Robotics",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.06442v1",
+      "published_at": "2026-11-04",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Quo Vadis, Driving Scene Reconstruction? Occlusion-Aware Gaussian Densification",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.06273v1",
+      "published_at": "2026-11-04",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "CrossPressor: Scalable Cross-View Fusion for Feed-Forward 3D Gaussian Splatting",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.06258v1",
+      "published_at": "2026-11-04",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "FireOPS: A Human-Centric Emergency Operations Platform",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.06176v1",
+      "published_at": "2026-11-04",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "USI-Brain: Enhancing Underwater Spatial Intelligence via Spatial Data-Driven Vision-Language Modeling",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.06040v1",
+      "published_at": "2026-11-04",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "METRIC-GS: Selective Metric-Scale Estimation for 3D Gaussian Splatting",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.06020v1",
+      "published_at": "2026-11-04",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Chronos: Sequential Identity-Preserving Video Generation by Temporal Anchoring",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.05893v1",
+      "published_at": "2026-11-04",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "SciToT: Multimodal Tip-of-the-Tongue Retrieval for Scientific Papers",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.05829v1",
+      "published_at": "2026-11-04",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "GeoDIVE: Geospatial Descent Informed by Value Estimation",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.05697v1",
+      "published_at": "2026-11-03",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.05593v1",
+      "published_at": "2026-11-03",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "GSCV++: Lightweight 3D Gaussian Splatting Sequence Compression via Standard Video Codecs",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.05359v2",
+      "published_at": "2026-11-03",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：Documentation Index",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：<button type=\"button\" aria-describedby=\"_R_3eehkd74t9H1_\"><svg aria-hidden=\"true",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Documentation",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Getting Started",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/getting_started/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Official Manual",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/manual/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Tips & Tricks",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/tips/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    }
+  ]
+}
