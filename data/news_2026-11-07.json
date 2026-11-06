@@ -1,0 +1,580 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07 04:13:15 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 8,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "OEA丨面向高功率CO2激光：3D打印铜基水冷反射镜实现高效热管理",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/202611474520943157513.shtm?id=157513",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "教程方法",
+      "published": "11-04 15:45",
+      "ts": 1793778300,
+      "summary": "Opto-Electronic Advances论文推荐同济大学团队突破传统分离式散热思路 ，提出“光学-热学-结...",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 110,
+      "relevance": 6
+    },
+    {
+      "title": "SonnetDB 5.0 正式发布：增强 SQL 与事务，开放九模型 MCP 读写",
+      "link": "https://www.oschina.net/news/503431",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "工具发布",
+      "published": "11-05 21:18",
+      "ts": 1793884732,
+      "summary": "SonnetDB 5.0 正式发布：增强 SQL 与事务，开放九模型 MCP 读写 SonnetDB 5.0.0 已于 2026 年 11 月 4 日正式发布。相较 4.0，本次主版本更新重点增强 SQL 与关系事务、精确类型、.NET 数据访问和九模型 MCP 工具，并改进查询执行、资源控制、持久化恢复与管理体验。",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 226,
+      "relevance": 30
+    },
+    {
+      "title": "Google 和 OpenAI 的模型对特定口音有偏见",
+      "link": "https://www.solidot.org/story?sid=85804",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "11-05 17:00",
+      "ts": 1793869258,
+      "summary": "研究人员调查了先进多模态模型如何评估面试、会议报告和英语口语能力测试中的语音，测试的模型包括了 Google 的 Gemini 2.5 Pro 和 Gemini 2.5 Flash，以及 OpenAI 的 GPT-Audio 1.5，开放权重模型 Qwen 3 Omni。这些模型对五种不同口音——美国、英国、中国、印度和尼日利亚——的英语语音进行了评分。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 236,
+      "relevance": 34
+    },
+    {
+      "title": "爱彼迎 Airbnb 计划明年推出 AI 智能体，帮助用户规划旅行",
+      "link": "https://www.ithome.com/1/023/498.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "11-06 18:21",
+      "ts": 1793960502,
+      "summary": "IT之家 11 月 6 日消息，据科技媒体 neowin 今天报道，民宿出租平台 Airbnb 爱彼迎在 2026 财年第三季度报告中透露，公司正开发全新 AI 智能体，计划 2027 年推出，可帮助用户规划旅行。Airbnb 表示：“我们的智能体并没有采用传统聊天窗口，而是调用带有数百种旅行专用界面元素的资源库，它包含地图、照片、对比信息、日历和行程安排，可根据用户需求实时组合。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 186.72,
+      "relevance": 24
+    },
+    {
+      "title": "VSCode 中的 Gemini、antigravity 这两个插件的区别是什么？以及……",
+      "link": "https://www.v2ex.com/t/1255098#reply3",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-06 22:43",
+      "ts": 1793976200,
+      "summary": "以及为什么这两个插件的评论量很少的感觉，道理上谷歌也是大厂，这两个插件似乎不怎么受欢迎。看评分不高，评论不多。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 159.17,
+      "relevance": 19
+    },
+    {
+      "title": "Brightspeed 与英伟达洽谈，计划将 130 多座老旧电信建筑改造为小型数据中心",
+      "link": "https://www.ithome.com/1/023/543.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "科技资讯",
+      "published": "11-06 21:13",
+      "ts": 1793970817,
+      "summary": "IT之家 11 月 6 日消息，据 The Information 报道，互联网电信服务提供商 Brightspeed 正与英伟达洽谈，计划将多座老旧电信建筑改造为小型数据中心。IT之家从原报道获悉， 英伟达曾在此前向 Brightspeed 母公司阿波罗全球管理提出这一设想 ，后来他们要求英伟达提交书面方案。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 142.67,
+      "relevance": 15
+    },
+    {
+      "title": "找 claude 给 gpt 写了段自定义指令（提示词），不说人话的问题主观上好了不少",
+      "link": "https://www.v2ex.com/t/1254921#reply7",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "实测评价",
+      "published": "11-06 10:43",
+      "ts": 1793933026,
+      "summary": "claude 的吐槽： 具体原因我只能猜，OpenAI 内部怎么训的我不知道，不过有几个比较合理的解释： 训练奖励偏爱\"看起来严谨\"的回答。打分的人（或奖励模型）倾向于给\"全面、不绝对、考虑到各种情况\"的回答高分。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 140.17,
+      "relevance": 16
+    },
+    {
+      "title": "用 Claude Code 做微信小游戏的全过程复盘，顺便说下：现在小游戏发布不用先等备案了",
+      "link": "https://www.v2ex.com/t/1255014#reply5",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "案例复盘",
+      "published": "11-06 15:40",
+      "ts": 1793950827,
+      "summary": "上个月发帖说国庆用 Claude Code 搓了个割草小游戏，结果卡在备案上来回改了一个月。现在微信小游戏发布已经不用先等备案了，想做小游戏的 V 友可以直接冲，别像我一样干等 顺便复盘下制作过程，基本都是 Claude Code 在干活： 美术 ：我不会画画，所有怪物、武器、地图都是代码一笔一笔\"画\"出来的（椭圆、矩形 + 描边），运行时打包成一张图集。",
+      "why": "可拆出一个界面、交互或游戏机制。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 153.82,
+      "relevance": 18
+    },
+    {
+      "title": "单个反物质粒子被捕获在陷阱中长达数月",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/10/202610289521802157041.shtm?id=157041",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "10-28 17:52",
+      "ts": 1793181120,
+      "summary": "在美国伊利诺伊州的一个实验室里，物理学家在一个具有隐形壁的陷阱中捕获并驯服了一个微小的反物质粒子。通过研究这个正电子的行为方式，研究人员可能很快就有一个机会来打破关于物理现实的...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 125,
+      "relevance": 9
+    },
+    {
+      "title": "杜绝“先涨价后降价”，市场监管总局向主要平台企业发布“双十一”网络集中促销合规提示",
+      "link": "https://www.ithome.com/1/023/499.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "11-06 18:22",
+      "ts": 1793960575,
+      "summary": "IT之家 11 月 6 日消息，为进一步规范电商平台促销行为，维护公平有序的网络交易秩序，促进各方互利共赢，近日，市场监管总局向主要平台企业发布《“双十一”网络集中促销合规提示》。IT之家附主要内容如下： 严格落实平台内经营者资质核验登记义务 。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 116.72,
+      "relevance": 10
+    },
+    {
+      "title": "OpenAI CEO 奥尔特曼警示：未来人类可能无法从 AI 手中夺回控制权",
+      "link": "https://www.ithome.com/1/023/596.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "科技资讯",
+      "published": "11-06 23:13",
+      "ts": 1793977991,
+      "summary": "IT之家 11 月 6 日消息，OpenAI 首席执行官萨姆 · 奥尔特曼（IT之家注：Sam Altman）最近出席 Raj Shamani 播客时表示，人工智能可能通过两种方式走向失控：一是人类逐步将控制权交给自主式 AI，二是某个人或实体垄断 AI 技术。针对第一种情况，奥尔特曼警告称：“AI 会逐渐失去控制，我们可能有意或无意地将控制权交给能力远超人类的系统，最终再也无法夺回。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 208.34,
+      "relevance": 28
+    },
+    {
+      "title": "OwnCoder 0.2.0 发布:安全优先，token 消耗显著低于同类产品安全优先，token 消耗显著低于同类产品的本地 AI 编程工具",
+      "link": "https://www.oschina.net/news/503432",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-06 07:03",
+      "ts": 1793919787,
+      "summary": "当前版本能力持续完善，产品效果提升明显，Token 消耗相比同类 AI 编程工具具备优势。软件简介 OwnCode 是一款面向开发者的桌面端 AI 编程工具，从设计之初就把安全与隐私放在首位：敏感信息（API Key、密钥等）在发送给大模型之前自动脱敏，代码索引与向量检索均在本地完成。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 191.95,
+      "relevance": 23
+    },
+    {
+      "title": "比DeepSeek Super-agent更早，Comma已经把长期记忆做进Agent「大管家」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651072104&idx=2&sn=76f783cd421be6688eed397816487dfa",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "11-04 12:00",
+      "ts": 1793764800,
+      "summary": "让Agent换个对话也能记住你！",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 184,
+      "relevance": 21
+    },
+    {
+      "title": "Claude Code 产品负责人Cut Wu 官宣加入 OpenAI",
+      "link": "https://www.infoq.cn/article/cDERcarozbrsCBNs5sWM?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "11-06 00:53",
+      "ts": 1793897601,
+      "summary": "Claude Code 产品负责人Cut Wu 官宣加入 OpenAI",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 183,
+      "relevance": 21
+    },
+    {
+      "title": "MCP C# SDK 2.0 默认启用 HTTP 无状态模式，新增多轮请求能力",
+      "link": "https://www.infoq.cn/article/80iUxvCNB59aOgyXB7LN?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "工具发布",
+      "published": "11-05 23:19",
+      "ts": 1793891940,
+      "summary": "MCP C# SDK 2.0 默认启用 HTTP 无状态模式，新增多轮请求能力",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 183,
+      "relevance": 21
+    },
+    {
+      "title": "10 天 948 个提权漏洞，7% 的 Linux 代码，被 OpenAI 扫成筛子了",
+      "link": "https://www.appinn.com/openai-linux-kernel-948-privilege-escalation-vulnerabilities/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "案例复盘",
+      "published": "11-05 18:48",
+      "ts": 1793875702,
+      "summary": "AI 找漏洞的速度，好吓人。11 月 4 日，OpenAI 公布了一项安全研究：他们使用尚未公开发布的 AI 网络安全模型，在约 10 天内，发现了 948 个不同的 Linux 内核本地提权漏洞，还为这些漏洞生成了候选修复补丁。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 182,
+      "relevance": 22
+    },
+    {
+      "title": "2026 开源行业解决方案创新赛「开源基础软件与解决方案赛道」决赛名单公布",
+      "link": "https://www.oschina.net/news/503457",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-06 19:23",
+      "ts": 1793964196,
+      "summary": "第四届开放原子大赛 · 2026 开源行业解决方案创新赛「开源基础软件与解决方案赛道」决赛入围名单今日公布，以下 10 支队伍成功晋级，将于 11 月 13 日在北京亦庄通明湖会展中心参加总决赛。现将入围名单按报名时间顺序公示如下： 项目名称 负责人 仓库链接 实时交互数字人引擎 李恒中 https://github.com/lipku/LiveT...",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 176.06,
+      "relevance": 19
+    },
+    {
+      "title": "仓颉语言原生 Coding Agent：cjh，一个文件就是整个开发团队",
+      "link": "https://www.oschina.net/news/503393",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专家观点",
+      "published": "11-04 16:44",
+      "ts": 1793781854,
+      "summary": "项目地址 GitHub: https://github.com/yangyongzhen/cjh 它是什么 cjh 是一个用华为仓颉语言从零实现的交互式编码代理（coding agent harness）。在终端里用自然语言描述任务，Agent 自主规划、调用工具、观察结果、迭代直到完成——全程 TUI 实时呈现，也可以通过 Web 远程驱动。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 176,
+      "relevance": 20
+    },
+    {
+      "title": "不做Token化，也不搞双系统！多模态模型有了第三条路",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651072404&idx=3&sn=215382bbb92aebdbef3c201ac3e33851",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "11-05 16:21",
+      "ts": 1793866860,
+      "summary": "连续统一多模态模型的想象空间，或许才刚刚打开。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 169,
+      "relevance": 18
+    },
+    {
+      "title": "谷歌用 Gemini 4 Argon 一夜优化 ADK 代码库的 20 万行代码",
+      "link": "https://www.infoq.cn/article/u4fAoAH5vZPCV4TVqAcO?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "案例复盘",
+      "published": "11-05 19:00",
+      "ts": 1793876400,
+      "summary": "谷歌用 Gemini 4 Argon 一夜优化 ADK 代码库的 20 万行代码",
+      "why": "保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 168,
+      "relevance": 18
+    },
+    {
+      "title": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
+      "link": "https://www.infoq.cn/article/QGaIWSgd9uwx2WGw0yFv?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文",
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "11-06 15:14",
+      "ts": 1793949288,
+      "summary": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 161.68,
+      "relevance": 15
+    },
+    {
+      "title": "让Code Agent从自己的错误中进化：ReTerm探索失败驱动的RSI",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651072104&idx=3&sn=72caa8c3d846ccf53820d188e298acec",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "11-04 12:00",
+      "ts": 1793764800,
+      "summary": "代码写错了、命令报错了、环境配坏了，Code Agent 接下来会做什么？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "做了个 Chrome 插件 LookRecipe：从网页图片提取提示词，再用自己的照片生成同款",
+      "link": "https://www.v2ex.com/t/1255093#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-06 22:23",
+      "ts": 1793974988,
+      "summary": "最近做了一个 Chrome 插件，叫 LookRecipe （照样拍同款） ，已经上架 Chrome 商店，来 V 站分享一下。它想解决一个具体的问题：看到一张喜欢的照片，想知道它的光线、构图和配色是怎么回事，再把这些特点用到自己的创作里。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 146.06,
+      "relevance": 16
+    },
+    {
+      "title": "快上车，趁还能玩：用这个 Skill 生成特斯拉车机涂装",
+      "link": "https://www.v2ex.com/t/1255067#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "用户作品",
+      "published": "11-06 18:21",
+      "ts": 1793960505,
+      "summary": "最近折腾 2025 款焕新 Model Y 的车机自定义涂装，反复遇到图标倒置、侧面图案横着躺、面板被裁掉、PNG 超过 1 MB 等问题，干脆把这些经验整理成了一个可复用的 Agent Skill 。GitHub： https://github.com/albert-lv/tesla-wrap-workflow 前段时间看到 社区在讨论国内自定义涂装后续可能受限 。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 144.72,
+      "relevance": 16
+    },
+    {
+      "title": "Swift 天文台从印尼上空重返大气层",
+      "link": "https://www.solidot.org/story?sid=85802",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "社区观察",
+      "published": "11-05 15:37",
+      "ts": 1793864232,
+      "summary": "NASA Neil Gehrels Swift 天文台于 11 月 4 日 7:39 a.m. EST 从印尼苏门答腊上空再入大气层，坐标为北纬 3.4 度、东经 98.6 度。天文台的大部分组件在重返大气层过程中烧毁，可能有部分组件幸存下来。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 111,
+      "relevance": 9
+    },
+    {
+      "title": "OEA丨像素级操控的可编程超构表面相位型空间太赫兹调制器",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/202611573758849157559.shtm?id=157559",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "专家观点",
+      "published": "11-05 15:37",
+      "ts": 1793864220,
+      "summary": "Opto-Electronic Advances论文推荐首都师范大学张岩教授团队联合北京工业大学马赫副研究员团队与德国吉森大学Peter...",
+      "why": "可拆出一个界面、交互或游戏机制。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 110,
+      "relevance": 6
+    }
+  ]
+}
