@@ -1,0 +1,579 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11 04:41:20 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 8,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 13,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "原生支持 3D 高斯泼溅，免费开源 3D 创作软件 Blender 5.3 发布",
+      "link": "https://www.ithome.com/1/025/126.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "工具发布",
+      "published": "11-10 19:38",
+      "ts": 1794310714,
+      "summary": "IT之家 11 月 10 日消息，免费开源 3D 创作软件 Blender 5.3 现已正式发布。新版本加入了原生 3D 高斯泼溅（Gaussian Splatting）支持，Linux 平台默认图形后端切换为 Vulkan，同时带来了全新的项目管理功能，以及渲染和视频剪辑工具方面的多项改进。",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 181.99,
+      "relevance": 23
+    },
+    {
+      "title": "西门子 CEO 博乐仁：AI 不会取代人类，会用 AI 的人却能取代不会用 AI 的人",
+      "link": "https://www.ithome.com/1/025/170.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "11-10 22:09",
+      "ts": 1794319756,
+      "summary": "IT之家 11 月 10 日消息，据日经亚洲今天（10 日）下午报道，西门子 CEO 博乐仁认为，AI 不会直接取代人类，但会使用 AI 的人将越来越多地 取代不会使用 AI 的人 。随着企业开始思考 AI 将如何改变就业市场和岗位技能要求，掌握 AI 技术的重要性日益凸显。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 202.82,
+      "relevance": 27
+    },
+    {
+      "title": "openJiuwen首发Agent Device Foundation，重新定义Agent与物理世界的交互方式",
+      "link": "https://www.infoq.cn/article/dLF01VxLUZpLX40Wmlv7?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-10 19:56",
+      "ts": 1794311815,
+      "summary": "openJiuwen首发Agent Device Foundation，重新定义Agent与物理世界的交互方式",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 188.09,
+      "relevance": 21
+    },
+    {
+      "title": "能力再扩充！deepin Skills 上架应用商店，小 U 同学直接调用",
+      "link": "https://www.oschina.net/news/503486",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "教程方法",
+      "published": "11-09 16:41",
+      "ts": 1794213670,
+      "summary": "什么是 deepin Skills？deepin Skills 将 deepin 生态中长期实践验证的框架知识、插件接口、工程实践、评估用例以及系统操作能力，组织为可按需加载的技能文档与调用能力。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 196,
+      "relevance": 24
+    },
+    {
+      "title": "突破 Kubernetes 的 CPU 抽象，Uber 为异构服务器重新定义“一核”",
+      "link": "https://www.infoq.cn/article/STFszc8JxPkXGeV9QRH3?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "技术实践",
+      "published": "11-10 21:27",
+      "ts": 1794317220,
+      "summary": "突破 Kubernetes 的 CPU 抽象，Uber 为异构服务器重新定义“一核”",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 128.59,
+      "relevance": 9
+    },
+    {
+      "title": "任天堂出手封堵 Switch 2 首个公开越狱漏洞：游戏备份与 MOD 修改再次受限",
+      "link": "https://www.ithome.com/1/025/130.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "案例复盘",
+      "published": "11-10 19:59",
+      "ts": 1794311999,
+      "summary": "IT之家 11 月 10 日消息，任天堂已经封堵了 Nintendo Switch 2 首个公开发布的纯软件越狱方案。据悉，最新推出的 Switch 2 系统更新 23.5.0 修复了此前允许玩家绕过系统限制、备份和修改游戏的操作系统漏洞。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 112.11,
+      "relevance": 9
+    },
+    {
+      "title": "做微信小游戏踩的坑--详细版",
+      "link": "https://www.v2ex.com/t/1255945#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "用户作品",
+      "published": "11-10 19:05",
+      "ts": 1794308750,
+      "summary": "想起什么说什么,基本是要做微信小游戏就需要了解的. iOS 上微信小游戏能用的内存有上限：整个微信进程内存和显存共用大约 1G 到 1.4G(具体看手机内存)，超过就会被系统杀掉；另外 5 秒内收到两次内存警告，微信也会直接销毁小游戏。",
+      "why": "可拆出一个界面、交互或游戏机制。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 139.81,
+      "relevance": 15
+    },
+    {
+      "title": "科学家发现耀斑期间太阳低层磁场减弱",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/2026118134052958157753.shtm?id=157753",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-08 21:41",
+      "ts": 1794145260,
+      "summary": "利用我国自主研制的“用于太阳磁场精确测量的中红外观测系统”（AIMS望远镜），中国科学院国家天文台研究员邓元勇带领的联合研究团队发现，在太阳耀斑爆发脉冲相，太阳低层大气磁场存...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 13
+    },
+    {
+      "title": "qOntology 本体工程平台开源版 v1.1.0 发布：AI 辅助建模、知识图谱多视图！企业本体 FDE 的超强工具！",
+      "link": "https://www.oschina.net/news/503498",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "11-10 11:07",
+      "ts": 1794280026,
+      "summary": "qOntology 本体工程平台开源版 v1.1.0 围绕本体工程中的知识整理、模型维护与图谱探索进行更新，重点增强 AI 辅助建模和知识图谱多视图能力，同时补充项目版本管理、约束规则配置，并对本体应用及基础管理页面进行调整。本次更新关注的是本体建设过程中的几个具体环节： 如何从业务材料中整理建模候选，如何通过不同视图...",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 168.15,
+      "relevance": 18
+    },
+    {
+      "title": "感觉 AI Agent Coding 时代开源与 AI 的对话 sessions 比开源源代码更有意义（因为代码已经没人看了，开发者与 AI 的交互反而更重要）",
+      "link": "https://www.v2ex.com/t/1255946#reply2",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-10 19:07",
+      "ts": 1794308835,
+      "summary": "感觉 AI Agent Coding 时代开源与 AI 的对话 sessions 比开源源代码更有意义（因为代码已经没人看了，开发者与 AI 的交互反而更重要）",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 212.81,
+      "relevance": 30
+    },
+    {
+      "title": "成本仅1/3！Meta 新模型 Muse Ember 硬刚 Claude Haiku 5.5",
+      "link": "https://www.infoq.cn/article/Ou4l4aD7zvUzXWXsWJfY?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "11-10 23:22",
+      "ts": 1794324129,
+      "summary": "成本仅1/3！Meta 新模型 Muse Ember 硬刚 Claude Haiku 5.5",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 189.23,
+      "relevance": 21
+    },
+    {
+      "title": "不想当管理者，就用不好 Coding Agent？Anthropic 工程师长文谈 Agent 管理实战",
+      "link": "https://www.infoq.cn/article/YPQyY6bqhzhtO8MN6XUb?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-10 02:24",
+      "ts": 1794248672,
+      "summary": "不想当管理者，就用不好 Coding Agent？Anthropic 工程师长文谈 Agent 管理实战",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 183,
+      "relevance": 21
+    },
+    {
+      "title": "ApiGo 5.5 发布，新增数据行列级权限",
+      "link": "https://www.oschina.net/news/503488",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-09 17:29",
+      "ts": 1794216587,
+      "summary": "ApiGo 是面向企业的 AI Agent 受控数据服务网关与 API 与 MCP 构建平台，通过WorkBuddy、千问办公等 AI 智能体，一句话即可完成受控的 API 与 MCP 的创建发布，帮助企业把 ERP、CRM、SRM 等存量业务系统数据封装成标准化 REST API 与 MCP 工具，让 AI 智能体在策略管控下访问企业业务数据。5.5 更新内容 1、新增接口发布...",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 181,
+      "relevance": 21
+    },
+    {
+      "title": "开源数据库管理工具 CloudDM 新版本发布，支持 OpenSearch、IoTDB 数据源",
+      "link": "https://www.oschina.net/news/503479",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-09 13:44",
+      "ts": 1794203077,
+      "summary": "CloudDM 是一款免费且开源的团队化数据库管理工具，提供统一 Web 数据库访问、权限控制、数据脱敏、SQL 审核、流程协同和数据库 CI/CD 等能力。GitHub：https://github.com/ClouGence/open-cdm Gitee：https://gitee.com/clougence/open-cdm 新增 新增 OpenSearch 2.x / 3.x 数据源，支持 TLS 连接、元数据浏览、REST ...",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 176,
+      "relevance": 20
+    },
+    {
+      "title": "提供一些关于美区 App Store 订阅 Claude 的信息",
+      "link": "https://www.v2ex.com/t/1255810#reply16",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "用户讨论",
+      "published": "11-10 11:18",
+      "ts": 1794280711,
+      "summary": "提供一些关于美区 App Store 订阅 Claude 的信息： 目前看起来 anthropic 在后端会对 app store 执行订阅的 appleid 和 claude 账号做永久关联，也就是说：如果你的 claude 账号被封了，那么即使再换一个邮箱注册一个新的 claude 账号，这个美区 apple 账号也没法再执行订阅了，因为从 anthropic 后端看，这个美区 apple 账号已经和被封的账号关联过。在 iOS claude app 内 upgrade…",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 175.21,
+      "relevance": 23
+    },
+    {
+      "title": "[开源]OxideTerm： Rust+GPUI，让终端飞起来！",
+      "link": "https://www.v2ex.com/t/1255952#reply4",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-10 19:37",
+      "ts": 1794310654,
+      "summary": "大家好，我是 OxideTerm 的作者。https://github.com/AnalyseDeCircuit/oxideterm 7 月底我在这里 发过一帖 ，介绍了将 OxideTerm 从 WebView 迁移到 Rust + GPUI 的过程。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 172.98,
+      "relevance": 22
+    },
+    {
+      "title": "Adobe Creative Cloud 向第三方智能体大开城门，未来让 AI 帮你本地修图剪片",
+      "link": "https://www.ithome.com/1/025/177.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "科技资讯",
+      "published": "11-10 22:27",
+      "ts": 1794320875,
+      "summary": "IT之家 11 月 10 日消息，在今天（10 日）于迈阿密举行的 Adobe MAX 大会上，Adobe 公布了一系列新功能： 第三方 AI 智能体能直接访问和修改 Creative Cloud 项目、升级 Firefly AI 助手，支持智能体在后台持续处理定期任务 。Adobe 在大会上展示了 Creative Cloud 的本地模型上下文协议（MCP）接入功能。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 162.93,
+      "relevance": 19
+    },
+    {
+      "title": "中国 Android 厂商开始要求开发者身份验证",
+      "link": "https://www.solidot.org/story?sid=85848",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "专家观点",
+      "published": "11-10 19:18",
+      "ts": 1794309511,
+      "summary": "Google 从今年 9 月起要求验证所有 Android 应用开发者的身份，未经身份验证的开发者的应用未来将无法在 Android 设备上安装（sideload）。Google 官方博客声称它是出于安全理由要求验证开发者身份，理由是其分析显示来自第三方源的恶意应用数量是 Google Play 的 90 多倍。",
+      "why": "它触及你正在使用的软件和代码边界。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 150.88,
+      "relevance": 16
+    },
+    {
+      "title": "计算流体力学中的智能体人工智能：综述丨Applied Mechanics",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/202611915255786157781.shtm?id=157781",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "概念科普",
+      "published": "11-09 23:03",
+      "ts": 1794236580,
+      "summary": "论文标题：Agentic AI for Computational Fluid Dynamics: A Review 论文链接：https://www.mdpi.com/2673-3161/...",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 13
+    },
+    {
+      "title": "新的 agent 网页操作工具，不维护复杂规则，可直接试用。",
+      "link": "https://www.v2ex.com/t/1255902#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "实测评价",
+      "published": "11-10 15:59",
+      "ts": 1794297597,
+      "summary": "第一篇没写到点子上，这次更新了运营与体验门槛，注册试用即送 1000 额度感知帧。Event Horizon （ EH ），通过 MCP 接到你已经在用的 AI Agent ，让它在本机 Chrome 里搜索、点击、填写表单、筛选、翻页、打开详情，再把整理后的结果和页面来源交回当前对话。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 143.77,
+      "relevance": 16
+    },
+    {
+      "title": "AI Scientists「终极大考」，全球首个真实湿实验的Physical AI Verifier来了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651073140&idx=1&sn=4ea07aeb526d7f8730cdf320ba182d9d",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "11-09 16:45",
+      "ts": 1794213900,
+      "summary": "打通AI for Science「最后一公里」",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 139,
+      "relevance": 12
+    },
+    {
+      "title": "我们开源了一个光学仿真系统，配合智能体可以通过自然语言描述需求，快速搭建光路和光学模块，并导出图纸与 BOM。",
+      "link": "https://www.v2ex.com/t/1255912#reply1",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "工具发布",
+      "published": "11-10 16:25",
+      "ts": 1794299110,
+      "summary": "github: https://github.com/JunLin615/os-optics/ 官方网址： https://opensci-optics.com/ 支持多种光学元件共 3,273 款，也允许自定义光学器件: 透镜，滤光片，滤光片，波片，反射镜，分束镜，棱镜，窗口片，偏振片等 用法：直接在电脑上把链接丢给 Agent ，告诉它： 用这个工具给我设计一个 xx 光路&光学模块，然后导出图纸和 BOM 。Agent 可以是任意智能体，例如 Codex ，Claud…",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 138.91,
+      "relevance": 15
+    },
+    {
+      "title": "生成式 AI 过度美化现实",
+      "link": "https://www.solidot.org/story?sid=85847",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-10 19:04",
+      "ts": 1794308672,
+      "summary": "生成式 AI 如 ChatGPT 正融入日常生活，成为人们获取信息和辅助决策的重要工具。然而大模型中嵌入的错误信息和偏见引发了一系列伦理方面的担忧。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 130.8,
+      "relevance": 12
+    },
+    {
+      "title": "从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型",
+      "link": "https://www.qbitai.com/2026/11/508996.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-10 15:57",
+      "ts": 1794297465,
+      "summary": "11月10日，蚂蚁灵波科技开源触觉基础模型LingBot-Touch",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 126.76,
+      "relevance": 9
+    },
+    {
+      "title": "科学家开发出探测系外行星的新方法",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/2026117162631818157714.shtm?id=157714",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "教程方法",
+      "published": "11-08 00:26",
+      "ts": 1794068760,
+      "summary": "科学家研制出一种探测系外行星的新方法，其灵敏度最高可达传统系外行星成像方法的15倍。该方法利用一种机器学习算法去除了望远镜观测到的星光，有望辅助今后的天文台识别类地系外行星。",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 8
+    },
+    {
+      "title": "转角双层二碲化钼中多种关联与拓扑量子物态演化规律",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/2026119155059474157806.shtm?id=157806",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "专家观点",
+      "published": "11-09 23:51",
+      "ts": 1794239460,
+      "summary": "上海交通大学教授李听昕课题组、副教授刘晓雪课题组，联合香港科技大学助理教授雷世明课题组、复旦大学教授张远波课题组，系统揭示了转角双层二碲化钼（MoTe2）中多种关联与拓扑量子物态随层间转角变化的演化...",
+      "why": "分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 110,
+      "relevance": 6
+    }
+  ]
+}
