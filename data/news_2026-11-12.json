@@ -1,0 +1,579 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12 05:05:40 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 9,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "OEA丨面向高功率CO2激光：3D打印铜基水冷反射镜实现高效热管理",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/202611474520943157513.shtm?id=157513",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "教程方法",
+      "published": "11-04 15:45",
+      "ts": 1793778300,
+      "summary": "Opto-Electronic Advances论文推荐同济大学团队突破传统分离式散热思路 ，提出“光学-热学-结...",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 110,
+      "relevance": 6
+    },
+    {
+      "title": "DeepL 推出旗下最逼真语音 AI 翻译模型 Aure，实时复现说话者语气起伏、情绪流转等",
+      "link": "https://www.ithome.com/1/025/810.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "科技资讯",
+      "published": "11-11 22:06",
+      "ts": 1794406011,
+      "summary": "IT之家 11 月 11 日消息，当地时间 11 月 11 日，DeepL 推出语音 AI 翻译模型 Aure， 官方称这是其迄今最具动态感、表现最逼真的语音 AI（Voice AI）模型 ，不过该模型暂不支持中文。据介绍，作为 DeepL Voice 的底层驱动核心，Aure 能够持续动态适配翻译语音， 实时复现说话者的语气起伏、情绪流转、重音强调及语速快慢 。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 202.68,
+      "relevance": 27
+    },
+    {
+      "title": "HyperAgent：openJiuwen对未来Agent架构的思考和实践",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651073583&idx=2&sn=b51e6ed1e5957fa9dffb517b737cd2c1",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "11-11 12:12",
+      "ts": 1794370320,
+      "summary": "Agent正在从「回答一个问题」走向「承担一份工作」！",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 171.37,
+      "relevance": 18
+    },
+    {
+      "title": "如何判断一个 skill 是真正有用还是 slop？",
+      "link": "https://www.v2ex.com/t/1256302#reply1",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "教程方法",
+      "published": "11-11 23:58",
+      "ts": 1794412684,
+      "summary": "如何判断一个 skill 是真正有用还是 slop？",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 144.29,
+      "relevance": 16
+    },
+    {
+      "title": "两个工具站：一个域名佬和一个设计佬的小众私藏。",
+      "link": "https://www.v2ex.com/t/1256253#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "工具发布",
+      "published": "11-11 18:14",
+      "ts": 1794392064,
+      "summary": "https://yee.cx 精心为域名佬设计的域名查询小站，查询历史功能中嵌入域名导出功能。https://puff.ee 把你的设计放进真实设备里。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 139.38,
+      "relevance": 15
+    },
+    {
+      "title": "RXThinkCMF 敏捷开发框架 Laravel13+NaiveVue 版本 v2.6.0 发布",
+      "link": "https://www.oschina.net/news/503519",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "工具发布",
+      "published": "11-11 08:30",
+      "ts": 1794357019,
+      "summary": "v2.6.0 更新内容： 1、修复近用户反馈的问题；项目介绍 一款基于 Laravel13、Vue3、TypeScript、NaiveUI、Vite、VueRouter 等技术栈构建的前后端分离企业级数据中台解决方案。",
+      "why": "可拆出一个界面、交互或游戏机制。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 142.14,
+      "relevance": 13
+    },
+    {
+      "title": "科学家发现耀斑期间太阳低层磁场减弱",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/2026118134052958157753.shtm?id=157753",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-08 21:41",
+      "ts": 1794145260,
+      "summary": "利用我国自主研制的“用于太阳磁场精确测量的中红外观测系统”（AIMS望远镜），中国科学院国家天文台研究员邓元勇带领的联合研究团队发现，在太阳耀斑爆发脉冲相，太阳低层大气磁场存...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 13
+    },
+    {
+      "title": "qOntology 本体工程平台开源版 v1.1.0 发布：AI 辅助建模、知识图谱多视图！企业本体 FDE 的超强工具！",
+      "link": "https://www.oschina.net/news/503498",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "11-10 11:07",
+      "ts": 1794280026,
+      "summary": "qOntology 本体工程平台开源版 v1.1.0 围绕本体工程中的知识整理、模型维护与图谱探索进行更新，重点增强 AI 辅助建模和知识图谱多视图能力，同时补充项目版本管理、约束规则配置，并对本体应用及基础管理页面进行调整。本次更新关注的是本体建设过程中的几个具体环节： 如何从业务材料中整理建模候选，如何通过不同视图...",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 166,
+      "relevance": 18
+    },
+    {
+      "title": "苹果新应用 Harbor 曝光：插线连接多台 Mac，一起运行本地大模型",
+      "link": "https://www.appinn.com/apple-harbor-mac-ai-cluster/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "使用体验",
+      "published": "11-11 16:14",
+      "ts": 1794384847,
+      "summary": "在 Mac 上运行本地大模型已经不是什么新鲜事了，但如果模型太大，一台 Mac 的内存装不下怎么办？苹果似乎准备提供一个更简单的办法：把几台 Mac 用 Thunderbolt 5 连接起来，让它们一起运行 AI 大模型。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 200.72,
+      "relevance": 25
+    },
+    {
+      "title": "大模型千千万，为什么非要用 Claude？",
+      "link": "https://www.v2ex.com/t/1256081#reply193",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "概念科普",
+      "published": "11-11 10:41",
+      "ts": 1794364884,
+      "summary": "不理解，实在不理解... 如题，大模型千千万，包括国外的 GPT 、Gemini 、Grok 等，国内的 Qwen 、DeepSeek 、GLM 、Kimi 、豆包等，为什么非要去买敌意这么大的 Claude ？动不动封号，钱也不退。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 189.87,
+      "relevance": 26
+    },
+    {
+      "title": "Anthropic Claude 仅用 3 天完成 AI 模型适配 AMD GPU，英伟达 CUDA 护城河遇挑战",
+      "link": "https://www.ithome.com/1/025/736.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-11 19:26",
+      "ts": 1794396383,
+      "summary": "IT之家 11 月 11 日消息，英伟达 CUDA 生态系统的领先优势，可能正在受到越来越大的挑战。Anthropic IPO 路演材料中的一张幻灯片显示，随着高性能 AI 模型逐渐具备自主适配不同计算平台的能力，GPU 正在变得越来越像可以相互替换的通用算力资源。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 186.78,
+      "relevance": 24
+    },
+    {
+      "title": "ApiGo 5.5 发布，新增数据行列级权限",
+      "link": "https://www.oschina.net/news/503488",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-09 17:29",
+      "ts": 1794216587,
+      "summary": "ApiGo 是面向企业的 AI Agent 受控数据服务网关与 API 与 MCP 构建平台，通过WorkBuddy、千问办公等 AI 智能体，一句话即可完成受控的 API 与 MCP 的创建发布，帮助企业把 ERP、CRM、SRM 等存量业务系统数据封装成标准化 REST API 与 MCP 工具，让 AI 智能体在策略管控下访问企业业务数据。5.5 更新内容 1、新增接口发布...",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 181,
+      "relevance": 21
+    },
+    {
+      "title": "除了 claude 和 codex，国内大模型有可能顶的么？",
+      "link": "https://www.v2ex.com/t/1256099#reply32",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "11-11 11:20",
+      "ts": 1794367254,
+      "summary": "目前 claude 封号和 codex 封号一下严峻起来，不得不面对一个可能出现的问题，也就是 codex 和 claude 都不能用的情况。claude 好用，但是现在账号就很难搞。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 165.09,
+      "relevance": 21
+    },
+    {
+      "title": "卷起来了！11月11日，大模型厂商在天猫打5折",
+      "link": "https://www.qbitai.com/2026/11/509085.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "11-11 14:18",
+      "ts": 1794377889,
+      "summary": "大模型厂商智谱、MiniMax、千问办公、阿里云、Qoder都在天猫打5折。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 161.07,
+      "relevance": 16
+    },
+    {
+      "title": "上下文也是成本：Agent 效率优化的新思路 ｜ 技术趋势",
+      "link": "https://www.infoq.cn/article/iaCUbU8Fwz6G6bDlQ9BV?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "实测评价",
+      "published": "11-12 03:05",
+      "ts": 1794423946,
+      "summary": "上下文也是成本：Agent 效率优化的新思路 ｜ 技术趋势",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 160.34,
+      "relevance": 15
+    },
+    {
+      "title": "Agent 正在终结 Pull Request？连 GitHub 也开始重新审视传统开发流程",
+      "link": "https://www.infoq.cn/article/x0B056QFxzYEewT1Et34?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-12 01:40",
+      "ts": 1794418857,
+      "summary": "Agent 正在终结 Pull Request？连 GitHub 也开始重新审视传统开发流程",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 159.86,
+      "relevance": 15
+    },
+    {
+      "title": "Agent 从 Demo 到生产，究竟还差几步？4周实战课来了",
+      "link": "https://www.infoq.cn/article/gzNdPqAMp1Wh1JQ9d2JA?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-11 20:02",
+      "ts": 1794398525,
+      "summary": "Agent 从 Demo 到生产，究竟还差几步？4周实战课来了",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 157.98,
+      "relevance": 15
+    },
+    {
+      "title": "基于 AgentKit 重塑研发协作：从编码提效到组织效能跃迁｜AICon北京",
+      "link": "https://www.infoq.cn/article/I49cXCJFBpOW3PcgPTW3?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-11 18:00",
+      "ts": 1794391200,
+      "summary": "基于 AgentKit 重塑研发协作：从编码提效到组织效能跃迁｜AICon北京",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 157.3,
+      "relevance": 15
+    },
+    {
+      "title": "欧盟网络安全局警告：超市冰箱遭黑客攻击后，家用电器可能是下一个目标",
+      "link": "https://www.ithome.com/1/025/784.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "案例复盘",
+      "published": "11-11 20:51",
+      "ts": 1794401507,
+      "summary": "IT之家 11 月 11 日消息，欧盟网络安全机构负责人当地时间周二接受法新社采访时发出警告，欧洲多国超市冰箱近期遭遇网络攻击后，家用电器可能成为黑客的下一个目标。其呼吁欧洲加大网络安全投入，以应对日益严峻的网络威胁。",
+      "why": "可练习把位置、数据和模糊关系连接起来。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 157.26,
+      "relevance": 18
+    },
+    {
+      "title": "仅面向开发者开放：华为鸿蒙 HarmonyOS 7 (API 26.0.1) Developer Beta 版本推送",
+      "link": "https://www.ithome.com/1/025/782.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-11 20:41",
+      "ts": 1794400908,
+      "summary": "IT之家 11 月 11 日消息，华为开发者联盟今日开启了 HarmonyOS 7 (API 26.0.1) Developer Beta 定向招募。目前新版本已开启推送，包体大小约 5.55GB，此次更新供开发者开发调测新版本 API 应用使用。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 157.2,
+      "relevance": 18
+    },
+    {
+      "title": "2026 开源行业解决方案创新赛总决赛评委阵容公布",
+      "link": "https://www.oschina.net/news/503501",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-10 11:57",
+      "ts": 1794283046,
+      "summary": "第四届开放原子大赛 · 2026 开源行业解决方案创新赛总决赛将于 11 月 13 日在北京亦庄通明湖会议中心举行，本届大赛由北京市经济和信息化局、开放原子开源基金会联合主办，开源中国承办，以「开源赋能行业创新，方案驱动场景落地」为主题，设置“基础软件”、“智能硬件”、“AIGC 视频创作”三大技术赛道，旨在发掘和培...",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 156,
+      "relevance": 16
+    },
+    {
+      "title": "中国 Android 厂商开始要求开发者身份验证",
+      "link": "https://www.solidot.org/story?sid=85848",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "专家观点",
+      "published": "11-10 19:18",
+      "ts": 1794309511,
+      "summary": "Google 从今年 9 月起要求验证所有 Android 应用开发者的身份，未经身份验证的开发者的应用未来将无法在 Android 设备上安装（sideload）。Google 官方博客声称它是出于安全理由要求验证开发者身份，理由是其分析显示来自第三方源的恶意应用数量是 Google Play 的 90 多倍。",
+      "why": "它触及你正在使用的软件和代码边界。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 146,
+      "relevance": 16
+    },
+    {
+      "title": "做了一个浏览器插件，让自己的 Agent 也能直接操作日常使用的 Chrome",
+      "link": "https://www.v2ex.com/t/1256238#reply3",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-11 17:29",
+      "ts": 1794389399,
+      "summary": "最近一直在研究 Browser Use ，也尝试了几种让 Agent 操作浏览器的方案。目前来看，主流方案大致有三种： 1. CDP 协议（ Playwright / Selenium ） 优势是技术成熟、生态完善，基本上各种浏览器操作都能覆盖。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 144.14,
+      "relevance": 16
+    },
+    {
+      "title": "做了个能装插件的 Homelab 导航页 Genkan",
+      "link": "https://www.v2ex.com/t/1256251#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-11 18:09",
+      "ts": 1794391768,
+      "summary": "分享一个自己在用的 NAS / Homelab 导航页： Genkan （玄関） 。目标就三个：轻、好看、能扩展。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 129.36,
+      "relevance": 13
+    },
+    {
+      "title": "【郑州工程技术学院主办 | IOP出版】2026年岩土工程与地下空间国际学术会议（GEUS 2026）",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3623968&do=blog&id=1560719",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "概念科普",
+      "published": "11-11 12:30",
+      "ts": 1794371452,
+      "summary": "【郑州工程技术学院主办 | IOP出版】2026年岩土工程与地下空间国际学术会议（GEUS 2026）",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 120.48,
+      "relevance": 9
+    },
+    {
+      "title": "科学家开发出探测系外行星的新方法",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/2026117162631818157714.shtm?id=157714",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "教程方法",
+      "published": "11-08 00:26",
+      "ts": 1794068760,
+      "summary": "科学家研制出一种探测系外行星的新方法，其灵敏度最高可达传统系外行星成像方法的15倍。该方法利用一种机器学习算法去除了望远镜观测到的星光，有望辅助今后的天文台识别类地系外行星。",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 8
+    }
+  ]
+}
