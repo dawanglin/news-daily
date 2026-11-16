@@ -1,0 +1,579 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17 07:10:29 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 5,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 14,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "qData 主数据平台开源版 v1.0.0 首发上线：主数据全流程管理能力开放，构建统一可信数据底座",
+      "link": "https://www.oschina.net/news/503596",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "空间数据库",
+      "lens": "工具发布",
+      "published": "11-16 16:55",
+      "ts": 1794819304,
+      "summary": "让核心业务数据有标准、可治理、能共享。在企业数字化建设过程中，客户、供应商、产品、物料、组织等核心业务数据，广泛存在于 ERP、CRM、MES 等不同业务系统中。",
+      "why": "关注实体如何建立关系与去重：对齐规则、增量维护和规模下的性能，优先试能跑通的小数据。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 124.25,
+      "relevance": 9
+    },
+    {
+      "title": "[开源][Rust] PreferZ 0.6 — 参考图板 + 手绘 + 思维导图，一个桌面 app（带 CLI 和 MCP）",
+      "link": "https://www.v2ex.com/t/1257489#reply2",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "工具发布",
+      "published": "11-16 18:11",
+      "ts": 1794823917,
+      "summary": "我是设计师，工作流里一直混用两个工具：PureRef/Beeref 放参考图，Excalidraw 画草图理思路。用久了不太满意：Beeref 是 Python 打包的，图一多内存吃不住，也缺随手涂鸦和透明背景；",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 123.68,
+      "relevance": 12
+    },
+    {
+      "title": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%",
+      "link": "https://www.infoq.cn/article/NWmk4epBL0jPAUtpKSKb?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "11-16 22:38",
+      "ts": 1794839904,
+      "summary": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 218.16,
+      "relevance": 27
+    },
+    {
+      "title": "DigitalOcean Managed Agents为AI智能体提供托管云基础设施",
+      "link": "https://www.infoq.cn/article/LjVeWVAsBWwaiifdMRiu?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-17 00:42",
+      "ts": 1794847361,
+      "summary": "DigitalOcean Managed Agents为AI智能体提供托管云基础设施",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 188.85,
+      "relevance": 21
+    },
+    {
+      "title": "Casdoor 开源版这两个月：控制台里多了个插件商店，登录页有 24 套主题可换",
+      "link": "https://www.v2ex.com/t/1257555#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-17 00:04",
+      "ts": 1794845072,
+      "summary": "Casdoor 是我们社区在做的开源 IAM / SSO，Go + React，Apache 2.0，现在 14.8k star，今年 2 月进了 CNCF 云原生全景图。9 月发过一帖讲 v4 的控制台重写和 MCP，这两个月的更新主要在做一件事：让自托管的 IAM 也能装东西。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 130.64,
+      "relevance": 13
+    },
+    {
+      "title": "AI 时代，微服务不该再被\"部署复杂\"劝退 —— QuickBlue 用 3 条命令，把整套微服务装进 Docker",
+      "link": "https://www.oschina.net/news/503579",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "教程方法",
+      "published": "11-15 10:20",
+      "ts": 1794709219,
+      "summary": "AI 时代，微服务不该再被\"部署复杂\"劝退——QuickBlue 用 3 条命令，把整套微服务装进 Docker 本文是 QuickBlue-MicroAI 的部署理念与实践介绍。如果你只想直接上手，跳到文末的\"3 条命令速查\"即可。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 166,
+      "relevance": 18
+    },
+    {
+      "title": "Codex、Claude Code 都卷完了，居然还能跑出黑马？整个产品，现在都可以是一个提示词",
+      "link": "https://www.infoq.cn/article/8TySw9wzqf0l90keJUNf?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "技术实践",
+      "published": "11-16 22:44",
+      "ts": 1794840268,
+      "summary": "Codex、Claude Code 都卷完了，居然还能跑出黑马？整个产品，现在都可以是一个提示词",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 163.19,
+      "relevance": 16
+    },
+    {
+      "title": "CSS终于支持random()随机函数了，等死老子了",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/11/css-math-random/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "技术实践",
+      "published": "11-16 08:00",
+      "ts": 1794787200,
+      "summary": "CSS终于支持random()随机函数了，等死老子了",
+      "why": "可拆出一个界面、交互或游戏机制。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 120.28,
+      "relevance": 9
+    },
+    {
+      "title": "科学家发现耀斑期间太阳低层磁场减弱",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/2026118134052958157753.shtm?id=157753",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-08 21:41",
+      "ts": 1794145260,
+      "summary": "利用我国自主研制的“用于太阳磁场精确测量的中红外观测系统”（AIMS望远镜），中国科学院国家天文台研究员邓元勇带领的联合研究团队发现，在太阳耀斑爆发脉冲相，太阳低层大气磁场存...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 13
+    },
+    {
+      "title": "英国出台网络安全新规：平台必须主动识别并删除儿童色情内容",
+      "link": "https://www.ithome.com/1/027/919.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "案例复盘",
+      "published": "11-16 18:55",
+      "ts": 1794826545,
+      "summary": "IT之家 11 月 16 日消息，据路透社报道，英国通信管理局（Ofcom）周一宣布收紧网络儿童安全监管规定，要求各类网络平台加大打击儿童性虐待内容和诱骗行为的力度。此举也为英国计划实施的 16 岁以下青少年社交媒体禁令铺路。",
+      "why": "可练习把位置、数据和模糊关系连接起来。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 125.92,
+      "relevance": 12
+    },
+    {
+      "title": "华为云“行业AI梦工厂”发布并开源昇腾原生具身世界模型CloudRobo-WM1.2",
+      "link": "https://www.oschina.net/news/503602",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-16 20:52",
+      "ts": 1794833536,
+      "summary": "[中国，杭州，2026年11月16日] 今天，华为云“行业AI梦工厂”发布并开源昇腾原生的具身世界模型CloudRobo-WM1.2，采用共享世界模型骨干网络实现预测增强的世界表征，基于世界模型原生DualAct架构，实现了世界模型原生动作生成，在RoboTwin 2.0、LiberoPro 2.0 评测中均位列第一。五大核心技术突破，加速具身智能从实验室...",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 200.57,
+      "relevance": 24
+    },
+    {
+      "title": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
+      "link": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "11-15 18:00",
+      "ts": 1794736800,
+      "summary": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 183,
+      "relevance": 21
+    },
+    {
+      "title": "我开发了一个 Dsh 的 dsh-leader-agent 插件，一个 Agent 管 15 个 Feature 并行开发",
+      "link": "https://www.v2ex.com/t/1257398#reply8",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "11-16 13:49",
+      "ts": 1794808154,
+      "summary": "1. 现有多 Agent 编排的问题 现在的多 Agent 编排项目，比如 Orca、Multica、herdr，几乎都有类似的问题： 复杂 。复杂的看板，复杂的配置。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 165.22,
+      "relevance": 21
+    },
+    {
+      "title": "Asahi Linux 许可证从 MIT 换成 GPL，因为有人拿 AI 洗了它的代码",
+      "link": "https://www.oschina.net/news/503588/asahi-linux-drops-mit-for-gpl",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "案例复盘",
+      "published": "11-16 11:59",
+      "ts": 1794801590,
+      "summary": "Asahi Linux 是今天你能在 Apple Silicon Mac 上运行 Linux 的底层。多年来，这个开源项目把自己大部分代码放在 MIT 许可证下，好让任何人——包括各种 BSD——都能按需复用。",
+      "why": "保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 157.61,
+      "relevance": 16
+    },
+    {
+      "title": "Agent如何越用越强？中科院自动化所、美团等推出RSI综述",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651074549&idx=3&sn=5f2b05e08cb027c3f6284554462f8144",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "11-15 10:29",
+      "ts": 1794709740,
+      "summary": "LLM Agent 递归自我改进综述",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "总结了一些 AI Agent 开发工程师岗位的面试题",
+      "link": "https://www.v2ex.com/t/1257526#reply5",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "用户讨论",
+      "published": "11-16 20:55",
+      "ts": 1794833737,
+      "summary": "总结了一些 AI Agent 开发工程师岗位的面试题，希望对大家有所帮助： https://github.com/oujingzhou/agent-interview-questions",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 152.59,
+      "relevance": 18
+    },
+    {
+      "title": "NeurIPS 2026｜不再依赖外挂：清华把「自我进化技能」训进Agent大脑",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651074684&idx=3&sn=98e2d05a9365087f6adf4590de6d8793",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "11-16 12:01",
+      "ts": 1794801660,
+      "summary": "SkillMaster：让智能体学会进化自己的技能",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 145.62,
+      "relevance": 13
+    },
+    {
+      "title": "LAMOST揭示“丝绸星云”的物理机制",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/20261116211626771158096.shtm?id=158096",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-17 05:16",
+      "ts": 1794863760,
+      "summary": "近日，国家重大科技基础设施郭守敬望远镜（LAMOST）星云光谱巡天（MRS-N）与公众天文研究模式相结合，揭示了由中国天文爱好者于双子座天区发现的超大角尺度[O III]星云纤维（丝绸星云）的物理机...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 127.37,
+      "relevance": 8
+    },
+    {
+      "title": "华为 WATCH Air 新款智能手表外观曝光：圆润机身 + 超轻薄设计，预装鸿蒙 HarmonyOS 系统",
+      "link": "https://www.ithome.com/1/027/992.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "科技资讯",
+      "published": "11-16 22:57",
+      "ts": 1794841044,
+      "summary": "IT之家 11 月 16 日消息，博主 @鹏鹏君驾到 今日曝光了一款华为穿戴新品 —— HUAWEI WATCH Air 智能手表。从画面可以看到，华为 WATCH Air 采用超轻薄设计，拥有圆润的弧面机身，侧边配有一枚旋转表冠按钮和一枚多功能按键。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 127.26,
+      "relevance": 12
+    },
+    {
+      "title": "2026甲子引力年终盛典即将启幕，AI的无限游戏进入「第二序章」｜甲子引力",
+      "link": "https://www.qbitai.com/2026/11/510526.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "11-16 16:45",
+      "ts": 1794818717,
+      "summary": "12月1日，细数AI的未竟之问。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 126.19,
+      "relevance": 9
+    },
+    {
+      "title": "银昕推出 AIO 液冷 Hailstone 420：搭载工业级 14034 LCP 风扇，支持 450W TDP",
+      "link": "https://www.ithome.com/1/027/907.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-16 17:53",
+      "ts": 1794822792,
+      "summary": "IT之家 11 月 16 日消息，SilverStone（银欣 / 银昕）现已在其官网上线一体式液冷散热器 Hailstone 420。这一型号搭载 3 颗工业级 14034 规格大尺寸加厚风扇，配备 LCP 扇叶、双滚珠轴承， 设计解热能力达到 450W 。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 125.57,
+      "relevance": 12
+    },
+    {
+      "title": "做了个本地优先的网站拦截插件 FocusBlock，已上架 Edge 商店",
+      "link": "https://www.v2ex.com/t/1257512#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "四川生活",
+      "lens": "工具发布",
+      "published": "11-16 19:52",
+      "ts": 1794829953,
+      "summary": "FocusBlock，一个本地优先的网站拦截器，现已上架 Microsoft Edge Add-ons 商店。拦截规则、定时、专注计时、统计全部存在本地，不建账号、不上传数据、不发任何网络请求（拦截页也是本地的） 免费版可加 20 条规则（域名或关键词）；",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 124.24,
+      "relevance": 12
+    },
+    {
+      "title": "AI自己改科研策略，能过湿实验这一关吗？他们把RSI带入分子发现",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651074456&idx=3&sn=3ce02b6ba0021829c919847dffc37e64",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-14 11:34",
+      "ts": 1794627240,
+      "summary": "MolRSI 获得了 8 个满足实验特异性判据的结合命中，Claude Science 对照为 0。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 124,
+      "relevance": 9
+    },
+    {
+      "title": "科学家开发出探测系外行星的新方法",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/2026117162631818157714.shtm?id=157714",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "教程方法",
+      "published": "11-08 00:26",
+      "ts": 1794068760,
+      "summary": "科学家研制出一种探测系外行星的新方法，其灵敏度最高可达传统系外行星成像方法的15倍。该方法利用一种机器学习算法去除了望远镜观测到的星光，有望辅助今后的天文台识别类地系外行星。",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 8
+    },
+    {
+      "title": "CauTrigger：通过层级因果分解解读生物系统状态转变",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1561153",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "专家观点",
+      "published": "11-14 11:26",
+      "ts": 1794626773,
+      "summary": "CauTrigger：通过层级因果分解解读生物系统状态转变",
+      "why": "可练习把位置、数据和模糊关系连接起来。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 118,
+      "relevance": 9
+    },
+    {
+      "title": "miRNA靶标预测方法基准测试",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1561152",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "教程方法",
+      "published": "11-14 11:24",
+      "ts": 1794626660,
+      "summary": "miRNA靶标预测方法基准测试",
+      "why": "可练习把位置、数据和模糊关系连接起来。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 118,
+      "relevance": 9
+    }
+  ]
+}
