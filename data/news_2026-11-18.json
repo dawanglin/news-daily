@@ -1,0 +1,579 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18 05:58:59 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 3,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 13,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 14,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "qData 主数据平台开源版 v1.0.0 首发上线：主数据全流程管理能力开放，构建统一可信数据底座",
+      "link": "https://www.oschina.net/news/503596",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "空间数据库",
+      "lens": "工具发布",
+      "published": "11-16 16:55",
+      "ts": 1794819304,
+      "summary": "让核心业务数据有标准、可治理、能共享。在企业数字化建设过程中，客户、供应商、产品、物料、组织等核心业务数据，广泛存在于 ERP、CRM、MES 等不同业务系统中。",
+      "why": "关注实体如何建立关系与去重：对齐规则、增量维护和规模下的性能，优先试能跑通的小数据。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 121,
+      "relevance": 9
+    },
+    {
+      "title": "面向多智能体应用的大模型推理调度与缓存优化｜AICon北京",
+      "link": "https://www.infoq.cn/article/X8xujm6xovp7z2YzWbpM?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "案例复盘",
+      "published": "11-18 02:53",
+      "ts": 1794941587,
+      "summary": "面向多智能体应用的大模型推理调度与缓存优化｜AICon北京",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 219.97,
+      "relevance": 27
+    },
+    {
+      "title": "DigitalOcean Managed Agents为AI智能体提供托管云基础设施",
+      "link": "https://www.infoq.cn/article/LjVeWVAsBWwaiifdMRiu?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-17 00:42",
+      "ts": 1794847361,
+      "summary": "DigitalOcean Managed Agents为AI智能体提供托管云基础设施",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 183,
+      "relevance": 21
+    },
+    {
+      "title": "dsh 插件授权市场",
+      "link": "https://www.v2ex.com/t/1257706#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-17 14:59",
+      "ts": 1794898783,
+      "summary": "有没有正在开发 DeepSeek Harness 或其他 Harness 插件，并考虑商业化或转型 SaaS 的大佬，我们有一款插件授权 + 代码加密保护产品正在内测，欢迎联系参与，可获正式上线后 6 个月免费会员。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 158.01,
+      "relevance": 19
+    },
+    {
+      "title": "亚马逊 AWS 将向黑石出售并回租 50 亿美元数据中心资产",
+      "link": "https://www.ithome.com/1/028/529.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "科技资讯",
+      "published": "11-17 21:30",
+      "ts": 1794922218,
+      "summary": "IT之家 11 月 17 日消息，Blackstone（黑石）旗下上市信托 BXDC 当地时间昨日宣布已同 AWS（亚马逊云科技）达成一项协议， 后者将出售并回租总价值 50 亿美元 （IT之家注：现汇率约合 333.96 亿元人民币） 的数据中心资产 。该交易初始资本化率为 7.0%。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 172.18,
+      "relevance": 21
+    },
+    {
+      "title": "早先 Opus 5.5 出来时 one-shot 的一个生存者类游戏 Demo",
+      "link": "https://www.v2ex.com/t/1257840#reply2",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "教程方法",
+      "published": "11-18 00:01",
+      "ts": 1794931268,
+      "summary": "Vibe 游戏 demo 已经满天飞了，也不多我这一个，希望能供大家消遣一、两分钟。Opus 5.5 刚出来时确实惊艳到了，只有一次 prompt，生成后除了微调炸眼的亮光之外没做其他任何修改。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 89.01,
+      "relevance": 5
+    },
+    {
+      "title": "阿里 Qwen4-Max 正式登场：单任务成本暴降 58%，前端编程全球第六",
+      "link": "https://www.infoq.cn/article/bZrW40XdHeMSkfOBxL2C?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "实测评价",
+      "published": "11-17 18:07",
+      "ts": 1794910030,
+      "summary": "阿里 Qwen4-Max 正式登场：单任务成本暴降 58%，前端编程全球第六",
+      "why": "可拆出一个界面、交互或游戏机制。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 127.05,
+      "relevance": 9
+    },
+    {
+      "title": "科学家发现耀斑期间太阳低层磁场减弱",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/2026118134052958157753.shtm?id=157753",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-08 21:41",
+      "ts": 1794145260,
+      "summary": "利用我国自主研制的“用于太阳磁场精确测量的中红外观测系统”（AIMS望远镜），中国科学院国家天文台研究员邓元勇带领的联合研究团队发现，在太阳耀斑爆发脉冲相，太阳低层大气磁场存...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 13
+    },
+    {
+      "title": "FBI 警告黑客利用 Artex 能在三小时内入侵网络",
+      "link": "https://www.solidot.org/story?sid=85910",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "11-17 16:07",
+      "ts": 1794902823,
+      "summary": "FBI 发出警告，黑客正在利用名为 Artex 的 AI 驱动渗透测试工具，在部分情况下不到三个小时即可成功入侵网络。该工具已被发现与针对韩国金融机构、至少 2250 家 ConnectWise 客户以及 Barracuda 公司的攻击事件有关。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 114.38,
+      "relevance": 9
+    },
+    {
+      "title": "“AI生成的代码必须开源！”开发者吵翻了，被开源代码喂大的Anthropic怕是第一个不同意",
+      "link": "https://www.infoq.cn/article/m5arrx8021zHVI0ybFtI?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-17 23:09",
+      "ts": 1794928185,
+      "summary": "“AI生成的代码必须开源！”开发者吵翻了，被开源代码喂大的Anthropic怕是第一个不同意",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 233.73,
+      "relevance": 30
+    },
+    {
+      "title": "OpenAI推出最强模型GPT-6.2 Astra",
+      "link": "https://www.baidu.com/s?wd=OpenAI%E6%8E%A8%E5%87%BA%E6%9C%80%E5%BC%BA%E6%A8%A1%E5%9E%8BGPT-6.2+Astra&sa=fyb_news&rsv_dl=fyb_news",
+      "source": "百度热搜",
+      "signals": [
+        "百度热搜"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-18 05:58",
+      "ts": 1794952718,
+      "summary": "近日，OpenAI推出旗舰模型GPT-6.2Astra，定位复杂专业工作场景，多项基准测试超越Anthropic顶级模型，API价格较上一代下调20%，同步发布面向日常任务的GPT-6.2Sol。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "兴趣线索",
+      "confidence_class": "signal",
+      "score": 216.0,
+      "relevance": 34
+    },
+    {
+      "title": "华为云“行业AI梦工厂”发布并开源昇腾原生具身世界模型CloudRobo-WM1.2",
+      "link": "https://www.oschina.net/news/503602",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-16 20:52",
+      "ts": 1794833536,
+      "summary": "[中国，杭州，2026年11月16日] 今天，华为云“行业AI梦工厂”发布并开源昇腾原生的具身世界模型CloudRobo-WM1.2，采用共享世界模型骨干网络实现预测增强的世界表征，基于世界模型原生DualAct架构，实现了世界模型原生动作生成，在RoboTwin 2.0、LiberoPro 2.0 评测中均位列第一。五大核心技术突破，加速具身智能从实验室...",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 196,
+      "relevance": 24
+    },
+    {
+      "title": "美国超大规模数据中心的用电量与部分州的总用电量相当",
+      "link": "https://www.solidot.org/story?sid=85907",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "教程方法",
+      "published": "11-17 14:11",
+      "ts": 1794895917,
+      "summary": "根据发表在《Nature Sustainability》期刊上的一项研究，美国超大规模数据中心的用电量与部分州的总用电量相当。超大规模数据中心为云计算、大模型训练以及 AI 工具的全球部署等服务提供支撑，它们主要依赖化石燃料提供电力。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 168.74,
+      "relevance": 20
+    },
+    {
+      "title": "AI 时代，微服务不该再被\"部署复杂\"劝退 —— QuickBlue 用 3 条命令，把整套微服务装进 Docker",
+      "link": "https://www.oschina.net/news/503579",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "教程方法",
+      "published": "11-15 10:20",
+      "ts": 1794709219,
+      "summary": "AI 时代，微服务不该再被\"部署复杂\"劝退——QuickBlue 用 3 条命令，把整套微服务装进 Docker 本文是 QuickBlue-MicroAI 的部署理念与实践介绍。如果你只想直接上手，跳到文末的\"3 条命令速查\"即可。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 166,
+      "relevance": 18
+    },
+    {
+      "title": "有人说 AI 是技术平权，有人说 AI 是能力放大器，还有一些老登觉得 AI 把自己替代了",
+      "link": "https://www.v2ex.com/t/1257592#reply44",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "用户讨论",
+      "published": "11-17 09:38",
+      "ts": 1794879509,
+      "summary": "有人说 AI 是技术平权，有人说 AI 是能力放大器，还有一些老登觉得 AI 把自己替代了。那么，你觉得呢？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 164.22,
+      "relevance": 21
+    },
+    {
+      "title": "绿联 NAS 私有云系统官宣对外名称统一调整为“UGOS”：版本、功能与服务保持不变",
+      "link": "https://www.ithome.com/1/028/569.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-18 01:03",
+      "ts": 1794935033,
+      "summary": "IT之家 11 月 18 日消息，深圳市绿联科技股份有限公司绿联云官方微博昨日发布公告，宣布为构建更统一、清晰的品牌认知体系，推动全球化品牌战略布局及长期发展，自 2026 年 11 月 17 日起， “UGOS Pro”系统与“UGOS”系统的对外名称将统一调整为“UGOS” 。绿联 NAS 私有云表示， 原“UGOS”系统在绿联官网等渠道将以“UGOS 经典版”作区分 。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 158.36,
+      "relevance": 18
+    },
+    {
+      "title": "Asahi Linux 许可证从 MIT 换成 GPL，因为有人拿 AI 洗了它的代码",
+      "link": "https://www.oschina.net/news/503588/asahi-linux-drops-mit-for-gpl",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "案例复盘",
+      "published": "11-16 11:59",
+      "ts": 1794801590,
+      "summary": "Asahi Linux 是今天你能在 Apple Silicon Mac 上运行 Linux 的底层。多年来，这个开源项目把自己大部分代码放在 MIT 许可证下，好让任何人——包括各种 BSD——都能按需复用。",
+      "why": "保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 156,
+      "relevance": 16
+    },
+    {
+      "title": "训练一个强大的智能体，究竟有多简单？字节跳动等推出Axion 1.0",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651074900&idx=3&sn=b8ce1837d869e2563a888e3df5a04a89",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "11-17 11:38",
+      "ts": 1794886680,
+      "summary": "能搜索资料、运行代码，还能完成多步科学研究任务——训练这样的智能体，究竟需要多少道工序？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 155.89,
+      "relevance": 15
+    },
+    {
+      "title": "Cutefish – 30万行代码，让 Linux 运行 Mac 应用",
+      "link": "https://www.appinn.com/cutefish/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-17 16:55",
+      "ts": 1794905729,
+      "summary": "现在问题来了，在 Linux 上，能运行 Mac 应用吗？Cutefish：让 Linux 直接运行 Mac 应用 Cutefish 展示了一项有趣的技术：在 Linux 中运行 Mac 应用，已成功启动了 Things 3、TextMate、CotEditor、Hex Fiend 等软件，甚至连",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 155.65,
+      "relevance": 16
+    },
+    {
+      "title": "Agent如何越用越强？中科院自动化所、美团等推出RSI综述",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651074549&idx=3&sn=5f2b05e08cb027c3f6284554462f8144",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "11-15 10:29",
+      "ts": 1794709740,
+      "summary": "LLM Agent 递归自我改进综述",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "与DEEPSEEK对话——alphazero成功链条总结 该对话来自分享，由 AI 生成，请仔细甄别。 找找alphaz",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=403556&do=blog&id=1561508",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "概念科普",
+      "published": "11-17 19:49",
+      "ts": 1794916144,
+      "summary": "与DEEPSEEK对话——alphazero成功链条总结 该对话来自分享，由 AI 生成，请仔细甄别。找找alphaz",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 152.61,
+      "relevance": 15
+    },
+    {
+      "title": "商汤发布 SenseNova Loop-9B 模型：部署显存需求低至 10 GB 内",
+      "link": "https://www.ithome.com/1/028/534.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-17 21:56",
+      "ts": 1794923794,
+      "summary": "IT之家 11 月 17 日消息，商汤科技今天（17 日）晚间正式发布 SenseNova Loop-9B 模型。该模型 延续了 Preview 版本对参数效率的探索 ：通过 Loop 结构复用模型层的参数，并结合流形约束超连接（mHC），在约 9B 参数规模下扩展计算深度，面向复杂推理、代码、工具调用和多模态任务。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 152.32,
+      "relevance": 17
+    },
+    {
+      "title": "[开源] 分享一个我做的跳广告插件，利用 AI 跳过 B 站视频内的广告",
+      "link": "https://www.v2ex.com/t/1257839#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-17 23:56",
+      "ts": 1794931008,
+      "summary": "先放项目链接： https://github.com/ZeroTang05/VideoAdGuard 我去年写了一个用 AI 跳广告的插件，也一直在更新，算是我的第一个宣传出去的项目了，我记得当时还上了阮一峰的科技周刊呢（在 363 期 https://www.ruanyifeng.com/blog/2025/08/weekly-issue-363.html ） 现在想在我们 V2EX 社区宣传一下，基本的功能都完善了，能自动跳过，还有云端记录缓存（云端共享，用的大善人 c…",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 145.99,
+      "relevance": 16
+    },
+    {
+      "title": "计算流体力学中的智能体人工智能：综述丨Applied Mechanics",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/202611915255786157781.shtm?id=157781",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "概念科普",
+      "published": "11-09 23:03",
+      "ts": 1794236580,
+      "summary": "论文标题：Agentic AI for Computational Fluid Dynamics: A Review 论文链接：https://www.mdpi.com/2673-3161/...",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 13
+    },
+    {
+      "title": "NeurIPS 2026｜不再依赖外挂：清华把「自我进化技能」训进Agent大脑",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651074684&idx=3&sn=98e2d05a9365087f6adf4590de6d8793",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "11-16 12:01",
+      "ts": 1794801660,
+      "summary": "SkillMaster：让智能体学会进化自己的技能",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 144,
+      "relevance": 13
+    },
+    {
+      "title": "放弃在访达里翻翻找找！推荐一款极速、无广告的纯本地 Mac 搜索插件",
+      "link": "https://www.v2ex.com/t/1257661#reply2",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "实测评价",
+      "published": "11-17 12:50",
+      "ts": 1794891056,
+      "summary": "各位 V 友大家好。作为重度 macOS 用户，每天在 Mac 上找文件、发文件的频次极高，但在日常使用中总有几个小痛点一直让我觉得有些繁琐： 微信/飞书发文件很折腾 ：搜到了文件，经常还得「在访达中显示」，再用鼠标把文件窗口和微信窗口并排拖拽发送；",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 127.29,
+      "relevance": 13
+    }
+  ]
+}
