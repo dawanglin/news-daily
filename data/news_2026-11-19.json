@@ -1,0 +1,579 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19 05:41:23 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 3,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 10,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "17 个「我的世界」风格 3D 个人网站合集，附源码",
+      "link": "https://www.v2ex.com/t/1258060#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "工具发布",
+      "published": "11-18 17:08",
+      "ts": 1794992880,
+      "summary": "Homecraft 开源后，属实没想到激发了这么多朋友创作。大到府邸大宅，游乐场，长安街，一人公司的具象化，甚至还有把整个西湖搬进家的哈哈哈，小的细节更是数不胜数。",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 93.82,
+      "relevance": 6
+    },
+    {
+      "title": "基于昇腾算力的大模型推理加速研究与实践｜AICon北京",
+      "link": "https://www.infoq.cn/article/NbShAFtZqRSsFrsVu6aj?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "11-18 22:00",
+      "ts": 1795010400,
+      "summary": "基于昇腾算力的大模型推理加速研究与实践｜AICon北京",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 218.44,
+      "relevance": 27
+    },
+    {
+      "title": "800 个 MCP Server、5000 个工具，AI 智能体的“微服务危机”来了",
+      "link": "https://www.infoq.cn/article/FrDlAvNIwkr8ttdvWMCC?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "11-18 22:00",
+      "ts": 1795010400,
+      "summary": "800 个 MCP Server、5000 个工具，AI 智能体的“微服务危机”来了",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 188.44,
+      "relevance": 21
+    },
+    {
+      "title": "Skill Stow：一个尽量做得清晰、顺手的 macOS AI Skill 管理器",
+      "link": "https://www.v2ex.com/t/1258109#reply4",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-18 21:14",
+      "ts": 1795007662,
+      "summary": "平时用 Claude Code、Codex、Cursor、Gemini CLI 这些工具多了，本地 ~/.claude 、 ~/.codex 、 ~/.cursor 和各个项目里的 Skill 目录很容易越堆越乱。其实市面上已经有现成的 Skill 管理器了，功能上大家也都大差不差。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 175.19,
+      "relevance": 22
+    },
+    {
+      "title": "SpaceXAI 在美国密西西比州的 AI 数据中心泄漏约 20m³ 丙二醇",
+      "link": "https://www.ithome.com/1/029/115.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "教程方法",
+      "published": "11-18 23:01",
+      "ts": 1795014110,
+      "summary": "IT之家 11 月 18 日消息，据 tom's hardware 报道，埃隆 · 马斯克（Elon Musk）旗下的 SpaceXAI（SpaceXSI）在美国密西西比州的 AI 数据中心发生化学品泄漏事件。承包商在连接移动储罐时因软管配置错误，导致用于数据中心液冷散热的传热流体（主要成分为低毒性的抑制型丙二醇水溶液，用于数据中心或发电冷却系统）发生泄漏。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 172.78,
+      "relevance": 21
+    },
+    {
+      "title": "请问有两个以上 pro 号的各位，是如何进行切换和管理上下文的",
+      "link": "https://www.v2ex.com/t/1258039#reply12",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "教程方法",
+      "published": "11-18 16:37",
+      "ts": 1794991038,
+      "summary": "平时主要使用 claude desktop，登出后重新登录能继承一些进行中任务的上下文吗",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 106.65,
+      "relevance": 9
+    },
+    {
+      "title": "CSS终于支持random()随机函数了，等死老子了",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/11/css-math-random/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "技术实践",
+      "published": "11-16 08:00",
+      "ts": 1794787200,
+      "summary": "CSS终于支持random()随机函数了，等死老子了",
+      "why": "可拆出一个界面、交互或游戏机制。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 9
+    },
+    {
+      "title": "LAMOST揭示“丝绸星云”的物理机制",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/20261116211626771158096.shtm?id=158096",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-17 05:16",
+      "ts": 1794863760,
+      "summary": "近日，国家重大科技基础设施郭守敬望远镜（LAMOST）星云光谱巡天（MRS-N）与公众天文研究模式相结合，揭示了由中国天文爱好者于双子座天区发现的超大角尺度[O III]星云纤维（丝绸星云）的物理机...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 8
+    },
+    {
+      "title": "非洲加速向 5G-A 网络演进：华为 × Vodacom 联合发布 U6GHz“黄金频段”创新成果",
+      "link": "https://www.ithome.com/1/029/123.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "11-19 00:35",
+      "ts": 1795019706,
+      "summary": "IT之家 11 月 19 日消息，据“华为无线网络”公众号分享，在南非开普敦通信网络展览会（Africa Tech Festival 2026）期间，华为联合南非领先运营商 Vodacom 发布了 U6GHz 创新成果，为非洲市场 U6GHz 商用落地奠定了技术与场景基础。据介绍，U6GHz（6425–7125MHz）是继 C-band 之后又一备受关注的大带宽频段，也是 Sub-10GHz 范围内最后一块 700MHz 级连续大带宽频谱资源， 被业界视为“黄金频段” 。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 128.3,
+      "relevance": 12
+    },
+    {
+      "title": "“AI生成的代码必须开源！”开发者吵翻了，被开源代码喂大的Anthropic怕是第一个不同意",
+      "link": "https://www.infoq.cn/article/m5arrx8021zHVI0ybFtI?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-17 23:09",
+      "ts": 1794928185,
+      "summary": "“AI生成的代码必须开源！”开发者吵翻了，被开源代码喂大的Anthropic怕是第一个不同意",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 228,
+      "relevance": 30
+    },
+    {
+      "title": "面向多智能体应用的大模型推理调度与缓存优化｜AICon北京",
+      "link": "https://www.infoq.cn/article/X8xujm6xovp7z2YzWbpM?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "案例复盘",
+      "published": "11-18 02:53",
+      "ts": 1794941587,
+      "summary": "面向多智能体应用的大模型推理调度与缓存优化｜AICon北京",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 213,
+      "relevance": 27
+    },
+    {
+      "title": "华为云“行业AI梦工厂”发布并开源昇腾原生具身世界模型CloudRobo-WM1.2",
+      "link": "https://www.oschina.net/news/503602",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-16 20:52",
+      "ts": 1794833536,
+      "summary": "[中国，杭州，2026年11月16日] 今天，华为云“行业AI梦工厂”发布并开源昇腾原生的具身世界模型CloudRobo-WM1.2，采用共享世界模型骨干网络实现预测增强的世界表征，基于世界模型原生DualAct架构，实现了世界模型原生动作生成，在RoboTwin 2.0、LiberoPro 2.0 评测中均位列第一。五大核心技术突破，加速具身智能从实验室...",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 196,
+      "relevance": 24
+    },
+    {
+      "title": "马斯克“怒怼”奥尔特曼：SpaceX 预计不会从 OpenAI 处获得任何收入",
+      "link": "https://www.ithome.com/1/029/116.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "科技资讯",
+      "published": "11-18 23:09",
+      "ts": 1795014573,
+      "summary": "IT之家 11 月 18 日消息，SpaceX CEO 埃隆 · 马斯克出人意料地透露，公司在业务预测中 并未考虑来自 OpenAI 的任何收入 。此前，OpenAI CEO 萨姆 · 奥尔特曼谈及半导体行业可能重复计算 AI 芯片需求的问题。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 187.83,
+      "relevance": 24
+    },
+    {
+      "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol，任务成本显著下降",
+      "link": "https://www.oschina.net/news/503626/openai-gpt-6-2-astra-sol",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-18 11:13",
+      "ts": 1794971606,
+      "summary": "OpenAI 在推特上发了句挺少见的开场白：「有些人一直在非常礼貌地问，有些人就只是问。」然后宣布 GPT-6.2 Astra 和 Sol 上线。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 182.85,
+      "relevance": 21
+    },
+    {
+      "title": "18 年铸就开源创新基础设施，开源中国「模力方舟词元养成计划」发布",
+      "link": "https://www.oschina.net/news/503647",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-18 19:59",
+      "ts": 1795003155,
+      "summary": "GOTC 2026 于 11 月 14 日圆满落幕，主会场上，开源中国董事长马越发表演讲，系统回顾开源中国 18 年的发展历程，分享从开源社区、源代码社区、研发效能平台到人工智能平台、创新孵化平台的五次阶段演进。现场，开源中国统一品牌标识与 IP 形象集中亮相，模力方舟词元养成计划（MoArk Token Incubation Program）正式发布...",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 180.77,
+      "relevance": 20
+    },
+    {
+      "title": "微软编程模型「MAI Code」上新，用 Claude Opus 5.5 百分之五的价格拿到 96% 的性能",
+      "link": "https://www.oschina.net/news/503644/ms-mai-code-2-and-mai-code-2-flash",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "11-18 17:50",
+      "ts": 1794995427,
+      "summary": "微软宣布推出新版本编程模型：MAI Code 2 和 Code 2 Flash。它给 MAI Code 2 定的核心卖点写在小标题里：「不到一半的价格，交付生产级质量」。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 175.05,
+      "relevance": 19
+    },
+    {
+      "title": "openJiuwen首发AgentOS「Harnessless」开发范式：不用自建Harness，让Agent原生应用触手可及",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651075119&idx=2&sn=3c605eec20f55342d9385a5f813e17ac",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "11-18 13:00",
+      "ts": 1794978000,
+      "summary": "openJiuwen AgentOS，从应用开发到统一管理！",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 171.44,
+      "relevance": 18
+    },
+    {
+      "title": "训练一个强大的智能体，究竟有多简单？字节跳动等推出Axion 1.0",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651074900&idx=3&sn=b8ce1837d869e2563a888e3df5a04a89",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "11-17 11:38",
+      "ts": 1794886680,
+      "summary": "能搜索资料、运行代码，还能完成多步科学研究任务——训练这样的智能体，究竟需要多少道工序？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "Cutefish – 30万行代码，让 Linux 运行 Mac 应用",
+      "link": "https://www.appinn.com/cutefish/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-17 16:55",
+      "ts": 1794905729,
+      "summary": "现在问题来了，在 Linux 上，能运行 Mac 应用吗？Cutefish：让 Linux 直接运行 Mac 应用 Cutefish 展示了一项有趣的技术：在 Linux 中运行 Mac 应用，已成功启动了 Things 3、TextMate、CotEditor、Hex Fiend 等软件，甚至连",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 152,
+      "relevance": 16
+    },
+    {
+      "title": "新高危漏洞 Java4Shell 会导致远程代码执行",
+      "link": "https://www.solidot.org/story?sid=85923",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "案例复盘",
+      "published": "11-18 21:27",
+      "ts": 1795008440,
+      "summary": "刚刚公开的高危漏洞 Java4Shell 会导致远程代码执行。Java4Shell 源自 OpenJDK Base64 解码器的一个内存损坏漏洞，CVSS 4.0 评分 9.2/10。",
+      "why": "它触及你正在使用的软件和代码边界。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 146.26,
+      "relevance": 15
+    },
+    {
+      "title": "计算流体力学中的智能体人工智能：综述丨Applied Mechanics",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/202611915255786157781.shtm?id=157781",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "概念科普",
+      "published": "11-09 23:03",
+      "ts": 1794236580,
+      "summary": "论文标题：Agentic AI for Computational Fluid Dynamics: A Review 论文链接：https://www.mdpi.com/2673-3161/...",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 145,
+      "relevance": 13
+    },
+    {
+      "title": "NeurIPS 2026｜不再依赖外挂：清华把「自我进化技能」训进Agent大脑",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651074684&idx=3&sn=98e2d05a9365087f6adf4590de6d8793",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "11-16 12:01",
+      "ts": 1794801660,
+      "summary": "SkillMaster：让智能体学会进化自己的技能",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 144,
+      "relevance": 13
+    },
+    {
+      "title": "分享一个同步网站登录态的插件 SessionSync",
+      "link": "https://www.v2ex.com/t/1258065#reply4",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-18 17:23",
+      "ts": 1794993801,
+      "summary": "分享一个插件 SessionSync，把网站的登录状态从一个浏览器带到另一个浏览器。本机 Chrome 已经登录了，换到 AI 浏览器、虚拟机或远程服务器里的浏览器，又要输密码、收验证码。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 143.9,
+      "relevance": 16
+    },
+    {
+      "title": "文明系列游戏开发商裁员三分之一",
+      "link": "https://www.solidot.org/story?sid=85919",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "专家观点",
+      "published": "11-18 15:45",
+      "ts": 1794987931,
+      "summary": "《文明》系列和《XCOM》系列策略游戏开发商 Firaxis Games 工作室裁员三分之一约 60 名员工，其中包括工作室负责人 Heather Hazen。据彭博社报道，原因是《XCOM》系列最新作开发不顺。",
+      "why": "可拆出一个界面、交互或游戏机制。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 114.36,
+      "relevance": 9
+    },
+    {
+      "title": "华为 Mate 90 系列手机推 HarmonyOS 7.0.0.115 升级，“悄悄”上线完全体 3D 空间壁纸功能",
+      "link": "https://www.ithome.com/1/029/125.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "11-19 00:55",
+      "ts": 1795020939,
+      "summary": "IT之家 11 月 19 日消息，华为 Mate 90 系列手机已率先开启鸿蒙 HarmonyOS 7.0.0.115 SP11 版本升级，系统包大小约 10.31GB，带来了 AI 快捷栏等功能。据博主 @怪咖学徒_ 反馈，在升级 HarmonyOS 7.0.0.115 版本后，华为 Mate 90 系列手机“悄悄”上线了完全体 3D 空间壁纸功能， 支持重力感应特性 。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 113.41,
+      "relevance": 9
+    },
+    {
+      "title": "FBI 警告黑客利用 Artex 能在三小时内入侵网络",
+      "link": "https://www.solidot.org/story?sid=85910",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "11-17 16:07",
+      "ts": 1794902823,
+      "summary": "FBI 发出警告，黑客正在利用名为 Artex 的 AI 驱动渗透测试工具，在部分情况下不到三个小时即可成功入侵网络。该工具已被发现与针对韩国金融机构、至少 2250 家 ConnectWise 客户以及 Barracuda 公司的攻击事件有关。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 111,
+      "relevance": 9
+    }
+  ]
+}
