@@ -1,0 +1,579 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20 05:57:16 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 7,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 10,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "从业者正在对 Anthropic “没人需要 Claude Code 心理模型”的说法进行验证",
+      "link": "https://www.infoq.cn/article/R9BxSitBpwGcDwfS22ac?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "11-19 20:00",
+      "ts": 1795089600,
+      "summary": "从业者正在对 Anthropic “没人需要 Claude Code 心理模型”的说法进行验证",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 187.68,
+      "relevance": 21
+    },
+    {
+      "title": "伏羲智能决策平台发布 v1.0.0：多智能体协作与决策运营闭环升级",
+      "link": "https://www.oschina.net/news/503652",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "11-19 10:28",
+      "ts": 1795055302,
+      "summary": "摘要 开源项目伏羲智能决策平台发布 v1.0.0。该版本升级多智能体编排与知识检索，完善测试提案、历史回归、业务结果回传、偏差归因、漂移监测和优化评估流程，尝试把自然语言建模、确定性决策执行与发布后运营连接起来。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 182.51,
+      "relevance": 21
+    },
+    {
+      "title": "一个 chatgpt 聊天优化插件",
+      "link": "https://www.v2ex.com/t/1258399#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-20 01:04",
+      "ts": 1795107845,
+      "summary": "这是一个 codex 客户端 chat 端的优化小插件，主要用于在 chatgpt 回答的内容上进行提问，与原版提问不同的是，我这个是额外开一个小框来提问，这样就可以避免进行提问后需要回上文找中断的地方，可以不用那么麻烦，github 链接为： https://github.com/x549d/context-notes-native 该插件目前还比较早期，希望大家体验后能提供一些需要改进的问题",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 161.37,
+      "relevance": 19
+    },
+    {
+      "title": "IEA 警告称到 2030 年数据中心碳排放量将增加七成",
+      "link": "https://www.solidot.org/story?sid=85937",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "社区观察",
+      "published": "11-20 00:34",
+      "ts": 1795106050,
+      "summary": "国际能源署（IEA）发表报告警告，到 2030 年数据中心碳排放量将增加七成。报告称，到 2030 年数据中心的用电量将达到目前的水平的两倍，未来四年 AI 数据中心每年将额外消耗 350 TWh 的电力，这一数字超过了英国全年的总耗电量。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 177.21,
+      "relevance": 21
+    },
+    {
+      "title": "R 星回应《GTA 6》为何没有飞镖、保龄球小游戏：宁缺毋滥，做不到高标准就不做",
+      "link": "https://www.ithome.com/1/029/666.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "专家观点",
+      "published": "11-19 20:19",
+      "ts": 1795090748,
+      "summary": "IT之家 11 月 19 日消息，Rockstar Games 解释了为什么《侠盗猎车手 6》（GTA 6）没有加入部分玩家期待的小游戏，例如飞镖和保龄球。Rockstar 联合工作室负责人罗布 · 尼尔森（Rob Nelson）表示，开发团队改变了小游戏的设计思路，不愿意加入任何达不到自身质量标准的内容。",
+      "why": "可拆出一个界面、交互或游戏机制。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 126.79,
+      "relevance": 12
+    },
+    {
+      "title": "LAMOST揭示“丝绸星云”的物理机制",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/20261116211626771158096.shtm?id=158096",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-17 05:16",
+      "ts": 1794863760,
+      "summary": "近日，国家重大科技基础设施郭守敬望远镜（LAMOST）星云光谱巡天（MRS-N）与公众天文研究模式相结合，揭示了由中国天文爱好者于双子座天区发现的超大角尺度[O III]星云纤维（丝绸星云）的物理机...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 8
+    },
+    {
+      "title": "Audio Vivid 生态再进一步：理想汽车官宣上线菁彩声，支持声音对象精准空间定位与动态渲染",
+      "link": "https://www.ithome.com/1/029/698.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "11-19 22:33",
+      "ts": 1795098783,
+      "summary": "IT之家 11 月 19 日消息， 理想汽车官方今日宣布上线菁彩声 Audio Vivid 。据介绍，在今日的 2026 声音设计创新大赛启动现场，理想汽车联合产业伙伴官宣菁彩声 Audio Vivid 车载功能上线。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 97.53,
+      "relevance": 6
+    },
+    {
+      "title": "阿里巴巴 CEO 吴泳铭：千问已在平头哥芯片训练下一代模型，百炼基于国产芯片提供模型推理服务",
+      "link": "https://www.ithome.com/1/029/676.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "11-19 20:58",
+      "ts": 1795093119,
+      "summary": "IT之家 11 月 19 日消息，据财联社今日报道，在 2027 财年第二季度财报分析师电话会上，阿里巴巴集团 CEO 吴泳铭表示， 千问已经在平头哥芯片上训练下一代模型，百炼已经基于国产芯片提供模型推理服务 。吴泳铭强调， 阿里的全栈 AI 基础设施将在国产算力供应链上形成明显优势 ，而自研芯片与自研模型的深度协同，将持续转化为更优的单位算力成本和更高的 AI 应用研发效率。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 187.01,
+      "relevance": 24
+    },
+    {
+      "title": "TaroBird：让 Codex、Claude Code、DSH 等 CLI 变身 Personal AI，桌面手机多端同步",
+      "link": "https://www.v2ex.com/t/1258241#reply14",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "用户作品",
+      "published": "11-19 12:25",
+      "ts": 1795062321,
+      "summary": "我手上订了好几家 AI：Claude、Gemini，还有 OpenAI 送的 GPT。每家的长处不一样，我习惯让不同的 AI 干不同的活，一个写代码，一个做审查和文案，一个查资料。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 182.16,
+      "relevance": 24
+    },
+    {
+      "title": "AIGCPanel v2.7.0 模型权重按需下载，直播错误看得见",
+      "link": "https://www.oschina.net/news/503648",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-18 22:14",
+      "ts": 1795011277,
+      "summary": "模型包不再带着权重一起下，直播里播不出去的那句话会告诉你是为什么。AIGCPanel 是装在自己电脑上的 AI 数字人工作台，口型、语音合成、语音识别都能在本地跑，显卡不够时也能接云端模型或者自己的 API。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 181,
+      "relevance": 21
+    },
+    {
+      "title": "18 年铸就开源创新基础设施，开源中国「模力方舟词元养成计划」发布",
+      "link": "https://www.oschina.net/news/503647",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-18 19:59",
+      "ts": 1795003155,
+      "summary": "GOTC 2026 于 11 月 14 日圆满落幕，主会场上，开源中国董事长马越发表演讲，系统回顾开源中国 18 年的发展历程，分享从开源社区、源代码社区、研发效能平台到人工智能平台、创新孵化平台的五次阶段演进。现场，开源中国统一品牌标识与 IP 形象集中亮相，模力方舟词元养成计划（MoArk Token Incubation Program）正式发布...",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 176,
+      "relevance": 20
+    },
+    {
+      "title": "给大家分享一下 Tarobird 的 Codex、Claude Code 、DSH 、AGY、KIMI 互相调度功能",
+      "link": "https://www.v2ex.com/t/1258374#reply1",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "用户作品",
+      "published": "11-19 21:09",
+      "ts": 1795093789,
+      "summary": "Tarobird 功能蛮多的，Codex、Claude Code 、DSH 、AGY、KIMI 互相调度功能是其中之一，也是我最常用的功能。我举个例子： 我要开个 issue，但我想让 codex 和 Claude 一起做，于是我输入： “我想开个 issue，是关于显示我们各个模型还剩多少使用额度的，你和 opus5.5 商量一下，这个 issue 怎么写，并提出” 之后 codex 就会调用 opus，并讨论 这时候可以看到 codex 新调用了一个 claude 的对…",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 175.07,
+      "relevance": 22
+    },
+    {
+      "title": "AI 模型大幅降低古籍数字化成本：识别 1000 页内容费用已不到 0.1 美元",
+      "link": "https://www.ithome.com/1/029/688.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "11-19 21:49",
+      "ts": 1795096144,
+      "summary": "IT之家 11 月 19 日消息，借助免费开放的 AI 模型，从扫描版书籍和档案中提取文字的成本已经大幅下降。Hugging Face 的丹尼尔 · 范斯特里恩（Daniel van Strien）对 8 款能够识别图像中文字的 AI 模型进行了对比测试。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 172.29,
+      "relevance": 21
+    },
+    {
+      "title": "openJiuwen首发AgentOS「Harnessless」开发范式：不用自建Harness，让Agent原生应用触手可及",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651075119&idx=2&sn=3c605eec20f55342d9385a5f813e17ac",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "11-18 13:00",
+      "ts": 1794978000,
+      "summary": "openJiuwen AgentOS，从应用开发到统一管理！",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 169,
+      "relevance": 18
+    },
+    {
+      "title": "开源数据库管理工具 CloudDM 新版本支持 GreptimeDB 数据源",
+      "link": "https://www.oschina.net/news/503651",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-19 10:02",
+      "ts": 1795053771,
+      "summary": "CloudDM 是一款免费且开源的团队化数据库管理工具，提供统一 Web 数据库访问、权限控制、数据脱敏、SQL 审核、流程协同和数据库 CI/CD 等能力。新增 新增 GreptimeDB 数据源，支持连接配置、元数据浏览、SQL 查询、DDL / DML 执行及查询条数限制。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 167.37,
+      "relevance": 18
+    },
+    {
+      "title": "微软官方 agent-framework 软件包被黑客劫持安装恶意程序",
+      "link": "https://www.solidot.org/story?sid=85931",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "11-19 16:24",
+      "ts": 1795076684,
+      "summary": "微软托管在 PyPI 上的 agent-framework 软件包被黑客劫持安装窃取信息的恶意程序。agent-framework 每月下载量近 20 万次，主要用于构建和部署 AI 智能体。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 164.49,
+      "relevance": 19
+    },
+    {
+      "title": "杀入Agent主场之后：两年内部分替代自回归，扩散智能的底气从何而来？| 专访",
+      "link": "https://www.infoq.cn/article/rtBT5s1opGGazFgQi0YS?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-20 00:32",
+      "ts": 1795105953,
+      "summary": "杀入Agent主场之后：两年内部分替代自回归，扩散智能的底气从何而来？| 专访",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 159.2,
+      "relevance": 15
+    },
+    {
+      "title": "Agent 实干派：从人人可用到全栈工程进化 | InfoQ 小编探班",
+      "link": "https://www.infoq.cn/video/Cfrl4QYhD3dHMuhGt6hw?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-20 00:16",
+      "ts": 1795104989,
+      "summary": "Agent 实干派：从人人可用到全栈工程进化 | InfoQ 小编探班",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 159.11,
+      "relevance": 15
+    },
+    {
+      "title": "微软将停用 Azure 部署环境，而且不会推出替代产品",
+      "link": "https://www.infoq.cn/article/UEZ4CPEr1vyESW6z647r?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "教程方法",
+      "published": "11-19 18:00",
+      "ts": 1795082400,
+      "summary": "微软将停用 Azure 部署环境，而且不会推出替代产品",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 157.02,
+      "relevance": 15
+    },
+    {
+      "title": "Cutefish – 30万行代码，让 Linux 运行 Mac 应用",
+      "link": "https://www.appinn.com/cutefish/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-17 16:55",
+      "ts": 1794905729,
+      "summary": "现在问题来了，在 Linux 上，能运行 Mac 应用吗？Cutefish：让 Linux 直接运行 Mac 应用 Cutefish 展示了一项有趣的技术：在 Linux 中运行 Mac 应用，已成功启动了 Things 3、TextMate、CotEditor、Hex Fiend 等软件，甚至连",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 152,
+      "relevance": 16
+    },
+    {
+      "title": "新高危漏洞 Java4Shell 会导致远程代码执行",
+      "link": "https://www.solidot.org/story?sid=85923",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "案例复盘",
+      "published": "11-18 21:27",
+      "ts": 1795008440,
+      "summary": "刚刚公开的高危漏洞 Java4Shell 会导致远程代码执行。Java4Shell 源自 OpenJDK Base64 解码器的一个内存损坏漏洞，CVSS 4.0 评分 9.2/10。",
+      "why": "它触及你正在使用的软件和代码边界。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 141,
+      "relevance": 15
+    },
+    {
+      "title": "CSS终于支持random()随机函数了，等死老子了",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/11/css-math-random/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "技术实践",
+      "published": "11-16 08:00",
+      "ts": 1794787200,
+      "summary": "CSS终于支持random()随机函数了，等死老子了",
+      "why": "可拆出一个界面、交互或游戏机制。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 9
+    },
+    {
+      "title": "文明系列游戏开发商裁员三分之一",
+      "link": "https://www.solidot.org/story?sid=85919",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "专家观点",
+      "published": "11-18 15:45",
+      "ts": 1794987931,
+      "summary": "《文明》系列和《XCOM》系列策略游戏开发商 Firaxis Games 工作室裁员三分之一约 60 名员工，其中包括工作室负责人 Heather Hazen。据彭博社报道，原因是《XCOM》系列最新作开发不顺。",
+      "why": "可拆出一个界面、交互或游戏机制。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 111,
+      "relevance": 9
+    },
+    {
+      "title": "高性能软件CTPWA百倍提速 突破强子谱学计算瓶颈",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/20261117182025802158134.shtm?id=158134",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-18 02:20",
+      "ts": 1794939600,
+      "summary": "近日，中国科学院高能物理研究所博士研究生向本后、房双世研究员和刘北江研究员开发出一款高性能分波分析软件CTPWA，使得强子物理研究中“分波分析”计算速度...",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 110,
+      "relevance": 6
+    },
+    {
+      "title": "种属、个体、组织与 passages：起始材料的变异",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=657565&do=blog&id=1561764",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-19 15:46",
+      "ts": 1795074373,
+      "summary": "种属、个体、组织与 passages：起始材料的变异",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 106.27,
+      "relevance": 6
+    },
+    {
+      "title": "【连续多届稳定EI检索，快至会后3个月】第八届新材料与清洁能源国际学术会议（ICAMCE 2027）",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=3623968&do=blog&id=1561861",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "实测评价",
+      "published": "11-19 11:42",
+      "ts": 1795059721,
+      "summary": "【连续多届稳定EI检索，快至会后3个月】第八届新材料与清洁能源国际学术会议（ICAMCE 2027）",
+      "why": "把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 104.92,
+      "relevance": 6
+    }
+  ]
+}

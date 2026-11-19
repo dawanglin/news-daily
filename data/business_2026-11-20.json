@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-20",
+  "items": [
+    {
+      "title": "Metadata-Driven AI: An Architectural Pattern for Sustainable Data Analysis with LLMs",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.24661v1",
+      "published_at": "2026-11-18",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "ABSClaw: From Invented Worlds to Reality-Grounded Social Simulation",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.24517v1",
+      "published_at": "2026-11-18",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Teaching VLMs What to Say, Not How to Reason: Rethinking Counterfactual Reasoning in Autonomous Driving",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.24376v1",
+      "published_at": "2026-11-18",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Facet-SLAM: Real-Time Triangle Splatting SLAM",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.23935v1",
+      "published_at": "2026-11-18",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "A Hierarchical Onboard Vision-Language-Navigation Framework for Aerial Robots in Complex Environments",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.23930v1",
+      "published_at": "2026-11-18",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "GTI: Grounding Task Intent Throughout Long-Horizon VLA Manipulation",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.23926v1",
+      "published_at": "2026-11-18",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Developing a Subdistrict-Level Economic Progress Index Using Geospatial Data",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.23798v1",
+      "published_at": "2026-11-18",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Detect What You Need: Chain-of-Causal Reasoning for 3D Intent Grounding",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.23754v1",
+      "published_at": "2026-11-18",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "NIRJALA: Draining the Sea out of Gaussian Splatting with Three-Path Optics and Reversible Physics",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.23450v1",
+      "published_at": "2026-11-17",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "OCLDA-GS: Object-Centric Local Deformation-Aware Gaussian Streaming",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.23416v1",
+      "published_at": "2026-11-17",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Learning Grounded Reasoning from Human Gaze",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.23209v1",
+      "published_at": "2026-11-17",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "ReTouchGS: Ultralight Render-free Aesthetic Color Enhancement and Transfer for 3D Gaussian Splatting",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.23054v1",
+      "published_at": "2026-11-17",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：Documentation Index",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：<button type=\"button\" aria-describedby=\"_R_3eehkd74t9H1_\"><svg aria-hidden=\"true",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Documentation",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Getting Started",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/getting_started/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Official Manual",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/manual/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Tips & Tricks",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/tips/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    }
+  ]
+}
