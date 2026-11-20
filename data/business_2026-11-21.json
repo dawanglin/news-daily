@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-21",
+  "items": [
+    {
+      "title": "SpatialScout-V2: Can VLM Agents Actively Explore Real-World 3D Scenes and Localize Objects?",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.26177v1",
+      "published_at": "2026-11-19",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.26024v1",
+      "published_at": "2026-11-19",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Multi-View Transformer with Geometry-Guided Multi-Modal ControlNet for 3D Virtual Try-On",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.25979v1",
+      "published_at": "2026-11-19",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "AGSR: Aperture-Guided Super-Resolution for Gaussian Splatting",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.25934v1",
+      "published_at": "2026-11-19",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Trustworthy Geospatial AI Workflows: Reproducible Maritime Analytics and Forecasting on Open-Source AIS Data",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.25884v1",
+      "published_at": "2026-11-19",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "DACA: Dual-Anchor Collaborative Agent for Zero-Shot 3D Visual Grounding",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.25722v1",
+      "published_at": "2026-11-19",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "From Geographic Memory to Spatial Generalization in Large Language Models",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.25703v1",
+      "published_at": "2026-11-19",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Multi-View Relighting with Mergeable Radiance Fields",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.25523v1",
+      "published_at": "2026-11-19",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.25387v1",
+      "published_at": "2026-11-19",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MKA: Evaluating Multimodal Knowledge Agents on end-to-end professional tasks",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.25228v1",
+      "published_at": "2026-11-18",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "VisAlloc: Allocating Visual Supervision for On-Policy Self-Distillation",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.25069v1",
+      "published_at": "2026-11-18",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Metadata-Driven AI: An Architectural Pattern for Sustainable Data Analysis with LLMs",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.24661v1",
+      "published_at": "2026-11-18",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：Documentation Index",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：<button type=\"button\" aria-describedby=\"_R_3eehkd74t9H1_\"><svg aria-hidden=\"true",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Documentation",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Getting Started",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/getting_started/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Official Manual",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/manual/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Tips & Tricks",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/tips/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    }
+  ]
+}
