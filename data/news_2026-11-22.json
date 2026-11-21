@@ -1,0 +1,579 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22 04:20:36 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 9,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 3,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 9,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "美国公司将特斯拉 Model 3 爆改成 MPV，超充、OTA、辅助驾驶都能用",
+      "link": "https://www.ithome.com/1/030/458.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "科技资讯",
+      "published": "11-21 18:50",
+      "ts": 1795258242,
+      "summary": "IT之家 11 月 21 日消息，据《商业内幕》今天（21 日）晚间报道，特斯拉从未涉足 MPV 市场，杰弗里 · 霍夫曼看中了这一市场空白，希望抓住商机。不过，他并不打算从零开始创办汽车公司。",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 96.84,
+      "relevance": 6
+    },
+    {
+      "title": "GIMP 优化自动测试功能，会像真人一样与界面 UI 交互",
+      "link": "https://www.oschina.net/news/503702/gimp-ui-tests",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent编排",
+      "lens": "案例复盘",
+      "published": "11-20 15:09",
+      "ts": 1795158554,
+      "summary": "GIMP 终于有了一套自动化的界面测试。起因很朴素：GIMP 有大量互相交织的菜单、对话框和工具。",
+      "why": "关注编排的可靠性与可恢复性：任务如何调度、失败如何回滚、结果如何验证，复现一条执行链。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 106,
+      "relevance": 6
+    },
+    {
+      "title": "华中科技大学与阿里巴巴联合成立 AI 前沿安全研究中心，课题覆盖大模型安全攻防等",
+      "link": "https://www.ithome.com/1/030/423.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "案例复盘",
+      "published": "11-21 17:57",
+      "ts": 1795255025,
+      "summary": "IT之家 11 月 21 日消息，华中科技大学与阿里巴巴集团于 11 月 18 日签署合作协议，聚焦 AI 安全共建“智能攻防与前沿安全联合研究中心”，首批启动 9 个课题。IT之家获悉，联合研究中心首批启动的 9 个课题，覆盖 大模型安全攻防、智能体与终端安全、智能化系统与软件安全、数据协同与隐私保护 四大方向，以下为官方公开的案例： 当 AI 智能体开始替用户操作手机、完成复杂任务时，屏幕画面可能被伪造，操作过程也可能受到恶意诱导。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 186.54,
+      "relevance": 24
+    },
+    {
+      "title": "蚂蚁 OceanBase 团队开源 PowerContext，跨对话的 Agent 记忆服务",
+      "link": "https://www.oschina.net/news/503704/oceanbase-powercontex",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "11-20 15:55",
+      "ts": 1795161330,
+      "summary": "蚂蚁 OceanBase 团队开源了名为「PowerContext」的项目，解决的问题很具体：上下文不该死在一次对话里。它的定位是「给 AI agent 用的开源上下文服务」。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 166,
+      "relevance": 18
+    },
+    {
+      "title": "Edge 插件审核被拒一次的教训：认证备注里要写清怎么测，不写账号",
+      "link": "https://www.v2ex.com/t/1258806#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-21 21:50",
+      "ts": 1795269002,
+      "summary": "做了几个 Edge 浏览器插件，ConvoExport 第一版提交后被拒了一次，记录一下教训。被拒：v1.0.0 提交后收到拒信，政策 1.3 / 1.3.1「Product is Testable」，理由是没提供测试步骤和账号说明。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 150.83,
+      "relevance": 17
+    },
+    {
+      "title": "IEA 警告称到 2030 年数据中心碳排放量将增加七成",
+      "link": "https://www.solidot.org/story?sid=85937",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "社区观察",
+      "published": "11-20 00:34",
+      "ts": 1795106050,
+      "summary": "国际能源署（IEA）发表报告警告，到 2030 年数据中心碳排放量将增加七成。报告称，到 2030 年数据中心的用电量将达到目前的水平的两倍，未来四年 AI 数据中心每年将额外消耗 350 TWh 的电力，这一数字超过了英国全年的总耗电量。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 171,
+      "relevance": 21
+    },
+    {
+      "title": "不会建站也能起步：一个模板 + 10 步向导，从密钥到 Google 收录都告诉你",
+      "link": "https://www.v2ex.com/t/1258816#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "工具发布",
+      "published": "11-21 23:03",
+      "ts": 1795273398,
+      "summary": "先说明：自荐，产品是 make1day AI SaaS Template，卖的是生成出来的源码。[我为什么做这个] 买过几个 SaaS boilerplate，问题都一样： 1）没用的模块还在仓库里，编译报错、白标残留；",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 96.24,
+      "relevance": 6
+    },
+    {
+      "title": "我的微信小游戏过审上线了，飞机空战类型我个人觉得还挺好玩的 请大家体验一下",
+      "link": "https://www.v2ex.com/t/1258692#reply20",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "实测评价",
+      "published": "11-21 08:52",
+      "ts": 1795222374,
+      "summary": "小游戏名叫 苍穹方块 贴小游戏码： https://chn.picui.cn/20631/2026/11/21/6b00ebef6c8e1.jpg",
+      "why": "可拆出一个界面、交互或游戏机制。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 121.51,
+      "relevance": 12
+    },
+    {
+      "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
+      "link": "https://www.qbitai.com/2026/11/511727.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-21 00:07",
+      "ts": 1795190859,
+      "summary": "黎曼猜想被证明？！",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 198,
+      "relevance": 24
+    },
+    {
+      "title": "《GTA6》雷奥奈达州完整地图海报上线 R 星官网，玩家可自行下载打印",
+      "link": "https://www.ithome.com/1/030/462.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "11-21 19:29",
+      "ts": 1795260542,
+      "summary": "IT之家 11 月 21 日消息，R 星现已在《GTA6》官方网站免费公开游戏舞台“雷奥奈达州”的完整地图及封面图海报供玩家下载打印，IT之家附地址（ https://www.rockstargames.com/VI/media ）。过去部分《GTA》作品曾在游戏包装内附赠纸质地图，让玩家能够一边查阅地图一边探索城市，不过到了《GTA6》时代，官方仅在游戏盒中附送封面海报，这可能是为了防止在游戏发售前剧透地图细节。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 157.05,
+      "relevance": 18
+    },
+    {
+      "title": "人类数学家匆忙发布广义黎曼猜想的证明手稿",
+      "link": "https://www.solidot.org/story?sid=85952",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-21 19:09",
+      "ts": 1795259399,
+      "summary": "今年 9 月 OpenAI 宣布解决 Navier-Stokes 问题时引发了广泛争议，原因是当时有数学家正致力于解决该问题，而且已经取得了突破。现在 Anthropic 数学家发表几十万页的文档声称证明了黎曼猜想。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 175.94,
+      "relevance": 21
+    },
+    {
+      "title": "入了 Gemini Pro 之后，已经严肃取消 GPT plus",
+      "link": "https://www.v2ex.com/t/1258745#reply30",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "11-21 14:44",
+      "ts": 1795243456,
+      "summary": "Neon 干活确实挺漂亮的，也没 GPT 那么多废话 但是缺点也有： 额度消耗很快，一个对话，几轮任务下来 week 消耗 92% 反重力不好用，不过官方表示即将支持接入其他 agent，未来应该不是问题 当前尚存订阅 GLM max(年费，到期看情况续不续）、opencode go（GLM 用完消耗它）、Gemini Pro（代替 GPT 做管理、规划、设计）、GPT（12-01 到期不续）",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 166.47,
+      "relevance": 21
+    },
+    {
+      "title": "智能体 AI 架构：当前挑战与未来机遇",
+      "link": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-21 19:00",
+      "ts": 1795258800,
+      "summary": "智能体 AI 架构：当前挑战与未来机遇",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 157.89,
+      "relevance": 15
+    },
+    {
+      "title": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
+      "link": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "11-21 18:00",
+      "ts": 1795255200,
+      "summary": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 157.55,
+      "relevance": 15
+    },
+    {
+      "title": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
+      "link": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-21 18:00",
+      "ts": 1795255200,
+      "summary": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 157.55,
+      "relevance": 15
+    },
+    {
+      "title": "【AI 智能运维平台】本周更新：内置常用智能体模版，简单配置快速启用",
+      "link": "https://www.oschina.net/news/503707",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "工具发布",
+      "published": "11-20 17:02",
+      "ts": 1795165360,
+      "summary": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。:loudspeaker: 【平台 · 本周更新速递】 :hammer_and_wrench: 系统管理 • 新增「超级审计员」角色，可只读查看全部组织和应用数据 :card_index_dividers: CMDB • 采集任...",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 156,
+      "relevance": 16
+    },
+    {
+      "title": "Google 于 2027 年 1 月在全球实施 Android 开发者身份验证",
+      "link": "https://www.solidot.org/story?sid=85940",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "专家观点",
+      "published": "11-20 14:49",
+      "ts": 1795157341,
+      "summary": "Google 去年宣布了 Android 开发者身份验证计划。尽管遭到了开发者和用户的广泛反对，Google 仍然坚持推进该计划。",
+      "why": "分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 156,
+      "relevance": 18
+    },
+    {
+      "title": "上海AI Lab开源Sage S2.1 Flash技术报告：四项智能体基准SOTA，科学多模态感知如何融入通用智能体？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651075493&idx=3&sn=63643451e794a6d8ac3dbb423d7f460d",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "11-20 11:58",
+      "ts": 1795147080,
+      "summary": "披露总参数量达 320B 的混合专家模型的完整训练流程与技术细节。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "语言模型推理折叠蛋白质？把3D结构塞进思维链，超越AlphaFold3、IsoDDE与Claude Opus",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651075302&idx=1&sn=1badc9c3cd5176dcd98e705345707a2d",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "11-19 12:09",
+      "ts": 1795061340,
+      "summary": "SimpleX 开放Tetra-1 Preview 试用，迈向微观世界的生物推理。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154,
+      "relevance": 15
+    },
+    {
+      "title": "“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多",
+      "link": "https://www.infoq.cn/article/tDxNggErsJNeb53ZkYeF?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "11-21 02:41",
+      "ts": 1795200094,
+      "summary": "“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 153,
+      "relevance": 15
+    },
+    {
+      "title": "患者特异性基因调控网络的泛癌聚类策略基准",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=571917&do=blog&id=1562152",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "概念科普",
+      "published": "11-21 18:09",
+      "ts": 1795255757,
+      "summary": "患者特异性基因调控网络的泛癌聚类策略基准",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 152.61,
+      "relevance": 15
+    },
+    {
+      "title": "Claude Code 团队怎么让 agent 自己证明活干对了",
+      "link": "https://www.oschina.net/news/503667/claude-dev-how-the-claude-code-team-thinks-about-verification",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "11-19 14:44",
+      "ts": 1795070695,
+      "summary": "Claude Code 团队公开了一个数字：他们的代码大约 90% 由 Claude 编写和评审。该团队工程师 Addy Osmani 在 claude.dev 上写了篇文章，讲这个规模下他们怎么让 agent 验证自己的工作。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 151,
+      "relevance": 15
+    },
+    {
+      "title": "与DEEPSEEK对话——在硬性条件下标准模型比《西游记》科学吗？",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=403556&do=blog&id=1561906",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "概念科普",
+      "published": "11-19 19:54",
+      "ts": 1795089250,
+      "summary": "与DEEPSEEK对话——在硬性条件下标准模型比《西游记》科学吗？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 148,
+      "relevance": 15
+    },
+    {
+      "title": "欧洲央行行长拉加德：欧盟应利用公共资金，率先承担大型芯片厂、数据中心等项目首轮损失",
+      "link": "https://www.ithome.com/1/030/472.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "专家观点",
+      "published": "11-21 20:36",
+      "ts": 1795264560,
+      "summary": "IT之家 11 月 21 日消息，据美国 CNBC 报道，当地时间 11 月 20 日，欧洲央行行长克里斯蒂娜 · 拉加德在法兰克福欧洲银行业大会发表卸任前最后一次演讲时呼吁， 欧盟应利用公共资金，在大型芯片制造厂和数据中心项目中率先承担首轮损失，以此吸引私人资本 。她指出：“如果某项挑战需要欧洲层面的解决方案，我们就应该加强有能力提供这种方案的欧洲机构。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 142.42,
+      "relevance": 15
+    },
+    {
+      "title": "Google Gemini 黑五五折！AI Pro 年费约 100 美元，Google One 老用户也能参加",
+      "link": "https://www.appinn.com/google-ai-pro-black-friday-2026/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "使用体验",
+      "published": "11-21 19:14",
+      "ts": 1795259691,
+      "summary": "Google Gemini 黑五促销开启，美区 Google AI Pro 年费最高五折，折后约 99.99 美元。符合条件的 Google One 老用户可提前参加，具体优惠以结算页面为准。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 141.97,
+      "relevance": 13
+    },
+    {
+      "title": "没有AI，12年潜心研究！人类数学家紧急公开广义黎曼猜想证明",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651075624&idx=1&sn=03d16a0fc5490ccdb4b2d3151ef8b228",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-21 12:11",
+      "ts": 1795234260,
+      "summary": "长达940页的「纯手搓」证明！",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 141.61,
+      "relevance": 12
+    }
+  ]
+}
