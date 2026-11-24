@@ -1,0 +1,579 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25 07:21:46 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 7,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 7,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 6,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 8,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 0,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "从2D图像到3D点云，机器人操作性能能提升多少？北大等团队提出JEPA4R",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651075852&idx=3&sn=c8d8005bb205d8b88bfb2215f9066f8b",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "专家观点",
+      "published": "11-24 11:05",
+      "ts": 1795489500,
+      "summary": "一个点云世界模型，让机器人学会抓取、推动和灵巧操作",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 140.24,
+      "relevance": 12
+    },
+    {
+      "title": "OpenAI 称 GPT-6 无需“外援”即可设计蛋白质，实验室初步验证有效",
+      "link": "https://www.ithome.com/1/031/902.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-25 06:45",
+      "ts": 1795560323,
+      "summary": "IT之家 11 月 25 日消息，OpenAI 昨日（11 月 24 日）发布预印本论文，称 GPT-6 系列模型无需依赖专用生物模型， 仅靠推理和通用编程工具，就能设计新的蛋白质三维结构和氨基酸序列，且已在多轮实验室测试中验证结合效果。在实验室测试环境下，OpenAI 携手合作机构 Onava，研究团队以 GPT-6.2 设计的结构为蓝本，制作了 322 个微型结合蛋白，覆盖 5 个不同靶点。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 234.8,
+      "relevance": 33
+    },
+    {
+      "title": "谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨",
+      "link": "https://www.infoq.cn/article/sFmubmDWkulIOTBLX0Dr?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "概念科普",
+      "published": "11-24 21:00",
+      "ts": 1795525200,
+      "summary": "谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 187.55,
+      "relevance": 21
+    },
+    {
+      "title": "[Windows/mac]搭手 2.5.0 更新：项目改为了插件基座，上架了大量高质量插件，送 20 个年度会员",
+      "link": "https://www.v2ex.com/t/1259484#reply3",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "工具发布",
+      "published": "11-24 16:21",
+      "ts": 1795508514,
+      "summary": "一个月前在这儿 发过一篇 ，当时它是个搜索条加可视化自动化的工具。这次换了方向，做成插件平台：主入口还是搜索条和刘海岛，能力全部下沉成插件，插件中心现在有 11 款。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 188.0,
+      "relevance": 25
+    },
+    {
+      "title": "现在在 UCloud，想把云迁走，主要是数据库，云主机，k8s，数仓这种，现在有俩备选，火山跟腾讯云？兄弟们有没有被坑的，让我避避坑",
+      "link": "https://www.v2ex.com/t/1259407#reply31",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "工具发布",
+      "published": "11-24 12:11",
+      "ts": 1795493491,
+      "summary": "现在在 UCloud，想把云迁走，主要是数据库，云主机，k8s，数仓这种，现在有俩备选，火山跟腾讯云？兄弟们有没有被坑的，让我避避坑",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 164.61,
+      "relevance": 21
+    },
+    {
+      "title": "RNOISE Prompt Forge V5.2 发布：零 LLM 确定性 AI 音乐 Prompt 编译器与 MCP 2.0 协议引擎",
+      "link": "https://www.oschina.net/news/503778",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "工具发布",
+      "published": "11-24 16:37",
+      "ts": 1795509460,
+      "summary": "随着 Suno V6、Udio 2.0、Sonauto V2、DiffRhythm Pro 及 Stable Audio 2.5 等多款生成式音频引擎快速发展，开发者与音乐创作者在跨平台编排 AI 音乐提示词时普遍面临三类工程痛点：一是不同音频引擎的标签语法、结构控制符与时间轴格式差异巨大，手动改写效率低；二是依赖通用大语言模型动态生成 Prompt 时，存在推理延...",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 224.09,
+      "relevance": 29
+    },
+    {
+      "title": "temasek 14 世纪淡马锡像素航海游戏，wang dayuan 多了一个隐藏的第二章",
+      "link": "https://www.v2ex.com/t/1259587#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "用户作品",
+      "published": "11-25 01:37",
+      "ts": 1795541843,
+      "summary": "temasek 是我做的一个 14 世纪淡马锡题材的像素航海游戏，在浏览器里就能玩 我给游戏里的 wang dayuan 做了一个隐藏的第二章，要先完成他的淡马锡游记才会解锁 交完第一卷游记，淡马锡港的 master lin 会递给他一份泉州来的委托，去画澎湖以外的海图 接下来可以出发去第二张地图，台湾海峡，西边是澎湖，有盐田和 1281 年设立的元朝巡检司，中间是黑水沟的漩涡，东边是琉球，也就是 14 世纪的台湾，淡马锡那张地图则恢复成纯粹的新加坡 新增了 4 个港口和…",
+      "why": "可拆出一个界面、交互或游戏机制。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 116.09,
+      "relevance": 10
+    },
+    {
+      "title": "拓扑量子物态研究获关键理论突破",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/2026112494352684158312.shtm?id=158312",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-24 17:43",
+      "ts": 1795513380,
+      "summary": "近日，香港科技大学（广州）助理教授周桐、李昊翔课题组在二维层状电子化合物YCl中取得关键理论突破，预言该体系存在多轨道关联拓扑平带，并支持稳健的二维铁磁基态与电门可控的量子反常...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 143.45,
+      "relevance": 12
+    },
+    {
+      "title": "NeurIPS 2026 | F2G-Pose：一次前向预测物体位姿、尺寸与完整形状",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651075704&idx=2&sn=3b3303aa11937d51386964ec70bf1eff",
+      "source": "机器之心",
+      "signals": [
+        "机器之心"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "专业报道",
+      "published": "11-22 13:21",
+      "ts": 1795324860,
+      "summary": "一次前向推理，同时预测物体位姿、尺寸与完整三维形状。",
+      "why": "可练习把位置、数据和模糊关系连接起来。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 124,
+      "relevance": 9
+    },
+    {
+      "title": "Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”",
+      "link": "https://www.infoq.cn/article/vaEUVvWD9AIaFXZhzSMH?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "11-24 19:00",
+      "ts": 1795518000,
+      "summary": "Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 186.88,
+      "relevance": 21
+    },
+    {
+      "title": "交 100 万美元保释金 + 戴电子脚镣，OpenAI 窃听案嫌犯获准保释",
+      "link": "https://www.ithome.com/1/031/909.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "教程方法",
+      "published": "11-25 07:06",
+      "ts": 1795561572,
+      "summary": "IT之家 11 月 25 日消息，美国前 OpenAI 工程师阿卜杜勒拉赫曼 · 阿尔福赞（Abdulrahman Alfozan）因涉嫌在 OpenAI 高管会议室安装窃听装置被捕一案出现新进展。当地时间 11 月 24 日，美国旧金山联邦法院裁定，阿尔福赞可在提供 100 万美元 （IT之家注：现汇率约合 667.9 万元人民币） 保释担保后获释，但必须佩戴电子脚镣，并接受严格的居家监控。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 174.92,
+      "relevance": 21
+    },
+    {
+      "title": "SJF4J - 面向JSON的Java编程",
+      "link": "https://www.oschina.net/news/503741",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-23 13:20",
+      "ts": 1795411259,
+      "summary": "SJF4J - 面向 JSON 的 Java 编程 Java 对象也能直接使用 JSONPath、JSON Schema 和 JSON Patch？开源项目 SJF4J（Simple JSON Facade for Java）1.5.2 正式发布。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 171,
+      "relevance": 19
+    },
+    {
+      "title": "「求助，到底什么才是 Agent，如何入门、掌握、精通 Agent 开发？」",
+      "link": "https://www.v2ex.com/t/1259502#reply16",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "11-24 17:13",
+      "ts": 1795511599,
+      "summary": "近两年都在要求 AI 全栈开发 + Agent 开发相关的工作，怎么样才能入门、掌握、精通呢？我能想到的看 B 站的一些教学视频，学习 py + 一些 openai sdk 之类的，然后看一些相对完整的项目开发，怎么去真正跟企业级的 Agent 开发贴近呢，有哪些论坛或者网站是可以实际进去学习的？",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 166.29,
+      "relevance": 21
+    },
+    {
+      "title": "有哪些任务是 Deepseek Flash4.1 无法胜任，而 Claude / ChatGPT 可以的？",
+      "link": "https://www.v2ex.com/t/1259180#reply82",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "用户讨论",
+      "published": "11-23 16:26",
+      "ts": 1795422384,
+      "summary": "有哪些任务是 Deepseek Flash4.1 无法胜任，而 Claude / ChatGPT 可以的？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 163,
+      "relevance": 21
+    },
+    {
+      "title": "OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样",
+      "link": "https://www.infoq.cn/article/qEXNRNufkiFkiUEU9aae?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-25 04:21",
+      "ts": 1795551669,
+      "summary": "OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 160.0,
+      "relevance": 15
+    },
+    {
+      "title": "数据分析的下一站：智能体分析",
+      "link": "https://www.infoq.cn/video/Q0rXqh3OmSAhcePiDjh2?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-24 20:40",
+      "ts": 1795524002,
+      "summary": "数据分析的下一站：智能体分析",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 157.44,
+      "relevance": 15
+    },
+    {
+      "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
+      "link": "https://www.qbitai.com/2026/11/512362.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专业报道",
+      "published": "11-24 14:35",
+      "ts": 1795502106,
+      "summary": "端侧老炮辛米尔，打通物理AI规模化落地之路",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 155.41,
+      "relevance": 15
+    },
+    {
+      "title": "释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业智能体大会",
+      "link": "https://www.qbitai.com/2026/11/512305.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "11-24 11:21",
+      "ts": 1795490472,
+      "summary": "2026年11月20日，第八届亿邦产业互联网年会与首届产业智能体大会在北京国贸大酒店首次合体举行。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 154.33,
+      "relevance": 15
+    },
+    {
+      "title": "一条命令就能让 Mac 用本地模型跑编程 Agent",
+      "link": "https://www.oschina.net/news/503746",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "11-23 15:58",
+      "ts": 1795420714,
+      "summary": "一条命令就能在 Mac 上跑起 agentic coding，模型全在本地。uv pip install localcode cd your-project localcode 这是 mjwsolo 做的 localcode。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 151,
+      "relevance": 15
+    },
+    {
+      "title": "做了个在线 AI 照片编辑器 PomiGen，看到喜欢的图，可以直接用它的 prompt 做同款",
+      "link": "https://www.v2ex.com/t/1259498#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "工具发布",
+      "published": "11-24 17:02",
+      "ts": 1795510962,
+      "summary": "大家好，最近做了个在线 AI 照片编辑器，叫 PomiGen。站里可以改自己的照片，也放了一个能直接拿来用的图片提示词库。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 148.23,
+      "relevance": 17
+    },
+    {
+      "title": "MakuBoot 5.3 发布，AI 低代码开发平台，快速开发利器",
+      "link": "https://www.oschina.net/news/503738",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-23 11:48",
+      "ts": 1795405727,
+      "summary": "介绍 maku-boot 是采用 SpringBoot4.0、SpringSecurity7.0、Flowable8.0、Mybatis-Plus、Vue3、Element-plus 等技术开发的低代码开发平台，旨在为开发者提供一个简洁、高效、可扩展的低代码开发平台。使用门槛极低，支持国密加密、达梦数据库等，符合信创需求的低代码开发平台。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 146,
+      "relevance": 14
+    },
+    {
+      "title": "国家医保局：截至 2026 年 10 月底，全国医保码激活使用人数突破 13 亿",
+      "link": "https://www.ithome.com/1/031/817.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "四川生活",
+      "lens": "科技资讯",
+      "published": "11-24 19:36",
+      "ts": 1795520181,
+      "summary": "IT之家 11 月 24 日消息，国家医保局今日发文公布数据：截至 2026 年 10 月底， 全国医保码激活使用人数突破 13 亿 。据介绍，医保码的诞生，源于“全国一盘棋”的顶层设计。",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 141.08,
+      "relevance": 15
+    },
+    {
+      "title": "AI做的尿液标志物理论的示意图",
+      "link": "http://blog.sciencenet.cn/home.php?mod=space&uid=244733&do=blog&id=1562364",
+      "source": "科学网·科普",
+      "signals": [
+        "科学网·科普"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-23 12:23",
+      "ts": 1795407803,
+      "summary": "AI做的尿液标志物理论的示意图",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科学科普来源",
+      "confidence_class": "verified",
+      "score": 133,
+      "relevance": 12
+    },
+    {
+      "title": "拓竹发布全新 3D 打印机 P3C：标配多头打印，国补到手价 6374.2 元起",
+      "link": "https://www.ithome.com/1/031/887.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "工具发布",
+      "published": "11-24 22:39",
+      "ts": 1795531150,
+      "summary": "IT之家 11 月 24 日消息，拓竹 P3C 3D 打印机于今日正式发布，定价为 7499 元起。京东 拓竹 P3C 3D 打印机 7499 元 直达链接 P3C 标准版：7499 元（IT之家注：初上市价 7999 元，首发直降 500 元，预估国补到手价 6374.2 元起） P3C 七头闪切版：8479 元（初上市价 8979 元，首发直降 500 元，预估到手价 7207.15 元起） P3C 多线径耗材版：8579 元（初上市价 9079 元，首发直降 500…",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 127.1,
+      "relevance": 12
+    },
+    {
+      "title": "LAMOST揭示“丝绸星云”的物理机制",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/20261116211626771158096.shtm?id=158096",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-17 05:16",
+      "ts": 1794863760,
+      "summary": "近日，国家重大科技基础设施郭守敬望远镜（LAMOST）星云光谱巡天（MRS-N）与公众天文研究模式相结合，揭示了由中国天文爱好者于双子座天区发现的超大角尺度[O III]星云纤维（丝绸星云）的物理机...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 120,
+      "relevance": 8
+    },
+    {
+      "title": "微软 WinGet 开始支持 MCP：以后安装 Windows 软件，直接告诉 AI 就行了",
+      "link": "https://www.appinn.com/winget-mcp-server/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "教程方法",
+      "published": "11-23 15:19",
+      "ts": 1795418368,
+      "summary": "在 Windows 上安装软件，一般是下载，然后双击安装包，再一步步点击「下一步」。其实，你还可以在 Windows 的终端中，直接输入以下命令，来安装 Firefox 浏览器： 这是微软早就提供的免费软件包管理器：WinGet（Windows Package Manager），可以通过一条命令搜",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 117,
+      "relevance": 9
+    }
+  ]
+}
