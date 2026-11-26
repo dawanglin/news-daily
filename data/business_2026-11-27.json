@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-27",
+  "items": [
+    {
+      "title": "MERLoc: Robust Robot Localization in Dynamic Environments with Pose-Based Retrieval over 3D Gaussian Splatting Reference",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.34932v1",
+      "published_at": "2026-11-25",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Enhancing Maritime Domain Awareness using Latent Space Representations",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.34899v1",
+      "published_at": "2026-11-25",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.34575v1",
+      "published_at": "2026-11-25",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Analemma $\\infty$: A Temporal Benchmark for Geospatial Foundation Models",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.34240v1",
+      "published_at": "2026-11-25",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "QK-Bench: Benchmarking Quantitative Kinematic Understanding for Dynamic Spatial Intelligence",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.33991v1",
+      "published_at": "2026-11-25",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "geo-eval-harness: An Evaluation Harness for Geospatial Foundation Models",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.33990v1",
+      "published_at": "2026-11-25",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Tortho-Gaussian++: Suppressing Geometric Drift and Floaters for Robust Gravity-Aligned TDOM Generation in Large-Scale Ae",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.33905v1",
+      "published_at": "2026-11-25",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "SprintGS: Eliminating Redundancy for Fast 3D Gaussian Splatting Training",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.33796v1",
+      "published_at": "2026-11-25",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Bridging Transferability and Discriminability via Positive-Unlabeled Domain Adaptation for Building Damage Mapping Acros",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.33790v1",
+      "published_at": "2026-11-25",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "VAPOR: Improving Multimodal Reasoning with Sparse Visual Updates",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.33751v1",
+      "published_at": "2026-11-25",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "Efficient Scene-Distribution-Aware Second-Order Optimization for 3D Gaussian Splatting",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.33698v1",
+      "published_at": "2026-11-25",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "A Semantics-First Approach to Multimodal Video Captioning with Frozen Encoders and Stabilized Reinforcement Learning",
+      "source_name": "arXiv（论文）",
+      "source_url": "http://arxiv.org/abs/2611.33409v1",
+      "published_at": "2026-11-24",
+      "scenario": "arXiv 新论文（空间智能/GIS 方向），标题与摘要需人工复核后收录。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：Documentation Index",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "MCP 规范更新：<button type=\"button\" aria-describedby=\"_R_3eehkd74t9H1_\"><svg aria-hidden=\"true",
+      "source_name": "Model Context Protocol 官方",
+      "source_url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "published_at": "",
+      "scenario": "MCP 官方规范 changelog，协议级变更对所有 MCP 服务端实现有影响。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Documentation",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Getting Started",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/getting_started/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Official Manual",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/manual/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    },
+    {
+      "title": "PostGIS：Tips & Tricks",
+      "source_name": "PostGIS 官方",
+      "source_url": "https://postgis.net/documentation/tips/",
+      "published_at": "",
+      "scenario": "PostGIS 版本与功能更新，空间数据库底座跟踪。",
+      "verify_status": "待核实"
+    }
+  ]
+}
