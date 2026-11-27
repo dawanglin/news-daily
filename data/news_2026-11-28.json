@@ -1,0 +1,579 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28 06:27:30 +0800",
+  "total": 26,
+  "method": "个人兴趣过滤 + 用途提示 + 免费规则整理（未使用 AI）",
+  "sources": {
+    "个人兴趣热榜筛选": {
+      "status": "成功",
+      "count": 6,
+      "type": "兴趣线索"
+    },
+    "量子位": {
+      "status": "成功",
+      "count": 10,
+      "type": "专业来源"
+    },
+    "机器之心": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "InfoQ 中文": {
+      "status": "成功",
+      "count": 17,
+      "type": "专业来源"
+    },
+    "开源中国": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "少数派": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "小众软件": {
+      "status": "成功",
+      "count": 5,
+      "type": "专业来源"
+    },
+    "IT之家": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "Solidot": {
+      "status": "成功",
+      "count": 9,
+      "type": "专业来源"
+    },
+    "科学网·数理科学": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "科学网·科普": {
+      "status": "成功",
+      "count": 4,
+      "type": "专业来源"
+    },
+    "前端技术精选": {
+      "status": "成功",
+      "count": 2,
+      "type": "专业来源"
+    },
+    "阮一峰的网络日志": {
+      "status": "成功",
+      "count": 1,
+      "type": "专业来源"
+    },
+    "V2EX·技术": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    },
+    "V2EX·创造": {
+      "status": "成功",
+      "count": 18,
+      "type": "专业来源"
+    }
+  },
+  "items": [
+    {
+      "title": "腾讯混元发布 Hy3D 3.6：高模表面更整洁、结构更清晰、刻画更细腻",
+      "link": "https://www.qbitai.com/2026/11/513155.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "线下数字化",
+      "lens": "工具发布",
+      "published": "11-27 11:45",
+      "ts": 1795751119,
+      "summary": "3D生成的竞争重点正在从“能看”转向“能用”",
+      "why": "关注它把现实信息变成可计算数据的门槛：精度、成本和更新频率，先找一个小场景验证识别质量。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 124.77,
+      "relevance": 9
+    },
+    {
+      "title": "qData 主数据平台开源版 v1.0.2 发布：聚焦功能细节，完善数据展示与服务授权体验",
+      "link": "https://www.oschina.net/news/503864",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "空间数据库",
+      "lens": "工具发布",
+      "published": "11-27 17:24",
+      "ts": 1795771441,
+      "summary": "本次更新以问题修复和功能细节优化为主，涉及多源融合、数据质量、数据分发及授权管理四个模块，重点完善来源数据展示、合并结果展示、质量任务列表以及数据服务与服务授权之间的关联。01多源融合：来源数据展示更完整 v1.0.2 对来源数据列表进行了调整，补充主数据模型、接入任务信息及来源系统信息，并根据对应的主数...",
+      "why": "关注实体如何建立关系与去重：对齐规则、增量维护和规模下的性能，优先试能跑通的小数据。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 124.65,
+      "relevance": 9
+    },
+    {
+      "title": "Casdoor 这一个月：Keycloak、Auth0、Okta 能迁了，AI Agent 也能通过 MCP 来管",
+      "link": "https://www.v2ex.com/t/1260446#reply0",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "工具发布",
+      "published": "11-27 21:28",
+      "ts": 1795786089,
+      "summary": "Casdoor 是我们社区在做的开源 IAM / SSO，Go + React，Apache 2.0，现在 1.49 万 star，今年 2 月进了 CNCF 云原生全景图。11 月中的帖子里讲过 Marketplace 和登录页主题，这一个月的主要更新换成了三件事：把别的 IAM 迁进来、让 AI Agent 通过 MCP 来管、把登录流程做成不写代码也能编排的。",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 200.01,
+      "relevance": 27
+    },
+    {
+      "title": "字节火山引擎：豆包大模型已服务八成国内头部电视厂商，创维、长虹、海信、TCL 等推出量产电视",
+      "link": "https://www.ithome.com/1/033/718.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "科技资讯",
+      "published": "11-27 18:36",
+      "ts": 1795775816,
+      "summary": "IT之家 11 月 27 日消息，字节火山引擎今日宣布，目前， 豆包大模型已服务八成国内头部电视厂商， 创维、长虹、海信、TCL 等主流品牌，都推出了搭载豆包大模型的量产电视。围绕豆包大模型版电视，火山引擎提供模型与接入支持，厂商完成硬件和系统适配，抖音电商提供渠道与内容营销支持。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 276.06,
+      "relevance": 42
+    },
+    {
+      "title": "Snowflake CoCo 再进化：让数据开发进入 Agent 自主执行时代 ｜ 技术趋势",
+      "link": "https://www.infoq.cn/article/vfmBDlfQRRfHq4Jyi5b6?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "技术实践",
+      "published": "11-26 22:56",
+      "ts": 1795705006,
+      "summary": "Snowflake CoCo 再进化：让数据开发进入 Agent 自主执行时代 ｜ 技术趋势",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 183,
+      "relevance": 21
+    },
+    {
+      "title": "别让 AI 用过时的技术写网页，Chrome 官方推出 Skills：Modern Web Guidance",
+      "link": "https://www.appinn.com/modern-web-guidance/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "Skill与插件",
+      "lens": "教程方法",
+      "published": "11-26 17:13",
+      "ts": 1795684414,
+      "summary": "如何让 AI 写网页的时候，不使用过时的技术？不知道你有没有遇到过：AI 帮你写网页，用的却是几年前的技术。",
+      "why": "确认它解决哪一步、需要哪些权限，以及停止维护后能否替换。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 137,
+      "relevance": 13
+    },
+    {
+      "title": "【AI 智能运维平台】本周更新：编排中心支持将智能体生成的文件发送IM群webhook",
+      "link": "https://www.oschina.net/news/503868",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "工具发布",
+      "published": "11-27 17:41",
+      "ts": 1795772519,
+      "summary": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。:hammer_and_wrench: 系统管理 • 新增腾讯云、阿里云短信和语音通知渠道，支持使用已审核的云厂商模板发送 • 新增模块管理员和模块审计员，可按应用授予管理或只读审计权...",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 169.75,
+      "relevance": 18
+    },
+    {
+      "title": "System76 释出 Pop!_OS 26.04 LTS",
+      "link": "https://www.solidot.org/story?sid=85997",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "提示词",
+      "lens": "社区观察",
+      "published": "11-26 16:02",
+      "ts": 1795680142,
+      "summary": "System76 释出了基于 Ubuntu 26.04 LTS 的 Pop!_OS 26.04 LTS。",
+      "why": "保存可复用的提示结构，用同一输入做一次前后对比。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 111,
+      "relevance": 9
+    },
+    {
+      "title": "欧盟委员会称浏览器竞争是 DMA 优先事项",
+      "link": "https://www.solidot.org/story?sid=86012",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "社区观察",
+      "published": "11-27 19:09",
+      "ts": 1795777797,
+      "summary": "欧盟委员会回应了 Open Web Advocacy 的公开信，认可浏览器是互联网的入口，是内容出版商触达读者的主要方式，而浏览器竞争是 DMA（Digital Markets Act）的优先事项。欧盟委员会表示，目前正就相关事宜进行磋商，确保竞争对手的浏览器能在 iPhone 和 iPad 上与 Safari 展开有效竞争。",
+      "why": "可拆出一个界面、交互或游戏机制。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 145.24,
+      "relevance": 15
+    },
+    {
+      "title": "拓扑量子物态研究获关键理论突破",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/2026112494352684158312.shtm?id=158312",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "概念科普",
+      "published": "11-24 17:43",
+      "ts": 1795513380,
+      "summary": "近日，香港科技大学（广州）助理教授周桐、李昊翔课题组在二维层状电子化合物YCl中取得关键理论突破，预言该体系存在多轨道关联拓扑平带，并支持稳健的二维铁磁基态与电门可控的量子反常...",
+      "why": "先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 140,
+      "relevance": 12
+    },
+    {
+      "title": "qOntology 本体工程平台开源版 V1.1.4 发布：AI 辅助建模与图谱可视化升级",
+      "link": "https://www.oschina.net/news/503836",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "数据空间",
+      "lens": "工具发布",
+      "published": "11-26 18:21",
+      "ts": 1795688489,
+      "summary": "qOntology 本体工程平台开源版v1.1.4 本次优化： AI 辅助建模和图谱可视化进行升级 系统使用问题修复 开源地址：https://github.com/qiantongtech/qOntology 升级系统界面 本次升级功能 一、 AI 辅助建模优化 01 支持直接选取系统文件： 新建或修改建模任务时，可直接选择系统中已有的采购文档，无需重复上传，同时保留本...",
+      "why": "可练习把位置、数据和模糊关系连接起来。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 151,
+      "relevance": 15
+    },
+    {
+      "title": "破发不算最疼，Claude Code核心班底被OpenAI疯狂收割才是：Anthropic的编程王座悬了？",
+      "link": "https://www.infoq.cn/article/z9IwzAY8hP15oDa2VKi6?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "技术实践",
+      "published": "11-26 23:35",
+      "ts": 1795707351,
+      "summary": "破发不算最疼，Claude Code核心班底被OpenAI疯狂收割才是：Anthropic的编程王座悬了？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 213,
+      "relevance": 27
+    },
+    {
+      "title": "已深度服务微信电商数百个业务流程，微信开源 WeMM-Ecom 多模态基础模型家族",
+      "link": "https://www.ithome.com/1/033/649.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "工具发布",
+      "published": "11-27 18:05",
+      "ts": 1795773940,
+      "summary": "IT之家 11 月 27 日消息，腾讯微信视觉团队开源 WeMM-Ecom —— 兼顾前沿电商理解与领先通用能力的多模态基础模型家族，涵盖 0.8B、2B、4B、9B 四款稠密模型和 35B-A3B 混合专家模型。全系列模型原生支持“快速直答”与“深度思考”双模式，并同步开放 BF16、FP8、GPTQ、GGUF 全套权重。",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 190.88,
+      "relevance": 25
+    },
+    {
+      "title": "淘天集团 AI 研发负责人吕承飞（吕行）已确认出席 AICon北京，分享淘宝 AI 原生研发系统实战",
+      "link": "https://www.infoq.cn/article/Y6xTPR1bRWqmNNakCtXm?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "11-27 18:00",
+      "ts": 1795773600,
+      "summary": "淘天集团 AI 研发负责人吕承飞（吕行）已确认出席 AICon北京，分享淘宝 AI 原生研发系统实战",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 186.85,
+      "relevance": 21
+    },
+    {
+      "title": "全新如意玲珑Linyaps Agents V3：自调试、自修复、构建负责到底！",
+      "link": "https://www.oschina.net/news/503841",
+      "source": "开源中国",
+      "signals": [
+        "开源中国"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "教程方法",
+      "published": "11-27 09:53",
+      "ts": 1795744384,
+      "summary": "linyaps-agents （如意玲珑打包 Agents）是一组把 Linux 软件包迁移到玲珑格式的 Agents，三段组成一条流水线： linyaps-app-packaging-script-generator：把 deb、AppImage、tar 转成玲珑构建工程；debian-rules-to-linyaps-rules：把 Debian 源码构建规则翻译成玲珑规则；",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "开源社区来源",
+      "confidence_class": "professional",
+      "score": 182.15,
+      "relevance": 21
+    },
+    {
+      "title": "第一次使用AI + Figma MCP开发网页小结",
+      "link": "https://www.zhangxinxu.com/wordpress/2026/11/ai-figma-mcp/",
+      "source": "前端技术精选",
+      "signals": [
+        "前端技术精选"
+      ],
+      "category": "今日信息流",
+      "topic": "MCP与地图接口",
+      "lens": "技术实践",
+      "published": "11-27 08:00",
+      "ts": 1795737600,
+      "summary": "第一次使用AI + Figma MCP开发网页小结",
+      "why": "关注接口的开放度、权限与兼容性：能否直接调用、跨模型是否一致，先跑通一次最小调用。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "前端专业精选",
+      "confidence_class": "professional",
+      "score": 180.52,
+      "relevance": 21
+    },
+    {
+      "title": "其他模型真的好用，我又何必折腾 Claude 呢",
+      "link": "https://www.v2ex.com/t/1260233#reply100",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "实测评价",
+      "published": "11-27 10:50",
+      "ts": 1795747805,
+      "summary": "最近老是看到 “不理解为什么非要用 Claude” 的言论 ，甚至还有说 “用 Claude 是为了体现高人一等”。我都折腾用上 Claude 了，难道你觉得我们没用过 ChatGPT、Gemini、DeepSeek、Kimi 吗？",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。把它当作真实使用信号，重点核对测试条件、评论分歧和长期成本。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 169.46,
+      "relevance": 22
+    },
+    {
+      "title": "开源 Agent Audit：给 AI Coding Agent 装一层本地安全护栏（Shell AST 拦截 + 低误报敏感内容检测）",
+      "link": "https://www.v2ex.com/t/1260440#reply0",
+      "source": "V2EX·技术",
+      "signals": [
+        "V2EX·技术"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "工具发布",
+      "published": "11-27 20:32",
+      "ts": 1795782728,
+      "summary": "现在日常工作流越来越重度依赖 Claude Code、OpenCode、Pi 和各种 MCP / Skill，用久了发现有几类风险离自己很近，不是危言耸听： Obsidian 笔记里的敏感密钥被带出去 ：很多人习惯在 Obsidian 里记服务器地址、API Key、SSH/数据库配置。让 Agent 帮你搜笔记、整理资料时，一个 grep / read 就可能把整篇含真实凭据的笔记喂进模型上下文。",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "用户讨论线索",
+      "confidence_class": "signal",
+      "score": 162.7,
+      "relevance": 20
+    },
+    {
+      "title": "股价破发、用户抱怨、创始人套现，Anthropic CEO 深夜回应：我从没想过让 AI 统治人类",
+      "link": "https://www.infoq.cn/article/FDR8k5bNu9eWklHh9NmI?utm_source=rss&utm_medium=article",
+      "source": "InfoQ 中文",
+      "signals": [
+        "InfoQ 中文"
+      ],
+      "category": "今日信息流",
+      "topic": "AI模型",
+      "lens": "专家观点",
+      "published": "11-28 03:56",
+      "ts": 1795809386,
+      "summary": "股价破发、用户抱怨、创始人套现，Anthropic CEO 深夜回应：我从没想过让 AI 统治人类",
+      "why": "比较能力、价格、上下文和本地运行门槛，不只看榜单。分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "开发专业来源",
+      "confidence_class": "professional",
+      "score": 160.16,
+      "relevance": 15
+    },
+    {
+      "title": "FCC 批准 SpaceX 发射 100 万颗轨道数据中心卫星",
+      "link": "https://www.solidot.org/story?sid=85998",
+      "source": "Solidot",
+      "signals": [
+        "Solidot"
+      ],
+      "category": "今日信息流",
+      "topic": "云服务器",
+      "lens": "社区观察",
+      "published": "11-26 16:31",
+      "ts": 1795681907,
+      "summary": "FCC 批准了 SpaceX 发射 100 万颗轨道数据中心卫星 Starmind 的申请。SpaceX 发射申请遭到了亚马逊、Viasat、美国天文学会等的反对。",
+      "why": "比较部署难度、月度成本和数据位置，优先试最小可运行方案。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "科技社区来源",
+      "confidence_class": "professional",
+      "score": 141,
+      "relevance": 15
+    },
+    {
+      "title": "徐兰高铁郑徐段完成动态检测拉通试验，为按时速 350 公里高标运营做好准备",
+      "link": "https://www.ithome.com/1/033/620.htm",
+      "source": "IT之家",
+      "signals": [
+        "IT之家"
+      ],
+      "category": "今日信息流",
+      "topic": "四川生活",
+      "lens": "案例复盘",
+      "published": "11-27 17:33",
+      "ts": 1795772025,
+      "summary": "IT之家 11 月 27 日消息，中国铁路今日宣布，近期，徐兰高速铁路郑州至徐州段（以下简称徐兰高铁郑徐段）安全标准示范线建设工程动态检测拉通试验圆满成功，高速综合检测列车最高试验时速达 385 公里，各项设备指标表现良好。徐兰高铁郑徐段 目前常态化按时速 300 公里运行 ，此次徐兰高铁郑徐段建成安全标准示范线后，郑州至徐州间 复兴号动车组列车可常态化按时速 350 公里高标运行 ，将进一步释放高铁路网整体效能。",
+      "why": "它触及你正在使用的软件和代码边界。保存失败条件和解决办法，遇到同类问题时可直接查。",
+      "confidence": "科技资讯来源",
+      "confidence_class": "professional",
+      "score": 140.7,
+      "relevance": 15
+    },
+    {
+      "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+      "link": "https://www.qbitai.com/2026/11/513163.html",
+      "source": "量子位",
+      "signals": [
+        "量子位"
+      ],
+      "category": "今日信息流",
+      "topic": "Agent",
+      "lens": "专业报道",
+      "published": "11-27 11:53",
+      "ts": 1795751629,
+      "summary": "Quickwit查询总耗时降31%，最高降87%",
+      "why": "看清它调用了哪些工具、怎样记忆和规划，复现其中一条执行链。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "AI 专业来源",
+      "confidence_class": "professional",
+      "score": 139.82,
+      "relevance": 12
+    },
+    {
+      "title": "VERA20K -《红色警戒 2》用 Rust 重写了！支持 Windows、Mac、Linux，目标 2 万单位大战",
+      "link": "https://www.appinn.com/vera20k/",
+      "source": "小众软件",
+      "signals": [
+        "小众软件"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "教程方法",
+      "published": "11-26 15:19",
+      "ts": 1795677598,
+      "summary": "一款诞生于 2000 年的游戏，居然在 26 年后迎来了全新的游戏引擎。今天，青小蛙从查无此人同学处了解到的这个新项目： 开发者用 Rust 语言重新实现了《红色警戒 2：尤里的复仇》的游戏引擎，让它可以在 Windows、macOS、Linux 上原生运行。",
+      "why": "抽出最小可复现步骤，亲手做一遍，再记录卡点。",
+      "confidence": "工具体验来源",
+      "confidence_class": "professional",
+      "score": 137,
+      "relevance": 13
+    },
+    {
+      "title": "刷推看到有人靠小游戏挣到钱了，馋哭了，跟风零经验用 AI 搓个冰箱收纳小游戏，一起来摸鱼吧！",
+      "link": "https://www.v2ex.com/t/1260246#reply16",
+      "source": "V2EX·创造",
+      "signals": [
+        "V2EX·创造"
+      ],
+      "category": "今日信息流",
+      "topic": "网页小游戏",
+      "lens": "概念科普",
+      "published": "11-27 11:10",
+      "ts": 1795749000,
+      "summary": "大家好，今天想来分享一下我做的第一个微信小游戏 —— 《冰箱收纳日和》 ，一款空间排布类的冰箱收纳游戏。PS：为什么选择这个名字，因为我一开始选择的名字在 ICP 备案时发现已经提前被注册了，囧，所以临时替换了一个，大家理解它是 「风和日丽的好太天气，一起来收纳冰箱吧」 目前只有微信小游戏版本，先把核心玩法的实机 GIF 放最前面，大家看看卖相： （GIF 听不到声音，游戏里用 ElevenLabs 细调了各种材质的收纳和碰撞音效，微信里开着声音玩会解压很多） 起因 前几天…",
+      "why": "可拆出一个界面、交互或游戏机制。先弄清核心概念和适用边界，再找一个小例子验证。",
+      "confidence": "用户作品线索",
+      "confidence_class": "signal",
+      "score": 136.57,
+      "relevance": 15
+    },
+    {
+      "title": "App+1｜Agora：开源、易用、好用，给 Android 用户的 LLM 聊天工具",
+      "link": "https://sspai.com/post/116773",
+      "source": "少数派",
+      "signals": [
+        "少数派"
+      ],
+      "category": "今日信息流",
+      "topic": "编程工具",
+      "lens": "工具发布",
+      "published": "11-26 17:30",
+      "ts": 1795685400,
+      "summary": "如果你在通过 API 调用你喜欢的大模型，希望它们能像 Kimi 等商业 AI 客户端那样用着顺手，那 Agora 就是为你而来的。相信我，Agora 不会让你失望。",
+      "why": "先确认权限、价格和维护状态，再决定是否安装或接入。",
+      "confidence": "数字生活来源",
+      "confidence_class": "professional",
+      "score": 135,
+      "relevance": 13
+    },
+    {
+      "title": "新成果使量子传感增益再攀新高",
+      "link": "http://paper.sciencenet.cn/htmlpaper/2026/11/2026112622822854158467.shtm?id=158467",
+      "source": "科学网·数理科学",
+      "signals": [
+        "科学网·数理科学"
+      ],
+      "category": "今日信息流",
+      "topic": "数学物理",
+      "lens": "专家观点",
+      "published": "11-27 06:08",
+      "ts": 1795730880,
+      "summary": "日前，记者从清华大学获悉，该校交叉信息院孙麓岩教授研究团队联合中国科学技术大学邹长铃和李明团队、浙江大学王浩华团队，在超导电路量子电动力学平台上提出并实现了Fock空间量子共焦...",
+      "why": "分开看结论、证据和预测，再和自己的实际使用对照。",
+      "confidence": "学术专业来源",
+      "confidence_class": "professional",
+      "score": 130,
+      "relevance": 10
+    }
+  ]
+}
